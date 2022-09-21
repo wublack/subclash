@@ -12,9 +12,9 @@
 
 #属性
 headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"}
-url = 'https://dy.wmyun.men/link/LET56VNfZlrUwKtg?mu=2'
-user_path = '/home/qianxing/'
-net_config = 'https://raw.githubusercontent.com/Roiocam/V2ray2Clash/master/config.yaml'
+url = 'https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray'
+user_path = '/'
+net_config = 'https://raw.githubusercontent.com/waited33/convert2clash/master/config.yaml'
 
 #V2ray to Clash
 import urllib.request
@@ -23,6 +23,7 @@ import json
 import datetime
 import yaml
 import sys
+import importlib
 clash_path = '/.config/clash/config.yaml'
 def log(msg):
     time = datetime.datetime.now()
@@ -45,9 +46,23 @@ def get_proxies(url):
     log('已获取'+str(len(vmess_list))+'个节点')
     #解析vmess链接
     for item in vmess_list:
-        b64_proxy = item.decode('utf-8')[8:]
-        proxy_str = base64.b64decode(b64_proxy).decode('utf-8')
-        proxies.append(proxy_str)
+        # b64_proxy = ""
+        # log('已获取'+str(item.decode('utf-8')))
+        # b64_proxy = item.decode('utf-8')
+        strItem = str(item.decode('utf-8'))
+        if strItem.startswith('vmess'): 
+            b64_proxy = item.decode('utf-8')[8:]
+        # elif strItem.startswith('ss:'):
+        #     b64_proxy = item.decode('utf-8')[5:]
+        # elif strItem.startswith('ssr'):
+        #     b64_proxy = item.decode('utf-8')[6:]
+        # elif strItem.startswith('trojan'):
+        #     b64_proxy = item.decode('utf-8')[9:]
+            # proxy_str = b64_proxy
+        # log('已获取'+str(proxy_str))
+            proxy_str = base64.b64decode(b64_proxy).decode('utf-8')
+            log('已获取:'+str(proxy_str))
+            proxies.append(proxy_str)
     return proxies
 #转换成Clash对象
 def translate_proxy(arr):
@@ -56,18 +71,23 @@ def translate_proxy(arr):
         'proxy_list':[],
         'proxy_names':[]
     }
-    for temp in arr:
+    i= 0
+    for temp in arr:        
+        i = i+1
         item = json.loads(temp)
         if None == item.get('tls') :
             continue
+        # if item.get('type') == 'none':
+        #     continue
         obj = {
-            'name' : item.get('ps'),
+            'name' : item.get('ps')+str(i),
             'type':'vmess',
             'server':item.get('add'),
             'port':item.get('port'),
             'uuid':item.get('id'),
-            'alterId':item.get('aid'),            
-            'cipher':'auto' if item.get('type') == 'none' else None,
+            'alterId':item.get('aid'),    
+            'cipher':'auto',        
+            # 'cipher':'auto' if item.get('type') == 'none' else None,
             'ucp':True,
             'network':item.get('net'),
             'ws-path':item.get('path'),
@@ -85,7 +105,7 @@ def translate_proxy(arr):
 def load_local_config(user_path):
     try:
         # path = user_path + clash_path
-        path = './config.yaml'
+        path = './myvmess.yaml'
         f = open(path, 'r',encoding="utf-8")
         config = yaml.load(f.read(),Loader=yaml.FullLoader)
         f.close()
@@ -121,15 +141,16 @@ def add_proxies_to_config(data,config):
     return config
 #保存配置文件
 def save_config(user_path,config_data):
-    path = user_path + clash_path
+    # path = user_path + clash_path
+    path = './myvmess.yaml'
     lenth = len(config_data['proxies'])
     config = yaml.dump(config_data,sort_keys=False,default_flow_style=False,encoding='utf-8',allow_unicode=True)
     save_to_file(path,config)
     log('成功更新:'+str(lenth)+'个节点')
 
 #程序入口
-reload(sys)
-sys.setdefaultencoding('utf-8')
+importlib.reload(sys)
+# sys.setdefaultencoding('utf-8')
 config_raw = get_github_config(user_path)
 proxy_raw = get_proxies(url)
 proxy = translate_proxy(proxy_raw)
