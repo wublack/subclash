@@ -8,11 +8,22 @@ dns:
   nameserver:
   - 119.29.29.29
   - 223.5.5.5
+  - https://13800000000.rubyfish.cn/
+  - https://dns.alidns.com/dns-query
+  - https://doh.360.cn/dns-query
   fallback:
   - 8.8.8.8
   - 8.8.4.4
   - tls://1.0.0.1:853
   - tls://dns.google:853
+  default-nameserver:
+  - 1.2.4.8
+  - 223.5.5.5
+  - 114.114.114.114
+  - 119.29.29.29
+  - 8.8.8.8
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
 proxies:
 - name: 🇭🇰 _HK_香港1
   type: vmess
@@ -4273,6 +4284,1798 @@ proxies:
   ws-path: /
   ws-headers:
     Host: 012.AP.POP.SMALLAIRPORT.NET
+- name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  type: trojan
+  server: 124.71.16.99
+  port: '12355'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  type: trojan
+  server: 120.195.181.51
+  port: '12355'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  type: trojan
+  server: 120.195.181.51
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  type: trojan
+  server: 120.195.181.72
+  port: '12323'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 _US_美国5
+  type: trojan
+  server: 165.154.235.186
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  type: trojan
+  server: 120.195.181.72
+  port: '12355'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  type: trojan
+  server: 124.71.16.99
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  type: trojan
+  server: 120.195.181.72
+  port: '12356'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  type: trojan
+  server: 120.195.181.72
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: default_name10
+  type: trojan
+  server: 103.173.254.205
+  port: '443'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 _HK_香港11
+  type: trojan
+  server: 194.156.99.39
+  port: '443'
+  udp: true
+  password: xxoo
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  type: trojan
+  server: 120.195.181.51
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  type: trojan
+  server: 120.195.181.51
+  port: '12324'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  type: trojan
+  server: 120.195.181.51
+  port: '12323'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 _US_美国15
+  type: trojan
+  server: 138.124.183.216
+  port: '443'
+  udp: true
+  password: xxoo
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 _RU_俄罗斯联邦16
+  type: trojan
+  server: 921tw.tfzhc.top
+  port: '443'
+  udp: true
+  password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be
+  skip-cert-verify: true
+  sni: ''
+- name: 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  type: trojan
+  server: 124.71.16.99
+  port: '12332'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇸🇬 _SG_新加坡18
+  type: trojan
+  server: 99tw03.tfzhc.top
+  port: '443'
+  udp: true
+  password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 _US_美国19
+  type: trojan
+  server: 150.230.249.42
+  port: '443'
+  udp: true
+  password: 0Y9gOHSdRt
+  skip-cert-verify: true
+  sni: ''
+- name: 🇰🇷 _KR_韩国20
+  type: trojan
+  server: kr1.api-aws.com
+  port: '443'
+  udp: true
+  password: 205f8ab6-cb17-4480-93a6-aece90b88742
+  skip-cert-verify: true
+  sni: ''
+- name: 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  type: trojan
+  server: 120.195.181.51
+  port: '12332'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  type: trojan
+  server: 120.195.181.72
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  type: trojan
+  server: 124.71.16.99
+  port: '12334'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  type: trojan
+  server: 120.195.181.72
+  port: '12335'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  type: trojan
+  server: 124.71.16.99
+  port: '12335'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  type: trojan
+  server: 120.195.181.72
+  port: '12334'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 _US_美国27
+  type: trojan
+  server: s3.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  type: trojan
+  server: 120.195.181.72
+  port: '12337'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  type: trojan
+  server: 120.195.181.51
+  port: '12333'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  type: trojan
+  server: 124.71.16.99
+  port: '12333'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  type: trojan
+  server: agals03.cloudddns.icu
+  port: '124'
+  udp: true
+  password: f45d308f-d9bc-3954-982f-40883392fb8e
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  type: trojan
+  server: t8.ssrsub.com
+  port: '8443'
+  udp: true
+  password: 2faeb94c-1be6-4e31-a30c-c0cbf5f4a1d5
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  type: trojan
+  server: t8.ssrsub.com
+  port: '8443'
+  udp: true
+  password: 40879770-9fd5-461b-928f-7688bfff6e42
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  type: trojan
+  server: t4.ssrsub.com
+  port: '8443'
+  udp: true
+  password: 2faeb94c-1be6-4e31-a30c-c0cbf5f4a1d5
+  skip-cert-verify: true
+  sni: ''
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  type: trojan
+  server: agals01.cloudddns.icu
+  port: '1123'
+  udp: true
+  password: f45d308f-d9bc-3954-982f-40883392fb8e
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  type: trojan
+  server: t4.ssrsub.com
+  port: '8443'
+  udp: true
+  password: 40879770-9fd5-461b-928f-7688bfff6e42
+  skip-cert-verify: true
+  sni: ''
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  type: trojan
+  server: kr05.wangxd.life
+  port: '3052'
+  udp: true
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
+  sni: ''
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  type: trojan
+  server: 120.236.197.205
+  port: '3389'
+  udp: true
+  password: ba4fedf8c217c146
+  skip-cert-verify: true
+  sni: n2.gladns.com
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  type: trojan
+  server: 99tw02.tfzhc.top
+  port: '443'
+  udp: true
+  password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be
+  skip-cert-verify: true
+  sni: ''
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  type: trojan
+  server: in-01.licom.ml
+  port: '8443'
+  udp: true
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  skip-cert-verify: true
+  sni: ''
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  type: trojan
+  server: 921tw.tfzhc.top
+  port: '443'
+  udp: true
+  password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be
+  skip-cert-verify: true
+  sni: ''
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  type: trojan
+  server: us-05.licom.ml
+  port: '12501'
+  udp: true
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  skip-cert-verify: true
+  sni: ''
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  type: trojan
+  server: 99tw03.tfzhc.top
+  port: '443'
+  udp: true
+  password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be
+  skip-cert-verify: true
+  sni: ''
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  type: trojan
+  server: supersouth.xn--mesv7f5toqlp.club
+  port: '12004'
+  udp: true
+  password: dd04c158-1bac-47cd-99c1-5c4f64796dd5
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  type: trojan
+  server: tr04.kaochangonline.online
+  port: '443'
+  udp: true
+  password: 6414baac-2dc2-4a9f-bc07-86e90e3a375e
+  skip-cert-verify: true
+  sni: ''
+- name: 🇦🇺 github.com/freefq - 澳大利亚  846
+  type: trojan
+  server: ora.rohansscenter.xyz
+  port: '443'
+  udp: true
+  password: 6f2fddabef
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 05547
+  type: trojan
+  server: s4.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: static.dingtalk.com
+- name: US_165.232.140.49_0926a63b-6549
+  type: trojan
+  server: 165.232.140.49
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 8 → openitsub.com50
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 6 → openitsub.com51
+  type: trojan
+  server: s2.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 04352
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: static.dingtalk.com
+- name: 🇺🇸 美国 04654
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 54855
+  type: trojan
+  server: s1.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: s1.hazz.win
+- name: 白嫖-13056
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq |US_143.198.61.45_0926bfc9-1457
+  type: trojan
+  server: 143.198.61.45
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 白嫖-06858
+  type: trojan
+  server: s2.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 9 → openitsub.com59
+  type: trojan
+  server: s4.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq |US_143.198.61.45_0926a63b-1460
+  type: trojan
+  server: 143.198.61.45
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq |US_165.232.137.2_0926a63b-12361
+  type: trojan
+  server: s2.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq |US_165.232.140.49_0926a63b-11562
+  type: trojan
+  server: s4.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  type: trojan
+  server: s2.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: US_165.232.140.49_0924d110-7164
+  type: trojan
+  server: 165.232.140.49
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 05465
+  type: trojan
+  server: fhcarm1.gaox.ml
+  port: '443'
+  udp: true
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 00566
+  type: trojan
+  server: s4.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  type: trojan
+  server: fhcarm2.gaox.ml
+  port: '443'
+  udp: true
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 05268
+  type: trojan
+  server: fhcarm2.gaox.ml
+  port: '443'
+  udp: true
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq |US_165.232.137.2_0926a63b-12369
+  type: trojan
+  server: s2.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 白嫖-13070
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: US_165.232.137.2_0926bfc9-1271
+  type: trojan
+  server: 165.232.137.2
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 04772
+  type: trojan
+  server: fhcarm2.gaox.ml
+  port: '443'
+  udp: true
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  type: trojan
+  server: fhcarm2.gaox.ml
+  port: '443'
+  udp: true
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  type: trojan
+  server: fhcarm1.gaox.ml
+  port: '443'
+  udp: true
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 4 → openitsub.com75
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 白嫖-12176
+  type: trojan
+  server: s1.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 6 → openitsub.com77
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  type: trojan
+  server: fhcarm1.gaox.ml
+  port: '443'
+  udp: true
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 2 → openitsub.com79
+  type: trojan
+  server: s2.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq |US_165.232.137.2_0926a63b-1280
+  type: trojan
+  server: 165.232.137.2
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 15 → openitsub.com81
+  type: trojan
+  server: fhcarm1.gaox.ml
+  port: '443'
+  udp: true
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 8 → openitsub.com82
+  type: trojan
+  server: s4.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 _US_美国_1_1083
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 白嫖-06684
+  type: trojan
+  server: s2.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq |🇺🇸_US_wmt(9.24)_385
+  type: trojan
+  server: s2.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 04486
+  type: trojan
+  server: scus1.ddns-pop.cyou
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 04287
+  type: trojan
+  server: s4.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 _US_美国_1_1088
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 01089
+  type: trojan
+  server: s4.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 白嫖-06990
+  type: trojan
+  server: s2.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 _US_美国_191
+  type: trojan
+  server: 165.154.235.186
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 US 3 → openitsub.com92
+  type: trojan
+  server: s4.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 01093
+  type: trojan
+  server: s4.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq |US_165.232.137.2_09253e14-1294
+  type: trojan
+  server: 165.232.137.2
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: mianfeifq 36195
+  type: trojan
+  server: 165.232.140.49
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 香港(TG频道96
+  type: trojan
+  server: 165.154.246.195
+  port: '49000'
+  udp: true
+  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 中国(TG频道97
+  type: trojan
+  server: 120.195.181.72
+  port: '12323'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 中国(TG频道98
+  type: trojan
+  server: 120.195.181.72
+  port: '12356'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 中国(TG频道99
+  type: trojan
+  server: 120.195.181.51
+  port: '12356'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 中国(TG频道100
+  type: trojan
+  server: 120.195.181.51
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 中国(TG频道101
+  type: trojan
+  server: 120.195.181.51
+  port: '12355'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 中国(TG频道102
+  type: trojan
+  server: 124.71.16.99
+  port: '12356'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 香港(TG频道103
+  type: trojan
+  server: 165.154.246.195
+  port: '49002'
+  udp: true
+  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国(TG频道104
+  type: trojan
+  server: 144.126.211.35
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国(TG频道105
+  type: trojan
+  server: s3.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: s3.hass.win
+- name: 🇭🇰 香港(TG频道106
+  type: trojan
+  server: 165.154.246.195
+  port: '49003'
+  udp: true
+  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 中国(TG频道107
+  type: trojan
+  server: 120.195.181.72
+  port: '12332'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 中国(TG频道108
+  type: trojan
+  server: 120.195.181.51
+  port: '12332'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 中国(TG频道109
+  type: trojan
+  server: 124.71.16.99
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 亚太地区 004110
+  type: trojan
+  server: 103.173.254.205
+  port: '443'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大 003111
+  type: trojan
+  server: 165.154.243.23
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大 004112
+  type: trojan
+  server: 165.154.227.242
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大 005113
+  type: trojan
+  server: 165.154.243.210
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大 006114
+  type: trojan
+  server: 165.154.235.194
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大 007115
+  type: trojan
+  server: 165.154.235.171
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大 008116
+  type: trojan
+  server: 165.154.243.187
+  port: '24568'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大 010117
+  type: trojan
+  server: 921tw.tfzhc.top
+  port: '443'
+  udp: true
+  password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大 011118
+  type: trojan
+  server: 99tw03.tfzhc.top
+  port: '443'
+  udp: true
+  password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇦 加拿大 012119
+  type: trojan
+  server: 165.154.235.186
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇮🇳 印度 001120
+  type: trojan
+  server: jgwhdlb3.gaox.ml
+  port: '443'
+  udp: true
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  skip-cert-verify: true
+  sni: ''
+- name: 🇮🇳 印度 002121
+  type: trojan
+  server: jgwhdlb1.gaox.ml
+  port: '443'
+  udp: true
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  skip-cert-verify: true
+  sni: ''
+- name: 🇮🇳 印度 003122
+  type: trojan
+  server: jgwhdlb2.gaox.ml
+  port: '443'
+  udp: true
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇿 捷克 001123
+  type: trojan
+  server: v2cross.com.02.v2ce.com
+  port: '443'
+  udp: true
+  password: 3gLlCYBipVwr6Y5F
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇿 捷克 002124
+  type: trojan
+  server: v2cross.com.03.v2ce.com
+  port: '443'
+  udp: true
+  password: ZD4dLSBXiMrmzdLd
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇿 捷克 003125
+  type: trojan
+  server: v2cross.com.04.v2ce.com
+  port: '443'
+  udp: true
+  password: vGWCNNfBHwSY6m6M
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇿 捷克 004126
+  type: trojan
+  server: v2cross.com.05.v2ce.com
+  port: '443'
+  udp: true
+  password: kGrwqmB1nEKUsDwE
+  skip-cert-verify: true
+  sni: ''
+- name: 🇸🇬 新加坡 001127
+  type: trojan
+  server: trojan2.udpgw.com
+  port: '443'
+  udp: true
+  password: a79da040-2e7c-11ed-91c2-1239d0255272
+  skip-cert-verify: true
+  sni: ''
+- name: 🇯🇵 日本 005128
+  type: trojan
+  server: jgw2.gaox.ml
+  port: '443'
+  udp: true
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  skip-cert-verify: true
+  sni: ''
+- name: 🇯🇵 日本 006129
+  type: trojan
+  server: jgwdb3.gaox.ml
+  port: '443'
+  udp: true
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  skip-cert-verify: true
+  sni: ''
+- name: 🇯🇵 日本 007130
+  type: trojan
+  server: jgwdb4.gaox.ml
+  port: '443'
+  udp: true
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  skip-cert-verify: true
+  sni: ''
+- name: 🇯🇵 日本 010131
+  type: trojan
+  server: kr1.api-aws.com
+  port: '443'
+  udp: true
+  password: 205f8ab6-cb17-4480-93a6-aece90b88742
+  skip-cert-verify: true
+  sni: ''
+- name: 🇦🇺 澳大利亚 004132
+  type: trojan
+  server: jgwxn3.gaox.ml
+  port: '443'
+  udp: true
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  skip-cert-verify: true
+  sni: ''
+- name: 🇦🇺 澳大利亚 005133
+  type: trojan
+  server: wangqifei.ga
+  port: '41477'
+  udp: true
+  password: 3oquVrpxPg
+  skip-cert-verify: true
+  sni: ''
+- name: 🇦🇺 澳大利亚 006134
+  type: trojan
+  server: jgwxn4.gaox.ml
+  port: '443'
+  udp: true
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇭 瑞士 001135
+  type: trojan
+  server: 138.124.183.226
+  port: '443'
+  udp: true
+  password: xxoo
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇭 瑞士 002136
+  type: trojan
+  server: 138.124.183.216
+  port: '443'
+  udp: true
+  password: xxoo
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 046137
+  type: trojan
+  server: www.sxsy88.tk
+  port: '44150'
+  udp: true
+  password: zFyLKH62WN
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 047138
+  type: trojan
+  server: s2.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 048139
+  type: trojan
+  server: fhcamd2.gaox.ml
+  port: '443'
+  udp: true
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 049140
+  type: trojan
+  server: lsj02.wangxd.life
+  port: '3052'
+  udp: true
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 050141
+  type: trojan
+  server: s4.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 051142
+  type: trojan
+  server: s3.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 052143
+  type: trojan
+  server: s1.hass.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 053144
+  type: trojan
+  server: fhcarm1.gaox.ml
+  port: '443'
+  udp: true
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 054145
+  type: trojan
+  server: fhcarm2.gaox.ml
+  port: '443'
+  udp: true
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 055146
+  type: trojan
+  server: jgwdj4.gaox.ml
+  port: '443'
+  udp: true
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 056147
+  type: trojan
+  server: jgwcc2.gaox.ml
+  port: '443'
+  udp: true
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 057148
+  type: trojan
+  server: 150.230.249.42
+  port: '443'
+  udp: true
+  password: 0Y9gOHSdRt
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 058149
+  type: trojan
+  server: fhcamd1.gaox.ml
+  port: '443'
+  udp: true
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 059150
+  type: trojan
+  server: dttw1.bitznet.one
+  port: '33003'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 060151
+  type: trojan
+  server: iplchk1.bitznet.one
+  port: '34443'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 061152
+  type: trojan
+  server: dtin1.bitznet.one
+  port: '33017'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 062153
+  type: trojan
+  server: trahk1.bitznet.one
+  port: '32443'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 063154
+  type: trojan
+  server: trahk5.bitznet.one
+  port: '32000'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 064155
+  type: trojan
+  server: jgwdj3.gaox.ml
+  port: '443'
+  udp: true
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 065156
+  type: trojan
+  server: dtau1.bitznet.one
+  port: '33012'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 066157
+  type: trojan
+  server: dtus1.bitznet.one
+  port: '33001'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 067158
+  type: trojan
+  server: iplcsk1.bitznet.one
+  port: '34005'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 068159
+  type: trojan
+  server: dtuk1.bitznet.one
+  port: '33010'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 069160
+  type: trojan
+  server: dtde1.bitznet.one
+  port: '33011'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 070161
+  type: trojan
+  server: trasg1.bitznet.one
+  port: '32007'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 071162
+  type: trojan
+  server: trajp1.bitznet.one
+  port: '32004'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 072163
+  type: trojan
+  server: dtua1.bitznet.one
+  port: '33019'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 073164
+  type: trojan
+  server: traus1.bitznet.one
+  port: '32001'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 074165
+  type: trojan
+  server: dtar1.bitznet.one
+  port: '33015'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 075166
+  type: trojan
+  server: dtru1.bitznet.one
+  port: '33008'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 076167
+  type: trojan
+  server: dtph1.bitznet.one
+  port: '33013'
+  udp: true
+  password: 43e50191-ba23-4fc1-94f4-626625f936b6
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 077168
+  type: trojan
+  server: dtbr1.bitznet.one
+  port: '33016'
+  udp: true
+  password: e9fd40b5-6eaf-40e2-9f94-0b1d5f87a4a2
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 078169
+  type: trojan
+  server: traau1.bitznet.one
+  port: '32012'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 079170
+  type: trojan
+  server: train1.bitznet.one
+  port: '32017'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 080171
+  type: trojan
+  server: tratw1.bitznet.one
+  port: '32003'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 081172
+  type: trojan
+  server: trade1.bitznet.one
+  port: '32011'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 082173
+  type: trojan
+  server: trask1.bitznet.one
+  port: '32005'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 083174
+  type: trojan
+  server: traar1.bitznet.one
+  port: '32015'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 084175
+  type: trojan
+  server: trafr1.bitznet.one
+  port: '32009'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 085176
+  type: trojan
+  server: trabr1.bitznet.one
+  port: '32016'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 086177
+  type: trojan
+  server: traru1.bitznet.one
+  port: '32008'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 087178
+  type: trojan
+  server: trauk1.bitznet.one
+  port: '32010'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 088179
+  type: trojan
+  server: traua1.bitznet.one
+  port: '32019'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 089180
+  type: trojan
+  server: traph1.bitznet.one
+  port: '32013'
+  udp: true
+  password: fffe09c3-32c3-44ac-9201-27e12dc2bd7c
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- name: 🇺🇸 美国 091181
+  type: trojan
+  server: jgwdb2.gaox.ml
+  port: '443'
+  udp: true
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 092182
+  type: trojan
+  server: jgwcc3.gaox.ml
+  port: '443'
+  udp: true
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  skip-cert-verify: true
+  sni: ''
+- name: 🇺🇸 美国 100183
+  type: trojan
+  server: ssrsub.t1.asuka.buzz
+  port: '852'
+  udp: true
+  password: 645fc4e7-e3a3-4e82-8abd-2d71324894c4
+  skip-cert-verify: true
+  sni: d76bb35696.wns.windows.com
+- name: 🇺🇸 美国 101184
+  type: trojan
+  server: ssrsub.t2.asuka.buzz
+  port: '852'
+  udp: true
+  password: 645fc4e7-e3a3-4e82-8abd-2d71324894c4
+  skip-cert-verify: true
+  sni: d76bb35696.wns.windows.com
+- name: 🇺🇸 美国 103185
+  type: trojan
+  server: s3.hazz.win
+  port: '12340'
+  udp: true
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  sni: ''
+- name: 🇬🇧 英国 002186
+  type: trojan
+  server: jgwcc1.gaox.ml
+  port: '443'
+  udp: true
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  skip-cert-verify: true
+  sni: ''
+- name: 🇳🇱 荷兰 001187
+  type: trojan
+  server: 41.216.177.41
+  port: '443'
+  udp: true
+  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
+  skip-cert-verify: true
+  sni: ''
+- name: 🇰🇷 韩国 001188
+  type: trojan
+  server: scus1.ddns-pop.cyou
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  type: trojan
+  server: tr04.kaochangonline.online
+  port: '443'
+  udp: true
+  password: 6414baac-2dc2-4a9f-bc07-86e90e3a375e
+  skip-cert-verify: true
+  sni: ''
+- name: 🇦🇺 github.com/freefq - 澳大利亚  8190
+  type: trojan
+  server: ora.rohansscenter.xyz
+  port: '443'
+  udp: true
+  password: 6f2fddabef
+  skip-cert-verify: true
+  sni: ''
+- name: 🇨🇳 Taiwan191
+  type: trojan
+  server: pastry.taiwanesefood.link
+  port: '443'
+  udp: true
+  password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ
+  skip-cert-verify: true
+  sni: pastry.taiwanesefood.link
+- name: '21192'
+  type: trojan
+  server: 165.154.243.187
+  port: '24568'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '22193'
+  type: trojan
+  server: 165.154.243.248
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '23194'
+  type: trojan
+  server: 124.71.16.99
+  port: '12355'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '24195'
+  type: trojan
+  server: 124.71.16.99
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '26196'
+  type: trojan
+  server: 124.71.16.99
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '27197'
+  type: trojan
+  server: 120.195.181.51
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '25198'
+  type: trojan
+  server: 165.154.243.23
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '28199'
+  type: trojan
+  server: 120.195.181.51
+  port: '12354'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '29200'
+  type: trojan
+  server: 120.195.181.51
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  type: trojan
+  server: zf2.windowsupdate1.com
+  port: '30010'
+  udp: true
+  password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3
+  skip-cert-verify: true
+  sni: glc.hruqoaw.cn
+- name: 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  type: trojan
+  server: zf2.windowsupdate1.com
+  port: '30040'
+  udp: true
+  password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3
+  skip-cert-verify: true
+  sni: glc.hruqoaw.cn
+- name: 🇻🇳 越南-3号203
+  type: trojan
+  server: 103.173.255.228
+  port: '28443'
+  udp: true
+  password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3
+  skip-cert-verify: true
+  sni: glc.hruqoaw.cn
+- name: 🇻🇳 越南-1号204
+  type: trojan
+  server: 103.173.255.21
+  port: '28443'
+  udp: true
+  password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3
+  skip-cert-verify: true
+  sni: glc.hruqoaw.cn
+- name: 🇻🇳 越南-4号205
+  type: trojan
+  server: 103.173.255.234
+  port: '28443'
+  udp: true
+  password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3
+  skip-cert-verify: true
+  sni: glc.hruqoaw.cn
+- name: '1206'
+  type: trojan
+  server: 124.71.16.99
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '2207'
+  type: trojan
+  server: 124.71.16.99
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '3208'
+  type: trojan
+  server: 124.71.16.99
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: 124.71.16.99
+- name: '4209'
+  type: trojan
+  server: 124.71.16.99
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '6210'
+  type: trojan
+  server: 165.154.243.23
+  port: '24567'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '9211'
+  type: trojan
+  server: 124.71.16.99
+  port: '12355'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '8212'
+  type: trojan
+  server: 124.71.16.99
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '11213'
+  type: trojan
+  server: 124.71.16.99
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '15214'
+  type: trojan
+  server: 124.71.16.99
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: '17215'
+  type: trojan
+  server: 99tw02.tfzhc.top
+  port: '443'
+  udp: true
+  password: 0668aee8-7a83-4dd0-a399-28c3a34a3d94
+  skip-cert-verify: true
+  sni: 99tw02.tfzhc.top
+- name: '18216'
+  type: trojan
+  server: 124.71.16.99
+  port: '12351'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: 124.71.16.99
+- name: '19217'
+  type: trojan
+  server: 913tw.tfzhc.top
+  port: '44318'
+  udp: true
+  password: 0668aee8-7a83-4dd0-a399-28c3a34a3d94
+  skip-cert-verify: true
+  sni: 913tw.tfzhc.top
+- name: '20218'
+  type: trojan
+  server: 124.71.16.99
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 台北Scloud-dip7219
+  type: trojan
+  server: 124.71.16.99
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 台北Scloud-dip8220
+  type: trojan
+  server: 120.195.181.51
+  port: '12352'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  type: trojan
+  server: zf2.windowsupdate1.com
+  port: '30010'
+  udp: true
+  password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3
+  skip-cert-verify: true
+  sni: glc.hruqoaw.cn
+- name: 🇭🇰 HK-CN-刁包子专线222
+  type: trojan
+  server: 120.232.132.120
+  port: '25682'
+  udp: true
+  password: M2e3c493
+  skip-cert-verify: true
+  sni: cdnt24.dt1.fun
+- name: 🇭🇰 香港GCORE223
+  type: trojan
+  server: 124.71.16.99
+  port: '12323'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
+- name: 🇭🇰 香港GG224
+  type: trojan
+  server: 120.195.181.51
+  port: '12324'
+  udp: true
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  skip-cert-verify: true
+  sni: ''
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -4621,6 +6424,230 @@ proxy-groups:
   - 🇸🇬 新加坡🇸🇬 2340
   - '12341'
   - '16342'
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  - 🇺🇸 _US_美国5
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  - default_name10
+  - 🇭🇰 _HK_香港11
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  - 🇺🇸 _US_美国15
+  - 🇷🇺 _RU_俄罗斯联邦16
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  - 🇸🇬 _SG_新加坡18
+  - 🇺🇸 _US_美国19
+  - 🇰🇷 _KR_韩国20
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  - 🇺🇸 _US_美国27
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  - 🇦🇺 github.com/freefq - 澳大利亚  846
+  - 🇺🇸 美国 05547
+  - 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  - US_165.232.140.49_0926a63b-6549
+  - 🇺🇸 US 8 → openitsub.com50
+  - 🇺🇸 US 6 → openitsub.com51
+  - 🇺🇸 美国 04352
+  - 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  - 🇺🇸 美国 04654
+  - 🇺🇸 US 54855
+  - 白嫖-13056
+  - mianfeifq |US_143.198.61.45_0926bfc9-1457
+  - 白嫖-06858
+  - 🇺🇸 US 9 → openitsub.com59
+  - mianfeifq |US_143.198.61.45_0926a63b-1460
+  - mianfeifq |US_165.232.137.2_0926a63b-12361
+  - mianfeifq |US_165.232.140.49_0926a63b-11562
+  - mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  - US_165.232.140.49_0924d110-7164
+  - 🇺🇸 美国 05465
+  - 🇺🇸 美国 00566
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  - 🇺🇸 美国 05268
+  - mianfeifq |US_165.232.137.2_0926a63b-12369
+  - 白嫖-13070
+  - US_165.232.137.2_0926bfc9-1271
+  - 🇺🇸 美国 04772
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  - 🇺🇸 US 4 → openitsub.com75
+  - 白嫖-12176
+  - 🇺🇸 US 6 → openitsub.com77
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  - 🇺🇸 US 2 → openitsub.com79
+  - mianfeifq |US_165.232.137.2_0926a63b-1280
+  - 🇺🇸 US 15 → openitsub.com81
+  - 🇺🇸 US 8 → openitsub.com82
+  - 🇺🇸 _US_美国_1_1083
+  - 白嫖-06684
+  - mianfeifq |🇺🇸_US_wmt(9.24)_385
+  - 🇺🇸 美国 04486
+  - 🇺🇸 美国 04287
+  - 🇺🇸 _US_美国_1_1088
+  - 🇺🇸 美国 01089
+  - 白嫖-06990
+  - 🇺🇸 _US_美国_191
+  - 🇺🇸 US 3 → openitsub.com92
+  - 🇺🇸 美国 01093
+  - mianfeifq |US_165.232.137.2_09253e14-1294
+  - mianfeifq 36195
+  - 🇭🇰 香港(TG频道96
+  - 🇨🇳 中国(TG频道97
+  - 🇨🇳 中国(TG频道98
+  - 🇨🇳 中国(TG频道99
+  - 🇨🇳 中国(TG频道100
+  - 🇨🇳 中国(TG频道101
+  - 🇨🇳 中国(TG频道102
+  - 🇭🇰 香港(TG频道103
+  - 🇺🇸 美国(TG频道104
+  - 🇺🇸 美国(TG频道105
+  - 🇭🇰 香港(TG频道106
+  - 🇨🇳 中国(TG频道107
+  - 🇨🇳 中国(TG频道108
+  - 🇨🇳 中国(TG频道109
+  - 亚太地区 004110
+  - 🇨🇦 加拿大 003111
+  - 🇨🇦 加拿大 004112
+  - 🇨🇦 加拿大 005113
+  - 🇨🇦 加拿大 006114
+  - 🇨🇦 加拿大 007115
+  - 🇨🇦 加拿大 008116
+  - 🇨🇦 加拿大 010117
+  - 🇨🇦 加拿大 011118
+  - 🇨🇦 加拿大 012119
+  - 🇮🇳 印度 001120
+  - 🇮🇳 印度 002121
+  - 🇮🇳 印度 003122
+  - 🇨🇿 捷克 001123
+  - 🇨🇿 捷克 002124
+  - 🇨🇿 捷克 003125
+  - 🇨🇿 捷克 004126
+  - 🇸🇬 新加坡 001127
+  - 🇯🇵 日本 005128
+  - 🇯🇵 日本 006129
+  - 🇯🇵 日本 007130
+  - 🇯🇵 日本 010131
+  - 🇦🇺 澳大利亚 004132
+  - 🇦🇺 澳大利亚 005133
+  - 🇦🇺 澳大利亚 006134
+  - 🇨🇭 瑞士 001135
+  - 🇨🇭 瑞士 002136
+  - 🇺🇸 美国 046137
+  - 🇺🇸 美国 047138
+  - 🇺🇸 美国 048139
+  - 🇺🇸 美国 049140
+  - 🇺🇸 美国 050141
+  - 🇺🇸 美国 051142
+  - 🇺🇸 美国 052143
+  - 🇺🇸 美国 053144
+  - 🇺🇸 美国 054145
+  - 🇺🇸 美国 055146
+  - 🇺🇸 美国 056147
+  - 🇺🇸 美国 057148
+  - 🇺🇸 美国 058149
+  - 🇺🇸 美国 059150
+  - 🇺🇸 美国 060151
+  - 🇺🇸 美国 061152
+  - 🇺🇸 美国 062153
+  - 🇺🇸 美国 063154
+  - 🇺🇸 美国 064155
+  - 🇺🇸 美国 065156
+  - 🇺🇸 美国 066157
+  - 🇺🇸 美国 067158
+  - 🇺🇸 美国 068159
+  - 🇺🇸 美国 069160
+  - 🇺🇸 美国 070161
+  - 🇺🇸 美国 071162
+  - 🇺🇸 美国 072163
+  - 🇺🇸 美国 073164
+  - 🇺🇸 美国 074165
+  - 🇺🇸 美国 075166
+  - 🇺🇸 美国 076167
+  - 🇺🇸 美国 077168
+  - 🇺🇸 美国 078169
+  - 🇺🇸 美国 079170
+  - 🇺🇸 美国 080171
+  - 🇺🇸 美国 081172
+  - 🇺🇸 美国 082173
+  - 🇺🇸 美国 083174
+  - 🇺🇸 美国 084175
+  - 🇺🇸 美国 085176
+  - 🇺🇸 美国 086177
+  - 🇺🇸 美国 087178
+  - 🇺🇸 美国 088179
+  - 🇺🇸 美国 089180
+  - 🇺🇸 美国 091181
+  - 🇺🇸 美国 092182
+  - 🇺🇸 美国 100183
+  - 🇺🇸 美国 101184
+  - 🇺🇸 美国 103185
+  - 🇬🇧 英国 002186
+  - 🇳🇱 荷兰 001187
+  - 🇰🇷 韩国 001188
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  - 🇦🇺 github.com/freefq - 澳大利亚  8190
+  - 🇨🇳 Taiwan191
+  - '21192'
+  - '22193'
+  - '23194'
+  - '24195'
+  - '26196'
+  - '27197'
+  - '25198'
+  - '28199'
+  - '29200'
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  - 🇻🇳 越南-3号203
+  - 🇻🇳 越南-1号204
+  - 🇻🇳 越南-4号205
+  - '1206'
+  - '2207'
+  - '3208'
+  - '4209'
+  - '6210'
+  - '9211'
+  - '8212'
+  - '11213'
+  - '15214'
+  - '17215'
+  - '18216'
+  - '19217'
+  - '20218'
+  - 台北Scloud-dip7219
+  - 台北Scloud-dip8220
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  - 🇭🇰 HK-CN-刁包子专线222
+  - 🇭🇰 香港GCORE223
+  - 🇭🇰 香港GG224
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4969,6 +6996,230 @@ proxy-groups:
   - 🇸🇬 新加坡🇸🇬 2340
   - '12341'
   - '16342'
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  - 🇺🇸 _US_美国5
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  - default_name10
+  - 🇭🇰 _HK_香港11
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  - 🇺🇸 _US_美国15
+  - 🇷🇺 _RU_俄罗斯联邦16
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  - 🇸🇬 _SG_新加坡18
+  - 🇺🇸 _US_美国19
+  - 🇰🇷 _KR_韩国20
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  - 🇺🇸 _US_美国27
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  - 🇦🇺 github.com/freefq - 澳大利亚  846
+  - 🇺🇸 美国 05547
+  - 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  - US_165.232.140.49_0926a63b-6549
+  - 🇺🇸 US 8 → openitsub.com50
+  - 🇺🇸 US 6 → openitsub.com51
+  - 🇺🇸 美国 04352
+  - 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  - 🇺🇸 美国 04654
+  - 🇺🇸 US 54855
+  - 白嫖-13056
+  - mianfeifq |US_143.198.61.45_0926bfc9-1457
+  - 白嫖-06858
+  - 🇺🇸 US 9 → openitsub.com59
+  - mianfeifq |US_143.198.61.45_0926a63b-1460
+  - mianfeifq |US_165.232.137.2_0926a63b-12361
+  - mianfeifq |US_165.232.140.49_0926a63b-11562
+  - mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  - US_165.232.140.49_0924d110-7164
+  - 🇺🇸 美国 05465
+  - 🇺🇸 美国 00566
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  - 🇺🇸 美国 05268
+  - mianfeifq |US_165.232.137.2_0926a63b-12369
+  - 白嫖-13070
+  - US_165.232.137.2_0926bfc9-1271
+  - 🇺🇸 美国 04772
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  - 🇺🇸 US 4 → openitsub.com75
+  - 白嫖-12176
+  - 🇺🇸 US 6 → openitsub.com77
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  - 🇺🇸 US 2 → openitsub.com79
+  - mianfeifq |US_165.232.137.2_0926a63b-1280
+  - 🇺🇸 US 15 → openitsub.com81
+  - 🇺🇸 US 8 → openitsub.com82
+  - 🇺🇸 _US_美国_1_1083
+  - 白嫖-06684
+  - mianfeifq |🇺🇸_US_wmt(9.24)_385
+  - 🇺🇸 美国 04486
+  - 🇺🇸 美国 04287
+  - 🇺🇸 _US_美国_1_1088
+  - 🇺🇸 美国 01089
+  - 白嫖-06990
+  - 🇺🇸 _US_美国_191
+  - 🇺🇸 US 3 → openitsub.com92
+  - 🇺🇸 美国 01093
+  - mianfeifq |US_165.232.137.2_09253e14-1294
+  - mianfeifq 36195
+  - 🇭🇰 香港(TG频道96
+  - 🇨🇳 中国(TG频道97
+  - 🇨🇳 中国(TG频道98
+  - 🇨🇳 中国(TG频道99
+  - 🇨🇳 中国(TG频道100
+  - 🇨🇳 中国(TG频道101
+  - 🇨🇳 中国(TG频道102
+  - 🇭🇰 香港(TG频道103
+  - 🇺🇸 美国(TG频道104
+  - 🇺🇸 美国(TG频道105
+  - 🇭🇰 香港(TG频道106
+  - 🇨🇳 中国(TG频道107
+  - 🇨🇳 中国(TG频道108
+  - 🇨🇳 中国(TG频道109
+  - 亚太地区 004110
+  - 🇨🇦 加拿大 003111
+  - 🇨🇦 加拿大 004112
+  - 🇨🇦 加拿大 005113
+  - 🇨🇦 加拿大 006114
+  - 🇨🇦 加拿大 007115
+  - 🇨🇦 加拿大 008116
+  - 🇨🇦 加拿大 010117
+  - 🇨🇦 加拿大 011118
+  - 🇨🇦 加拿大 012119
+  - 🇮🇳 印度 001120
+  - 🇮🇳 印度 002121
+  - 🇮🇳 印度 003122
+  - 🇨🇿 捷克 001123
+  - 🇨🇿 捷克 002124
+  - 🇨🇿 捷克 003125
+  - 🇨🇿 捷克 004126
+  - 🇸🇬 新加坡 001127
+  - 🇯🇵 日本 005128
+  - 🇯🇵 日本 006129
+  - 🇯🇵 日本 007130
+  - 🇯🇵 日本 010131
+  - 🇦🇺 澳大利亚 004132
+  - 🇦🇺 澳大利亚 005133
+  - 🇦🇺 澳大利亚 006134
+  - 🇨🇭 瑞士 001135
+  - 🇨🇭 瑞士 002136
+  - 🇺🇸 美国 046137
+  - 🇺🇸 美国 047138
+  - 🇺🇸 美国 048139
+  - 🇺🇸 美国 049140
+  - 🇺🇸 美国 050141
+  - 🇺🇸 美国 051142
+  - 🇺🇸 美国 052143
+  - 🇺🇸 美国 053144
+  - 🇺🇸 美国 054145
+  - 🇺🇸 美国 055146
+  - 🇺🇸 美国 056147
+  - 🇺🇸 美国 057148
+  - 🇺🇸 美国 058149
+  - 🇺🇸 美国 059150
+  - 🇺🇸 美国 060151
+  - 🇺🇸 美国 061152
+  - 🇺🇸 美国 062153
+  - 🇺🇸 美国 063154
+  - 🇺🇸 美国 064155
+  - 🇺🇸 美国 065156
+  - 🇺🇸 美国 066157
+  - 🇺🇸 美国 067158
+  - 🇺🇸 美国 068159
+  - 🇺🇸 美国 069160
+  - 🇺🇸 美国 070161
+  - 🇺🇸 美国 071162
+  - 🇺🇸 美国 072163
+  - 🇺🇸 美国 073164
+  - 🇺🇸 美国 074165
+  - 🇺🇸 美国 075166
+  - 🇺🇸 美国 076167
+  - 🇺🇸 美国 077168
+  - 🇺🇸 美国 078169
+  - 🇺🇸 美国 079170
+  - 🇺🇸 美国 080171
+  - 🇺🇸 美国 081172
+  - 🇺🇸 美国 082173
+  - 🇺🇸 美国 083174
+  - 🇺🇸 美国 084175
+  - 🇺🇸 美国 085176
+  - 🇺🇸 美国 086177
+  - 🇺🇸 美国 087178
+  - 🇺🇸 美国 088179
+  - 🇺🇸 美国 089180
+  - 🇺🇸 美国 091181
+  - 🇺🇸 美国 092182
+  - 🇺🇸 美国 100183
+  - 🇺🇸 美国 101184
+  - 🇺🇸 美国 103185
+  - 🇬🇧 英国 002186
+  - 🇳🇱 荷兰 001187
+  - 🇰🇷 韩国 001188
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  - 🇦🇺 github.com/freefq - 澳大利亚  8190
+  - 🇨🇳 Taiwan191
+  - '21192'
+  - '22193'
+  - '23194'
+  - '24195'
+  - '26196'
+  - '27197'
+  - '25198'
+  - '28199'
+  - '29200'
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  - 🇻🇳 越南-3号203
+  - 🇻🇳 越南-1号204
+  - 🇻🇳 越南-4号205
+  - '1206'
+  - '2207'
+  - '3208'
+  - '4209'
+  - '6210'
+  - '9211'
+  - '8212'
+  - '11213'
+  - '15214'
+  - '17215'
+  - '18216'
+  - '19217'
+  - '20218'
+  - 台北Scloud-dip7219
+  - 台北Scloud-dip8220
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  - 🇭🇰 HK-CN-刁包子专线222
+  - 🇭🇰 香港GCORE223
+  - 🇭🇰 香港GG224
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -5317,6 +7568,230 @@ proxy-groups:
   - 🇸🇬 新加坡🇸🇬 2340
   - '12341'
   - '16342'
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  - 🇺🇸 _US_美国5
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  - default_name10
+  - 🇭🇰 _HK_香港11
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  - 🇺🇸 _US_美国15
+  - 🇷🇺 _RU_俄罗斯联邦16
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  - 🇸🇬 _SG_新加坡18
+  - 🇺🇸 _US_美国19
+  - 🇰🇷 _KR_韩国20
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  - 🇺🇸 _US_美国27
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  - 🇦🇺 github.com/freefq - 澳大利亚  846
+  - 🇺🇸 美国 05547
+  - 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  - US_165.232.140.49_0926a63b-6549
+  - 🇺🇸 US 8 → openitsub.com50
+  - 🇺🇸 US 6 → openitsub.com51
+  - 🇺🇸 美国 04352
+  - 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  - 🇺🇸 美国 04654
+  - 🇺🇸 US 54855
+  - 白嫖-13056
+  - mianfeifq |US_143.198.61.45_0926bfc9-1457
+  - 白嫖-06858
+  - 🇺🇸 US 9 → openitsub.com59
+  - mianfeifq |US_143.198.61.45_0926a63b-1460
+  - mianfeifq |US_165.232.137.2_0926a63b-12361
+  - mianfeifq |US_165.232.140.49_0926a63b-11562
+  - mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  - US_165.232.140.49_0924d110-7164
+  - 🇺🇸 美国 05465
+  - 🇺🇸 美国 00566
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  - 🇺🇸 美国 05268
+  - mianfeifq |US_165.232.137.2_0926a63b-12369
+  - 白嫖-13070
+  - US_165.232.137.2_0926bfc9-1271
+  - 🇺🇸 美国 04772
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  - 🇺🇸 US 4 → openitsub.com75
+  - 白嫖-12176
+  - 🇺🇸 US 6 → openitsub.com77
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  - 🇺🇸 US 2 → openitsub.com79
+  - mianfeifq |US_165.232.137.2_0926a63b-1280
+  - 🇺🇸 US 15 → openitsub.com81
+  - 🇺🇸 US 8 → openitsub.com82
+  - 🇺🇸 _US_美国_1_1083
+  - 白嫖-06684
+  - mianfeifq |🇺🇸_US_wmt(9.24)_385
+  - 🇺🇸 美国 04486
+  - 🇺🇸 美国 04287
+  - 🇺🇸 _US_美国_1_1088
+  - 🇺🇸 美国 01089
+  - 白嫖-06990
+  - 🇺🇸 _US_美国_191
+  - 🇺🇸 US 3 → openitsub.com92
+  - 🇺🇸 美国 01093
+  - mianfeifq |US_165.232.137.2_09253e14-1294
+  - mianfeifq 36195
+  - 🇭🇰 香港(TG频道96
+  - 🇨🇳 中国(TG频道97
+  - 🇨🇳 中国(TG频道98
+  - 🇨🇳 中国(TG频道99
+  - 🇨🇳 中国(TG频道100
+  - 🇨🇳 中国(TG频道101
+  - 🇨🇳 中国(TG频道102
+  - 🇭🇰 香港(TG频道103
+  - 🇺🇸 美国(TG频道104
+  - 🇺🇸 美国(TG频道105
+  - 🇭🇰 香港(TG频道106
+  - 🇨🇳 中国(TG频道107
+  - 🇨🇳 中国(TG频道108
+  - 🇨🇳 中国(TG频道109
+  - 亚太地区 004110
+  - 🇨🇦 加拿大 003111
+  - 🇨🇦 加拿大 004112
+  - 🇨🇦 加拿大 005113
+  - 🇨🇦 加拿大 006114
+  - 🇨🇦 加拿大 007115
+  - 🇨🇦 加拿大 008116
+  - 🇨🇦 加拿大 010117
+  - 🇨🇦 加拿大 011118
+  - 🇨🇦 加拿大 012119
+  - 🇮🇳 印度 001120
+  - 🇮🇳 印度 002121
+  - 🇮🇳 印度 003122
+  - 🇨🇿 捷克 001123
+  - 🇨🇿 捷克 002124
+  - 🇨🇿 捷克 003125
+  - 🇨🇿 捷克 004126
+  - 🇸🇬 新加坡 001127
+  - 🇯🇵 日本 005128
+  - 🇯🇵 日本 006129
+  - 🇯🇵 日本 007130
+  - 🇯🇵 日本 010131
+  - 🇦🇺 澳大利亚 004132
+  - 🇦🇺 澳大利亚 005133
+  - 🇦🇺 澳大利亚 006134
+  - 🇨🇭 瑞士 001135
+  - 🇨🇭 瑞士 002136
+  - 🇺🇸 美国 046137
+  - 🇺🇸 美国 047138
+  - 🇺🇸 美国 048139
+  - 🇺🇸 美国 049140
+  - 🇺🇸 美国 050141
+  - 🇺🇸 美国 051142
+  - 🇺🇸 美国 052143
+  - 🇺🇸 美国 053144
+  - 🇺🇸 美国 054145
+  - 🇺🇸 美国 055146
+  - 🇺🇸 美国 056147
+  - 🇺🇸 美国 057148
+  - 🇺🇸 美国 058149
+  - 🇺🇸 美国 059150
+  - 🇺🇸 美国 060151
+  - 🇺🇸 美国 061152
+  - 🇺🇸 美国 062153
+  - 🇺🇸 美国 063154
+  - 🇺🇸 美国 064155
+  - 🇺🇸 美国 065156
+  - 🇺🇸 美国 066157
+  - 🇺🇸 美国 067158
+  - 🇺🇸 美国 068159
+  - 🇺🇸 美国 069160
+  - 🇺🇸 美国 070161
+  - 🇺🇸 美国 071162
+  - 🇺🇸 美国 072163
+  - 🇺🇸 美国 073164
+  - 🇺🇸 美国 074165
+  - 🇺🇸 美国 075166
+  - 🇺🇸 美国 076167
+  - 🇺🇸 美国 077168
+  - 🇺🇸 美国 078169
+  - 🇺🇸 美国 079170
+  - 🇺🇸 美国 080171
+  - 🇺🇸 美国 081172
+  - 🇺🇸 美国 082173
+  - 🇺🇸 美国 083174
+  - 🇺🇸 美国 084175
+  - 🇺🇸 美国 085176
+  - 🇺🇸 美国 086177
+  - 🇺🇸 美国 087178
+  - 🇺🇸 美国 088179
+  - 🇺🇸 美国 089180
+  - 🇺🇸 美国 091181
+  - 🇺🇸 美国 092182
+  - 🇺🇸 美国 100183
+  - 🇺🇸 美国 101184
+  - 🇺🇸 美国 103185
+  - 🇬🇧 英国 002186
+  - 🇳🇱 荷兰 001187
+  - 🇰🇷 韩国 001188
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  - 🇦🇺 github.com/freefq - 澳大利亚  8190
+  - 🇨🇳 Taiwan191
+  - '21192'
+  - '22193'
+  - '23194'
+  - '24195'
+  - '26196'
+  - '27197'
+  - '25198'
+  - '28199'
+  - '29200'
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  - 🇻🇳 越南-3号203
+  - 🇻🇳 越南-1号204
+  - 🇻🇳 越南-4号205
+  - '1206'
+  - '2207'
+  - '3208'
+  - '4209'
+  - '6210'
+  - '9211'
+  - '8212'
+  - '11213'
+  - '15214'
+  - '17215'
+  - '18216'
+  - '19217'
+  - '20218'
+  - 台北Scloud-dip7219
+  - 台北Scloud-dip8220
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  - 🇭🇰 HK-CN-刁包子专线222
+  - 🇭🇰 香港GCORE223
+  - 🇭🇰 香港GG224
 - name: 📲 电报信息
   type: select
   proxies:
@@ -5664,6 +8139,230 @@ proxy-groups:
   - 🇸🇬 新加坡🇸🇬 2340
   - '12341'
   - '16342'
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  - 🇺🇸 _US_美国5
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  - default_name10
+  - 🇭🇰 _HK_香港11
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  - 🇺🇸 _US_美国15
+  - 🇷🇺 _RU_俄罗斯联邦16
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  - 🇸🇬 _SG_新加坡18
+  - 🇺🇸 _US_美国19
+  - 🇰🇷 _KR_韩国20
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  - 🇺🇸 _US_美国27
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  - 🇦🇺 github.com/freefq - 澳大利亚  846
+  - 🇺🇸 美国 05547
+  - 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  - US_165.232.140.49_0926a63b-6549
+  - 🇺🇸 US 8 → openitsub.com50
+  - 🇺🇸 US 6 → openitsub.com51
+  - 🇺🇸 美国 04352
+  - 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  - 🇺🇸 美国 04654
+  - 🇺🇸 US 54855
+  - 白嫖-13056
+  - mianfeifq |US_143.198.61.45_0926bfc9-1457
+  - 白嫖-06858
+  - 🇺🇸 US 9 → openitsub.com59
+  - mianfeifq |US_143.198.61.45_0926a63b-1460
+  - mianfeifq |US_165.232.137.2_0926a63b-12361
+  - mianfeifq |US_165.232.140.49_0926a63b-11562
+  - mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  - US_165.232.140.49_0924d110-7164
+  - 🇺🇸 美国 05465
+  - 🇺🇸 美国 00566
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  - 🇺🇸 美国 05268
+  - mianfeifq |US_165.232.137.2_0926a63b-12369
+  - 白嫖-13070
+  - US_165.232.137.2_0926bfc9-1271
+  - 🇺🇸 美国 04772
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  - 🇺🇸 US 4 → openitsub.com75
+  - 白嫖-12176
+  - 🇺🇸 US 6 → openitsub.com77
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  - 🇺🇸 US 2 → openitsub.com79
+  - mianfeifq |US_165.232.137.2_0926a63b-1280
+  - 🇺🇸 US 15 → openitsub.com81
+  - 🇺🇸 US 8 → openitsub.com82
+  - 🇺🇸 _US_美国_1_1083
+  - 白嫖-06684
+  - mianfeifq |🇺🇸_US_wmt(9.24)_385
+  - 🇺🇸 美国 04486
+  - 🇺🇸 美国 04287
+  - 🇺🇸 _US_美国_1_1088
+  - 🇺🇸 美国 01089
+  - 白嫖-06990
+  - 🇺🇸 _US_美国_191
+  - 🇺🇸 US 3 → openitsub.com92
+  - 🇺🇸 美国 01093
+  - mianfeifq |US_165.232.137.2_09253e14-1294
+  - mianfeifq 36195
+  - 🇭🇰 香港(TG频道96
+  - 🇨🇳 中国(TG频道97
+  - 🇨🇳 中国(TG频道98
+  - 🇨🇳 中国(TG频道99
+  - 🇨🇳 中国(TG频道100
+  - 🇨🇳 中国(TG频道101
+  - 🇨🇳 中国(TG频道102
+  - 🇭🇰 香港(TG频道103
+  - 🇺🇸 美国(TG频道104
+  - 🇺🇸 美国(TG频道105
+  - 🇭🇰 香港(TG频道106
+  - 🇨🇳 中国(TG频道107
+  - 🇨🇳 中国(TG频道108
+  - 🇨🇳 中国(TG频道109
+  - 亚太地区 004110
+  - 🇨🇦 加拿大 003111
+  - 🇨🇦 加拿大 004112
+  - 🇨🇦 加拿大 005113
+  - 🇨🇦 加拿大 006114
+  - 🇨🇦 加拿大 007115
+  - 🇨🇦 加拿大 008116
+  - 🇨🇦 加拿大 010117
+  - 🇨🇦 加拿大 011118
+  - 🇨🇦 加拿大 012119
+  - 🇮🇳 印度 001120
+  - 🇮🇳 印度 002121
+  - 🇮🇳 印度 003122
+  - 🇨🇿 捷克 001123
+  - 🇨🇿 捷克 002124
+  - 🇨🇿 捷克 003125
+  - 🇨🇿 捷克 004126
+  - 🇸🇬 新加坡 001127
+  - 🇯🇵 日本 005128
+  - 🇯🇵 日本 006129
+  - 🇯🇵 日本 007130
+  - 🇯🇵 日本 010131
+  - 🇦🇺 澳大利亚 004132
+  - 🇦🇺 澳大利亚 005133
+  - 🇦🇺 澳大利亚 006134
+  - 🇨🇭 瑞士 001135
+  - 🇨🇭 瑞士 002136
+  - 🇺🇸 美国 046137
+  - 🇺🇸 美国 047138
+  - 🇺🇸 美国 048139
+  - 🇺🇸 美国 049140
+  - 🇺🇸 美国 050141
+  - 🇺🇸 美国 051142
+  - 🇺🇸 美国 052143
+  - 🇺🇸 美国 053144
+  - 🇺🇸 美国 054145
+  - 🇺🇸 美国 055146
+  - 🇺🇸 美国 056147
+  - 🇺🇸 美国 057148
+  - 🇺🇸 美国 058149
+  - 🇺🇸 美国 059150
+  - 🇺🇸 美国 060151
+  - 🇺🇸 美国 061152
+  - 🇺🇸 美国 062153
+  - 🇺🇸 美国 063154
+  - 🇺🇸 美国 064155
+  - 🇺🇸 美国 065156
+  - 🇺🇸 美国 066157
+  - 🇺🇸 美国 067158
+  - 🇺🇸 美国 068159
+  - 🇺🇸 美国 069160
+  - 🇺🇸 美国 070161
+  - 🇺🇸 美国 071162
+  - 🇺🇸 美国 072163
+  - 🇺🇸 美国 073164
+  - 🇺🇸 美国 074165
+  - 🇺🇸 美国 075166
+  - 🇺🇸 美国 076167
+  - 🇺🇸 美国 077168
+  - 🇺🇸 美国 078169
+  - 🇺🇸 美国 079170
+  - 🇺🇸 美国 080171
+  - 🇺🇸 美国 081172
+  - 🇺🇸 美国 082173
+  - 🇺🇸 美国 083174
+  - 🇺🇸 美国 084175
+  - 🇺🇸 美国 085176
+  - 🇺🇸 美国 086177
+  - 🇺🇸 美国 087178
+  - 🇺🇸 美国 088179
+  - 🇺🇸 美国 089180
+  - 🇺🇸 美国 091181
+  - 🇺🇸 美国 092182
+  - 🇺🇸 美国 100183
+  - 🇺🇸 美国 101184
+  - 🇺🇸 美国 103185
+  - 🇬🇧 英国 002186
+  - 🇳🇱 荷兰 001187
+  - 🇰🇷 韩国 001188
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  - 🇦🇺 github.com/freefq - 澳大利亚  8190
+  - 🇨🇳 Taiwan191
+  - '21192'
+  - '22193'
+  - '23194'
+  - '24195'
+  - '26196'
+  - '27197'
+  - '25198'
+  - '28199'
+  - '29200'
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  - 🇻🇳 越南-3号203
+  - 🇻🇳 越南-1号204
+  - 🇻🇳 越南-4号205
+  - '1206'
+  - '2207'
+  - '3208'
+  - '4209'
+  - '6210'
+  - '9211'
+  - '8212'
+  - '11213'
+  - '15214'
+  - '17215'
+  - '18216'
+  - '19217'
+  - '20218'
+  - 台北Scloud-dip7219
+  - 台北Scloud-dip8220
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  - 🇭🇰 HK-CN-刁包子专线222
+  - 🇭🇰 香港GCORE223
+  - 🇭🇰 香港GG224
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -6011,6 +8710,230 @@ proxy-groups:
   - 🇸🇬 新加坡🇸🇬 2340
   - '12341'
   - '16342'
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  - 🇺🇸 _US_美国5
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  - default_name10
+  - 🇭🇰 _HK_香港11
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  - 🇺🇸 _US_美国15
+  - 🇷🇺 _RU_俄罗斯联邦16
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  - 🇸🇬 _SG_新加坡18
+  - 🇺🇸 _US_美国19
+  - 🇰🇷 _KR_韩国20
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  - 🇺🇸 _US_美国27
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  - 🇦🇺 github.com/freefq - 澳大利亚  846
+  - 🇺🇸 美国 05547
+  - 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  - US_165.232.140.49_0926a63b-6549
+  - 🇺🇸 US 8 → openitsub.com50
+  - 🇺🇸 US 6 → openitsub.com51
+  - 🇺🇸 美国 04352
+  - 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  - 🇺🇸 美国 04654
+  - 🇺🇸 US 54855
+  - 白嫖-13056
+  - mianfeifq |US_143.198.61.45_0926bfc9-1457
+  - 白嫖-06858
+  - 🇺🇸 US 9 → openitsub.com59
+  - mianfeifq |US_143.198.61.45_0926a63b-1460
+  - mianfeifq |US_165.232.137.2_0926a63b-12361
+  - mianfeifq |US_165.232.140.49_0926a63b-11562
+  - mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  - US_165.232.140.49_0924d110-7164
+  - 🇺🇸 美国 05465
+  - 🇺🇸 美国 00566
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  - 🇺🇸 美国 05268
+  - mianfeifq |US_165.232.137.2_0926a63b-12369
+  - 白嫖-13070
+  - US_165.232.137.2_0926bfc9-1271
+  - 🇺🇸 美国 04772
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  - 🇺🇸 US 4 → openitsub.com75
+  - 白嫖-12176
+  - 🇺🇸 US 6 → openitsub.com77
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  - 🇺🇸 US 2 → openitsub.com79
+  - mianfeifq |US_165.232.137.2_0926a63b-1280
+  - 🇺🇸 US 15 → openitsub.com81
+  - 🇺🇸 US 8 → openitsub.com82
+  - 🇺🇸 _US_美国_1_1083
+  - 白嫖-06684
+  - mianfeifq |🇺🇸_US_wmt(9.24)_385
+  - 🇺🇸 美国 04486
+  - 🇺🇸 美国 04287
+  - 🇺🇸 _US_美国_1_1088
+  - 🇺🇸 美国 01089
+  - 白嫖-06990
+  - 🇺🇸 _US_美国_191
+  - 🇺🇸 US 3 → openitsub.com92
+  - 🇺🇸 美国 01093
+  - mianfeifq |US_165.232.137.2_09253e14-1294
+  - mianfeifq 36195
+  - 🇭🇰 香港(TG频道96
+  - 🇨🇳 中国(TG频道97
+  - 🇨🇳 中国(TG频道98
+  - 🇨🇳 中国(TG频道99
+  - 🇨🇳 中国(TG频道100
+  - 🇨🇳 中国(TG频道101
+  - 🇨🇳 中国(TG频道102
+  - 🇭🇰 香港(TG频道103
+  - 🇺🇸 美国(TG频道104
+  - 🇺🇸 美国(TG频道105
+  - 🇭🇰 香港(TG频道106
+  - 🇨🇳 中国(TG频道107
+  - 🇨🇳 中国(TG频道108
+  - 🇨🇳 中国(TG频道109
+  - 亚太地区 004110
+  - 🇨🇦 加拿大 003111
+  - 🇨🇦 加拿大 004112
+  - 🇨🇦 加拿大 005113
+  - 🇨🇦 加拿大 006114
+  - 🇨🇦 加拿大 007115
+  - 🇨🇦 加拿大 008116
+  - 🇨🇦 加拿大 010117
+  - 🇨🇦 加拿大 011118
+  - 🇨🇦 加拿大 012119
+  - 🇮🇳 印度 001120
+  - 🇮🇳 印度 002121
+  - 🇮🇳 印度 003122
+  - 🇨🇿 捷克 001123
+  - 🇨🇿 捷克 002124
+  - 🇨🇿 捷克 003125
+  - 🇨🇿 捷克 004126
+  - 🇸🇬 新加坡 001127
+  - 🇯🇵 日本 005128
+  - 🇯🇵 日本 006129
+  - 🇯🇵 日本 007130
+  - 🇯🇵 日本 010131
+  - 🇦🇺 澳大利亚 004132
+  - 🇦🇺 澳大利亚 005133
+  - 🇦🇺 澳大利亚 006134
+  - 🇨🇭 瑞士 001135
+  - 🇨🇭 瑞士 002136
+  - 🇺🇸 美国 046137
+  - 🇺🇸 美国 047138
+  - 🇺🇸 美国 048139
+  - 🇺🇸 美国 049140
+  - 🇺🇸 美国 050141
+  - 🇺🇸 美国 051142
+  - 🇺🇸 美国 052143
+  - 🇺🇸 美国 053144
+  - 🇺🇸 美国 054145
+  - 🇺🇸 美国 055146
+  - 🇺🇸 美国 056147
+  - 🇺🇸 美国 057148
+  - 🇺🇸 美国 058149
+  - 🇺🇸 美国 059150
+  - 🇺🇸 美国 060151
+  - 🇺🇸 美国 061152
+  - 🇺🇸 美国 062153
+  - 🇺🇸 美国 063154
+  - 🇺🇸 美国 064155
+  - 🇺🇸 美国 065156
+  - 🇺🇸 美国 066157
+  - 🇺🇸 美国 067158
+  - 🇺🇸 美国 068159
+  - 🇺🇸 美国 069160
+  - 🇺🇸 美国 070161
+  - 🇺🇸 美国 071162
+  - 🇺🇸 美国 072163
+  - 🇺🇸 美国 073164
+  - 🇺🇸 美国 074165
+  - 🇺🇸 美国 075166
+  - 🇺🇸 美国 076167
+  - 🇺🇸 美国 077168
+  - 🇺🇸 美国 078169
+  - 🇺🇸 美国 079170
+  - 🇺🇸 美国 080171
+  - 🇺🇸 美国 081172
+  - 🇺🇸 美国 082173
+  - 🇺🇸 美国 083174
+  - 🇺🇸 美国 084175
+  - 🇺🇸 美国 085176
+  - 🇺🇸 美国 086177
+  - 🇺🇸 美国 087178
+  - 🇺🇸 美国 088179
+  - 🇺🇸 美国 089180
+  - 🇺🇸 美国 091181
+  - 🇺🇸 美国 092182
+  - 🇺🇸 美国 100183
+  - 🇺🇸 美国 101184
+  - 🇺🇸 美国 103185
+  - 🇬🇧 英国 002186
+  - 🇳🇱 荷兰 001187
+  - 🇰🇷 韩国 001188
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  - 🇦🇺 github.com/freefq - 澳大利亚  8190
+  - 🇨🇳 Taiwan191
+  - '21192'
+  - '22193'
+  - '23194'
+  - '24195'
+  - '26196'
+  - '27197'
+  - '25198'
+  - '28199'
+  - '29200'
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  - 🇻🇳 越南-3号203
+  - 🇻🇳 越南-1号204
+  - 🇻🇳 越南-4号205
+  - '1206'
+  - '2207'
+  - '3208'
+  - '4209'
+  - '6210'
+  - '9211'
+  - '8212'
+  - '11213'
+  - '15214'
+  - '17215'
+  - '18216'
+  - '19217'
+  - '20218'
+  - 台北Scloud-dip7219
+  - 台北Scloud-dip8220
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  - 🇭🇰 HK-CN-刁包子专线222
+  - 🇭🇰 香港GCORE223
+  - 🇭🇰 香港GG224
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -6358,6 +9281,230 @@ proxy-groups:
   - 🇸🇬 新加坡🇸🇬 2340
   - '12341'
   - '16342'
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  - 🇺🇸 _US_美国5
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  - default_name10
+  - 🇭🇰 _HK_香港11
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  - 🇺🇸 _US_美国15
+  - 🇷🇺 _RU_俄罗斯联邦16
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  - 🇸🇬 _SG_新加坡18
+  - 🇺🇸 _US_美国19
+  - 🇰🇷 _KR_韩国20
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  - 🇺🇸 _US_美国27
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  - 🇦🇺 github.com/freefq - 澳大利亚  846
+  - 🇺🇸 美国 05547
+  - 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  - US_165.232.140.49_0926a63b-6549
+  - 🇺🇸 US 8 → openitsub.com50
+  - 🇺🇸 US 6 → openitsub.com51
+  - 🇺🇸 美国 04352
+  - 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  - 🇺🇸 美国 04654
+  - 🇺🇸 US 54855
+  - 白嫖-13056
+  - mianfeifq |US_143.198.61.45_0926bfc9-1457
+  - 白嫖-06858
+  - 🇺🇸 US 9 → openitsub.com59
+  - mianfeifq |US_143.198.61.45_0926a63b-1460
+  - mianfeifq |US_165.232.137.2_0926a63b-12361
+  - mianfeifq |US_165.232.140.49_0926a63b-11562
+  - mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  - US_165.232.140.49_0924d110-7164
+  - 🇺🇸 美国 05465
+  - 🇺🇸 美国 00566
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  - 🇺🇸 美国 05268
+  - mianfeifq |US_165.232.137.2_0926a63b-12369
+  - 白嫖-13070
+  - US_165.232.137.2_0926bfc9-1271
+  - 🇺🇸 美国 04772
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  - 🇺🇸 US 4 → openitsub.com75
+  - 白嫖-12176
+  - 🇺🇸 US 6 → openitsub.com77
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  - 🇺🇸 US 2 → openitsub.com79
+  - mianfeifq |US_165.232.137.2_0926a63b-1280
+  - 🇺🇸 US 15 → openitsub.com81
+  - 🇺🇸 US 8 → openitsub.com82
+  - 🇺🇸 _US_美国_1_1083
+  - 白嫖-06684
+  - mianfeifq |🇺🇸_US_wmt(9.24)_385
+  - 🇺🇸 美国 04486
+  - 🇺🇸 美国 04287
+  - 🇺🇸 _US_美国_1_1088
+  - 🇺🇸 美国 01089
+  - 白嫖-06990
+  - 🇺🇸 _US_美国_191
+  - 🇺🇸 US 3 → openitsub.com92
+  - 🇺🇸 美国 01093
+  - mianfeifq |US_165.232.137.2_09253e14-1294
+  - mianfeifq 36195
+  - 🇭🇰 香港(TG频道96
+  - 🇨🇳 中国(TG频道97
+  - 🇨🇳 中国(TG频道98
+  - 🇨🇳 中国(TG频道99
+  - 🇨🇳 中国(TG频道100
+  - 🇨🇳 中国(TG频道101
+  - 🇨🇳 中国(TG频道102
+  - 🇭🇰 香港(TG频道103
+  - 🇺🇸 美国(TG频道104
+  - 🇺🇸 美国(TG频道105
+  - 🇭🇰 香港(TG频道106
+  - 🇨🇳 中国(TG频道107
+  - 🇨🇳 中国(TG频道108
+  - 🇨🇳 中国(TG频道109
+  - 亚太地区 004110
+  - 🇨🇦 加拿大 003111
+  - 🇨🇦 加拿大 004112
+  - 🇨🇦 加拿大 005113
+  - 🇨🇦 加拿大 006114
+  - 🇨🇦 加拿大 007115
+  - 🇨🇦 加拿大 008116
+  - 🇨🇦 加拿大 010117
+  - 🇨🇦 加拿大 011118
+  - 🇨🇦 加拿大 012119
+  - 🇮🇳 印度 001120
+  - 🇮🇳 印度 002121
+  - 🇮🇳 印度 003122
+  - 🇨🇿 捷克 001123
+  - 🇨🇿 捷克 002124
+  - 🇨🇿 捷克 003125
+  - 🇨🇿 捷克 004126
+  - 🇸🇬 新加坡 001127
+  - 🇯🇵 日本 005128
+  - 🇯🇵 日本 006129
+  - 🇯🇵 日本 007130
+  - 🇯🇵 日本 010131
+  - 🇦🇺 澳大利亚 004132
+  - 🇦🇺 澳大利亚 005133
+  - 🇦🇺 澳大利亚 006134
+  - 🇨🇭 瑞士 001135
+  - 🇨🇭 瑞士 002136
+  - 🇺🇸 美国 046137
+  - 🇺🇸 美国 047138
+  - 🇺🇸 美国 048139
+  - 🇺🇸 美国 049140
+  - 🇺🇸 美国 050141
+  - 🇺🇸 美国 051142
+  - 🇺🇸 美国 052143
+  - 🇺🇸 美国 053144
+  - 🇺🇸 美国 054145
+  - 🇺🇸 美国 055146
+  - 🇺🇸 美国 056147
+  - 🇺🇸 美国 057148
+  - 🇺🇸 美国 058149
+  - 🇺🇸 美国 059150
+  - 🇺🇸 美国 060151
+  - 🇺🇸 美国 061152
+  - 🇺🇸 美国 062153
+  - 🇺🇸 美国 063154
+  - 🇺🇸 美国 064155
+  - 🇺🇸 美国 065156
+  - 🇺🇸 美国 066157
+  - 🇺🇸 美国 067158
+  - 🇺🇸 美国 068159
+  - 🇺🇸 美国 069160
+  - 🇺🇸 美国 070161
+  - 🇺🇸 美国 071162
+  - 🇺🇸 美国 072163
+  - 🇺🇸 美国 073164
+  - 🇺🇸 美国 074165
+  - 🇺🇸 美国 075166
+  - 🇺🇸 美国 076167
+  - 🇺🇸 美国 077168
+  - 🇺🇸 美国 078169
+  - 🇺🇸 美国 079170
+  - 🇺🇸 美国 080171
+  - 🇺🇸 美国 081172
+  - 🇺🇸 美国 082173
+  - 🇺🇸 美国 083174
+  - 🇺🇸 美国 084175
+  - 🇺🇸 美国 085176
+  - 🇺🇸 美国 086177
+  - 🇺🇸 美国 087178
+  - 🇺🇸 美国 088179
+  - 🇺🇸 美国 089180
+  - 🇺🇸 美国 091181
+  - 🇺🇸 美国 092182
+  - 🇺🇸 美国 100183
+  - 🇺🇸 美国 101184
+  - 🇺🇸 美国 103185
+  - 🇬🇧 英国 002186
+  - 🇳🇱 荷兰 001187
+  - 🇰🇷 韩国 001188
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  - 🇦🇺 github.com/freefq - 澳大利亚  8190
+  - 🇨🇳 Taiwan191
+  - '21192'
+  - '22193'
+  - '23194'
+  - '24195'
+  - '26196'
+  - '27197'
+  - '25198'
+  - '28199'
+  - '29200'
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  - 🇻🇳 越南-3号203
+  - 🇻🇳 越南-1号204
+  - 🇻🇳 越南-4号205
+  - '1206'
+  - '2207'
+  - '3208'
+  - '4209'
+  - '6210'
+  - '9211'
+  - '8212'
+  - '11213'
+  - '15214'
+  - '17215'
+  - '18216'
+  - '19217'
+  - '20218'
+  - 台北Scloud-dip7219
+  - 台北Scloud-dip8220
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  - 🇭🇰 HK-CN-刁包子专线222
+  - 🇭🇰 香港GCORE223
+  - 🇭🇰 香港GG224
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -6711,6 +9858,230 @@ proxy-groups:
   - 🇸🇬 新加坡🇸🇬 2340
   - '12341'
   - '16342'
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  - 🇺🇸 _US_美国5
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  - default_name10
+  - 🇭🇰 _HK_香港11
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  - 🇺🇸 _US_美国15
+  - 🇷🇺 _RU_俄罗斯联邦16
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  - 🇸🇬 _SG_新加坡18
+  - 🇺🇸 _US_美国19
+  - 🇰🇷 _KR_韩国20
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  - 🇺🇸 _US_美国27
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  - 🇦🇺 github.com/freefq - 澳大利亚  846
+  - 🇺🇸 美国 05547
+  - 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  - US_165.232.140.49_0926a63b-6549
+  - 🇺🇸 US 8 → openitsub.com50
+  - 🇺🇸 US 6 → openitsub.com51
+  - 🇺🇸 美国 04352
+  - 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  - 🇺🇸 美国 04654
+  - 🇺🇸 US 54855
+  - 白嫖-13056
+  - mianfeifq |US_143.198.61.45_0926bfc9-1457
+  - 白嫖-06858
+  - 🇺🇸 US 9 → openitsub.com59
+  - mianfeifq |US_143.198.61.45_0926a63b-1460
+  - mianfeifq |US_165.232.137.2_0926a63b-12361
+  - mianfeifq |US_165.232.140.49_0926a63b-11562
+  - mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  - US_165.232.140.49_0924d110-7164
+  - 🇺🇸 美国 05465
+  - 🇺🇸 美国 00566
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  - 🇺🇸 美国 05268
+  - mianfeifq |US_165.232.137.2_0926a63b-12369
+  - 白嫖-13070
+  - US_165.232.137.2_0926bfc9-1271
+  - 🇺🇸 美国 04772
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  - 🇺🇸 US 4 → openitsub.com75
+  - 白嫖-12176
+  - 🇺🇸 US 6 → openitsub.com77
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  - 🇺🇸 US 2 → openitsub.com79
+  - mianfeifq |US_165.232.137.2_0926a63b-1280
+  - 🇺🇸 US 15 → openitsub.com81
+  - 🇺🇸 US 8 → openitsub.com82
+  - 🇺🇸 _US_美国_1_1083
+  - 白嫖-06684
+  - mianfeifq |🇺🇸_US_wmt(9.24)_385
+  - 🇺🇸 美国 04486
+  - 🇺🇸 美国 04287
+  - 🇺🇸 _US_美国_1_1088
+  - 🇺🇸 美国 01089
+  - 白嫖-06990
+  - 🇺🇸 _US_美国_191
+  - 🇺🇸 US 3 → openitsub.com92
+  - 🇺🇸 美国 01093
+  - mianfeifq |US_165.232.137.2_09253e14-1294
+  - mianfeifq 36195
+  - 🇭🇰 香港(TG频道96
+  - 🇨🇳 中国(TG频道97
+  - 🇨🇳 中国(TG频道98
+  - 🇨🇳 中国(TG频道99
+  - 🇨🇳 中国(TG频道100
+  - 🇨🇳 中国(TG频道101
+  - 🇨🇳 中国(TG频道102
+  - 🇭🇰 香港(TG频道103
+  - 🇺🇸 美国(TG频道104
+  - 🇺🇸 美国(TG频道105
+  - 🇭🇰 香港(TG频道106
+  - 🇨🇳 中国(TG频道107
+  - 🇨🇳 中国(TG频道108
+  - 🇨🇳 中国(TG频道109
+  - 亚太地区 004110
+  - 🇨🇦 加拿大 003111
+  - 🇨🇦 加拿大 004112
+  - 🇨🇦 加拿大 005113
+  - 🇨🇦 加拿大 006114
+  - 🇨🇦 加拿大 007115
+  - 🇨🇦 加拿大 008116
+  - 🇨🇦 加拿大 010117
+  - 🇨🇦 加拿大 011118
+  - 🇨🇦 加拿大 012119
+  - 🇮🇳 印度 001120
+  - 🇮🇳 印度 002121
+  - 🇮🇳 印度 003122
+  - 🇨🇿 捷克 001123
+  - 🇨🇿 捷克 002124
+  - 🇨🇿 捷克 003125
+  - 🇨🇿 捷克 004126
+  - 🇸🇬 新加坡 001127
+  - 🇯🇵 日本 005128
+  - 🇯🇵 日本 006129
+  - 🇯🇵 日本 007130
+  - 🇯🇵 日本 010131
+  - 🇦🇺 澳大利亚 004132
+  - 🇦🇺 澳大利亚 005133
+  - 🇦🇺 澳大利亚 006134
+  - 🇨🇭 瑞士 001135
+  - 🇨🇭 瑞士 002136
+  - 🇺🇸 美国 046137
+  - 🇺🇸 美国 047138
+  - 🇺🇸 美国 048139
+  - 🇺🇸 美国 049140
+  - 🇺🇸 美国 050141
+  - 🇺🇸 美国 051142
+  - 🇺🇸 美国 052143
+  - 🇺🇸 美国 053144
+  - 🇺🇸 美国 054145
+  - 🇺🇸 美国 055146
+  - 🇺🇸 美国 056147
+  - 🇺🇸 美国 057148
+  - 🇺🇸 美国 058149
+  - 🇺🇸 美国 059150
+  - 🇺🇸 美国 060151
+  - 🇺🇸 美国 061152
+  - 🇺🇸 美国 062153
+  - 🇺🇸 美国 063154
+  - 🇺🇸 美国 064155
+  - 🇺🇸 美国 065156
+  - 🇺🇸 美国 066157
+  - 🇺🇸 美国 067158
+  - 🇺🇸 美国 068159
+  - 🇺🇸 美国 069160
+  - 🇺🇸 美国 070161
+  - 🇺🇸 美国 071162
+  - 🇺🇸 美国 072163
+  - 🇺🇸 美国 073164
+  - 🇺🇸 美国 074165
+  - 🇺🇸 美国 075166
+  - 🇺🇸 美国 076167
+  - 🇺🇸 美国 077168
+  - 🇺🇸 美国 078169
+  - 🇺🇸 美国 079170
+  - 🇺🇸 美国 080171
+  - 🇺🇸 美国 081172
+  - 🇺🇸 美国 082173
+  - 🇺🇸 美国 083174
+  - 🇺🇸 美国 084175
+  - 🇺🇸 美国 085176
+  - 🇺🇸 美国 086177
+  - 🇺🇸 美国 087178
+  - 🇺🇸 美国 088179
+  - 🇺🇸 美国 089180
+  - 🇺🇸 美国 091181
+  - 🇺🇸 美国 092182
+  - 🇺🇸 美国 100183
+  - 🇺🇸 美国 101184
+  - 🇺🇸 美国 103185
+  - 🇬🇧 英国 002186
+  - 🇳🇱 荷兰 001187
+  - 🇰🇷 韩国 001188
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  - 🇦🇺 github.com/freefq - 澳大利亚  8190
+  - 🇨🇳 Taiwan191
+  - '21192'
+  - '22193'
+  - '23194'
+  - '24195'
+  - '26196'
+  - '27197'
+  - '25198'
+  - '28199'
+  - '29200'
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  - 🇻🇳 越南-3号203
+  - 🇻🇳 越南-1号204
+  - 🇻🇳 越南-4号205
+  - '1206'
+  - '2207'
+  - '3208'
+  - '4209'
+  - '6210'
+  - '9211'
+  - '8212'
+  - '11213'
+  - '15214'
+  - '17215'
+  - '18216'
+  - '19217'
+  - '20218'
+  - 台北Scloud-dip7219
+  - 台北Scloud-dip8220
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  - 🇭🇰 HK-CN-刁包子专线222
+  - 🇭🇰 香港GCORE223
+  - 🇭🇰 香港GG224
 - name: 🍃 应用净化
   type: select
   proxies:
@@ -7058,6 +10429,230 @@ proxy-groups:
   - 🇸🇬 新加坡🇸🇬 2340
   - '12341'
   - '16342'
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  - 🇺🇸 _US_美国5
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  - default_name10
+  - 🇭🇰 _HK_香港11
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  - 🇺🇸 _US_美国15
+  - 🇷🇺 _RU_俄罗斯联邦16
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  - 🇸🇬 _SG_新加坡18
+  - 🇺🇸 _US_美国19
+  - 🇰🇷 _KR_韩国20
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  - 🇺🇸 _US_美国27
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  - 🇦🇺 github.com/freefq - 澳大利亚  846
+  - 🇺🇸 美国 05547
+  - 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  - US_165.232.140.49_0926a63b-6549
+  - 🇺🇸 US 8 → openitsub.com50
+  - 🇺🇸 US 6 → openitsub.com51
+  - 🇺🇸 美国 04352
+  - 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  - 🇺🇸 美国 04654
+  - 🇺🇸 US 54855
+  - 白嫖-13056
+  - mianfeifq |US_143.198.61.45_0926bfc9-1457
+  - 白嫖-06858
+  - 🇺🇸 US 9 → openitsub.com59
+  - mianfeifq |US_143.198.61.45_0926a63b-1460
+  - mianfeifq |US_165.232.137.2_0926a63b-12361
+  - mianfeifq |US_165.232.140.49_0926a63b-11562
+  - mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  - US_165.232.140.49_0924d110-7164
+  - 🇺🇸 美国 05465
+  - 🇺🇸 美国 00566
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  - 🇺🇸 美国 05268
+  - mianfeifq |US_165.232.137.2_0926a63b-12369
+  - 白嫖-13070
+  - US_165.232.137.2_0926bfc9-1271
+  - 🇺🇸 美国 04772
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  - 🇺🇸 US 4 → openitsub.com75
+  - 白嫖-12176
+  - 🇺🇸 US 6 → openitsub.com77
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  - 🇺🇸 US 2 → openitsub.com79
+  - mianfeifq |US_165.232.137.2_0926a63b-1280
+  - 🇺🇸 US 15 → openitsub.com81
+  - 🇺🇸 US 8 → openitsub.com82
+  - 🇺🇸 _US_美国_1_1083
+  - 白嫖-06684
+  - mianfeifq |🇺🇸_US_wmt(9.24)_385
+  - 🇺🇸 美国 04486
+  - 🇺🇸 美国 04287
+  - 🇺🇸 _US_美国_1_1088
+  - 🇺🇸 美国 01089
+  - 白嫖-06990
+  - 🇺🇸 _US_美国_191
+  - 🇺🇸 US 3 → openitsub.com92
+  - 🇺🇸 美国 01093
+  - mianfeifq |US_165.232.137.2_09253e14-1294
+  - mianfeifq 36195
+  - 🇭🇰 香港(TG频道96
+  - 🇨🇳 中国(TG频道97
+  - 🇨🇳 中国(TG频道98
+  - 🇨🇳 中国(TG频道99
+  - 🇨🇳 中国(TG频道100
+  - 🇨🇳 中国(TG频道101
+  - 🇨🇳 中国(TG频道102
+  - 🇭🇰 香港(TG频道103
+  - 🇺🇸 美国(TG频道104
+  - 🇺🇸 美国(TG频道105
+  - 🇭🇰 香港(TG频道106
+  - 🇨🇳 中国(TG频道107
+  - 🇨🇳 中国(TG频道108
+  - 🇨🇳 中国(TG频道109
+  - 亚太地区 004110
+  - 🇨🇦 加拿大 003111
+  - 🇨🇦 加拿大 004112
+  - 🇨🇦 加拿大 005113
+  - 🇨🇦 加拿大 006114
+  - 🇨🇦 加拿大 007115
+  - 🇨🇦 加拿大 008116
+  - 🇨🇦 加拿大 010117
+  - 🇨🇦 加拿大 011118
+  - 🇨🇦 加拿大 012119
+  - 🇮🇳 印度 001120
+  - 🇮🇳 印度 002121
+  - 🇮🇳 印度 003122
+  - 🇨🇿 捷克 001123
+  - 🇨🇿 捷克 002124
+  - 🇨🇿 捷克 003125
+  - 🇨🇿 捷克 004126
+  - 🇸🇬 新加坡 001127
+  - 🇯🇵 日本 005128
+  - 🇯🇵 日本 006129
+  - 🇯🇵 日本 007130
+  - 🇯🇵 日本 010131
+  - 🇦🇺 澳大利亚 004132
+  - 🇦🇺 澳大利亚 005133
+  - 🇦🇺 澳大利亚 006134
+  - 🇨🇭 瑞士 001135
+  - 🇨🇭 瑞士 002136
+  - 🇺🇸 美国 046137
+  - 🇺🇸 美国 047138
+  - 🇺🇸 美国 048139
+  - 🇺🇸 美国 049140
+  - 🇺🇸 美国 050141
+  - 🇺🇸 美国 051142
+  - 🇺🇸 美国 052143
+  - 🇺🇸 美国 053144
+  - 🇺🇸 美国 054145
+  - 🇺🇸 美国 055146
+  - 🇺🇸 美国 056147
+  - 🇺🇸 美国 057148
+  - 🇺🇸 美国 058149
+  - 🇺🇸 美国 059150
+  - 🇺🇸 美国 060151
+  - 🇺🇸 美国 061152
+  - 🇺🇸 美国 062153
+  - 🇺🇸 美国 063154
+  - 🇺🇸 美国 064155
+  - 🇺🇸 美国 065156
+  - 🇺🇸 美国 066157
+  - 🇺🇸 美国 067158
+  - 🇺🇸 美国 068159
+  - 🇺🇸 美国 069160
+  - 🇺🇸 美国 070161
+  - 🇺🇸 美国 071162
+  - 🇺🇸 美国 072163
+  - 🇺🇸 美国 073164
+  - 🇺🇸 美国 074165
+  - 🇺🇸 美国 075166
+  - 🇺🇸 美国 076167
+  - 🇺🇸 美国 077168
+  - 🇺🇸 美国 078169
+  - 🇺🇸 美国 079170
+  - 🇺🇸 美国 080171
+  - 🇺🇸 美国 081172
+  - 🇺🇸 美国 082173
+  - 🇺🇸 美国 083174
+  - 🇺🇸 美国 084175
+  - 🇺🇸 美国 085176
+  - 🇺🇸 美国 086177
+  - 🇺🇸 美国 087178
+  - 🇺🇸 美国 088179
+  - 🇺🇸 美国 089180
+  - 🇺🇸 美国 091181
+  - 🇺🇸 美国 092182
+  - 🇺🇸 美国 100183
+  - 🇺🇸 美国 101184
+  - 🇺🇸 美国 103185
+  - 🇬🇧 英国 002186
+  - 🇳🇱 荷兰 001187
+  - 🇰🇷 韩国 001188
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  - 🇦🇺 github.com/freefq - 澳大利亚  8190
+  - 🇨🇳 Taiwan191
+  - '21192'
+  - '22193'
+  - '23194'
+  - '24195'
+  - '26196'
+  - '27197'
+  - '25198'
+  - '28199'
+  - '29200'
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  - 🇻🇳 越南-3号203
+  - 🇻🇳 越南-1号204
+  - 🇻🇳 越南-4号205
+  - '1206'
+  - '2207'
+  - '3208'
+  - '4209'
+  - '6210'
+  - '9211'
+  - '8212'
+  - '11213'
+  - '15214'
+  - '17215'
+  - '18216'
+  - '19217'
+  - '20218'
+  - 台北Scloud-dip7219
+  - 台北Scloud-dip8220
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  - 🇭🇰 HK-CN-刁包子专线222
+  - 🇭🇰 香港GCORE223
+  - 🇭🇰 香港GG224
 - name: 🐟 漏网之鱼
   type: select
   proxies:
@@ -7406,6 +11001,230 @@ proxy-groups:
   - 🇸🇬 新加坡🇸🇬 2340
   - '12341'
   - '16342'
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦1
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦2
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦3
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港4
+  - 🇺🇸 _US_美国5
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦6
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦7
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦8
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦9
+  - default_name10
+  - 🇭🇰 _HK_香港11
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦12
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港13
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港14
+  - 🇺🇸 _US_美国15
+  - 🇷🇺 _RU_俄罗斯联邦16
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦17
+  - 🇸🇬 _SG_新加坡18
+  - 🇺🇸 _US_美国19
+  - 🇰🇷 _KR_韩国20
+  - 🇲🇩 _CN_中国->🇲🇩_MD_摩尔多瓦21
+  - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦22
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡23
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡24
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡25
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡26
+  - 🇺🇸 _US_美国27
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡28
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡29
+  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡30
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)31
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)32
+  - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)33
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)34
+  - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)35
+  - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)36
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用37
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用38
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用39
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用40
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用41
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用42
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用43
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用44
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 745
+  - 🇦🇺 github.com/freefq - 澳大利亚  846
+  - 🇺🇸 美国 05547
+  - 🇺🇸 [09-27]-🇺🇸-美国-066-s1.hass.win48
+  - US_165.232.140.49_0926a63b-6549
+  - 🇺🇸 US 8 → openitsub.com50
+  - 🇺🇸 US 6 → openitsub.com51
+  - 🇺🇸 美国 04352
+  - 🇺🇸 [09-26]-🇺🇸-美国-2100-s1.hass.win53
+  - 🇺🇸 美国 04654
+  - 🇺🇸 US 54855
+  - 白嫖-13056
+  - mianfeifq |US_143.198.61.45_0926bfc9-1457
+  - 白嫖-06858
+  - 🇺🇸 US 9 → openitsub.com59
+  - mianfeifq |US_143.198.61.45_0926a63b-1460
+  - mianfeifq |US_165.232.137.2_0926a63b-12361
+  - mianfeifq |US_165.232.140.49_0926a63b-11562
+  - mianfeifq |🇺🇸_US_wmt(9.24)_2163
+  - US_165.232.140.49_0924d110-7164
+  - 🇺🇸 美国 05465
+  - 🇺🇸 美国 00566
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb67
+  - 🇺🇸 美国 05268
+  - mianfeifq |US_165.232.137.2_0926a63b-12369
+  - 白嫖-13070
+  - US_165.232.137.2_0926bfc9-1271
+  - 🇺🇸 美国 04772
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1294 |18.58Mb73
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb74
+  - 🇺🇸 US 4 → openitsub.com75
+  - 白嫖-12176
+  - 🇺🇸 US 6 → openitsub.com77
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |15.97Mb78
+  - 🇺🇸 US 2 → openitsub.com79
+  - mianfeifq |US_165.232.137.2_0926a63b-1280
+  - 🇺🇸 US 15 → openitsub.com81
+  - 🇺🇸 US 8 → openitsub.com82
+  - 🇺🇸 _US_美国_1_1083
+  - 白嫖-06684
+  - mianfeifq |🇺🇸_US_wmt(9.24)_385
+  - 🇺🇸 美国 04486
+  - 🇺🇸 美国 04287
+  - 🇺🇸 _US_美国_1_1088
+  - 🇺🇸 美国 01089
+  - 白嫖-06990
+  - 🇺🇸 _US_美国_191
+  - 🇺🇸 US 3 → openitsub.com92
+  - 🇺🇸 美国 01093
+  - mianfeifq |US_165.232.137.2_09253e14-1294
+  - mianfeifq 36195
+  - 🇭🇰 香港(TG频道96
+  - 🇨🇳 中国(TG频道97
+  - 🇨🇳 中国(TG频道98
+  - 🇨🇳 中国(TG频道99
+  - 🇨🇳 中国(TG频道100
+  - 🇨🇳 中国(TG频道101
+  - 🇨🇳 中国(TG频道102
+  - 🇭🇰 香港(TG频道103
+  - 🇺🇸 美国(TG频道104
+  - 🇺🇸 美国(TG频道105
+  - 🇭🇰 香港(TG频道106
+  - 🇨🇳 中国(TG频道107
+  - 🇨🇳 中国(TG频道108
+  - 🇨🇳 中国(TG频道109
+  - 亚太地区 004110
+  - 🇨🇦 加拿大 003111
+  - 🇨🇦 加拿大 004112
+  - 🇨🇦 加拿大 005113
+  - 🇨🇦 加拿大 006114
+  - 🇨🇦 加拿大 007115
+  - 🇨🇦 加拿大 008116
+  - 🇨🇦 加拿大 010117
+  - 🇨🇦 加拿大 011118
+  - 🇨🇦 加拿大 012119
+  - 🇮🇳 印度 001120
+  - 🇮🇳 印度 002121
+  - 🇮🇳 印度 003122
+  - 🇨🇿 捷克 001123
+  - 🇨🇿 捷克 002124
+  - 🇨🇿 捷克 003125
+  - 🇨🇿 捷克 004126
+  - 🇸🇬 新加坡 001127
+  - 🇯🇵 日本 005128
+  - 🇯🇵 日本 006129
+  - 🇯🇵 日本 007130
+  - 🇯🇵 日本 010131
+  - 🇦🇺 澳大利亚 004132
+  - 🇦🇺 澳大利亚 005133
+  - 🇦🇺 澳大利亚 006134
+  - 🇨🇭 瑞士 001135
+  - 🇨🇭 瑞士 002136
+  - 🇺🇸 美国 046137
+  - 🇺🇸 美国 047138
+  - 🇺🇸 美国 048139
+  - 🇺🇸 美国 049140
+  - 🇺🇸 美国 050141
+  - 🇺🇸 美国 051142
+  - 🇺🇸 美国 052143
+  - 🇺🇸 美国 053144
+  - 🇺🇸 美国 054145
+  - 🇺🇸 美国 055146
+  - 🇺🇸 美国 056147
+  - 🇺🇸 美国 057148
+  - 🇺🇸 美国 058149
+  - 🇺🇸 美国 059150
+  - 🇺🇸 美国 060151
+  - 🇺🇸 美国 061152
+  - 🇺🇸 美国 062153
+  - 🇺🇸 美国 063154
+  - 🇺🇸 美国 064155
+  - 🇺🇸 美国 065156
+  - 🇺🇸 美国 066157
+  - 🇺🇸 美国 067158
+  - 🇺🇸 美国 068159
+  - 🇺🇸 美国 069160
+  - 🇺🇸 美国 070161
+  - 🇺🇸 美国 071162
+  - 🇺🇸 美国 072163
+  - 🇺🇸 美国 073164
+  - 🇺🇸 美国 074165
+  - 🇺🇸 美国 075166
+  - 🇺🇸 美国 076167
+  - 🇺🇸 美国 077168
+  - 🇺🇸 美国 078169
+  - 🇺🇸 美国 079170
+  - 🇺🇸 美国 080171
+  - 🇺🇸 美国 081172
+  - 🇺🇸 美国 082173
+  - 🇺🇸 美国 083174
+  - 🇺🇸 美国 084175
+  - 🇺🇸 美国 085176
+  - 🇺🇸 美国 086177
+  - 🇺🇸 美国 087178
+  - 🇺🇸 美国 088179
+  - 🇺🇸 美国 089180
+  - 🇺🇸 美国 091181
+  - 🇺🇸 美国 092182
+  - 🇺🇸 美国 100183
+  - 🇺🇸 美国 101184
+  - 🇺🇸 美国 103185
+  - 🇬🇧 英国 002186
+  - 🇳🇱 荷兰 001187
+  - 🇰🇷 韩国 001188
+  - 🇭🇰 github.com/freefq - 香港ADCDATA数据中心 7189
+  - 🇦🇺 github.com/freefq - 澳大利亚  8190
+  - 🇨🇳 Taiwan191
+  - '21192'
+  - '22193'
+  - '23194'
+  - '24195'
+  - '26196'
+  - '27197'
+  - '25198'
+  - '28199'
+  - '29200'
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体201
+  - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体202
+  - 🇻🇳 越南-3号203
+  - 🇻🇳 越南-1号204
+  - 🇻🇳 越南-4号205
+  - '1206'
+  - '2207'
+  - '3208'
+  - '4209'
+  - '6210'
+  - '9211'
+  - '8212'
+  - '11213'
+  - '15214'
+  - '17215'
+  - '18216'
+  - '19217'
+  - '20218'
+  - 台北Scloud-dip7219
+  - 台北Scloud-dip8220
+  - 🇭🇰 日本NTT-(hkt) | 解锁流媒体221
+  - 🇭🇰 HK-CN-刁包子专线222
+  - 🇭🇰 香港GCORE223
+  - 🇭🇰 香港GG224
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
