@@ -16,14 +16,25 @@ dns:
   nameserver:
     - 119.29.29.29
     - 223.5.5.5
-    - https://13800000000.rubyfish.cn/
-    - https://dns.alidns.com/dns-query
-    - https://doh.360.cn/dns-query
+    # - https://13800000000.rubyfish.cn/
+    # - https://dns.alidns.com/dns-query
+    # - https://doh.360.cn/dns-query
   fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - tls://8.8.8.8:853 # Google DNS over TLS
+    - tls://8.8.4.4:853 # cloudflare DNS over TLS
+    - https://1.1.1.1/dns-query # cloudflare DNS over HTTPS
+    - https://dns.google/dns-query # Google DNS over HTTPS
+    # - 8.8.8.8
+    # - 8.8.4.4
+    # - tls://1.0.0.1:853
+    # - tls://dns.google:853
+  # 强制DNS解析使用`fallback`配置
+  fallback-filter:
+    # true: CN使用nameserver解析，非CN使用fallback
+    geoip: true
+    # geoip设置为false时有效： 不匹配`ipcidr`地址时会使用`nameserver`结果，匹配`ipcidr`地址时使用`fallback`结果。
+    ipcidr:
+      - 240.0.0.0/4
   default-nameserver:
     - 1.2.4.8
     - 223.5.5.5
@@ -51,6 +62,7 @@ proxy-groups:
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
+    strategy: round-robin
     proxies:
   - name: 🌍 国外媒体
     type: select
