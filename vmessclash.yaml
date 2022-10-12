@@ -6125,738 +6125,1668 @@ proxies:
   password: '666888'
   skip-cert-verify: true
   sni: linus.sbs
-- name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss2
+- name: 🇺🇸 _CN_中国->🇺🇸_US_美国ss1
+  server: 116.129.253.138
+  port: '21072'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: 6LsAQVWwqjW0xGfI
   type: ss
+- name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss2
   server: 116.129.254.45
   port: '12144'
-  password: Taessica1026
+  method: aes-128-ctr
   cipher: aes-128-ctr
-- name: 🇺🇸 _CN_中国->🇺🇸_US_美国ss5
+  password: Taessica1026
   type: ss
+- name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss3
+  server: 116.129.254.35
+  port: '11979'
+  method: chacha20-ietf
+  cipher: chacha20-ietf
+  password: NQNpFv
+  type: ss
+- name: 🇯🇵 _JP_日本ss4
+  server: xmssmf02.xmss.vip
+  port: '17777'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 10657658-502a-42fd-97fd-1e08f538e13d
+  type: ss
+- name: 🇺🇸 _CN_中国->🇺🇸_US_美国ss5
   server: 116.129.253.138
   port: '12144'
-  password: Taessica1026
+  method: aes-128-ctr
   cipher: aes-128-ctr
-- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss7
+  password: Taessica1026
   type: ss
+- name: 🇮🇱 _IL_以色列ss6
+  server: 83.229.73.60
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss7
   server: 14.29.124.174
   port: '11036'
-  password: QazEdcTgb159@$*
+  method: aes-128-cfb
   cipher: aes-128-cfb
-- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss8
+  password: QazEdcTgb159@$*
   type: ss
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss8
   server: 14.29.124.174
   port: '11039'
-  password: QazEdcTgb159@$*
+  method: aes-128-cfb
   cipher: aes-128-cfb
-- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss9
+  password: QazEdcTgb159@$*
   type: ss
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss9
   server: 14.29.124.174
   port: '11015'
-  password: QazEdcTgb159@$*
+  method: aes-128-cfb
   cipher: aes-128-cfb
-- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss10
+  password: QazEdcTgb159@$*
   type: ss
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss10
   server: 14.29.124.174
   port: '11019'
-  password: QazEdcTgb159@$*
+  method: aes-128-cfb
   cipher: aes-128-cfb
-- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss11
+  password: QazEdcTgb159@$*
   type: ss
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港ss11
   server: 14.29.124.174
   port: '11035'
-  password: QazEdcTgb159@$*
+  method: aes-128-cfb
   cipher: aes-128-cfb
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss12
+  password: QazEdcTgb159@$*
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss12
   server: 193.118.60.173
   port: '2375'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss13
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss13
   server: 193.118.60.174
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss14
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss14
   server: 79.110.54.133
   port: '31572'
-  password: n8w4StnbVD9dmXYn4Ajt87EA
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 罗马(欢迎订阅Youtube破解资源君)ss15
+  password: n8w4StnbVD9dmXYn4Ajt87EA
   type: ss
+- name: 罗马(欢迎订阅Youtube破解资源君)ss15
   server: 91.90.123.173
   port: '49653'
-  password: Y9GcTPemHMKEkrfGQPJqFDNr
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 罗马(欢迎订阅Youtube破解资源君)ss16
+  password: Y9GcTPemHMKEkrfGQPJqFDNr
   type: ss
+- name: 罗马(欢迎订阅Youtube破解资源君)ss16
   server: 193.29.107.125
   port: '44539'
-  password: r6hDrkP4Et6EENTS8Qy7Tcmg
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss17
+  password: r6hDrkP4Et6EENTS8Qy7Tcmg
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss17
   server: 128.14.222.215
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss18
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss18
   server: 167.88.63.108
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss19
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss19
   server: 145.239.1.137
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss20
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss20
   server: 134.195.196.147
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss21
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss21
   server: 167.88.63.99
   port: '8091'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss22
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss22
   server: 198.57.27.225
   port: '2375'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss23
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss23
   server: 128.14.222.218
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss24
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss24
   server: 172.99.190.186
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss25
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss25
   server: 51.77.53.200
   port: '8091'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss26
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss26
   server: 198.57.27.218
   port: '8091'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss27
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss27
   server: 134.195.198.178
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss28
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss28
   server: 128.14.222.220
   port: '8091'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss29
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss29
   server: 172.99.190.57
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss30
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss30
   server: 167.88.63.19
   port: '7306'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 罗马(欢迎订阅Youtube破解资源君)ss31
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 罗马(欢迎订阅Youtube破解资源君)ss31
   server: 193.29.107.123
   port: '31944'
-  password: aYNeKDMzYQYw4KbUbJA8Wszq
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss32
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss32
   server: 134.195.196.165
   port: '8091'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss33
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss33
   server: 134.195.196.79
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss34
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss34
   server: 134.195.198.178
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss35
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss35
   server: 193.118.60.177
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss36
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss36
   server: 134.195.196.71
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss37
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss37
   server: 172.99.190.188
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss38
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss38
   server: 172.99.190.139
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss39
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss39
   server: 134.195.196.110
   port: '2375'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇫🇷 法国(欢迎订阅Youtube破解资源君)ss40
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇫🇷 法国(欢迎订阅Youtube破解资源君)ss40
   server: 145.239.1.137
   port: '8091'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss41
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss41
   server: 148.72.169.209
   port: '33992'
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss42
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss42
   server: 5.253.207.51
   port: '33992'
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss43
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss43
   server: 128.14.222.216
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss44
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss44
   server: 128.14.222.210
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss45
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss45
   server: 128.14.222.211
   port: '7306'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss46
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss46
   server: 5.39.70.138
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss47
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss47
   server: 198.57.27.247
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss48
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss48
   server: 193.118.60.179
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss49
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss49
   server: 167.88.63.61
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss50
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss50
   server: 172.99.190.92
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 罗马(欢迎订阅Youtube破解资源君)ss51
+  password: faBAoD54k87UJG7
   type: ss
+- name: 罗马(欢迎订阅Youtube破解资源君)ss51
   server: 91.90.123.150
   port: '50232'
-  password: CjchzpwdSjRtDjezYMwx9BKM
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss52
+  password: CjchzpwdSjRtDjezYMwx9BKM
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss52
   server: 38.107.226.146
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss53
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss53
   server: 172.99.190.158
   port: '8091'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss54
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss54
   server: 172.99.190.149
   port: '7306'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss55
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss55
   server: 198.57.27.218
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss56
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss56
   server: 27.131.164.94
   port: '31757'
-  password: wj7nDCuNARchSeKNCN8VFK62
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss57
+  password: wj7nDCuNARchSeKNCN8VFK62
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss57
   server: 128.14.222.216
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss58
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss58
   server: 38.39.192.74
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss59
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss59
   server: 167.88.63.28
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 罗马(欢迎订阅Youtube破解资源君)ss60
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 罗马(欢迎订阅Youtube破解资源君)ss60
   server: 79.110.54.117
   port: '41676'
-  password: z6pH3RyttkRWhJ5tpRyt6dYk
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss61
+  password: z6pH3RyttkRWhJ5tpRyt6dYk
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss61
   server: 134.195.196.163
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss62
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss62
   server: 85.10.56.192
   port: '40093'
-  password: x23Z4LGkGDkThZ9Kaz4DURQp
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss63
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss63
   server: 51.77.52.206
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss64
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss64
   server: 199.10.64.243
   port: '49126'
-  password: wrCaGtrUbzeRqQLdc8Kmk3Nd
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss65
+  password: wrCaGtrUbzeRqQLdc8Kmk3Nd
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss65
   server: 134.195.198.250
   port: '7306'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss66
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss66
   server: 172.99.190.7
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss67
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss67
   server: 51.77.52.74
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss68
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss68
   server: 193.118.60.171
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss69
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss69
   server: 172.99.190.90
   port: '2375'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss70
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss70
   server: 38.107.226.159
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss71
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss71
   server: 167.88.63.60
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss72
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss72
   server: 172.99.190.130
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss73
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss73
   server: 172.99.190.232
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss74
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss74
   server: 172.99.190.246
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss75
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss75
   server: 193.118.60.165
   port: '2375'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss76
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss76
   server: 146.70.27.12
   port: '40093'
-  password: x23Z4LGkGDkThZ9Kaz4DURQp
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss77
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss77
   server: 198.57.27.243
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss78
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss78
   server: 172.99.190.35
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss79
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss79
   server: 172.99.190.109
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss80
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss80
   server: 198.57.27.247
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss81
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss81
   server: 91.90.123.115
   port: '50168'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss82
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss82
   server: 192.169.112.179
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss83
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss83
   server: 134.195.196.97
   port: '2375'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇧🇷 巴西(欢迎订阅Youtube破解资源君)ss84
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇧🇷 巴西(欢迎订阅Youtube破解资源君)ss84
   server: 129.227.219.24
   port: '50168'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss85
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss85
   server: 185.225.28.93
   port: '31944'
-  password: aYNeKDMzYQYw4KbUbJA8Wszq
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss86
+  password: aYNeKDMzYQYw4KbUbJA8Wszq
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss86
   server: 134.195.196.154
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss87
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss87
   server: 38.39.192.74
   port: '8090'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss88
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss88
   server: 38.39.192.74
   port: '7306'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss89
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss89
   server: 198.57.27.238
   port: '8091'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss90
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)ss90
   server: 134.195.198.95
   port: '7306'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss91
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss91
   server: 193.118.60.175
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss92
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss92
   server: 193.118.60.170
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss93
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss93
   server: 193.118.60.167
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss94
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss94
   server: 193.118.60.166
   port: '8091'
-  password: PCnnH6SQSnfoS27
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss95
+  password: PCnnH6SQSnfoS27
   type: ss
+- name: 🇬🇧 英国(欢迎订阅Youtube破解资源君)ss95
   server: 193.118.60.176
   port: '7306'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss96
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss96
   server: 192.169.112.165
   port: '2375'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss97
+  password: faBAoD54k87UJG7
   type: ss
+- name: 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss97
   server: 172.107.233.230
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 罗马(欢迎订阅Youtube破解资源君)ss98
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 罗马(欢迎订阅Youtube破解资源君)ss98
   server: 193.29.107.125
   port: '50168'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss99
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
   type: ss
+- name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss99
   server: 46.29.218.6
   port: '2375'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss100
+  password: faBAoD54k87UJG7
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss100
   server: 38.75.136.21
   port: '5003'
-  password: g5MeD6Ft3CWlJId
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss102
+  password: g5MeD6Ft3CWlJId
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss101
+  server: 138.197.174.245
+  port: '56443'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: yuMqkGIx6Ia0
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss102
   server: 82.102.26.117
   port: '44236'
-  password: FWrXcxPZjJxAN89xLgqY3Acp
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss108
+  password: FWrXcxPZjJxAN89xLgqY3Acp
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss103
+  server: 167.99.192.30
+  port: '3567'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: HGBdOKdcIer5
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss104
+  server: 38.75.136.21
+  port: '8080'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss105
+  server: 154.17.1.251
+  port: '18334'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss106
+  server: 145.239.1.100
+  port: '8888'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss107
+  server: 164.90.234.85
+  port: '18492'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: fdRAl4scWDTg
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss108
   server: 38.121.43.71
   port: '8119'
-  password: cdBIDV42DCwnfIN
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss110
+  password: cdBIDV42DCwnfIN
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss109
+  server: 185.167.116.24
+  port: '9097'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: Sn5B7jTqr76aCJT8
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss110
   server: 198.8.92.84
   port: '44945'
-  password: F5bKkb9ggkLx4JbQrbLn7LjZ
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss111
+  password: F5bKkb9ggkLx4JbQrbLn7LjZ
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss111
   server: 198.8.92.84
   port: '40220'
-  password: ugyBkSEFxVEmUYSHyvxmWNj9
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss112
+  password: ugyBkSEFxVEmUYSHyvxmWNj9
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss112
   server: 38.68.134.85
   port: '6679'
-  password: TEzjfAYq2IjtuoS
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss115
+  password: TEzjfAYq2IjtuoS
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss113
+  server: 145.239.1.100
+  port: '8080'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss114
+  server: 38.114.114.19
+  port: '5601'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss115
   server: 38.114.114.19
   port: '443'
-  password: pKEW8JPByTVTLtM
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss117
+  password: pKEW8JPByTVTLtM
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss116
+  server: 38.68.135.18
+  port: '5500'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss117
   server: 198.8.92.84
   port: '49396'
-  password: BdRWC38L5JUDMTYNNxJGcUwB
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss118
+  password: BdRWC38L5JUDMTYNNxJGcUwB
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss118
   server: 66.115.175.37
   port: '50168'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss122
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss119
+  server: 38.143.66.99
+  port: '5001'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss120
+  server: 185.167.116.253
+  port: '9014'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: KnJGad3FqTvjqbaX
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss121
+  server: 149.202.82.172
+  port: '8080'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss122
   server: 198.8.92.84
   port: '38620'
-  password: Kquv5UhvZXNMemAQy8DxZ7qn
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss124
+  password: Kquv5UhvZXNMemAQy8DxZ7qn
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss123
+  server: 38.75.136.21
+  port: '5001'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss124
   server: 198.8.92.84
   port: '35294'
-  password: J9Y2ncrdPEC38gwydNFFGBna
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss125
+  password: J9Y2ncrdPEC38gwydNFFGBna
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss125
   server: 38.143.66.99
   port: '8118'
-  password: cdBIDV42DCwnfIN
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss130
+  password: cdBIDV42DCwnfIN
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss126
+  server: 154.17.5.184
+  port: '18331'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss127
+  server: 196.247.59.154
+  port: '800'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss128
+  server: 213.183.53.222
+  port: '9014'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: KnJGad3FqTvjqbaX
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss129
+  server: 78.129.253.9
+  port: '809'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss130
   server: 86.106.136.125
   port: '50168'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss133
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss131
+  server: 38.68.134.85
+  port: '5600'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss132
+  server: 154.17.2.31
+  port: '18333'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss133
   server: 134.195.196.149
   port: '7307'
-  password: FoOiGlkAA9yPEGP
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss135
+  password: FoOiGlkAA9yPEGP
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss134
+  server: 154.17.2.112
+  port: '18335'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss135
   server: 145.239.1.100
   port: '8882'
-  password: kDWvXYZoTBcGkC4
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss137
+  password: kDWvXYZoTBcGkC4
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss136
+  server: 172.99.190.39
+  port: '5500'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss137
   server: 185.108.105.129
   port: '50168'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss138
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss138
   server: 38.121.43.71
   port: '8882'
-  password: kDWvXYZoTBcGkC4
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss141
+  password: kDWvXYZoTBcGkC4
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss139
+  server: 167.88.63.79
+  port: '3306'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss140
+  server: 213.183.63.221
+  port: '9001'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss141
   server: 38.114.114.67
   port: '6697'
-  password: TEzjfAYq2IjtuoS
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss142
+  password: TEzjfAYq2IjtuoS
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss142
   server: 82.102.26.117
   port: '33992'
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss143
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss143
   server: 195.154.200.150
   port: '2376'
-  password: faBAoD54k87UJG7
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss147
+  password: faBAoD54k87UJG7
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss144
+  server: 154.17.2.153
+  port: '18334'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss145
+  server: 212.102.53.78
+  port: '443'
+  method: aes-128-gcm
+  cipher: aes-128-gcm
+  password: shadowsocks
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss146
+  server: 38.64.138.145
+  port: '8080'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss147
   server: 198.147.22.87
   port: '33998'
-  password: NHwQTPLCfaTMSqTnU3mjcSxe
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss148
+  password: NHwQTPLCfaTMSqTnU3mjcSxe
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss148
   server: 172.99.190.39
   port: '5003'
-  password: g5MeD6Ft3CWlJId
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss149
+  password: g5MeD6Ft3CWlJId
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss149
   server: 146.70.48.53
   port: '50168'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss151
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss150
+  server: 52.58.249.78
+  port: '57824'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: pryhyxya
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss151
   server: 149.202.82.172
   port: '6697'
-  password: TEzjfAYq2IjtuoS
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss154
+  password: TEzjfAYq2IjtuoS
   type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss152
+  server: 167.88.61.175
+  port: '8080'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss153
+  server: 185.167.116.253
+  port: '9050'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: FG5ddLsMPbV5CutE
+  type: ss
+- name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss154
   server: 81.19.208.107
   port: '50168'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
+  method: aes-256-gcm
   cipher: aes-256-gcm
-- name: 🇨🇳 CN 20 → openitsub.comss170
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
   type: ss
+- name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 7ss155
+  server: xmssmf02.xmss.vip
+  port: '17777'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 10657658-502a-42fd-97fd-1e08f538e13d
+  type: ss
+- name: 🇮🇹 github.com/freefq - 意大利  13ss156
+  server: 212.102.53.78
+  port: '443'
+  method: aes-128-gcm
+  cipher: aes-128-gcm
+  password: shadowsocks
+  type: ss
+- name: 🇸🇬 github.com/freefq - 北京市新国信通信有限公司 26ss157
+  server: 116.129.254.35
+  port: '21072'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: 6LsAQVWwqjW0xGfI
+  type: ss
+- name: 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss158
+  server: 162.251.61.221
+  port: '804'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  type: ss
+- name: 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧ss159
+  server: 162.251.61.221
+  port: '800'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  type: ss
+- name: 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss160
+  server: 162.251.61.221
+  port: '804'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  type: ss
+- name: 🇨🇳 CN 3 → openitsub.comss161
+  server: 116.129.254.35
+  port: '11979'
+  method: chacha20-ietf
+  cipher: chacha20-ietf
+  password: NQNpFv
+  type: ss
+- name: 🇨🇳 CN 76 → openitsub.comss162
+  server: 116.129.254.35
+  port: '11979'
+  method: chacha20-ietf
+  cipher: chacha20-ietf
+  password: NQNpFv
+  type: ss
+- name: 45.77.48.44:8099ss163
+  server: 45.77.48.44
+  port: '8099'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  type: ss
+- name: 45.77.48.44:8099ss164
+  server: 45.77.48.44
+  port: '8099'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  type: ss
+- name: 🇨🇳 CN 16 → openitsub.comss165
+  server: 116.129.254.35
+  port: '21072'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: 6LsAQVWwqjW0xGfI
+  type: ss
+- name: PT_【付费推荐：wxfz.ml】ss166
+  server: 185.113.140.247
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇨🇳 CN 15 → openitsub.comss167
+  server: 116.129.253.138
+  port: '21072'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: 6LsAQVWwqjW0xGfI
+  type: ss
+- name: 🇨🇳 CN 45 → openitsub.comss168
+  server: 116.129.253.138
+  port: '21072'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: 6LsAQVWwqjW0xGfI
+  type: ss
+- name: 🇨🇳 CN 2 → openitsub.comss169
+  server: 116.129.254.35
+  port: '21072'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: 6LsAQVWwqjW0xGfI
+  type: ss
+- name: 🇨🇳 CN 20 → openitsub.comss170
   server: 116.129.254.35
   port: '12144'
-  password: Taessica1026
+  method: aes-128-ctr
   cipher: aes-128-ctr
-- name: 🇺🇸 美国 043ss195
+  password: Taessica1026
   type: ss
+- name: xmssmf02.xmss.vip:17777ss171
+  server: xmssmf02.xmss.vip
+  port: '17777'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 10657658-502a-42fd-97fd-1e08f538e13d
+  type: ss
+- name: 212.102.53.78:443ss172
+  server: 212.102.53.78
+  port: '443'
+  method: aes-128-gcm
+  cipher: aes-128-gcm
+  password: shadowsocks
+  type: ss
+- name: (TG频道:@kxswa)ss173
+  plugin: v2ray-plugin
+  mode: websocket
+  host: fn600mlines008.fnline.vip
+  tls: 'true'
+  path: /
+  mux: 'true'
+  server: 103.177.33.146
+  port: '443'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: fc568c325d09
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss174
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-03.paofunlink.com
+  port: '1198'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss175
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-03.paofunlink.com
+  port: '1156'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: (TG频道:@kxswa)ss176
+  server: 194.26.213.155
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss177
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-05.paofunlink.com
+  port: '1171'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 🇵🇹 葡萄牙(TG频道:@kxswa)ss178
+  server: 185.113.140.247
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇮🇱 以色列(TG频道:@kxswa)ss179
+  server: 83.229.73.60
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss180
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-05.paofunlink.com
+  port: '1150'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss181
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-03.paofunlink.com
+  port: '1172'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 🇦🇺 澳大利亚(TG频道:@kxswa)ss182
+  server: 185.167.116.250
+  port: '9050'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: FG5ddLsMPbV5CutE
+  type: ss
+- name: 🇦🇺 澳大利亚(TG频道:@kxswa)ss183
+  server: 185.167.116.250
+  port: '9073'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: daFYagqDdBdA6VTX
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss184
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-03.paofunlink.com
+  port: '1157'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss185
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-03.paofunlink.com
+  port: '1170'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss186
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-03.paofunlink.com
+  port: '1158'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss187
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-03.paofunlink.com
+  port: '1187'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss188
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-03.paofunlink.com
+  port: '1197'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 🇨🇳 中国(TG频道:@kxswa)ss189
+  plugin: simple-obfs
+  obfs: http
+  obfs-host: 9b364117088.microsoft.com
+  server: yd-05.paofunlink.com
+  port: '1151'
+  method: rc4-md5
+  cipher: rc4-md5
+  password: Paofu
+  type: ss
+- name: 亚太地区 003ss190
+  plugin: v2ray-plugin
+  mode: websocket
+  mux: mux
+  host: fn600mlines008.fnline.vip
+  path: /
+  server: 103.177.33.146
+  port: '443'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: fc568c325d09
+  type: ss
+- name: 🇵🇰 巴基斯坦 001ss191
+  plugin: v2ray-plugin
+  mode: websocket
+  mux: mux
+  host: fn600mlines021.fnline.info
+  server: fn600mlines021.fnline.info
+  port: '443'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 0ac84efef442
+  type: ss
+- name: 🇩🇪 德国 002ss192
+  server: 142.202.51.98
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇦🇺 澳大利亚 006ss193
+  server: 185.167.116.250
+  port: '9050'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: FG5ddLsMPbV5CutE
+  type: ss
+- name: 🇦🇺 澳大利亚 007ss194
+  server: 185.167.116.250
+  port: '9073'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: daFYagqDdBdA6VTX
+  type: ss
+- name: 🇺🇸 美国 043ss195
   server: www.v2rayfree.eu.org
   port: '443'
-  password: 6601fb90e9b3
+  method: aes-128-gcm
   cipher: aes-128-gcm
+  password: 6601fb90e9b3
+  type: ss
+- name: 🇺🇸 美国 062ss196
+  server: xmssmf02.xmss.vip
+  port: '17777'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  type: ss
+- name: 🇺🇸 美国 063ss197
+  server: agroup.node4.s.nodelist-gfwairport.download
+  port: '50001'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac
+  type: ss
+- name: 🇬🇧 英国 002ss198
+  server: 146.70.53.242
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇬🇧 英国 003ss199
+  server: 212.102.53.78
+  port: '443'
+  method: aes-128-gcm
+  cipher: aes-128-gcm
+  password: shadowsocks
+  type: ss
+- name: 🇬🇧 英国 005ss200
+  server: 83.229.73.60
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇳🇱 荷兰 002ss201
+  server: 194.26.213.155
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇵🇭 菲律宾 001ss202
+  server: 49.157.28.212
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇵🇹 葡萄牙 002ss203
+  server: 185.113.140.247
+  port: '50000'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: '3135771619'
+  type: ss
+- name: 🇺🇸 github.com/freefq - 美国Microsoft数据中心 3ss204
+  server: 20.210.122.21
+  port: '443'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: 233blog.com
+  type: ss
+- name: 🇺🇸 github.com/freefq - 美国宾夕法尼亚州拉克万纳县克拉克斯萨密特自治区VolumeDrive股份有限公司 6ss205
+  server: 199.115.228.30
+  port: '253'
+  method: aes-256-cfb
+  cipher: aes-256-cfb
+  password: bwhskrskr05
+  type: ss
+- name: github.com/freefq - 欧盟  39ss206
+  server: mf01.xmss.vip
+  port: '18888'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  type: ss
+- name: 🇭🇰 湖南联通转香港HKT3[M][倍率:0.9]ss207
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.254.12
+  port: '65526'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇭🇰 上海电信转香港BGP4[M][倍率:1.1]ss208
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: cn-shtele.lfk5s2.ccddn4.icu
+  port: '65002'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇭🇰 上海电信转香港BGP3[M][倍率:1.1]ss209
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: cn-shtele.lfk5s2.ccddn4.icu
+  port: '65001'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇯🇵 湖南联通转日本NTT5[倍率:0.8]ss210
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.254.12
+  port: '65522'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇯🇵 长沙联通转日本NTT[M][倍率:0.8]ss211
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.253.131
+  port: '65522'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇯🇵 湖南联通转日本NTT[倍率:0.8]ss212
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.254.5
+  port: '4569'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇨🇳 湖南联通转台湾KBT[M][倍率:1]ss213
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.254.5
+  port: '4565'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇯🇵 长沙联通转日本NTT3[M][倍率:0.8]ss214
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.253.131
+  port: '65523'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇨🇳 长沙联通转台湾HiNet2[倍率:1]ss215
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.253.131
+  port: '65520'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇯🇵 湖南联通转日本Azure[倍率:1]ss216
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.254.12
+  port: '65520'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇯🇵 湖南联通转日本NTT4[倍率:0.8]ss217
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.254.12
+  port: '65521'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇯🇵 长沙联通转日本Webarena[M][倍率:0.9]ss218
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.253.131
+  port: '65526'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇯🇵 湖南联通转日本Webarena[M][倍率:0.8]ss219
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.254.12
+  port: '65523'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇭🇰 长沙联通转香港BGP[M][倍率:0.9]ss220
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: 116.129.253.131
+  port: '65524'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: 🇨🇳 上海电信转台湾HiNet2[M][倍率:1.2]ss221
+  plugin: obfs-local
+  obfs: http
+  obfs-host: 1af96125473.dm.files.1drv.com
+  obfs-uri: /
+  server: cn-shtele.lfk5s2.ccddn4.icu
+  port: '65003'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 4EyS3nbpwetIJvPQ
+  type: ss
+- name: USSSss222
+  server: xmssmf01.xmss.vip
+  port: '16666'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 10657658-502a-42fd-97fd-1e08f538e13d
+  type: ss
 - server: 42.157.196.103
   port: '10120'
   protocol: auth_aes128_md5
@@ -7751,8 +8681,12 @@ proxy-groups:
   - 🇯🇵 [BGP-GSLB]尼日尼亚trojan162
   - 🇭🇰 香港Misaka-diptrojan163
   - GHtrojan164
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国ss1
   - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss2
+  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss3
+  - 🇯🇵 _JP_日本ss4
   - 🇺🇸 _CN_中国->🇺🇸_US_美国ss5
+  - 🇮🇱 _IL_以色列ss6
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss7
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss8
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss9
@@ -7846,33 +8780,129 @@ proxy-groups:
   - 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss97
   - 罗马(欢迎订阅Youtube破解资源君)ss98
   - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss99
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss100
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss102
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss108
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss110
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss111
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss112
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss115
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss117
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss118
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss122
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss124
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss125
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss130
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss133
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss135
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss137
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss138
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss141
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss142
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss143
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss147
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss148
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss149
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss151
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss154
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss100
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss101
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss102
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss103
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss104
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss105
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss106
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss107
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss108
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss109
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss110
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss111
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss112
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss113
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss114
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss115
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss116
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss117
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss118
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss119
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss120
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss121
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss122
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss123
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss124
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss125
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss126
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss127
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss128
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss129
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss130
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss131
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss132
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss133
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss134
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss135
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss136
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss137
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss138
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss139
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss140
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss141
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss142
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss143
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss144
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss145
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss146
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss147
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss148
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss149
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss150
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss151
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss152
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss153
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss154
+  - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 7ss155
+  - 🇮🇹 github.com/freefq - 意大利  13ss156
+  - 🇸🇬 github.com/freefq - 北京市新国信通信有限公司 26ss157
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss158
+  - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧ss159
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss160
+  - 🇨🇳 CN 3 → openitsub.comss161
+  - 🇨🇳 CN 76 → openitsub.comss162
+  - 45.77.48.44:8099ss163
+  - 45.77.48.44:8099ss164
+  - 🇨🇳 CN 16 → openitsub.comss165
+  - PT_【付费推荐：wxfz.ml】ss166
+  - 🇨🇳 CN 15 → openitsub.comss167
+  - 🇨🇳 CN 45 → openitsub.comss168
+  - 🇨🇳 CN 2 → openitsub.comss169
   - 🇨🇳 CN 20 → openitsub.comss170
+  - xmssmf02.xmss.vip:17777ss171
+  - 212.102.53.78:443ss172
+  - (TG频道:@kxswa)ss173
+  - 🇨🇳 中国(TG频道:@kxswa)ss174
+  - 🇨🇳 中国(TG频道:@kxswa)ss175
+  - (TG频道:@kxswa)ss176
+  - 🇨🇳 中国(TG频道:@kxswa)ss177
+  - 🇵🇹 葡萄牙(TG频道:@kxswa)ss178
+  - 🇮🇱 以色列(TG频道:@kxswa)ss179
+  - 🇨🇳 中国(TG频道:@kxswa)ss180
+  - 🇨🇳 中国(TG频道:@kxswa)ss181
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss182
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss183
+  - 🇨🇳 中国(TG频道:@kxswa)ss184
+  - 🇨🇳 中国(TG频道:@kxswa)ss185
+  - 🇨🇳 中国(TG频道:@kxswa)ss186
+  - 🇨🇳 中国(TG频道:@kxswa)ss187
+  - 🇨🇳 中国(TG频道:@kxswa)ss188
+  - 🇨🇳 中国(TG频道:@kxswa)ss189
+  - 亚太地区 003ss190
+  - 🇵🇰 巴基斯坦 001ss191
+  - 🇩🇪 德国 002ss192
+  - 🇦🇺 澳大利亚 006ss193
+  - 🇦🇺 澳大利亚 007ss194
   - 🇺🇸 美国 043ss195
+  - 🇺🇸 美国 062ss196
+  - 🇺🇸 美国 063ss197
+  - 🇬🇧 英国 002ss198
+  - 🇬🇧 英国 003ss199
+  - 🇬🇧 英国 005ss200
+  - 🇳🇱 荷兰 002ss201
+  - 🇵🇭 菲律宾 001ss202
+  - 🇵🇹 葡萄牙 002ss203
+  - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 3ss204
+  - 🇺🇸 github.com/freefq - 美国宾夕法尼亚州拉克万纳县克拉克斯萨密特自治区VolumeDrive股份有限公司 6ss205
+  - github.com/freefq - 欧盟  39ss206
+  - 🇭🇰 湖南联通转香港HKT3[M][倍率:0.9]ss207
+  - 🇭🇰 上海电信转香港BGP4[M][倍率:1.1]ss208
+  - 🇭🇰 上海电信转香港BGP3[M][倍率:1.1]ss209
+  - 🇯🇵 湖南联通转日本NTT5[倍率:0.8]ss210
+  - 🇯🇵 长沙联通转日本NTT[M][倍率:0.8]ss211
+  - 🇯🇵 湖南联通转日本NTT[倍率:0.8]ss212
+  - 🇨🇳 湖南联通转台湾KBT[M][倍率:1]ss213
+  - 🇯🇵 长沙联通转日本NTT3[M][倍率:0.8]ss214
+  - 🇨🇳 长沙联通转台湾HiNet2[倍率:1]ss215
+  - 🇯🇵 湖南联通转日本Azure[倍率:1]ss216
+  - 🇯🇵 湖南联通转日本NTT4[倍率:0.8]ss217
+  - 🇯🇵 长沙联通转日本Webarena[M][倍率:0.9]ss218
+  - 🇯🇵 湖南联通转日本Webarena[M][倍率:0.8]ss219
+  - 🇭🇰 长沙联通转香港BGP[M][倍率:0.9]ss220
+  - 🇨🇳 上海电信转台湾HiNet2[M][倍率:1.2]ss221
+  - USSSss222
   - adi|0703v - 10120ssr1
   - adi|0703v - 20037ssr2
   - 🇭🇰 adi|0703v - dg-hk-node02ssr3
@@ -8454,8 +9484,12 @@ proxy-groups:
   - 🇯🇵 [BGP-GSLB]尼日尼亚trojan162
   - 🇭🇰 香港Misaka-diptrojan163
   - GHtrojan164
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国ss1
   - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss2
+  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss3
+  - 🇯🇵 _JP_日本ss4
   - 🇺🇸 _CN_中国->🇺🇸_US_美国ss5
+  - 🇮🇱 _IL_以色列ss6
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss7
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss8
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss9
@@ -8549,33 +9583,129 @@ proxy-groups:
   - 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss97
   - 罗马(欢迎订阅Youtube破解资源君)ss98
   - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss99
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss100
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss102
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss108
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss110
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss111
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss112
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss115
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss117
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss118
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss122
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss124
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss125
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss130
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss133
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss135
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss137
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss138
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss141
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss142
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss143
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss147
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss148
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss149
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss151
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss154
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss100
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss101
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss102
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss103
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss104
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss105
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss106
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss107
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss108
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss109
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss110
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss111
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss112
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss113
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss114
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss115
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss116
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss117
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss118
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss119
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss120
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss121
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss122
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss123
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss124
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss125
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss126
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss127
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss128
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss129
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss130
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss131
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss132
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss133
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss134
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss135
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss136
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss137
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss138
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss139
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss140
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss141
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss142
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss143
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss144
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss145
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss146
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss147
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss148
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss149
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss150
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss151
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss152
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss153
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss154
+  - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 7ss155
+  - 🇮🇹 github.com/freefq - 意大利  13ss156
+  - 🇸🇬 github.com/freefq - 北京市新国信通信有限公司 26ss157
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss158
+  - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧ss159
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss160
+  - 🇨🇳 CN 3 → openitsub.comss161
+  - 🇨🇳 CN 76 → openitsub.comss162
+  - 45.77.48.44:8099ss163
+  - 45.77.48.44:8099ss164
+  - 🇨🇳 CN 16 → openitsub.comss165
+  - PT_【付费推荐：wxfz.ml】ss166
+  - 🇨🇳 CN 15 → openitsub.comss167
+  - 🇨🇳 CN 45 → openitsub.comss168
+  - 🇨🇳 CN 2 → openitsub.comss169
   - 🇨🇳 CN 20 → openitsub.comss170
+  - xmssmf02.xmss.vip:17777ss171
+  - 212.102.53.78:443ss172
+  - (TG频道:@kxswa)ss173
+  - 🇨🇳 中国(TG频道:@kxswa)ss174
+  - 🇨🇳 中国(TG频道:@kxswa)ss175
+  - (TG频道:@kxswa)ss176
+  - 🇨🇳 中国(TG频道:@kxswa)ss177
+  - 🇵🇹 葡萄牙(TG频道:@kxswa)ss178
+  - 🇮🇱 以色列(TG频道:@kxswa)ss179
+  - 🇨🇳 中国(TG频道:@kxswa)ss180
+  - 🇨🇳 中国(TG频道:@kxswa)ss181
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss182
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss183
+  - 🇨🇳 中国(TG频道:@kxswa)ss184
+  - 🇨🇳 中国(TG频道:@kxswa)ss185
+  - 🇨🇳 中国(TG频道:@kxswa)ss186
+  - 🇨🇳 中国(TG频道:@kxswa)ss187
+  - 🇨🇳 中国(TG频道:@kxswa)ss188
+  - 🇨🇳 中国(TG频道:@kxswa)ss189
+  - 亚太地区 003ss190
+  - 🇵🇰 巴基斯坦 001ss191
+  - 🇩🇪 德国 002ss192
+  - 🇦🇺 澳大利亚 006ss193
+  - 🇦🇺 澳大利亚 007ss194
   - 🇺🇸 美国 043ss195
+  - 🇺🇸 美国 062ss196
+  - 🇺🇸 美国 063ss197
+  - 🇬🇧 英国 002ss198
+  - 🇬🇧 英国 003ss199
+  - 🇬🇧 英国 005ss200
+  - 🇳🇱 荷兰 002ss201
+  - 🇵🇭 菲律宾 001ss202
+  - 🇵🇹 葡萄牙 002ss203
+  - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 3ss204
+  - 🇺🇸 github.com/freefq - 美国宾夕法尼亚州拉克万纳县克拉克斯萨密特自治区VolumeDrive股份有限公司 6ss205
+  - github.com/freefq - 欧盟  39ss206
+  - 🇭🇰 湖南联通转香港HKT3[M][倍率:0.9]ss207
+  - 🇭🇰 上海电信转香港BGP4[M][倍率:1.1]ss208
+  - 🇭🇰 上海电信转香港BGP3[M][倍率:1.1]ss209
+  - 🇯🇵 湖南联通转日本NTT5[倍率:0.8]ss210
+  - 🇯🇵 长沙联通转日本NTT[M][倍率:0.8]ss211
+  - 🇯🇵 湖南联通转日本NTT[倍率:0.8]ss212
+  - 🇨🇳 湖南联通转台湾KBT[M][倍率:1]ss213
+  - 🇯🇵 长沙联通转日本NTT3[M][倍率:0.8]ss214
+  - 🇨🇳 长沙联通转台湾HiNet2[倍率:1]ss215
+  - 🇯🇵 湖南联通转日本Azure[倍率:1]ss216
+  - 🇯🇵 湖南联通转日本NTT4[倍率:0.8]ss217
+  - 🇯🇵 长沙联通转日本Webarena[M][倍率:0.9]ss218
+  - 🇯🇵 湖南联通转日本Webarena[M][倍率:0.8]ss219
+  - 🇭🇰 长沙联通转香港BGP[M][倍率:0.9]ss220
+  - 🇨🇳 上海电信转台湾HiNet2[M][倍率:1.2]ss221
+  - USSSss222
   - adi|0703v - 10120ssr1
   - adi|0703v - 20037ssr2
   - 🇭🇰 adi|0703v - dg-hk-node02ssr3
@@ -9163,8 +10293,12 @@ proxy-groups:
   - 🇯🇵 [BGP-GSLB]尼日尼亚trojan162
   - 🇭🇰 香港Misaka-diptrojan163
   - GHtrojan164
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国ss1
   - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss2
+  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss3
+  - 🇯🇵 _JP_日本ss4
   - 🇺🇸 _CN_中国->🇺🇸_US_美国ss5
+  - 🇮🇱 _IL_以色列ss6
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss7
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss8
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss9
@@ -9258,33 +10392,129 @@ proxy-groups:
   - 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss97
   - 罗马(欢迎订阅Youtube破解资源君)ss98
   - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss99
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss100
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss102
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss108
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss110
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss111
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss112
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss115
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss117
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss118
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss122
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss124
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss125
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss130
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss133
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss135
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss137
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss138
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss141
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss142
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss143
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss147
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss148
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss149
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss151
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss154
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss100
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss101
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss102
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss103
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss104
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss105
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss106
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss107
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss108
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss109
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss110
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss111
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss112
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss113
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss114
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss115
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss116
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss117
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss118
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss119
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss120
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss121
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss122
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss123
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss124
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss125
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss126
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss127
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss128
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss129
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss130
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss131
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss132
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss133
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss134
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss135
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss136
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss137
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss138
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss139
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss140
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss141
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss142
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss143
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss144
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss145
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss146
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss147
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss148
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss149
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss150
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss151
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss152
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss153
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss154
+  - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 7ss155
+  - 🇮🇹 github.com/freefq - 意大利  13ss156
+  - 🇸🇬 github.com/freefq - 北京市新国信通信有限公司 26ss157
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss158
+  - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧ss159
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss160
+  - 🇨🇳 CN 3 → openitsub.comss161
+  - 🇨🇳 CN 76 → openitsub.comss162
+  - 45.77.48.44:8099ss163
+  - 45.77.48.44:8099ss164
+  - 🇨🇳 CN 16 → openitsub.comss165
+  - PT_【付费推荐：wxfz.ml】ss166
+  - 🇨🇳 CN 15 → openitsub.comss167
+  - 🇨🇳 CN 45 → openitsub.comss168
+  - 🇨🇳 CN 2 → openitsub.comss169
   - 🇨🇳 CN 20 → openitsub.comss170
+  - xmssmf02.xmss.vip:17777ss171
+  - 212.102.53.78:443ss172
+  - (TG频道:@kxswa)ss173
+  - 🇨🇳 中国(TG频道:@kxswa)ss174
+  - 🇨🇳 中国(TG频道:@kxswa)ss175
+  - (TG频道:@kxswa)ss176
+  - 🇨🇳 中国(TG频道:@kxswa)ss177
+  - 🇵🇹 葡萄牙(TG频道:@kxswa)ss178
+  - 🇮🇱 以色列(TG频道:@kxswa)ss179
+  - 🇨🇳 中国(TG频道:@kxswa)ss180
+  - 🇨🇳 中国(TG频道:@kxswa)ss181
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss182
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss183
+  - 🇨🇳 中国(TG频道:@kxswa)ss184
+  - 🇨🇳 中国(TG频道:@kxswa)ss185
+  - 🇨🇳 中国(TG频道:@kxswa)ss186
+  - 🇨🇳 中国(TG频道:@kxswa)ss187
+  - 🇨🇳 中国(TG频道:@kxswa)ss188
+  - 🇨🇳 中国(TG频道:@kxswa)ss189
+  - 亚太地区 003ss190
+  - 🇵🇰 巴基斯坦 001ss191
+  - 🇩🇪 德国 002ss192
+  - 🇦🇺 澳大利亚 006ss193
+  - 🇦🇺 澳大利亚 007ss194
   - 🇺🇸 美国 043ss195
+  - 🇺🇸 美国 062ss196
+  - 🇺🇸 美国 063ss197
+  - 🇬🇧 英国 002ss198
+  - 🇬🇧 英国 003ss199
+  - 🇬🇧 英国 005ss200
+  - 🇳🇱 荷兰 002ss201
+  - 🇵🇭 菲律宾 001ss202
+  - 🇵🇹 葡萄牙 002ss203
+  - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 3ss204
+  - 🇺🇸 github.com/freefq - 美国宾夕法尼亚州拉克万纳县克拉克斯萨密特自治区VolumeDrive股份有限公司 6ss205
+  - github.com/freefq - 欧盟  39ss206
+  - 🇭🇰 湖南联通转香港HKT3[M][倍率:0.9]ss207
+  - 🇭🇰 上海电信转香港BGP4[M][倍率:1.1]ss208
+  - 🇭🇰 上海电信转香港BGP3[M][倍率:1.1]ss209
+  - 🇯🇵 湖南联通转日本NTT5[倍率:0.8]ss210
+  - 🇯🇵 长沙联通转日本NTT[M][倍率:0.8]ss211
+  - 🇯🇵 湖南联通转日本NTT[倍率:0.8]ss212
+  - 🇨🇳 湖南联通转台湾KBT[M][倍率:1]ss213
+  - 🇯🇵 长沙联通转日本NTT3[M][倍率:0.8]ss214
+  - 🇨🇳 长沙联通转台湾HiNet2[倍率:1]ss215
+  - 🇯🇵 湖南联通转日本Azure[倍率:1]ss216
+  - 🇯🇵 湖南联通转日本NTT4[倍率:0.8]ss217
+  - 🇯🇵 长沙联通转日本Webarena[M][倍率:0.9]ss218
+  - 🇯🇵 湖南联通转日本Webarena[M][倍率:0.8]ss219
+  - 🇭🇰 长沙联通转香港BGP[M][倍率:0.9]ss220
+  - 🇨🇳 上海电信转台湾HiNet2[M][倍率:1.2]ss221
+  - USSSss222
   - adi|0703v - 10120ssr1
   - adi|0703v - 20037ssr2
   - 🇭🇰 adi|0703v - dg-hk-node02ssr3
@@ -9871,8 +11101,12 @@ proxy-groups:
   - 🇯🇵 [BGP-GSLB]尼日尼亚trojan162
   - 🇭🇰 香港Misaka-diptrojan163
   - GHtrojan164
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国ss1
   - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss2
+  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss3
+  - 🇯🇵 _JP_日本ss4
   - 🇺🇸 _CN_中国->🇺🇸_US_美国ss5
+  - 🇮🇱 _IL_以色列ss6
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss7
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss8
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss9
@@ -9966,33 +11200,129 @@ proxy-groups:
   - 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss97
   - 罗马(欢迎订阅Youtube破解资源君)ss98
   - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss99
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss100
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss102
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss108
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss110
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss111
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss112
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss115
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss117
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss118
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss122
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss124
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss125
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss130
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss133
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss135
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss137
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss138
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss141
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss142
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss143
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss147
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss148
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss149
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss151
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss154
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss100
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss101
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss102
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss103
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss104
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss105
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss106
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss107
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss108
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss109
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss110
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss111
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss112
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss113
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss114
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss115
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss116
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss117
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss118
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss119
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss120
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss121
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss122
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss123
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss124
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss125
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss126
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss127
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss128
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss129
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss130
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss131
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss132
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss133
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss134
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss135
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss136
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss137
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss138
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss139
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss140
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss141
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss142
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss143
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss144
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss145
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss146
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss147
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss148
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss149
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss150
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss151
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss152
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss153
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss154
+  - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 7ss155
+  - 🇮🇹 github.com/freefq - 意大利  13ss156
+  - 🇸🇬 github.com/freefq - 北京市新国信通信有限公司 26ss157
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss158
+  - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧ss159
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss160
+  - 🇨🇳 CN 3 → openitsub.comss161
+  - 🇨🇳 CN 76 → openitsub.comss162
+  - 45.77.48.44:8099ss163
+  - 45.77.48.44:8099ss164
+  - 🇨🇳 CN 16 → openitsub.comss165
+  - PT_【付费推荐：wxfz.ml】ss166
+  - 🇨🇳 CN 15 → openitsub.comss167
+  - 🇨🇳 CN 45 → openitsub.comss168
+  - 🇨🇳 CN 2 → openitsub.comss169
   - 🇨🇳 CN 20 → openitsub.comss170
+  - xmssmf02.xmss.vip:17777ss171
+  - 212.102.53.78:443ss172
+  - (TG频道:@kxswa)ss173
+  - 🇨🇳 中国(TG频道:@kxswa)ss174
+  - 🇨🇳 中国(TG频道:@kxswa)ss175
+  - (TG频道:@kxswa)ss176
+  - 🇨🇳 中国(TG频道:@kxswa)ss177
+  - 🇵🇹 葡萄牙(TG频道:@kxswa)ss178
+  - 🇮🇱 以色列(TG频道:@kxswa)ss179
+  - 🇨🇳 中国(TG频道:@kxswa)ss180
+  - 🇨🇳 中国(TG频道:@kxswa)ss181
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss182
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss183
+  - 🇨🇳 中国(TG频道:@kxswa)ss184
+  - 🇨🇳 中国(TG频道:@kxswa)ss185
+  - 🇨🇳 中国(TG频道:@kxswa)ss186
+  - 🇨🇳 中国(TG频道:@kxswa)ss187
+  - 🇨🇳 中国(TG频道:@kxswa)ss188
+  - 🇨🇳 中国(TG频道:@kxswa)ss189
+  - 亚太地区 003ss190
+  - 🇵🇰 巴基斯坦 001ss191
+  - 🇩🇪 德国 002ss192
+  - 🇦🇺 澳大利亚 006ss193
+  - 🇦🇺 澳大利亚 007ss194
   - 🇺🇸 美国 043ss195
+  - 🇺🇸 美国 062ss196
+  - 🇺🇸 美国 063ss197
+  - 🇬🇧 英国 002ss198
+  - 🇬🇧 英国 003ss199
+  - 🇬🇧 英国 005ss200
+  - 🇳🇱 荷兰 002ss201
+  - 🇵🇭 菲律宾 001ss202
+  - 🇵🇹 葡萄牙 002ss203
+  - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 3ss204
+  - 🇺🇸 github.com/freefq - 美国宾夕法尼亚州拉克万纳县克拉克斯萨密特自治区VolumeDrive股份有限公司 6ss205
+  - github.com/freefq - 欧盟  39ss206
+  - 🇭🇰 湖南联通转香港HKT3[M][倍率:0.9]ss207
+  - 🇭🇰 上海电信转香港BGP4[M][倍率:1.1]ss208
+  - 🇭🇰 上海电信转香港BGP3[M][倍率:1.1]ss209
+  - 🇯🇵 湖南联通转日本NTT5[倍率:0.8]ss210
+  - 🇯🇵 长沙联通转日本NTT[M][倍率:0.8]ss211
+  - 🇯🇵 湖南联通转日本NTT[倍率:0.8]ss212
+  - 🇨🇳 湖南联通转台湾KBT[M][倍率:1]ss213
+  - 🇯🇵 长沙联通转日本NTT3[M][倍率:0.8]ss214
+  - 🇨🇳 长沙联通转台湾HiNet2[倍率:1]ss215
+  - 🇯🇵 湖南联通转日本Azure[倍率:1]ss216
+  - 🇯🇵 湖南联通转日本NTT4[倍率:0.8]ss217
+  - 🇯🇵 长沙联通转日本Webarena[M][倍率:0.9]ss218
+  - 🇯🇵 湖南联通转日本Webarena[M][倍率:0.8]ss219
+  - 🇭🇰 长沙联通转香港BGP[M][倍率:0.9]ss220
+  - 🇨🇳 上海电信转台湾HiNet2[M][倍率:1.2]ss221
+  - USSSss222
   - adi|0703v - 10120ssr1
   - adi|0703v - 20037ssr2
   - 🇭🇰 adi|0703v - dg-hk-node02ssr3
@@ -10573,8 +11903,12 @@ proxy-groups:
   - 🇯🇵 [BGP-GSLB]尼日尼亚trojan162
   - 🇭🇰 香港Misaka-diptrojan163
   - GHtrojan164
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国ss1
   - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss2
+  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss3
+  - 🇯🇵 _JP_日本ss4
   - 🇺🇸 _CN_中国->🇺🇸_US_美国ss5
+  - 🇮🇱 _IL_以色列ss6
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss7
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss8
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss9
@@ -10668,33 +12002,129 @@ proxy-groups:
   - 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss97
   - 罗马(欢迎订阅Youtube破解资源君)ss98
   - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss99
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss100
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss102
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss108
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss110
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss111
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss112
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss115
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss117
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss118
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss122
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss124
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss125
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss130
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss133
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss135
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss137
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss138
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss141
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss142
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss143
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss147
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss148
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss149
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss151
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss154
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss100
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss101
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss102
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss103
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss104
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss105
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss106
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss107
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss108
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss109
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss110
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss111
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss112
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss113
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss114
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss115
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss116
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss117
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss118
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss119
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss120
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss121
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss122
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss123
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss124
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss125
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss126
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss127
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss128
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss129
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss130
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss131
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss132
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss133
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss134
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss135
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss136
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss137
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss138
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss139
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss140
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss141
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss142
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss143
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss144
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss145
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss146
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss147
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss148
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss149
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss150
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss151
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss152
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss153
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss154
+  - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 7ss155
+  - 🇮🇹 github.com/freefq - 意大利  13ss156
+  - 🇸🇬 github.com/freefq - 北京市新国信通信有限公司 26ss157
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss158
+  - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧ss159
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss160
+  - 🇨🇳 CN 3 → openitsub.comss161
+  - 🇨🇳 CN 76 → openitsub.comss162
+  - 45.77.48.44:8099ss163
+  - 45.77.48.44:8099ss164
+  - 🇨🇳 CN 16 → openitsub.comss165
+  - PT_【付费推荐：wxfz.ml】ss166
+  - 🇨🇳 CN 15 → openitsub.comss167
+  - 🇨🇳 CN 45 → openitsub.comss168
+  - 🇨🇳 CN 2 → openitsub.comss169
   - 🇨🇳 CN 20 → openitsub.comss170
+  - xmssmf02.xmss.vip:17777ss171
+  - 212.102.53.78:443ss172
+  - (TG频道:@kxswa)ss173
+  - 🇨🇳 中国(TG频道:@kxswa)ss174
+  - 🇨🇳 中国(TG频道:@kxswa)ss175
+  - (TG频道:@kxswa)ss176
+  - 🇨🇳 中国(TG频道:@kxswa)ss177
+  - 🇵🇹 葡萄牙(TG频道:@kxswa)ss178
+  - 🇮🇱 以色列(TG频道:@kxswa)ss179
+  - 🇨🇳 中国(TG频道:@kxswa)ss180
+  - 🇨🇳 中国(TG频道:@kxswa)ss181
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss182
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss183
+  - 🇨🇳 中国(TG频道:@kxswa)ss184
+  - 🇨🇳 中国(TG频道:@kxswa)ss185
+  - 🇨🇳 中国(TG频道:@kxswa)ss186
+  - 🇨🇳 中国(TG频道:@kxswa)ss187
+  - 🇨🇳 中国(TG频道:@kxswa)ss188
+  - 🇨🇳 中国(TG频道:@kxswa)ss189
+  - 亚太地区 003ss190
+  - 🇵🇰 巴基斯坦 001ss191
+  - 🇩🇪 德国 002ss192
+  - 🇦🇺 澳大利亚 006ss193
+  - 🇦🇺 澳大利亚 007ss194
   - 🇺🇸 美国 043ss195
+  - 🇺🇸 美国 062ss196
+  - 🇺🇸 美国 063ss197
+  - 🇬🇧 英国 002ss198
+  - 🇬🇧 英国 003ss199
+  - 🇬🇧 英国 005ss200
+  - 🇳🇱 荷兰 002ss201
+  - 🇵🇭 菲律宾 001ss202
+  - 🇵🇹 葡萄牙 002ss203
+  - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 3ss204
+  - 🇺🇸 github.com/freefq - 美国宾夕法尼亚州拉克万纳县克拉克斯萨密特自治区VolumeDrive股份有限公司 6ss205
+  - github.com/freefq - 欧盟  39ss206
+  - 🇭🇰 湖南联通转香港HKT3[M][倍率:0.9]ss207
+  - 🇭🇰 上海电信转香港BGP4[M][倍率:1.1]ss208
+  - 🇭🇰 上海电信转香港BGP3[M][倍率:1.1]ss209
+  - 🇯🇵 湖南联通转日本NTT5[倍率:0.8]ss210
+  - 🇯🇵 长沙联通转日本NTT[M][倍率:0.8]ss211
+  - 🇯🇵 湖南联通转日本NTT[倍率:0.8]ss212
+  - 🇨🇳 湖南联通转台湾KBT[M][倍率:1]ss213
+  - 🇯🇵 长沙联通转日本NTT3[M][倍率:0.8]ss214
+  - 🇨🇳 长沙联通转台湾HiNet2[倍率:1]ss215
+  - 🇯🇵 湖南联通转日本Azure[倍率:1]ss216
+  - 🇯🇵 湖南联通转日本NTT4[倍率:0.8]ss217
+  - 🇯🇵 长沙联通转日本Webarena[M][倍率:0.9]ss218
+  - 🇯🇵 湖南联通转日本Webarena[M][倍率:0.8]ss219
+  - 🇭🇰 长沙联通转香港BGP[M][倍率:0.9]ss220
+  - 🇨🇳 上海电信转台湾HiNet2[M][倍率:1.2]ss221
+  - USSSss222
   - adi|0703v - 10120ssr1
   - adi|0703v - 20037ssr2
   - 🇭🇰 adi|0703v - dg-hk-node02ssr3
@@ -11276,8 +12706,12 @@ proxy-groups:
   - 🇯🇵 [BGP-GSLB]尼日尼亚trojan162
   - 🇭🇰 香港Misaka-diptrojan163
   - GHtrojan164
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国ss1
   - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss2
+  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾ss3
+  - 🇯🇵 _JP_日本ss4
   - 🇺🇸 _CN_中国->🇺🇸_US_美国ss5
+  - 🇮🇱 _IL_以色列ss6
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss7
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss8
   - 🇭🇰 _CN_中国->🇭🇰_HK_香港ss9
@@ -11371,33 +12805,129 @@ proxy-groups:
   - 🇺🇸 美国(欢迎订阅Youtube破解资源君)ss97
   - 罗马(欢迎订阅Youtube破解资源君)ss98
   - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)ss99
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss100
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss102
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss108
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss110
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss111
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss112
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss115
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss117
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss118
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss122
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss124
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss125
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss130
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss133
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss135
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss137
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss138
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss141
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss142
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss143
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss147
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss148
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss149
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss151
-  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用ss154
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss100
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss101
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss102
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss103
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss104
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss105
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss106
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss107
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss108
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss109
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss110
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss111
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss112
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss113
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss114
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss115
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss116
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss117
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss118
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss119
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss120
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss121
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss122
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss123
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss124
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss125
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss126
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss127
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss128
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss129
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss130
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss131
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss132
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss133
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss134
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss135
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss136
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss137
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss138
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss139
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss140
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss141
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss142
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss143
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss144
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss145
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss146
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss147
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss148
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss149
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss150
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss151
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss152
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss153
+  - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)ss154
+  - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 7ss155
+  - 🇮🇹 github.com/freefq - 意大利  13ss156
+  - 🇸🇬 github.com/freefq - 北京市新国信通信有限公司 26ss157
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss158
+  - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧ss159
+  - 🇺🇸 :美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧ss160
+  - 🇨🇳 CN 3 → openitsub.comss161
+  - 🇨🇳 CN 76 → openitsub.comss162
+  - 45.77.48.44:8099ss163
+  - 45.77.48.44:8099ss164
+  - 🇨🇳 CN 16 → openitsub.comss165
+  - PT_【付费推荐：wxfz.ml】ss166
+  - 🇨🇳 CN 15 → openitsub.comss167
+  - 🇨🇳 CN 45 → openitsub.comss168
+  - 🇨🇳 CN 2 → openitsub.comss169
   - 🇨🇳 CN 20 → openitsub.comss170
+  - xmssmf02.xmss.vip:17777ss171
+  - 212.102.53.78:443ss172
+  - (TG频道:@kxswa)ss173
+  - 🇨🇳 中国(TG频道:@kxswa)ss174
+  - 🇨🇳 中国(TG频道:@kxswa)ss175
+  - (TG频道:@kxswa)ss176
+  - 🇨🇳 中国(TG频道:@kxswa)ss177
+  - 🇵🇹 葡萄牙(TG频道:@kxswa)ss178
+  - 🇮🇱 以色列(TG频道:@kxswa)ss179
+  - 🇨🇳 中国(TG频道:@kxswa)ss180
+  - 🇨🇳 中国(TG频道:@kxswa)ss181
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss182
+  - 🇦🇺 澳大利亚(TG频道:@kxswa)ss183
+  - 🇨🇳 中国(TG频道:@kxswa)ss184
+  - 🇨🇳 中国(TG频道:@kxswa)ss185
+  - 🇨🇳 中国(TG频道:@kxswa)ss186
+  - 🇨🇳 中国(TG频道:@kxswa)ss187
+  - 🇨🇳 中国(TG频道:@kxswa)ss188
+  - 🇨🇳 中国(TG频道:@kxswa)ss189
+  - 亚太地区 003ss190
+  - 🇵🇰 巴基斯坦 001ss191
+  - 🇩🇪 德国 002ss192
+  - 🇦🇺 澳大利亚 006ss193
+  - 🇦🇺 澳大利亚 007ss194
   - 🇺🇸 美国 043ss195
+  - 🇺🇸 美国 062ss196
+  - 🇺🇸 美国 063ss197
+  - 🇬🇧 英国 002ss198
+  - 🇬🇧 英国 003ss199
+  - 🇬🇧 英国 005ss200
+  - 🇳🇱 荷兰 002ss201
+  - 🇵🇭 菲律宾 001ss202
+  - 🇵🇹 葡萄牙 002ss203
+  - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 3ss204
+  - 🇺🇸 github.com/freefq - 美国宾夕法尼亚州拉克万纳县克拉克斯萨密特自治区VolumeDrive股份有限公司 6ss205
+  - github.com/freefq - 欧盟  39ss206
+  - 🇭🇰 湖南联通转香港HKT3[M][倍率:0.9]ss207
+  - 🇭🇰 上海电信转香港BGP4[M][倍率:1.1]ss208
+  - 🇭🇰 上海电信转香港BGP3[M][倍率:1.1]ss209
+  - 🇯🇵 湖南联通转日本NTT5[倍率:0.8]ss210
+  - 🇯🇵 长沙联通转日本NTT[M][倍率:0.8]ss211
+  - 🇯🇵 湖南联通转日本NTT[倍率:0.8]ss212
+  - 🇨🇳 湖南联通转台湾KBT[M][倍率:1]ss213
+  - 🇯🇵 长沙联通转日本NTT3[M][倍率:0.8]ss214
+  - 🇨🇳 长沙联通转台湾HiNet2[倍率:1]ss215
+  - 🇯🇵 湖南联通转日本Azure[倍率:1]ss216
+  - 🇯🇵 湖南联通转日本NTT4[倍率:0.8]ss217
+  - 🇯🇵 长沙联通转日本Webarena[M][倍率:0.9]ss218
+  - 🇯🇵 湖南联通转日本Webarena[M][倍率:0.8]ss219
+  - 🇭🇰 长沙联通转香港BGP[M][倍率:0.9]ss220
+  - 🇨🇳 上海电信转台湾HiNet2[M][倍率:1.2]ss221
+  - USSSss222
   - adi|0703v - 10120ssr1
   - adi|0703v - 20037ssr2
   - 🇭🇰 adi|0703v - dg-hk-node02ssr3
