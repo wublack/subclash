@@ -26,6 +26,232 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
+- name: 🇯🇵 _JP_日本
+  server: 139.162.121.240
+  port: 10001
+  type: trojan
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  skip-cert-verify: false
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港
+  server: yqy38214.birpagi.cn
+  port: 38214
+  type: trojan
+  password: 45fee047-d194-37b9-a9ee-877197e98a2a
+  skip-cert-verify: false
+- name: 🇯🇵 _JP_日本 2
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: _CN_中国->🇧🇭_BH_巴林
+  server: unicomus.mipglxi.cn
+  port: 6628
+  type: ss
+  cipher: aes-128-gcm
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+- name: 🇯🇵 _JP_日本 3
+  server: 168.138.43.89
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国
+  server: 129.146.190.42
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  skip-cert-verify: false
+- name: 🇯🇵 _JP_日本 4
+  server: aewfhe5z1pokrkw8bi9g05.xingbayun.buzz
+  port: 10001
+  type: trojan
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国 2
+  server: 129.146.242.130
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  skip-cert-verify: false
+- name: 🇬🇧 _GB_英国
+  server: 132.145.51.172
+  port: 443
+  type: trojan
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国 3
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  skip-cert-verify: false
+- name: 🇫🇷 _FR_法国
+  server: content-provider5.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇫🇷 _FR_法国 2
+  server: content-provider12.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: origin
+  skip-cert-verify: false
+- name: 🇫🇷 _FR_法国 3
+  server: content-provider26.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: origin
+  skip-cert-verify: false
+- name: 🇫🇷 _FR_法国 4
+  server: 51.77.71.131
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇳🇱 _NL_荷兰
+  server: content-provider23.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇮🇳 _IN_印度
+  server: 152.67.160.174
+  port: 443
+  type: trojan
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  skip-cert-verify: false
+- name: _CN_中国
+  server: 221.131.165.72
+  port: 11907
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸 _CN_中国->🇺🇸_US_美国
+  server: 221.131.165.72
+  port: 11922
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇳🇱 _NL_荷兰 2
+  server: 185.212.200.75
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇯🇵 _JP_日本 5
+  server: 139.162.115.169
+  port: 10001
+  type: trojan
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  skip-cert-verify: false
+- name: 🇸🇬 _SG_新加坡
+  server: 54.151.172.209
+  port: 443
+  type: vmess
+  uuid: 371307ac-b758-44de-a4cf-e3189d91cd4c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇳🇱 _NL_荷兰 3
+  server: content-provider24.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇯🇵 _JP_日本 6
+  server: aewfhe5z1pokrkw8bi9g08.xingbayun.buzz
+  port: 10001
+  type: trojan
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  skip-cert-verify: false
+- name: 🇯🇵 _JP_日本 7
+  server: aewfhe5z1pokrkw8bi9g07.xingbayun.buzz
+  port: 10001
+  type: trojan
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  skip-cert-verify: false
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+  server: 14.29.124.174
+  port: 11003
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 3
+  server: 14.29.124.174
+  port: 11015
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 4
+  server: 14.29.124.174
+  port: 11032
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 🇸🇬 _SG_新加坡 2
+  server: 168.138.171.65
+  port: 443
+  type: vmess
+  uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+- name: 🇭🇰 _HK_香港
+  server: aewfhe5z1pokrkw8bi9g03.xingbayun.buzz
+  port: 10001
+  type: trojan
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  skip-cert-verify: false
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
+  server: 14.29.124.174
+  port: 11034
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 🇺🇸 _US_美国 4
+  server: node-do-us-1.gitspeed.cyou
+  port: 443
+  type: trojan
+  password: pNDxTmWL
+  skip-cert-verify: false
+- name: 🇸🇬 _SG_新加坡 3
+  server: 18.143.159.173
+  port: 443
+  type: vmess
+  uuid: 371307ac-b758-44de-a4cf-e3189d91cd4c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇰🇷 _KR_韩国
+  server: 146.56.189.146
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国 5
+  server: 138.2.113.84
+  port: 443
+  type: trojan
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  skip-cert-verify: false
 - name: 更新于10/18/00:07
   server: 3.36.118.249
   port: 443
@@ -2131,6 +2357,7 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
   - 日本(TG频道:@kxswa)
   - 荷兰(TG频道:@kxswa)
   - 澳大利亚(TG频道:@kxswa)
@@ -2402,6 +2629,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies: &id001
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
   - 日本(TG频道:@kxswa)
   - 荷兰(TG频道:@kxswa)
   - 澳大利亚(TG频道:@kxswa)
@@ -2944,6 +3173,7 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
   - 日本(TG频道:@kxswa)
   - 荷兰(TG频道:@kxswa)
   - 澳大利亚(TG频道:@kxswa)
@@ -3215,6 +3445,7 @@ proxy-groups:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
   - 日本(TG频道:@kxswa)
   - 荷兰(TG频道:@kxswa)
   - 澳大利亚(TG频道:@kxswa)
@@ -3485,6 +3716,7 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
   - 日本(TG频道:@kxswa)
   - 荷兰(TG频道:@kxswa)
   - 澳大利亚(TG频道:@kxswa)
@@ -3755,6 +3987,7 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
   - 日本(TG频道:@kxswa)
   - 荷兰(TG频道:@kxswa)
   - 澳大利亚(TG频道:@kxswa)
@@ -4026,6 +4259,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
   - 日本(TG频道:@kxswa)
   - 荷兰(TG频道:@kxswa)
   - 澳大利亚(TG频道:@kxswa)
