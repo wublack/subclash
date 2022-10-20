@@ -209,35 +209,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 更新于10/20/10:2623
-  server: 172.64.155.201
-  port: 443
-  type: vmess
-  uuid: 28dad69c-c9d6-47c5-ad05-c66afb87ccbd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash3.trump2023.org
-  udp: true
-- name: ✈付费机场推荐✈24
-  server: gzyd.pangupy.com
-  port: 65502
-  type: vmess
-  uuid: 8b248f72-867e-39d4-9155-86665f12082a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: aaa.com
-  udp: true
-- name: dafeivpn.com 5元专线机场25
+- name: 更新于10/20/13:1623
   server: shopify.com
   port: 2086
   type: vmess
@@ -251,127 +223,36 @@ proxies:
   ws-headers:
     Host: vn.cloudflare.quest
   udp: true
-- name: 中国(TG频道:@kxswa)26
-  server: gzyd.pangupy.com
-  port: 65502
-  type: vmess
-  uuid: 8b248f72-867e-39d4-9155-86665f12082a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: gzyd.pangupy.com
-  udp: true
-- name: 中国(TG频道:@kxswa) 227
-  server: in02.my1188.org
-  port: 61071
-  type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jkl-ru01.myn1des.com
-  udp: true
-- name: 美国(TG频道:@kxswa)28
-  server: tr8.leifengkeji.live
-  port: 48922
+- name: ✈付费机场推荐✈24
+  server: aewfhe5z1pokrkw8bi9g07.xingbayun.buzz
+  port: 10001
   type: trojan
-  password: 752a9404-c729-485e-8ea5-acb3f4fc8180
-  sni: tr8.leifengkeji.live
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  sni: aewfhe5z1pokrkw8bi9g07.xingbayun.buzz
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 329
-  server: in05.my1188.org
-  port: 61004
+- name: dafeivpn.com 5元专线机场25
+  server: iplcdn.in
+  port: 8010
+  type: ss
+  cipher: aes-128-gcm
+  password: 70906fed-4f59-495e-942a-2cda06391411
+  udp: true
+- name: (TG频道:@kxswa)26
+  server: 141.101.115.20
+  port: 443
   type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /dongtaiwang.com
   ws-headers:
-    Host: jkl-kr01.covid19.rip
+    Host: clash1.trump2023.net
   udp: true
-- name: (TG频道:@kxswa)30
-  server: Shopify.com
-  port: 2086
-  type: vmess
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: scw.cloudflare.quest
-  udp: true
-- name: 中国(TG频道:@kxswa) 431
-  server: in02.my1188.org
-  port: 61004
-  type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jkl-kr01.covid19.rip
-  udp: true
-- name: 印度尼西亚(TG频道:@kxswa)32
-  server: id-v.sshmax.xyz
-  port: 80
-  type: vmess
-  uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: id-v.sshmax.xyz
-  udp: true
-- name: 印度尼西亚(TG频道:@kxswa) 233
-  server: id-v.sshmax.xyz
-  port: 80
-  type: vmess
-  uuid: 781adf87-0afa-420c-875f-879162a2bce1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: '%7B%22Host%22:%22id-v.sshmax.xyz%22%7D'
-  udp: true
-- name: 中国(TG频道:@kxswa) 534
-  server: in02.my1188.org
-  port: 61051
-  type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls
-  ws-headers:
-    Host: jkl-in01.airport-v2.com
-  udp: true
-- name: (TG频道:@kxswa) 235
+- name: (TG频道:@kxswa) 227
   server: 141.101.114.20
   port: 443
   type: vmess
@@ -385,21 +266,7 @@ proxies:
   ws-headers:
     Host: clash1.trump2023.net
   udp: true
-- name: 中国(TG频道:@kxswa) 636
-  server: in05.my1188.org
-  port: 61081
-  type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hkt2-cdn.tencent.best
-  udp: true
-- name: 美国(TG频道:@kxswa) 237
+- name: 美国(TG频道:@kxswa)28
   server: 172.64.154.201
   port: 443
   type: vmess
@@ -413,105 +280,21 @@ proxies:
   ws-headers:
     Host: clash3.trump2023.org
   udp: true
-- name: 中国(TG频道:@kxswa) 738
-  server: in06.my1188.org
-  port: 61087
-  type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /jkl
-  ws-headers:
-    Host: sg-balancer.tencent.best
-  udp: true
-- name: 印度尼西亚(TG频道:@kxswa) 339
-  server: id-v.sshmax.xyz
+- name: 韩国(TG频道:@kxswa)29
+  server: shouer.azzhuangaping.tw
   port: 80
   type: vmess
-  uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
+  uuid: 70de4924-d1ac-3482-a494-577b4ccc9b1d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /vmess
+  ws-path: /adobe
   ws-headers:
-    Host: id-v.sshmax.xyz
+    Host: a.189.cn
   udp: true
-- name: 中国(TG频道:@kxswa) 840
-  server: in06.my1188.org
-  port: 61086
-  type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /jkl
-  ws-headers:
-    Host: jp-balancer.myn1des.com
-  udp: true
-- name: 中国(TG频道:@kxswa) 941
-  server: in05.my1188.org
-  port: 61084
-  type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: de01-cdn.airport-v2.com
-  udp: true
-- name: 中国(TG频道:@kxswa) 1042
-  server: in05.my1188.org
-  port: 61082
-  type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hkt3-cdn.tencent.best
-  udp: true
-- name: (TG频道:@kxswa) 343
-  server: CLOUDFLARE.QUEST
-  port: 2086
-  type: vmess
-  uuid: e97dabaa-2fbb-496f-f5cf-4cbe08113f40
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: juzi-sg.cloudflare.quest
-  udp: true
-- name: (TG频道:@kxswa) 444
-  server: CLOUDFLARE.QUEST
-  port: 2086
-  type: vmess
-  uuid: e97dabaa-2fbb-496f-f5cf-4cbe08113f40
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: juzi-sg.cloudflare.quest
-  udp: true
-- name: 美国(TG频道:@kxswa) 345
+- name: 美国(TG频道:@kxswa) 230
   server: 172.64.148.18
   port: 443
   type: vmess
@@ -525,53 +308,75 @@ proxies:
   ws-headers:
     Host: fr1.cfcdn1.xyz
   udp: true
-- name: 美国(TG频道:@kxswa) 446
-  server: vus2.0bad.com
+- name: 新加坡(TG频道:@kxswa)31
+  server: sg118.hkaa0.tk
+  port: 13691
+  type: vmess
+  uuid: 652f4263-bd86-4bf6-9f7e-d25e7516fb72
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /hkaa0
+  ws-headers:
+    Host: sg118.hkaa0.tk
+  udp: true
+- name: 新加坡(TG频道:@kxswa) 232
+  server: sg118.hkaa0.tk
+  port: 26772
+  type: vmess
+  uuid: 5223beb3-c348-4cbb-9b66-076564920784
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /hkaa0
+  ws-headers:
+    Host: sg118.hkaa0.tk
+  udp: true
+- name: 新加坡(TG频道:@kxswa) 333
+  server: sg118.hkaa0.tk
+  port: 42649
+  type: vmess
+  uuid: fbae0835-97f5-40c6-ec1a-60750c3c40cf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /hkaa0
+  ws-headers:
+    Host: sg118.hkaa0.tk
+  udp: true
+- name: 日本(TG频道:@kxswa)34
+  server: aewfhe5z1pokrkw8bi9g08.xingbayun.buzz
+  port: 10001
+  type: trojan
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  sni: aewfhe5z1pokrkw8bi9g08.xingbayun.buzz
+  skip-cert-verify: true
+  udp: true
+- name: 新加坡(TG频道:@kxswa) 435
+  server: sg118.hkaa0.tk
+  port: 31323
+  type: vmess
+  uuid: 1af66f9c-da3f-49fd-8f30-6d161f519931
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /hkaa0
+  ws-headers:
+    Host: sg118.hkaa0.tk
+  udp: true
+- name: 美国(TG频道:@kxswa) 336
+  server: 47.87.149.164
   port: 443
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vus2.0bad.com
-  udp: true
-- name: 中国(TG频道:@kxswa) 1147
-  server: gzyd.pangupy.com
-  port: 65504
-  type: vmess
-  uuid: 8b248f72-867e-39d4-9155-86665f12082a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: aaa.com
-  udp: true
-- name: 中国(TG频道:@kxswa) 1248
-  server: gzyd.pangupy.com
-  port: 65503
-  type: vmess
-  uuid: 8b248f72-867e-39d4-9155-86665f12082a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: aaa.com
-  udp: true
-- name: 中国(TG频道:@kxswa) 1349
-  server: www.gnklerg.top
-  port: 64432
-  type: vmess
-  uuid: 0a596834-03dd-423b-bfa6-35d5c155568d
+  uuid: 5282f68b-14ca-4325-a630-d911abf59c54
   alterId: 0
   cipher: auto
   tls: false
@@ -579,79 +384,67 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: www.gnklerg.top
+    Host: 47.87.149.164
   udp: true
-- name: 中国(TG频道:@kxswa) 1450
-  server: in02.my1188.org
-  port: 61069
+- name: (TG频道:@kxswa) 337
+  server: CLOUDFLARE.QUEST
+  port: 2086
   type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jkl-us03.covid19.rip
-  udp: true
-- name: 中国(TG频道:@kxswa) 1551
-  server: gzyd.pangupy.com
-  port: 65503
-  type: vmess
-  uuid: 8b248f72-867e-39d4-9155-86665f12082a
+  uuid: e97dabaa-2fbb-496f-f5cf-4cbe08113f40
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /v2ray
+  ws-path: /aries
   ws-headers:
-    Host: gzyd.pangupy.com
+    Host: juzi-sg.cloudflare.quest
   udp: true
-- name: 中国(TG频道:@kxswa) 1652
-  server: in01.my1188.org
-  port: 61087
+- name: 香港(TG频道:@kxswa)38
+  server: polo01.kctr2038.icu
+  port: 443
+  type: trojan
+  password: 88939272-790a-441f-b12b-8ce531aca810
+  sni: polo01.kctr2038.icu
+  skip-cert-verify: true
+  udp: true
+- name: (TG频道:@kxswa) 439
+  server: lsrug-1037-v2-9.hkg-d-cmi.jd.cjhh.lol
+  port: 888
   type: vmess
-  uuid: fbee28a2-8641-3ff9-a35f-d9577e64c7ba
+  uuid: caac6285-511c-4a07-b6db-edfbdcfe3889
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /jkl
+  ws-path: /je5x3pBN1vez3NQudNkB
   ws-headers:
-    Host: sg-balancer.tencent.best
+    Host: node.inforun.work
   udp: true
-- name: (TG频道:@kxswa) 553
-  server: 141.101.115.20
+- name: 日本(TG频道:@kxswa) 240
+  server: aewfhe5z1pokrkw8bi9g05.xingbayun.buzz
+  port: 10001
+  type: trojan
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  sni: aewfhe5z1pokrkw8bi9g05.xingbayun.buzz
+  skip-cert-verify: true
+  udp: true
+- name: 韩国(TG频道:@kxswa) 241
+  server: 3.35.214.217
   port: 443
   type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  uuid: 5282f68b-14ca-4325-a630-d911abf59c54
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /dongtaiwang.com
+  ws-path: /
   ws-headers:
-    Host: clash1.trump2023.net
+    Host: 3.35.214.217
   udp: true
-- name: (TG频道:@kxswa) 654
-  server: 141.101.115.20
-  port: 443
-  type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash1.trump2023.net
-  udp: true
-- name: 🇭🇰 香港快|tg频道:@ripaojiedian55
+- name: 🇭🇰 香港快|tg频道:@ripaojiedian42
   server: tr.33yun.xyz
   port: 33001
   type: vmess
@@ -660,20 +453,20 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇭🇰 香港HK|tg频道:@ripaojiedian56
+- name: 🇭🇰 香港HK|tg频道:@ripaojiedian43
   server: iplcdn.in
   port: 8010
   type: ss
   cipher: aes-128-gcm
   password: 70906fed-4f59-495e-942a-2cda06391411
-- name: 🇯🇵 日本BGP|tg频道:@ripaojiedian57
+- name: 🇯🇵 日本BGP|tg频道:@ripaojiedian44
   server: 15.168.34.194
   port: 2053
   type: trojan
   password: de39d941-eaf6-405d-958a-ebebe1315574
   sni: wel-jp.optage.moe
   skip-cert-verify: false
-- name: 🇨🇳 台湾|tg频道:@ripaojiedian58
+- name: 🇨🇳 台湾|tg频道:@ripaojiedian45
   server: tw.33yun.xyz
   port: 80
   type: vmess
@@ -687,7 +480,7 @@ proxies:
     path: /
     headers:
       Host: tw.33yun.xyz
-- name: 🇭🇰 香港SSR|tg频道:@ripaojiedian59
+- name: 🇭🇰 香港SSR|tg频道:@ripaojiedian46
   server: gzyd-01.cctelescope.xyz
   port: 41999
   type: ssr
@@ -697,7 +490,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 124915:ITy2ClxQDV
   obfs-param: ajax.microsoft.com
-- name: 🇨🇳 台湾SSR|tg频道:@ripaojiedian60
+- name: 🇨🇳 台湾SSR|tg频道:@ripaojiedian47
   server: yc.safetelescope.cc
   port: 31001
   type: ssr
@@ -707,21 +500,21 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 124915:ITy2ClxQDV
   obfs-param: ajax.microsoft.com
-- name: 🇸🇬 新加坡2|tg频道:@ripaojiedian61
+- name: 🇸🇬 新加坡2|tg频道:@ripaojiedian48
   server: 221.181.185.118
   port: 13325
   type: trojan
   password: M0041901
   sni: if22a.ft3.us
   skip-cert-verify: false
-- name: 🇭🇰 香港HKT|tg频道:@ripaojiedian62
+- name: 🇭🇰 香港HKT|tg频道:@ripaojiedian49
   server: 15.168.34.80
   port: 2053
   type: trojan
   password: de39d941-eaf6-405d-958a-ebebe1315574
   sni: wel-hkt.optage.moe
   skip-cert-verify: false
-- name: 🇭🇰 香港Az|tg频道:@ripaojiedian63
+- name: 🇭🇰 香港Az|tg频道:@ripaojiedian50
   server: yes.iamagoodman.net
   port: 16627
   type: vmess
@@ -735,7 +528,7 @@ proxies:
     path: /
     headers:
       Host: yes.iamagoodman.net
-- name: 🇭🇰 香港HGC|tg频道:@ripaojiedian64
+- name: 🇭🇰 香港HGC|tg频道:@ripaojiedian51
   server: yes.iamagoodman.net
   port: 16621
   type: vmess
@@ -749,7 +542,7 @@ proxies:
     path: /
     headers:
       Host: yes.iamagoodman.net
-- name: 🇯🇵 日本快|tg频道:@ripaojiedian65
+- name: 🇯🇵 日本快|tg频道:@ripaojiedian52
   server: tr.33yun.xyz
   port: 33003
   type: vmess
@@ -758,7 +551,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇯🇵 日本SSR|tg频道:@ripaojiedian66
+- name: 🇯🇵 日本SSR|tg频道:@ripaojiedian53
   server: wz.safetelescope.cc
   port: 10019
   type: ssr
@@ -768,7 +561,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 124915:ITy2ClxQDV
   obfs-param: ajax.microsoft.com
-- name: 🇺🇸 美国3|tg频道:@ripaojiedian67
+- name: 🇺🇸 美国3|tg频道:@ripaojiedian54
   server: 47.87.149.164
   port: 443
   type: vmess
@@ -780,7 +573,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇸🇬 新加坡 -tg频道:@ripaojiedian68
+- name: 🇸🇬 新加坡 -tg频道:@ripaojiedian55
   server: gzyd.pangupy.com
   port: 65503
   type: vmess
@@ -794,7 +587,7 @@ proxies:
     path: /v2ray
     headers:
       Host: aaa.com
-- name: 🇸🇬 狮城|tg频道:@ripaojiedian69
+- name: 🇸🇬 狮城|tg频道:@ripaojiedian56
   server: 165.154.244.82
   port: 443
   type: vmess
@@ -806,7 +599,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇰🇷 韩国|tg频道:@ripaojiedian70
+- name: 🇰🇷 韩国|tg频道:@ripaojiedian57
   server: gzyd.pangupy.com
   port: 65504
   type: vmess
@@ -820,7 +613,7 @@ proxies:
     path: /v2ray
     headers:
       Host: aaa.com
-- name: 🇨🇳 台湾|tg频道:@ripaojiedian 271
+- name: 🇨🇳 台湾|tg频道:@ripaojiedian 258
   server: 165.154.243.161
   port: 443
   type: vmess
@@ -829,7 +622,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇸🇬 新加坡|tg频道:@ripaojiedian72
+- name: 🇸🇬 新加坡|tg频道:@ripaojiedian59
   server: CLOUDFLARE.QUEST
   port: 2086
   type: vmess
@@ -843,7 +636,7 @@ proxies:
     path: /aries
     headers:
       Host: juzi-sg.cloudflare.quest
-- name: 🇰🇷 韩国|tg频道:@ripaojiedian 273
+- name: 🇰🇷 韩国|tg频道:@ripaojiedian 260
   server: 3.35.214.217
   port: 443
   type: vmess
@@ -855,7 +648,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '|44.15Mb74'
+- name: '|44.15Mb61'
   server: 129.154.57.134
   port: 26282
   type: vmess
@@ -864,7 +657,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|116.66Mb75'
+- name: '|116.66Mb62'
   server: 139.99.91.95
   port: 443
   type: vmess
@@ -873,7 +666,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|65.14Mb76'
+- name: '|65.14Mb63'
   server: 139.99.90.122
   port: 443
   type: vmess
@@ -882,7 +675,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|25.51Mb77'
+- name: '|25.51Mb64'
   server: 51.89.42.154
   port: 443
   type: vmess
@@ -894,7 +687,7 @@ proxies:
   network: ws
   ws-opts:
     path: /path/120211331422
-- name: 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb78
+- name: 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb65
   server: ah.yd01.paopaocloud.cyou
   port: 10020
   type: vmess
@@ -908,7 +701,7 @@ proxies:
     path: /v2ray
     headers:
       Host: paopao.v2.hk02.paopaocloud.cyou
-- name: Relay_ |15.89Mb79
+- name: Relay_ |15.89Mb66
   server: asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom
   port: 888
   type: vmess
@@ -922,7 +715,7 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
     headers:
       Host: node.inforun.work
-- name: Relay_ |10.21Mb80
+- name: Relay_ |10.21Mb67
   server: xqtxa-1046-v2-2.hkg-d-hkbn.nd.cjhh.mom
   port: 888
   type: vmess
@@ -936,7 +729,7 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
     headers:
       Host: edge.cjhh.mom
-- name: '|14.50Mb81'
+- name: '|14.50Mb68'
   server: 185.225.69.134
   port: 45081
   type: vmess
@@ -945,7 +738,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: Relay_ |35.17Mb82
+- name: Relay_ |35.17Mb69
   server: m4.40010010.xyz
   port: 37121
   type: vmess
@@ -954,7 +747,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-- name: '|11.76Mb83'
+- name: '|11.76Mb70'
   server: 8.214.33.158
   port: 80
   type: vmess
@@ -966,7 +759,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '|27.41Mb84'
+- name: '|27.41Mb71'
   server: 168.138.201.208
   port: 10328
   type: vmess
@@ -975,7 +768,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|19.24Mb85'
+- name: '|19.24Mb72'
   server: 138.2.44.211
   port: 20081
   type: vmess
@@ -984,7 +777,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|25.78Mb86'
+- name: '|25.78Mb73'
   server: 150.230.41.9
   port: 23292
   type: vmess
@@ -993,7 +786,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|54.57Mb87'
+- name: '|54.57Mb74'
   server: 138.2.15.23
   port: 46370
   type: vmess
@@ -1002,7 +795,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|25.22Mb88'
+- name: '|25.22Mb75'
   server: 152.69.197.60
   port: 1069
   type: vmess
@@ -1011,7 +804,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: Relay_ | 1.01Mb89
+- name: Relay_ | 1.01Mb76
   server: ah.yd01.paopaocloud.cyou
   port: 10025
   type: vmess
@@ -1025,7 +818,7 @@ proxies:
     path: /v2ray
     headers:
       Host: paopao.v2.us05.paopaocloud.cyou
-- name: Pool_ | 9.62Mb90
+- name: Pool_ | 9.62Mb77
   server: 206.119.112.6
   port: 8189
   type: vmess
@@ -1034,7 +827,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-- name: Relay_ | 9.50Mb91
+- name: Relay_ | 9.50Mb78
   server: hk1vdf-node.aiqiche123.com
   port: 8189
   type: vmess
@@ -1043,7 +836,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-- name: '|25.72Mb92'
+- name: '|25.72Mb79'
   server: 168.138.207.66
   port: 21365
   type: vmess
@@ -1052,7 +845,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|28.46Mb93'
+- name: '|28.46Mb80'
   server: 129.159.41.233
   port: 32586
   type: vmess
@@ -1061,7 +854,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|22.53Mb94'
+- name: '|22.53Mb81'
   server: 23.230.146.254
   port: 1258
   type: vmess
@@ -1070,7 +863,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: Relay_ | 2.10Mb95
+- name: Relay_ | 2.10Mb82
   server: az.hk01.paopaocloud.cyou
   port: 10011
   type: vmess
@@ -1084,7 +877,7 @@ proxies:
     path: /v2ray
     headers:
       Host: paopao.v2.hk07.paopaocloud.cyou
-- name: Relay_ | 2.02Mb96
+- name: Relay_ | 2.02Mb83
   server: az.hk01.paopaocloud.cyou
   port: 10019
   type: vmess
@@ -1098,7 +891,7 @@ proxies:
     path: /vn01
     headers:
       Host: paopao.v2.vn01.paopaocloud.cyou
-- name: Relay_ | 2.41Mb97
+- name: Relay_ | 2.41Mb84
   server: 104.17.190.0
   port: 443
   type: vmess
@@ -1112,7 +905,7 @@ proxies:
     path: /ray
     headers:
       Host: localhoster.ml
-- name: Pool_ |25.27Mb98
+- name: Pool_ |25.27Mb85
   server: 23.225.57.222
   port: 443
   type: vmess
@@ -1124,7 +917,7 @@ proxies:
   network: ws
   ws-opts:
     path: /path/051111230910
-- name: '|45.88Mb99'
+- name: '|45.88Mb86'
   server: 152.70.241.18
   port: 26676
   type: vmess
@@ -1133,7 +926,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb100
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb87
   server: 172.67.196.0
   port: 443
   type: vmess
@@ -1147,7 +940,7 @@ proxies:
     path: /ray
     headers:
       Host: localhoster.ml
-- name: '|15.15Mb101'
+- name: '|15.15Mb88'
   server: 47.245.30.19
   port: 36788
   type: vmess
@@ -1159,7 +952,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: Pool_ |23.96Mb102
+- name: Pool_ |23.96Mb89
   server: 67.21.72.41
   port: 443
   type: vmess
@@ -1173,7 +966,7 @@ proxies:
     path: /path/173418141123
     headers:
       Host: www.17080100.xyz
-- name: Pool_ |22.90Mb103
+- name: Pool_ |22.90Mb90
   server: 67.21.72.44
   port: 443
   type: vmess
@@ -1187,7 +980,7 @@ proxies:
     path: /path/120208301422
     headers:
       Host: www.48816626.xyz
-- name: Relay_ | 1.56Mb104
+- name: Relay_ | 1.56Mb91
   server: www.flieswiming.tk
   port: 443
   type: vmess
@@ -1201,7 +994,7 @@ proxies:
     path: /
     headers:
       Host: www.flieswiming.tk
-- name: '|41.43Mb105'
+- name: '|41.43Mb92'
   server: 152.70.235.207
   port: 35412
   type: vmess
@@ -1210,7 +1003,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '| 1.67Mb106'
+- name: '| 1.67Mb93'
   server: 103.159.132.102
   port: 31372
   type: vmess
@@ -1219,7 +1012,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: Relay_ | 0.97Mb107
+- name: Relay_ | 0.97Mb94
   server: lsrug-1037-v2-9.hkg-d-cmi.jd.cjhh.lol
   port: 888
   type: vmess
@@ -1233,1304 +1026,1304 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
     headers:
       Host: node.inforun.work
-- name: 🇦🇺 AU_13108
+- name: 🇦🇺 AU_1395
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_14109
+- name: 🇦🇺 AU_1496
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: e4307a50-9853-11ec-9b4e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_15110
+- name: 🇦🇺 AU_1597
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-123e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_16111
+- name: 🇦🇺 AU_1698
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f288e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_17112
+- name: 🇦🇺 AU_1799
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 2647cdace8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_18113
+- name: 🇦🇺 AU_18100
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 2647cdac-aa5c-4955-a13b-b667e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_19114
+- name: 🇦🇺 AU_19101
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 5c7b33c6-6d83-11eb-b7e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_20115
+- name: 🇦🇺 AU_20102
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_21116
+- name: 🇦🇺 AU_21103
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 3e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb117
+- name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb104
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_23118
+- name: 🇦🇺 AU_23105
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f28e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_24119
+- name: 🇦🇺 AU_24106
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206l-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 🇦🇺 AU_25120
+- name: 🇦🇺 AU_25107
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 26-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 🇦🇺 AU_26121
+- name: 🇦🇺 AU_26108
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: a3fa-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 🇦🇺 AU_27122
+- name: 🇦🇺 AU_27109
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 5c7b33c6-6e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_28123
+- name: 🇦🇺 AU_28110
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 36ebef7d1b1d62e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: 🇦🇺 AU_29124
+- name: 🇦🇺 AU_29111
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fde8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: false
-- name: CA_62125
+- name: CA_62112
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_63126
+- name: CA_63113
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_64127
+- name: CA_64114
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_65128
+- name: CA_65115
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nYlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_66129
+- name: CA_66116
   server: 165.154.226.108
   port: 443
   type: trojan
   password: gb8cLR
   skip-cert-verify: false
-- name: CA_67130
+- name: CA_67117
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa5-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_68131
+- name: CA_68118
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |10.42Mb132
+- name: Relay_ |10.42Mb119
   server: cat-1.opensvr.net
   port: 443
   type: trojan
   password: opentunnel.net-wd3dzt4j9yoy
   skip-cert-verify: false
-- name: CA_70133
+- name: CA_70120
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WW-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_71134
+- name: CA_71121
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_72135
+- name: CA_72122
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_73136
+- name: CA_73123
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_74137
+- name: CA_74124
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_75138
+- name: CA_75125
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_76139
+- name: CA_76126
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_77140
+- name: CA_77127
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_78141
+- name: CA_78128
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_79142
+- name: CA_79129
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_80143
+- name: CA_80130
   server: 51.161.118.38
   port: 443
   type: trojan
   password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8
   skip-cert-verify: false
-- name: CA_81144
+- name: CA_81131
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: 28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_82145
+- name: CA_82132
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_83146
+- name: CA_83133
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: 36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_84147
+- name: CA_84134
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_86148
+- name: CA_86135
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_87149
+- name: CA_87136
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_88150
+- name: CA_88137
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_89151
+- name: CA_89138
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_90152
+- name: CA_90139
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_91153
+- name: CA_91140
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_92154
+- name: CA_92141
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_93155
+- name: CA_93142
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_94156
+- name: CA_94143
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206eHBRd3-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_95157
+- name: CA_95144
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_96158
+- name: CA_96145
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_97159
+- name: CA_97146
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_98160
+- name: CA_98147
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0--40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_99161
+- name: CA_99148
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1N-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: Relay_ | 9.69Mb162
+- name: Relay_ | 9.69Mb149
   server: cat1.sshocean.net
   port: 443
   type: trojan
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   skip-cert-verify: false
-- name: CA_101163
+- name: CA_101150
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_102164
+- name: CA_102151
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzL-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: CA_103165
+- name: CA_103152
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: CA_104166
+- name: CA_104153
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 🇨🇳 CN_107167
+- name: 🇨🇳 CN_107154
   server: 116.129.254.29
   port: 3384
   type: trojan
   password: d4e41ff772c7fd45
   skip-cert-verify: false
-- name: Relay_ |35.78Mb168
+- name: Relay_ |35.78Mb155
   server: zz6.91js.pw
   port: 10051
   type: trojan
   password: a13820c547fa34c5c45515c12f0cd576
   skip-cert-verify: false
-- name: '| 1.88Mb169'
+- name: '| 1.88Mb156'
   server: 116.129.254.47
   port: 3389
   type: trojan
   password: c3c448da2363a6f7
   skip-cert-verify: false
-- name: Relay_ |43.45Mb170
+- name: Relay_ |43.45Mb157
   server: 116.129.254.29
   port: 3389
   type: trojan
   password: e37c6d7efa845d60
   skip-cert-verify: false
-- name: Relay_ | 8.64Mb171
+- name: Relay_ | 8.64Mb158
   server: 116.129.254.29
   port: 3389
   type: trojan
   password: ca4596fb9bc63cf2
   skip-cert-verify: false
-- name: Relay_ | 7.57Mb172
+- name: Relay_ | 7.57Mb159
   server: 116.129.254.29
   port: 3389
   type: trojan
   password: d66013c645b93c5c
   skip-cert-verify: false
-- name: Relay_ | 2.03Mb173
+- name: Relay_ | 2.03Mb160
   server: 116.129.254.47
   port: 3389
   type: trojan
   password: a170b44c2dfac9e6
   skip-cert-verify: false
-- name: 🇨🇳 CN_114174
+- name: 🇨🇳 CN_114161
   server: 116.129.253.134
   port: 3384
   type: trojan
   password: d4e41ff772c7fd45
   skip-cert-verify: false
-- name: Relay_ |31.14Mb175
+- name: Relay_ |31.14Mb162
   server: 116.129.254.29
   port: 3389
   type: trojan
   password: a170b44c2dfac9e6
   skip-cert-verify: false
-- name: Relay_ |50.39Mb176
+- name: Relay_ |50.39Mb163
   server: 183.232.141.154
   port: 19215
   type: trojan
   password: a992be42-bed4-3037-8788-9e860cd635d3
   skip-cert-verify: false
-- name: Relay_ |43.34Mb177
+- name: Relay_ |43.34Mb164
   server: 183.232.141.154
   port: 19205
   type: trojan
   password: a992be42-bed4-3037-8788-9e860cd635d3
   skip-cert-verify: false
-- name: Relay_ |43.91Mb178
+- name: Relay_ |43.91Mb165
   server: 116.129.254.29
   port: 3389
   type: trojan
   password: f6f2072a2e4cfc91
   skip-cert-verify: false
-- name: Relay_ | 7.00Mb179
+- name: Relay_ | 7.00Mb166
   server: ct.91js.pw
   port: 10051
   type: trojan
   password: a13820c547fa34c5c45515c12f0cd576
   skip-cert-verify: false
-- name: Relay_ |12.64Mb180
+- name: Relay_ |12.64Mb167
   server: jp2.91js.pw
   port: 10051
   type: trojan
   password: a13820c547fa34c5c45515c12f0cd576
   skip-cert-verify: false
-- name: Relay_ | 2.02Mb181
+- name: Relay_ | 2.02Mb168
   server: 116.129.254.47
   port: 3389
   type: trojan
   password: e37c6d7efa845d60
   skip-cert-verify: false
-- name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb182
+- name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb169
   server: js04.balala2016.xyz
   port: 20261
   type: trojan
   password: ED177480-E516-11EA-8B44-BBC4E882BA0B
   skip-cert-verify: false
-- name: '| 2.18Mb183'
+- name: '| 2.18Mb170'
   server: 116.129.254.47
   port: 3389
   type: trojan
   password: d66013c645b93c5c
   skip-cert-verify: false
-- name: Relay_ | 7.92Mb184
+- name: Relay_ | 7.92Mb171
   server: cz.v212.fun
   port: 443
   type: trojan
   password: 9c7a49a2-ddff-4654-925b-baa7913dbc56
   skip-cert-verify: false
-- name: 🇩🇪 DE_177185
+- name: 🇩🇪 DE_177172
   server: sg8-trojan.bonds.id
   port: 443
   type: trojan
   password: a2940130-1c92-11ed-aebe-1239d0255272
   skip-cert-verify: false
-- name: 🇫🇷 FR_239186
+- name: 🇫🇷 FR_239173
   server: fr-trojan.bonds.id
   port: 443
   type: trojan
   password: e4307a50-9853-11ec-9b4b-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |23.38Mb187
+- name: Relay_ |23.38Mb174
   server: ukt1.sshocean.net
   port: 443
   type: trojan
   password: 0f5e6d9a-49af-4bc0-b04b-503102382144
   skip-cert-verify: false
-- name: Relay_ | 8.72Mb188
+- name: Relay_ | 8.72Mb175
   server: ukt-2.opensvr.net
   port: 443
   type: trojan
   password: opentunnel.net-rw8uuv207taq
   skip-cert-verify: false
-- name: 🇫🇷 FR_242189
+- name: 🇫🇷 FR_242176
   server: fr-trojan.bonds.id
   port: 443
   type: trojan
   password: 7c9b7560-b0f7-11eb-a397-1239d0255272
   skip-cert-verify: false
-- name: GB_271190
+- name: GB_271177
   server: api.mjj-home.com
   port: 443
   type: trojan
   password: share.mjj-home.com
   skip-cert-verify: false
-- name: 🇭🇰 HK_279191
+- name: 🇭🇰 HK_279178
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   port: 889
   type: trojan
   password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV
   skip-cert-verify: false
-- name: 🇭🇰 HK_280192
+- name: 🇭🇰 HK_280179
   server: 43.229.153.167
   port: 443
   type: trojan
   password: ce6237ef-7bff-45e9-8854-57287dfd3a15
   sni: hk.vc2.hyperlinkvpn.xyz
   skip-cert-verify: false
-- name: Relay_ |570.16Mb193
+- name: Relay_ |570.16Mb180
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   port: 889
   type: trojan
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   skip-cert-verify: false
-- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb194
+- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb181
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
   skip-cert-verify: false
-- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb195
+- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb182
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: 23103894-eec7-4de1-a05a-c2e11e351287
   skip-cert-verify: false
-- name: 🇯🇵 JP_298196
+- name: 🇯🇵 JP_298183
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82a115db-6e59-4319-973-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 🇯🇵 JP_299197
+- name: 🇯🇵 JP_299184
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 23115_5a451f03
   skip-cert-verify: false
-- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb198
+- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb185
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: ed9a202f-7871-4a15-a4c1-f3a47c1f5493
   skip-cert-verify: false
-- name: 🇯🇵 JP_301199
+- name: 🇯🇵 JP_301186
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03
   skip-cert-verify: false
-- name: 🇯🇵 JP_302200
+- name: 🇯🇵 JP_302187
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: 🇯🇵 JP_303201
+- name: 🇯🇵 JP_303188
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY2023115_5a451f03
   skip-cert-verify: false
-- name: 🇯🇵 JP_304202
+- name: 🇯🇵 JP_304189
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: 🇯🇵 JP_305203
+- name: 🇯🇵 JP_305190
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 🇯🇵 JP_306204
+- name: 🇯🇵 JP_306191
   server: 106.180.225.69
   port: 1443
   type: trojan
   password: 7x42LetRa0
   skip-cert-verify: false
-- name: 🇯🇵 JP_307205
+- name: 🇯🇵 JP_307192
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb206
+- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb193
   server: aewfhe5z1pokrkw8bi9g08.xingbayun.buzz
   port: 10001
   type: trojan
   password: 862e68d2-05f3-4253-9116-819623bb7335
   skip-cert-verify: false
-- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb207
+- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb194
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: ffd553fe-7d14-4ab2-acba-e7307d41e4f4
   skip-cert-verify: false
-- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb208
+- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb195
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: 10f81a15-c7c8-473b-a12a-a09f098b6236
   skip-cert-verify: false
-- name: Relay_ | 4.46Mb209
+- name: Relay_ | 4.46Mb196
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: aa7d24e0-b60c-44bb-bcd1-8b74a297cdbc
   skip-cert-verify: false
-- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb210
+- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb197
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: 96e08c45-762a-48d2-8b65-0088c3c5e3d4
   skip-cert-verify: false
-- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb211
+- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb198
   server: jgw2.gaox.ml
   port: 443
   type: trojan
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   skip-cert-verify: false
-- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb212
+- name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb199
   server: aewfhe5z1pokrkw8bi9g07.xingbayun.buzz
   port: 10001
   type: trojan
   password: 862e68d2-05f3-4253-9116-819623bb7335
   skip-cert-verify: false
-- name: 🇯🇵 JP_316213
+- name: 🇯🇵 JP_316200
   server: 45.66.134.219
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: false
-- name: 🇯🇵 JP_317214
+- name: 🇯🇵 JP_317201
   server: 45.66.134.219
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: 🇯🇵 JP_318215
+- name: 🇯🇵 JP_318202
   server: 45.66.134.219
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: false
-- name: 🇯🇵 JP_319216
+- name: 🇯🇵 JP_319203
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY206YVlOZUtETXpZUVl3NEt23115_5a451f03
   skip-cert-verify: false
-- name: Relay_ |13.98Mb217
+- name: Relay_ |13.98Mb204
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: edeb6377-0d40-483b-869a-8b3be9d74850
   skip-cert-verify: false
-- name: Relay_ | 8.04Mb218
+- name: Relay_ | 8.04Mb205
   server: nice-jp03.tiktokcdn.buzz
   port: 43857
   type: trojan
   password: P9qGW38zz7
   skip-cert-verify: false
-- name: 🇯🇵 JP_322219
+- name: 🇯🇵 JP_322206
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: 🇰🇷 KR_323220
+- name: 🇰🇷 KR_323207
   server: jgw3.gaox.ml
   port: 443
   type: trojan
   password: a1718180-d616-4b71-9bb6-3e96ba20f921
   skip-cert-verify: false
-- name: 🇰🇷 KR_324221
+- name: 🇰🇷 KR_324208
   server: upay.com
   port: 443
   type: trojan
   password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 🇳🇱 NL_567222
+- name: 🇳🇱 NL_567209
   server: jp.useanlo.cf
   port: 6523
   type: trojan
   password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
   skip-cert-verify: false
-- name: '|30.85Mb223'
+- name: '|30.85Mb210'
   server: 41.216.177.41
   port: 443
   type: trojan
   password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
   skip-cert-verify: false
-- name: Relay_ | 2.34Mb224
+- name: Relay_ | 2.34Mb211
   server: nlt-1.opensvr.net
   port: 443
   type: trojan
   password: opentunnel.net-oqtxymz6gjl3
   skip-cert-verify: false
-- name: 🇳🇱 NL_570225
+- name: 🇳🇱 NL_570212
   server: nl-trojan.bonds.id
   port: 443
   type: trojan
   password: 94af0550-902b-11eb-b135-1239d0255272
   skip-cert-verify: false
-- name: 🇳🇱 NL_571226
+- name: 🇳🇱 NL_571213
   server: nl-trojan.bonds.id
   port: 443
   type: trojan
   password: 7e6256a0-b4ab-11eb-bc8f-1239d0255272
   skip-cert-verify: false
-- name: 🇳🇱 NL_572227
+- name: 🇳🇱 NL_572214
   server: nl-trojan.bonds.id
   port: 443
   type: trojan
   password: 96884680-77e6-11eb-8d67-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |11.42Mb228
+- name: Relay_ |11.42Mb215
   server: nl-trojan.bonds.id
   port: 443
   type: trojan
   password: 2b921790-2a60-11ed-a3e2-1239d0255272
   skip-cert-verify: false
-- name: 🇳🇱 NL_574229
+- name: 🇳🇱 NL_574216
   server: www.tokyo2023.ga
   port: 443
   type: trojan
   password: 4f7dc540-d244-4e64-af21-4b5bb300add3
   skip-cert-verify: false
-- name: '| 4.27Mb230'
+- name: '| 4.27Mb217'
   server: 138.124.183.222
   port: 443
   type: trojan
   password: xxoo
   skip-cert-verify: false
-- name: '| 3.17Mb231'
+- name: '| 3.17Mb218'
   server: 138.124.183.226
   port: 443
   type: trojan
   password: xxoo
   skip-cert-verify: false
-- name: 🇷🇴 RO_587232
+- name: 🇷🇴 RO_587219
   server: 185.126.116.235
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: 🇷🇴 RO_588233
+- name: 🇷🇴 RO_588220
   server: 185.126.116.235
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: false
-- name: 🇷🇴 RO_589234
+- name: 🇷🇴 RO_589221
   server: 185.126.116.235
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: false
-- name: '|20.10Mb235'
+- name: '|20.10Mb222'
   server: 194.156.99.39
   port: 443
   type: trojan
   password: xxoo
   skip-cert-verify: false
-- name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb236
+- name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb223
   server: trojan2.udpgw.com
   port: 443
   type: trojan
   password: 973ef350-f6a5-11ec-9274-1239d0255272
   skip-cert-verify: false
-- name: 🇸🇬 SG_619237
+- name: 🇸🇬 SG_619224
   server: sg3-trojan.bonds.id
   port: 443
   type: trojan
   password: 97fdf760-7bbf-11eb-8e14-1239d0255272
   skip-cert-verify: false
-- name: 🇸🇬 SG_620238
+- name: 🇸🇬 SG_620225
   server: 81.90.189.85
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: 🇸🇬 SG_621239
+- name: 🇸🇬 SG_621226
   server: sg3-trojan.bonds.id
   port: 443
   type: trojan
   password: 4c7985e0-79e8-11eb-b8d3-1239d0255272
   skip-cert-verify: false
-- name: 🇸🇬 SG_622240
+- name: 🇸🇬 SG_622227
   server: sg1-trojan.bonds.id
   port: 443
   type: trojan
   password: 5c5ceb40-902b-11eb-945a-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |16.07Mb241
+- name: Relay_ |16.07Mb228
   server: sgt-1.opensvr.net
   port: 443
   type: trojan
   password: opentunnel.net-1l1tdr1hmcq7g32ndx7g
   skip-cert-verify: false
-- name: Relay_ | 3.30Mb242
+- name: Relay_ | 3.30Mb229
   server: trojan3.udpgw.com
   port: 443
   type: trojan
   password: 8db1b560-019d-11ed-8bdf-1239d0255272
   skip-cert-verify: false
-- name: Relay_ | 2.59Mb243
+- name: Relay_ | 2.59Mb230
   server: w11.udpgw.com
   port: 443
   type: trojan
   password: f64e69c0-e7b7-11ec-ab81-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |463.92Mb244
+- name: Relay_ |463.92Mb231
   server: sg1-trojan.bonds.id
   port: 443
   type: trojan
   password: 71086710-33eb-11ed-adce-1239d0255272
   skip-cert-verify: false
-- name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb245
+- name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb232
   server: sg2-trojan.bonds.id
   port: 443
   type: trojan
   password: f1a23bf0-1c92-11ed-b6d8-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |125.11Mb246
+- name: Relay_ |125.11Mb233
   server: w12.udpgw.com
   port: 443
   type: trojan
   password: 08964210-e7b8-11ec-95aa-1239d0255272
   skip-cert-verify: false
-- name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb247
+- name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb234
   server: trojan2.udpgw.com
   port: 443
   type: trojan
   password: a79da040-2e7c-11ed-91c2-1239d0255272
   skip-cert-verify: false
-- name: 🇸🇬 SG_630248
+- name: 🇸🇬 SG_630235
   server: sg-relay.iqyun.zone
   port: 443
   type: trojan
   password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
   skip-cert-verify: false
-- name: Relay_ |37.03Mb249
+- name: Relay_ |37.03Mb236
   server: trojan1.udpgw.com
   port: 443
   type: trojan
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   skip-cert-verify: false
-- name: 🇸🇬 SG_632250
+- name: 🇸🇬 SG_632237
   server: hk31.ssgnode.ga
   port: 443
   type: trojan
   password: 41742_920c8caa
   skip-cert-verify: false
-- name: 🇸🇬 SG_633251
+- name: 🇸🇬 SG_633238
   server: sg6-trojan.bonds.id
   port: 443
   type: trojan
   password: 81e9f5f0-1c92-11ed-8d18-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |35.23Mb252
+- name: Relay_ |35.23Mb239
   server: sg1-trojan.bonds.id
   port: 443
   type: trojan
   password: 27d01290-3763-11ed-90db-1239d0255272
   skip-cert-verify: false
-- name: 🇨🇳 TW_638253
+- name: 🇨🇳 TW_638240
   server: tw-oo-01.click
   port: 443
   type: trojan
   password: s6rIg1Mkke73fwZU
   skip-cert-verify: false
-- name: 🇨🇳 TW_639254
+- name: 🇨🇳 TW_639241
   server: 2.58.242.43
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
   skip-cert-verify: false
-- name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb255
+- name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb242
   server: tw01.balala2016.xyz
   port: 20261
   type: trojan
   password: ED177480-E516-11EA-8B44-BBC4E882BA0B
   skip-cert-verify: false
-- name: 🇨🇳 TW_641256
+- name: 🇨🇳 TW_641243
   server: mv-tw05.link
   port: 443
   type: trojan
   password: s6rIg1Mkke73fwZU
   skip-cert-verify: false
-- name: 🇨🇳 TW_642257
+- name: 🇨🇳 TW_642244
   server: tw-oo-01.click
   port: 443
   type: trojan
   password: q8uTrVmj95aTrFAa
   skip-cert-verify: false
-- name: 🇨🇳 TW_643258
+- name: 🇨🇳 TW_643245
   server: 2.58.242.43
   port: 443
   type: trojan
   password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
   skip-cert-verify: false
-- name: Relay_ | 2.95Mb259
+- name: Relay_ | 2.95Mb246
   server: cz5.v2ce.com
   port: 443
   type: trojan
   password: HTrovQkamDxNfaD5
   skip-cert-verify: false
-- name: 🇺🇸 US_1260260
+- name: 🇺🇸 US_1260247
   server: www.anloao.cf
   port: 9053
   type: trojan
   password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
   skip-cert-verify: false
-- name: 🇺🇸 US_1261261
+- name: 🇺🇸 US_1261248
   server: 184.168.127.50
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: false
-- name: 🇺🇸 US_1262262
+- name: 🇺🇸 US_1262249
   server: us-trojan.bonds.id
   port: 443
   type: trojan
   password: 38239dd0-902b-11eb-afc1-1239d0255272
   skip-cert-verify: false
-- name: 🇺🇸 US_1263263
+- name: 🇺🇸 US_1263250
   server: 184.168.127.50
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: false
-- name: 🇺🇸 US_1264264
+- name: 🇺🇸 US_1264251
   server: hg.053111.xyz
   port: 443
   type: trojan
   password: d4435b69-3d08-d58a-919f-7f1707150ecb
   skip-cert-verify: false
-- name: 🇺🇸 US_1265265
+- name: 🇺🇸 US_1265252
   server: 209.141.47.137
   port: 443
   type: trojan
   password: b3d27d09-77fe-431d-9829-6eba7dce20b0
   skip-cert-verify: false
-- name: 🇺🇸 US_1266266
+- name: 🇺🇸 US_1266253
   server: 209.141.47.137
   port: 443
   type: trojan
   password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f
   skip-cert-verify: false
-- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267267
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267254
   server: s162.s2022.xyz
   port: 23802
   type: trojan
   password: 770c9e92-f51b-3e52-b932-eba13fb56801
   skip-cert-verify: false
-- name: 🇺🇸 US_1268268
+- name: 🇺🇸 US_1268255
   server: s162.s2022.xyz
   port: 23802
   type: trojan
   password: f450f309-bd8b-39ad-8bef-6fdf42fe8d94
   skip-cert-verify: false
-- name: 🇺🇸 US_1269269
+- name: 🇺🇸 US_1269256
   server: tw.softbank.mjj-home.com
   port: 443
   type: trojan
   password: share.mjj-home.com
   skip-cert-verify: false
-- name: 🇺🇸 US_1270270
+- name: 🇺🇸 US_1270257
   server: us-trojan.bonds.id
   port: 443
   type: trojan
   password: ccf1ee40-b4ab-11eb-b421-1239d0255272
   skip-cert-verify: false
-- name: 🇺🇸 US_1271271
+- name: 🇺🇸 US_1271258
   server: 184.168.127.50
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: 🇺🇸 US_1272272
+- name: 🇺🇸 US_1272259
   server: 72.167.45.6
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: false
-- name: 🇺🇸 US_1273273
+- name: 🇺🇸 US_1273260
   server: jgw4.gaox.ml
   port: 443
   type: trojan
   password: b7e0e71f-070c-437a-9826-6e23caeb0307
   skip-cert-verify: false
-- name: 🇺🇸 US_1274274
+- name: 🇺🇸 US_1274261
   server: share.softbank.mjj-home.com
   port: 443
   type: trojan
   password: share.mjj-home.com
   skip-cert-verify: false
-- name: '| 8.11Mb275'
+- name: '| 8.11Mb262'
   server: 23.94.103.146
   port: 443
   type: trojan
   password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57
   skip-cert-verify: false
-- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276276
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276263
   server: ukt-1.opensvr.net
   port: 443
   type: trojan
   password: opentunnel.net-zdrgvbhjnmhgfx
   skip-cert-verify: false
-- name: 🇺🇸 US_1277277
+- name: 🇺🇸 US_1277264
   server: us-trojan.bonds.id
   port: 443
   type: trojan
   password: fc39ffa0-2040-11ed-a1ff-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |82.21Mb278
+- name: Relay_ |82.21Mb265
   server: jp.iamnotagoodman.com
   port: 443
   type: trojan
   password: 8aab51da-6b67-4bd2-b6e6-5ab3008cf53e
   skip-cert-verify: false
-- name: Relay_ |17.93Mb279
+- name: Relay_ |17.93Mb266
   server: v2.justmymiss.com
   port: 65500
   type: trojan
   password: 18062581225
   skip-cert-verify: false
-- name: 🇺🇸 US_1280280
+- name: 🇺🇸 US_1280267
   server: 72.167.45.6
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: false
-- name: Relay_ | 2.19Mb281
+- name: Relay_ | 2.19Mb268
   server: us.dogintnode.com
   port: 443
   type: trojan
   password: 91a3db80-baf5-3f35-8c0e-b6483aefa1fd
   skip-cert-verify: false
-- name: 🇺🇸 US_1282282
+- name: 🇺🇸 US_1282269
   server: 72.167.45.6
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: 🇺🇸 US_1283283
+- name: 🇺🇸 US_1283270
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: bcYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUSFZNQkh23115_5a451f03
   skip-cert-verify: false
-- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb284
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb271
   server: sg-01.tiktokcdn.top
   port: 443
   type: trojan
   password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
   skip-cert-verify: false
-- name: 🇺🇸 US_1285285
+- name: 🇺🇸 US_1285272
   server: 170.187.182.212
   port: 443
   type: trojan
   password: a1e12464-9208-4583-bd21-ab6889fdd242
   skip-cert-verify: false
-- name: 🇺🇸 US_1286286
+- name: 🇺🇸 US_1286273
   server: xioix.gq
   port: 443
   type: trojan
   password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363
   skip-cert-verify: false
-- name: 🇺🇸 US_1287287
+- name: 🇺🇸 US_1287274
   server: jp.useanlo.cf
   port: 6523
   type: trojan
   password: 77065fa6-b38e-302c-beea-4b047967af01
   skip-cert-verify: false
-- name: 🇺🇸 US_1288288
+- name: 🇺🇸 US_1288275
   server: t03.ssrsub.com.xyz
   port: 443
   type: trojan
   password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
   skip-cert-verify: false
-- name: 🇺🇸 US_1289289
+- name: 🇺🇸 US_1289276
   server: 56789.gq
   port: 443
   type: trojan
   password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3
   skip-cert-verify: false
-- name: Relay_ |25.87Mb290
+- name: Relay_ |25.87Mb277
   server: trus.moonfree.top
   port: 443
   type: trojan
   password: 4863e1b2-ec2f-4c71-b862-ce533028e57e
   skip-cert-verify: false
-- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb291
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb278
   server: jgwcc2.gaox.ml
   port: 443
   type: trojan
   password: 9c822f05-cfdc-479a-9534-60f3d4127435
   skip-cert-verify: false
-- name: 🇺🇸 US_1292292
+- name: 🇺🇸 US_1292279
   server: hacks.missionsec.us
   port: 443
   type: trojan
   password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
   skip-cert-verify: false
-- name: Relay_ |18.04Mb293
+- name: Relay_ |18.04Mb280
   server: listener.freetrade.link
   port: 443
   type: trojan
   password: Z9TS0AeB8S5ZlpFNRea3aypDaXISOyzY67xCO33lF4gKq38jw2uDEnDYRCCxAc
   skip-cert-verify: false
-- name: 🇺🇸 US_1294294
+- name: 🇺🇸 US_1294281
   server: 173.82.192.61
   port: 443
   type: trojan
   password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG
   skip-cert-verify: false
-- name: '|39.11Mb295'
+- name: '|39.11Mb282'
   server: 150.230.249.42
   port: 443
   type: trojan
   password: 0Y9gOHSdRt
   skip-cert-verify: false
-- name: Relay_ |25.10Mb296
+- name: Relay_ |25.10Mb283
   server: fhcamd2.gaox.ml
   port: 443
   type: trojan
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   skip-cert-verify: false
-- name: Relay_ | 3.95Mb297
+- name: Relay_ | 3.95Mb284
   server: cd.rutracker-cn.com
   port: 443
   type: trojan
   password: ukMzuFSmIXDvgW0h
   skip-cert-verify: false
-- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298298
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298285
   server: s162.s2022.xyz
   port: 23802
   type: trojan
   password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
   skip-cert-verify: false
-- name: 🇺🇸 US_1299299
+- name: 🇺🇸 US_1299286
   server: hgc.iamnotagoodman.com
   port: 443
   type: trojan
   password: 2ac7fc8a-68b5-4809-8bd2-73a593bae292
   skip-cert-verify: false
-- name: Relay_ |65.03Mb300
+- name: Relay_ |65.03Mb287
   server: trojannmfan7.ripwallllc.com
   port: 443
   type: trojan
   password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7
   skip-cert-verify: false
-- name: Relay_ |12.04Mb301
+- name: Relay_ |12.04Mb288
   server: singapore.anthoncloud.com
   port: 3306
   type: trojan
   password: 6589ce99-9ff7-3c1b-a744-ca3f4abfe386
   skip-cert-verify: false
-- name: 🇺🇸 US_1302302
+- name: 🇺🇸 US_1302289
   server: www.cjf0423.cf
   port: 443
   type: trojan
   password: 111111
   skip-cert-verify: false
-- name: Relay_ |59.07Mb303
+- name: Relay_ |59.07Mb290
   server: www.sxsy88.tk
   port: 44150
   type: trojan
   password: zFyLKH62WN
   skip-cert-verify: false
-- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb304
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb291
   server: fhcarm2.gaox.ml
   port: 443
   type: trojan
   password: f39bd244-f5fe-415c-8b98-a1e5250bf178
   skip-cert-verify: false
-- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb305
+- name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb292
   server: fhcarm1.gaox.ml
   port: 443
   type: trojan
   password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   skip-cert-verify: false
-- name: Relay_ |34.20Mb306
+- name: Relay_ |34.20Mb293
   server: kr05.wangxd.life
   port: 3052
   type: trojan
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   skip-cert-verify: false
-- name: Relay_ |48.28Mb307
+- name: Relay_ |48.28Mb294
   server: jgwdj4.gaox.ml
   port: 443
   type: trojan
   password: c09eb137-bf68-4658-84e0-102d94b74168
   skip-cert-verify: false
-- name: Relay_ |23.84Mb308
+- name: Relay_ |23.84Mb295
   server: jgwhdlb1.gaox.ml
   port: 443
   type: trojan
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
   skip-cert-verify: false
-- name: 🇺🇸 US_1309309
+- name: 🇺🇸 US_1309296
   server: 167.88.61.2
   port: 443
   type: trojan
   password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8
   skip-cert-verify: false
-- name: Relay_ |26.85Mb310
+- name: Relay_ |26.85Mb297
   server: music.missionsec.us
   port: 443
   type: trojan
   password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw
   skip-cert-verify: false
-- name: Relay_ | 6.83Mb311
+- name: Relay_ | 6.83Mb298
   server: purchases.freetrade.link
   port: 443
   type: trojan
   password: ZeYaxlxBNuyjgp736e8l4I32aAZSOYRcqD3ESC8pwADKSCFDynO3a0FXTzC5R9
   skip-cert-verify: false
-- name: Relay_ |20.25Mb312
+- name: Relay_ |20.25Mb299
   server: jgwdb2.gaox.ml
   port: 443
   type: trojan
   password: c19d1432-8b3e-4818-8837-3d160cf65908
   skip-cert-verify: false
-- name: Relay_ |26.02Mb313
+- name: Relay_ |26.02Mb300
   server: jgwdj3.gaox.ml
   port: 443
   type: trojan
   password: da777aae-defb-41d0-a183-2c27da2b4677
   skip-cert-verify: false
-- name: Relay_ |24.64Mb314
+- name: Relay_ |24.64Mb301
   server: fhcamd1.gaox.ml
   port: 443
   type: trojan
   password: e23f408a-012e-4030-8b31-02022031cb50
   skip-cert-verify: false
-- name: ZZ_1430315
+- name: ZZ_1430302
   server: 103.173.155.72
   port: 28443
   type: trojan
   password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4
   skip-cert-verify: false
-- name: Relay_ |65.50Mb316
+- name: Relay_ |65.50Mb303
   server: 5.44.249.43
   port: 3389
   type: trojan
   password: 6f0a9d0fa39d65fa
   skip-cert-verify: false
-- name: Relay_ |72.81Mb317
+- name: Relay_ |72.81Mb304
   server: 5.44.249.43
   port: 3389
   type: trojan
   password: cd39f62aed7b90f6
   skip-cert-verify: false
-- name: Relay_ | 0.18Mb318
+- name: Relay_ | 0.18Mb305
   server: idtj-ikd.bonds.id
   port: 443
   type: trojan
   password: 21887810-2e7d-11ed-918b-1239d0255272
   skip-cert-verify: false
-- name: ZZ_1434319
+- name: ZZ_1434306
   server: idtj-ikd.bonds.id
   port: 443
   type: trojan
   password: e7a0db30-2d2f-11ed-81cc-1239d0255272
   skip-cert-verify: false
-- name: Relay_ | 2.52Mb320
+- name: Relay_ | 2.52Mb307
   server: idtj-ikd.bonds.id
   port: 443
   type: trojan
   password: 193ba7c0-2e7d-11ed-a396-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |84.66Mb321
+- name: Relay_ |84.66Mb308
   server: 5.44.249.43
   port: 3389
   type: trojan
   password: ffec9f6ea19e1dd1
   skip-cert-verify: false
-- name: ZZ_1437322
+- name: ZZ_1437309
   server: id5-trojan.bonds.id
   port: 443
   type: trojan
   password: ca0c33d0-1c92-11ed-9a11-1239d0255272
   skip-cert-verify: false
-- name: Relay_ |76.29Mb323
+- name: Relay_ |76.29Mb310
   server: 5.44.249.43
   port: 3389
   type: trojan
   password: d66013c645b93c5c
   skip-cert-verify: false
-- name: ZZ_1439324
+- name: ZZ_1439311
   server: id5-trojan.bonds.id
   port: 443
   type: trojan
@@ -2565,308 +2358,295 @@ proxy-groups:
   - 🇯🇵 _US_美国->🇯🇵_JP_日本20
   - 🇳🇱 _NL_荷兰 321
   - 🇰🇷 _KR_韩国 222
-  - 更新于10/20/10:2623
+  - 更新于10/20/13:1623
   - ✈付费机场推荐✈24
   - dafeivpn.com 5元专线机场25
-  - 中国(TG频道:@kxswa)26
-  - 中国(TG频道:@kxswa) 227
+  - (TG频道:@kxswa)26
+  - (TG频道:@kxswa) 227
   - 美国(TG频道:@kxswa)28
-  - 中国(TG频道:@kxswa) 329
-  - (TG频道:@kxswa)30
-  - 中国(TG频道:@kxswa) 431
-  - 印度尼西亚(TG频道:@kxswa)32
-  - 印度尼西亚(TG频道:@kxswa) 233
-  - 中国(TG频道:@kxswa) 534
-  - (TG频道:@kxswa) 235
-  - 中国(TG频道:@kxswa) 636
-  - 美国(TG频道:@kxswa) 237
-  - 中国(TG频道:@kxswa) 738
-  - 印度尼西亚(TG频道:@kxswa) 339
-  - 中国(TG频道:@kxswa) 840
-  - 中国(TG频道:@kxswa) 941
-  - 中国(TG频道:@kxswa) 1042
-  - (TG频道:@kxswa) 343
-  - (TG频道:@kxswa) 444
-  - 美国(TG频道:@kxswa) 345
-  - 美国(TG频道:@kxswa) 446
-  - 中国(TG频道:@kxswa) 1147
-  - 中国(TG频道:@kxswa) 1248
-  - 中国(TG频道:@kxswa) 1349
-  - 中国(TG频道:@kxswa) 1450
-  - 中国(TG频道:@kxswa) 1551
-  - 中国(TG频道:@kxswa) 1652
-  - (TG频道:@kxswa) 553
-  - (TG频道:@kxswa) 654
-  - 🇭🇰 香港快|tg频道:@ripaojiedian55
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian56
-  - 🇯🇵 日本BGP|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾|tg频道:@ripaojiedian58
-  - 🇭🇰 香港SSR|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian60
-  - 🇸🇬 新加坡2|tg频道:@ripaojiedian61
-  - 🇭🇰 香港HKT|tg频道:@ripaojiedian62
-  - 🇭🇰 香港Az|tg频道:@ripaojiedian63
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian64
-  - 🇯🇵 日本快|tg频道:@ripaojiedian65
-  - 🇯🇵 日本SSR|tg频道:@ripaojiedian66
-  - 🇺🇸 美国3|tg频道:@ripaojiedian67
-  - 🇸🇬 新加坡 -tg频道:@ripaojiedian68
-  - 🇸🇬 狮城|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇨🇳 台湾|tg频道:@ripaojiedian 271
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian72
-  - 🇰🇷 韩国|tg频道:@ripaojiedian 273
-  - '|44.15Mb74'
-  - '|116.66Mb75'
-  - '|65.14Mb76'
-  - '|25.51Mb77'
-  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb78
-  - Relay_ |15.89Mb79
-  - Relay_ |10.21Mb80
-  - '|14.50Mb81'
-  - Relay_ |35.17Mb82
-  - '|11.76Mb83'
-  - '|27.41Mb84'
-  - '|19.24Mb85'
-  - '|25.78Mb86'
-  - '|54.57Mb87'
-  - '|25.22Mb88'
-  - Relay_ | 1.01Mb89
-  - Pool_ | 9.62Mb90
-  - Relay_ | 9.50Mb91
-  - '|25.72Mb92'
-  - '|28.46Mb93'
-  - '|22.53Mb94'
-  - Relay_ | 2.10Mb95
-  - Relay_ | 2.02Mb96
-  - Relay_ | 2.41Mb97
-  - Pool_ |25.27Mb98
-  - '|45.88Mb99'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb100
-  - '|15.15Mb101'
-  - Pool_ |23.96Mb102
-  - Pool_ |22.90Mb103
-  - Relay_ | 1.56Mb104
-  - '|41.43Mb105'
-  - '| 1.67Mb106'
-  - Relay_ | 0.97Mb107
-  - 🇦🇺 AU_13108
-  - 🇦🇺 AU_14109
-  - 🇦🇺 AU_15110
-  - 🇦🇺 AU_16111
-  - 🇦🇺 AU_17112
-  - 🇦🇺 AU_18113
-  - 🇦🇺 AU_19114
-  - 🇦🇺 AU_20115
-  - 🇦🇺 AU_21116
-  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb117
-  - 🇦🇺 AU_23118
-  - 🇦🇺 AU_24119
-  - 🇦🇺 AU_25120
-  - 🇦🇺 AU_26121
-  - 🇦🇺 AU_27122
-  - 🇦🇺 AU_28123
-  - 🇦🇺 AU_29124
-  - CA_62125
-  - CA_63126
-  - CA_64127
-  - CA_65128
-  - CA_66129
-  - CA_67130
-  - CA_68131
-  - Relay_ |10.42Mb132
-  - CA_70133
-  - CA_71134
-  - CA_72135
-  - CA_73136
-  - CA_74137
-  - CA_75138
-  - CA_76139
-  - CA_77140
-  - CA_78141
-  - CA_79142
-  - CA_80143
-  - CA_81144
-  - CA_82145
-  - CA_83146
-  - CA_84147
-  - CA_86148
-  - CA_87149
-  - CA_88150
-  - CA_89151
-  - CA_90152
-  - CA_91153
-  - CA_92154
-  - CA_93155
-  - CA_94156
-  - CA_95157
-  - CA_96158
-  - CA_97159
-  - CA_98160
-  - CA_99161
-  - Relay_ | 9.69Mb162
-  - CA_101163
-  - CA_102164
-  - CA_103165
-  - CA_104166
-  - 🇨🇳 CN_107167
-  - Relay_ |35.78Mb168
-  - '| 1.88Mb169'
-  - Relay_ |43.45Mb170
-  - Relay_ | 8.64Mb171
-  - Relay_ | 7.57Mb172
-  - Relay_ | 2.03Mb173
-  - 🇨🇳 CN_114174
-  - Relay_ |31.14Mb175
-  - Relay_ |50.39Mb176
-  - Relay_ |43.34Mb177
-  - Relay_ |43.91Mb178
-  - Relay_ | 7.00Mb179
-  - Relay_ |12.64Mb180
-  - Relay_ | 2.02Mb181
-  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb182
-  - '| 2.18Mb183'
-  - Relay_ | 7.92Mb184
-  - 🇩🇪 DE_177185
-  - 🇫🇷 FR_239186
-  - Relay_ |23.38Mb187
-  - Relay_ | 8.72Mb188
-  - 🇫🇷 FR_242189
-  - GB_271190
-  - 🇭🇰 HK_279191
-  - 🇭🇰 HK_280192
-  - Relay_ |570.16Mb193
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb194
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb195
-  - 🇯🇵 JP_298196
-  - 🇯🇵 JP_299197
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb198
-  - 🇯🇵 JP_301199
-  - 🇯🇵 JP_302200
-  - 🇯🇵 JP_303201
-  - 🇯🇵 JP_304202
-  - 🇯🇵 JP_305203
-  - 🇯🇵 JP_306204
-  - 🇯🇵 JP_307205
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb206
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb207
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb208
-  - Relay_ | 4.46Mb209
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb210
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb211
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb212
-  - 🇯🇵 JP_316213
-  - 🇯🇵 JP_317214
-  - 🇯🇵 JP_318215
-  - 🇯🇵 JP_319216
-  - Relay_ |13.98Mb217
-  - Relay_ | 8.04Mb218
-  - 🇯🇵 JP_322219
-  - 🇰🇷 KR_323220
-  - 🇰🇷 KR_324221
-  - 🇳🇱 NL_567222
-  - '|30.85Mb223'
-  - Relay_ | 2.34Mb224
-  - 🇳🇱 NL_570225
-  - 🇳🇱 NL_571226
-  - 🇳🇱 NL_572227
-  - Relay_ |11.42Mb228
-  - 🇳🇱 NL_574229
-  - '| 4.27Mb230'
-  - '| 3.17Mb231'
-  - 🇷🇴 RO_587232
-  - 🇷🇴 RO_588233
-  - 🇷🇴 RO_589234
-  - '|20.10Mb235'
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb236
-  - 🇸🇬 SG_619237
-  - 🇸🇬 SG_620238
-  - 🇸🇬 SG_621239
-  - 🇸🇬 SG_622240
-  - Relay_ |16.07Mb241
-  - Relay_ | 3.30Mb242
-  - Relay_ | 2.59Mb243
-  - Relay_ |463.92Mb244
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb245
-  - Relay_ |125.11Mb246
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb247
-  - 🇸🇬 SG_630248
-  - Relay_ |37.03Mb249
-  - 🇸🇬 SG_632250
-  - 🇸🇬 SG_633251
-  - Relay_ |35.23Mb252
-  - 🇨🇳 TW_638253
-  - 🇨🇳 TW_639254
-  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb255
-  - 🇨🇳 TW_641256
-  - 🇨🇳 TW_642257
-  - 🇨🇳 TW_643258
-  - Relay_ | 2.95Mb259
-  - 🇺🇸 US_1260260
-  - 🇺🇸 US_1261261
-  - 🇺🇸 US_1262262
-  - 🇺🇸 US_1263263
-  - 🇺🇸 US_1264264
-  - 🇺🇸 US_1265265
-  - 🇺🇸 US_1266266
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267267
-  - 🇺🇸 US_1268268
-  - 🇺🇸 US_1269269
-  - 🇺🇸 US_1270270
-  - 🇺🇸 US_1271271
-  - 🇺🇸 US_1272272
-  - 🇺🇸 US_1273273
-  - 🇺🇸 US_1274274
-  - '| 8.11Mb275'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276276
-  - 🇺🇸 US_1277277
-  - Relay_ |82.21Mb278
-  - Relay_ |17.93Mb279
-  - 🇺🇸 US_1280280
-  - Relay_ | 2.19Mb281
-  - 🇺🇸 US_1282282
-  - 🇺🇸 US_1283283
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb284
-  - 🇺🇸 US_1285285
-  - 🇺🇸 US_1286286
-  - 🇺🇸 US_1287287
-  - 🇺🇸 US_1288288
-  - 🇺🇸 US_1289289
-  - Relay_ |25.87Mb290
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb291
-  - 🇺🇸 US_1292292
-  - Relay_ |18.04Mb293
-  - 🇺🇸 US_1294294
-  - '|39.11Mb295'
-  - Relay_ |25.10Mb296
-  - Relay_ | 3.95Mb297
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298298
-  - 🇺🇸 US_1299299
-  - Relay_ |65.03Mb300
-  - Relay_ |12.04Mb301
-  - 🇺🇸 US_1302302
-  - Relay_ |59.07Mb303
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb304
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb305
-  - Relay_ |34.20Mb306
-  - Relay_ |48.28Mb307
-  - Relay_ |23.84Mb308
-  - 🇺🇸 US_1309309
-  - Relay_ |26.85Mb310
-  - Relay_ | 6.83Mb311
-  - Relay_ |20.25Mb312
-  - Relay_ |26.02Mb313
-  - Relay_ |24.64Mb314
-  - ZZ_1430315
-  - Relay_ |65.50Mb316
-  - Relay_ |72.81Mb317
-  - Relay_ | 0.18Mb318
-  - ZZ_1434319
-  - Relay_ | 2.52Mb320
-  - Relay_ |84.66Mb321
-  - ZZ_1437322
-  - Relay_ |76.29Mb323
-  - ZZ_1439324
+  - 韩国(TG频道:@kxswa)29
+  - 美国(TG频道:@kxswa) 230
+  - 新加坡(TG频道:@kxswa)31
+  - 新加坡(TG频道:@kxswa) 232
+  - 新加坡(TG频道:@kxswa) 333
+  - 日本(TG频道:@kxswa)34
+  - 新加坡(TG频道:@kxswa) 435
+  - 美国(TG频道:@kxswa) 336
+  - (TG频道:@kxswa) 337
+  - 香港(TG频道:@kxswa)38
+  - (TG频道:@kxswa) 439
+  - 日本(TG频道:@kxswa) 240
+  - 韩国(TG频道:@kxswa) 241
+  - 🇭🇰 香港快|tg频道:@ripaojiedian42
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian43
+  - 🇯🇵 日本BGP|tg频道:@ripaojiedian44
+  - 🇨🇳 台湾|tg频道:@ripaojiedian45
+  - 🇭🇰 香港SSR|tg频道:@ripaojiedian46
+  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian47
+  - 🇸🇬 新加坡2|tg频道:@ripaojiedian48
+  - 🇭🇰 香港HKT|tg频道:@ripaojiedian49
+  - 🇭🇰 香港Az|tg频道:@ripaojiedian50
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian51
+  - 🇯🇵 日本快|tg频道:@ripaojiedian52
+  - 🇯🇵 日本SSR|tg频道:@ripaojiedian53
+  - 🇺🇸 美国3|tg频道:@ripaojiedian54
+  - 🇸🇬 新加坡 -tg频道:@ripaojiedian55
+  - 🇸🇬 狮城|tg频道:@ripaojiedian56
+  - 🇰🇷 韩国|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾|tg频道:@ripaojiedian 258
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian59
+  - 🇰🇷 韩国|tg频道:@ripaojiedian 260
+  - '|44.15Mb61'
+  - '|116.66Mb62'
+  - '|65.14Mb63'
+  - '|25.51Mb64'
+  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb65
+  - Relay_ |15.89Mb66
+  - Relay_ |10.21Mb67
+  - '|14.50Mb68'
+  - Relay_ |35.17Mb69
+  - '|11.76Mb70'
+  - '|27.41Mb71'
+  - '|19.24Mb72'
+  - '|25.78Mb73'
+  - '|54.57Mb74'
+  - '|25.22Mb75'
+  - Relay_ | 1.01Mb76
+  - Pool_ | 9.62Mb77
+  - Relay_ | 9.50Mb78
+  - '|25.72Mb79'
+  - '|28.46Mb80'
+  - '|22.53Mb81'
+  - Relay_ | 2.10Mb82
+  - Relay_ | 2.02Mb83
+  - Relay_ | 2.41Mb84
+  - Pool_ |25.27Mb85
+  - '|45.88Mb86'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb87
+  - '|15.15Mb88'
+  - Pool_ |23.96Mb89
+  - Pool_ |22.90Mb90
+  - Relay_ | 1.56Mb91
+  - '|41.43Mb92'
+  - '| 1.67Mb93'
+  - Relay_ | 0.97Mb94
+  - 🇦🇺 AU_1395
+  - 🇦🇺 AU_1496
+  - 🇦🇺 AU_1597
+  - 🇦🇺 AU_1698
+  - 🇦🇺 AU_1799
+  - 🇦🇺 AU_18100
+  - 🇦🇺 AU_19101
+  - 🇦🇺 AU_20102
+  - 🇦🇺 AU_21103
+  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb104
+  - 🇦🇺 AU_23105
+  - 🇦🇺 AU_24106
+  - 🇦🇺 AU_25107
+  - 🇦🇺 AU_26108
+  - 🇦🇺 AU_27109
+  - 🇦🇺 AU_28110
+  - 🇦🇺 AU_29111
+  - CA_62112
+  - CA_63113
+  - CA_64114
+  - CA_65115
+  - CA_66116
+  - CA_67117
+  - CA_68118
+  - Relay_ |10.42Mb119
+  - CA_70120
+  - CA_71121
+  - CA_72122
+  - CA_73123
+  - CA_74124
+  - CA_75125
+  - CA_76126
+  - CA_77127
+  - CA_78128
+  - CA_79129
+  - CA_80130
+  - CA_81131
+  - CA_82132
+  - CA_83133
+  - CA_84134
+  - CA_86135
+  - CA_87136
+  - CA_88137
+  - CA_89138
+  - CA_90139
+  - CA_91140
+  - CA_92141
+  - CA_93142
+  - CA_94143
+  - CA_95144
+  - CA_96145
+  - CA_97146
+  - CA_98147
+  - CA_99148
+  - Relay_ | 9.69Mb149
+  - CA_101150
+  - CA_102151
+  - CA_103152
+  - CA_104153
+  - 🇨🇳 CN_107154
+  - Relay_ |35.78Mb155
+  - '| 1.88Mb156'
+  - Relay_ |43.45Mb157
+  - Relay_ | 8.64Mb158
+  - Relay_ | 7.57Mb159
+  - Relay_ | 2.03Mb160
+  - 🇨🇳 CN_114161
+  - Relay_ |31.14Mb162
+  - Relay_ |50.39Mb163
+  - Relay_ |43.34Mb164
+  - Relay_ |43.91Mb165
+  - Relay_ | 7.00Mb166
+  - Relay_ |12.64Mb167
+  - Relay_ | 2.02Mb168
+  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb169
+  - '| 2.18Mb170'
+  - Relay_ | 7.92Mb171
+  - 🇩🇪 DE_177172
+  - 🇫🇷 FR_239173
+  - Relay_ |23.38Mb174
+  - Relay_ | 8.72Mb175
+  - 🇫🇷 FR_242176
+  - GB_271177
+  - 🇭🇰 HK_279178
+  - 🇭🇰 HK_280179
+  - Relay_ |570.16Mb180
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb181
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb182
+  - 🇯🇵 JP_298183
+  - 🇯🇵 JP_299184
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb185
+  - 🇯🇵 JP_301186
+  - 🇯🇵 JP_302187
+  - 🇯🇵 JP_303188
+  - 🇯🇵 JP_304189
+  - 🇯🇵 JP_305190
+  - 🇯🇵 JP_306191
+  - 🇯🇵 JP_307192
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb193
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb194
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb195
+  - Relay_ | 4.46Mb196
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb197
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb198
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb199
+  - 🇯🇵 JP_316200
+  - 🇯🇵 JP_317201
+  - 🇯🇵 JP_318202
+  - 🇯🇵 JP_319203
+  - Relay_ |13.98Mb204
+  - Relay_ | 8.04Mb205
+  - 🇯🇵 JP_322206
+  - 🇰🇷 KR_323207
+  - 🇰🇷 KR_324208
+  - 🇳🇱 NL_567209
+  - '|30.85Mb210'
+  - Relay_ | 2.34Mb211
+  - 🇳🇱 NL_570212
+  - 🇳🇱 NL_571213
+  - 🇳🇱 NL_572214
+  - Relay_ |11.42Mb215
+  - 🇳🇱 NL_574216
+  - '| 4.27Mb217'
+  - '| 3.17Mb218'
+  - 🇷🇴 RO_587219
+  - 🇷🇴 RO_588220
+  - 🇷🇴 RO_589221
+  - '|20.10Mb222'
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb223
+  - 🇸🇬 SG_619224
+  - 🇸🇬 SG_620225
+  - 🇸🇬 SG_621226
+  - 🇸🇬 SG_622227
+  - Relay_ |16.07Mb228
+  - Relay_ | 3.30Mb229
+  - Relay_ | 2.59Mb230
+  - Relay_ |463.92Mb231
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb232
+  - Relay_ |125.11Mb233
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb234
+  - 🇸🇬 SG_630235
+  - Relay_ |37.03Mb236
+  - 🇸🇬 SG_632237
+  - 🇸🇬 SG_633238
+  - Relay_ |35.23Mb239
+  - 🇨🇳 TW_638240
+  - 🇨🇳 TW_639241
+  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb242
+  - 🇨🇳 TW_641243
+  - 🇨🇳 TW_642244
+  - 🇨🇳 TW_643245
+  - Relay_ | 2.95Mb246
+  - 🇺🇸 US_1260247
+  - 🇺🇸 US_1261248
+  - 🇺🇸 US_1262249
+  - 🇺🇸 US_1263250
+  - 🇺🇸 US_1264251
+  - 🇺🇸 US_1265252
+  - 🇺🇸 US_1266253
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267254
+  - 🇺🇸 US_1268255
+  - 🇺🇸 US_1269256
+  - 🇺🇸 US_1270257
+  - 🇺🇸 US_1271258
+  - 🇺🇸 US_1272259
+  - 🇺🇸 US_1273260
+  - 🇺🇸 US_1274261
+  - '| 8.11Mb262'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276263
+  - 🇺🇸 US_1277264
+  - Relay_ |82.21Mb265
+  - Relay_ |17.93Mb266
+  - 🇺🇸 US_1280267
+  - Relay_ | 2.19Mb268
+  - 🇺🇸 US_1282269
+  - 🇺🇸 US_1283270
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb271
+  - 🇺🇸 US_1285272
+  - 🇺🇸 US_1286273
+  - 🇺🇸 US_1287274
+  - 🇺🇸 US_1288275
+  - 🇺🇸 US_1289276
+  - Relay_ |25.87Mb277
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb278
+  - 🇺🇸 US_1292279
+  - Relay_ |18.04Mb280
+  - 🇺🇸 US_1294281
+  - '|39.11Mb282'
+  - Relay_ |25.10Mb283
+  - Relay_ | 3.95Mb284
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298285
+  - 🇺🇸 US_1299286
+  - Relay_ |65.03Mb287
+  - Relay_ |12.04Mb288
+  - 🇺🇸 US_1302289
+  - Relay_ |59.07Mb290
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb291
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb292
+  - Relay_ |34.20Mb293
+  - Relay_ |48.28Mb294
+  - Relay_ |23.84Mb295
+  - 🇺🇸 US_1309296
+  - Relay_ |26.85Mb297
+  - Relay_ | 6.83Mb298
+  - Relay_ |20.25Mb299
+  - Relay_ |26.02Mb300
+  - Relay_ |24.64Mb301
+  - ZZ_1430302
+  - Relay_ |65.50Mb303
+  - Relay_ |72.81Mb304
+  - Relay_ | 0.18Mb305
+  - ZZ_1434306
+  - Relay_ | 2.52Mb307
+  - Relay_ |84.66Mb308
+  - ZZ_1437309
+  - Relay_ |76.29Mb310
+  - ZZ_1439311
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2895,308 +2675,295 @@ proxy-groups:
   - 🇯🇵 _US_美国->🇯🇵_JP_日本20
   - 🇳🇱 _NL_荷兰 321
   - 🇰🇷 _KR_韩国 222
-  - 更新于10/20/10:2623
+  - 更新于10/20/13:1623
   - ✈付费机场推荐✈24
   - dafeivpn.com 5元专线机场25
-  - 中国(TG频道:@kxswa)26
-  - 中国(TG频道:@kxswa) 227
+  - (TG频道:@kxswa)26
+  - (TG频道:@kxswa) 227
   - 美国(TG频道:@kxswa)28
-  - 中国(TG频道:@kxswa) 329
-  - (TG频道:@kxswa)30
-  - 中国(TG频道:@kxswa) 431
-  - 印度尼西亚(TG频道:@kxswa)32
-  - 印度尼西亚(TG频道:@kxswa) 233
-  - 中国(TG频道:@kxswa) 534
-  - (TG频道:@kxswa) 235
-  - 中国(TG频道:@kxswa) 636
-  - 美国(TG频道:@kxswa) 237
-  - 中国(TG频道:@kxswa) 738
-  - 印度尼西亚(TG频道:@kxswa) 339
-  - 中国(TG频道:@kxswa) 840
-  - 中国(TG频道:@kxswa) 941
-  - 中国(TG频道:@kxswa) 1042
-  - (TG频道:@kxswa) 343
-  - (TG频道:@kxswa) 444
-  - 美国(TG频道:@kxswa) 345
-  - 美国(TG频道:@kxswa) 446
-  - 中国(TG频道:@kxswa) 1147
-  - 中国(TG频道:@kxswa) 1248
-  - 中国(TG频道:@kxswa) 1349
-  - 中国(TG频道:@kxswa) 1450
-  - 中国(TG频道:@kxswa) 1551
-  - 中国(TG频道:@kxswa) 1652
-  - (TG频道:@kxswa) 553
-  - (TG频道:@kxswa) 654
-  - 🇭🇰 香港快|tg频道:@ripaojiedian55
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian56
-  - 🇯🇵 日本BGP|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾|tg频道:@ripaojiedian58
-  - 🇭🇰 香港SSR|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian60
-  - 🇸🇬 新加坡2|tg频道:@ripaojiedian61
-  - 🇭🇰 香港HKT|tg频道:@ripaojiedian62
-  - 🇭🇰 香港Az|tg频道:@ripaojiedian63
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian64
-  - 🇯🇵 日本快|tg频道:@ripaojiedian65
-  - 🇯🇵 日本SSR|tg频道:@ripaojiedian66
-  - 🇺🇸 美国3|tg频道:@ripaojiedian67
-  - 🇸🇬 新加坡 -tg频道:@ripaojiedian68
-  - 🇸🇬 狮城|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇨🇳 台湾|tg频道:@ripaojiedian 271
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian72
-  - 🇰🇷 韩国|tg频道:@ripaojiedian 273
-  - '|44.15Mb74'
-  - '|116.66Mb75'
-  - '|65.14Mb76'
-  - '|25.51Mb77'
-  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb78
-  - Relay_ |15.89Mb79
-  - Relay_ |10.21Mb80
-  - '|14.50Mb81'
-  - Relay_ |35.17Mb82
-  - '|11.76Mb83'
-  - '|27.41Mb84'
-  - '|19.24Mb85'
-  - '|25.78Mb86'
-  - '|54.57Mb87'
-  - '|25.22Mb88'
-  - Relay_ | 1.01Mb89
-  - Pool_ | 9.62Mb90
-  - Relay_ | 9.50Mb91
-  - '|25.72Mb92'
-  - '|28.46Mb93'
-  - '|22.53Mb94'
-  - Relay_ | 2.10Mb95
-  - Relay_ | 2.02Mb96
-  - Relay_ | 2.41Mb97
-  - Pool_ |25.27Mb98
-  - '|45.88Mb99'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb100
-  - '|15.15Mb101'
-  - Pool_ |23.96Mb102
-  - Pool_ |22.90Mb103
-  - Relay_ | 1.56Mb104
-  - '|41.43Mb105'
-  - '| 1.67Mb106'
-  - Relay_ | 0.97Mb107
-  - 🇦🇺 AU_13108
-  - 🇦🇺 AU_14109
-  - 🇦🇺 AU_15110
-  - 🇦🇺 AU_16111
-  - 🇦🇺 AU_17112
-  - 🇦🇺 AU_18113
-  - 🇦🇺 AU_19114
-  - 🇦🇺 AU_20115
-  - 🇦🇺 AU_21116
-  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb117
-  - 🇦🇺 AU_23118
-  - 🇦🇺 AU_24119
-  - 🇦🇺 AU_25120
-  - 🇦🇺 AU_26121
-  - 🇦🇺 AU_27122
-  - 🇦🇺 AU_28123
-  - 🇦🇺 AU_29124
-  - CA_62125
-  - CA_63126
-  - CA_64127
-  - CA_65128
-  - CA_66129
-  - CA_67130
-  - CA_68131
-  - Relay_ |10.42Mb132
-  - CA_70133
-  - CA_71134
-  - CA_72135
-  - CA_73136
-  - CA_74137
-  - CA_75138
-  - CA_76139
-  - CA_77140
-  - CA_78141
-  - CA_79142
-  - CA_80143
-  - CA_81144
-  - CA_82145
-  - CA_83146
-  - CA_84147
-  - CA_86148
-  - CA_87149
-  - CA_88150
-  - CA_89151
-  - CA_90152
-  - CA_91153
-  - CA_92154
-  - CA_93155
-  - CA_94156
-  - CA_95157
-  - CA_96158
-  - CA_97159
-  - CA_98160
-  - CA_99161
-  - Relay_ | 9.69Mb162
-  - CA_101163
-  - CA_102164
-  - CA_103165
-  - CA_104166
-  - 🇨🇳 CN_107167
-  - Relay_ |35.78Mb168
-  - '| 1.88Mb169'
-  - Relay_ |43.45Mb170
-  - Relay_ | 8.64Mb171
-  - Relay_ | 7.57Mb172
-  - Relay_ | 2.03Mb173
-  - 🇨🇳 CN_114174
-  - Relay_ |31.14Mb175
-  - Relay_ |50.39Mb176
-  - Relay_ |43.34Mb177
-  - Relay_ |43.91Mb178
-  - Relay_ | 7.00Mb179
-  - Relay_ |12.64Mb180
-  - Relay_ | 2.02Mb181
-  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb182
-  - '| 2.18Mb183'
-  - Relay_ | 7.92Mb184
-  - 🇩🇪 DE_177185
-  - 🇫🇷 FR_239186
-  - Relay_ |23.38Mb187
-  - Relay_ | 8.72Mb188
-  - 🇫🇷 FR_242189
-  - GB_271190
-  - 🇭🇰 HK_279191
-  - 🇭🇰 HK_280192
-  - Relay_ |570.16Mb193
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb194
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb195
-  - 🇯🇵 JP_298196
-  - 🇯🇵 JP_299197
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb198
-  - 🇯🇵 JP_301199
-  - 🇯🇵 JP_302200
-  - 🇯🇵 JP_303201
-  - 🇯🇵 JP_304202
-  - 🇯🇵 JP_305203
-  - 🇯🇵 JP_306204
-  - 🇯🇵 JP_307205
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb206
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb207
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb208
-  - Relay_ | 4.46Mb209
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb210
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb211
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb212
-  - 🇯🇵 JP_316213
-  - 🇯🇵 JP_317214
-  - 🇯🇵 JP_318215
-  - 🇯🇵 JP_319216
-  - Relay_ |13.98Mb217
-  - Relay_ | 8.04Mb218
-  - 🇯🇵 JP_322219
-  - 🇰🇷 KR_323220
-  - 🇰🇷 KR_324221
-  - 🇳🇱 NL_567222
-  - '|30.85Mb223'
-  - Relay_ | 2.34Mb224
-  - 🇳🇱 NL_570225
-  - 🇳🇱 NL_571226
-  - 🇳🇱 NL_572227
-  - Relay_ |11.42Mb228
-  - 🇳🇱 NL_574229
-  - '| 4.27Mb230'
-  - '| 3.17Mb231'
-  - 🇷🇴 RO_587232
-  - 🇷🇴 RO_588233
-  - 🇷🇴 RO_589234
-  - '|20.10Mb235'
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb236
-  - 🇸🇬 SG_619237
-  - 🇸🇬 SG_620238
-  - 🇸🇬 SG_621239
-  - 🇸🇬 SG_622240
-  - Relay_ |16.07Mb241
-  - Relay_ | 3.30Mb242
-  - Relay_ | 2.59Mb243
-  - Relay_ |463.92Mb244
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb245
-  - Relay_ |125.11Mb246
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb247
-  - 🇸🇬 SG_630248
-  - Relay_ |37.03Mb249
-  - 🇸🇬 SG_632250
-  - 🇸🇬 SG_633251
-  - Relay_ |35.23Mb252
-  - 🇨🇳 TW_638253
-  - 🇨🇳 TW_639254
-  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb255
-  - 🇨🇳 TW_641256
-  - 🇨🇳 TW_642257
-  - 🇨🇳 TW_643258
-  - Relay_ | 2.95Mb259
-  - 🇺🇸 US_1260260
-  - 🇺🇸 US_1261261
-  - 🇺🇸 US_1262262
-  - 🇺🇸 US_1263263
-  - 🇺🇸 US_1264264
-  - 🇺🇸 US_1265265
-  - 🇺🇸 US_1266266
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267267
-  - 🇺🇸 US_1268268
-  - 🇺🇸 US_1269269
-  - 🇺🇸 US_1270270
-  - 🇺🇸 US_1271271
-  - 🇺🇸 US_1272272
-  - 🇺🇸 US_1273273
-  - 🇺🇸 US_1274274
-  - '| 8.11Mb275'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276276
-  - 🇺🇸 US_1277277
-  - Relay_ |82.21Mb278
-  - Relay_ |17.93Mb279
-  - 🇺🇸 US_1280280
-  - Relay_ | 2.19Mb281
-  - 🇺🇸 US_1282282
-  - 🇺🇸 US_1283283
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb284
-  - 🇺🇸 US_1285285
-  - 🇺🇸 US_1286286
-  - 🇺🇸 US_1287287
-  - 🇺🇸 US_1288288
-  - 🇺🇸 US_1289289
-  - Relay_ |25.87Mb290
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb291
-  - 🇺🇸 US_1292292
-  - Relay_ |18.04Mb293
-  - 🇺🇸 US_1294294
-  - '|39.11Mb295'
-  - Relay_ |25.10Mb296
-  - Relay_ | 3.95Mb297
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298298
-  - 🇺🇸 US_1299299
-  - Relay_ |65.03Mb300
-  - Relay_ |12.04Mb301
-  - 🇺🇸 US_1302302
-  - Relay_ |59.07Mb303
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb304
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb305
-  - Relay_ |34.20Mb306
-  - Relay_ |48.28Mb307
-  - Relay_ |23.84Mb308
-  - 🇺🇸 US_1309309
-  - Relay_ |26.85Mb310
-  - Relay_ | 6.83Mb311
-  - Relay_ |20.25Mb312
-  - Relay_ |26.02Mb313
-  - Relay_ |24.64Mb314
-  - ZZ_1430315
-  - Relay_ |65.50Mb316
-  - Relay_ |72.81Mb317
-  - Relay_ | 0.18Mb318
-  - ZZ_1434319
-  - Relay_ | 2.52Mb320
-  - Relay_ |84.66Mb321
-  - ZZ_1437322
-  - Relay_ |76.29Mb323
-  - ZZ_1439324
+  - 韩国(TG频道:@kxswa)29
+  - 美国(TG频道:@kxswa) 230
+  - 新加坡(TG频道:@kxswa)31
+  - 新加坡(TG频道:@kxswa) 232
+  - 新加坡(TG频道:@kxswa) 333
+  - 日本(TG频道:@kxswa)34
+  - 新加坡(TG频道:@kxswa) 435
+  - 美国(TG频道:@kxswa) 336
+  - (TG频道:@kxswa) 337
+  - 香港(TG频道:@kxswa)38
+  - (TG频道:@kxswa) 439
+  - 日本(TG频道:@kxswa) 240
+  - 韩国(TG频道:@kxswa) 241
+  - 🇭🇰 香港快|tg频道:@ripaojiedian42
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian43
+  - 🇯🇵 日本BGP|tg频道:@ripaojiedian44
+  - 🇨🇳 台湾|tg频道:@ripaojiedian45
+  - 🇭🇰 香港SSR|tg频道:@ripaojiedian46
+  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian47
+  - 🇸🇬 新加坡2|tg频道:@ripaojiedian48
+  - 🇭🇰 香港HKT|tg频道:@ripaojiedian49
+  - 🇭🇰 香港Az|tg频道:@ripaojiedian50
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian51
+  - 🇯🇵 日本快|tg频道:@ripaojiedian52
+  - 🇯🇵 日本SSR|tg频道:@ripaojiedian53
+  - 🇺🇸 美国3|tg频道:@ripaojiedian54
+  - 🇸🇬 新加坡 -tg频道:@ripaojiedian55
+  - 🇸🇬 狮城|tg频道:@ripaojiedian56
+  - 🇰🇷 韩国|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾|tg频道:@ripaojiedian 258
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian59
+  - 🇰🇷 韩国|tg频道:@ripaojiedian 260
+  - '|44.15Mb61'
+  - '|116.66Mb62'
+  - '|65.14Mb63'
+  - '|25.51Mb64'
+  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb65
+  - Relay_ |15.89Mb66
+  - Relay_ |10.21Mb67
+  - '|14.50Mb68'
+  - Relay_ |35.17Mb69
+  - '|11.76Mb70'
+  - '|27.41Mb71'
+  - '|19.24Mb72'
+  - '|25.78Mb73'
+  - '|54.57Mb74'
+  - '|25.22Mb75'
+  - Relay_ | 1.01Mb76
+  - Pool_ | 9.62Mb77
+  - Relay_ | 9.50Mb78
+  - '|25.72Mb79'
+  - '|28.46Mb80'
+  - '|22.53Mb81'
+  - Relay_ | 2.10Mb82
+  - Relay_ | 2.02Mb83
+  - Relay_ | 2.41Mb84
+  - Pool_ |25.27Mb85
+  - '|45.88Mb86'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb87
+  - '|15.15Mb88'
+  - Pool_ |23.96Mb89
+  - Pool_ |22.90Mb90
+  - Relay_ | 1.56Mb91
+  - '|41.43Mb92'
+  - '| 1.67Mb93'
+  - Relay_ | 0.97Mb94
+  - 🇦🇺 AU_1395
+  - 🇦🇺 AU_1496
+  - 🇦🇺 AU_1597
+  - 🇦🇺 AU_1698
+  - 🇦🇺 AU_1799
+  - 🇦🇺 AU_18100
+  - 🇦🇺 AU_19101
+  - 🇦🇺 AU_20102
+  - 🇦🇺 AU_21103
+  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb104
+  - 🇦🇺 AU_23105
+  - 🇦🇺 AU_24106
+  - 🇦🇺 AU_25107
+  - 🇦🇺 AU_26108
+  - 🇦🇺 AU_27109
+  - 🇦🇺 AU_28110
+  - 🇦🇺 AU_29111
+  - CA_62112
+  - CA_63113
+  - CA_64114
+  - CA_65115
+  - CA_66116
+  - CA_67117
+  - CA_68118
+  - Relay_ |10.42Mb119
+  - CA_70120
+  - CA_71121
+  - CA_72122
+  - CA_73123
+  - CA_74124
+  - CA_75125
+  - CA_76126
+  - CA_77127
+  - CA_78128
+  - CA_79129
+  - CA_80130
+  - CA_81131
+  - CA_82132
+  - CA_83133
+  - CA_84134
+  - CA_86135
+  - CA_87136
+  - CA_88137
+  - CA_89138
+  - CA_90139
+  - CA_91140
+  - CA_92141
+  - CA_93142
+  - CA_94143
+  - CA_95144
+  - CA_96145
+  - CA_97146
+  - CA_98147
+  - CA_99148
+  - Relay_ | 9.69Mb149
+  - CA_101150
+  - CA_102151
+  - CA_103152
+  - CA_104153
+  - 🇨🇳 CN_107154
+  - Relay_ |35.78Mb155
+  - '| 1.88Mb156'
+  - Relay_ |43.45Mb157
+  - Relay_ | 8.64Mb158
+  - Relay_ | 7.57Mb159
+  - Relay_ | 2.03Mb160
+  - 🇨🇳 CN_114161
+  - Relay_ |31.14Mb162
+  - Relay_ |50.39Mb163
+  - Relay_ |43.34Mb164
+  - Relay_ |43.91Mb165
+  - Relay_ | 7.00Mb166
+  - Relay_ |12.64Mb167
+  - Relay_ | 2.02Mb168
+  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb169
+  - '| 2.18Mb170'
+  - Relay_ | 7.92Mb171
+  - 🇩🇪 DE_177172
+  - 🇫🇷 FR_239173
+  - Relay_ |23.38Mb174
+  - Relay_ | 8.72Mb175
+  - 🇫🇷 FR_242176
+  - GB_271177
+  - 🇭🇰 HK_279178
+  - 🇭🇰 HK_280179
+  - Relay_ |570.16Mb180
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb181
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb182
+  - 🇯🇵 JP_298183
+  - 🇯🇵 JP_299184
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb185
+  - 🇯🇵 JP_301186
+  - 🇯🇵 JP_302187
+  - 🇯🇵 JP_303188
+  - 🇯🇵 JP_304189
+  - 🇯🇵 JP_305190
+  - 🇯🇵 JP_306191
+  - 🇯🇵 JP_307192
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb193
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb194
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb195
+  - Relay_ | 4.46Mb196
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb197
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb198
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb199
+  - 🇯🇵 JP_316200
+  - 🇯🇵 JP_317201
+  - 🇯🇵 JP_318202
+  - 🇯🇵 JP_319203
+  - Relay_ |13.98Mb204
+  - Relay_ | 8.04Mb205
+  - 🇯🇵 JP_322206
+  - 🇰🇷 KR_323207
+  - 🇰🇷 KR_324208
+  - 🇳🇱 NL_567209
+  - '|30.85Mb210'
+  - Relay_ | 2.34Mb211
+  - 🇳🇱 NL_570212
+  - 🇳🇱 NL_571213
+  - 🇳🇱 NL_572214
+  - Relay_ |11.42Mb215
+  - 🇳🇱 NL_574216
+  - '| 4.27Mb217'
+  - '| 3.17Mb218'
+  - 🇷🇴 RO_587219
+  - 🇷🇴 RO_588220
+  - 🇷🇴 RO_589221
+  - '|20.10Mb222'
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb223
+  - 🇸🇬 SG_619224
+  - 🇸🇬 SG_620225
+  - 🇸🇬 SG_621226
+  - 🇸🇬 SG_622227
+  - Relay_ |16.07Mb228
+  - Relay_ | 3.30Mb229
+  - Relay_ | 2.59Mb230
+  - Relay_ |463.92Mb231
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb232
+  - Relay_ |125.11Mb233
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb234
+  - 🇸🇬 SG_630235
+  - Relay_ |37.03Mb236
+  - 🇸🇬 SG_632237
+  - 🇸🇬 SG_633238
+  - Relay_ |35.23Mb239
+  - 🇨🇳 TW_638240
+  - 🇨🇳 TW_639241
+  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb242
+  - 🇨🇳 TW_641243
+  - 🇨🇳 TW_642244
+  - 🇨🇳 TW_643245
+  - Relay_ | 2.95Mb246
+  - 🇺🇸 US_1260247
+  - 🇺🇸 US_1261248
+  - 🇺🇸 US_1262249
+  - 🇺🇸 US_1263250
+  - 🇺🇸 US_1264251
+  - 🇺🇸 US_1265252
+  - 🇺🇸 US_1266253
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267254
+  - 🇺🇸 US_1268255
+  - 🇺🇸 US_1269256
+  - 🇺🇸 US_1270257
+  - 🇺🇸 US_1271258
+  - 🇺🇸 US_1272259
+  - 🇺🇸 US_1273260
+  - 🇺🇸 US_1274261
+  - '| 8.11Mb262'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276263
+  - 🇺🇸 US_1277264
+  - Relay_ |82.21Mb265
+  - Relay_ |17.93Mb266
+  - 🇺🇸 US_1280267
+  - Relay_ | 2.19Mb268
+  - 🇺🇸 US_1282269
+  - 🇺🇸 US_1283270
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb271
+  - 🇺🇸 US_1285272
+  - 🇺🇸 US_1286273
+  - 🇺🇸 US_1287274
+  - 🇺🇸 US_1288275
+  - 🇺🇸 US_1289276
+  - Relay_ |25.87Mb277
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb278
+  - 🇺🇸 US_1292279
+  - Relay_ |18.04Mb280
+  - 🇺🇸 US_1294281
+  - '|39.11Mb282'
+  - Relay_ |25.10Mb283
+  - Relay_ | 3.95Mb284
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298285
+  - 🇺🇸 US_1299286
+  - Relay_ |65.03Mb287
+  - Relay_ |12.04Mb288
+  - 🇺🇸 US_1302289
+  - Relay_ |59.07Mb290
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb291
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb292
+  - Relay_ |34.20Mb293
+  - Relay_ |48.28Mb294
+  - Relay_ |23.84Mb295
+  - 🇺🇸 US_1309296
+  - Relay_ |26.85Mb297
+  - Relay_ | 6.83Mb298
+  - Relay_ |20.25Mb299
+  - Relay_ |26.02Mb300
+  - Relay_ |24.64Mb301
+  - ZZ_1430302
+  - Relay_ |65.50Mb303
+  - Relay_ |72.81Mb304
+  - Relay_ | 0.18Mb305
+  - ZZ_1434306
+  - Relay_ | 2.52Mb307
+  - Relay_ |84.66Mb308
+  - ZZ_1437309
+  - Relay_ |76.29Mb310
+  - ZZ_1439311
   - 🇺🇸 _US_美国1
   - 🇸🇬 _SG_新加坡2
   - 🇭🇰 _HK_香港3
@@ -3219,308 +2986,295 @@ proxy-groups:
   - 🇯🇵 _US_美国->🇯🇵_JP_日本20
   - 🇳🇱 _NL_荷兰 321
   - 🇰🇷 _KR_韩国 222
-  - 更新于10/20/10:2623
+  - 更新于10/20/13:1623
   - ✈付费机场推荐✈24
   - dafeivpn.com 5元专线机场25
-  - 中国(TG频道:@kxswa)26
-  - 中国(TG频道:@kxswa) 227
+  - (TG频道:@kxswa)26
+  - (TG频道:@kxswa) 227
   - 美国(TG频道:@kxswa)28
-  - 中国(TG频道:@kxswa) 329
-  - (TG频道:@kxswa)30
-  - 中国(TG频道:@kxswa) 431
-  - 印度尼西亚(TG频道:@kxswa)32
-  - 印度尼西亚(TG频道:@kxswa) 233
-  - 中国(TG频道:@kxswa) 534
-  - (TG频道:@kxswa) 235
-  - 中国(TG频道:@kxswa) 636
-  - 美国(TG频道:@kxswa) 237
-  - 中国(TG频道:@kxswa) 738
-  - 印度尼西亚(TG频道:@kxswa) 339
-  - 中国(TG频道:@kxswa) 840
-  - 中国(TG频道:@kxswa) 941
-  - 中国(TG频道:@kxswa) 1042
-  - (TG频道:@kxswa) 343
-  - (TG频道:@kxswa) 444
-  - 美国(TG频道:@kxswa) 345
-  - 美国(TG频道:@kxswa) 446
-  - 中国(TG频道:@kxswa) 1147
-  - 中国(TG频道:@kxswa) 1248
-  - 中国(TG频道:@kxswa) 1349
-  - 中国(TG频道:@kxswa) 1450
-  - 中国(TG频道:@kxswa) 1551
-  - 中国(TG频道:@kxswa) 1652
-  - (TG频道:@kxswa) 553
-  - (TG频道:@kxswa) 654
-  - 🇭🇰 香港快|tg频道:@ripaojiedian55
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian56
-  - 🇯🇵 日本BGP|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾|tg频道:@ripaojiedian58
-  - 🇭🇰 香港SSR|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian60
-  - 🇸🇬 新加坡2|tg频道:@ripaojiedian61
-  - 🇭🇰 香港HKT|tg频道:@ripaojiedian62
-  - 🇭🇰 香港Az|tg频道:@ripaojiedian63
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian64
-  - 🇯🇵 日本快|tg频道:@ripaojiedian65
-  - 🇯🇵 日本SSR|tg频道:@ripaojiedian66
-  - 🇺🇸 美国3|tg频道:@ripaojiedian67
-  - 🇸🇬 新加坡 -tg频道:@ripaojiedian68
-  - 🇸🇬 狮城|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇨🇳 台湾|tg频道:@ripaojiedian 271
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian72
-  - 🇰🇷 韩国|tg频道:@ripaojiedian 273
-  - '|44.15Mb74'
-  - '|116.66Mb75'
-  - '|65.14Mb76'
-  - '|25.51Mb77'
-  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb78
-  - Relay_ |15.89Mb79
-  - Relay_ |10.21Mb80
-  - '|14.50Mb81'
-  - Relay_ |35.17Mb82
-  - '|11.76Mb83'
-  - '|27.41Mb84'
-  - '|19.24Mb85'
-  - '|25.78Mb86'
-  - '|54.57Mb87'
-  - '|25.22Mb88'
-  - Relay_ | 1.01Mb89
-  - Pool_ | 9.62Mb90
-  - Relay_ | 9.50Mb91
-  - '|25.72Mb92'
-  - '|28.46Mb93'
-  - '|22.53Mb94'
-  - Relay_ | 2.10Mb95
-  - Relay_ | 2.02Mb96
-  - Relay_ | 2.41Mb97
-  - Pool_ |25.27Mb98
-  - '|45.88Mb99'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb100
-  - '|15.15Mb101'
-  - Pool_ |23.96Mb102
-  - Pool_ |22.90Mb103
-  - Relay_ | 1.56Mb104
-  - '|41.43Mb105'
-  - '| 1.67Mb106'
-  - Relay_ | 0.97Mb107
-  - 🇦🇺 AU_13108
-  - 🇦🇺 AU_14109
-  - 🇦🇺 AU_15110
-  - 🇦🇺 AU_16111
-  - 🇦🇺 AU_17112
-  - 🇦🇺 AU_18113
-  - 🇦🇺 AU_19114
-  - 🇦🇺 AU_20115
-  - 🇦🇺 AU_21116
-  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb117
-  - 🇦🇺 AU_23118
-  - 🇦🇺 AU_24119
-  - 🇦🇺 AU_25120
-  - 🇦🇺 AU_26121
-  - 🇦🇺 AU_27122
-  - 🇦🇺 AU_28123
-  - 🇦🇺 AU_29124
-  - CA_62125
-  - CA_63126
-  - CA_64127
-  - CA_65128
-  - CA_66129
-  - CA_67130
-  - CA_68131
-  - Relay_ |10.42Mb132
-  - CA_70133
-  - CA_71134
-  - CA_72135
-  - CA_73136
-  - CA_74137
-  - CA_75138
-  - CA_76139
-  - CA_77140
-  - CA_78141
-  - CA_79142
-  - CA_80143
-  - CA_81144
-  - CA_82145
-  - CA_83146
-  - CA_84147
-  - CA_86148
-  - CA_87149
-  - CA_88150
-  - CA_89151
-  - CA_90152
-  - CA_91153
-  - CA_92154
-  - CA_93155
-  - CA_94156
-  - CA_95157
-  - CA_96158
-  - CA_97159
-  - CA_98160
-  - CA_99161
-  - Relay_ | 9.69Mb162
-  - CA_101163
-  - CA_102164
-  - CA_103165
-  - CA_104166
-  - 🇨🇳 CN_107167
-  - Relay_ |35.78Mb168
-  - '| 1.88Mb169'
-  - Relay_ |43.45Mb170
-  - Relay_ | 8.64Mb171
-  - Relay_ | 7.57Mb172
-  - Relay_ | 2.03Mb173
-  - 🇨🇳 CN_114174
-  - Relay_ |31.14Mb175
-  - Relay_ |50.39Mb176
-  - Relay_ |43.34Mb177
-  - Relay_ |43.91Mb178
-  - Relay_ | 7.00Mb179
-  - Relay_ |12.64Mb180
-  - Relay_ | 2.02Mb181
-  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb182
-  - '| 2.18Mb183'
-  - Relay_ | 7.92Mb184
-  - 🇩🇪 DE_177185
-  - 🇫🇷 FR_239186
-  - Relay_ |23.38Mb187
-  - Relay_ | 8.72Mb188
-  - 🇫🇷 FR_242189
-  - GB_271190
-  - 🇭🇰 HK_279191
-  - 🇭🇰 HK_280192
-  - Relay_ |570.16Mb193
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb194
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb195
-  - 🇯🇵 JP_298196
-  - 🇯🇵 JP_299197
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb198
-  - 🇯🇵 JP_301199
-  - 🇯🇵 JP_302200
-  - 🇯🇵 JP_303201
-  - 🇯🇵 JP_304202
-  - 🇯🇵 JP_305203
-  - 🇯🇵 JP_306204
-  - 🇯🇵 JP_307205
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb206
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb207
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb208
-  - Relay_ | 4.46Mb209
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb210
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb211
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb212
-  - 🇯🇵 JP_316213
-  - 🇯🇵 JP_317214
-  - 🇯🇵 JP_318215
-  - 🇯🇵 JP_319216
-  - Relay_ |13.98Mb217
-  - Relay_ | 8.04Mb218
-  - 🇯🇵 JP_322219
-  - 🇰🇷 KR_323220
-  - 🇰🇷 KR_324221
-  - 🇳🇱 NL_567222
-  - '|30.85Mb223'
-  - Relay_ | 2.34Mb224
-  - 🇳🇱 NL_570225
-  - 🇳🇱 NL_571226
-  - 🇳🇱 NL_572227
-  - Relay_ |11.42Mb228
-  - 🇳🇱 NL_574229
-  - '| 4.27Mb230'
-  - '| 3.17Mb231'
-  - 🇷🇴 RO_587232
-  - 🇷🇴 RO_588233
-  - 🇷🇴 RO_589234
-  - '|20.10Mb235'
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb236
-  - 🇸🇬 SG_619237
-  - 🇸🇬 SG_620238
-  - 🇸🇬 SG_621239
-  - 🇸🇬 SG_622240
-  - Relay_ |16.07Mb241
-  - Relay_ | 3.30Mb242
-  - Relay_ | 2.59Mb243
-  - Relay_ |463.92Mb244
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb245
-  - Relay_ |125.11Mb246
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb247
-  - 🇸🇬 SG_630248
-  - Relay_ |37.03Mb249
-  - 🇸🇬 SG_632250
-  - 🇸🇬 SG_633251
-  - Relay_ |35.23Mb252
-  - 🇨🇳 TW_638253
-  - 🇨🇳 TW_639254
-  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb255
-  - 🇨🇳 TW_641256
-  - 🇨🇳 TW_642257
-  - 🇨🇳 TW_643258
-  - Relay_ | 2.95Mb259
-  - 🇺🇸 US_1260260
-  - 🇺🇸 US_1261261
-  - 🇺🇸 US_1262262
-  - 🇺🇸 US_1263263
-  - 🇺🇸 US_1264264
-  - 🇺🇸 US_1265265
-  - 🇺🇸 US_1266266
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267267
-  - 🇺🇸 US_1268268
-  - 🇺🇸 US_1269269
-  - 🇺🇸 US_1270270
-  - 🇺🇸 US_1271271
-  - 🇺🇸 US_1272272
-  - 🇺🇸 US_1273273
-  - 🇺🇸 US_1274274
-  - '| 8.11Mb275'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276276
-  - 🇺🇸 US_1277277
-  - Relay_ |82.21Mb278
-  - Relay_ |17.93Mb279
-  - 🇺🇸 US_1280280
-  - Relay_ | 2.19Mb281
-  - 🇺🇸 US_1282282
-  - 🇺🇸 US_1283283
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb284
-  - 🇺🇸 US_1285285
-  - 🇺🇸 US_1286286
-  - 🇺🇸 US_1287287
-  - 🇺🇸 US_1288288
-  - 🇺🇸 US_1289289
-  - Relay_ |25.87Mb290
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb291
-  - 🇺🇸 US_1292292
-  - Relay_ |18.04Mb293
-  - 🇺🇸 US_1294294
-  - '|39.11Mb295'
-  - Relay_ |25.10Mb296
-  - Relay_ | 3.95Mb297
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298298
-  - 🇺🇸 US_1299299
-  - Relay_ |65.03Mb300
-  - Relay_ |12.04Mb301
-  - 🇺🇸 US_1302302
-  - Relay_ |59.07Mb303
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb304
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb305
-  - Relay_ |34.20Mb306
-  - Relay_ |48.28Mb307
-  - Relay_ |23.84Mb308
-  - 🇺🇸 US_1309309
-  - Relay_ |26.85Mb310
-  - Relay_ | 6.83Mb311
-  - Relay_ |20.25Mb312
-  - Relay_ |26.02Mb313
-  - Relay_ |24.64Mb314
-  - ZZ_1430315
-  - Relay_ |65.50Mb316
-  - Relay_ |72.81Mb317
-  - Relay_ | 0.18Mb318
-  - ZZ_1434319
-  - Relay_ | 2.52Mb320
-  - Relay_ |84.66Mb321
-  - ZZ_1437322
-  - Relay_ |76.29Mb323
-  - ZZ_1439324
+  - 韩国(TG频道:@kxswa)29
+  - 美国(TG频道:@kxswa) 230
+  - 新加坡(TG频道:@kxswa)31
+  - 新加坡(TG频道:@kxswa) 232
+  - 新加坡(TG频道:@kxswa) 333
+  - 日本(TG频道:@kxswa)34
+  - 新加坡(TG频道:@kxswa) 435
+  - 美国(TG频道:@kxswa) 336
+  - (TG频道:@kxswa) 337
+  - 香港(TG频道:@kxswa)38
+  - (TG频道:@kxswa) 439
+  - 日本(TG频道:@kxswa) 240
+  - 韩国(TG频道:@kxswa) 241
+  - 🇭🇰 香港快|tg频道:@ripaojiedian42
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian43
+  - 🇯🇵 日本BGP|tg频道:@ripaojiedian44
+  - 🇨🇳 台湾|tg频道:@ripaojiedian45
+  - 🇭🇰 香港SSR|tg频道:@ripaojiedian46
+  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian47
+  - 🇸🇬 新加坡2|tg频道:@ripaojiedian48
+  - 🇭🇰 香港HKT|tg频道:@ripaojiedian49
+  - 🇭🇰 香港Az|tg频道:@ripaojiedian50
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian51
+  - 🇯🇵 日本快|tg频道:@ripaojiedian52
+  - 🇯🇵 日本SSR|tg频道:@ripaojiedian53
+  - 🇺🇸 美国3|tg频道:@ripaojiedian54
+  - 🇸🇬 新加坡 -tg频道:@ripaojiedian55
+  - 🇸🇬 狮城|tg频道:@ripaojiedian56
+  - 🇰🇷 韩国|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾|tg频道:@ripaojiedian 258
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian59
+  - 🇰🇷 韩国|tg频道:@ripaojiedian 260
+  - '|44.15Mb61'
+  - '|116.66Mb62'
+  - '|65.14Mb63'
+  - '|25.51Mb64'
+  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb65
+  - Relay_ |15.89Mb66
+  - Relay_ |10.21Mb67
+  - '|14.50Mb68'
+  - Relay_ |35.17Mb69
+  - '|11.76Mb70'
+  - '|27.41Mb71'
+  - '|19.24Mb72'
+  - '|25.78Mb73'
+  - '|54.57Mb74'
+  - '|25.22Mb75'
+  - Relay_ | 1.01Mb76
+  - Pool_ | 9.62Mb77
+  - Relay_ | 9.50Mb78
+  - '|25.72Mb79'
+  - '|28.46Mb80'
+  - '|22.53Mb81'
+  - Relay_ | 2.10Mb82
+  - Relay_ | 2.02Mb83
+  - Relay_ | 2.41Mb84
+  - Pool_ |25.27Mb85
+  - '|45.88Mb86'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb87
+  - '|15.15Mb88'
+  - Pool_ |23.96Mb89
+  - Pool_ |22.90Mb90
+  - Relay_ | 1.56Mb91
+  - '|41.43Mb92'
+  - '| 1.67Mb93'
+  - Relay_ | 0.97Mb94
+  - 🇦🇺 AU_1395
+  - 🇦🇺 AU_1496
+  - 🇦🇺 AU_1597
+  - 🇦🇺 AU_1698
+  - 🇦🇺 AU_1799
+  - 🇦🇺 AU_18100
+  - 🇦🇺 AU_19101
+  - 🇦🇺 AU_20102
+  - 🇦🇺 AU_21103
+  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb104
+  - 🇦🇺 AU_23105
+  - 🇦🇺 AU_24106
+  - 🇦🇺 AU_25107
+  - 🇦🇺 AU_26108
+  - 🇦🇺 AU_27109
+  - 🇦🇺 AU_28110
+  - 🇦🇺 AU_29111
+  - CA_62112
+  - CA_63113
+  - CA_64114
+  - CA_65115
+  - CA_66116
+  - CA_67117
+  - CA_68118
+  - Relay_ |10.42Mb119
+  - CA_70120
+  - CA_71121
+  - CA_72122
+  - CA_73123
+  - CA_74124
+  - CA_75125
+  - CA_76126
+  - CA_77127
+  - CA_78128
+  - CA_79129
+  - CA_80130
+  - CA_81131
+  - CA_82132
+  - CA_83133
+  - CA_84134
+  - CA_86135
+  - CA_87136
+  - CA_88137
+  - CA_89138
+  - CA_90139
+  - CA_91140
+  - CA_92141
+  - CA_93142
+  - CA_94143
+  - CA_95144
+  - CA_96145
+  - CA_97146
+  - CA_98147
+  - CA_99148
+  - Relay_ | 9.69Mb149
+  - CA_101150
+  - CA_102151
+  - CA_103152
+  - CA_104153
+  - 🇨🇳 CN_107154
+  - Relay_ |35.78Mb155
+  - '| 1.88Mb156'
+  - Relay_ |43.45Mb157
+  - Relay_ | 8.64Mb158
+  - Relay_ | 7.57Mb159
+  - Relay_ | 2.03Mb160
+  - 🇨🇳 CN_114161
+  - Relay_ |31.14Mb162
+  - Relay_ |50.39Mb163
+  - Relay_ |43.34Mb164
+  - Relay_ |43.91Mb165
+  - Relay_ | 7.00Mb166
+  - Relay_ |12.64Mb167
+  - Relay_ | 2.02Mb168
+  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb169
+  - '| 2.18Mb170'
+  - Relay_ | 7.92Mb171
+  - 🇩🇪 DE_177172
+  - 🇫🇷 FR_239173
+  - Relay_ |23.38Mb174
+  - Relay_ | 8.72Mb175
+  - 🇫🇷 FR_242176
+  - GB_271177
+  - 🇭🇰 HK_279178
+  - 🇭🇰 HK_280179
+  - Relay_ |570.16Mb180
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb181
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb182
+  - 🇯🇵 JP_298183
+  - 🇯🇵 JP_299184
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb185
+  - 🇯🇵 JP_301186
+  - 🇯🇵 JP_302187
+  - 🇯🇵 JP_303188
+  - 🇯🇵 JP_304189
+  - 🇯🇵 JP_305190
+  - 🇯🇵 JP_306191
+  - 🇯🇵 JP_307192
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb193
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb194
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb195
+  - Relay_ | 4.46Mb196
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb197
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb198
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb199
+  - 🇯🇵 JP_316200
+  - 🇯🇵 JP_317201
+  - 🇯🇵 JP_318202
+  - 🇯🇵 JP_319203
+  - Relay_ |13.98Mb204
+  - Relay_ | 8.04Mb205
+  - 🇯🇵 JP_322206
+  - 🇰🇷 KR_323207
+  - 🇰🇷 KR_324208
+  - 🇳🇱 NL_567209
+  - '|30.85Mb210'
+  - Relay_ | 2.34Mb211
+  - 🇳🇱 NL_570212
+  - 🇳🇱 NL_571213
+  - 🇳🇱 NL_572214
+  - Relay_ |11.42Mb215
+  - 🇳🇱 NL_574216
+  - '| 4.27Mb217'
+  - '| 3.17Mb218'
+  - 🇷🇴 RO_587219
+  - 🇷🇴 RO_588220
+  - 🇷🇴 RO_589221
+  - '|20.10Mb222'
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb223
+  - 🇸🇬 SG_619224
+  - 🇸🇬 SG_620225
+  - 🇸🇬 SG_621226
+  - 🇸🇬 SG_622227
+  - Relay_ |16.07Mb228
+  - Relay_ | 3.30Mb229
+  - Relay_ | 2.59Mb230
+  - Relay_ |463.92Mb231
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb232
+  - Relay_ |125.11Mb233
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb234
+  - 🇸🇬 SG_630235
+  - Relay_ |37.03Mb236
+  - 🇸🇬 SG_632237
+  - 🇸🇬 SG_633238
+  - Relay_ |35.23Mb239
+  - 🇨🇳 TW_638240
+  - 🇨🇳 TW_639241
+  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb242
+  - 🇨🇳 TW_641243
+  - 🇨🇳 TW_642244
+  - 🇨🇳 TW_643245
+  - Relay_ | 2.95Mb246
+  - 🇺🇸 US_1260247
+  - 🇺🇸 US_1261248
+  - 🇺🇸 US_1262249
+  - 🇺🇸 US_1263250
+  - 🇺🇸 US_1264251
+  - 🇺🇸 US_1265252
+  - 🇺🇸 US_1266253
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267254
+  - 🇺🇸 US_1268255
+  - 🇺🇸 US_1269256
+  - 🇺🇸 US_1270257
+  - 🇺🇸 US_1271258
+  - 🇺🇸 US_1272259
+  - 🇺🇸 US_1273260
+  - 🇺🇸 US_1274261
+  - '| 8.11Mb262'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276263
+  - 🇺🇸 US_1277264
+  - Relay_ |82.21Mb265
+  - Relay_ |17.93Mb266
+  - 🇺🇸 US_1280267
+  - Relay_ | 2.19Mb268
+  - 🇺🇸 US_1282269
+  - 🇺🇸 US_1283270
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb271
+  - 🇺🇸 US_1285272
+  - 🇺🇸 US_1286273
+  - 🇺🇸 US_1287274
+  - 🇺🇸 US_1288275
+  - 🇺🇸 US_1289276
+  - Relay_ |25.87Mb277
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb278
+  - 🇺🇸 US_1292279
+  - Relay_ |18.04Mb280
+  - 🇺🇸 US_1294281
+  - '|39.11Mb282'
+  - Relay_ |25.10Mb283
+  - Relay_ | 3.95Mb284
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298285
+  - 🇺🇸 US_1299286
+  - Relay_ |65.03Mb287
+  - Relay_ |12.04Mb288
+  - 🇺🇸 US_1302289
+  - Relay_ |59.07Mb290
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb291
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb292
+  - Relay_ |34.20Mb293
+  - Relay_ |48.28Mb294
+  - Relay_ |23.84Mb295
+  - 🇺🇸 US_1309296
+  - Relay_ |26.85Mb297
+  - Relay_ | 6.83Mb298
+  - Relay_ |20.25Mb299
+  - Relay_ |26.02Mb300
+  - Relay_ |24.64Mb301
+  - ZZ_1430302
+  - Relay_ |65.50Mb303
+  - Relay_ |72.81Mb304
+  - Relay_ | 0.18Mb305
+  - ZZ_1434306
+  - Relay_ | 2.52Mb307
+  - Relay_ |84.66Mb308
+  - ZZ_1437309
+  - Relay_ |76.29Mb310
+  - ZZ_1439311
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -3555,308 +3309,295 @@ proxy-groups:
   - 🇯🇵 _US_美国->🇯🇵_JP_日本20
   - 🇳🇱 _NL_荷兰 321
   - 🇰🇷 _KR_韩国 222
-  - 更新于10/20/10:2623
+  - 更新于10/20/13:1623
   - ✈付费机场推荐✈24
   - dafeivpn.com 5元专线机场25
-  - 中国(TG频道:@kxswa)26
-  - 中国(TG频道:@kxswa) 227
+  - (TG频道:@kxswa)26
+  - (TG频道:@kxswa) 227
   - 美国(TG频道:@kxswa)28
-  - 中国(TG频道:@kxswa) 329
-  - (TG频道:@kxswa)30
-  - 中国(TG频道:@kxswa) 431
-  - 印度尼西亚(TG频道:@kxswa)32
-  - 印度尼西亚(TG频道:@kxswa) 233
-  - 中国(TG频道:@kxswa) 534
-  - (TG频道:@kxswa) 235
-  - 中国(TG频道:@kxswa) 636
-  - 美国(TG频道:@kxswa) 237
-  - 中国(TG频道:@kxswa) 738
-  - 印度尼西亚(TG频道:@kxswa) 339
-  - 中国(TG频道:@kxswa) 840
-  - 中国(TG频道:@kxswa) 941
-  - 中国(TG频道:@kxswa) 1042
-  - (TG频道:@kxswa) 343
-  - (TG频道:@kxswa) 444
-  - 美国(TG频道:@kxswa) 345
-  - 美国(TG频道:@kxswa) 446
-  - 中国(TG频道:@kxswa) 1147
-  - 中国(TG频道:@kxswa) 1248
-  - 中国(TG频道:@kxswa) 1349
-  - 中国(TG频道:@kxswa) 1450
-  - 中国(TG频道:@kxswa) 1551
-  - 中国(TG频道:@kxswa) 1652
-  - (TG频道:@kxswa) 553
-  - (TG频道:@kxswa) 654
-  - 🇭🇰 香港快|tg频道:@ripaojiedian55
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian56
-  - 🇯🇵 日本BGP|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾|tg频道:@ripaojiedian58
-  - 🇭🇰 香港SSR|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian60
-  - 🇸🇬 新加坡2|tg频道:@ripaojiedian61
-  - 🇭🇰 香港HKT|tg频道:@ripaojiedian62
-  - 🇭🇰 香港Az|tg频道:@ripaojiedian63
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian64
-  - 🇯🇵 日本快|tg频道:@ripaojiedian65
-  - 🇯🇵 日本SSR|tg频道:@ripaojiedian66
-  - 🇺🇸 美国3|tg频道:@ripaojiedian67
-  - 🇸🇬 新加坡 -tg频道:@ripaojiedian68
-  - 🇸🇬 狮城|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇨🇳 台湾|tg频道:@ripaojiedian 271
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian72
-  - 🇰🇷 韩国|tg频道:@ripaojiedian 273
-  - '|44.15Mb74'
-  - '|116.66Mb75'
-  - '|65.14Mb76'
-  - '|25.51Mb77'
-  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb78
-  - Relay_ |15.89Mb79
-  - Relay_ |10.21Mb80
-  - '|14.50Mb81'
-  - Relay_ |35.17Mb82
-  - '|11.76Mb83'
-  - '|27.41Mb84'
-  - '|19.24Mb85'
-  - '|25.78Mb86'
-  - '|54.57Mb87'
-  - '|25.22Mb88'
-  - Relay_ | 1.01Mb89
-  - Pool_ | 9.62Mb90
-  - Relay_ | 9.50Mb91
-  - '|25.72Mb92'
-  - '|28.46Mb93'
-  - '|22.53Mb94'
-  - Relay_ | 2.10Mb95
-  - Relay_ | 2.02Mb96
-  - Relay_ | 2.41Mb97
-  - Pool_ |25.27Mb98
-  - '|45.88Mb99'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb100
-  - '|15.15Mb101'
-  - Pool_ |23.96Mb102
-  - Pool_ |22.90Mb103
-  - Relay_ | 1.56Mb104
-  - '|41.43Mb105'
-  - '| 1.67Mb106'
-  - Relay_ | 0.97Mb107
-  - 🇦🇺 AU_13108
-  - 🇦🇺 AU_14109
-  - 🇦🇺 AU_15110
-  - 🇦🇺 AU_16111
-  - 🇦🇺 AU_17112
-  - 🇦🇺 AU_18113
-  - 🇦🇺 AU_19114
-  - 🇦🇺 AU_20115
-  - 🇦🇺 AU_21116
-  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb117
-  - 🇦🇺 AU_23118
-  - 🇦🇺 AU_24119
-  - 🇦🇺 AU_25120
-  - 🇦🇺 AU_26121
-  - 🇦🇺 AU_27122
-  - 🇦🇺 AU_28123
-  - 🇦🇺 AU_29124
-  - CA_62125
-  - CA_63126
-  - CA_64127
-  - CA_65128
-  - CA_66129
-  - CA_67130
-  - CA_68131
-  - Relay_ |10.42Mb132
-  - CA_70133
-  - CA_71134
-  - CA_72135
-  - CA_73136
-  - CA_74137
-  - CA_75138
-  - CA_76139
-  - CA_77140
-  - CA_78141
-  - CA_79142
-  - CA_80143
-  - CA_81144
-  - CA_82145
-  - CA_83146
-  - CA_84147
-  - CA_86148
-  - CA_87149
-  - CA_88150
-  - CA_89151
-  - CA_90152
-  - CA_91153
-  - CA_92154
-  - CA_93155
-  - CA_94156
-  - CA_95157
-  - CA_96158
-  - CA_97159
-  - CA_98160
-  - CA_99161
-  - Relay_ | 9.69Mb162
-  - CA_101163
-  - CA_102164
-  - CA_103165
-  - CA_104166
-  - 🇨🇳 CN_107167
-  - Relay_ |35.78Mb168
-  - '| 1.88Mb169'
-  - Relay_ |43.45Mb170
-  - Relay_ | 8.64Mb171
-  - Relay_ | 7.57Mb172
-  - Relay_ | 2.03Mb173
-  - 🇨🇳 CN_114174
-  - Relay_ |31.14Mb175
-  - Relay_ |50.39Mb176
-  - Relay_ |43.34Mb177
-  - Relay_ |43.91Mb178
-  - Relay_ | 7.00Mb179
-  - Relay_ |12.64Mb180
-  - Relay_ | 2.02Mb181
-  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb182
-  - '| 2.18Mb183'
-  - Relay_ | 7.92Mb184
-  - 🇩🇪 DE_177185
-  - 🇫🇷 FR_239186
-  - Relay_ |23.38Mb187
-  - Relay_ | 8.72Mb188
-  - 🇫🇷 FR_242189
-  - GB_271190
-  - 🇭🇰 HK_279191
-  - 🇭🇰 HK_280192
-  - Relay_ |570.16Mb193
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb194
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb195
-  - 🇯🇵 JP_298196
-  - 🇯🇵 JP_299197
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb198
-  - 🇯🇵 JP_301199
-  - 🇯🇵 JP_302200
-  - 🇯🇵 JP_303201
-  - 🇯🇵 JP_304202
-  - 🇯🇵 JP_305203
-  - 🇯🇵 JP_306204
-  - 🇯🇵 JP_307205
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb206
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb207
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb208
-  - Relay_ | 4.46Mb209
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb210
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb211
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb212
-  - 🇯🇵 JP_316213
-  - 🇯🇵 JP_317214
-  - 🇯🇵 JP_318215
-  - 🇯🇵 JP_319216
-  - Relay_ |13.98Mb217
-  - Relay_ | 8.04Mb218
-  - 🇯🇵 JP_322219
-  - 🇰🇷 KR_323220
-  - 🇰🇷 KR_324221
-  - 🇳🇱 NL_567222
-  - '|30.85Mb223'
-  - Relay_ | 2.34Mb224
-  - 🇳🇱 NL_570225
-  - 🇳🇱 NL_571226
-  - 🇳🇱 NL_572227
-  - Relay_ |11.42Mb228
-  - 🇳🇱 NL_574229
-  - '| 4.27Mb230'
-  - '| 3.17Mb231'
-  - 🇷🇴 RO_587232
-  - 🇷🇴 RO_588233
-  - 🇷🇴 RO_589234
-  - '|20.10Mb235'
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb236
-  - 🇸🇬 SG_619237
-  - 🇸🇬 SG_620238
-  - 🇸🇬 SG_621239
-  - 🇸🇬 SG_622240
-  - Relay_ |16.07Mb241
-  - Relay_ | 3.30Mb242
-  - Relay_ | 2.59Mb243
-  - Relay_ |463.92Mb244
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb245
-  - Relay_ |125.11Mb246
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb247
-  - 🇸🇬 SG_630248
-  - Relay_ |37.03Mb249
-  - 🇸🇬 SG_632250
-  - 🇸🇬 SG_633251
-  - Relay_ |35.23Mb252
-  - 🇨🇳 TW_638253
-  - 🇨🇳 TW_639254
-  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb255
-  - 🇨🇳 TW_641256
-  - 🇨🇳 TW_642257
-  - 🇨🇳 TW_643258
-  - Relay_ | 2.95Mb259
-  - 🇺🇸 US_1260260
-  - 🇺🇸 US_1261261
-  - 🇺🇸 US_1262262
-  - 🇺🇸 US_1263263
-  - 🇺🇸 US_1264264
-  - 🇺🇸 US_1265265
-  - 🇺🇸 US_1266266
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267267
-  - 🇺🇸 US_1268268
-  - 🇺🇸 US_1269269
-  - 🇺🇸 US_1270270
-  - 🇺🇸 US_1271271
-  - 🇺🇸 US_1272272
-  - 🇺🇸 US_1273273
-  - 🇺🇸 US_1274274
-  - '| 8.11Mb275'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276276
-  - 🇺🇸 US_1277277
-  - Relay_ |82.21Mb278
-  - Relay_ |17.93Mb279
-  - 🇺🇸 US_1280280
-  - Relay_ | 2.19Mb281
-  - 🇺🇸 US_1282282
-  - 🇺🇸 US_1283283
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb284
-  - 🇺🇸 US_1285285
-  - 🇺🇸 US_1286286
-  - 🇺🇸 US_1287287
-  - 🇺🇸 US_1288288
-  - 🇺🇸 US_1289289
-  - Relay_ |25.87Mb290
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb291
-  - 🇺🇸 US_1292292
-  - Relay_ |18.04Mb293
-  - 🇺🇸 US_1294294
-  - '|39.11Mb295'
-  - Relay_ |25.10Mb296
-  - Relay_ | 3.95Mb297
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298298
-  - 🇺🇸 US_1299299
-  - Relay_ |65.03Mb300
-  - Relay_ |12.04Mb301
-  - 🇺🇸 US_1302302
-  - Relay_ |59.07Mb303
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb304
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb305
-  - Relay_ |34.20Mb306
-  - Relay_ |48.28Mb307
-  - Relay_ |23.84Mb308
-  - 🇺🇸 US_1309309
-  - Relay_ |26.85Mb310
-  - Relay_ | 6.83Mb311
-  - Relay_ |20.25Mb312
-  - Relay_ |26.02Mb313
-  - Relay_ |24.64Mb314
-  - ZZ_1430315
-  - Relay_ |65.50Mb316
-  - Relay_ |72.81Mb317
-  - Relay_ | 0.18Mb318
-  - ZZ_1434319
-  - Relay_ | 2.52Mb320
-  - Relay_ |84.66Mb321
-  - ZZ_1437322
-  - Relay_ |76.29Mb323
-  - ZZ_1439324
+  - 韩国(TG频道:@kxswa)29
+  - 美国(TG频道:@kxswa) 230
+  - 新加坡(TG频道:@kxswa)31
+  - 新加坡(TG频道:@kxswa) 232
+  - 新加坡(TG频道:@kxswa) 333
+  - 日本(TG频道:@kxswa)34
+  - 新加坡(TG频道:@kxswa) 435
+  - 美国(TG频道:@kxswa) 336
+  - (TG频道:@kxswa) 337
+  - 香港(TG频道:@kxswa)38
+  - (TG频道:@kxswa) 439
+  - 日本(TG频道:@kxswa) 240
+  - 韩国(TG频道:@kxswa) 241
+  - 🇭🇰 香港快|tg频道:@ripaojiedian42
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian43
+  - 🇯🇵 日本BGP|tg频道:@ripaojiedian44
+  - 🇨🇳 台湾|tg频道:@ripaojiedian45
+  - 🇭🇰 香港SSR|tg频道:@ripaojiedian46
+  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian47
+  - 🇸🇬 新加坡2|tg频道:@ripaojiedian48
+  - 🇭🇰 香港HKT|tg频道:@ripaojiedian49
+  - 🇭🇰 香港Az|tg频道:@ripaojiedian50
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian51
+  - 🇯🇵 日本快|tg频道:@ripaojiedian52
+  - 🇯🇵 日本SSR|tg频道:@ripaojiedian53
+  - 🇺🇸 美国3|tg频道:@ripaojiedian54
+  - 🇸🇬 新加坡 -tg频道:@ripaojiedian55
+  - 🇸🇬 狮城|tg频道:@ripaojiedian56
+  - 🇰🇷 韩国|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾|tg频道:@ripaojiedian 258
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian59
+  - 🇰🇷 韩国|tg频道:@ripaojiedian 260
+  - '|44.15Mb61'
+  - '|116.66Mb62'
+  - '|65.14Mb63'
+  - '|25.51Mb64'
+  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb65
+  - Relay_ |15.89Mb66
+  - Relay_ |10.21Mb67
+  - '|14.50Mb68'
+  - Relay_ |35.17Mb69
+  - '|11.76Mb70'
+  - '|27.41Mb71'
+  - '|19.24Mb72'
+  - '|25.78Mb73'
+  - '|54.57Mb74'
+  - '|25.22Mb75'
+  - Relay_ | 1.01Mb76
+  - Pool_ | 9.62Mb77
+  - Relay_ | 9.50Mb78
+  - '|25.72Mb79'
+  - '|28.46Mb80'
+  - '|22.53Mb81'
+  - Relay_ | 2.10Mb82
+  - Relay_ | 2.02Mb83
+  - Relay_ | 2.41Mb84
+  - Pool_ |25.27Mb85
+  - '|45.88Mb86'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb87
+  - '|15.15Mb88'
+  - Pool_ |23.96Mb89
+  - Pool_ |22.90Mb90
+  - Relay_ | 1.56Mb91
+  - '|41.43Mb92'
+  - '| 1.67Mb93'
+  - Relay_ | 0.97Mb94
+  - 🇦🇺 AU_1395
+  - 🇦🇺 AU_1496
+  - 🇦🇺 AU_1597
+  - 🇦🇺 AU_1698
+  - 🇦🇺 AU_1799
+  - 🇦🇺 AU_18100
+  - 🇦🇺 AU_19101
+  - 🇦🇺 AU_20102
+  - 🇦🇺 AU_21103
+  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb104
+  - 🇦🇺 AU_23105
+  - 🇦🇺 AU_24106
+  - 🇦🇺 AU_25107
+  - 🇦🇺 AU_26108
+  - 🇦🇺 AU_27109
+  - 🇦🇺 AU_28110
+  - 🇦🇺 AU_29111
+  - CA_62112
+  - CA_63113
+  - CA_64114
+  - CA_65115
+  - CA_66116
+  - CA_67117
+  - CA_68118
+  - Relay_ |10.42Mb119
+  - CA_70120
+  - CA_71121
+  - CA_72122
+  - CA_73123
+  - CA_74124
+  - CA_75125
+  - CA_76126
+  - CA_77127
+  - CA_78128
+  - CA_79129
+  - CA_80130
+  - CA_81131
+  - CA_82132
+  - CA_83133
+  - CA_84134
+  - CA_86135
+  - CA_87136
+  - CA_88137
+  - CA_89138
+  - CA_90139
+  - CA_91140
+  - CA_92141
+  - CA_93142
+  - CA_94143
+  - CA_95144
+  - CA_96145
+  - CA_97146
+  - CA_98147
+  - CA_99148
+  - Relay_ | 9.69Mb149
+  - CA_101150
+  - CA_102151
+  - CA_103152
+  - CA_104153
+  - 🇨🇳 CN_107154
+  - Relay_ |35.78Mb155
+  - '| 1.88Mb156'
+  - Relay_ |43.45Mb157
+  - Relay_ | 8.64Mb158
+  - Relay_ | 7.57Mb159
+  - Relay_ | 2.03Mb160
+  - 🇨🇳 CN_114161
+  - Relay_ |31.14Mb162
+  - Relay_ |50.39Mb163
+  - Relay_ |43.34Mb164
+  - Relay_ |43.91Mb165
+  - Relay_ | 7.00Mb166
+  - Relay_ |12.64Mb167
+  - Relay_ | 2.02Mb168
+  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb169
+  - '| 2.18Mb170'
+  - Relay_ | 7.92Mb171
+  - 🇩🇪 DE_177172
+  - 🇫🇷 FR_239173
+  - Relay_ |23.38Mb174
+  - Relay_ | 8.72Mb175
+  - 🇫🇷 FR_242176
+  - GB_271177
+  - 🇭🇰 HK_279178
+  - 🇭🇰 HK_280179
+  - Relay_ |570.16Mb180
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb181
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb182
+  - 🇯🇵 JP_298183
+  - 🇯🇵 JP_299184
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb185
+  - 🇯🇵 JP_301186
+  - 🇯🇵 JP_302187
+  - 🇯🇵 JP_303188
+  - 🇯🇵 JP_304189
+  - 🇯🇵 JP_305190
+  - 🇯🇵 JP_306191
+  - 🇯🇵 JP_307192
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb193
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb194
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb195
+  - Relay_ | 4.46Mb196
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb197
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb198
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb199
+  - 🇯🇵 JP_316200
+  - 🇯🇵 JP_317201
+  - 🇯🇵 JP_318202
+  - 🇯🇵 JP_319203
+  - Relay_ |13.98Mb204
+  - Relay_ | 8.04Mb205
+  - 🇯🇵 JP_322206
+  - 🇰🇷 KR_323207
+  - 🇰🇷 KR_324208
+  - 🇳🇱 NL_567209
+  - '|30.85Mb210'
+  - Relay_ | 2.34Mb211
+  - 🇳🇱 NL_570212
+  - 🇳🇱 NL_571213
+  - 🇳🇱 NL_572214
+  - Relay_ |11.42Mb215
+  - 🇳🇱 NL_574216
+  - '| 4.27Mb217'
+  - '| 3.17Mb218'
+  - 🇷🇴 RO_587219
+  - 🇷🇴 RO_588220
+  - 🇷🇴 RO_589221
+  - '|20.10Mb222'
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb223
+  - 🇸🇬 SG_619224
+  - 🇸🇬 SG_620225
+  - 🇸🇬 SG_621226
+  - 🇸🇬 SG_622227
+  - Relay_ |16.07Mb228
+  - Relay_ | 3.30Mb229
+  - Relay_ | 2.59Mb230
+  - Relay_ |463.92Mb231
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb232
+  - Relay_ |125.11Mb233
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb234
+  - 🇸🇬 SG_630235
+  - Relay_ |37.03Mb236
+  - 🇸🇬 SG_632237
+  - 🇸🇬 SG_633238
+  - Relay_ |35.23Mb239
+  - 🇨🇳 TW_638240
+  - 🇨🇳 TW_639241
+  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb242
+  - 🇨🇳 TW_641243
+  - 🇨🇳 TW_642244
+  - 🇨🇳 TW_643245
+  - Relay_ | 2.95Mb246
+  - 🇺🇸 US_1260247
+  - 🇺🇸 US_1261248
+  - 🇺🇸 US_1262249
+  - 🇺🇸 US_1263250
+  - 🇺🇸 US_1264251
+  - 🇺🇸 US_1265252
+  - 🇺🇸 US_1266253
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267254
+  - 🇺🇸 US_1268255
+  - 🇺🇸 US_1269256
+  - 🇺🇸 US_1270257
+  - 🇺🇸 US_1271258
+  - 🇺🇸 US_1272259
+  - 🇺🇸 US_1273260
+  - 🇺🇸 US_1274261
+  - '| 8.11Mb262'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276263
+  - 🇺🇸 US_1277264
+  - Relay_ |82.21Mb265
+  - Relay_ |17.93Mb266
+  - 🇺🇸 US_1280267
+  - Relay_ | 2.19Mb268
+  - 🇺🇸 US_1282269
+  - 🇺🇸 US_1283270
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb271
+  - 🇺🇸 US_1285272
+  - 🇺🇸 US_1286273
+  - 🇺🇸 US_1287274
+  - 🇺🇸 US_1288275
+  - 🇺🇸 US_1289276
+  - Relay_ |25.87Mb277
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb278
+  - 🇺🇸 US_1292279
+  - Relay_ |18.04Mb280
+  - 🇺🇸 US_1294281
+  - '|39.11Mb282'
+  - Relay_ |25.10Mb283
+  - Relay_ | 3.95Mb284
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298285
+  - 🇺🇸 US_1299286
+  - Relay_ |65.03Mb287
+  - Relay_ |12.04Mb288
+  - 🇺🇸 US_1302289
+  - Relay_ |59.07Mb290
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb291
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb292
+  - Relay_ |34.20Mb293
+  - Relay_ |48.28Mb294
+  - Relay_ |23.84Mb295
+  - 🇺🇸 US_1309296
+  - Relay_ |26.85Mb297
+  - Relay_ | 6.83Mb298
+  - Relay_ |20.25Mb299
+  - Relay_ |26.02Mb300
+  - Relay_ |24.64Mb301
+  - ZZ_1430302
+  - Relay_ |65.50Mb303
+  - Relay_ |72.81Mb304
+  - Relay_ | 0.18Mb305
+  - ZZ_1434306
+  - Relay_ | 2.52Mb307
+  - Relay_ |84.66Mb308
+  - ZZ_1437309
+  - Relay_ |76.29Mb310
+  - ZZ_1439311
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -3885,308 +3626,295 @@ proxy-groups:
   - 🇯🇵 _US_美国->🇯🇵_JP_日本20
   - 🇳🇱 _NL_荷兰 321
   - 🇰🇷 _KR_韩国 222
-  - 更新于10/20/10:2623
+  - 更新于10/20/13:1623
   - ✈付费机场推荐✈24
   - dafeivpn.com 5元专线机场25
-  - 中国(TG频道:@kxswa)26
-  - 中国(TG频道:@kxswa) 227
+  - (TG频道:@kxswa)26
+  - (TG频道:@kxswa) 227
   - 美国(TG频道:@kxswa)28
-  - 中国(TG频道:@kxswa) 329
-  - (TG频道:@kxswa)30
-  - 中国(TG频道:@kxswa) 431
-  - 印度尼西亚(TG频道:@kxswa)32
-  - 印度尼西亚(TG频道:@kxswa) 233
-  - 中国(TG频道:@kxswa) 534
-  - (TG频道:@kxswa) 235
-  - 中国(TG频道:@kxswa) 636
-  - 美国(TG频道:@kxswa) 237
-  - 中国(TG频道:@kxswa) 738
-  - 印度尼西亚(TG频道:@kxswa) 339
-  - 中国(TG频道:@kxswa) 840
-  - 中国(TG频道:@kxswa) 941
-  - 中国(TG频道:@kxswa) 1042
-  - (TG频道:@kxswa) 343
-  - (TG频道:@kxswa) 444
-  - 美国(TG频道:@kxswa) 345
-  - 美国(TG频道:@kxswa) 446
-  - 中国(TG频道:@kxswa) 1147
-  - 中国(TG频道:@kxswa) 1248
-  - 中国(TG频道:@kxswa) 1349
-  - 中国(TG频道:@kxswa) 1450
-  - 中国(TG频道:@kxswa) 1551
-  - 中国(TG频道:@kxswa) 1652
-  - (TG频道:@kxswa) 553
-  - (TG频道:@kxswa) 654
-  - 🇭🇰 香港快|tg频道:@ripaojiedian55
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian56
-  - 🇯🇵 日本BGP|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾|tg频道:@ripaojiedian58
-  - 🇭🇰 香港SSR|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian60
-  - 🇸🇬 新加坡2|tg频道:@ripaojiedian61
-  - 🇭🇰 香港HKT|tg频道:@ripaojiedian62
-  - 🇭🇰 香港Az|tg频道:@ripaojiedian63
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian64
-  - 🇯🇵 日本快|tg频道:@ripaojiedian65
-  - 🇯🇵 日本SSR|tg频道:@ripaojiedian66
-  - 🇺🇸 美国3|tg频道:@ripaojiedian67
-  - 🇸🇬 新加坡 -tg频道:@ripaojiedian68
-  - 🇸🇬 狮城|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇨🇳 台湾|tg频道:@ripaojiedian 271
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian72
-  - 🇰🇷 韩国|tg频道:@ripaojiedian 273
-  - '|44.15Mb74'
-  - '|116.66Mb75'
-  - '|65.14Mb76'
-  - '|25.51Mb77'
-  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb78
-  - Relay_ |15.89Mb79
-  - Relay_ |10.21Mb80
-  - '|14.50Mb81'
-  - Relay_ |35.17Mb82
-  - '|11.76Mb83'
-  - '|27.41Mb84'
-  - '|19.24Mb85'
-  - '|25.78Mb86'
-  - '|54.57Mb87'
-  - '|25.22Mb88'
-  - Relay_ | 1.01Mb89
-  - Pool_ | 9.62Mb90
-  - Relay_ | 9.50Mb91
-  - '|25.72Mb92'
-  - '|28.46Mb93'
-  - '|22.53Mb94'
-  - Relay_ | 2.10Mb95
-  - Relay_ | 2.02Mb96
-  - Relay_ | 2.41Mb97
-  - Pool_ |25.27Mb98
-  - '|45.88Mb99'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb100
-  - '|15.15Mb101'
-  - Pool_ |23.96Mb102
-  - Pool_ |22.90Mb103
-  - Relay_ | 1.56Mb104
-  - '|41.43Mb105'
-  - '| 1.67Mb106'
-  - Relay_ | 0.97Mb107
-  - 🇦🇺 AU_13108
-  - 🇦🇺 AU_14109
-  - 🇦🇺 AU_15110
-  - 🇦🇺 AU_16111
-  - 🇦🇺 AU_17112
-  - 🇦🇺 AU_18113
-  - 🇦🇺 AU_19114
-  - 🇦🇺 AU_20115
-  - 🇦🇺 AU_21116
-  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb117
-  - 🇦🇺 AU_23118
-  - 🇦🇺 AU_24119
-  - 🇦🇺 AU_25120
-  - 🇦🇺 AU_26121
-  - 🇦🇺 AU_27122
-  - 🇦🇺 AU_28123
-  - 🇦🇺 AU_29124
-  - CA_62125
-  - CA_63126
-  - CA_64127
-  - CA_65128
-  - CA_66129
-  - CA_67130
-  - CA_68131
-  - Relay_ |10.42Mb132
-  - CA_70133
-  - CA_71134
-  - CA_72135
-  - CA_73136
-  - CA_74137
-  - CA_75138
-  - CA_76139
-  - CA_77140
-  - CA_78141
-  - CA_79142
-  - CA_80143
-  - CA_81144
-  - CA_82145
-  - CA_83146
-  - CA_84147
-  - CA_86148
-  - CA_87149
-  - CA_88150
-  - CA_89151
-  - CA_90152
-  - CA_91153
-  - CA_92154
-  - CA_93155
-  - CA_94156
-  - CA_95157
-  - CA_96158
-  - CA_97159
-  - CA_98160
-  - CA_99161
-  - Relay_ | 9.69Mb162
-  - CA_101163
-  - CA_102164
-  - CA_103165
-  - CA_104166
-  - 🇨🇳 CN_107167
-  - Relay_ |35.78Mb168
-  - '| 1.88Mb169'
-  - Relay_ |43.45Mb170
-  - Relay_ | 8.64Mb171
-  - Relay_ | 7.57Mb172
-  - Relay_ | 2.03Mb173
-  - 🇨🇳 CN_114174
-  - Relay_ |31.14Mb175
-  - Relay_ |50.39Mb176
-  - Relay_ |43.34Mb177
-  - Relay_ |43.91Mb178
-  - Relay_ | 7.00Mb179
-  - Relay_ |12.64Mb180
-  - Relay_ | 2.02Mb181
-  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb182
-  - '| 2.18Mb183'
-  - Relay_ | 7.92Mb184
-  - 🇩🇪 DE_177185
-  - 🇫🇷 FR_239186
-  - Relay_ |23.38Mb187
-  - Relay_ | 8.72Mb188
-  - 🇫🇷 FR_242189
-  - GB_271190
-  - 🇭🇰 HK_279191
-  - 🇭🇰 HK_280192
-  - Relay_ |570.16Mb193
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb194
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb195
-  - 🇯🇵 JP_298196
-  - 🇯🇵 JP_299197
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb198
-  - 🇯🇵 JP_301199
-  - 🇯🇵 JP_302200
-  - 🇯🇵 JP_303201
-  - 🇯🇵 JP_304202
-  - 🇯🇵 JP_305203
-  - 🇯🇵 JP_306204
-  - 🇯🇵 JP_307205
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb206
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb207
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb208
-  - Relay_ | 4.46Mb209
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb210
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb211
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb212
-  - 🇯🇵 JP_316213
-  - 🇯🇵 JP_317214
-  - 🇯🇵 JP_318215
-  - 🇯🇵 JP_319216
-  - Relay_ |13.98Mb217
-  - Relay_ | 8.04Mb218
-  - 🇯🇵 JP_322219
-  - 🇰🇷 KR_323220
-  - 🇰🇷 KR_324221
-  - 🇳🇱 NL_567222
-  - '|30.85Mb223'
-  - Relay_ | 2.34Mb224
-  - 🇳🇱 NL_570225
-  - 🇳🇱 NL_571226
-  - 🇳🇱 NL_572227
-  - Relay_ |11.42Mb228
-  - 🇳🇱 NL_574229
-  - '| 4.27Mb230'
-  - '| 3.17Mb231'
-  - 🇷🇴 RO_587232
-  - 🇷🇴 RO_588233
-  - 🇷🇴 RO_589234
-  - '|20.10Mb235'
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb236
-  - 🇸🇬 SG_619237
-  - 🇸🇬 SG_620238
-  - 🇸🇬 SG_621239
-  - 🇸🇬 SG_622240
-  - Relay_ |16.07Mb241
-  - Relay_ | 3.30Mb242
-  - Relay_ | 2.59Mb243
-  - Relay_ |463.92Mb244
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb245
-  - Relay_ |125.11Mb246
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb247
-  - 🇸🇬 SG_630248
-  - Relay_ |37.03Mb249
-  - 🇸🇬 SG_632250
-  - 🇸🇬 SG_633251
-  - Relay_ |35.23Mb252
-  - 🇨🇳 TW_638253
-  - 🇨🇳 TW_639254
-  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb255
-  - 🇨🇳 TW_641256
-  - 🇨🇳 TW_642257
-  - 🇨🇳 TW_643258
-  - Relay_ | 2.95Mb259
-  - 🇺🇸 US_1260260
-  - 🇺🇸 US_1261261
-  - 🇺🇸 US_1262262
-  - 🇺🇸 US_1263263
-  - 🇺🇸 US_1264264
-  - 🇺🇸 US_1265265
-  - 🇺🇸 US_1266266
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267267
-  - 🇺🇸 US_1268268
-  - 🇺🇸 US_1269269
-  - 🇺🇸 US_1270270
-  - 🇺🇸 US_1271271
-  - 🇺🇸 US_1272272
-  - 🇺🇸 US_1273273
-  - 🇺🇸 US_1274274
-  - '| 8.11Mb275'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276276
-  - 🇺🇸 US_1277277
-  - Relay_ |82.21Mb278
-  - Relay_ |17.93Mb279
-  - 🇺🇸 US_1280280
-  - Relay_ | 2.19Mb281
-  - 🇺🇸 US_1282282
-  - 🇺🇸 US_1283283
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb284
-  - 🇺🇸 US_1285285
-  - 🇺🇸 US_1286286
-  - 🇺🇸 US_1287287
-  - 🇺🇸 US_1288288
-  - 🇺🇸 US_1289289
-  - Relay_ |25.87Mb290
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb291
-  - 🇺🇸 US_1292292
-  - Relay_ |18.04Mb293
-  - 🇺🇸 US_1294294
-  - '|39.11Mb295'
-  - Relay_ |25.10Mb296
-  - Relay_ | 3.95Mb297
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298298
-  - 🇺🇸 US_1299299
-  - Relay_ |65.03Mb300
-  - Relay_ |12.04Mb301
-  - 🇺🇸 US_1302302
-  - Relay_ |59.07Mb303
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb304
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb305
-  - Relay_ |34.20Mb306
-  - Relay_ |48.28Mb307
-  - Relay_ |23.84Mb308
-  - 🇺🇸 US_1309309
-  - Relay_ |26.85Mb310
-  - Relay_ | 6.83Mb311
-  - Relay_ |20.25Mb312
-  - Relay_ |26.02Mb313
-  - Relay_ |24.64Mb314
-  - ZZ_1430315
-  - Relay_ |65.50Mb316
-  - Relay_ |72.81Mb317
-  - Relay_ | 0.18Mb318
-  - ZZ_1434319
-  - Relay_ | 2.52Mb320
-  - Relay_ |84.66Mb321
-  - ZZ_1437322
-  - Relay_ |76.29Mb323
-  - ZZ_1439324
+  - 韩国(TG频道:@kxswa)29
+  - 美国(TG频道:@kxswa) 230
+  - 新加坡(TG频道:@kxswa)31
+  - 新加坡(TG频道:@kxswa) 232
+  - 新加坡(TG频道:@kxswa) 333
+  - 日本(TG频道:@kxswa)34
+  - 新加坡(TG频道:@kxswa) 435
+  - 美国(TG频道:@kxswa) 336
+  - (TG频道:@kxswa) 337
+  - 香港(TG频道:@kxswa)38
+  - (TG频道:@kxswa) 439
+  - 日本(TG频道:@kxswa) 240
+  - 韩国(TG频道:@kxswa) 241
+  - 🇭🇰 香港快|tg频道:@ripaojiedian42
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian43
+  - 🇯🇵 日本BGP|tg频道:@ripaojiedian44
+  - 🇨🇳 台湾|tg频道:@ripaojiedian45
+  - 🇭🇰 香港SSR|tg频道:@ripaojiedian46
+  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian47
+  - 🇸🇬 新加坡2|tg频道:@ripaojiedian48
+  - 🇭🇰 香港HKT|tg频道:@ripaojiedian49
+  - 🇭🇰 香港Az|tg频道:@ripaojiedian50
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian51
+  - 🇯🇵 日本快|tg频道:@ripaojiedian52
+  - 🇯🇵 日本SSR|tg频道:@ripaojiedian53
+  - 🇺🇸 美国3|tg频道:@ripaojiedian54
+  - 🇸🇬 新加坡 -tg频道:@ripaojiedian55
+  - 🇸🇬 狮城|tg频道:@ripaojiedian56
+  - 🇰🇷 韩国|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾|tg频道:@ripaojiedian 258
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian59
+  - 🇰🇷 韩国|tg频道:@ripaojiedian 260
+  - '|44.15Mb61'
+  - '|116.66Mb62'
+  - '|65.14Mb63'
+  - '|25.51Mb64'
+  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb65
+  - Relay_ |15.89Mb66
+  - Relay_ |10.21Mb67
+  - '|14.50Mb68'
+  - Relay_ |35.17Mb69
+  - '|11.76Mb70'
+  - '|27.41Mb71'
+  - '|19.24Mb72'
+  - '|25.78Mb73'
+  - '|54.57Mb74'
+  - '|25.22Mb75'
+  - Relay_ | 1.01Mb76
+  - Pool_ | 9.62Mb77
+  - Relay_ | 9.50Mb78
+  - '|25.72Mb79'
+  - '|28.46Mb80'
+  - '|22.53Mb81'
+  - Relay_ | 2.10Mb82
+  - Relay_ | 2.02Mb83
+  - Relay_ | 2.41Mb84
+  - Pool_ |25.27Mb85
+  - '|45.88Mb86'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb87
+  - '|15.15Mb88'
+  - Pool_ |23.96Mb89
+  - Pool_ |22.90Mb90
+  - Relay_ | 1.56Mb91
+  - '|41.43Mb92'
+  - '| 1.67Mb93'
+  - Relay_ | 0.97Mb94
+  - 🇦🇺 AU_1395
+  - 🇦🇺 AU_1496
+  - 🇦🇺 AU_1597
+  - 🇦🇺 AU_1698
+  - 🇦🇺 AU_1799
+  - 🇦🇺 AU_18100
+  - 🇦🇺 AU_19101
+  - 🇦🇺 AU_20102
+  - 🇦🇺 AU_21103
+  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb104
+  - 🇦🇺 AU_23105
+  - 🇦🇺 AU_24106
+  - 🇦🇺 AU_25107
+  - 🇦🇺 AU_26108
+  - 🇦🇺 AU_27109
+  - 🇦🇺 AU_28110
+  - 🇦🇺 AU_29111
+  - CA_62112
+  - CA_63113
+  - CA_64114
+  - CA_65115
+  - CA_66116
+  - CA_67117
+  - CA_68118
+  - Relay_ |10.42Mb119
+  - CA_70120
+  - CA_71121
+  - CA_72122
+  - CA_73123
+  - CA_74124
+  - CA_75125
+  - CA_76126
+  - CA_77127
+  - CA_78128
+  - CA_79129
+  - CA_80130
+  - CA_81131
+  - CA_82132
+  - CA_83133
+  - CA_84134
+  - CA_86135
+  - CA_87136
+  - CA_88137
+  - CA_89138
+  - CA_90139
+  - CA_91140
+  - CA_92141
+  - CA_93142
+  - CA_94143
+  - CA_95144
+  - CA_96145
+  - CA_97146
+  - CA_98147
+  - CA_99148
+  - Relay_ | 9.69Mb149
+  - CA_101150
+  - CA_102151
+  - CA_103152
+  - CA_104153
+  - 🇨🇳 CN_107154
+  - Relay_ |35.78Mb155
+  - '| 1.88Mb156'
+  - Relay_ |43.45Mb157
+  - Relay_ | 8.64Mb158
+  - Relay_ | 7.57Mb159
+  - Relay_ | 2.03Mb160
+  - 🇨🇳 CN_114161
+  - Relay_ |31.14Mb162
+  - Relay_ |50.39Mb163
+  - Relay_ |43.34Mb164
+  - Relay_ |43.91Mb165
+  - Relay_ | 7.00Mb166
+  - Relay_ |12.64Mb167
+  - Relay_ | 2.02Mb168
+  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb169
+  - '| 2.18Mb170'
+  - Relay_ | 7.92Mb171
+  - 🇩🇪 DE_177172
+  - 🇫🇷 FR_239173
+  - Relay_ |23.38Mb174
+  - Relay_ | 8.72Mb175
+  - 🇫🇷 FR_242176
+  - GB_271177
+  - 🇭🇰 HK_279178
+  - 🇭🇰 HK_280179
+  - Relay_ |570.16Mb180
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb181
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb182
+  - 🇯🇵 JP_298183
+  - 🇯🇵 JP_299184
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb185
+  - 🇯🇵 JP_301186
+  - 🇯🇵 JP_302187
+  - 🇯🇵 JP_303188
+  - 🇯🇵 JP_304189
+  - 🇯🇵 JP_305190
+  - 🇯🇵 JP_306191
+  - 🇯🇵 JP_307192
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb193
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb194
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb195
+  - Relay_ | 4.46Mb196
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb197
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb198
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb199
+  - 🇯🇵 JP_316200
+  - 🇯🇵 JP_317201
+  - 🇯🇵 JP_318202
+  - 🇯🇵 JP_319203
+  - Relay_ |13.98Mb204
+  - Relay_ | 8.04Mb205
+  - 🇯🇵 JP_322206
+  - 🇰🇷 KR_323207
+  - 🇰🇷 KR_324208
+  - 🇳🇱 NL_567209
+  - '|30.85Mb210'
+  - Relay_ | 2.34Mb211
+  - 🇳🇱 NL_570212
+  - 🇳🇱 NL_571213
+  - 🇳🇱 NL_572214
+  - Relay_ |11.42Mb215
+  - 🇳🇱 NL_574216
+  - '| 4.27Mb217'
+  - '| 3.17Mb218'
+  - 🇷🇴 RO_587219
+  - 🇷🇴 RO_588220
+  - 🇷🇴 RO_589221
+  - '|20.10Mb222'
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb223
+  - 🇸🇬 SG_619224
+  - 🇸🇬 SG_620225
+  - 🇸🇬 SG_621226
+  - 🇸🇬 SG_622227
+  - Relay_ |16.07Mb228
+  - Relay_ | 3.30Mb229
+  - Relay_ | 2.59Mb230
+  - Relay_ |463.92Mb231
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb232
+  - Relay_ |125.11Mb233
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb234
+  - 🇸🇬 SG_630235
+  - Relay_ |37.03Mb236
+  - 🇸🇬 SG_632237
+  - 🇸🇬 SG_633238
+  - Relay_ |35.23Mb239
+  - 🇨🇳 TW_638240
+  - 🇨🇳 TW_639241
+  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb242
+  - 🇨🇳 TW_641243
+  - 🇨🇳 TW_642244
+  - 🇨🇳 TW_643245
+  - Relay_ | 2.95Mb246
+  - 🇺🇸 US_1260247
+  - 🇺🇸 US_1261248
+  - 🇺🇸 US_1262249
+  - 🇺🇸 US_1263250
+  - 🇺🇸 US_1264251
+  - 🇺🇸 US_1265252
+  - 🇺🇸 US_1266253
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267254
+  - 🇺🇸 US_1268255
+  - 🇺🇸 US_1269256
+  - 🇺🇸 US_1270257
+  - 🇺🇸 US_1271258
+  - 🇺🇸 US_1272259
+  - 🇺🇸 US_1273260
+  - 🇺🇸 US_1274261
+  - '| 8.11Mb262'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276263
+  - 🇺🇸 US_1277264
+  - Relay_ |82.21Mb265
+  - Relay_ |17.93Mb266
+  - 🇺🇸 US_1280267
+  - Relay_ | 2.19Mb268
+  - 🇺🇸 US_1282269
+  - 🇺🇸 US_1283270
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb271
+  - 🇺🇸 US_1285272
+  - 🇺🇸 US_1286273
+  - 🇺🇸 US_1287274
+  - 🇺🇸 US_1288275
+  - 🇺🇸 US_1289276
+  - Relay_ |25.87Mb277
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb278
+  - 🇺🇸 US_1292279
+  - Relay_ |18.04Mb280
+  - 🇺🇸 US_1294281
+  - '|39.11Mb282'
+  - Relay_ |25.10Mb283
+  - Relay_ | 3.95Mb284
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298285
+  - 🇺🇸 US_1299286
+  - Relay_ |65.03Mb287
+  - Relay_ |12.04Mb288
+  - 🇺🇸 US_1302289
+  - Relay_ |59.07Mb290
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb291
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb292
+  - Relay_ |34.20Mb293
+  - Relay_ |48.28Mb294
+  - Relay_ |23.84Mb295
+  - 🇺🇸 US_1309296
+  - Relay_ |26.85Mb297
+  - Relay_ | 6.83Mb298
+  - Relay_ |20.25Mb299
+  - Relay_ |26.02Mb300
+  - Relay_ |24.64Mb301
+  - ZZ_1430302
+  - Relay_ |65.50Mb303
+  - Relay_ |72.81Mb304
+  - Relay_ | 0.18Mb305
+  - ZZ_1434306
+  - Relay_ | 2.52Mb307
+  - Relay_ |84.66Mb308
+  - ZZ_1437309
+  - Relay_ |76.29Mb310
+  - ZZ_1439311
 - name: 🛑 全球拦截
   type: select
   proxies:
@@ -4214,308 +3942,295 @@ proxy-groups:
   - 🇯🇵 _US_美国->🇯🇵_JP_日本20
   - 🇳🇱 _NL_荷兰 321
   - 🇰🇷 _KR_韩国 222
-  - 更新于10/20/10:2623
+  - 更新于10/20/13:1623
   - ✈付费机场推荐✈24
   - dafeivpn.com 5元专线机场25
-  - 中国(TG频道:@kxswa)26
-  - 中国(TG频道:@kxswa) 227
+  - (TG频道:@kxswa)26
+  - (TG频道:@kxswa) 227
   - 美国(TG频道:@kxswa)28
-  - 中国(TG频道:@kxswa) 329
-  - (TG频道:@kxswa)30
-  - 中国(TG频道:@kxswa) 431
-  - 印度尼西亚(TG频道:@kxswa)32
-  - 印度尼西亚(TG频道:@kxswa) 233
-  - 中国(TG频道:@kxswa) 534
-  - (TG频道:@kxswa) 235
-  - 中国(TG频道:@kxswa) 636
-  - 美国(TG频道:@kxswa) 237
-  - 中国(TG频道:@kxswa) 738
-  - 印度尼西亚(TG频道:@kxswa) 339
-  - 中国(TG频道:@kxswa) 840
-  - 中国(TG频道:@kxswa) 941
-  - 中国(TG频道:@kxswa) 1042
-  - (TG频道:@kxswa) 343
-  - (TG频道:@kxswa) 444
-  - 美国(TG频道:@kxswa) 345
-  - 美国(TG频道:@kxswa) 446
-  - 中国(TG频道:@kxswa) 1147
-  - 中国(TG频道:@kxswa) 1248
-  - 中国(TG频道:@kxswa) 1349
-  - 中国(TG频道:@kxswa) 1450
-  - 中国(TG频道:@kxswa) 1551
-  - 中国(TG频道:@kxswa) 1652
-  - (TG频道:@kxswa) 553
-  - (TG频道:@kxswa) 654
-  - 🇭🇰 香港快|tg频道:@ripaojiedian55
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian56
-  - 🇯🇵 日本BGP|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾|tg频道:@ripaojiedian58
-  - 🇭🇰 香港SSR|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian60
-  - 🇸🇬 新加坡2|tg频道:@ripaojiedian61
-  - 🇭🇰 香港HKT|tg频道:@ripaojiedian62
-  - 🇭🇰 香港Az|tg频道:@ripaojiedian63
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian64
-  - 🇯🇵 日本快|tg频道:@ripaojiedian65
-  - 🇯🇵 日本SSR|tg频道:@ripaojiedian66
-  - 🇺🇸 美国3|tg频道:@ripaojiedian67
-  - 🇸🇬 新加坡 -tg频道:@ripaojiedian68
-  - 🇸🇬 狮城|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇨🇳 台湾|tg频道:@ripaojiedian 271
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian72
-  - 🇰🇷 韩国|tg频道:@ripaojiedian 273
-  - '|44.15Mb74'
-  - '|116.66Mb75'
-  - '|65.14Mb76'
-  - '|25.51Mb77'
-  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb78
-  - Relay_ |15.89Mb79
-  - Relay_ |10.21Mb80
-  - '|14.50Mb81'
-  - Relay_ |35.17Mb82
-  - '|11.76Mb83'
-  - '|27.41Mb84'
-  - '|19.24Mb85'
-  - '|25.78Mb86'
-  - '|54.57Mb87'
-  - '|25.22Mb88'
-  - Relay_ | 1.01Mb89
-  - Pool_ | 9.62Mb90
-  - Relay_ | 9.50Mb91
-  - '|25.72Mb92'
-  - '|28.46Mb93'
-  - '|22.53Mb94'
-  - Relay_ | 2.10Mb95
-  - Relay_ | 2.02Mb96
-  - Relay_ | 2.41Mb97
-  - Pool_ |25.27Mb98
-  - '|45.88Mb99'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb100
-  - '|15.15Mb101'
-  - Pool_ |23.96Mb102
-  - Pool_ |22.90Mb103
-  - Relay_ | 1.56Mb104
-  - '|41.43Mb105'
-  - '| 1.67Mb106'
-  - Relay_ | 0.97Mb107
-  - 🇦🇺 AU_13108
-  - 🇦🇺 AU_14109
-  - 🇦🇺 AU_15110
-  - 🇦🇺 AU_16111
-  - 🇦🇺 AU_17112
-  - 🇦🇺 AU_18113
-  - 🇦🇺 AU_19114
-  - 🇦🇺 AU_20115
-  - 🇦🇺 AU_21116
-  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb117
-  - 🇦🇺 AU_23118
-  - 🇦🇺 AU_24119
-  - 🇦🇺 AU_25120
-  - 🇦🇺 AU_26121
-  - 🇦🇺 AU_27122
-  - 🇦🇺 AU_28123
-  - 🇦🇺 AU_29124
-  - CA_62125
-  - CA_63126
-  - CA_64127
-  - CA_65128
-  - CA_66129
-  - CA_67130
-  - CA_68131
-  - Relay_ |10.42Mb132
-  - CA_70133
-  - CA_71134
-  - CA_72135
-  - CA_73136
-  - CA_74137
-  - CA_75138
-  - CA_76139
-  - CA_77140
-  - CA_78141
-  - CA_79142
-  - CA_80143
-  - CA_81144
-  - CA_82145
-  - CA_83146
-  - CA_84147
-  - CA_86148
-  - CA_87149
-  - CA_88150
-  - CA_89151
-  - CA_90152
-  - CA_91153
-  - CA_92154
-  - CA_93155
-  - CA_94156
-  - CA_95157
-  - CA_96158
-  - CA_97159
-  - CA_98160
-  - CA_99161
-  - Relay_ | 9.69Mb162
-  - CA_101163
-  - CA_102164
-  - CA_103165
-  - CA_104166
-  - 🇨🇳 CN_107167
-  - Relay_ |35.78Mb168
-  - '| 1.88Mb169'
-  - Relay_ |43.45Mb170
-  - Relay_ | 8.64Mb171
-  - Relay_ | 7.57Mb172
-  - Relay_ | 2.03Mb173
-  - 🇨🇳 CN_114174
-  - Relay_ |31.14Mb175
-  - Relay_ |50.39Mb176
-  - Relay_ |43.34Mb177
-  - Relay_ |43.91Mb178
-  - Relay_ | 7.00Mb179
-  - Relay_ |12.64Mb180
-  - Relay_ | 2.02Mb181
-  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb182
-  - '| 2.18Mb183'
-  - Relay_ | 7.92Mb184
-  - 🇩🇪 DE_177185
-  - 🇫🇷 FR_239186
-  - Relay_ |23.38Mb187
-  - Relay_ | 8.72Mb188
-  - 🇫🇷 FR_242189
-  - GB_271190
-  - 🇭🇰 HK_279191
-  - 🇭🇰 HK_280192
-  - Relay_ |570.16Mb193
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb194
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb195
-  - 🇯🇵 JP_298196
-  - 🇯🇵 JP_299197
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb198
-  - 🇯🇵 JP_301199
-  - 🇯🇵 JP_302200
-  - 🇯🇵 JP_303201
-  - 🇯🇵 JP_304202
-  - 🇯🇵 JP_305203
-  - 🇯🇵 JP_306204
-  - 🇯🇵 JP_307205
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb206
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb207
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb208
-  - Relay_ | 4.46Mb209
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb210
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb211
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb212
-  - 🇯🇵 JP_316213
-  - 🇯🇵 JP_317214
-  - 🇯🇵 JP_318215
-  - 🇯🇵 JP_319216
-  - Relay_ |13.98Mb217
-  - Relay_ | 8.04Mb218
-  - 🇯🇵 JP_322219
-  - 🇰🇷 KR_323220
-  - 🇰🇷 KR_324221
-  - 🇳🇱 NL_567222
-  - '|30.85Mb223'
-  - Relay_ | 2.34Mb224
-  - 🇳🇱 NL_570225
-  - 🇳🇱 NL_571226
-  - 🇳🇱 NL_572227
-  - Relay_ |11.42Mb228
-  - 🇳🇱 NL_574229
-  - '| 4.27Mb230'
-  - '| 3.17Mb231'
-  - 🇷🇴 RO_587232
-  - 🇷🇴 RO_588233
-  - 🇷🇴 RO_589234
-  - '|20.10Mb235'
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb236
-  - 🇸🇬 SG_619237
-  - 🇸🇬 SG_620238
-  - 🇸🇬 SG_621239
-  - 🇸🇬 SG_622240
-  - Relay_ |16.07Mb241
-  - Relay_ | 3.30Mb242
-  - Relay_ | 2.59Mb243
-  - Relay_ |463.92Mb244
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb245
-  - Relay_ |125.11Mb246
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb247
-  - 🇸🇬 SG_630248
-  - Relay_ |37.03Mb249
-  - 🇸🇬 SG_632250
-  - 🇸🇬 SG_633251
-  - Relay_ |35.23Mb252
-  - 🇨🇳 TW_638253
-  - 🇨🇳 TW_639254
-  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb255
-  - 🇨🇳 TW_641256
-  - 🇨🇳 TW_642257
-  - 🇨🇳 TW_643258
-  - Relay_ | 2.95Mb259
-  - 🇺🇸 US_1260260
-  - 🇺🇸 US_1261261
-  - 🇺🇸 US_1262262
-  - 🇺🇸 US_1263263
-  - 🇺🇸 US_1264264
-  - 🇺🇸 US_1265265
-  - 🇺🇸 US_1266266
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267267
-  - 🇺🇸 US_1268268
-  - 🇺🇸 US_1269269
-  - 🇺🇸 US_1270270
-  - 🇺🇸 US_1271271
-  - 🇺🇸 US_1272272
-  - 🇺🇸 US_1273273
-  - 🇺🇸 US_1274274
-  - '| 8.11Mb275'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276276
-  - 🇺🇸 US_1277277
-  - Relay_ |82.21Mb278
-  - Relay_ |17.93Mb279
-  - 🇺🇸 US_1280280
-  - Relay_ | 2.19Mb281
-  - 🇺🇸 US_1282282
-  - 🇺🇸 US_1283283
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb284
-  - 🇺🇸 US_1285285
-  - 🇺🇸 US_1286286
-  - 🇺🇸 US_1287287
-  - 🇺🇸 US_1288288
-  - 🇺🇸 US_1289289
-  - Relay_ |25.87Mb290
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb291
-  - 🇺🇸 US_1292292
-  - Relay_ |18.04Mb293
-  - 🇺🇸 US_1294294
-  - '|39.11Mb295'
-  - Relay_ |25.10Mb296
-  - Relay_ | 3.95Mb297
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298298
-  - 🇺🇸 US_1299299
-  - Relay_ |65.03Mb300
-  - Relay_ |12.04Mb301
-  - 🇺🇸 US_1302302
-  - Relay_ |59.07Mb303
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb304
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb305
-  - Relay_ |34.20Mb306
-  - Relay_ |48.28Mb307
-  - Relay_ |23.84Mb308
-  - 🇺🇸 US_1309309
-  - Relay_ |26.85Mb310
-  - Relay_ | 6.83Mb311
-  - Relay_ |20.25Mb312
-  - Relay_ |26.02Mb313
-  - Relay_ |24.64Mb314
-  - ZZ_1430315
-  - Relay_ |65.50Mb316
-  - Relay_ |72.81Mb317
-  - Relay_ | 0.18Mb318
-  - ZZ_1434319
-  - Relay_ | 2.52Mb320
-  - Relay_ |84.66Mb321
-  - ZZ_1437322
-  - Relay_ |76.29Mb323
-  - ZZ_1439324
+  - 韩国(TG频道:@kxswa)29
+  - 美国(TG频道:@kxswa) 230
+  - 新加坡(TG频道:@kxswa)31
+  - 新加坡(TG频道:@kxswa) 232
+  - 新加坡(TG频道:@kxswa) 333
+  - 日本(TG频道:@kxswa)34
+  - 新加坡(TG频道:@kxswa) 435
+  - 美国(TG频道:@kxswa) 336
+  - (TG频道:@kxswa) 337
+  - 香港(TG频道:@kxswa)38
+  - (TG频道:@kxswa) 439
+  - 日本(TG频道:@kxswa) 240
+  - 韩国(TG频道:@kxswa) 241
+  - 🇭🇰 香港快|tg频道:@ripaojiedian42
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian43
+  - 🇯🇵 日本BGP|tg频道:@ripaojiedian44
+  - 🇨🇳 台湾|tg频道:@ripaojiedian45
+  - 🇭🇰 香港SSR|tg频道:@ripaojiedian46
+  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian47
+  - 🇸🇬 新加坡2|tg频道:@ripaojiedian48
+  - 🇭🇰 香港HKT|tg频道:@ripaojiedian49
+  - 🇭🇰 香港Az|tg频道:@ripaojiedian50
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian51
+  - 🇯🇵 日本快|tg频道:@ripaojiedian52
+  - 🇯🇵 日本SSR|tg频道:@ripaojiedian53
+  - 🇺🇸 美国3|tg频道:@ripaojiedian54
+  - 🇸🇬 新加坡 -tg频道:@ripaojiedian55
+  - 🇸🇬 狮城|tg频道:@ripaojiedian56
+  - 🇰🇷 韩国|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾|tg频道:@ripaojiedian 258
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian59
+  - 🇰🇷 韩国|tg频道:@ripaojiedian 260
+  - '|44.15Mb61'
+  - '|116.66Mb62'
+  - '|65.14Mb63'
+  - '|25.51Mb64'
+  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb65
+  - Relay_ |15.89Mb66
+  - Relay_ |10.21Mb67
+  - '|14.50Mb68'
+  - Relay_ |35.17Mb69
+  - '|11.76Mb70'
+  - '|27.41Mb71'
+  - '|19.24Mb72'
+  - '|25.78Mb73'
+  - '|54.57Mb74'
+  - '|25.22Mb75'
+  - Relay_ | 1.01Mb76
+  - Pool_ | 9.62Mb77
+  - Relay_ | 9.50Mb78
+  - '|25.72Mb79'
+  - '|28.46Mb80'
+  - '|22.53Mb81'
+  - Relay_ | 2.10Mb82
+  - Relay_ | 2.02Mb83
+  - Relay_ | 2.41Mb84
+  - Pool_ |25.27Mb85
+  - '|45.88Mb86'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb87
+  - '|15.15Mb88'
+  - Pool_ |23.96Mb89
+  - Pool_ |22.90Mb90
+  - Relay_ | 1.56Mb91
+  - '|41.43Mb92'
+  - '| 1.67Mb93'
+  - Relay_ | 0.97Mb94
+  - 🇦🇺 AU_1395
+  - 🇦🇺 AU_1496
+  - 🇦🇺 AU_1597
+  - 🇦🇺 AU_1698
+  - 🇦🇺 AU_1799
+  - 🇦🇺 AU_18100
+  - 🇦🇺 AU_19101
+  - 🇦🇺 AU_20102
+  - 🇦🇺 AU_21103
+  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb104
+  - 🇦🇺 AU_23105
+  - 🇦🇺 AU_24106
+  - 🇦🇺 AU_25107
+  - 🇦🇺 AU_26108
+  - 🇦🇺 AU_27109
+  - 🇦🇺 AU_28110
+  - 🇦🇺 AU_29111
+  - CA_62112
+  - CA_63113
+  - CA_64114
+  - CA_65115
+  - CA_66116
+  - CA_67117
+  - CA_68118
+  - Relay_ |10.42Mb119
+  - CA_70120
+  - CA_71121
+  - CA_72122
+  - CA_73123
+  - CA_74124
+  - CA_75125
+  - CA_76126
+  - CA_77127
+  - CA_78128
+  - CA_79129
+  - CA_80130
+  - CA_81131
+  - CA_82132
+  - CA_83133
+  - CA_84134
+  - CA_86135
+  - CA_87136
+  - CA_88137
+  - CA_89138
+  - CA_90139
+  - CA_91140
+  - CA_92141
+  - CA_93142
+  - CA_94143
+  - CA_95144
+  - CA_96145
+  - CA_97146
+  - CA_98147
+  - CA_99148
+  - Relay_ | 9.69Mb149
+  - CA_101150
+  - CA_102151
+  - CA_103152
+  - CA_104153
+  - 🇨🇳 CN_107154
+  - Relay_ |35.78Mb155
+  - '| 1.88Mb156'
+  - Relay_ |43.45Mb157
+  - Relay_ | 8.64Mb158
+  - Relay_ | 7.57Mb159
+  - Relay_ | 2.03Mb160
+  - 🇨🇳 CN_114161
+  - Relay_ |31.14Mb162
+  - Relay_ |50.39Mb163
+  - Relay_ |43.34Mb164
+  - Relay_ |43.91Mb165
+  - Relay_ | 7.00Mb166
+  - Relay_ |12.64Mb167
+  - Relay_ | 2.02Mb168
+  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb169
+  - '| 2.18Mb170'
+  - Relay_ | 7.92Mb171
+  - 🇩🇪 DE_177172
+  - 🇫🇷 FR_239173
+  - Relay_ |23.38Mb174
+  - Relay_ | 8.72Mb175
+  - 🇫🇷 FR_242176
+  - GB_271177
+  - 🇭🇰 HK_279178
+  - 🇭🇰 HK_280179
+  - Relay_ |570.16Mb180
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb181
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb182
+  - 🇯🇵 JP_298183
+  - 🇯🇵 JP_299184
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb185
+  - 🇯🇵 JP_301186
+  - 🇯🇵 JP_302187
+  - 🇯🇵 JP_303188
+  - 🇯🇵 JP_304189
+  - 🇯🇵 JP_305190
+  - 🇯🇵 JP_306191
+  - 🇯🇵 JP_307192
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb193
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb194
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb195
+  - Relay_ | 4.46Mb196
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb197
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb198
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb199
+  - 🇯🇵 JP_316200
+  - 🇯🇵 JP_317201
+  - 🇯🇵 JP_318202
+  - 🇯🇵 JP_319203
+  - Relay_ |13.98Mb204
+  - Relay_ | 8.04Mb205
+  - 🇯🇵 JP_322206
+  - 🇰🇷 KR_323207
+  - 🇰🇷 KR_324208
+  - 🇳🇱 NL_567209
+  - '|30.85Mb210'
+  - Relay_ | 2.34Mb211
+  - 🇳🇱 NL_570212
+  - 🇳🇱 NL_571213
+  - 🇳🇱 NL_572214
+  - Relay_ |11.42Mb215
+  - 🇳🇱 NL_574216
+  - '| 4.27Mb217'
+  - '| 3.17Mb218'
+  - 🇷🇴 RO_587219
+  - 🇷🇴 RO_588220
+  - 🇷🇴 RO_589221
+  - '|20.10Mb222'
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb223
+  - 🇸🇬 SG_619224
+  - 🇸🇬 SG_620225
+  - 🇸🇬 SG_621226
+  - 🇸🇬 SG_622227
+  - Relay_ |16.07Mb228
+  - Relay_ | 3.30Mb229
+  - Relay_ | 2.59Mb230
+  - Relay_ |463.92Mb231
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb232
+  - Relay_ |125.11Mb233
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb234
+  - 🇸🇬 SG_630235
+  - Relay_ |37.03Mb236
+  - 🇸🇬 SG_632237
+  - 🇸🇬 SG_633238
+  - Relay_ |35.23Mb239
+  - 🇨🇳 TW_638240
+  - 🇨🇳 TW_639241
+  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb242
+  - 🇨🇳 TW_641243
+  - 🇨🇳 TW_642244
+  - 🇨🇳 TW_643245
+  - Relay_ | 2.95Mb246
+  - 🇺🇸 US_1260247
+  - 🇺🇸 US_1261248
+  - 🇺🇸 US_1262249
+  - 🇺🇸 US_1263250
+  - 🇺🇸 US_1264251
+  - 🇺🇸 US_1265252
+  - 🇺🇸 US_1266253
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267254
+  - 🇺🇸 US_1268255
+  - 🇺🇸 US_1269256
+  - 🇺🇸 US_1270257
+  - 🇺🇸 US_1271258
+  - 🇺🇸 US_1272259
+  - 🇺🇸 US_1273260
+  - 🇺🇸 US_1274261
+  - '| 8.11Mb262'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276263
+  - 🇺🇸 US_1277264
+  - Relay_ |82.21Mb265
+  - Relay_ |17.93Mb266
+  - 🇺🇸 US_1280267
+  - Relay_ | 2.19Mb268
+  - 🇺🇸 US_1282269
+  - 🇺🇸 US_1283270
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb271
+  - 🇺🇸 US_1285272
+  - 🇺🇸 US_1286273
+  - 🇺🇸 US_1287274
+  - 🇺🇸 US_1288275
+  - 🇺🇸 US_1289276
+  - Relay_ |25.87Mb277
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb278
+  - 🇺🇸 US_1292279
+  - Relay_ |18.04Mb280
+  - 🇺🇸 US_1294281
+  - '|39.11Mb282'
+  - Relay_ |25.10Mb283
+  - Relay_ | 3.95Mb284
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298285
+  - 🇺🇸 US_1299286
+  - Relay_ |65.03Mb287
+  - Relay_ |12.04Mb288
+  - 🇺🇸 US_1302289
+  - Relay_ |59.07Mb290
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb291
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb292
+  - Relay_ |34.20Mb293
+  - Relay_ |48.28Mb294
+  - Relay_ |23.84Mb295
+  - 🇺🇸 US_1309296
+  - Relay_ |26.85Mb297
+  - Relay_ | 6.83Mb298
+  - Relay_ |20.25Mb299
+  - Relay_ |26.02Mb300
+  - Relay_ |24.64Mb301
+  - ZZ_1430302
+  - Relay_ |65.50Mb303
+  - Relay_ |72.81Mb304
+  - Relay_ | 0.18Mb305
+  - ZZ_1434306
+  - Relay_ | 2.52Mb307
+  - Relay_ |84.66Mb308
+  - ZZ_1437309
+  - Relay_ |76.29Mb310
+  - ZZ_1439311
 - name: 🍃 应用净化
   type: select
   proxies:
@@ -4543,308 +4258,295 @@ proxy-groups:
   - 🇯🇵 _US_美国->🇯🇵_JP_日本20
   - 🇳🇱 _NL_荷兰 321
   - 🇰🇷 _KR_韩国 222
-  - 更新于10/20/10:2623
+  - 更新于10/20/13:1623
   - ✈付费机场推荐✈24
   - dafeivpn.com 5元专线机场25
-  - 中国(TG频道:@kxswa)26
-  - 中国(TG频道:@kxswa) 227
+  - (TG频道:@kxswa)26
+  - (TG频道:@kxswa) 227
   - 美国(TG频道:@kxswa)28
-  - 中国(TG频道:@kxswa) 329
-  - (TG频道:@kxswa)30
-  - 中国(TG频道:@kxswa) 431
-  - 印度尼西亚(TG频道:@kxswa)32
-  - 印度尼西亚(TG频道:@kxswa) 233
-  - 中国(TG频道:@kxswa) 534
-  - (TG频道:@kxswa) 235
-  - 中国(TG频道:@kxswa) 636
-  - 美国(TG频道:@kxswa) 237
-  - 中国(TG频道:@kxswa) 738
-  - 印度尼西亚(TG频道:@kxswa) 339
-  - 中国(TG频道:@kxswa) 840
-  - 中国(TG频道:@kxswa) 941
-  - 中国(TG频道:@kxswa) 1042
-  - (TG频道:@kxswa) 343
-  - (TG频道:@kxswa) 444
-  - 美国(TG频道:@kxswa) 345
-  - 美国(TG频道:@kxswa) 446
-  - 中国(TG频道:@kxswa) 1147
-  - 中国(TG频道:@kxswa) 1248
-  - 中国(TG频道:@kxswa) 1349
-  - 中国(TG频道:@kxswa) 1450
-  - 中国(TG频道:@kxswa) 1551
-  - 中国(TG频道:@kxswa) 1652
-  - (TG频道:@kxswa) 553
-  - (TG频道:@kxswa) 654
-  - 🇭🇰 香港快|tg频道:@ripaojiedian55
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian56
-  - 🇯🇵 日本BGP|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾|tg频道:@ripaojiedian58
-  - 🇭🇰 香港SSR|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian60
-  - 🇸🇬 新加坡2|tg频道:@ripaojiedian61
-  - 🇭🇰 香港HKT|tg频道:@ripaojiedian62
-  - 🇭🇰 香港Az|tg频道:@ripaojiedian63
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian64
-  - 🇯🇵 日本快|tg频道:@ripaojiedian65
-  - 🇯🇵 日本SSR|tg频道:@ripaojiedian66
-  - 🇺🇸 美国3|tg频道:@ripaojiedian67
-  - 🇸🇬 新加坡 -tg频道:@ripaojiedian68
-  - 🇸🇬 狮城|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇨🇳 台湾|tg频道:@ripaojiedian 271
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian72
-  - 🇰🇷 韩国|tg频道:@ripaojiedian 273
-  - '|44.15Mb74'
-  - '|116.66Mb75'
-  - '|65.14Mb76'
-  - '|25.51Mb77'
-  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb78
-  - Relay_ |15.89Mb79
-  - Relay_ |10.21Mb80
-  - '|14.50Mb81'
-  - Relay_ |35.17Mb82
-  - '|11.76Mb83'
-  - '|27.41Mb84'
-  - '|19.24Mb85'
-  - '|25.78Mb86'
-  - '|54.57Mb87'
-  - '|25.22Mb88'
-  - Relay_ | 1.01Mb89
-  - Pool_ | 9.62Mb90
-  - Relay_ | 9.50Mb91
-  - '|25.72Mb92'
-  - '|28.46Mb93'
-  - '|22.53Mb94'
-  - Relay_ | 2.10Mb95
-  - Relay_ | 2.02Mb96
-  - Relay_ | 2.41Mb97
-  - Pool_ |25.27Mb98
-  - '|45.88Mb99'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb100
-  - '|15.15Mb101'
-  - Pool_ |23.96Mb102
-  - Pool_ |22.90Mb103
-  - Relay_ | 1.56Mb104
-  - '|41.43Mb105'
-  - '| 1.67Mb106'
-  - Relay_ | 0.97Mb107
-  - 🇦🇺 AU_13108
-  - 🇦🇺 AU_14109
-  - 🇦🇺 AU_15110
-  - 🇦🇺 AU_16111
-  - 🇦🇺 AU_17112
-  - 🇦🇺 AU_18113
-  - 🇦🇺 AU_19114
-  - 🇦🇺 AU_20115
-  - 🇦🇺 AU_21116
-  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb117
-  - 🇦🇺 AU_23118
-  - 🇦🇺 AU_24119
-  - 🇦🇺 AU_25120
-  - 🇦🇺 AU_26121
-  - 🇦🇺 AU_27122
-  - 🇦🇺 AU_28123
-  - 🇦🇺 AU_29124
-  - CA_62125
-  - CA_63126
-  - CA_64127
-  - CA_65128
-  - CA_66129
-  - CA_67130
-  - CA_68131
-  - Relay_ |10.42Mb132
-  - CA_70133
-  - CA_71134
-  - CA_72135
-  - CA_73136
-  - CA_74137
-  - CA_75138
-  - CA_76139
-  - CA_77140
-  - CA_78141
-  - CA_79142
-  - CA_80143
-  - CA_81144
-  - CA_82145
-  - CA_83146
-  - CA_84147
-  - CA_86148
-  - CA_87149
-  - CA_88150
-  - CA_89151
-  - CA_90152
-  - CA_91153
-  - CA_92154
-  - CA_93155
-  - CA_94156
-  - CA_95157
-  - CA_96158
-  - CA_97159
-  - CA_98160
-  - CA_99161
-  - Relay_ | 9.69Mb162
-  - CA_101163
-  - CA_102164
-  - CA_103165
-  - CA_104166
-  - 🇨🇳 CN_107167
-  - Relay_ |35.78Mb168
-  - '| 1.88Mb169'
-  - Relay_ |43.45Mb170
-  - Relay_ | 8.64Mb171
-  - Relay_ | 7.57Mb172
-  - Relay_ | 2.03Mb173
-  - 🇨🇳 CN_114174
-  - Relay_ |31.14Mb175
-  - Relay_ |50.39Mb176
-  - Relay_ |43.34Mb177
-  - Relay_ |43.91Mb178
-  - Relay_ | 7.00Mb179
-  - Relay_ |12.64Mb180
-  - Relay_ | 2.02Mb181
-  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb182
-  - '| 2.18Mb183'
-  - Relay_ | 7.92Mb184
-  - 🇩🇪 DE_177185
-  - 🇫🇷 FR_239186
-  - Relay_ |23.38Mb187
-  - Relay_ | 8.72Mb188
-  - 🇫🇷 FR_242189
-  - GB_271190
-  - 🇭🇰 HK_279191
-  - 🇭🇰 HK_280192
-  - Relay_ |570.16Mb193
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb194
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb195
-  - 🇯🇵 JP_298196
-  - 🇯🇵 JP_299197
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb198
-  - 🇯🇵 JP_301199
-  - 🇯🇵 JP_302200
-  - 🇯🇵 JP_303201
-  - 🇯🇵 JP_304202
-  - 🇯🇵 JP_305203
-  - 🇯🇵 JP_306204
-  - 🇯🇵 JP_307205
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb206
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb207
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb208
-  - Relay_ | 4.46Mb209
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb210
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb211
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb212
-  - 🇯🇵 JP_316213
-  - 🇯🇵 JP_317214
-  - 🇯🇵 JP_318215
-  - 🇯🇵 JP_319216
-  - Relay_ |13.98Mb217
-  - Relay_ | 8.04Mb218
-  - 🇯🇵 JP_322219
-  - 🇰🇷 KR_323220
-  - 🇰🇷 KR_324221
-  - 🇳🇱 NL_567222
-  - '|30.85Mb223'
-  - Relay_ | 2.34Mb224
-  - 🇳🇱 NL_570225
-  - 🇳🇱 NL_571226
-  - 🇳🇱 NL_572227
-  - Relay_ |11.42Mb228
-  - 🇳🇱 NL_574229
-  - '| 4.27Mb230'
-  - '| 3.17Mb231'
-  - 🇷🇴 RO_587232
-  - 🇷🇴 RO_588233
-  - 🇷🇴 RO_589234
-  - '|20.10Mb235'
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb236
-  - 🇸🇬 SG_619237
-  - 🇸🇬 SG_620238
-  - 🇸🇬 SG_621239
-  - 🇸🇬 SG_622240
-  - Relay_ |16.07Mb241
-  - Relay_ | 3.30Mb242
-  - Relay_ | 2.59Mb243
-  - Relay_ |463.92Mb244
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb245
-  - Relay_ |125.11Mb246
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb247
-  - 🇸🇬 SG_630248
-  - Relay_ |37.03Mb249
-  - 🇸🇬 SG_632250
-  - 🇸🇬 SG_633251
-  - Relay_ |35.23Mb252
-  - 🇨🇳 TW_638253
-  - 🇨🇳 TW_639254
-  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb255
-  - 🇨🇳 TW_641256
-  - 🇨🇳 TW_642257
-  - 🇨🇳 TW_643258
-  - Relay_ | 2.95Mb259
-  - 🇺🇸 US_1260260
-  - 🇺🇸 US_1261261
-  - 🇺🇸 US_1262262
-  - 🇺🇸 US_1263263
-  - 🇺🇸 US_1264264
-  - 🇺🇸 US_1265265
-  - 🇺🇸 US_1266266
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267267
-  - 🇺🇸 US_1268268
-  - 🇺🇸 US_1269269
-  - 🇺🇸 US_1270270
-  - 🇺🇸 US_1271271
-  - 🇺🇸 US_1272272
-  - 🇺🇸 US_1273273
-  - 🇺🇸 US_1274274
-  - '| 8.11Mb275'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276276
-  - 🇺🇸 US_1277277
-  - Relay_ |82.21Mb278
-  - Relay_ |17.93Mb279
-  - 🇺🇸 US_1280280
-  - Relay_ | 2.19Mb281
-  - 🇺🇸 US_1282282
-  - 🇺🇸 US_1283283
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb284
-  - 🇺🇸 US_1285285
-  - 🇺🇸 US_1286286
-  - 🇺🇸 US_1287287
-  - 🇺🇸 US_1288288
-  - 🇺🇸 US_1289289
-  - Relay_ |25.87Mb290
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb291
-  - 🇺🇸 US_1292292
-  - Relay_ |18.04Mb293
-  - 🇺🇸 US_1294294
-  - '|39.11Mb295'
-  - Relay_ |25.10Mb296
-  - Relay_ | 3.95Mb297
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298298
-  - 🇺🇸 US_1299299
-  - Relay_ |65.03Mb300
-  - Relay_ |12.04Mb301
-  - 🇺🇸 US_1302302
-  - Relay_ |59.07Mb303
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb304
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb305
-  - Relay_ |34.20Mb306
-  - Relay_ |48.28Mb307
-  - Relay_ |23.84Mb308
-  - 🇺🇸 US_1309309
-  - Relay_ |26.85Mb310
-  - Relay_ | 6.83Mb311
-  - Relay_ |20.25Mb312
-  - Relay_ |26.02Mb313
-  - Relay_ |24.64Mb314
-  - ZZ_1430315
-  - Relay_ |65.50Mb316
-  - Relay_ |72.81Mb317
-  - Relay_ | 0.18Mb318
-  - ZZ_1434319
-  - Relay_ | 2.52Mb320
-  - Relay_ |84.66Mb321
-  - ZZ_1437322
-  - Relay_ |76.29Mb323
-  - ZZ_1439324
+  - 韩国(TG频道:@kxswa)29
+  - 美国(TG频道:@kxswa) 230
+  - 新加坡(TG频道:@kxswa)31
+  - 新加坡(TG频道:@kxswa) 232
+  - 新加坡(TG频道:@kxswa) 333
+  - 日本(TG频道:@kxswa)34
+  - 新加坡(TG频道:@kxswa) 435
+  - 美国(TG频道:@kxswa) 336
+  - (TG频道:@kxswa) 337
+  - 香港(TG频道:@kxswa)38
+  - (TG频道:@kxswa) 439
+  - 日本(TG频道:@kxswa) 240
+  - 韩国(TG频道:@kxswa) 241
+  - 🇭🇰 香港快|tg频道:@ripaojiedian42
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian43
+  - 🇯🇵 日本BGP|tg频道:@ripaojiedian44
+  - 🇨🇳 台湾|tg频道:@ripaojiedian45
+  - 🇭🇰 香港SSR|tg频道:@ripaojiedian46
+  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian47
+  - 🇸🇬 新加坡2|tg频道:@ripaojiedian48
+  - 🇭🇰 香港HKT|tg频道:@ripaojiedian49
+  - 🇭🇰 香港Az|tg频道:@ripaojiedian50
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian51
+  - 🇯🇵 日本快|tg频道:@ripaojiedian52
+  - 🇯🇵 日本SSR|tg频道:@ripaojiedian53
+  - 🇺🇸 美国3|tg频道:@ripaojiedian54
+  - 🇸🇬 新加坡 -tg频道:@ripaojiedian55
+  - 🇸🇬 狮城|tg频道:@ripaojiedian56
+  - 🇰🇷 韩国|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾|tg频道:@ripaojiedian 258
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian59
+  - 🇰🇷 韩国|tg频道:@ripaojiedian 260
+  - '|44.15Mb61'
+  - '|116.66Mb62'
+  - '|65.14Mb63'
+  - '|25.51Mb64'
+  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb65
+  - Relay_ |15.89Mb66
+  - Relay_ |10.21Mb67
+  - '|14.50Mb68'
+  - Relay_ |35.17Mb69
+  - '|11.76Mb70'
+  - '|27.41Mb71'
+  - '|19.24Mb72'
+  - '|25.78Mb73'
+  - '|54.57Mb74'
+  - '|25.22Mb75'
+  - Relay_ | 1.01Mb76
+  - Pool_ | 9.62Mb77
+  - Relay_ | 9.50Mb78
+  - '|25.72Mb79'
+  - '|28.46Mb80'
+  - '|22.53Mb81'
+  - Relay_ | 2.10Mb82
+  - Relay_ | 2.02Mb83
+  - Relay_ | 2.41Mb84
+  - Pool_ |25.27Mb85
+  - '|45.88Mb86'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb87
+  - '|15.15Mb88'
+  - Pool_ |23.96Mb89
+  - Pool_ |22.90Mb90
+  - Relay_ | 1.56Mb91
+  - '|41.43Mb92'
+  - '| 1.67Mb93'
+  - Relay_ | 0.97Mb94
+  - 🇦🇺 AU_1395
+  - 🇦🇺 AU_1496
+  - 🇦🇺 AU_1597
+  - 🇦🇺 AU_1698
+  - 🇦🇺 AU_1799
+  - 🇦🇺 AU_18100
+  - 🇦🇺 AU_19101
+  - 🇦🇺 AU_20102
+  - 🇦🇺 AU_21103
+  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb104
+  - 🇦🇺 AU_23105
+  - 🇦🇺 AU_24106
+  - 🇦🇺 AU_25107
+  - 🇦🇺 AU_26108
+  - 🇦🇺 AU_27109
+  - 🇦🇺 AU_28110
+  - 🇦🇺 AU_29111
+  - CA_62112
+  - CA_63113
+  - CA_64114
+  - CA_65115
+  - CA_66116
+  - CA_67117
+  - CA_68118
+  - Relay_ |10.42Mb119
+  - CA_70120
+  - CA_71121
+  - CA_72122
+  - CA_73123
+  - CA_74124
+  - CA_75125
+  - CA_76126
+  - CA_77127
+  - CA_78128
+  - CA_79129
+  - CA_80130
+  - CA_81131
+  - CA_82132
+  - CA_83133
+  - CA_84134
+  - CA_86135
+  - CA_87136
+  - CA_88137
+  - CA_89138
+  - CA_90139
+  - CA_91140
+  - CA_92141
+  - CA_93142
+  - CA_94143
+  - CA_95144
+  - CA_96145
+  - CA_97146
+  - CA_98147
+  - CA_99148
+  - Relay_ | 9.69Mb149
+  - CA_101150
+  - CA_102151
+  - CA_103152
+  - CA_104153
+  - 🇨🇳 CN_107154
+  - Relay_ |35.78Mb155
+  - '| 1.88Mb156'
+  - Relay_ |43.45Mb157
+  - Relay_ | 8.64Mb158
+  - Relay_ | 7.57Mb159
+  - Relay_ | 2.03Mb160
+  - 🇨🇳 CN_114161
+  - Relay_ |31.14Mb162
+  - Relay_ |50.39Mb163
+  - Relay_ |43.34Mb164
+  - Relay_ |43.91Mb165
+  - Relay_ | 7.00Mb166
+  - Relay_ |12.64Mb167
+  - Relay_ | 2.02Mb168
+  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb169
+  - '| 2.18Mb170'
+  - Relay_ | 7.92Mb171
+  - 🇩🇪 DE_177172
+  - 🇫🇷 FR_239173
+  - Relay_ |23.38Mb174
+  - Relay_ | 8.72Mb175
+  - 🇫🇷 FR_242176
+  - GB_271177
+  - 🇭🇰 HK_279178
+  - 🇭🇰 HK_280179
+  - Relay_ |570.16Mb180
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb181
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb182
+  - 🇯🇵 JP_298183
+  - 🇯🇵 JP_299184
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb185
+  - 🇯🇵 JP_301186
+  - 🇯🇵 JP_302187
+  - 🇯🇵 JP_303188
+  - 🇯🇵 JP_304189
+  - 🇯🇵 JP_305190
+  - 🇯🇵 JP_306191
+  - 🇯🇵 JP_307192
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb193
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb194
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb195
+  - Relay_ | 4.46Mb196
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb197
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb198
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb199
+  - 🇯🇵 JP_316200
+  - 🇯🇵 JP_317201
+  - 🇯🇵 JP_318202
+  - 🇯🇵 JP_319203
+  - Relay_ |13.98Mb204
+  - Relay_ | 8.04Mb205
+  - 🇯🇵 JP_322206
+  - 🇰🇷 KR_323207
+  - 🇰🇷 KR_324208
+  - 🇳🇱 NL_567209
+  - '|30.85Mb210'
+  - Relay_ | 2.34Mb211
+  - 🇳🇱 NL_570212
+  - 🇳🇱 NL_571213
+  - 🇳🇱 NL_572214
+  - Relay_ |11.42Mb215
+  - 🇳🇱 NL_574216
+  - '| 4.27Mb217'
+  - '| 3.17Mb218'
+  - 🇷🇴 RO_587219
+  - 🇷🇴 RO_588220
+  - 🇷🇴 RO_589221
+  - '|20.10Mb222'
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb223
+  - 🇸🇬 SG_619224
+  - 🇸🇬 SG_620225
+  - 🇸🇬 SG_621226
+  - 🇸🇬 SG_622227
+  - Relay_ |16.07Mb228
+  - Relay_ | 3.30Mb229
+  - Relay_ | 2.59Mb230
+  - Relay_ |463.92Mb231
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb232
+  - Relay_ |125.11Mb233
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb234
+  - 🇸🇬 SG_630235
+  - Relay_ |37.03Mb236
+  - 🇸🇬 SG_632237
+  - 🇸🇬 SG_633238
+  - Relay_ |35.23Mb239
+  - 🇨🇳 TW_638240
+  - 🇨🇳 TW_639241
+  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb242
+  - 🇨🇳 TW_641243
+  - 🇨🇳 TW_642244
+  - 🇨🇳 TW_643245
+  - Relay_ | 2.95Mb246
+  - 🇺🇸 US_1260247
+  - 🇺🇸 US_1261248
+  - 🇺🇸 US_1262249
+  - 🇺🇸 US_1263250
+  - 🇺🇸 US_1264251
+  - 🇺🇸 US_1265252
+  - 🇺🇸 US_1266253
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267254
+  - 🇺🇸 US_1268255
+  - 🇺🇸 US_1269256
+  - 🇺🇸 US_1270257
+  - 🇺🇸 US_1271258
+  - 🇺🇸 US_1272259
+  - 🇺🇸 US_1273260
+  - 🇺🇸 US_1274261
+  - '| 8.11Mb262'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276263
+  - 🇺🇸 US_1277264
+  - Relay_ |82.21Mb265
+  - Relay_ |17.93Mb266
+  - 🇺🇸 US_1280267
+  - Relay_ | 2.19Mb268
+  - 🇺🇸 US_1282269
+  - 🇺🇸 US_1283270
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb271
+  - 🇺🇸 US_1285272
+  - 🇺🇸 US_1286273
+  - 🇺🇸 US_1287274
+  - 🇺🇸 US_1288275
+  - 🇺🇸 US_1289276
+  - Relay_ |25.87Mb277
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb278
+  - 🇺🇸 US_1292279
+  - Relay_ |18.04Mb280
+  - 🇺🇸 US_1294281
+  - '|39.11Mb282'
+  - Relay_ |25.10Mb283
+  - Relay_ | 3.95Mb284
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298285
+  - 🇺🇸 US_1299286
+  - Relay_ |65.03Mb287
+  - Relay_ |12.04Mb288
+  - 🇺🇸 US_1302289
+  - Relay_ |59.07Mb290
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb291
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb292
+  - Relay_ |34.20Mb293
+  - Relay_ |48.28Mb294
+  - Relay_ |23.84Mb295
+  - 🇺🇸 US_1309296
+  - Relay_ |26.85Mb297
+  - Relay_ | 6.83Mb298
+  - Relay_ |20.25Mb299
+  - Relay_ |26.02Mb300
+  - Relay_ |24.64Mb301
+  - ZZ_1430302
+  - Relay_ |65.50Mb303
+  - Relay_ |72.81Mb304
+  - Relay_ | 0.18Mb305
+  - ZZ_1434306
+  - Relay_ | 2.52Mb307
+  - Relay_ |84.66Mb308
+  - ZZ_1437309
+  - Relay_ |76.29Mb310
+  - ZZ_1439311
 - name: 🐟 漏网之鱼
   type: select
   proxies:
@@ -4873,308 +4575,295 @@ proxy-groups:
   - 🇯🇵 _US_美国->🇯🇵_JP_日本20
   - 🇳🇱 _NL_荷兰 321
   - 🇰🇷 _KR_韩国 222
-  - 更新于10/20/10:2623
+  - 更新于10/20/13:1623
   - ✈付费机场推荐✈24
   - dafeivpn.com 5元专线机场25
-  - 中国(TG频道:@kxswa)26
-  - 中国(TG频道:@kxswa) 227
+  - (TG频道:@kxswa)26
+  - (TG频道:@kxswa) 227
   - 美国(TG频道:@kxswa)28
-  - 中国(TG频道:@kxswa) 329
-  - (TG频道:@kxswa)30
-  - 中国(TG频道:@kxswa) 431
-  - 印度尼西亚(TG频道:@kxswa)32
-  - 印度尼西亚(TG频道:@kxswa) 233
-  - 中国(TG频道:@kxswa) 534
-  - (TG频道:@kxswa) 235
-  - 中国(TG频道:@kxswa) 636
-  - 美国(TG频道:@kxswa) 237
-  - 中国(TG频道:@kxswa) 738
-  - 印度尼西亚(TG频道:@kxswa) 339
-  - 中国(TG频道:@kxswa) 840
-  - 中国(TG频道:@kxswa) 941
-  - 中国(TG频道:@kxswa) 1042
-  - (TG频道:@kxswa) 343
-  - (TG频道:@kxswa) 444
-  - 美国(TG频道:@kxswa) 345
-  - 美国(TG频道:@kxswa) 446
-  - 中国(TG频道:@kxswa) 1147
-  - 中国(TG频道:@kxswa) 1248
-  - 中国(TG频道:@kxswa) 1349
-  - 中国(TG频道:@kxswa) 1450
-  - 中国(TG频道:@kxswa) 1551
-  - 中国(TG频道:@kxswa) 1652
-  - (TG频道:@kxswa) 553
-  - (TG频道:@kxswa) 654
-  - 🇭🇰 香港快|tg频道:@ripaojiedian55
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian56
-  - 🇯🇵 日本BGP|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾|tg频道:@ripaojiedian58
-  - 🇭🇰 香港SSR|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian60
-  - 🇸🇬 新加坡2|tg频道:@ripaojiedian61
-  - 🇭🇰 香港HKT|tg频道:@ripaojiedian62
-  - 🇭🇰 香港Az|tg频道:@ripaojiedian63
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian64
-  - 🇯🇵 日本快|tg频道:@ripaojiedian65
-  - 🇯🇵 日本SSR|tg频道:@ripaojiedian66
-  - 🇺🇸 美国3|tg频道:@ripaojiedian67
-  - 🇸🇬 新加坡 -tg频道:@ripaojiedian68
-  - 🇸🇬 狮城|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇨🇳 台湾|tg频道:@ripaojiedian 271
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian72
-  - 🇰🇷 韩国|tg频道:@ripaojiedian 273
-  - '|44.15Mb74'
-  - '|116.66Mb75'
-  - '|65.14Mb76'
-  - '|25.51Mb77'
-  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb78
-  - Relay_ |15.89Mb79
-  - Relay_ |10.21Mb80
-  - '|14.50Mb81'
-  - Relay_ |35.17Mb82
-  - '|11.76Mb83'
-  - '|27.41Mb84'
-  - '|19.24Mb85'
-  - '|25.78Mb86'
-  - '|54.57Mb87'
-  - '|25.22Mb88'
-  - Relay_ | 1.01Mb89
-  - Pool_ | 9.62Mb90
-  - Relay_ | 9.50Mb91
-  - '|25.72Mb92'
-  - '|28.46Mb93'
-  - '|22.53Mb94'
-  - Relay_ | 2.10Mb95
-  - Relay_ | 2.02Mb96
-  - Relay_ | 2.41Mb97
-  - Pool_ |25.27Mb98
-  - '|45.88Mb99'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb100
-  - '|15.15Mb101'
-  - Pool_ |23.96Mb102
-  - Pool_ |22.90Mb103
-  - Relay_ | 1.56Mb104
-  - '|41.43Mb105'
-  - '| 1.67Mb106'
-  - Relay_ | 0.97Mb107
-  - 🇦🇺 AU_13108
-  - 🇦🇺 AU_14109
-  - 🇦🇺 AU_15110
-  - 🇦🇺 AU_16111
-  - 🇦🇺 AU_17112
-  - 🇦🇺 AU_18113
-  - 🇦🇺 AU_19114
-  - 🇦🇺 AU_20115
-  - 🇦🇺 AU_21116
-  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb117
-  - 🇦🇺 AU_23118
-  - 🇦🇺 AU_24119
-  - 🇦🇺 AU_25120
-  - 🇦🇺 AU_26121
-  - 🇦🇺 AU_27122
-  - 🇦🇺 AU_28123
-  - 🇦🇺 AU_29124
-  - CA_62125
-  - CA_63126
-  - CA_64127
-  - CA_65128
-  - CA_66129
-  - CA_67130
-  - CA_68131
-  - Relay_ |10.42Mb132
-  - CA_70133
-  - CA_71134
-  - CA_72135
-  - CA_73136
-  - CA_74137
-  - CA_75138
-  - CA_76139
-  - CA_77140
-  - CA_78141
-  - CA_79142
-  - CA_80143
-  - CA_81144
-  - CA_82145
-  - CA_83146
-  - CA_84147
-  - CA_86148
-  - CA_87149
-  - CA_88150
-  - CA_89151
-  - CA_90152
-  - CA_91153
-  - CA_92154
-  - CA_93155
-  - CA_94156
-  - CA_95157
-  - CA_96158
-  - CA_97159
-  - CA_98160
-  - CA_99161
-  - Relay_ | 9.69Mb162
-  - CA_101163
-  - CA_102164
-  - CA_103165
-  - CA_104166
-  - 🇨🇳 CN_107167
-  - Relay_ |35.78Mb168
-  - '| 1.88Mb169'
-  - Relay_ |43.45Mb170
-  - Relay_ | 8.64Mb171
-  - Relay_ | 7.57Mb172
-  - Relay_ | 2.03Mb173
-  - 🇨🇳 CN_114174
-  - Relay_ |31.14Mb175
-  - Relay_ |50.39Mb176
-  - Relay_ |43.34Mb177
-  - Relay_ |43.91Mb178
-  - Relay_ | 7.00Mb179
-  - Relay_ |12.64Mb180
-  - Relay_ | 2.02Mb181
-  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb182
-  - '| 2.18Mb183'
-  - Relay_ | 7.92Mb184
-  - 🇩🇪 DE_177185
-  - 🇫🇷 FR_239186
-  - Relay_ |23.38Mb187
-  - Relay_ | 8.72Mb188
-  - 🇫🇷 FR_242189
-  - GB_271190
-  - 🇭🇰 HK_279191
-  - 🇭🇰 HK_280192
-  - Relay_ |570.16Mb193
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb194
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb195
-  - 🇯🇵 JP_298196
-  - 🇯🇵 JP_299197
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb198
-  - 🇯🇵 JP_301199
-  - 🇯🇵 JP_302200
-  - 🇯🇵 JP_303201
-  - 🇯🇵 JP_304202
-  - 🇯🇵 JP_305203
-  - 🇯🇵 JP_306204
-  - 🇯🇵 JP_307205
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb206
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb207
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb208
-  - Relay_ | 4.46Mb209
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb210
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb211
-  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb212
-  - 🇯🇵 JP_316213
-  - 🇯🇵 JP_317214
-  - 🇯🇵 JP_318215
-  - 🇯🇵 JP_319216
-  - Relay_ |13.98Mb217
-  - Relay_ | 8.04Mb218
-  - 🇯🇵 JP_322219
-  - 🇰🇷 KR_323220
-  - 🇰🇷 KR_324221
-  - 🇳🇱 NL_567222
-  - '|30.85Mb223'
-  - Relay_ | 2.34Mb224
-  - 🇳🇱 NL_570225
-  - 🇳🇱 NL_571226
-  - 🇳🇱 NL_572227
-  - Relay_ |11.42Mb228
-  - 🇳🇱 NL_574229
-  - '| 4.27Mb230'
-  - '| 3.17Mb231'
-  - 🇷🇴 RO_587232
-  - 🇷🇴 RO_588233
-  - 🇷🇴 RO_589234
-  - '|20.10Mb235'
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb236
-  - 🇸🇬 SG_619237
-  - 🇸🇬 SG_620238
-  - 🇸🇬 SG_621239
-  - 🇸🇬 SG_622240
-  - Relay_ |16.07Mb241
-  - Relay_ | 3.30Mb242
-  - Relay_ | 2.59Mb243
-  - Relay_ |463.92Mb244
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb245
-  - Relay_ |125.11Mb246
-  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb247
-  - 🇸🇬 SG_630248
-  - Relay_ |37.03Mb249
-  - 🇸🇬 SG_632250
-  - 🇸🇬 SG_633251
-  - Relay_ |35.23Mb252
-  - 🇨🇳 TW_638253
-  - 🇨🇳 TW_639254
-  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb255
-  - 🇨🇳 TW_641256
-  - 🇨🇳 TW_642257
-  - 🇨🇳 TW_643258
-  - Relay_ | 2.95Mb259
-  - 🇺🇸 US_1260260
-  - 🇺🇸 US_1261261
-  - 🇺🇸 US_1262262
-  - 🇺🇸 US_1263263
-  - 🇺🇸 US_1264264
-  - 🇺🇸 US_1265265
-  - 🇺🇸 US_1266266
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267267
-  - 🇺🇸 US_1268268
-  - 🇺🇸 US_1269269
-  - 🇺🇸 US_1270270
-  - 🇺🇸 US_1271271
-  - 🇺🇸 US_1272272
-  - 🇺🇸 US_1273273
-  - 🇺🇸 US_1274274
-  - '| 8.11Mb275'
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276276
-  - 🇺🇸 US_1277277
-  - Relay_ |82.21Mb278
-  - Relay_ |17.93Mb279
-  - 🇺🇸 US_1280280
-  - Relay_ | 2.19Mb281
-  - 🇺🇸 US_1282282
-  - 🇺🇸 US_1283283
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb284
-  - 🇺🇸 US_1285285
-  - 🇺🇸 US_1286286
-  - 🇺🇸 US_1287287
-  - 🇺🇸 US_1288288
-  - 🇺🇸 US_1289289
-  - Relay_ |25.87Mb290
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb291
-  - 🇺🇸 US_1292292
-  - Relay_ |18.04Mb293
-  - 🇺🇸 US_1294294
-  - '|39.11Mb295'
-  - Relay_ |25.10Mb296
-  - Relay_ | 3.95Mb297
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298298
-  - 🇺🇸 US_1299299
-  - Relay_ |65.03Mb300
-  - Relay_ |12.04Mb301
-  - 🇺🇸 US_1302302
-  - Relay_ |59.07Mb303
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb304
-  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb305
-  - Relay_ |34.20Mb306
-  - Relay_ |48.28Mb307
-  - Relay_ |23.84Mb308
-  - 🇺🇸 US_1309309
-  - Relay_ |26.85Mb310
-  - Relay_ | 6.83Mb311
-  - Relay_ |20.25Mb312
-  - Relay_ |26.02Mb313
-  - Relay_ |24.64Mb314
-  - ZZ_1430315
-  - Relay_ |65.50Mb316
-  - Relay_ |72.81Mb317
-  - Relay_ | 0.18Mb318
-  - ZZ_1434319
-  - Relay_ | 2.52Mb320
-  - Relay_ |84.66Mb321
-  - ZZ_1437322
-  - Relay_ |76.29Mb323
-  - ZZ_1439324
+  - 韩国(TG频道:@kxswa)29
+  - 美国(TG频道:@kxswa) 230
+  - 新加坡(TG频道:@kxswa)31
+  - 新加坡(TG频道:@kxswa) 232
+  - 新加坡(TG频道:@kxswa) 333
+  - 日本(TG频道:@kxswa)34
+  - 新加坡(TG频道:@kxswa) 435
+  - 美国(TG频道:@kxswa) 336
+  - (TG频道:@kxswa) 337
+  - 香港(TG频道:@kxswa)38
+  - (TG频道:@kxswa) 439
+  - 日本(TG频道:@kxswa) 240
+  - 韩国(TG频道:@kxswa) 241
+  - 🇭🇰 香港快|tg频道:@ripaojiedian42
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian43
+  - 🇯🇵 日本BGP|tg频道:@ripaojiedian44
+  - 🇨🇳 台湾|tg频道:@ripaojiedian45
+  - 🇭🇰 香港SSR|tg频道:@ripaojiedian46
+  - 🇨🇳 台湾SSR|tg频道:@ripaojiedian47
+  - 🇸🇬 新加坡2|tg频道:@ripaojiedian48
+  - 🇭🇰 香港HKT|tg频道:@ripaojiedian49
+  - 🇭🇰 香港Az|tg频道:@ripaojiedian50
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian51
+  - 🇯🇵 日本快|tg频道:@ripaojiedian52
+  - 🇯🇵 日本SSR|tg频道:@ripaojiedian53
+  - 🇺🇸 美国3|tg频道:@ripaojiedian54
+  - 🇸🇬 新加坡 -tg频道:@ripaojiedian55
+  - 🇸🇬 狮城|tg频道:@ripaojiedian56
+  - 🇰🇷 韩国|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾|tg频道:@ripaojiedian 258
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian59
+  - 🇰🇷 韩国|tg频道:@ripaojiedian 260
+  - '|44.15Mb61'
+  - '|116.66Mb62'
+  - '|65.14Mb63'
+  - '|25.51Mb64'
+  - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_274 | 1.01Mb65
+  - Relay_ |15.89Mb66
+  - Relay_ |10.21Mb67
+  - '|14.50Mb68'
+  - Relay_ |35.17Mb69
+  - '|11.76Mb70'
+  - '|27.41Mb71'
+  - '|19.24Mb72'
+  - '|25.78Mb73'
+  - '|54.57Mb74'
+  - '|25.22Mb75'
+  - Relay_ | 1.01Mb76
+  - Pool_ | 9.62Mb77
+  - Relay_ | 9.50Mb78
+  - '|25.72Mb79'
+  - '|28.46Mb80'
+  - '|22.53Mb81'
+  - Relay_ | 2.10Mb82
+  - Relay_ | 2.02Mb83
+  - Relay_ | 2.41Mb84
+  - Pool_ |25.27Mb85
+  - '|45.88Mb86'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1253 | 0.08Mb87
+  - '|15.15Mb88'
+  - Pool_ |23.96Mb89
+  - Pool_ |22.90Mb90
+  - Relay_ | 1.56Mb91
+  - '|41.43Mb92'
+  - '| 1.67Mb93'
+  - Relay_ | 0.97Mb94
+  - 🇦🇺 AU_1395
+  - 🇦🇺 AU_1496
+  - 🇦🇺 AU_1597
+  - 🇦🇺 AU_1698
+  - 🇦🇺 AU_1799
+  - 🇦🇺 AU_18100
+  - 🇦🇺 AU_19101
+  - 🇦🇺 AU_20102
+  - 🇦🇺 AU_21103
+  - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_22 |49.26Mb104
+  - 🇦🇺 AU_23105
+  - 🇦🇺 AU_24106
+  - 🇦🇺 AU_25107
+  - 🇦🇺 AU_26108
+  - 🇦🇺 AU_27109
+  - 🇦🇺 AU_28110
+  - 🇦🇺 AU_29111
+  - CA_62112
+  - CA_63113
+  - CA_64114
+  - CA_65115
+  - CA_66116
+  - CA_67117
+  - CA_68118
+  - Relay_ |10.42Mb119
+  - CA_70120
+  - CA_71121
+  - CA_72122
+  - CA_73123
+  - CA_74124
+  - CA_75125
+  - CA_76126
+  - CA_77127
+  - CA_78128
+  - CA_79129
+  - CA_80130
+  - CA_81131
+  - CA_82132
+  - CA_83133
+  - CA_84134
+  - CA_86135
+  - CA_87136
+  - CA_88137
+  - CA_89138
+  - CA_90139
+  - CA_91140
+  - CA_92141
+  - CA_93142
+  - CA_94143
+  - CA_95144
+  - CA_96145
+  - CA_97146
+  - CA_98147
+  - CA_99148
+  - Relay_ | 9.69Mb149
+  - CA_101150
+  - CA_102151
+  - CA_103152
+  - CA_104153
+  - 🇨🇳 CN_107154
+  - Relay_ |35.78Mb155
+  - '| 1.88Mb156'
+  - Relay_ |43.45Mb157
+  - Relay_ | 8.64Mb158
+  - Relay_ | 7.57Mb159
+  - Relay_ | 2.03Mb160
+  - 🇨🇳 CN_114161
+  - Relay_ |31.14Mb162
+  - Relay_ |50.39Mb163
+  - Relay_ |43.34Mb164
+  - Relay_ |43.91Mb165
+  - Relay_ | 7.00Mb166
+  - Relay_ |12.64Mb167
+  - Relay_ | 2.02Mb168
+  - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_122 |53.47Mb169
+  - '| 2.18Mb170'
+  - Relay_ | 7.92Mb171
+  - 🇩🇪 DE_177172
+  - 🇫🇷 FR_239173
+  - Relay_ |23.38Mb174
+  - Relay_ | 8.72Mb175
+  - 🇫🇷 FR_242176
+  - GB_271177
+  - 🇭🇰 HK_279178
+  - 🇭🇰 HK_280179
+  - Relay_ |570.16Mb180
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_296 | 5.42Mb181
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_297 | 6.94Mb182
+  - 🇯🇵 JP_298183
+  - 🇯🇵 JP_299184
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_300 | 7.76Mb185
+  - 🇯🇵 JP_301186
+  - 🇯🇵 JP_302187
+  - 🇯🇵 JP_303188
+  - 🇯🇵 JP_304189
+  - 🇯🇵 JP_305190
+  - 🇯🇵 JP_306191
+  - 🇯🇵 JP_307192
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_308 | 4.03Mb193
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_309 | 8.02Mb194
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_310 | 5.93Mb195
+  - Relay_ | 4.46Mb196
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_312 | 7.04Mb197
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_314 | 1.28Mb198
+  - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_315 |26.55Mb199
+  - 🇯🇵 JP_316200
+  - 🇯🇵 JP_317201
+  - 🇯🇵 JP_318202
+  - 🇯🇵 JP_319203
+  - Relay_ |13.98Mb204
+  - Relay_ | 8.04Mb205
+  - 🇯🇵 JP_322206
+  - 🇰🇷 KR_323207
+  - 🇰🇷 KR_324208
+  - 🇳🇱 NL_567209
+  - '|30.85Mb210'
+  - Relay_ | 2.34Mb211
+  - 🇳🇱 NL_570212
+  - 🇳🇱 NL_571213
+  - 🇳🇱 NL_572214
+  - Relay_ |11.42Mb215
+  - 🇳🇱 NL_574216
+  - '| 4.27Mb217'
+  - '| 3.17Mb218'
+  - 🇷🇴 RO_587219
+  - 🇷🇴 RO_588220
+  - 🇷🇴 RO_589221
+  - '|20.10Mb222'
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_618 |532.03Mb223
+  - 🇸🇬 SG_619224
+  - 🇸🇬 SG_620225
+  - 🇸🇬 SG_621226
+  - 🇸🇬 SG_622227
+  - Relay_ |16.07Mb228
+  - Relay_ | 3.30Mb229
+  - Relay_ | 2.59Mb230
+  - Relay_ |463.92Mb231
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_627 |10.14Mb232
+  - Relay_ |125.11Mb233
+  - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_629 |25.81Mb234
+  - 🇸🇬 SG_630235
+  - Relay_ |37.03Mb236
+  - 🇸🇬 SG_632237
+  - 🇸🇬 SG_633238
+  - Relay_ |35.23Mb239
+  - 🇨🇳 TW_638240
+  - 🇨🇳 TW_639241
+  - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_640 |48.26Mb242
+  - 🇨🇳 TW_641243
+  - 🇨🇳 TW_642244
+  - 🇨🇳 TW_643245
+  - Relay_ | 2.95Mb246
+  - 🇺🇸 US_1260247
+  - 🇺🇸 US_1261248
+  - 🇺🇸 US_1262249
+  - 🇺🇸 US_1263250
+  - 🇺🇸 US_1264251
+  - 🇺🇸 US_1265252
+  - 🇺🇸 US_1266253
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1267254
+  - 🇺🇸 US_1268255
+  - 🇺🇸 US_1269256
+  - 🇺🇸 US_1270257
+  - 🇺🇸 US_1271258
+  - 🇺🇸 US_1272259
+  - 🇺🇸 US_1273260
+  - 🇺🇸 US_1274261
+  - '| 8.11Mb262'
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1276263
+  - 🇺🇸 US_1277264
+  - Relay_ |82.21Mb265
+  - Relay_ |17.93Mb266
+  - 🇺🇸 US_1280267
+  - Relay_ | 2.19Mb268
+  - 🇺🇸 US_1282269
+  - 🇺🇸 US_1283270
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1284 |158.35Mb271
+  - 🇺🇸 US_1285272
+  - 🇺🇸 US_1286273
+  - 🇺🇸 US_1287274
+  - 🇺🇸 US_1288275
+  - 🇺🇸 US_1289276
+  - Relay_ |25.87Mb277
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1291 |47.98Mb278
+  - 🇺🇸 US_1292279
+  - Relay_ |18.04Mb280
+  - 🇺🇸 US_1294281
+  - '|39.11Mb282'
+  - Relay_ |25.10Mb283
+  - Relay_ | 3.95Mb284
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1298285
+  - 🇺🇸 US_1299286
+  - Relay_ |65.03Mb287
+  - Relay_ |12.04Mb288
+  - 🇺🇸 US_1302289
+  - Relay_ |59.07Mb290
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1304 |22.80Mb291
+  - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1305 | 8.74Mb292
+  - Relay_ |34.20Mb293
+  - Relay_ |48.28Mb294
+  - Relay_ |23.84Mb295
+  - 🇺🇸 US_1309296
+  - Relay_ |26.85Mb297
+  - Relay_ | 6.83Mb298
+  - Relay_ |20.25Mb299
+  - Relay_ |26.02Mb300
+  - Relay_ |24.64Mb301
+  - ZZ_1430302
+  - Relay_ |65.50Mb303
+  - Relay_ |72.81Mb304
+  - Relay_ | 0.18Mb305
+  - ZZ_1434306
+  - Relay_ | 2.52Mb307
+  - Relay_ |84.66Mb308
+  - ZZ_1437309
+  - Relay_ |76.29Mb310
+  - ZZ_1439311
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
