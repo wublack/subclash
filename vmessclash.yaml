@@ -592,7 +592,49 @@ proxies:
   ws-headers:
     Host: 120.232.187.136
   udp: true
-- name: 🇭🇰 香港01|tg频道:@ripaojiedian50
+- name: 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+  server: 20.212.114.155.sslip.io
+  port: 443
+  type: vmess
+  uuid: 9871a997-d832-4a3d-eb3e-4259a01a1077
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 20.212.114.155.sslip.io
+- name: 🇺🇸 美国1|tg频道:@ripaojiedian51
+  server: iplc.xiaohouzi.club
+  port: 20029
+  type: trojan
+  password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7
+  sni: nh-hinet02.xiaohouzi.club
+  skip-cert-verify: false
+- name: 🇭🇰 香港2|tg频道:@ripaojiedian52
+  server: 219.76.13.175
+  port: 443
+  type: trojan
+  password: ZlYZ0KxC8uxngp736aR34y3TaFwFOC95DO2XR8yeeAD3cESNDSCBqAYIjpaSlz
+  sni: python.protocolbuffer.com
+  skip-cert-verify: false
+- name: 🇺🇸 美国2|tg频道:@ripaojiedian53
+  server: 219.76.13.175
+  port: 443
+  type: trojan
+  password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g
+  sni: golang.protocolbuffer.com
+  skip-cert-verify: false
+- name: 🇭🇰 香港|tg频道:@ripaojiedian54
+  server: 219.76.13.180
+  port: 443
+  type: trojan
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  sni: stutter.freetrade.link
+  skip-cert-verify: false
+- name: 🇭🇰 香港01|tg频道:@ripaojiedian55
   server: hk01.xniuniu888.xyz
   port: 30104
   type: vmess
@@ -601,26 +643,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇭🇰 香港ssr|tg频道:@ripaojiedian51
-  server: n92.boom.skin
-  port: 16000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 426137:LQMF86
-  obfs-param: download.windowsupdate.com
-- name: 🇸🇬 狮城专线|tg频道:@ripaojiedian52
-  server: bit-moble.gatknqh.cn
-  port: 12028
-  type: vmess
-  uuid: 887e2dcd-9c2b-4d78-a1d0-96a787917334
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡linode53
+- name: 🇸🇬 新加坡linode56
   server: 211.72.35.110
   port: 443
   type: vmess
@@ -634,56 +657,7 @@ proxies:
     path: /linod
     headers:
       Host: lindo.cnabc.eu.org
-- name: 🇨🇳 台湾2|tg频道:@ripaojiedian54
-  server: 165.154.243.161
-  port: 443
-  type: vmess
-  uuid: 7108e796-55db-40f9-ae00-00153a457ea9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸 美国|tg频道:@ripaojiedian55
-  server: mg.xbywwcp.us
-  port: 25654
-  type: vmess
-  uuid: ab08a8a4-26f6-3540-8b7d-adbd8c0d571b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /by.xbygood.xyz
-    headers:
-      Host: a.189.cn
-- name: 🇨🇳 台湾|tg频道:@ripaojiedian56
-  server: 223.111.122.199
-  port: 38080
-  type: vmess
-  uuid: 6248895b-4255-4f07-9479-d198bc1eb8db
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /guolicheng/hinet
-    headers:
-      Host: www.189.cn
-- name: 🇺🇸 美国A|tg频道:@ripaojiedian57
-  server: 47.87.149.164
-  port: 443
-  type: vmess
-  uuid: 7108e796-55db-40f9-ae00-00153a457ea9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸 美国US|tg频道:@ripaojiedian58
+- name: 🇺🇸 美国US|tg频道:@ripaojiedian57
   server: 141.101.114.20
   port: 443
   type: vmess
@@ -697,20 +671,36 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: clash1.trump2023.net
-- name: 🇺🇸 美国2|tg频道:@ripaojiedian59
-  server: usa.liangyuandian.top
+- name: 🇨🇳 台湾2|tg频道:@ripaojiedian58
+  server: 165.154.243.161
   port: 443
-  type: trojan
-  password: 53f20cd4-b381-4a80-8059-7bcd484bbb52
-  sni: usa.liangyuandian.top
+  type: vmess
+  uuid: 7108e796-55db-40f9-ae00-00153a457ea9
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇭🇰 香港|tg频道:@ripaojiedian60
+- name: 🇭🇰 香港HK|tg频道:@ripaojiedian59
   server: 219.76.13.180
   port: 443
   type: trojan
-  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
-  sni: stutter.freetrade.link
+  password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g
+  sni: golang.protocolbuffer.com
   skip-cert-verify: false
+- name: 🇺🇸 美国|tg频道:@ripaojiedian60
+  server: 104.17.146.10
+  port: 80
+  type: vmess
+  uuid: 007ed102-0ee7-4305-a0c4-d20372bef279
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tlfmWciG/
+    headers:
+      Host: us1.cachexy.ga
 - name: 🇭🇰 香港bgp|tg频道:@ripaojiedian61
   server: 103.137.22.45
   port: 443
@@ -2205,17 +2195,17 @@ proxy-groups:
   - 中国(TG频道:@kxswa) 1447
   - (TG频道:@kxswa) 348
   - 中国(TG频道:@kxswa) 1549
-  - 🇭🇰 香港01|tg频道:@ripaojiedian50
-  - 🇭🇰 香港ssr|tg频道:@ripaojiedian51
-  - 🇸🇬 狮城专线|tg频道:@ripaojiedian52
-  - 🇸🇬 新加坡linode53
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian54
-  - 🇺🇸 美国|tg频道:@ripaojiedian55
-  - 🇨🇳 台湾|tg频道:@ripaojiedian56
-  - 🇺🇸 美国A|tg频道:@ripaojiedian57
-  - 🇺🇸 美国US|tg频道:@ripaojiedian58
-  - 🇺🇸 美国2|tg频道:@ripaojiedian59
-  - 🇭🇰 香港|tg频道:@ripaojiedian60
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+  - 🇺🇸 美国1|tg频道:@ripaojiedian51
+  - 🇭🇰 香港2|tg频道:@ripaojiedian52
+  - 🇺🇸 美国2|tg频道:@ripaojiedian53
+  - 🇭🇰 香港|tg频道:@ripaojiedian54
+  - 🇭🇰 香港01|tg频道:@ripaojiedian55
+  - 🇸🇬 新加坡linode56
+  - 🇺🇸 美国US|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
+  - 🇺🇸 美国|tg频道:@ripaojiedian60
   - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
   - '|15.63Mb62'
   - '|105.42Mb63'
@@ -2480,17 +2470,17 @@ proxy-groups:
   - 中国(TG频道:@kxswa) 1447
   - (TG频道:@kxswa) 348
   - 中国(TG频道:@kxswa) 1549
-  - 🇭🇰 香港01|tg频道:@ripaojiedian50
-  - 🇭🇰 香港ssr|tg频道:@ripaojiedian51
-  - 🇸🇬 狮城专线|tg频道:@ripaojiedian52
-  - 🇸🇬 新加坡linode53
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian54
-  - 🇺🇸 美国|tg频道:@ripaojiedian55
-  - 🇨🇳 台湾|tg频道:@ripaojiedian56
-  - 🇺🇸 美国A|tg频道:@ripaojiedian57
-  - 🇺🇸 美国US|tg频道:@ripaojiedian58
-  - 🇺🇸 美国2|tg频道:@ripaojiedian59
-  - 🇭🇰 香港|tg频道:@ripaojiedian60
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+  - 🇺🇸 美国1|tg频道:@ripaojiedian51
+  - 🇭🇰 香港2|tg频道:@ripaojiedian52
+  - 🇺🇸 美国2|tg频道:@ripaojiedian53
+  - 🇭🇰 香港|tg频道:@ripaojiedian54
+  - 🇭🇰 香港01|tg频道:@ripaojiedian55
+  - 🇸🇬 新加坡linode56
+  - 🇺🇸 美国US|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
+  - 🇺🇸 美国|tg频道:@ripaojiedian60
   - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
   - '|15.63Mb62'
   - '|105.42Mb63'
@@ -2749,17 +2739,17 @@ proxy-groups:
   - 中国(TG频道:@kxswa) 1447
   - (TG频道:@kxswa) 348
   - 中国(TG频道:@kxswa) 1549
-  - 🇭🇰 香港01|tg频道:@ripaojiedian50
-  - 🇭🇰 香港ssr|tg频道:@ripaojiedian51
-  - 🇸🇬 狮城专线|tg频道:@ripaojiedian52
-  - 🇸🇬 新加坡linode53
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian54
-  - 🇺🇸 美国|tg频道:@ripaojiedian55
-  - 🇨🇳 台湾|tg频道:@ripaojiedian56
-  - 🇺🇸 美国A|tg频道:@ripaojiedian57
-  - 🇺🇸 美国US|tg频道:@ripaojiedian58
-  - 🇺🇸 美国2|tg频道:@ripaojiedian59
-  - 🇭🇰 香港|tg频道:@ripaojiedian60
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+  - 🇺🇸 美国1|tg频道:@ripaojiedian51
+  - 🇭🇰 香港2|tg频道:@ripaojiedian52
+  - 🇺🇸 美国2|tg频道:@ripaojiedian53
+  - 🇭🇰 香港|tg频道:@ripaojiedian54
+  - 🇭🇰 香港01|tg频道:@ripaojiedian55
+  - 🇸🇬 新加坡linode56
+  - 🇺🇸 美国US|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
+  - 🇺🇸 美国|tg频道:@ripaojiedian60
   - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
   - '|15.63Mb62'
   - '|105.42Mb63'
@@ -3030,17 +3020,17 @@ proxy-groups:
   - 中国(TG频道:@kxswa) 1447
   - (TG频道:@kxswa) 348
   - 中国(TG频道:@kxswa) 1549
-  - 🇭🇰 香港01|tg频道:@ripaojiedian50
-  - 🇭🇰 香港ssr|tg频道:@ripaojiedian51
-  - 🇸🇬 狮城专线|tg频道:@ripaojiedian52
-  - 🇸🇬 新加坡linode53
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian54
-  - 🇺🇸 美国|tg频道:@ripaojiedian55
-  - 🇨🇳 台湾|tg频道:@ripaojiedian56
-  - 🇺🇸 美国A|tg频道:@ripaojiedian57
-  - 🇺🇸 美国US|tg频道:@ripaojiedian58
-  - 🇺🇸 美国2|tg频道:@ripaojiedian59
-  - 🇭🇰 香港|tg频道:@ripaojiedian60
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+  - 🇺🇸 美国1|tg频道:@ripaojiedian51
+  - 🇭🇰 香港2|tg频道:@ripaojiedian52
+  - 🇺🇸 美国2|tg频道:@ripaojiedian53
+  - 🇭🇰 香港|tg频道:@ripaojiedian54
+  - 🇭🇰 香港01|tg频道:@ripaojiedian55
+  - 🇸🇬 新加坡linode56
+  - 🇺🇸 美国US|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
+  - 🇺🇸 美国|tg频道:@ripaojiedian60
   - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
   - '|15.63Mb62'
   - '|105.42Mb63'
@@ -3305,17 +3295,17 @@ proxy-groups:
   - 中国(TG频道:@kxswa) 1447
   - (TG频道:@kxswa) 348
   - 中国(TG频道:@kxswa) 1549
-  - 🇭🇰 香港01|tg频道:@ripaojiedian50
-  - 🇭🇰 香港ssr|tg频道:@ripaojiedian51
-  - 🇸🇬 狮城专线|tg频道:@ripaojiedian52
-  - 🇸🇬 新加坡linode53
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian54
-  - 🇺🇸 美国|tg频道:@ripaojiedian55
-  - 🇨🇳 台湾|tg频道:@ripaojiedian56
-  - 🇺🇸 美国A|tg频道:@ripaojiedian57
-  - 🇺🇸 美国US|tg频道:@ripaojiedian58
-  - 🇺🇸 美国2|tg频道:@ripaojiedian59
-  - 🇭🇰 香港|tg频道:@ripaojiedian60
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+  - 🇺🇸 美国1|tg频道:@ripaojiedian51
+  - 🇭🇰 香港2|tg频道:@ripaojiedian52
+  - 🇺🇸 美国2|tg频道:@ripaojiedian53
+  - 🇭🇰 香港|tg频道:@ripaojiedian54
+  - 🇭🇰 香港01|tg频道:@ripaojiedian55
+  - 🇸🇬 新加坡linode56
+  - 🇺🇸 美国US|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
+  - 🇺🇸 美国|tg频道:@ripaojiedian60
   - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
   - '|15.63Mb62'
   - '|105.42Mb63'
@@ -3579,17 +3569,17 @@ proxy-groups:
   - 中国(TG频道:@kxswa) 1447
   - (TG频道:@kxswa) 348
   - 中国(TG频道:@kxswa) 1549
-  - 🇭🇰 香港01|tg频道:@ripaojiedian50
-  - 🇭🇰 香港ssr|tg频道:@ripaojiedian51
-  - 🇸🇬 狮城专线|tg频道:@ripaojiedian52
-  - 🇸🇬 新加坡linode53
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian54
-  - 🇺🇸 美国|tg频道:@ripaojiedian55
-  - 🇨🇳 台湾|tg频道:@ripaojiedian56
-  - 🇺🇸 美国A|tg频道:@ripaojiedian57
-  - 🇺🇸 美国US|tg频道:@ripaojiedian58
-  - 🇺🇸 美国2|tg频道:@ripaojiedian59
-  - 🇭🇰 香港|tg频道:@ripaojiedian60
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+  - 🇺🇸 美国1|tg频道:@ripaojiedian51
+  - 🇭🇰 香港2|tg频道:@ripaojiedian52
+  - 🇺🇸 美国2|tg频道:@ripaojiedian53
+  - 🇭🇰 香港|tg频道:@ripaojiedian54
+  - 🇭🇰 香港01|tg频道:@ripaojiedian55
+  - 🇸🇬 新加坡linode56
+  - 🇺🇸 美国US|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
+  - 🇺🇸 美国|tg频道:@ripaojiedian60
   - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
   - '|15.63Mb62'
   - '|105.42Mb63'
@@ -3853,17 +3843,17 @@ proxy-groups:
   - 中国(TG频道:@kxswa) 1447
   - (TG频道:@kxswa) 348
   - 中国(TG频道:@kxswa) 1549
-  - 🇭🇰 香港01|tg频道:@ripaojiedian50
-  - 🇭🇰 香港ssr|tg频道:@ripaojiedian51
-  - 🇸🇬 狮城专线|tg频道:@ripaojiedian52
-  - 🇸🇬 新加坡linode53
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian54
-  - 🇺🇸 美国|tg频道:@ripaojiedian55
-  - 🇨🇳 台湾|tg频道:@ripaojiedian56
-  - 🇺🇸 美国A|tg频道:@ripaojiedian57
-  - 🇺🇸 美国US|tg频道:@ripaojiedian58
-  - 🇺🇸 美国2|tg频道:@ripaojiedian59
-  - 🇭🇰 香港|tg频道:@ripaojiedian60
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+  - 🇺🇸 美国1|tg频道:@ripaojiedian51
+  - 🇭🇰 香港2|tg频道:@ripaojiedian52
+  - 🇺🇸 美国2|tg频道:@ripaojiedian53
+  - 🇭🇰 香港|tg频道:@ripaojiedian54
+  - 🇭🇰 香港01|tg频道:@ripaojiedian55
+  - 🇸🇬 新加坡linode56
+  - 🇺🇸 美国US|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
+  - 🇺🇸 美国|tg频道:@ripaojiedian60
   - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
   - '|15.63Mb62'
   - '|105.42Mb63'
@@ -4128,17 +4118,17 @@ proxy-groups:
   - 中国(TG频道:@kxswa) 1447
   - (TG频道:@kxswa) 348
   - 中国(TG频道:@kxswa) 1549
-  - 🇭🇰 香港01|tg频道:@ripaojiedian50
-  - 🇭🇰 香港ssr|tg频道:@ripaojiedian51
-  - 🇸🇬 狮城专线|tg频道:@ripaojiedian52
-  - 🇸🇬 新加坡linode53
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian54
-  - 🇺🇸 美国|tg频道:@ripaojiedian55
-  - 🇨🇳 台湾|tg频道:@ripaojiedian56
-  - 🇺🇸 美国A|tg频道:@ripaojiedian57
-  - 🇺🇸 美国US|tg频道:@ripaojiedian58
-  - 🇺🇸 美国2|tg频道:@ripaojiedian59
-  - 🇭🇰 香港|tg频道:@ripaojiedian60
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+  - 🇺🇸 美国1|tg频道:@ripaojiedian51
+  - 🇭🇰 香港2|tg频道:@ripaojiedian52
+  - 🇺🇸 美国2|tg频道:@ripaojiedian53
+  - 🇭🇰 香港|tg频道:@ripaojiedian54
+  - 🇭🇰 香港01|tg频道:@ripaojiedian55
+  - 🇸🇬 新加坡linode56
+  - 🇺🇸 美国US|tg频道:@ripaojiedian57
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
+  - 🇺🇸 美国|tg频道:@ripaojiedian60
   - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
   - '|15.63Mb62'
   - '|105.42Mb63'
