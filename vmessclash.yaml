@@ -26,7 +26,198 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 更新于10/23/19:061
+- name: 🇹🇼 _TW_台湾1
+  server: download1tw.windowsupdate1.com
+  port: 28443
+  type: trojan
+  password: 6248895b-4255-4f07-9479-d198bc1eb8db
+  sni: glc.hruqoaw.cn
+  skip-cert-verify: false
+- name: 🇮🇳 _IN_印度2
+  server: 13in.networklinkpro.net
+  port: 443
+  type: trojan
+  password: e392bfdd-d4ce-4df2-9534-fef23f037121
+  skip-cert-verify: false
+- name: 🇯🇵 _JP_日本3
+  server: jp2.sanfen001.pics
+  port: 443
+  type: trojan
+  password: d45e6245-926b-4283-8c72-91e229d6c5f5
+  sni: jp1.sanfen001.pics
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国4
+  server: hk2.sanfen001.pics
+  port: 443
+  type: trojan
+  password: d45e6245-926b-4283-8c72-91e229d6c5f5
+  sni: hk1.sanfen001.pics
+  skip-cert-verify: false
+- name: 🇸🇬 _SG_新加坡5
+  server: sg2.sanfen001.pics
+  port: 443
+  type: trojan
+  password: d45e6245-926b-4283-8c72-91e229d6c5f5
+  sni: sg1.sanfen001.pics
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国 26
+  server: 16us.networklinkpro.net
+  port: 443
+  type: trojan
+  password: e392bfdd-d4ce-4df2-9534-fef23f037121
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国 37
+  server: 27fr.networklinkpro.net
+  port: 443
+  type: trojan
+  password: e392bfdd-d4ce-4df2-9534-fef23f037121
+  skip-cert-verify: false
+- name: 🇫🇷 _FR_法国8
+  server: 51.77.71.131
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇫🇷 _FR_法国 29
+  server: content-provider5.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇳🇱 _NL_荷兰10
+  server: content-provider23.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇳🇱 _NL_荷兰 211
+  server: content-provider24.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国 412
+  server: ca.0112233.xyz
+  port: 8443
+  type: vmess
+  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ca.0112233.xyz
+- name: 🇸🇬 _SG_新加坡 213
+  server: 139.162.55.131
+  port: 443
+  type: vmess
+  uuid: 12960d11-1fb8-4eff-d26a-8969d44a4b19
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇫🇷 _FR_法国 314
+  server: content-provider12.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: origin
+  skip-cert-verify: false
+- name: 🇳🇱 _NL_荷兰 315
+  server: 185.212.200.75
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇭🇰 _HK_香港->🇯🇵_JP_日本16
+  server: 219.76.13.180
+  port: 443
+  type: trojan
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  sni: stutter.freetrade.link
+  skip-cert-verify: false
+- name: 🇫🇷 _FR_法国 417
+  server: content-provider26.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: origin
+  skip-cert-verify: false
+- name: default_name18
+  server: idc1.vpn-akcelluler.my.id
+  port: 443
+  type: trojan
+  password: idc117okt
+  sni: idc1.vpn-akcelluler.my.id
+  skip-cert-verify: false
+- name: 🇭🇰 _HK_香港->🇸🇬_SG_新加坡19
+  server: 219.76.13.175
+  port: 443
+  type: trojan
+  password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g
+  sni: golang.protocolbuffer.com
+  skip-cert-verify: false
+- name: default_name 220
+  server: 103.176.78.153
+  port: 443
+  type: trojan
+  password: idc117okt
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国 521
+  server: kr1.sanfen001.pics
+  port: 443
+  type: trojan
+  password: d45e6245-926b-4283-8c72-91e229d6c5f5
+  sni: kr1.sanfen001.pics
+  skip-cert-verify: false
+- name: 🇺🇸 _US_美国 622
+  server: kr2.sanfen001.pics
+  port: 443
+  type: trojan
+  password: d45e6245-926b-4283-8c72-91e229d6c5f5
+  sni: kr1.sanfen001.pics
+  skip-cert-verify: false
+- name: 🇯🇵 _JP_日本 223
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸 _US_美国 724
+  server: 161.129.34.102
+  port: 443
+  type: vmess
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸 _US_美国 825
+  server: lc-kr02-direct01.lc-kr02.lc-node.com
+  port: 443
+  type: vmess
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lc-kr02-direct01.lc-kr02.lc-node.com
+- name: 更新于10/23/19:0626
   server: 20.78.123.124
   port: 8443
   type: vmess
@@ -40,7 +231,7 @@ proxies:
   ws-headers:
     Host: 20.78.123.124
   udp: true
-- name: ✈付费机场推荐✈2
+- name: ✈付费机场推荐✈27
   server: 20.24.194.115
   port: 8443
   type: vmess
@@ -54,7 +245,7 @@ proxies:
   ws-headers:
     Host: 20.24.194.115
   udp: true
-- name: 中国(TG频道:@kxswa)3
+- name: 中国(TG频道:@kxswa)28
   server: s4.mine.com.cn
   port: 4433
   type: vmess
@@ -64,7 +255,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: dafeivpn.com 5元专线机场4
+- name: dafeivpn.com 5元专线机场29
   server: sg.liangyuandian.top
   port: 443
   type: trojan
@@ -72,7 +263,7 @@ proxies:
   sni: sg.liangyuandian.top
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 25
+- name: 中国(TG频道:@kxswa) 230
   server: 223.111.122.199
   port: 38080
   type: vmess
@@ -86,7 +277,7 @@ proxies:
   ws-headers:
     Host: www.189.cn
   udp: true
-- name: 美国(TG频道:@kxswa)6
+- name: 美国(TG频道:@kxswa)31
   server: 20.24.194.115
   port: 8443
   type: vmess
@@ -100,7 +291,7 @@ proxies:
   ws-headers:
     Host: 20.24.194.115
   udp: true
-- name: 澳大利亚(TG频道:@kxswa)7
+- name: 澳大利亚(TG频道:@kxswa)32
   server: dtin1.bitznet.one
   port: 33017
   type: trojan
@@ -108,7 +299,7 @@ proxies:
   sni: dtin1.bitznet.one
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 38
+- name: 中国(TG频道:@kxswa) 333
   server: 120.79.75.120
   port: 4433
   type: vmess
@@ -118,7 +309,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 49
+- name: 中国(TG频道:@kxswa) 434
   server: s3.mine.com.cn
   port: 4433
   type: vmess
@@ -128,7 +319,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 510
+- name: 中国(TG频道:@kxswa) 535
   server: s1.mine.com.cn
   port: 4433
   type: vmess
@@ -138,7 +329,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 611
+- name: 中国(TG频道:@kxswa) 636
   server: s4.mine.com.cn
   port: 4433
   type: vmess
@@ -148,7 +339,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 712
+- name: 中国(TG频道:@kxswa) 737
   server: 120.79.75.120
   port: 4433
   type: vmess
@@ -158,7 +349,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 813
+- name: 中国(TG频道:@kxswa) 838
   server: s2.mine.com.cn
   port: 4433
   type: vmess
@@ -168,7 +359,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 914
+- name: 中国(TG频道:@kxswa) 939
   server: 120.55.63.83
   port: 4433
   type: vmess
@@ -178,14 +369,14 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 日本(TG频道:@kxswa)15
+- name: 日本(TG频道:@kxswa)40
   server: 139.162.74.122
   port: 10001
   type: trojan
   password: ca98d907-57b1-4eab-b272-6eb248b71084
   skip-cert-verify: true
   udp: true
-- name: 香港(TG频道:@kxswa)16
+- name: 香港(TG频道:@kxswa)41
   server: 20.189.112.217
   port: 8443
   type: vmess
@@ -199,7 +390,7 @@ proxies:
   ws-headers:
     Host: 20.189.112.217
   udp: true
-- name: 香港(TG频道:@kxswa) 217
+- name: 香港(TG频道:@kxswa) 242
   server: 20.189.112.217
   port: 8443
   type: vmess
@@ -213,7 +404,7 @@ proxies:
   ws-headers:
     Host: 20.189.112.217
   udp: true
-- name: 中国(TG频道:@kxswa) 1018
+- name: 中国(TG频道:@kxswa) 1043
   server: 106.55.234.95
   port: 31372
   type: vmess
@@ -223,7 +414,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 1119
+- name: 中国(TG频道:@kxswa) 1144
   server: 119.23.45.18
   port: 4433
   type: vmess
@@ -233,7 +424,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 1220
+- name: 中国(TG频道:@kxswa) 1245
   server: 223.111.122.199
   port: 38080
   type: vmess
@@ -247,7 +438,7 @@ proxies:
   ws-headers:
     Host: www.189.cn
   udp: true
-- name: 印度(TG频道:@kxswa)21
+- name: 印度(TG频道:@kxswa)46
   server: 20.197.16.214
   port: 8443
   type: vmess
@@ -261,7 +452,7 @@ proxies:
   ws-headers:
     Host: 20.197.16.214
   udp: true
-- name: 印度(TG频道:@kxswa) 222
+- name: 印度(TG频道:@kxswa) 247
   server: 20.197.16.214
   port: 8443
   type: vmess
@@ -275,7 +466,7 @@ proxies:
   ws-headers:
     Host: 20.197.16.214
   udp: true
-- name: 台湾(TG频道:@kxswa)23
+- name: 台湾(TG频道:@kxswa)48
   server: 211.72.35.110
   port: 443
   type: vmess
@@ -289,7 +480,7 @@ proxies:
   ws-headers:
     Host: lindo.cnabc.eu.org
   udp: true
-- name: 中国(TG频道:@kxswa) 1324
+- name: 中国(TG频道:@kxswa) 1349
   server: 223.111.122.199
   port: 38080
   type: vmess
@@ -303,14 +494,14 @@ proxies:
   ws-headers:
     Host: www.189.cn
   udp: true
-- name: 日本(TG频道:@kxswa) 225
+- name: 日本(TG频道:@kxswa) 250
   server: 172.105.237.183
   port: 10001
   type: trojan
   password: ca98d907-57b1-4eab-b272-6eb248b71084
   skip-cert-verify: true
   udp: true
-- name: 美国(TG频道:@kxswa) 226
+- name: 美国(TG频道:@kxswa) 251
   server: 20.21.144.197
   port: 8443
   type: vmess
@@ -324,7 +515,7 @@ proxies:
   ws-headers:
     Host: 20.21.144.197
   udp: true
-- name: 美国(TG频道:@kxswa) 327
+- name: 美国(TG频道:@kxswa) 352
   server: 20.21.144.197
   port: 8443
   type: vmess
@@ -338,7 +529,7 @@ proxies:
   ws-headers:
     Host: 20.21.144.197
   udp: true
-- name: 英国(TG频道:@kxswa)28
+- name: 英国(TG频道:@kxswa)53
   server: 20.58.23.8
   port: 8443
   type: vmess
@@ -352,7 +543,7 @@ proxies:
   ws-headers:
     Host: 20.58.23.8
   udp: true
-- name: 捷克(TG频道:@kxswa)29
+- name: 捷克(TG频道:@kxswa)54
   server: 195.123.246.120
   port: 10000
   type: vmess
@@ -366,14 +557,14 @@ proxies:
   ws-headers:
     Host: 195.123.246.120
   udp: true
-- name: 美国(TG频道:@kxswa) 430
+- name: 美国(TG频道:@kxswa) 455
   server: 143.198.237.122
   port: 10002
   type: trojan
   password: ca98d907-57b1-4eab-b272-6eb248b71084
   skip-cert-verify: true
   udp: true
-- name: 美国(TG频道:@kxswa) 531
+- name: 美国(TG频道:@kxswa) 556
   server: 20.213.11.107
   port: 8443
   type: vmess
@@ -387,7 +578,7 @@ proxies:
   ws-headers:
     Host: 20.213.11.107
   udp: true
-- name: 美国(TG频道:@kxswa) 632
+- name: 美国(TG频道:@kxswa) 657
   server: 20.213.11.107
   port: 8443
   type: vmess
@@ -401,21 +592,21 @@ proxies:
   ws-headers:
     Host: 20.213.11.107
   udp: true
-- name: 美国(TG频道:@kxswa) 733
+- name: 美国(TG频道:@kxswa) 758
   server: 170.187.240.199
   port: 10007
   type: trojan
   password: ca98d907-57b1-4eab-b272-6eb248b71084
   skip-cert-verify: true
   udp: true
-- name: 美国(TG频道:@kxswa) 834
+- name: 美国(TG频道:@kxswa) 859
   server: 165.22.4.188
   port: 10003
   type: trojan
   password: ca98d907-57b1-4eab-b272-6eb248b71084
   skip-cert-verify: true
   udp: true
-- name: 瑞士(TG频道:@kxswa)35
+- name: 瑞士(TG频道:@kxswa)60
   server: 20.208.139.156
   port: 8443
   type: vmess
@@ -429,7 +620,7 @@ proxies:
   ws-headers:
     Host: 20.208.139.156
   udp: true
-- name: 美国(TG频道:@kxswa) 936
+- name: 美国(TG频道:@kxswa) 961
   server: 20.163.109.169
   port: 8443
   type: vmess
@@ -443,7 +634,7 @@ proxies:
   ws-headers:
     Host: 20.163.109.169
   udp: true
-- name: 瑞士(TG频道:@kxswa) 237
+- name: 瑞士(TG频道:@kxswa) 262
   server: 20.208.139.156
   port: 8443
   type: vmess
@@ -457,21 +648,21 @@ proxies:
   ws-headers:
     Host: 20.208.139.156
   udp: true
-- name: 日本(TG频道:@kxswa) 338
+- name: 日本(TG频道:@kxswa) 363
   server: 172.105.226.62
   port: 10001
   type: trojan
   password: ca98d907-57b1-4eab-b272-6eb248b71084
   skip-cert-verify: true
   udp: true
-- name: 日本(TG频道:@kxswa) 439
+- name: 日本(TG频道:@kxswa) 464
   server: 172.105.238.12
   port: 10002
   type: trojan
   password: ca98d907-57b1-4eab-b272-6eb248b71084
   skip-cert-verify: true
   udp: true
-- name: 日本(TG频道:@kxswa) 540
+- name: 日本(TG频道:@kxswa) 565
   server: 20.78.19.142
   port: 8443
   type: vmess
@@ -485,7 +676,7 @@ proxies:
   ws-headers:
     Host: 20.78.19.142
   udp: true
-- name: 澳大利亚(TG频道:@kxswa) 241
+- name: 澳大利亚(TG频道:@kxswa) 266
   server: tratw1.bitznet.one
   port: 32003
   type: trojan
@@ -493,7 +684,7 @@ proxies:
   sni: tratw1.bitznet.one
   skip-cert-verify: true
   udp: true
-- name: 日本(TG频道:@kxswa) 642
+- name: 日本(TG频道:@kxswa) 667
   server: 20.78.123.124
   port: 8443
   type: vmess
@@ -507,7 +698,7 @@ proxies:
   ws-headers:
     Host: 20.78.123.124
   udp: true
-- name: 日本(TG频道:@kxswa) 743
+- name: 日本(TG频道:@kxswa) 768
   server: 20.78.19.142
   port: 8443
   type: vmess
@@ -521,7 +712,7 @@ proxies:
   ws-headers:
     Host: 20.78.19.142
   udp: true
-- name: 南非(TG频道:@kxswa)44
+- name: 南非(TG频道:@kxswa)69
   server: 102.37.157.62
   port: 8443
   type: vmess
@@ -535,14 +726,14 @@ proxies:
   ws-headers:
     Host: 102.37.157.62
   udp: true
-- name: (TG频道:@kxswa)45
+- name: (TG频道:@kxswa)70
   server: 103.176.78.153
   port: 443
   type: trojan
   password: idc117okt
   skip-cert-verify: true
   udp: true
-- name: (TG频道:@kxswa) 246
+- name: (TG频道:@kxswa) 271
   server: idc1.vpn-akcelluler.my.id
   port: 443
   type: trojan
@@ -550,7 +741,7 @@ proxies:
   sni: idc1.vpn-akcelluler.my.id
   skip-cert-verify: true
   udp: true
-- name: 中国(TG频道:@kxswa) 1447
+- name: 中国(TG频道:@kxswa) 1472
   server: 223.111.122.199
   port: 38080
   type: vmess
@@ -564,7 +755,7 @@ proxies:
   ws-headers:
     Host: '%7B%22Host%22:%22www.189.cn%22%7D'
   udp: true
-- name: (TG频道:@kxswa) 348
+- name: (TG频道:@kxswa) 373
   server: 141.101.114.33
   port: 443
   type: vmess
@@ -578,7 +769,7 @@ proxies:
   ws-headers:
     Host: v2ray1.zhujicn2.org
   udp: true
-- name: 中国(TG频道:@kxswa) 1549
+- name: 中国(TG频道:@kxswa) 1574
   server: io.aicdn.online
   port: 12008
   type: vmess
@@ -592,7 +783,7 @@ proxies:
   ws-headers:
     Host: 120.232.187.136
   udp: true
-- name: 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
+- name: 🇸🇬 狮城AZ|tg频道:@ripaojiedian75
   server: 20.212.114.155.sslip.io
   port: 443
   type: vmess
@@ -606,35 +797,35 @@ proxies:
     path: /
     headers:
       Host: 20.212.114.155.sslip.io
-- name: 🇺🇸 美国1|tg频道:@ripaojiedian51
+- name: 🇺🇸 美国1|tg频道:@ripaojiedian76
   server: iplc.xiaohouzi.club
   port: 20029
   type: trojan
   password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7
   sni: nh-hinet02.xiaohouzi.club
   skip-cert-verify: false
-- name: 🇭🇰 香港2|tg频道:@ripaojiedian52
+- name: 🇭🇰 香港2|tg频道:@ripaojiedian77
   server: 219.76.13.175
   port: 443
   type: trojan
   password: ZlYZ0KxC8uxngp736aR34y3TaFwFOC95DO2XR8yeeAD3cESNDSCBqAYIjpaSlz
   sni: python.protocolbuffer.com
   skip-cert-verify: false
-- name: 🇺🇸 美国2|tg频道:@ripaojiedian53
+- name: 🇺🇸 美国2|tg频道:@ripaojiedian78
   server: 219.76.13.175
   port: 443
   type: trojan
   password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g
   sni: golang.protocolbuffer.com
   skip-cert-verify: false
-- name: 🇭🇰 香港|tg频道:@ripaojiedian54
+- name: 🇭🇰 香港|tg频道:@ripaojiedian79
   server: 219.76.13.180
   port: 443
   type: trojan
   password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
   sni: stutter.freetrade.link
   skip-cert-verify: false
-- name: 🇭🇰 香港01|tg频道:@ripaojiedian55
+- name: 🇭🇰 香港01|tg频道:@ripaojiedian80
   server: hk01.xniuniu888.xyz
   port: 30104
   type: vmess
@@ -643,7 +834,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇸🇬 新加坡linode56
+- name: 🇸🇬 新加坡linode81
   server: 211.72.35.110
   port: 443
   type: vmess
@@ -657,7 +848,7 @@ proxies:
     path: /linod
     headers:
       Host: lindo.cnabc.eu.org
-- name: 🇺🇸 美国US|tg频道:@ripaojiedian57
+- name: 🇺🇸 美国US|tg频道:@ripaojiedian82
   server: 141.101.114.20
   port: 443
   type: vmess
@@ -671,7 +862,7 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: clash1.trump2023.net
-- name: 🇨🇳 台湾2|tg频道:@ripaojiedian58
+- name: 🇨🇳 台湾2|tg频道:@ripaojiedian83
   server: 165.154.243.161
   port: 443
   type: vmess
@@ -680,14 +871,14 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇭🇰 香港HK|tg频道:@ripaojiedian59
+- name: 🇭🇰 香港HK|tg频道:@ripaojiedian84
   server: 219.76.13.180
   port: 443
   type: trojan
   password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g
   sni: golang.protocolbuffer.com
   skip-cert-verify: false
-- name: 🇺🇸 美国|tg频道:@ripaojiedian60
+- name: 🇺🇸 美国|tg频道:@ripaojiedian85
   server: 104.17.146.10
   port: 80
   type: vmess
@@ -701,7 +892,7 @@ proxies:
     path: /tlfmWciG/
     headers:
       Host: us1.cachexy.ga
-- name: 🇭🇰 香港bgp|tg频道:@ripaojiedian61
+- name: 🇭🇰 香港bgp|tg频道:@ripaojiedian86
   server: 103.137.22.45
   port: 443
   type: ss
@@ -715,7 +906,7 @@ proxies:
     tls: true
     mux: true
     skip-cert-verify: false
-- name: '|15.63Mb62'
+- name: '|15.63Mb87'
   server: 129.154.57.134
   port: 26282
   type: vmess
@@ -724,7 +915,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|105.42Mb63'
+- name: '|105.42Mb88'
   server: 139.99.91.95
   port: 443
   type: vmess
@@ -733,7 +924,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|41.07Mb64'
+- name: '|41.07Mb89'
   server: 139.99.90.122
   port: 443
   type: vmess
@@ -742,7 +933,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '| 0.56Mb65'
+- name: '| 0.56Mb90'
   server: 4.3.1.fuckppppp.today
   port: 58418
   type: vmess
@@ -751,7 +942,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|26.68Mb66'
+- name: '|26.68Mb91'
   server: de.v2-ray.com
   port: 443
   type: vmess
@@ -765,7 +956,7 @@ proxies:
     path: /fastssh/e234523f/62d7cabd59195/
     headers:
       Host: de.v2-ray.com
-- name: '|25.51Mb67'
+- name: '|25.51Mb92'
   server: 51.89.42.154
   port: 443
   type: vmess
@@ -777,7 +968,7 @@ proxies:
   network: ws
   ws-opts:
     path: /path/120211331422
-- name: '|26.49Mb68'
+- name: '|26.49Mb93'
   server: de.v2-ray.com
   port: 443
   type: vmess
@@ -791,7 +982,7 @@ proxies:
     path: /fastssh/43t34gt4/62d7cbc722cda/
     headers:
       Host: de.v2-ray.com
-- name: '69'
+- name: '94'
   server: aop.ssfree.ru
   port: 443
   type: vmess
@@ -805,7 +996,7 @@ proxies:
     path: /getweather
     headers:
       Host: aop.ssfree.ru
-- name: '|17.16Mb70'
+- name: '|17.16Mb95'
   server: asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom
   port: 888
   type: vmess
@@ -819,7 +1010,7 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
     headers:
       Host: node.inforun.work
-- name: '|14.32Mb71'
+- name: '|14.32Mb96'
   server: xqtxa-1046-v2-2.hkg-d-hkbn.nd.cjhh.mom
   port: 888
   type: vmess
@@ -833,7 +1024,7 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
     headers:
       Host: edge.cjhh.mom
-- name: '| 1.01Mb72'
+- name: '| 1.01Mb97'
   server: ah.yd01.paopaocloud.cyou
   port: 10020
   type: vmess
@@ -847,7 +1038,7 @@ proxies:
     path: /v2ray
     headers:
       Host: paopao.v2.hk02.paopaocloud.cyou
-- name: '|35.17Mb73'
+- name: '|35.17Mb98'
   server: m4.40010010.xyz
   port: 37121
   type: vmess
@@ -856,7 +1047,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-- name: '|10.10Mb74'
+- name: '|10.10Mb99'
   server: nl.v2-ray.com
   port: 80
   type: vmess
@@ -870,7 +1061,7 @@ proxies:
     path: /fastssh/hkgzs01/6315d407657f6/
     headers:
       Host: nl.v2-ray.com
-- name: '|11.76Mb75'
+- name: '|11.76Mb100'
   server: 8.214.33.158
   port: 80
   type: vmess
@@ -882,7 +1073,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: '|13.63Mb76'
+- name: '|13.63Mb101'
   server: 168.138.201.208
   port: 10328
   type: vmess
@@ -891,7 +1082,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|18.80Mb77'
+- name: '|18.80Mb102'
   server: 152.70.241.18
   port: 26676
   type: vmess
@@ -900,7 +1091,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|54.57Mb78'
+- name: '|54.57Mb103'
   server: 138.2.15.23
   port: 46370
   type: vmess
@@ -909,7 +1100,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '| 1.78Mb79'
+- name: '| 1.78Mb104'
   server: ah.yd01.paopaocloud.cyou
   port: 10009
   type: vmess
@@ -923,7 +1114,7 @@ proxies:
     path: /v2ray
     headers:
       Host: paopao.v2.hk06.paopaocloud.cyou
-- name: '|17.38Mb80'
+- name: '|17.38Mb105'
   server: 152.70.235.207
   port: 35412
   type: vmess
@@ -932,7 +1123,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '| 1.56Mb81'
+- name: '| 1.56Mb106'
   server: www.flieswiming.tk
   port: 443
   type: vmess
@@ -946,7 +1137,7 @@ proxies:
     path: /
     headers:
       Host: www.flieswiming.tk
-- name: '| 2.08Mb82'
+- name: '| 2.08Mb107'
   server: az.hk01.paopaocloud.cyou
   port: 10019
   type: vmess
@@ -960,7 +1151,7 @@ proxies:
     path: /vn01
     headers:
       Host: paopao.v2.vn01.paopaocloud.cyou
-- name: '|24.12Mb83'
+- name: '|24.12Mb108'
   server: 23.225.57.222
   port: 443
   type: vmess
@@ -972,7 +1163,7 @@ proxies:
   network: ws
   ws-opts:
     path: /path/051111230910
-- name: '|20.99Mb84'
+- name: '|20.99Mb109'
   server: 152.69.197.60
   port: 1069
   type: vmess
@@ -981,7 +1172,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|25.78Mb85'
+- name: '|25.78Mb110'
   server: 150.230.41.9
   port: 23292
   type: vmess
@@ -990,7 +1181,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|23.33Mb86'
+- name: '|23.33Mb111'
   server: 67.21.72.44
   port: 443
   type: vmess
@@ -1004,7 +1195,7 @@ proxies:
     path: /path/120208301422
     headers:
       Host: www.48816626.xyz
-- name: '|24.34Mb87'
+- name: '|24.34Mb112'
   server: 67.21.72.41
   port: 443
   type: vmess
@@ -1018,7 +1209,7 @@ proxies:
     path: /path/173418141123
     headers:
       Host: www.17080100.xyz
-- name: '|19.44Mb88'
+- name: '|19.44Mb113'
   server: 138.2.44.211
   port: 20081
   type: vmess
@@ -1027,7 +1218,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|25.72Mb89'
+- name: '|25.72Mb114'
   server: 168.138.207.66
   port: 21365
   type: vmess
@@ -1036,7 +1227,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|28.50Mb90'
+- name: '|28.50Mb115'
   server: 129.159.41.233
   port: 32586
   type: vmess
@@ -1045,7 +1236,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: '|306.93Mb91'
+- name: '|306.93Mb116'
   server: madush.duckdns.org
   port: 40515
   type: vmess
@@ -1059,7 +1250,7 @@ proxies:
     path: /
     headers:
       Host: ar.linkedin.com
-- name: '| 0.97Mb92'
+- name: '| 0.97Mb117'
   server: lsrug-1037-v2-9.hkg-d-cmi.jd.cjhh.lol
   port: 888
   type: vmess
@@ -1073,7 +1264,7 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
     headers:
       Host: node.inforun.work
-- name: '| 1.67Mb93'
+- name: '| 1.67Mb118'
   server: 103.159.132.102
   port: 31372
   type: vmess
@@ -1082,1058 +1273,1058 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:44394
+- name: ca-trojan.bonds.id:443119
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: 165.154.226.108:44395
+- name: 165.154.226.108:443120
   server: 165.154.226.108
   port: 443
   type: trojan
   password: gb8cLR
   skip-cert-verify: false
-- name: '|11.07Mb96'
+- name: '|11.07Mb121'
   server: cat1.sshocean.net
   port: 443
   type: trojan
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 297
+- name: ca-trojan.bonds.id:443 2122
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 398
+- name: ca-trojan.bonds.id:443 3123
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 499
+- name: ca-trojan.bonds.id:443 4124
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 5100
+- name: ca-trojan.bonds.id:443 5125
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 6101
+- name: ca-trojan.bonds.id:443 6126
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 7102
+- name: ca-trojan.bonds.id:443 7127
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 8103
+- name: ca-trojan.bonds.id:443 8128
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 9104
+- name: ca-trojan.bonds.id:443 9129
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0--40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 10105
+- name: ca-trojan.bonds.id:443 10130
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 11106
+- name: ca-trojan.bonds.id:443 11131
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206eHBRd3-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 12107
+- name: ca-trojan.bonds.id:443 12132
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nYlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 13108
+- name: ca-trojan.bonds.id:443 13133
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 14109
+- name: ca-trojan.bonds.id:443 14134
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 15110
+- name: ca-trojan.bonds.id:443 15135
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WW-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 51.161.118.38:443111
+- name: 51.161.118.38:443136
   server: 51.161.118.38
   port: 443
   type: trojan
   password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 16112
+- name: ca-trojan.bonds.id:443 16137
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 17113
+- name: ca-trojan.bonds.id:443 17138
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa5-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 18114
+- name: ca-trojan.bonds.id:443 18139
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: 36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 19115
+- name: ca-trojan.bonds.id:443 19140
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 20116
+- name: ca-trojan.bonds.id:443 20141
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 21117
+- name: ca-trojan.bonds.id:443 21142
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 22118
+- name: ca-trojan.bonds.id:443 22143
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 23119
+- name: ca-trojan.bonds.id:443 23144
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 24120
+- name: ca-trojan.bonds.id:443 24145
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 25121
+- name: ca-trojan.bonds.id:443 25146
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 26122
+- name: ca-trojan.bonds.id:443 26147
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 27123
+- name: ca-trojan.bonds.id:443 27148
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: 28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 28124
+- name: ca-trojan.bonds.id:443 28149
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 29125
+- name: ca-trojan.bonds.id:443 29150
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 30126
+- name: ca-trojan.bonds.id:443 30151
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1N-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 31127
+- name: ca-trojan.bonds.id:443 31152
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 32128
+- name: ca-trojan.bonds.id:443 32153
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzLTI1-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 33129
+- name: ca-trojan.bonds.id:443 33154
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 34130
+- name: ca-trojan.bonds.id:443 34155
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 35131
+- name: ca-trojan.bonds.id:443 35156
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 36132
+- name: ca-trojan.bonds.id:443 36157
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 37133
+- name: ca-trojan.bonds.id:443 37158
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: YWVzL-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: ca-trojan.bonds.id:443 38134
+- name: ca-trojan.bonds.id:443 38159
   server: ca-trojan.bonds.id
   port: 443
   type: trojan
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: '| 8.64Mb135'
+- name: '| 8.64Mb160'
   server: 116.129.254.29
   port: 3389
   type: trojan
   password: ca4596fb9bc63cf2
   skip-cert-verify: false
-- name: '|43.34Mb136'
+- name: '|43.34Mb161'
   server: 183.232.141.154
   port: 19205
   type: trojan
   password: a992be42-bed4-3037-8788-9e860cd635d3
   skip-cert-verify: false
-- name: '|50.39Mb137'
+- name: '|50.39Mb162'
   server: 183.232.141.154
   port: 19215
   type: trojan
   password: a992be42-bed4-3037-8788-9e860cd635d3
   skip-cert-verify: false
-- name: 116.129.253.134:3384138
+- name: 116.129.253.134:3384163
   server: 116.129.253.134
   port: 3384
   type: trojan
   password: d4e41ff772c7fd45
   skip-cert-verify: false
-- name: 117.164.185.220:61002139
+- name: 117.164.185.220:61002164
   server: 117.164.185.220
   port: 61002
   type: trojan
   password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
   skip-cert-verify: false
-- name: '|12.64Mb140'
+- name: '|12.64Mb165'
   server: jp2.91js.pw
   port: 10051
   type: trojan
   password: a13820c547fa34c5c45515c12f0cd576
   skip-cert-verify: false
-- name: '|35.78Mb141'
+- name: '|35.78Mb166'
   server: zz6.91js.pw
   port: 10051
   type: trojan
   password: a13820c547fa34c5c45515c12f0cd576
   skip-cert-verify: false
-- name: '| 7.57Mb142'
+- name: '| 7.57Mb167'
   server: 116.129.254.29
   port: 3389
   type: trojan
   password: d66013c645b93c5c
   skip-cert-verify: false
-- name: '| 2.18Mb143'
+- name: '| 2.18Mb168'
   server: 116.129.254.47
   port: 3389
   type: trojan
   password: d66013c645b93c5c
   skip-cert-verify: false
-- name: '| 2.02Mb144'
+- name: '| 2.02Mb169'
   server: 116.129.254.47
   port: 3389
   type: trojan
   password: e37c6d7efa845d60
   skip-cert-verify: false
-- name: '| 7.00Mb145'
+- name: '| 7.00Mb170'
   server: ct.91js.pw
   port: 10051
   type: trojan
   password: a13820c547fa34c5c45515c12f0cd576
   skip-cert-verify: false
-- name: '| 1.88Mb146'
+- name: '| 1.88Mb171'
   server: 116.129.254.47
   port: 3389
   type: trojan
   password: c3c448da2363a6f7
   skip-cert-verify: false
-- name: 116.129.254.29:3384147
+- name: 116.129.254.29:3384172
   server: 116.129.254.29
   port: 3384
   type: trojan
   password: d4e41ff772c7fd45
   skip-cert-verify: false
-- name: '| 2.03Mb148'
+- name: '| 2.03Mb173'
   server: 116.129.254.47
   port: 3389
   type: trojan
   password: a170b44c2dfac9e6
   skip-cert-verify: false
-- name: '| 7.92Mb149'
+- name: '| 7.92Mb174'
   server: cz.v212.fun
   port: 443
   type: trojan
   password: 9c7a49a2-ddff-4654-925b-baa7913dbc56
   skip-cert-verify: false
-- name: sg8-trojan.bonds.id:443150
+- name: sg8-trojan.bonds.id:443175
   server: sg8-trojan.bonds.id
   port: 443
   type: trojan
   password: a2940130-1c92-11ed-aebe-1239d0255272
   skip-cert-verify: false
-- name: fr-trojan.bonds.id:443151
+- name: fr-trojan.bonds.id:443176
   server: fr-trojan.bonds.id
   port: 443
   type: trojan
   password: e4307a50-9853-11ec-9b4b-1239d0255272
   skip-cert-verify: false
-- name: '| 8.72Mb152'
+- name: '| 8.72Mb177'
   server: ukt-2.opensvr.net
   port: 443
   type: trojan
   password: opentunnel.net-rw8uuv207taq
   skip-cert-verify: false
-- name: '|23.38Mb153'
+- name: '|23.38Mb178'
   server: ukt1.sshocean.net
   port: 443
   type: trojan
   password: 0f5e6d9a-49af-4bc0-b04b-503102382144
   skip-cert-verify: false
-- name: fr-trojan.bonds.id:443 2154
+- name: fr-trojan.bonds.id:443 2179
   server: fr-trojan.bonds.id
   port: 443
   type: trojan
   password: 7c9b7560-b0f7-11eb-a397-1239d0255272
   skip-cert-verify: false
-- name: api.mjj-home.com:443155
+- name: api.mjj-home.com:443180
   server: api.mjj-home.com
   port: 443
   type: trojan
   password: share.mjj-home.com
   skip-cert-verify: false
-- name: '| 2.13Mb156'
+- name: '| 2.13Mb181'
   server: 3.8.216.52
   port: 443
   type: trojan
   password: iyinglong
   skip-cert-verify: false
-- name: 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889157
+- name: 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889182
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   port: 889
   type: trojan
   password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV
   skip-cert-verify: false
-- name: '|570.16Mb158'
+- name: '|570.16Mb183'
   server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
   port: 889
   type: trojan
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   skip-cert-verify: false
-- name: 43.229.153.167:443159
+- name: 43.229.153.167:443184
   server: 43.229.153.167
   port: 443
   type: trojan
   password: ce6237ef-7bff-45e9-8854-57287dfd3a15
   sni: hk.vc2.hyperlinkvpn.xyz
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443160
+- name: tky3.ssgnode.ga:443185
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 2161
+- name: tky3.ssgnode.ga:443 2186
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY206YVlOZUtETXpZUVl3NEt23115_5a451f03
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 3162
+- name: tky3.ssgnode.ga:443 3187
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82a115db-6e59-4319-973-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: 106.180.225.69:1443163
+- name: 106.180.225.69:1443188
   server: 106.180.225.69
   port: 1443
   type: trojan
   password: 7x42LetRa0
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 4164
+- name: tky3.ssgnode.ga:443 4189
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 5165
+- name: tky3.ssgnode.ga:443 5190
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: 45.66.134.219:443166
+- name: 45.66.134.219:443191
   server: 45.66.134.219
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 6167
+- name: tky3.ssgnode.ga:443 6192
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY2023115_5a451f03
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 7168
+- name: tky3.ssgnode.ga:443 7193
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: false
-- name: 45.66.134.219:443 2169
+- name: 45.66.134.219:443 2194
   server: 45.66.134.219
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 8170
+- name: tky3.ssgnode.ga:443 8195
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 9171
+- name: tky3.ssgnode.ga:443 9196
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 82-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: '| 7.76Mb172'
+- name: '| 7.76Mb197'
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: ed9a202f-7871-4a15-a4c1-f3a47c1f5493
   skip-cert-verify: false
-- name: '| 8.16Mb173'
+- name: '| 8.16Mb198'
   server: kr1.api-aws.com
   port: 443
   type: trojan
   password: 881091b5-4172-4329-a0e7-17fca1e72292
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 10174
+- name: tky3.ssgnode.ga:443 10199
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: 23115_5a451f03
   skip-cert-verify: false
-- name: 45.66.134.219:443 3175
+- name: 45.66.134.219:443 3200
   server: 45.66.134.219
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: false
-- name: upay.com:443176
+- name: upay.com:443201
   server: upay.com
   port: 443
   type: trojan
   password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   skip-cert-verify: false
-- name: jgw3.gaox.ml:443177
+- name: jgw3.gaox.ml:443202
   server: jgw3.gaox.ml
   port: 443
   type: trojan
   password: a1718180-d616-4b71-9bb6-3e96ba20f921
   skip-cert-verify: false
-- name: '|30.85Mb178'
+- name: '|30.85Mb203'
   server: 41.216.177.41
   port: 443
   type: trojan
   password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
   skip-cert-verify: false
-- name: www.tokyo2023.ga:443179
+- name: www.tokyo2023.ga:443204
   server: www.tokyo2023.ga
   port: 443
   type: trojan
   password: 4f7dc540-d244-4e64-af21-4b5bb300add3
   skip-cert-verify: false
-- name: nl-trojan.bonds.id:443180
+- name: nl-trojan.bonds.id:443205
   server: nl-trojan.bonds.id
   port: 443
   type: trojan
   password: 94af0550-902b-11eb-b135-1239d0255272
   skip-cert-verify: false
-- name: nl-trojan.bonds.id:443 2181
+- name: nl-trojan.bonds.id:443 2206
   server: nl-trojan.bonds.id
   port: 443
   type: trojan
   password: 96884680-77e6-11eb-8d67-1239d0255272
   skip-cert-verify: false
-- name: '|11.42Mb182'
+- name: '|11.42Mb207'
   server: nl-trojan.bonds.id
   port: 443
   type: trojan
   password: 2b921790-2a60-11ed-a3e2-1239d0255272
   skip-cert-verify: false
-- name: nl-trojan.bonds.id:443 3183
+- name: nl-trojan.bonds.id:443 3208
   server: nl-trojan.bonds.id
   port: 443
   type: trojan
   password: 7e6256a0-b4ab-11eb-bc8f-1239d0255272
   skip-cert-verify: false
-- name: 🇺🇸 jp.useanlo.cf:6523184
+- name: 🇺🇸 jp.useanlo.cf:6523209
   server: jp.useanlo.cf
   port: 6523
   type: trojan
   password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
   skip-cert-verify: false
-- name: '| 3.91Mb185'
+- name: '| 3.91Mb210'
   server: 138.124.183.226
   port: 443
   type: trojan
   password: xxoo
   skip-cert-verify: false
-- name: '| 5.23Mb186'
+- name: '| 5.23Mb211'
   server: 138.124.183.222
   port: 443
   type: trojan
   password: xxoo
   skip-cert-verify: false
-- name: '| 4.24Mb187'
+- name: '| 4.24Mb212'
   server: 138.124.183.216
   port: 443
   type: trojan
   password: xxoo
   skip-cert-verify: false
-- name: 185.126.116.235:443188
+- name: 185.126.116.235:443213
   server: 185.126.116.235
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: 185.126.116.235:443 2189
+- name: 185.126.116.235:443 2214
   server: 185.126.116.235
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: false
-- name: 185.126.116.235:443 3190
+- name: 185.126.116.235:443 3215
   server: 185.126.116.235
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: false
-- name: '|20.10Mb191'
+- name: '|20.10Mb216'
   server: 194.156.99.39
   port: 443
   type: trojan
   password: xxoo
   skip-cert-verify: false
-- name: '| 2.59Mb192'
+- name: '| 2.59Mb217'
   server: w11.udpgw.com
   port: 443
   type: trojan
   password: f64e69c0-e7b7-11ec-ab81-1239d0255272
   skip-cert-verify: false
-- name: '|10.14Mb193'
+- name: '|10.14Mb218'
   server: sg2-trojan.bonds.id
   port: 443
   type: trojan
   password: f1a23bf0-1c92-11ed-b6d8-1239d0255272
   skip-cert-verify: false
-- name: 🇭🇰 hk31.ssgnode.ga:443194
+- name: 🇭🇰 hk31.ssgnode.ga:443219
   server: hk31.ssgnode.ga
   port: 443
   type: trojan
   password: 41742_920c8caa
   skip-cert-verify: false
-- name: sg-relay.iqyun.zone:443195
+- name: sg-relay.iqyun.zone:443220
   server: sg-relay.iqyun.zone
   port: 443
   type: trojan
   password: fbb2cc06-b018-4ad0-bb27-baa4a834807f
   skip-cert-verify: false
-- name: sg6-trojan.bonds.id:443196
+- name: sg6-trojan.bonds.id:443221
   server: sg6-trojan.bonds.id
   port: 443
   type: trojan
   password: 81e9f5f0-1c92-11ed-8d18-1239d0255272
   skip-cert-verify: false
-- name: '|37.03Mb197'
+- name: '|37.03Mb222'
   server: trojan1.udpgw.com
   port: 443
   type: trojan
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   skip-cert-verify: false
-- name: '| 3.30Mb198'
+- name: '| 3.30Mb223'
   server: trojan3.udpgw.com
   port: 443
   type: trojan
   password: 8db1b560-019d-11ed-8bdf-1239d0255272
   skip-cert-verify: false
-- name: '|125.11Mb199'
+- name: '|125.11Mb224'
   server: w12.udpgw.com
   port: 443
   type: trojan
   password: 08964210-e7b8-11ec-95aa-1239d0255272
   skip-cert-verify: false
-- name: 81.90.189.85:443200
+- name: 81.90.189.85:443225
   server: 81.90.189.85
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: sg3-trojan.bonds.id:443201
+- name: sg3-trojan.bonds.id:443226
   server: sg3-trojan.bonds.id
   port: 443
   type: trojan
   password: 97fdf760-7bbf-11eb-8e14-1239d0255272
   skip-cert-verify: false
-- name: sg1-trojan.bonds.id:443202
+- name: sg1-trojan.bonds.id:443227
   server: sg1-trojan.bonds.id
   port: 443
   type: trojan
   password: 5c5ceb40-902b-11eb-945a-1239d0255272
   skip-cert-verify: false
-- name: '|16.07Mb203'
+- name: '|16.07Mb228'
   server: sgt-1.opensvr.net
   port: 443
   type: trojan
   password: opentunnel.net-1l1tdr1hmcq7g32ndx7g
   skip-cert-verify: false
-- name: '|35.23Mb204'
+- name: '|35.23Mb229'
   server: sg1-trojan.bonds.id
   port: 443
   type: trojan
   password: 27d01290-3763-11ed-90db-1239d0255272
   skip-cert-verify: false
-- name: '|463.92Mb205'
+- name: '|463.92Mb230'
   server: sg1-trojan.bonds.id
   port: 443
   type: trojan
   password: 71086710-33eb-11ed-adce-1239d0255272
   skip-cert-verify: false
-- name: sg3-trojan.bonds.id:443 2206
+- name: sg3-trojan.bonds.id:443 2231
   server: sg3-trojan.bonds.id
   port: 443
   type: trojan
   password: 4c7985e0-79e8-11eb-b8d3-1239d0255272
   skip-cert-verify: false
-- name: '|48.26Mb207'
+- name: '|48.26Mb232'
   server: tw01.balala2016.xyz
   port: 20261
   type: trojan
   password: ED177480-E516-11EA-8B44-BBC4E882BA0B
   skip-cert-verify: false
-- name: 2.58.242.43:443208
+- name: 2.58.242.43:443233
   server: 2.58.242.43
   port: 443
   type: trojan
   password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
   skip-cert-verify: false
-- name: 🇨🇳 tw-oo-01.click:443209
+- name: 🇨🇳 tw-oo-01.click:443234
   server: tw-oo-01.click
   port: 443
   type: trojan
   password: q8uTrVmj95aTrFAa
   skip-cert-verify: false
-- name: 🇨🇳 tw-oo-01.click:443 2210
+- name: 🇨🇳 tw-oo-01.click:443 2235
   server: tw-oo-01.click
   port: 443
   type: trojan
   password: s6rIg1Mkke73fwZU
   skip-cert-verify: false
-- name: 🇨🇳 mv-tw05.link:443211
+- name: 🇨🇳 mv-tw05.link:443236
   server: mv-tw05.link
   port: 443
   type: trojan
   password: s6rIg1Mkke73fwZU
   skip-cert-verify: false
-- name: 2.58.242.43:443 2212
+- name: 2.58.242.43:443 2237
   server: 2.58.242.43
   port: 443
   type: trojan
   password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
   skip-cert-verify: false
-- name: '| 2.95Mb213'
+- name: '| 2.95Mb238'
   server: cz5.v2ce.com
   port: 443
   type: trojan
   password: HTrovQkamDxNfaD5
   skip-cert-verify: false
-- name: '| 6.81Mb214'
+- name: '| 6.81Mb239'
   server: jgwcc3.gaox.ml
   port: 443
   type: trojan
   password: b291d129-ee55-4801-a9b8-b5316e5c37b7
   skip-cert-verify: false
-- name: 56789.gq:443215
+- name: 56789.gq:443240
   server: 56789.gq
   port: 443
   type: trojan
   password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3
   skip-cert-verify: false
-- name: 173.82.192.61:443216
+- name: 173.82.192.61:443241
   server: 173.82.192.61
   port: 443
   type: trojan
   password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG
   skip-cert-verify: false
-- name: '|14.26Mb217'
+- name: '|14.26Mb242'
   server: 150.230.249.42
   port: 443
   type: trojan
   password: 0Y9gOHSdRt
   skip-cert-verify: false
-- name: xioix.gq:443218
+- name: xioix.gq:443243
   server: xioix.gq
   port: 443
   type: trojan
   password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363
   skip-cert-verify: false
-- name: 170.187.182.212:443219
+- name: 170.187.182.212:443244
   server: 170.187.182.212
   port: 443
   type: trojan
   password: a1e12464-9208-4583-bd21-ab6889fdd242
   skip-cert-verify: false
-- name: sg.iamnotagoodman.com:443220
+- name: sg.iamnotagoodman.com:443245
   server: sg.iamnotagoodman.com
   port: 443
   type: trojan
   password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52
   skip-cert-verify: false
-- name: kh.iamnotagoodman.com:443221
+- name: kh.iamnotagoodman.com:443246
   server: kh.iamnotagoodman.com
   port: 443
   type: trojan
   password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52
   skip-cert-verify: false
-- name: '|18.04Mb222'
+- name: '|18.04Mb247'
   server: listener.freetrade.link
   port: 443
   type: trojan
   password: Z9TS0AeB8S5ZlpFNRea3aypDaXISOyzY67xCO33lF4gKq38jw2uDEnDYRCCxAc
   skip-cert-verify: false
-- name: '|25.87Mb223'
+- name: '|25.87Mb248'
   server: trus.moonfree.top
   port: 443
   type: trojan
   password: 4863e1b2-ec2f-4c71-b862-ce533028e57e
   skip-cert-verify: false
-- name: t03.ssrsub.com.xyz:443224
+- name: t03.ssrsub.com.xyz:443249
   server: t03.ssrsub.com.xyz
   port: 443
   type: trojan
   password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
   skip-cert-verify: false
-- name: 72.167.45.6:443225
+- name: 72.167.45.6:443250
   server: 72.167.45.6
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: 72.167.45.6:443 2226
+- name: 72.167.45.6:443 2251
   server: 72.167.45.6
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: false
-- name: tky3.ssgnode.ga:443 11227
+- name: tky3.ssgnode.ga:443 11252
   server: tky3.ssgnode.ga
   port: 443
   type: trojan
   password: bcYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUSFZNQkh23115_5a451f03
   skip-cert-verify: false
-- name: share.softbank.mjj-home.com:443228
+- name: share.softbank.mjj-home.com:443253
   server: share.softbank.mjj-home.com
   port: 443
   type: trojan
   password: share.mjj-home.com
   skip-cert-verify: false
-- name: 184.168.127.50:443229
+- name: 184.168.127.50:443254
   server: 184.168.127.50
   port: 443
   type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: false
-- name: hg.053111.xyz:443230
+- name: hg.053111.xyz:443255
   server: hg.053111.xyz
   port: 443
   type: trojan
   password: d4435b69-3d08-d58a-919f-7f1707150ecb
   skip-cert-verify: false
-- name: 🇺🇸 us-trojan.bonds.id:443231
+- name: 🇺🇸 us-trojan.bonds.id:443256
   server: us-trojan.bonds.id
   port: 443
   type: trojan
   password: 38239dd0-902b-11eb-afc1-1239d0255272
   skip-cert-verify: false
-- name: 184.168.127.50:443 2232
+- name: 184.168.127.50:443 2257
   server: 184.168.127.50
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: false
-- name: 🇺🇸 us-trojan.bonds.id:443 2233
+- name: 🇺🇸 us-trojan.bonds.id:443 2258
   server: us-trojan.bonds.id
   port: 443
   type: trojan
   password: fc39ffa0-2040-11ed-a1ff-1239d0255272
   skip-cert-verify: false
-- name: 184.168.127.50:443 3234
+- name: 184.168.127.50:443 3259
   server: 184.168.127.50
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: false
-- name: '|17.83Mb235'
+- name: '|17.83Mb260'
   server: 23.94.103.146
   port: 443
   type: trojan
   password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57
   skip-cert-verify: false
-- name: 209.141.47.137:443236
+- name: 209.141.47.137:443261
   server: 209.141.47.137
   port: 443
   type: trojan
   password: b3d27d09-77fe-431d-9829-6eba7dce20b0
   skip-cert-verify: false
-- name: 209.141.47.137:443 2237
+- name: 209.141.47.137:443 2262
   server: 209.141.47.137
   port: 443
   type: trojan
   password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f
   skip-cert-verify: false
-- name: s162.s2022.xyz:23802238
+- name: s162.s2022.xyz:23802263
   server: s162.s2022.xyz
   port: 23802
   type: trojan
   password: 770c9e92-f51b-3e52-b932-eba13fb56801
   skip-cert-verify: false
-- name: s162.s2022.xyz:23802 2239
+- name: s162.s2022.xyz:23802 2264
   server: s162.s2022.xyz
   port: 23802
   type: trojan
   password: f450f309-bd8b-39ad-8bef-6fdf42fe8d94
   skip-cert-verify: false
-- name: 🇨🇳 tw.softbank.mjj-home.com:443240
+- name: 🇨🇳 tw.softbank.mjj-home.com:443265
   server: tw.softbank.mjj-home.com
   port: 443
   type: trojan
   password: share.mjj-home.com
   skip-cert-verify: false
-- name: 🇺🇸 jp.useanlo.cf:6523 2241
+- name: 🇺🇸 jp.useanlo.cf:6523 2266
   server: jp.useanlo.cf
   port: 6523
   type: trojan
   password: 77065fa6-b38e-302c-beea-4b047967af01
   skip-cert-verify: false
-- name: 🇺🇸 us-trojan.bonds.id:443 3242
+- name: 🇺🇸 us-trojan.bonds.id:443 3267
   server: us-trojan.bonds.id
   port: 443
   type: trojan
   password: ccf1ee40-b4ab-11eb-b421-1239d0255272
   skip-cert-verify: false
-- name: '|82.21Mb243'
+- name: '|82.21Mb268'
   server: jp.iamnotagoodman.com
   port: 443
   type: trojan
   password: 8aab51da-6b67-4bd2-b6e6-5ab3008cf53e
   skip-cert-verify: false
-- name: www.anloao.cf:9053244
+- name: www.anloao.cf:9053269
   server: www.anloao.cf
   port: 9053
   type: trojan
   password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
   skip-cert-verify: false
-- name: 72.167.45.6:443 3245
+- name: 72.167.45.6:443 3270
   server: 72.167.45.6
   port: 443
   type: trojan
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: false
-- name: jgw4.gaox.ml:443246
+- name: jgw4.gaox.ml:443271
   server: jgw4.gaox.ml
   port: 443
   type: trojan
   password: b7e0e71f-070c-437a-9826-6e23caeb0307
   skip-cert-verify: false
-- name: '|245.00Mb247'
+- name: '|245.00Mb272'
   server: sg-01.tiktokcdn.top
   port: 443
   type: trojan
   password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
   skip-cert-verify: false
-- name: 🇬🇧 ukt-1.opensvr.net:443248
+- name: 🇬🇧 ukt-1.opensvr.net:443273
   server: ukt-1.opensvr.net
   port: 443
   type: trojan
   password: opentunnel.net-zdrgvbhjnmhgfx
   skip-cert-verify: false
-- name: 🇺🇸 hacks.missionsec.us:443249
+- name: 🇺🇸 hacks.missionsec.us:443274
   server: hacks.missionsec.us
   port: 443
   type: trojan
   password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
   skip-cert-verify: false
-- name: '| 3.95Mb250'
+- name: '| 3.95Mb275'
   server: cd.rutracker-cn.com
   port: 443
   type: trojan
   password: ukMzuFSmIXDvgW0h
   skip-cert-verify: false
-- name: '| 6.83Mb251'
+- name: '| 6.83Mb276'
   server: purchases.freetrade.link
   port: 443
   type: trojan
   password: ZeYaxlxBNuyjgp736e8l4I32aAZSOYRcqD3ESC8pwADKSCFDynO3a0FXTzC5R9
   skip-cert-verify: false
-- name: '|65.03Mb252'
+- name: '|65.03Mb277'
   server: trojannmfan7.ripwallllc.com
   port: 443
   type: trojan
   password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7
   skip-cert-verify: false
-- name: '|12.04Mb253'
+- name: '|12.04Mb278'
   server: singapore.anthoncloud.com
   port: 3306
   type: trojan
   password: 6589ce99-9ff7-3c1b-a744-ca3f4abfe386
   skip-cert-verify: false
-- name: www.cjf0423.cf:443254
+- name: www.cjf0423.cf:443279
   server: www.cjf0423.cf
   port: 443
   type: trojan
   password: 111111
   skip-cert-verify: false
-- name: '|17.93Mb255'
+- name: '|17.93Mb280'
   server: v2.justmymiss.com
   port: 65500
   type: trojan
   password: 18062581225
   skip-cert-verify: false
-- name: s162.s2022.xyz:23802 3256
+- name: s162.s2022.xyz:23802 3281
   server: s162.s2022.xyz
   port: 23802
   type: trojan
   password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
   skip-cert-verify: false
-- name: 167.88.61.2:443257
+- name: 167.88.61.2:443282
   server: 167.88.61.2
   port: 443
   type: trojan
   password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8
   skip-cert-verify: false
-- name: '|20.25Mb258'
+- name: '|20.25Mb283'
   server: jgwdb2.gaox.ml
   port: 443
   type: trojan
   password: c19d1432-8b3e-4818-8837-3d160cf65908
   skip-cert-verify: false
-- name: 🇭🇰 hgc.iamnotagoodman.com:443259
+- name: 🇭🇰 hgc.iamnotagoodman.com:443284
   server: hgc.iamnotagoodman.com
   port: 443
   type: trojan
   password: 2ac7fc8a-68b5-4809-8bd2-73a593bae292
   skip-cert-verify: false
-- name: '|26.85Mb260'
+- name: '|26.85Mb285'
   server: music.missionsec.us
   port: 443
   type: trojan
   password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw
   skip-cert-verify: false
-- name: idtj-ikd.bonds.id:443261
+- name: idtj-ikd.bonds.id:443286
   server: idtj-ikd.bonds.id
   port: 443
   type: trojan
   password: e7a0db30-2d2f-11ed-81cc-1239d0255272
   skip-cert-verify: false
-- name: 103.173.155.72:28443262
+- name: 103.173.155.72:28443287
   server: 103.173.155.72
   port: 28443
   type: trojan
   password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4
   skip-cert-verify: false
-- name: '|84.66Mb263'
+- name: '|84.66Mb288'
   server: 5.44.249.43
   port: 3389
   type: trojan
   password: ffec9f6ea19e1dd1
   skip-cert-verify: false
-- name: '|72.81Mb264'
+- name: '|72.81Mb289'
   server: 5.44.249.43
   port: 3389
   type: trojan
   password: cd39f62aed7b90f6
   skip-cert-verify: false
-- name: '|76.29Mb265'
+- name: '|76.29Mb290'
   server: 5.44.249.43
   port: 3389
   type: trojan
   password: d66013c645b93c5c
   skip-cert-verify: false
-- name: '| 0.18Mb266'
+- name: '| 0.18Mb291'
   server: idtj-ikd.bonds.id
   port: 443
   type: trojan
   password: 21887810-2e7d-11ed-918b-1239d0255272
   skip-cert-verify: false
-- name: id5-trojan.bonds.id:443267
+- name: id5-trojan.bonds.id:443292
   server: id5-trojan.bonds.id
   port: 443
   type: trojan
   password: ca0c33d0-1c92-11ed-9a11-1239d0255272
   skip-cert-verify: false
-- name: '|65.50Mb268'
+- name: '|65.50Mb293'
   server: 5.44.249.43
   port: 3389
   type: trojan
   password: 6f0a9d0fa39d65fa
   skip-cert-verify: false
-- name: '| 2.52Mb269'
+- name: '| 2.52Mb294'
   server: idtj-ikd.bonds.id
   port: 443
   type: trojan
@@ -2146,819 +2337,894 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 更新于10/23/19:061
-  - ✈付费机场推荐✈2
-  - 中国(TG频道:@kxswa)3
-  - dafeivpn.com 5元专线机场4
-  - 中国(TG频道:@kxswa) 25
-  - 美国(TG频道:@kxswa)6
-  - 澳大利亚(TG频道:@kxswa)7
-  - 中国(TG频道:@kxswa) 38
-  - 中国(TG频道:@kxswa) 49
-  - 中国(TG频道:@kxswa) 510
-  - 中国(TG频道:@kxswa) 611
-  - 中国(TG频道:@kxswa) 712
-  - 中国(TG频道:@kxswa) 813
-  - 中国(TG频道:@kxswa) 914
-  - 日本(TG频道:@kxswa)15
-  - 香港(TG频道:@kxswa)16
-  - 香港(TG频道:@kxswa) 217
-  - 中国(TG频道:@kxswa) 1018
-  - 中国(TG频道:@kxswa) 1119
-  - 中国(TG频道:@kxswa) 1220
-  - 印度(TG频道:@kxswa)21
-  - 印度(TG频道:@kxswa) 222
-  - 台湾(TG频道:@kxswa)23
-  - 中国(TG频道:@kxswa) 1324
-  - 日本(TG频道:@kxswa) 225
-  - 美国(TG频道:@kxswa) 226
-  - 美国(TG频道:@kxswa) 327
-  - 英国(TG频道:@kxswa)28
-  - 捷克(TG频道:@kxswa)29
-  - 美国(TG频道:@kxswa) 430
-  - 美国(TG频道:@kxswa) 531
-  - 美国(TG频道:@kxswa) 632
-  - 美国(TG频道:@kxswa) 733
-  - 美国(TG频道:@kxswa) 834
-  - 瑞士(TG频道:@kxswa)35
-  - 美国(TG频道:@kxswa) 936
-  - 瑞士(TG频道:@kxswa) 237
-  - 日本(TG频道:@kxswa) 338
-  - 日本(TG频道:@kxswa) 439
-  - 日本(TG频道:@kxswa) 540
-  - 澳大利亚(TG频道:@kxswa) 241
-  - 日本(TG频道:@kxswa) 642
-  - 日本(TG频道:@kxswa) 743
-  - 南非(TG频道:@kxswa)44
-  - (TG频道:@kxswa)45
-  - (TG频道:@kxswa) 246
-  - 中国(TG频道:@kxswa) 1447
-  - (TG频道:@kxswa) 348
-  - 中国(TG频道:@kxswa) 1549
-  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
-  - 🇺🇸 美国1|tg频道:@ripaojiedian51
-  - 🇭🇰 香港2|tg频道:@ripaojiedian52
-  - 🇺🇸 美国2|tg频道:@ripaojiedian53
-  - 🇭🇰 香港|tg频道:@ripaojiedian54
-  - 🇭🇰 香港01|tg频道:@ripaojiedian55
-  - 🇸🇬 新加坡linode56
-  - 🇺🇸 美国US|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
-  - 🇺🇸 美国|tg频道:@ripaojiedian60
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
-  - '|15.63Mb62'
-  - '|105.42Mb63'
-  - '|41.07Mb64'
-  - '| 0.56Mb65'
-  - '|26.68Mb66'
-  - '|25.51Mb67'
-  - '|26.49Mb68'
-  - '69'
-  - '|17.16Mb70'
-  - '|14.32Mb71'
-  - '| 1.01Mb72'
-  - '|35.17Mb73'
-  - '|10.10Mb74'
-  - '|11.76Mb75'
-  - '|13.63Mb76'
-  - '|18.80Mb77'
-  - '|54.57Mb78'
-  - '| 1.78Mb79'
-  - '|17.38Mb80'
-  - '| 1.56Mb81'
-  - '| 2.08Mb82'
-  - '|24.12Mb83'
-  - '|20.99Mb84'
-  - '|25.78Mb85'
-  - '|23.33Mb86'
-  - '|24.34Mb87'
-  - '|19.44Mb88'
-  - '|25.72Mb89'
-  - '|28.50Mb90'
-  - '|306.93Mb91'
-  - '| 0.97Mb92'
-  - '| 1.67Mb93'
-  - ca-trojan.bonds.id:44394
-  - 165.154.226.108:44395
-  - '|11.07Mb96'
-  - ca-trojan.bonds.id:443 297
-  - ca-trojan.bonds.id:443 398
-  - ca-trojan.bonds.id:443 499
-  - ca-trojan.bonds.id:443 5100
-  - ca-trojan.bonds.id:443 6101
-  - ca-trojan.bonds.id:443 7102
-  - ca-trojan.bonds.id:443 8103
-  - ca-trojan.bonds.id:443 9104
-  - ca-trojan.bonds.id:443 10105
-  - ca-trojan.bonds.id:443 11106
-  - ca-trojan.bonds.id:443 12107
-  - ca-trojan.bonds.id:443 13108
-  - ca-trojan.bonds.id:443 14109
-  - ca-trojan.bonds.id:443 15110
-  - 51.161.118.38:443111
-  - ca-trojan.bonds.id:443 16112
-  - ca-trojan.bonds.id:443 17113
-  - ca-trojan.bonds.id:443 18114
-  - ca-trojan.bonds.id:443 19115
-  - ca-trojan.bonds.id:443 20116
-  - ca-trojan.bonds.id:443 21117
-  - ca-trojan.bonds.id:443 22118
-  - ca-trojan.bonds.id:443 23119
-  - ca-trojan.bonds.id:443 24120
-  - ca-trojan.bonds.id:443 25121
-  - ca-trojan.bonds.id:443 26122
-  - ca-trojan.bonds.id:443 27123
-  - ca-trojan.bonds.id:443 28124
-  - ca-trojan.bonds.id:443 29125
-  - ca-trojan.bonds.id:443 30126
-  - ca-trojan.bonds.id:443 31127
-  - ca-trojan.bonds.id:443 32128
-  - ca-trojan.bonds.id:443 33129
-  - ca-trojan.bonds.id:443 34130
-  - ca-trojan.bonds.id:443 35131
-  - ca-trojan.bonds.id:443 36132
-  - ca-trojan.bonds.id:443 37133
-  - ca-trojan.bonds.id:443 38134
-  - '| 8.64Mb135'
-  - '|43.34Mb136'
-  - '|50.39Mb137'
-  - 116.129.253.134:3384138
-  - 117.164.185.220:61002139
-  - '|12.64Mb140'
-  - '|35.78Mb141'
-  - '| 7.57Mb142'
-  - '| 2.18Mb143'
-  - '| 2.02Mb144'
-  - '| 7.00Mb145'
-  - '| 1.88Mb146'
-  - 116.129.254.29:3384147
-  - '| 2.03Mb148'
-  - '| 7.92Mb149'
-  - sg8-trojan.bonds.id:443150
-  - fr-trojan.bonds.id:443151
-  - '| 8.72Mb152'
-  - '|23.38Mb153'
-  - fr-trojan.bonds.id:443 2154
-  - api.mjj-home.com:443155
-  - '| 2.13Mb156'
-  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889157
-  - '|570.16Mb158'
-  - 43.229.153.167:443159
-  - tky3.ssgnode.ga:443160
-  - tky3.ssgnode.ga:443 2161
-  - tky3.ssgnode.ga:443 3162
-  - 106.180.225.69:1443163
-  - tky3.ssgnode.ga:443 4164
-  - tky3.ssgnode.ga:443 5165
-  - 45.66.134.219:443166
-  - tky3.ssgnode.ga:443 6167
-  - tky3.ssgnode.ga:443 7168
-  - 45.66.134.219:443 2169
-  - tky3.ssgnode.ga:443 8170
-  - tky3.ssgnode.ga:443 9171
-  - '| 7.76Mb172'
-  - '| 8.16Mb173'
-  - tky3.ssgnode.ga:443 10174
-  - 45.66.134.219:443 3175
-  - upay.com:443176
-  - jgw3.gaox.ml:443177
-  - '|30.85Mb178'
-  - www.tokyo2023.ga:443179
-  - nl-trojan.bonds.id:443180
-  - nl-trojan.bonds.id:443 2181
-  - '|11.42Mb182'
-  - nl-trojan.bonds.id:443 3183
-  - 🇺🇸 jp.useanlo.cf:6523184
-  - '| 3.91Mb185'
-  - '| 5.23Mb186'
-  - '| 4.24Mb187'
-  - 185.126.116.235:443188
-  - 185.126.116.235:443 2189
-  - 185.126.116.235:443 3190
-  - '|20.10Mb191'
-  - '| 2.59Mb192'
-  - '|10.14Mb193'
-  - 🇭🇰 hk31.ssgnode.ga:443194
-  - sg-relay.iqyun.zone:443195
-  - sg6-trojan.bonds.id:443196
-  - '|37.03Mb197'
-  - '| 3.30Mb198'
-  - '|125.11Mb199'
-  - 81.90.189.85:443200
-  - sg3-trojan.bonds.id:443201
-  - sg1-trojan.bonds.id:443202
-  - '|16.07Mb203'
-  - '|35.23Mb204'
-  - '|463.92Mb205'
-  - sg3-trojan.bonds.id:443 2206
-  - '|48.26Mb207'
-  - 2.58.242.43:443208
-  - 🇨🇳 tw-oo-01.click:443209
-  - 🇨🇳 tw-oo-01.click:443 2210
-  - 🇨🇳 mv-tw05.link:443211
-  - 2.58.242.43:443 2212
-  - '| 2.95Mb213'
-  - '| 6.81Mb214'
-  - 56789.gq:443215
-  - 173.82.192.61:443216
-  - '|14.26Mb217'
-  - xioix.gq:443218
-  - 170.187.182.212:443219
-  - sg.iamnotagoodman.com:443220
-  - kh.iamnotagoodman.com:443221
-  - '|18.04Mb222'
-  - '|25.87Mb223'
-  - t03.ssrsub.com.xyz:443224
-  - 72.167.45.6:443225
-  - 72.167.45.6:443 2226
-  - tky3.ssgnode.ga:443 11227
-  - share.softbank.mjj-home.com:443228
-  - 184.168.127.50:443229
-  - hg.053111.xyz:443230
-  - 🇺🇸 us-trojan.bonds.id:443231
-  - 184.168.127.50:443 2232
-  - 🇺🇸 us-trojan.bonds.id:443 2233
-  - 184.168.127.50:443 3234
-  - '|17.83Mb235'
-  - 209.141.47.137:443236
-  - 209.141.47.137:443 2237
-  - s162.s2022.xyz:23802238
-  - s162.s2022.xyz:23802 2239
-  - 🇨🇳 tw.softbank.mjj-home.com:443240
-  - 🇺🇸 jp.useanlo.cf:6523 2241
-  - 🇺🇸 us-trojan.bonds.id:443 3242
-  - '|82.21Mb243'
-  - www.anloao.cf:9053244
-  - 72.167.45.6:443 3245
-  - jgw4.gaox.ml:443246
-  - '|245.00Mb247'
-  - 🇬🇧 ukt-1.opensvr.net:443248
-  - 🇺🇸 hacks.missionsec.us:443249
-  - '| 3.95Mb250'
-  - '| 6.83Mb251'
-  - '|65.03Mb252'
-  - '|12.04Mb253'
-  - www.cjf0423.cf:443254
-  - '|17.93Mb255'
-  - s162.s2022.xyz:23802 3256
-  - 167.88.61.2:443257
-  - '|20.25Mb258'
-  - 🇭🇰 hgc.iamnotagoodman.com:443259
-  - '|26.85Mb260'
-  - idtj-ikd.bonds.id:443261
-  - 103.173.155.72:28443262
-  - '|84.66Mb263'
-  - '|72.81Mb264'
-  - '|76.29Mb265'
-  - '| 0.18Mb266'
-  - id5-trojan.bonds.id:443267
-  - '|65.50Mb268'
-  - '| 2.52Mb269'
+  - 🇹🇼 _TW_台湾1
+  - 🇮🇳 _IN_印度2
+  - 🇯🇵 _JP_日本3
+  - 🇺🇸 _US_美国4
+  - 🇸🇬 _SG_新加坡5
+  - 🇺🇸 _US_美国 26
+  - 🇺🇸 _US_美国 37
+  - 🇫🇷 _FR_法国8
+  - 🇫🇷 _FR_法国 29
+  - 🇳🇱 _NL_荷兰10
+  - 🇳🇱 _NL_荷兰 211
+  - 🇺🇸 _US_美国 412
+  - 🇸🇬 _SG_新加坡 213
+  - 🇫🇷 _FR_法国 314
+  - 🇳🇱 _NL_荷兰 315
+  - 🇭🇰 _HK_香港->🇯🇵_JP_日本16
+  - 🇫🇷 _FR_法国 417
+  - default_name18
+  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡19
+  - default_name 220
+  - 🇺🇸 _US_美国 521
+  - 🇺🇸 _US_美国 622
+  - 🇯🇵 _JP_日本 223
+  - 🇺🇸 _US_美国 724
+  - 🇺🇸 _US_美国 825
+  - 更新于10/23/19:0626
+  - ✈付费机场推荐✈27
+  - 中国(TG频道:@kxswa)28
+  - dafeivpn.com 5元专线机场29
+  - 中国(TG频道:@kxswa) 230
+  - 美国(TG频道:@kxswa)31
+  - 澳大利亚(TG频道:@kxswa)32
+  - 中国(TG频道:@kxswa) 333
+  - 中国(TG频道:@kxswa) 434
+  - 中国(TG频道:@kxswa) 535
+  - 中国(TG频道:@kxswa) 636
+  - 中国(TG频道:@kxswa) 737
+  - 中国(TG频道:@kxswa) 838
+  - 中国(TG频道:@kxswa) 939
+  - 日本(TG频道:@kxswa)40
+  - 香港(TG频道:@kxswa)41
+  - 香港(TG频道:@kxswa) 242
+  - 中国(TG频道:@kxswa) 1043
+  - 中国(TG频道:@kxswa) 1144
+  - 中国(TG频道:@kxswa) 1245
+  - 印度(TG频道:@kxswa)46
+  - 印度(TG频道:@kxswa) 247
+  - 台湾(TG频道:@kxswa)48
+  - 中国(TG频道:@kxswa) 1349
+  - 日本(TG频道:@kxswa) 250
+  - 美国(TG频道:@kxswa) 251
+  - 美国(TG频道:@kxswa) 352
+  - 英国(TG频道:@kxswa)53
+  - 捷克(TG频道:@kxswa)54
+  - 美国(TG频道:@kxswa) 455
+  - 美国(TG频道:@kxswa) 556
+  - 美国(TG频道:@kxswa) 657
+  - 美国(TG频道:@kxswa) 758
+  - 美国(TG频道:@kxswa) 859
+  - 瑞士(TG频道:@kxswa)60
+  - 美国(TG频道:@kxswa) 961
+  - 瑞士(TG频道:@kxswa) 262
+  - 日本(TG频道:@kxswa) 363
+  - 日本(TG频道:@kxswa) 464
+  - 日本(TG频道:@kxswa) 565
+  - 澳大利亚(TG频道:@kxswa) 266
+  - 日本(TG频道:@kxswa) 667
+  - 日本(TG频道:@kxswa) 768
+  - 南非(TG频道:@kxswa)69
+  - (TG频道:@kxswa)70
+  - (TG频道:@kxswa) 271
+  - 中国(TG频道:@kxswa) 1472
+  - (TG频道:@kxswa) 373
+  - 中国(TG频道:@kxswa) 1574
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian75
+  - 🇺🇸 美国1|tg频道:@ripaojiedian76
+  - 🇭🇰 香港2|tg频道:@ripaojiedian77
+  - 🇺🇸 美国2|tg频道:@ripaojiedian78
+  - 🇭🇰 香港|tg频道:@ripaojiedian79
+  - 🇭🇰 香港01|tg频道:@ripaojiedian80
+  - 🇸🇬 新加坡linode81
+  - 🇺🇸 美国US|tg频道:@ripaojiedian82
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian83
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian84
+  - 🇺🇸 美国|tg频道:@ripaojiedian85
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian86
+  - '|15.63Mb87'
+  - '|105.42Mb88'
+  - '|41.07Mb89'
+  - '| 0.56Mb90'
+  - '|26.68Mb91'
+  - '|25.51Mb92'
+  - '|26.49Mb93'
+  - '94'
+  - '|17.16Mb95'
+  - '|14.32Mb96'
+  - '| 1.01Mb97'
+  - '|35.17Mb98'
+  - '|10.10Mb99'
+  - '|11.76Mb100'
+  - '|13.63Mb101'
+  - '|18.80Mb102'
+  - '|54.57Mb103'
+  - '| 1.78Mb104'
+  - '|17.38Mb105'
+  - '| 1.56Mb106'
+  - '| 2.08Mb107'
+  - '|24.12Mb108'
+  - '|20.99Mb109'
+  - '|25.78Mb110'
+  - '|23.33Mb111'
+  - '|24.34Mb112'
+  - '|19.44Mb113'
+  - '|25.72Mb114'
+  - '|28.50Mb115'
+  - '|306.93Mb116'
+  - '| 0.97Mb117'
+  - '| 1.67Mb118'
+  - ca-trojan.bonds.id:443119
+  - 165.154.226.108:443120
+  - '|11.07Mb121'
+  - ca-trojan.bonds.id:443 2122
+  - ca-trojan.bonds.id:443 3123
+  - ca-trojan.bonds.id:443 4124
+  - ca-trojan.bonds.id:443 5125
+  - ca-trojan.bonds.id:443 6126
+  - ca-trojan.bonds.id:443 7127
+  - ca-trojan.bonds.id:443 8128
+  - ca-trojan.bonds.id:443 9129
+  - ca-trojan.bonds.id:443 10130
+  - ca-trojan.bonds.id:443 11131
+  - ca-trojan.bonds.id:443 12132
+  - ca-trojan.bonds.id:443 13133
+  - ca-trojan.bonds.id:443 14134
+  - ca-trojan.bonds.id:443 15135
+  - 51.161.118.38:443136
+  - ca-trojan.bonds.id:443 16137
+  - ca-trojan.bonds.id:443 17138
+  - ca-trojan.bonds.id:443 18139
+  - ca-trojan.bonds.id:443 19140
+  - ca-trojan.bonds.id:443 20141
+  - ca-trojan.bonds.id:443 21142
+  - ca-trojan.bonds.id:443 22143
+  - ca-trojan.bonds.id:443 23144
+  - ca-trojan.bonds.id:443 24145
+  - ca-trojan.bonds.id:443 25146
+  - ca-trojan.bonds.id:443 26147
+  - ca-trojan.bonds.id:443 27148
+  - ca-trojan.bonds.id:443 28149
+  - ca-trojan.bonds.id:443 29150
+  - ca-trojan.bonds.id:443 30151
+  - ca-trojan.bonds.id:443 31152
+  - ca-trojan.bonds.id:443 32153
+  - ca-trojan.bonds.id:443 33154
+  - ca-trojan.bonds.id:443 34155
+  - ca-trojan.bonds.id:443 35156
+  - ca-trojan.bonds.id:443 36157
+  - ca-trojan.bonds.id:443 37158
+  - ca-trojan.bonds.id:443 38159
+  - '| 8.64Mb160'
+  - '|43.34Mb161'
+  - '|50.39Mb162'
+  - 116.129.253.134:3384163
+  - 117.164.185.220:61002164
+  - '|12.64Mb165'
+  - '|35.78Mb166'
+  - '| 7.57Mb167'
+  - '| 2.18Mb168'
+  - '| 2.02Mb169'
+  - '| 7.00Mb170'
+  - '| 1.88Mb171'
+  - 116.129.254.29:3384172
+  - '| 2.03Mb173'
+  - '| 7.92Mb174'
+  - sg8-trojan.bonds.id:443175
+  - fr-trojan.bonds.id:443176
+  - '| 8.72Mb177'
+  - '|23.38Mb178'
+  - fr-trojan.bonds.id:443 2179
+  - api.mjj-home.com:443180
+  - '| 2.13Mb181'
+  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889182
+  - '|570.16Mb183'
+  - 43.229.153.167:443184
+  - tky3.ssgnode.ga:443185
+  - tky3.ssgnode.ga:443 2186
+  - tky3.ssgnode.ga:443 3187
+  - 106.180.225.69:1443188
+  - tky3.ssgnode.ga:443 4189
+  - tky3.ssgnode.ga:443 5190
+  - 45.66.134.219:443191
+  - tky3.ssgnode.ga:443 6192
+  - tky3.ssgnode.ga:443 7193
+  - 45.66.134.219:443 2194
+  - tky3.ssgnode.ga:443 8195
+  - tky3.ssgnode.ga:443 9196
+  - '| 7.76Mb197'
+  - '| 8.16Mb198'
+  - tky3.ssgnode.ga:443 10199
+  - 45.66.134.219:443 3200
+  - upay.com:443201
+  - jgw3.gaox.ml:443202
+  - '|30.85Mb203'
+  - www.tokyo2023.ga:443204
+  - nl-trojan.bonds.id:443205
+  - nl-trojan.bonds.id:443 2206
+  - '|11.42Mb207'
+  - nl-trojan.bonds.id:443 3208
+  - 🇺🇸 jp.useanlo.cf:6523209
+  - '| 3.91Mb210'
+  - '| 5.23Mb211'
+  - '| 4.24Mb212'
+  - 185.126.116.235:443213
+  - 185.126.116.235:443 2214
+  - 185.126.116.235:443 3215
+  - '|20.10Mb216'
+  - '| 2.59Mb217'
+  - '|10.14Mb218'
+  - 🇭🇰 hk31.ssgnode.ga:443219
+  - sg-relay.iqyun.zone:443220
+  - sg6-trojan.bonds.id:443221
+  - '|37.03Mb222'
+  - '| 3.30Mb223'
+  - '|125.11Mb224'
+  - 81.90.189.85:443225
+  - sg3-trojan.bonds.id:443226
+  - sg1-trojan.bonds.id:443227
+  - '|16.07Mb228'
+  - '|35.23Mb229'
+  - '|463.92Mb230'
+  - sg3-trojan.bonds.id:443 2231
+  - '|48.26Mb232'
+  - 2.58.242.43:443233
+  - 🇨🇳 tw-oo-01.click:443234
+  - 🇨🇳 tw-oo-01.click:443 2235
+  - 🇨🇳 mv-tw05.link:443236
+  - 2.58.242.43:443 2237
+  - '| 2.95Mb238'
+  - '| 6.81Mb239'
+  - 56789.gq:443240
+  - 173.82.192.61:443241
+  - '|14.26Mb242'
+  - xioix.gq:443243
+  - 170.187.182.212:443244
+  - sg.iamnotagoodman.com:443245
+  - kh.iamnotagoodman.com:443246
+  - '|18.04Mb247'
+  - '|25.87Mb248'
+  - t03.ssrsub.com.xyz:443249
+  - 72.167.45.6:443250
+  - 72.167.45.6:443 2251
+  - tky3.ssgnode.ga:443 11252
+  - share.softbank.mjj-home.com:443253
+  - 184.168.127.50:443254
+  - hg.053111.xyz:443255
+  - 🇺🇸 us-trojan.bonds.id:443256
+  - 184.168.127.50:443 2257
+  - 🇺🇸 us-trojan.bonds.id:443 2258
+  - 184.168.127.50:443 3259
+  - '|17.83Mb260'
+  - 209.141.47.137:443261
+  - 209.141.47.137:443 2262
+  - s162.s2022.xyz:23802263
+  - s162.s2022.xyz:23802 2264
+  - 🇨🇳 tw.softbank.mjj-home.com:443265
+  - 🇺🇸 jp.useanlo.cf:6523 2266
+  - 🇺🇸 us-trojan.bonds.id:443 3267
+  - '|82.21Mb268'
+  - www.anloao.cf:9053269
+  - 72.167.45.6:443 3270
+  - jgw4.gaox.ml:443271
+  - '|245.00Mb272'
+  - 🇬🇧 ukt-1.opensvr.net:443273
+  - 🇺🇸 hacks.missionsec.us:443274
+  - '| 3.95Mb275'
+  - '| 6.83Mb276'
+  - '|65.03Mb277'
+  - '|12.04Mb278'
+  - www.cjf0423.cf:443279
+  - '|17.93Mb280'
+  - s162.s2022.xyz:23802 3281
+  - 167.88.61.2:443282
+  - '|20.25Mb283'
+  - 🇭🇰 hgc.iamnotagoodman.com:443284
+  - '|26.85Mb285'
+  - idtj-ikd.bonds.id:443286
+  - 103.173.155.72:28443287
+  - '|84.66Mb288'
+  - '|72.81Mb289'
+  - '|76.29Mb290'
+  - '| 0.18Mb291'
+  - id5-trojan.bonds.id:443292
+  - '|65.50Mb293'
+  - '| 2.52Mb294'
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 更新于10/23/19:061
-  - ✈付费机场推荐✈2
-  - 中国(TG频道:@kxswa)3
-  - dafeivpn.com 5元专线机场4
-  - 中国(TG频道:@kxswa) 25
-  - 美国(TG频道:@kxswa)6
-  - 澳大利亚(TG频道:@kxswa)7
-  - 中国(TG频道:@kxswa) 38
-  - 中国(TG频道:@kxswa) 49
-  - 中国(TG频道:@kxswa) 510
-  - 中国(TG频道:@kxswa) 611
-  - 中国(TG频道:@kxswa) 712
-  - 中国(TG频道:@kxswa) 813
-  - 中国(TG频道:@kxswa) 914
-  - 日本(TG频道:@kxswa)15
-  - 香港(TG频道:@kxswa)16
-  - 香港(TG频道:@kxswa) 217
-  - 中国(TG频道:@kxswa) 1018
-  - 中国(TG频道:@kxswa) 1119
-  - 中国(TG频道:@kxswa) 1220
-  - 印度(TG频道:@kxswa)21
-  - 印度(TG频道:@kxswa) 222
-  - 台湾(TG频道:@kxswa)23
-  - 中国(TG频道:@kxswa) 1324
-  - 日本(TG频道:@kxswa) 225
-  - 美国(TG频道:@kxswa) 226
-  - 美国(TG频道:@kxswa) 327
-  - 英国(TG频道:@kxswa)28
-  - 捷克(TG频道:@kxswa)29
-  - 美国(TG频道:@kxswa) 430
-  - 美国(TG频道:@kxswa) 531
-  - 美国(TG频道:@kxswa) 632
-  - 美国(TG频道:@kxswa) 733
-  - 美国(TG频道:@kxswa) 834
-  - 瑞士(TG频道:@kxswa)35
-  - 美国(TG频道:@kxswa) 936
-  - 瑞士(TG频道:@kxswa) 237
-  - 日本(TG频道:@kxswa) 338
-  - 日本(TG频道:@kxswa) 439
-  - 日本(TG频道:@kxswa) 540
-  - 澳大利亚(TG频道:@kxswa) 241
-  - 日本(TG频道:@kxswa) 642
-  - 日本(TG频道:@kxswa) 743
-  - 南非(TG频道:@kxswa)44
-  - (TG频道:@kxswa)45
-  - (TG频道:@kxswa) 246
-  - 中国(TG频道:@kxswa) 1447
-  - (TG频道:@kxswa) 348
-  - 中国(TG频道:@kxswa) 1549
-  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
-  - 🇺🇸 美国1|tg频道:@ripaojiedian51
-  - 🇭🇰 香港2|tg频道:@ripaojiedian52
-  - 🇺🇸 美国2|tg频道:@ripaojiedian53
-  - 🇭🇰 香港|tg频道:@ripaojiedian54
-  - 🇭🇰 香港01|tg频道:@ripaojiedian55
-  - 🇸🇬 新加坡linode56
-  - 🇺🇸 美国US|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
-  - 🇺🇸 美国|tg频道:@ripaojiedian60
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
-  - '|15.63Mb62'
-  - '|105.42Mb63'
-  - '|41.07Mb64'
-  - '| 0.56Mb65'
-  - '|26.68Mb66'
-  - '|25.51Mb67'
-  - '|26.49Mb68'
-  - '69'
-  - '|17.16Mb70'
-  - '|14.32Mb71'
-  - '| 1.01Mb72'
-  - '|35.17Mb73'
-  - '|10.10Mb74'
-  - '|11.76Mb75'
-  - '|13.63Mb76'
-  - '|18.80Mb77'
-  - '|54.57Mb78'
-  - '| 1.78Mb79'
-  - '|17.38Mb80'
-  - '| 1.56Mb81'
-  - '| 2.08Mb82'
-  - '|24.12Mb83'
-  - '|20.99Mb84'
-  - '|25.78Mb85'
-  - '|23.33Mb86'
-  - '|24.34Mb87'
-  - '|19.44Mb88'
-  - '|25.72Mb89'
-  - '|28.50Mb90'
-  - '|306.93Mb91'
-  - '| 0.97Mb92'
-  - '| 1.67Mb93'
-  - ca-trojan.bonds.id:44394
-  - 165.154.226.108:44395
-  - '|11.07Mb96'
-  - ca-trojan.bonds.id:443 297
-  - ca-trojan.bonds.id:443 398
-  - ca-trojan.bonds.id:443 499
-  - ca-trojan.bonds.id:443 5100
-  - ca-trojan.bonds.id:443 6101
-  - ca-trojan.bonds.id:443 7102
-  - ca-trojan.bonds.id:443 8103
-  - ca-trojan.bonds.id:443 9104
-  - ca-trojan.bonds.id:443 10105
-  - ca-trojan.bonds.id:443 11106
-  - ca-trojan.bonds.id:443 12107
-  - ca-trojan.bonds.id:443 13108
-  - ca-trojan.bonds.id:443 14109
-  - ca-trojan.bonds.id:443 15110
-  - 51.161.118.38:443111
-  - ca-trojan.bonds.id:443 16112
-  - ca-trojan.bonds.id:443 17113
-  - ca-trojan.bonds.id:443 18114
-  - ca-trojan.bonds.id:443 19115
-  - ca-trojan.bonds.id:443 20116
-  - ca-trojan.bonds.id:443 21117
-  - ca-trojan.bonds.id:443 22118
-  - ca-trojan.bonds.id:443 23119
-  - ca-trojan.bonds.id:443 24120
-  - ca-trojan.bonds.id:443 25121
-  - ca-trojan.bonds.id:443 26122
-  - ca-trojan.bonds.id:443 27123
-  - ca-trojan.bonds.id:443 28124
-  - ca-trojan.bonds.id:443 29125
-  - ca-trojan.bonds.id:443 30126
-  - ca-trojan.bonds.id:443 31127
-  - ca-trojan.bonds.id:443 32128
-  - ca-trojan.bonds.id:443 33129
-  - ca-trojan.bonds.id:443 34130
-  - ca-trojan.bonds.id:443 35131
-  - ca-trojan.bonds.id:443 36132
-  - ca-trojan.bonds.id:443 37133
-  - ca-trojan.bonds.id:443 38134
-  - '| 8.64Mb135'
-  - '|43.34Mb136'
-  - '|50.39Mb137'
-  - 116.129.253.134:3384138
-  - 117.164.185.220:61002139
-  - '|12.64Mb140'
-  - '|35.78Mb141'
-  - '| 7.57Mb142'
-  - '| 2.18Mb143'
-  - '| 2.02Mb144'
-  - '| 7.00Mb145'
-  - '| 1.88Mb146'
-  - 116.129.254.29:3384147
-  - '| 2.03Mb148'
-  - '| 7.92Mb149'
-  - sg8-trojan.bonds.id:443150
-  - fr-trojan.bonds.id:443151
-  - '| 8.72Mb152'
-  - '|23.38Mb153'
-  - fr-trojan.bonds.id:443 2154
-  - api.mjj-home.com:443155
-  - '| 2.13Mb156'
-  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889157
-  - '|570.16Mb158'
-  - 43.229.153.167:443159
-  - tky3.ssgnode.ga:443160
-  - tky3.ssgnode.ga:443 2161
-  - tky3.ssgnode.ga:443 3162
-  - 106.180.225.69:1443163
-  - tky3.ssgnode.ga:443 4164
-  - tky3.ssgnode.ga:443 5165
-  - 45.66.134.219:443166
-  - tky3.ssgnode.ga:443 6167
-  - tky3.ssgnode.ga:443 7168
-  - 45.66.134.219:443 2169
-  - tky3.ssgnode.ga:443 8170
-  - tky3.ssgnode.ga:443 9171
-  - '| 7.76Mb172'
-  - '| 8.16Mb173'
-  - tky3.ssgnode.ga:443 10174
-  - 45.66.134.219:443 3175
-  - upay.com:443176
-  - jgw3.gaox.ml:443177
-  - '|30.85Mb178'
-  - www.tokyo2023.ga:443179
-  - nl-trojan.bonds.id:443180
-  - nl-trojan.bonds.id:443 2181
-  - '|11.42Mb182'
-  - nl-trojan.bonds.id:443 3183
-  - 🇺🇸 jp.useanlo.cf:6523184
-  - '| 3.91Mb185'
-  - '| 5.23Mb186'
-  - '| 4.24Mb187'
-  - 185.126.116.235:443188
-  - 185.126.116.235:443 2189
-  - 185.126.116.235:443 3190
-  - '|20.10Mb191'
-  - '| 2.59Mb192'
-  - '|10.14Mb193'
-  - 🇭🇰 hk31.ssgnode.ga:443194
-  - sg-relay.iqyun.zone:443195
-  - sg6-trojan.bonds.id:443196
-  - '|37.03Mb197'
-  - '| 3.30Mb198'
-  - '|125.11Mb199'
-  - 81.90.189.85:443200
-  - sg3-trojan.bonds.id:443201
-  - sg1-trojan.bonds.id:443202
-  - '|16.07Mb203'
-  - '|35.23Mb204'
-  - '|463.92Mb205'
-  - sg3-trojan.bonds.id:443 2206
-  - '|48.26Mb207'
-  - 2.58.242.43:443208
-  - 🇨🇳 tw-oo-01.click:443209
-  - 🇨🇳 tw-oo-01.click:443 2210
-  - 🇨🇳 mv-tw05.link:443211
-  - 2.58.242.43:443 2212
-  - '| 2.95Mb213'
-  - '| 6.81Mb214'
-  - 56789.gq:443215
-  - 173.82.192.61:443216
-  - '|14.26Mb217'
-  - xioix.gq:443218
-  - 170.187.182.212:443219
-  - sg.iamnotagoodman.com:443220
-  - kh.iamnotagoodman.com:443221
-  - '|18.04Mb222'
-  - '|25.87Mb223'
-  - t03.ssrsub.com.xyz:443224
-  - 72.167.45.6:443225
-  - 72.167.45.6:443 2226
-  - tky3.ssgnode.ga:443 11227
-  - share.softbank.mjj-home.com:443228
-  - 184.168.127.50:443229
-  - hg.053111.xyz:443230
-  - 🇺🇸 us-trojan.bonds.id:443231
-  - 184.168.127.50:443 2232
-  - 🇺🇸 us-trojan.bonds.id:443 2233
-  - 184.168.127.50:443 3234
-  - '|17.83Mb235'
-  - 209.141.47.137:443236
-  - 209.141.47.137:443 2237
-  - s162.s2022.xyz:23802238
-  - s162.s2022.xyz:23802 2239
-  - 🇨🇳 tw.softbank.mjj-home.com:443240
-  - 🇺🇸 jp.useanlo.cf:6523 2241
-  - 🇺🇸 us-trojan.bonds.id:443 3242
-  - '|82.21Mb243'
-  - www.anloao.cf:9053244
-  - 72.167.45.6:443 3245
-  - jgw4.gaox.ml:443246
-  - '|245.00Mb247'
-  - 🇬🇧 ukt-1.opensvr.net:443248
-  - 🇺🇸 hacks.missionsec.us:443249
-  - '| 3.95Mb250'
-  - '| 6.83Mb251'
-  - '|65.03Mb252'
-  - '|12.04Mb253'
-  - www.cjf0423.cf:443254
-  - '|17.93Mb255'
-  - s162.s2022.xyz:23802 3256
-  - 167.88.61.2:443257
-  - '|20.25Mb258'
-  - 🇭🇰 hgc.iamnotagoodman.com:443259
-  - '|26.85Mb260'
-  - idtj-ikd.bonds.id:443261
-  - 103.173.155.72:28443262
-  - '|84.66Mb263'
-  - '|72.81Mb264'
-  - '|76.29Mb265'
-  - '| 0.18Mb266'
-  - id5-trojan.bonds.id:443267
-  - '|65.50Mb268'
-  - '| 2.52Mb269'
-  - 更新于10/23/19:061
-  - ✈付费机场推荐✈2
-  - 中国(TG频道:@kxswa)3
-  - dafeivpn.com 5元专线机场4
-  - 中国(TG频道:@kxswa) 25
-  - 美国(TG频道:@kxswa)6
-  - 澳大利亚(TG频道:@kxswa)7
-  - 中国(TG频道:@kxswa) 38
-  - 中国(TG频道:@kxswa) 49
-  - 中国(TG频道:@kxswa) 510
-  - 中国(TG频道:@kxswa) 611
-  - 中国(TG频道:@kxswa) 712
-  - 中国(TG频道:@kxswa) 813
-  - 中国(TG频道:@kxswa) 914
-  - 日本(TG频道:@kxswa)15
-  - 香港(TG频道:@kxswa)16
-  - 香港(TG频道:@kxswa) 217
-  - 中国(TG频道:@kxswa) 1018
-  - 中国(TG频道:@kxswa) 1119
-  - 中国(TG频道:@kxswa) 1220
-  - 印度(TG频道:@kxswa)21
-  - 印度(TG频道:@kxswa) 222
-  - 台湾(TG频道:@kxswa)23
-  - 中国(TG频道:@kxswa) 1324
-  - 日本(TG频道:@kxswa) 225
-  - 美国(TG频道:@kxswa) 226
-  - 美国(TG频道:@kxswa) 327
-  - 英国(TG频道:@kxswa)28
-  - 捷克(TG频道:@kxswa)29
-  - 美国(TG频道:@kxswa) 430
-  - 美国(TG频道:@kxswa) 531
-  - 美国(TG频道:@kxswa) 632
-  - 美国(TG频道:@kxswa) 733
-  - 美国(TG频道:@kxswa) 834
-  - 瑞士(TG频道:@kxswa)35
-  - 美国(TG频道:@kxswa) 936
-  - 瑞士(TG频道:@kxswa) 237
-  - 日本(TG频道:@kxswa) 338
-  - 日本(TG频道:@kxswa) 439
-  - 日本(TG频道:@kxswa) 540
-  - 澳大利亚(TG频道:@kxswa) 241
-  - 日本(TG频道:@kxswa) 642
-  - 日本(TG频道:@kxswa) 743
-  - 南非(TG频道:@kxswa)44
-  - (TG频道:@kxswa)45
-  - (TG频道:@kxswa) 246
-  - 中国(TG频道:@kxswa) 1447
-  - (TG频道:@kxswa) 348
-  - 中国(TG频道:@kxswa) 1549
-  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
-  - 🇺🇸 美国1|tg频道:@ripaojiedian51
-  - 🇭🇰 香港2|tg频道:@ripaojiedian52
-  - 🇺🇸 美国2|tg频道:@ripaojiedian53
-  - 🇭🇰 香港|tg频道:@ripaojiedian54
-  - 🇭🇰 香港01|tg频道:@ripaojiedian55
-  - 🇸🇬 新加坡linode56
-  - 🇺🇸 美国US|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
-  - 🇺🇸 美国|tg频道:@ripaojiedian60
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
-  - '|15.63Mb62'
-  - '|105.42Mb63'
-  - '|41.07Mb64'
-  - '| 0.56Mb65'
-  - '|26.68Mb66'
-  - '|25.51Mb67'
-  - '|26.49Mb68'
-  - '69'
-  - '|17.16Mb70'
-  - '|14.32Mb71'
-  - '| 1.01Mb72'
-  - '|35.17Mb73'
-  - '|10.10Mb74'
-  - '|11.76Mb75'
-  - '|13.63Mb76'
-  - '|18.80Mb77'
-  - '|54.57Mb78'
-  - '| 1.78Mb79'
-  - '|17.38Mb80'
-  - '| 1.56Mb81'
-  - '| 2.08Mb82'
-  - '|24.12Mb83'
-  - '|20.99Mb84'
-  - '|25.78Mb85'
-  - '|23.33Mb86'
-  - '|24.34Mb87'
-  - '|19.44Mb88'
-  - '|25.72Mb89'
-  - '|28.50Mb90'
-  - '|306.93Mb91'
-  - '| 0.97Mb92'
-  - '| 1.67Mb93'
-  - ca-trojan.bonds.id:44394
-  - 165.154.226.108:44395
-  - '|11.07Mb96'
-  - ca-trojan.bonds.id:443 297
-  - ca-trojan.bonds.id:443 398
-  - ca-trojan.bonds.id:443 499
-  - ca-trojan.bonds.id:443 5100
-  - ca-trojan.bonds.id:443 6101
-  - ca-trojan.bonds.id:443 7102
-  - ca-trojan.bonds.id:443 8103
-  - ca-trojan.bonds.id:443 9104
-  - ca-trojan.bonds.id:443 10105
-  - ca-trojan.bonds.id:443 11106
-  - ca-trojan.bonds.id:443 12107
-  - ca-trojan.bonds.id:443 13108
-  - ca-trojan.bonds.id:443 14109
-  - ca-trojan.bonds.id:443 15110
-  - 51.161.118.38:443111
-  - ca-trojan.bonds.id:443 16112
-  - ca-trojan.bonds.id:443 17113
-  - ca-trojan.bonds.id:443 18114
-  - ca-trojan.bonds.id:443 19115
-  - ca-trojan.bonds.id:443 20116
-  - ca-trojan.bonds.id:443 21117
-  - ca-trojan.bonds.id:443 22118
-  - ca-trojan.bonds.id:443 23119
-  - ca-trojan.bonds.id:443 24120
-  - ca-trojan.bonds.id:443 25121
-  - ca-trojan.bonds.id:443 26122
-  - ca-trojan.bonds.id:443 27123
-  - ca-trojan.bonds.id:443 28124
-  - ca-trojan.bonds.id:443 29125
-  - ca-trojan.bonds.id:443 30126
-  - ca-trojan.bonds.id:443 31127
-  - ca-trojan.bonds.id:443 32128
-  - ca-trojan.bonds.id:443 33129
-  - ca-trojan.bonds.id:443 34130
-  - ca-trojan.bonds.id:443 35131
-  - ca-trojan.bonds.id:443 36132
-  - ca-trojan.bonds.id:443 37133
-  - ca-trojan.bonds.id:443 38134
-  - '| 8.64Mb135'
-  - '|43.34Mb136'
-  - '|50.39Mb137'
-  - 116.129.253.134:3384138
-  - 117.164.185.220:61002139
-  - '|12.64Mb140'
-  - '|35.78Mb141'
-  - '| 7.57Mb142'
-  - '| 2.18Mb143'
-  - '| 2.02Mb144'
-  - '| 7.00Mb145'
-  - '| 1.88Mb146'
-  - 116.129.254.29:3384147
-  - '| 2.03Mb148'
-  - '| 7.92Mb149'
-  - sg8-trojan.bonds.id:443150
-  - fr-trojan.bonds.id:443151
-  - '| 8.72Mb152'
-  - '|23.38Mb153'
-  - fr-trojan.bonds.id:443 2154
-  - api.mjj-home.com:443155
-  - '| 2.13Mb156'
-  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889157
-  - '|570.16Mb158'
-  - 43.229.153.167:443159
-  - tky3.ssgnode.ga:443160
-  - tky3.ssgnode.ga:443 2161
-  - tky3.ssgnode.ga:443 3162
-  - 106.180.225.69:1443163
-  - tky3.ssgnode.ga:443 4164
-  - tky3.ssgnode.ga:443 5165
-  - 45.66.134.219:443166
-  - tky3.ssgnode.ga:443 6167
-  - tky3.ssgnode.ga:443 7168
-  - 45.66.134.219:443 2169
-  - tky3.ssgnode.ga:443 8170
-  - tky3.ssgnode.ga:443 9171
-  - '| 7.76Mb172'
-  - '| 8.16Mb173'
-  - tky3.ssgnode.ga:443 10174
-  - 45.66.134.219:443 3175
-  - upay.com:443176
-  - jgw3.gaox.ml:443177
-  - '|30.85Mb178'
-  - www.tokyo2023.ga:443179
-  - nl-trojan.bonds.id:443180
-  - nl-trojan.bonds.id:443 2181
-  - '|11.42Mb182'
-  - nl-trojan.bonds.id:443 3183
-  - 🇺🇸 jp.useanlo.cf:6523184
-  - '| 3.91Mb185'
-  - '| 5.23Mb186'
-  - '| 4.24Mb187'
-  - 185.126.116.235:443188
-  - 185.126.116.235:443 2189
-  - 185.126.116.235:443 3190
-  - '|20.10Mb191'
-  - '| 2.59Mb192'
-  - '|10.14Mb193'
-  - 🇭🇰 hk31.ssgnode.ga:443194
-  - sg-relay.iqyun.zone:443195
-  - sg6-trojan.bonds.id:443196
-  - '|37.03Mb197'
-  - '| 3.30Mb198'
-  - '|125.11Mb199'
-  - 81.90.189.85:443200
-  - sg3-trojan.bonds.id:443201
-  - sg1-trojan.bonds.id:443202
-  - '|16.07Mb203'
-  - '|35.23Mb204'
-  - '|463.92Mb205'
-  - sg3-trojan.bonds.id:443 2206
-  - '|48.26Mb207'
-  - 2.58.242.43:443208
-  - 🇨🇳 tw-oo-01.click:443209
-  - 🇨🇳 tw-oo-01.click:443 2210
-  - 🇨🇳 mv-tw05.link:443211
-  - 2.58.242.43:443 2212
-  - '| 2.95Mb213'
-  - '| 6.81Mb214'
-  - 56789.gq:443215
-  - 173.82.192.61:443216
-  - '|14.26Mb217'
-  - xioix.gq:443218
-  - 170.187.182.212:443219
-  - sg.iamnotagoodman.com:443220
-  - kh.iamnotagoodman.com:443221
-  - '|18.04Mb222'
-  - '|25.87Mb223'
-  - t03.ssrsub.com.xyz:443224
-  - 72.167.45.6:443225
-  - 72.167.45.6:443 2226
-  - tky3.ssgnode.ga:443 11227
-  - share.softbank.mjj-home.com:443228
-  - 184.168.127.50:443229
-  - hg.053111.xyz:443230
-  - 🇺🇸 us-trojan.bonds.id:443231
-  - 184.168.127.50:443 2232
-  - 🇺🇸 us-trojan.bonds.id:443 2233
-  - 184.168.127.50:443 3234
-  - '|17.83Mb235'
-  - 209.141.47.137:443236
-  - 209.141.47.137:443 2237
-  - s162.s2022.xyz:23802238
-  - s162.s2022.xyz:23802 2239
-  - 🇨🇳 tw.softbank.mjj-home.com:443240
-  - 🇺🇸 jp.useanlo.cf:6523 2241
-  - 🇺🇸 us-trojan.bonds.id:443 3242
-  - '|82.21Mb243'
-  - www.anloao.cf:9053244
-  - 72.167.45.6:443 3245
-  - jgw4.gaox.ml:443246
-  - '|245.00Mb247'
-  - 🇬🇧 ukt-1.opensvr.net:443248
-  - 🇺🇸 hacks.missionsec.us:443249
-  - '| 3.95Mb250'
-  - '| 6.83Mb251'
-  - '|65.03Mb252'
-  - '|12.04Mb253'
-  - www.cjf0423.cf:443254
-  - '|17.93Mb255'
-  - s162.s2022.xyz:23802 3256
-  - 167.88.61.2:443257
-  - '|20.25Mb258'
-  - 🇭🇰 hgc.iamnotagoodman.com:443259
-  - '|26.85Mb260'
-  - idtj-ikd.bonds.id:443261
-  - 103.173.155.72:28443262
-  - '|84.66Mb263'
-  - '|72.81Mb264'
-  - '|76.29Mb265'
-  - '| 0.18Mb266'
-  - id5-trojan.bonds.id:443267
-  - '|65.50Mb268'
-  - '| 2.52Mb269'
+  - 🇹🇼 _TW_台湾1
+  - 🇮🇳 _IN_印度2
+  - 🇯🇵 _JP_日本3
+  - 🇺🇸 _US_美国4
+  - 🇸🇬 _SG_新加坡5
+  - 🇺🇸 _US_美国 26
+  - 🇺🇸 _US_美国 37
+  - 🇫🇷 _FR_法国8
+  - 🇫🇷 _FR_法国 29
+  - 🇳🇱 _NL_荷兰10
+  - 🇳🇱 _NL_荷兰 211
+  - 🇺🇸 _US_美国 412
+  - 🇸🇬 _SG_新加坡 213
+  - 🇫🇷 _FR_法国 314
+  - 🇳🇱 _NL_荷兰 315
+  - 🇭🇰 _HK_香港->🇯🇵_JP_日本16
+  - 🇫🇷 _FR_法国 417
+  - default_name18
+  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡19
+  - default_name 220
+  - 🇺🇸 _US_美国 521
+  - 🇺🇸 _US_美国 622
+  - 🇯🇵 _JP_日本 223
+  - 🇺🇸 _US_美国 724
+  - 🇺🇸 _US_美国 825
+  - 更新于10/23/19:0626
+  - ✈付费机场推荐✈27
+  - 中国(TG频道:@kxswa)28
+  - dafeivpn.com 5元专线机场29
+  - 中国(TG频道:@kxswa) 230
+  - 美国(TG频道:@kxswa)31
+  - 澳大利亚(TG频道:@kxswa)32
+  - 中国(TG频道:@kxswa) 333
+  - 中国(TG频道:@kxswa) 434
+  - 中国(TG频道:@kxswa) 535
+  - 中国(TG频道:@kxswa) 636
+  - 中国(TG频道:@kxswa) 737
+  - 中国(TG频道:@kxswa) 838
+  - 中国(TG频道:@kxswa) 939
+  - 日本(TG频道:@kxswa)40
+  - 香港(TG频道:@kxswa)41
+  - 香港(TG频道:@kxswa) 242
+  - 中国(TG频道:@kxswa) 1043
+  - 中国(TG频道:@kxswa) 1144
+  - 中国(TG频道:@kxswa) 1245
+  - 印度(TG频道:@kxswa)46
+  - 印度(TG频道:@kxswa) 247
+  - 台湾(TG频道:@kxswa)48
+  - 中国(TG频道:@kxswa) 1349
+  - 日本(TG频道:@kxswa) 250
+  - 美国(TG频道:@kxswa) 251
+  - 美国(TG频道:@kxswa) 352
+  - 英国(TG频道:@kxswa)53
+  - 捷克(TG频道:@kxswa)54
+  - 美国(TG频道:@kxswa) 455
+  - 美国(TG频道:@kxswa) 556
+  - 美国(TG频道:@kxswa) 657
+  - 美国(TG频道:@kxswa) 758
+  - 美国(TG频道:@kxswa) 859
+  - 瑞士(TG频道:@kxswa)60
+  - 美国(TG频道:@kxswa) 961
+  - 瑞士(TG频道:@kxswa) 262
+  - 日本(TG频道:@kxswa) 363
+  - 日本(TG频道:@kxswa) 464
+  - 日本(TG频道:@kxswa) 565
+  - 澳大利亚(TG频道:@kxswa) 266
+  - 日本(TG频道:@kxswa) 667
+  - 日本(TG频道:@kxswa) 768
+  - 南非(TG频道:@kxswa)69
+  - (TG频道:@kxswa)70
+  - (TG频道:@kxswa) 271
+  - 中国(TG频道:@kxswa) 1472
+  - (TG频道:@kxswa) 373
+  - 中国(TG频道:@kxswa) 1574
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian75
+  - 🇺🇸 美国1|tg频道:@ripaojiedian76
+  - 🇭🇰 香港2|tg频道:@ripaojiedian77
+  - 🇺🇸 美国2|tg频道:@ripaojiedian78
+  - 🇭🇰 香港|tg频道:@ripaojiedian79
+  - 🇭🇰 香港01|tg频道:@ripaojiedian80
+  - 🇸🇬 新加坡linode81
+  - 🇺🇸 美国US|tg频道:@ripaojiedian82
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian83
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian84
+  - 🇺🇸 美国|tg频道:@ripaojiedian85
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian86
+  - '|15.63Mb87'
+  - '|105.42Mb88'
+  - '|41.07Mb89'
+  - '| 0.56Mb90'
+  - '|26.68Mb91'
+  - '|25.51Mb92'
+  - '|26.49Mb93'
+  - '94'
+  - '|17.16Mb95'
+  - '|14.32Mb96'
+  - '| 1.01Mb97'
+  - '|35.17Mb98'
+  - '|10.10Mb99'
+  - '|11.76Mb100'
+  - '|13.63Mb101'
+  - '|18.80Mb102'
+  - '|54.57Mb103'
+  - '| 1.78Mb104'
+  - '|17.38Mb105'
+  - '| 1.56Mb106'
+  - '| 2.08Mb107'
+  - '|24.12Mb108'
+  - '|20.99Mb109'
+  - '|25.78Mb110'
+  - '|23.33Mb111'
+  - '|24.34Mb112'
+  - '|19.44Mb113'
+  - '|25.72Mb114'
+  - '|28.50Mb115'
+  - '|306.93Mb116'
+  - '| 0.97Mb117'
+  - '| 1.67Mb118'
+  - ca-trojan.bonds.id:443119
+  - 165.154.226.108:443120
+  - '|11.07Mb121'
+  - ca-trojan.bonds.id:443 2122
+  - ca-trojan.bonds.id:443 3123
+  - ca-trojan.bonds.id:443 4124
+  - ca-trojan.bonds.id:443 5125
+  - ca-trojan.bonds.id:443 6126
+  - ca-trojan.bonds.id:443 7127
+  - ca-trojan.bonds.id:443 8128
+  - ca-trojan.bonds.id:443 9129
+  - ca-trojan.bonds.id:443 10130
+  - ca-trojan.bonds.id:443 11131
+  - ca-trojan.bonds.id:443 12132
+  - ca-trojan.bonds.id:443 13133
+  - ca-trojan.bonds.id:443 14134
+  - ca-trojan.bonds.id:443 15135
+  - 51.161.118.38:443136
+  - ca-trojan.bonds.id:443 16137
+  - ca-trojan.bonds.id:443 17138
+  - ca-trojan.bonds.id:443 18139
+  - ca-trojan.bonds.id:443 19140
+  - ca-trojan.bonds.id:443 20141
+  - ca-trojan.bonds.id:443 21142
+  - ca-trojan.bonds.id:443 22143
+  - ca-trojan.bonds.id:443 23144
+  - ca-trojan.bonds.id:443 24145
+  - ca-trojan.bonds.id:443 25146
+  - ca-trojan.bonds.id:443 26147
+  - ca-trojan.bonds.id:443 27148
+  - ca-trojan.bonds.id:443 28149
+  - ca-trojan.bonds.id:443 29150
+  - ca-trojan.bonds.id:443 30151
+  - ca-trojan.bonds.id:443 31152
+  - ca-trojan.bonds.id:443 32153
+  - ca-trojan.bonds.id:443 33154
+  - ca-trojan.bonds.id:443 34155
+  - ca-trojan.bonds.id:443 35156
+  - ca-trojan.bonds.id:443 36157
+  - ca-trojan.bonds.id:443 37158
+  - ca-trojan.bonds.id:443 38159
+  - '| 8.64Mb160'
+  - '|43.34Mb161'
+  - '|50.39Mb162'
+  - 116.129.253.134:3384163
+  - 117.164.185.220:61002164
+  - '|12.64Mb165'
+  - '|35.78Mb166'
+  - '| 7.57Mb167'
+  - '| 2.18Mb168'
+  - '| 2.02Mb169'
+  - '| 7.00Mb170'
+  - '| 1.88Mb171'
+  - 116.129.254.29:3384172
+  - '| 2.03Mb173'
+  - '| 7.92Mb174'
+  - sg8-trojan.bonds.id:443175
+  - fr-trojan.bonds.id:443176
+  - '| 8.72Mb177'
+  - '|23.38Mb178'
+  - fr-trojan.bonds.id:443 2179
+  - api.mjj-home.com:443180
+  - '| 2.13Mb181'
+  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889182
+  - '|570.16Mb183'
+  - 43.229.153.167:443184
+  - tky3.ssgnode.ga:443185
+  - tky3.ssgnode.ga:443 2186
+  - tky3.ssgnode.ga:443 3187
+  - 106.180.225.69:1443188
+  - tky3.ssgnode.ga:443 4189
+  - tky3.ssgnode.ga:443 5190
+  - 45.66.134.219:443191
+  - tky3.ssgnode.ga:443 6192
+  - tky3.ssgnode.ga:443 7193
+  - 45.66.134.219:443 2194
+  - tky3.ssgnode.ga:443 8195
+  - tky3.ssgnode.ga:443 9196
+  - '| 7.76Mb197'
+  - '| 8.16Mb198'
+  - tky3.ssgnode.ga:443 10199
+  - 45.66.134.219:443 3200
+  - upay.com:443201
+  - jgw3.gaox.ml:443202
+  - '|30.85Mb203'
+  - www.tokyo2023.ga:443204
+  - nl-trojan.bonds.id:443205
+  - nl-trojan.bonds.id:443 2206
+  - '|11.42Mb207'
+  - nl-trojan.bonds.id:443 3208
+  - 🇺🇸 jp.useanlo.cf:6523209
+  - '| 3.91Mb210'
+  - '| 5.23Mb211'
+  - '| 4.24Mb212'
+  - 185.126.116.235:443213
+  - 185.126.116.235:443 2214
+  - 185.126.116.235:443 3215
+  - '|20.10Mb216'
+  - '| 2.59Mb217'
+  - '|10.14Mb218'
+  - 🇭🇰 hk31.ssgnode.ga:443219
+  - sg-relay.iqyun.zone:443220
+  - sg6-trojan.bonds.id:443221
+  - '|37.03Mb222'
+  - '| 3.30Mb223'
+  - '|125.11Mb224'
+  - 81.90.189.85:443225
+  - sg3-trojan.bonds.id:443226
+  - sg1-trojan.bonds.id:443227
+  - '|16.07Mb228'
+  - '|35.23Mb229'
+  - '|463.92Mb230'
+  - sg3-trojan.bonds.id:443 2231
+  - '|48.26Mb232'
+  - 2.58.242.43:443233
+  - 🇨🇳 tw-oo-01.click:443234
+  - 🇨🇳 tw-oo-01.click:443 2235
+  - 🇨🇳 mv-tw05.link:443236
+  - 2.58.242.43:443 2237
+  - '| 2.95Mb238'
+  - '| 6.81Mb239'
+  - 56789.gq:443240
+  - 173.82.192.61:443241
+  - '|14.26Mb242'
+  - xioix.gq:443243
+  - 170.187.182.212:443244
+  - sg.iamnotagoodman.com:443245
+  - kh.iamnotagoodman.com:443246
+  - '|18.04Mb247'
+  - '|25.87Mb248'
+  - t03.ssrsub.com.xyz:443249
+  - 72.167.45.6:443250
+  - 72.167.45.6:443 2251
+  - tky3.ssgnode.ga:443 11252
+  - share.softbank.mjj-home.com:443253
+  - 184.168.127.50:443254
+  - hg.053111.xyz:443255
+  - 🇺🇸 us-trojan.bonds.id:443256
+  - 184.168.127.50:443 2257
+  - 🇺🇸 us-trojan.bonds.id:443 2258
+  - 184.168.127.50:443 3259
+  - '|17.83Mb260'
+  - 209.141.47.137:443261
+  - 209.141.47.137:443 2262
+  - s162.s2022.xyz:23802263
+  - s162.s2022.xyz:23802 2264
+  - 🇨🇳 tw.softbank.mjj-home.com:443265
+  - 🇺🇸 jp.useanlo.cf:6523 2266
+  - 🇺🇸 us-trojan.bonds.id:443 3267
+  - '|82.21Mb268'
+  - www.anloao.cf:9053269
+  - 72.167.45.6:443 3270
+  - jgw4.gaox.ml:443271
+  - '|245.00Mb272'
+  - 🇬🇧 ukt-1.opensvr.net:443273
+  - 🇺🇸 hacks.missionsec.us:443274
+  - '| 3.95Mb275'
+  - '| 6.83Mb276'
+  - '|65.03Mb277'
+  - '|12.04Mb278'
+  - www.cjf0423.cf:443279
+  - '|17.93Mb280'
+  - s162.s2022.xyz:23802 3281
+  - 167.88.61.2:443282
+  - '|20.25Mb283'
+  - 🇭🇰 hgc.iamnotagoodman.com:443284
+  - '|26.85Mb285'
+  - idtj-ikd.bonds.id:443286
+  - 103.173.155.72:28443287
+  - '|84.66Mb288'
+  - '|72.81Mb289'
+  - '|76.29Mb290'
+  - '| 0.18Mb291'
+  - id5-trojan.bonds.id:443292
+  - '|65.50Mb293'
+  - '| 2.52Mb294'
+  - 🇹🇼 _TW_台湾1
+  - 🇮🇳 _IN_印度2
+  - 🇯🇵 _JP_日本3
+  - 🇺🇸 _US_美国4
+  - 🇸🇬 _SG_新加坡5
+  - 🇺🇸 _US_美国 26
+  - 🇺🇸 _US_美国 37
+  - 🇫🇷 _FR_法国8
+  - 🇫🇷 _FR_法国 29
+  - 🇳🇱 _NL_荷兰10
+  - 🇳🇱 _NL_荷兰 211
+  - 🇺🇸 _US_美国 412
+  - 🇸🇬 _SG_新加坡 213
+  - 🇫🇷 _FR_法国 314
+  - 🇳🇱 _NL_荷兰 315
+  - 🇭🇰 _HK_香港->🇯🇵_JP_日本16
+  - 🇫🇷 _FR_法国 417
+  - default_name18
+  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡19
+  - default_name 220
+  - 🇺🇸 _US_美国 521
+  - 🇺🇸 _US_美国 622
+  - 🇯🇵 _JP_日本 223
+  - 🇺🇸 _US_美国 724
+  - 🇺🇸 _US_美国 825
+  - 更新于10/23/19:0626
+  - ✈付费机场推荐✈27
+  - 中国(TG频道:@kxswa)28
+  - dafeivpn.com 5元专线机场29
+  - 中国(TG频道:@kxswa) 230
+  - 美国(TG频道:@kxswa)31
+  - 澳大利亚(TG频道:@kxswa)32
+  - 中国(TG频道:@kxswa) 333
+  - 中国(TG频道:@kxswa) 434
+  - 中国(TG频道:@kxswa) 535
+  - 中国(TG频道:@kxswa) 636
+  - 中国(TG频道:@kxswa) 737
+  - 中国(TG频道:@kxswa) 838
+  - 中国(TG频道:@kxswa) 939
+  - 日本(TG频道:@kxswa)40
+  - 香港(TG频道:@kxswa)41
+  - 香港(TG频道:@kxswa) 242
+  - 中国(TG频道:@kxswa) 1043
+  - 中国(TG频道:@kxswa) 1144
+  - 中国(TG频道:@kxswa) 1245
+  - 印度(TG频道:@kxswa)46
+  - 印度(TG频道:@kxswa) 247
+  - 台湾(TG频道:@kxswa)48
+  - 中国(TG频道:@kxswa) 1349
+  - 日本(TG频道:@kxswa) 250
+  - 美国(TG频道:@kxswa) 251
+  - 美国(TG频道:@kxswa) 352
+  - 英国(TG频道:@kxswa)53
+  - 捷克(TG频道:@kxswa)54
+  - 美国(TG频道:@kxswa) 455
+  - 美国(TG频道:@kxswa) 556
+  - 美国(TG频道:@kxswa) 657
+  - 美国(TG频道:@kxswa) 758
+  - 美国(TG频道:@kxswa) 859
+  - 瑞士(TG频道:@kxswa)60
+  - 美国(TG频道:@kxswa) 961
+  - 瑞士(TG频道:@kxswa) 262
+  - 日本(TG频道:@kxswa) 363
+  - 日本(TG频道:@kxswa) 464
+  - 日本(TG频道:@kxswa) 565
+  - 澳大利亚(TG频道:@kxswa) 266
+  - 日本(TG频道:@kxswa) 667
+  - 日本(TG频道:@kxswa) 768
+  - 南非(TG频道:@kxswa)69
+  - (TG频道:@kxswa)70
+  - (TG频道:@kxswa) 271
+  - 中国(TG频道:@kxswa) 1472
+  - (TG频道:@kxswa) 373
+  - 中国(TG频道:@kxswa) 1574
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian75
+  - 🇺🇸 美国1|tg频道:@ripaojiedian76
+  - 🇭🇰 香港2|tg频道:@ripaojiedian77
+  - 🇺🇸 美国2|tg频道:@ripaojiedian78
+  - 🇭🇰 香港|tg频道:@ripaojiedian79
+  - 🇭🇰 香港01|tg频道:@ripaojiedian80
+  - 🇸🇬 新加坡linode81
+  - 🇺🇸 美国US|tg频道:@ripaojiedian82
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian83
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian84
+  - 🇺🇸 美国|tg频道:@ripaojiedian85
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian86
+  - '|15.63Mb87'
+  - '|105.42Mb88'
+  - '|41.07Mb89'
+  - '| 0.56Mb90'
+  - '|26.68Mb91'
+  - '|25.51Mb92'
+  - '|26.49Mb93'
+  - '94'
+  - '|17.16Mb95'
+  - '|14.32Mb96'
+  - '| 1.01Mb97'
+  - '|35.17Mb98'
+  - '|10.10Mb99'
+  - '|11.76Mb100'
+  - '|13.63Mb101'
+  - '|18.80Mb102'
+  - '|54.57Mb103'
+  - '| 1.78Mb104'
+  - '|17.38Mb105'
+  - '| 1.56Mb106'
+  - '| 2.08Mb107'
+  - '|24.12Mb108'
+  - '|20.99Mb109'
+  - '|25.78Mb110'
+  - '|23.33Mb111'
+  - '|24.34Mb112'
+  - '|19.44Mb113'
+  - '|25.72Mb114'
+  - '|28.50Mb115'
+  - '|306.93Mb116'
+  - '| 0.97Mb117'
+  - '| 1.67Mb118'
+  - ca-trojan.bonds.id:443119
+  - 165.154.226.108:443120
+  - '|11.07Mb121'
+  - ca-trojan.bonds.id:443 2122
+  - ca-trojan.bonds.id:443 3123
+  - ca-trojan.bonds.id:443 4124
+  - ca-trojan.bonds.id:443 5125
+  - ca-trojan.bonds.id:443 6126
+  - ca-trojan.bonds.id:443 7127
+  - ca-trojan.bonds.id:443 8128
+  - ca-trojan.bonds.id:443 9129
+  - ca-trojan.bonds.id:443 10130
+  - ca-trojan.bonds.id:443 11131
+  - ca-trojan.bonds.id:443 12132
+  - ca-trojan.bonds.id:443 13133
+  - ca-trojan.bonds.id:443 14134
+  - ca-trojan.bonds.id:443 15135
+  - 51.161.118.38:443136
+  - ca-trojan.bonds.id:443 16137
+  - ca-trojan.bonds.id:443 17138
+  - ca-trojan.bonds.id:443 18139
+  - ca-trojan.bonds.id:443 19140
+  - ca-trojan.bonds.id:443 20141
+  - ca-trojan.bonds.id:443 21142
+  - ca-trojan.bonds.id:443 22143
+  - ca-trojan.bonds.id:443 23144
+  - ca-trojan.bonds.id:443 24145
+  - ca-trojan.bonds.id:443 25146
+  - ca-trojan.bonds.id:443 26147
+  - ca-trojan.bonds.id:443 27148
+  - ca-trojan.bonds.id:443 28149
+  - ca-trojan.bonds.id:443 29150
+  - ca-trojan.bonds.id:443 30151
+  - ca-trojan.bonds.id:443 31152
+  - ca-trojan.bonds.id:443 32153
+  - ca-trojan.bonds.id:443 33154
+  - ca-trojan.bonds.id:443 34155
+  - ca-trojan.bonds.id:443 35156
+  - ca-trojan.bonds.id:443 36157
+  - ca-trojan.bonds.id:443 37158
+  - ca-trojan.bonds.id:443 38159
+  - '| 8.64Mb160'
+  - '|43.34Mb161'
+  - '|50.39Mb162'
+  - 116.129.253.134:3384163
+  - 117.164.185.220:61002164
+  - '|12.64Mb165'
+  - '|35.78Mb166'
+  - '| 7.57Mb167'
+  - '| 2.18Mb168'
+  - '| 2.02Mb169'
+  - '| 7.00Mb170'
+  - '| 1.88Mb171'
+  - 116.129.254.29:3384172
+  - '| 2.03Mb173'
+  - '| 7.92Mb174'
+  - sg8-trojan.bonds.id:443175
+  - fr-trojan.bonds.id:443176
+  - '| 8.72Mb177'
+  - '|23.38Mb178'
+  - fr-trojan.bonds.id:443 2179
+  - api.mjj-home.com:443180
+  - '| 2.13Mb181'
+  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889182
+  - '|570.16Mb183'
+  - 43.229.153.167:443184
+  - tky3.ssgnode.ga:443185
+  - tky3.ssgnode.ga:443 2186
+  - tky3.ssgnode.ga:443 3187
+  - 106.180.225.69:1443188
+  - tky3.ssgnode.ga:443 4189
+  - tky3.ssgnode.ga:443 5190
+  - 45.66.134.219:443191
+  - tky3.ssgnode.ga:443 6192
+  - tky3.ssgnode.ga:443 7193
+  - 45.66.134.219:443 2194
+  - tky3.ssgnode.ga:443 8195
+  - tky3.ssgnode.ga:443 9196
+  - '| 7.76Mb197'
+  - '| 8.16Mb198'
+  - tky3.ssgnode.ga:443 10199
+  - 45.66.134.219:443 3200
+  - upay.com:443201
+  - jgw3.gaox.ml:443202
+  - '|30.85Mb203'
+  - www.tokyo2023.ga:443204
+  - nl-trojan.bonds.id:443205
+  - nl-trojan.bonds.id:443 2206
+  - '|11.42Mb207'
+  - nl-trojan.bonds.id:443 3208
+  - 🇺🇸 jp.useanlo.cf:6523209
+  - '| 3.91Mb210'
+  - '| 5.23Mb211'
+  - '| 4.24Mb212'
+  - 185.126.116.235:443213
+  - 185.126.116.235:443 2214
+  - 185.126.116.235:443 3215
+  - '|20.10Mb216'
+  - '| 2.59Mb217'
+  - '|10.14Mb218'
+  - 🇭🇰 hk31.ssgnode.ga:443219
+  - sg-relay.iqyun.zone:443220
+  - sg6-trojan.bonds.id:443221
+  - '|37.03Mb222'
+  - '| 3.30Mb223'
+  - '|125.11Mb224'
+  - 81.90.189.85:443225
+  - sg3-trojan.bonds.id:443226
+  - sg1-trojan.bonds.id:443227
+  - '|16.07Mb228'
+  - '|35.23Mb229'
+  - '|463.92Mb230'
+  - sg3-trojan.bonds.id:443 2231
+  - '|48.26Mb232'
+  - 2.58.242.43:443233
+  - 🇨🇳 tw-oo-01.click:443234
+  - 🇨🇳 tw-oo-01.click:443 2235
+  - 🇨🇳 mv-tw05.link:443236
+  - 2.58.242.43:443 2237
+  - '| 2.95Mb238'
+  - '| 6.81Mb239'
+  - 56789.gq:443240
+  - 173.82.192.61:443241
+  - '|14.26Mb242'
+  - xioix.gq:443243
+  - 170.187.182.212:443244
+  - sg.iamnotagoodman.com:443245
+  - kh.iamnotagoodman.com:443246
+  - '|18.04Mb247'
+  - '|25.87Mb248'
+  - t03.ssrsub.com.xyz:443249
+  - 72.167.45.6:443250
+  - 72.167.45.6:443 2251
+  - tky3.ssgnode.ga:443 11252
+  - share.softbank.mjj-home.com:443253
+  - 184.168.127.50:443254
+  - hg.053111.xyz:443255
+  - 🇺🇸 us-trojan.bonds.id:443256
+  - 184.168.127.50:443 2257
+  - 🇺🇸 us-trojan.bonds.id:443 2258
+  - 184.168.127.50:443 3259
+  - '|17.83Mb260'
+  - 209.141.47.137:443261
+  - 209.141.47.137:443 2262
+  - s162.s2022.xyz:23802263
+  - s162.s2022.xyz:23802 2264
+  - 🇨🇳 tw.softbank.mjj-home.com:443265
+  - 🇺🇸 jp.useanlo.cf:6523 2266
+  - 🇺🇸 us-trojan.bonds.id:443 3267
+  - '|82.21Mb268'
+  - www.anloao.cf:9053269
+  - 72.167.45.6:443 3270
+  - jgw4.gaox.ml:443271
+  - '|245.00Mb272'
+  - 🇬🇧 ukt-1.opensvr.net:443273
+  - 🇺🇸 hacks.missionsec.us:443274
+  - '| 3.95Mb275'
+  - '| 6.83Mb276'
+  - '|65.03Mb277'
+  - '|12.04Mb278'
+  - www.cjf0423.cf:443279
+  - '|17.93Mb280'
+  - s162.s2022.xyz:23802 3281
+  - 167.88.61.2:443282
+  - '|20.25Mb283'
+  - 🇭🇰 hgc.iamnotagoodman.com:443284
+  - '|26.85Mb285'
+  - idtj-ikd.bonds.id:443286
+  - 103.173.155.72:28443287
+  - '|84.66Mb288'
+  - '|72.81Mb289'
+  - '|76.29Mb290'
+  - '| 0.18Mb291'
+  - id5-trojan.bonds.id:443292
+  - '|65.50Mb293'
+  - '| 2.52Mb294'
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -2971,1373 +3237,1498 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 更新于10/23/19:061
-  - ✈付费机场推荐✈2
-  - 中国(TG频道:@kxswa)3
-  - dafeivpn.com 5元专线机场4
-  - 中国(TG频道:@kxswa) 25
-  - 美国(TG频道:@kxswa)6
-  - 澳大利亚(TG频道:@kxswa)7
-  - 中国(TG频道:@kxswa) 38
-  - 中国(TG频道:@kxswa) 49
-  - 中国(TG频道:@kxswa) 510
-  - 中国(TG频道:@kxswa) 611
-  - 中国(TG频道:@kxswa) 712
-  - 中国(TG频道:@kxswa) 813
-  - 中国(TG频道:@kxswa) 914
-  - 日本(TG频道:@kxswa)15
-  - 香港(TG频道:@kxswa)16
-  - 香港(TG频道:@kxswa) 217
-  - 中国(TG频道:@kxswa) 1018
-  - 中国(TG频道:@kxswa) 1119
-  - 中国(TG频道:@kxswa) 1220
-  - 印度(TG频道:@kxswa)21
-  - 印度(TG频道:@kxswa) 222
-  - 台湾(TG频道:@kxswa)23
-  - 中国(TG频道:@kxswa) 1324
-  - 日本(TG频道:@kxswa) 225
-  - 美国(TG频道:@kxswa) 226
-  - 美国(TG频道:@kxswa) 327
-  - 英国(TG频道:@kxswa)28
-  - 捷克(TG频道:@kxswa)29
-  - 美国(TG频道:@kxswa) 430
-  - 美国(TG频道:@kxswa) 531
-  - 美国(TG频道:@kxswa) 632
-  - 美国(TG频道:@kxswa) 733
-  - 美国(TG频道:@kxswa) 834
-  - 瑞士(TG频道:@kxswa)35
-  - 美国(TG频道:@kxswa) 936
-  - 瑞士(TG频道:@kxswa) 237
-  - 日本(TG频道:@kxswa) 338
-  - 日本(TG频道:@kxswa) 439
-  - 日本(TG频道:@kxswa) 540
-  - 澳大利亚(TG频道:@kxswa) 241
-  - 日本(TG频道:@kxswa) 642
-  - 日本(TG频道:@kxswa) 743
-  - 南非(TG频道:@kxswa)44
-  - (TG频道:@kxswa)45
-  - (TG频道:@kxswa) 246
-  - 中国(TG频道:@kxswa) 1447
-  - (TG频道:@kxswa) 348
-  - 中国(TG频道:@kxswa) 1549
-  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
-  - 🇺🇸 美国1|tg频道:@ripaojiedian51
-  - 🇭🇰 香港2|tg频道:@ripaojiedian52
-  - 🇺🇸 美国2|tg频道:@ripaojiedian53
-  - 🇭🇰 香港|tg频道:@ripaojiedian54
-  - 🇭🇰 香港01|tg频道:@ripaojiedian55
-  - 🇸🇬 新加坡linode56
-  - 🇺🇸 美国US|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
-  - 🇺🇸 美国|tg频道:@ripaojiedian60
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
-  - '|15.63Mb62'
-  - '|105.42Mb63'
-  - '|41.07Mb64'
-  - '| 0.56Mb65'
-  - '|26.68Mb66'
-  - '|25.51Mb67'
-  - '|26.49Mb68'
-  - '69'
-  - '|17.16Mb70'
-  - '|14.32Mb71'
-  - '| 1.01Mb72'
-  - '|35.17Mb73'
-  - '|10.10Mb74'
-  - '|11.76Mb75'
-  - '|13.63Mb76'
-  - '|18.80Mb77'
-  - '|54.57Mb78'
-  - '| 1.78Mb79'
-  - '|17.38Mb80'
-  - '| 1.56Mb81'
-  - '| 2.08Mb82'
-  - '|24.12Mb83'
-  - '|20.99Mb84'
-  - '|25.78Mb85'
-  - '|23.33Mb86'
-  - '|24.34Mb87'
-  - '|19.44Mb88'
-  - '|25.72Mb89'
-  - '|28.50Mb90'
-  - '|306.93Mb91'
-  - '| 0.97Mb92'
-  - '| 1.67Mb93'
-  - ca-trojan.bonds.id:44394
-  - 165.154.226.108:44395
-  - '|11.07Mb96'
-  - ca-trojan.bonds.id:443 297
-  - ca-trojan.bonds.id:443 398
-  - ca-trojan.bonds.id:443 499
-  - ca-trojan.bonds.id:443 5100
-  - ca-trojan.bonds.id:443 6101
-  - ca-trojan.bonds.id:443 7102
-  - ca-trojan.bonds.id:443 8103
-  - ca-trojan.bonds.id:443 9104
-  - ca-trojan.bonds.id:443 10105
-  - ca-trojan.bonds.id:443 11106
-  - ca-trojan.bonds.id:443 12107
-  - ca-trojan.bonds.id:443 13108
-  - ca-trojan.bonds.id:443 14109
-  - ca-trojan.bonds.id:443 15110
-  - 51.161.118.38:443111
-  - ca-trojan.bonds.id:443 16112
-  - ca-trojan.bonds.id:443 17113
-  - ca-trojan.bonds.id:443 18114
-  - ca-trojan.bonds.id:443 19115
-  - ca-trojan.bonds.id:443 20116
-  - ca-trojan.bonds.id:443 21117
-  - ca-trojan.bonds.id:443 22118
-  - ca-trojan.bonds.id:443 23119
-  - ca-trojan.bonds.id:443 24120
-  - ca-trojan.bonds.id:443 25121
-  - ca-trojan.bonds.id:443 26122
-  - ca-trojan.bonds.id:443 27123
-  - ca-trojan.bonds.id:443 28124
-  - ca-trojan.bonds.id:443 29125
-  - ca-trojan.bonds.id:443 30126
-  - ca-trojan.bonds.id:443 31127
-  - ca-trojan.bonds.id:443 32128
-  - ca-trojan.bonds.id:443 33129
-  - ca-trojan.bonds.id:443 34130
-  - ca-trojan.bonds.id:443 35131
-  - ca-trojan.bonds.id:443 36132
-  - ca-trojan.bonds.id:443 37133
-  - ca-trojan.bonds.id:443 38134
-  - '| 8.64Mb135'
-  - '|43.34Mb136'
-  - '|50.39Mb137'
-  - 116.129.253.134:3384138
-  - 117.164.185.220:61002139
-  - '|12.64Mb140'
-  - '|35.78Mb141'
-  - '| 7.57Mb142'
-  - '| 2.18Mb143'
-  - '| 2.02Mb144'
-  - '| 7.00Mb145'
-  - '| 1.88Mb146'
-  - 116.129.254.29:3384147
-  - '| 2.03Mb148'
-  - '| 7.92Mb149'
-  - sg8-trojan.bonds.id:443150
-  - fr-trojan.bonds.id:443151
-  - '| 8.72Mb152'
-  - '|23.38Mb153'
-  - fr-trojan.bonds.id:443 2154
-  - api.mjj-home.com:443155
-  - '| 2.13Mb156'
-  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889157
-  - '|570.16Mb158'
-  - 43.229.153.167:443159
-  - tky3.ssgnode.ga:443160
-  - tky3.ssgnode.ga:443 2161
-  - tky3.ssgnode.ga:443 3162
-  - 106.180.225.69:1443163
-  - tky3.ssgnode.ga:443 4164
-  - tky3.ssgnode.ga:443 5165
-  - 45.66.134.219:443166
-  - tky3.ssgnode.ga:443 6167
-  - tky3.ssgnode.ga:443 7168
-  - 45.66.134.219:443 2169
-  - tky3.ssgnode.ga:443 8170
-  - tky3.ssgnode.ga:443 9171
-  - '| 7.76Mb172'
-  - '| 8.16Mb173'
-  - tky3.ssgnode.ga:443 10174
-  - 45.66.134.219:443 3175
-  - upay.com:443176
-  - jgw3.gaox.ml:443177
-  - '|30.85Mb178'
-  - www.tokyo2023.ga:443179
-  - nl-trojan.bonds.id:443180
-  - nl-trojan.bonds.id:443 2181
-  - '|11.42Mb182'
-  - nl-trojan.bonds.id:443 3183
-  - 🇺🇸 jp.useanlo.cf:6523184
-  - '| 3.91Mb185'
-  - '| 5.23Mb186'
-  - '| 4.24Mb187'
-  - 185.126.116.235:443188
-  - 185.126.116.235:443 2189
-  - 185.126.116.235:443 3190
-  - '|20.10Mb191'
-  - '| 2.59Mb192'
-  - '|10.14Mb193'
-  - 🇭🇰 hk31.ssgnode.ga:443194
-  - sg-relay.iqyun.zone:443195
-  - sg6-trojan.bonds.id:443196
-  - '|37.03Mb197'
-  - '| 3.30Mb198'
-  - '|125.11Mb199'
-  - 81.90.189.85:443200
-  - sg3-trojan.bonds.id:443201
-  - sg1-trojan.bonds.id:443202
-  - '|16.07Mb203'
-  - '|35.23Mb204'
-  - '|463.92Mb205'
-  - sg3-trojan.bonds.id:443 2206
-  - '|48.26Mb207'
-  - 2.58.242.43:443208
-  - 🇨🇳 tw-oo-01.click:443209
-  - 🇨🇳 tw-oo-01.click:443 2210
-  - 🇨🇳 mv-tw05.link:443211
-  - 2.58.242.43:443 2212
-  - '| 2.95Mb213'
-  - '| 6.81Mb214'
-  - 56789.gq:443215
-  - 173.82.192.61:443216
-  - '|14.26Mb217'
-  - xioix.gq:443218
-  - 170.187.182.212:443219
-  - sg.iamnotagoodman.com:443220
-  - kh.iamnotagoodman.com:443221
-  - '|18.04Mb222'
-  - '|25.87Mb223'
-  - t03.ssrsub.com.xyz:443224
-  - 72.167.45.6:443225
-  - 72.167.45.6:443 2226
-  - tky3.ssgnode.ga:443 11227
-  - share.softbank.mjj-home.com:443228
-  - 184.168.127.50:443229
-  - hg.053111.xyz:443230
-  - 🇺🇸 us-trojan.bonds.id:443231
-  - 184.168.127.50:443 2232
-  - 🇺🇸 us-trojan.bonds.id:443 2233
-  - 184.168.127.50:443 3234
-  - '|17.83Mb235'
-  - 209.141.47.137:443236
-  - 209.141.47.137:443 2237
-  - s162.s2022.xyz:23802238
-  - s162.s2022.xyz:23802 2239
-  - 🇨🇳 tw.softbank.mjj-home.com:443240
-  - 🇺🇸 jp.useanlo.cf:6523 2241
-  - 🇺🇸 us-trojan.bonds.id:443 3242
-  - '|82.21Mb243'
-  - www.anloao.cf:9053244
-  - 72.167.45.6:443 3245
-  - jgw4.gaox.ml:443246
-  - '|245.00Mb247'
-  - 🇬🇧 ukt-1.opensvr.net:443248
-  - 🇺🇸 hacks.missionsec.us:443249
-  - '| 3.95Mb250'
-  - '| 6.83Mb251'
-  - '|65.03Mb252'
-  - '|12.04Mb253'
-  - www.cjf0423.cf:443254
-  - '|17.93Mb255'
-  - s162.s2022.xyz:23802 3256
-  - 167.88.61.2:443257
-  - '|20.25Mb258'
-  - 🇭🇰 hgc.iamnotagoodman.com:443259
-  - '|26.85Mb260'
-  - idtj-ikd.bonds.id:443261
-  - 103.173.155.72:28443262
-  - '|84.66Mb263'
-  - '|72.81Mb264'
-  - '|76.29Mb265'
-  - '| 0.18Mb266'
-  - id5-trojan.bonds.id:443267
-  - '|65.50Mb268'
-  - '| 2.52Mb269'
+  - 🇹🇼 _TW_台湾1
+  - 🇮🇳 _IN_印度2
+  - 🇯🇵 _JP_日本3
+  - 🇺🇸 _US_美国4
+  - 🇸🇬 _SG_新加坡5
+  - 🇺🇸 _US_美国 26
+  - 🇺🇸 _US_美国 37
+  - 🇫🇷 _FR_法国8
+  - 🇫🇷 _FR_法国 29
+  - 🇳🇱 _NL_荷兰10
+  - 🇳🇱 _NL_荷兰 211
+  - 🇺🇸 _US_美国 412
+  - 🇸🇬 _SG_新加坡 213
+  - 🇫🇷 _FR_法国 314
+  - 🇳🇱 _NL_荷兰 315
+  - 🇭🇰 _HK_香港->🇯🇵_JP_日本16
+  - 🇫🇷 _FR_法国 417
+  - default_name18
+  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡19
+  - default_name 220
+  - 🇺🇸 _US_美国 521
+  - 🇺🇸 _US_美国 622
+  - 🇯🇵 _JP_日本 223
+  - 🇺🇸 _US_美国 724
+  - 🇺🇸 _US_美国 825
+  - 更新于10/23/19:0626
+  - ✈付费机场推荐✈27
+  - 中国(TG频道:@kxswa)28
+  - dafeivpn.com 5元专线机场29
+  - 中国(TG频道:@kxswa) 230
+  - 美国(TG频道:@kxswa)31
+  - 澳大利亚(TG频道:@kxswa)32
+  - 中国(TG频道:@kxswa) 333
+  - 中国(TG频道:@kxswa) 434
+  - 中国(TG频道:@kxswa) 535
+  - 中国(TG频道:@kxswa) 636
+  - 中国(TG频道:@kxswa) 737
+  - 中国(TG频道:@kxswa) 838
+  - 中国(TG频道:@kxswa) 939
+  - 日本(TG频道:@kxswa)40
+  - 香港(TG频道:@kxswa)41
+  - 香港(TG频道:@kxswa) 242
+  - 中国(TG频道:@kxswa) 1043
+  - 中国(TG频道:@kxswa) 1144
+  - 中国(TG频道:@kxswa) 1245
+  - 印度(TG频道:@kxswa)46
+  - 印度(TG频道:@kxswa) 247
+  - 台湾(TG频道:@kxswa)48
+  - 中国(TG频道:@kxswa) 1349
+  - 日本(TG频道:@kxswa) 250
+  - 美国(TG频道:@kxswa) 251
+  - 美国(TG频道:@kxswa) 352
+  - 英国(TG频道:@kxswa)53
+  - 捷克(TG频道:@kxswa)54
+  - 美国(TG频道:@kxswa) 455
+  - 美国(TG频道:@kxswa) 556
+  - 美国(TG频道:@kxswa) 657
+  - 美国(TG频道:@kxswa) 758
+  - 美国(TG频道:@kxswa) 859
+  - 瑞士(TG频道:@kxswa)60
+  - 美国(TG频道:@kxswa) 961
+  - 瑞士(TG频道:@kxswa) 262
+  - 日本(TG频道:@kxswa) 363
+  - 日本(TG频道:@kxswa) 464
+  - 日本(TG频道:@kxswa) 565
+  - 澳大利亚(TG频道:@kxswa) 266
+  - 日本(TG频道:@kxswa) 667
+  - 日本(TG频道:@kxswa) 768
+  - 南非(TG频道:@kxswa)69
+  - (TG频道:@kxswa)70
+  - (TG频道:@kxswa) 271
+  - 中国(TG频道:@kxswa) 1472
+  - (TG频道:@kxswa) 373
+  - 中国(TG频道:@kxswa) 1574
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian75
+  - 🇺🇸 美国1|tg频道:@ripaojiedian76
+  - 🇭🇰 香港2|tg频道:@ripaojiedian77
+  - 🇺🇸 美国2|tg频道:@ripaojiedian78
+  - 🇭🇰 香港|tg频道:@ripaojiedian79
+  - 🇭🇰 香港01|tg频道:@ripaojiedian80
+  - 🇸🇬 新加坡linode81
+  - 🇺🇸 美国US|tg频道:@ripaojiedian82
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian83
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian84
+  - 🇺🇸 美国|tg频道:@ripaojiedian85
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian86
+  - '|15.63Mb87'
+  - '|105.42Mb88'
+  - '|41.07Mb89'
+  - '| 0.56Mb90'
+  - '|26.68Mb91'
+  - '|25.51Mb92'
+  - '|26.49Mb93'
+  - '94'
+  - '|17.16Mb95'
+  - '|14.32Mb96'
+  - '| 1.01Mb97'
+  - '|35.17Mb98'
+  - '|10.10Mb99'
+  - '|11.76Mb100'
+  - '|13.63Mb101'
+  - '|18.80Mb102'
+  - '|54.57Mb103'
+  - '| 1.78Mb104'
+  - '|17.38Mb105'
+  - '| 1.56Mb106'
+  - '| 2.08Mb107'
+  - '|24.12Mb108'
+  - '|20.99Mb109'
+  - '|25.78Mb110'
+  - '|23.33Mb111'
+  - '|24.34Mb112'
+  - '|19.44Mb113'
+  - '|25.72Mb114'
+  - '|28.50Mb115'
+  - '|306.93Mb116'
+  - '| 0.97Mb117'
+  - '| 1.67Mb118'
+  - ca-trojan.bonds.id:443119
+  - 165.154.226.108:443120
+  - '|11.07Mb121'
+  - ca-trojan.bonds.id:443 2122
+  - ca-trojan.bonds.id:443 3123
+  - ca-trojan.bonds.id:443 4124
+  - ca-trojan.bonds.id:443 5125
+  - ca-trojan.bonds.id:443 6126
+  - ca-trojan.bonds.id:443 7127
+  - ca-trojan.bonds.id:443 8128
+  - ca-trojan.bonds.id:443 9129
+  - ca-trojan.bonds.id:443 10130
+  - ca-trojan.bonds.id:443 11131
+  - ca-trojan.bonds.id:443 12132
+  - ca-trojan.bonds.id:443 13133
+  - ca-trojan.bonds.id:443 14134
+  - ca-trojan.bonds.id:443 15135
+  - 51.161.118.38:443136
+  - ca-trojan.bonds.id:443 16137
+  - ca-trojan.bonds.id:443 17138
+  - ca-trojan.bonds.id:443 18139
+  - ca-trojan.bonds.id:443 19140
+  - ca-trojan.bonds.id:443 20141
+  - ca-trojan.bonds.id:443 21142
+  - ca-trojan.bonds.id:443 22143
+  - ca-trojan.bonds.id:443 23144
+  - ca-trojan.bonds.id:443 24145
+  - ca-trojan.bonds.id:443 25146
+  - ca-trojan.bonds.id:443 26147
+  - ca-trojan.bonds.id:443 27148
+  - ca-trojan.bonds.id:443 28149
+  - ca-trojan.bonds.id:443 29150
+  - ca-trojan.bonds.id:443 30151
+  - ca-trojan.bonds.id:443 31152
+  - ca-trojan.bonds.id:443 32153
+  - ca-trojan.bonds.id:443 33154
+  - ca-trojan.bonds.id:443 34155
+  - ca-trojan.bonds.id:443 35156
+  - ca-trojan.bonds.id:443 36157
+  - ca-trojan.bonds.id:443 37158
+  - ca-trojan.bonds.id:443 38159
+  - '| 8.64Mb160'
+  - '|43.34Mb161'
+  - '|50.39Mb162'
+  - 116.129.253.134:3384163
+  - 117.164.185.220:61002164
+  - '|12.64Mb165'
+  - '|35.78Mb166'
+  - '| 7.57Mb167'
+  - '| 2.18Mb168'
+  - '| 2.02Mb169'
+  - '| 7.00Mb170'
+  - '| 1.88Mb171'
+  - 116.129.254.29:3384172
+  - '| 2.03Mb173'
+  - '| 7.92Mb174'
+  - sg8-trojan.bonds.id:443175
+  - fr-trojan.bonds.id:443176
+  - '| 8.72Mb177'
+  - '|23.38Mb178'
+  - fr-trojan.bonds.id:443 2179
+  - api.mjj-home.com:443180
+  - '| 2.13Mb181'
+  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889182
+  - '|570.16Mb183'
+  - 43.229.153.167:443184
+  - tky3.ssgnode.ga:443185
+  - tky3.ssgnode.ga:443 2186
+  - tky3.ssgnode.ga:443 3187
+  - 106.180.225.69:1443188
+  - tky3.ssgnode.ga:443 4189
+  - tky3.ssgnode.ga:443 5190
+  - 45.66.134.219:443191
+  - tky3.ssgnode.ga:443 6192
+  - tky3.ssgnode.ga:443 7193
+  - 45.66.134.219:443 2194
+  - tky3.ssgnode.ga:443 8195
+  - tky3.ssgnode.ga:443 9196
+  - '| 7.76Mb197'
+  - '| 8.16Mb198'
+  - tky3.ssgnode.ga:443 10199
+  - 45.66.134.219:443 3200
+  - upay.com:443201
+  - jgw3.gaox.ml:443202
+  - '|30.85Mb203'
+  - www.tokyo2023.ga:443204
+  - nl-trojan.bonds.id:443205
+  - nl-trojan.bonds.id:443 2206
+  - '|11.42Mb207'
+  - nl-trojan.bonds.id:443 3208
+  - 🇺🇸 jp.useanlo.cf:6523209
+  - '| 3.91Mb210'
+  - '| 5.23Mb211'
+  - '| 4.24Mb212'
+  - 185.126.116.235:443213
+  - 185.126.116.235:443 2214
+  - 185.126.116.235:443 3215
+  - '|20.10Mb216'
+  - '| 2.59Mb217'
+  - '|10.14Mb218'
+  - 🇭🇰 hk31.ssgnode.ga:443219
+  - sg-relay.iqyun.zone:443220
+  - sg6-trojan.bonds.id:443221
+  - '|37.03Mb222'
+  - '| 3.30Mb223'
+  - '|125.11Mb224'
+  - 81.90.189.85:443225
+  - sg3-trojan.bonds.id:443226
+  - sg1-trojan.bonds.id:443227
+  - '|16.07Mb228'
+  - '|35.23Mb229'
+  - '|463.92Mb230'
+  - sg3-trojan.bonds.id:443 2231
+  - '|48.26Mb232'
+  - 2.58.242.43:443233
+  - 🇨🇳 tw-oo-01.click:443234
+  - 🇨🇳 tw-oo-01.click:443 2235
+  - 🇨🇳 mv-tw05.link:443236
+  - 2.58.242.43:443 2237
+  - '| 2.95Mb238'
+  - '| 6.81Mb239'
+  - 56789.gq:443240
+  - 173.82.192.61:443241
+  - '|14.26Mb242'
+  - xioix.gq:443243
+  - 170.187.182.212:443244
+  - sg.iamnotagoodman.com:443245
+  - kh.iamnotagoodman.com:443246
+  - '|18.04Mb247'
+  - '|25.87Mb248'
+  - t03.ssrsub.com.xyz:443249
+  - 72.167.45.6:443250
+  - 72.167.45.6:443 2251
+  - tky3.ssgnode.ga:443 11252
+  - share.softbank.mjj-home.com:443253
+  - 184.168.127.50:443254
+  - hg.053111.xyz:443255
+  - 🇺🇸 us-trojan.bonds.id:443256
+  - 184.168.127.50:443 2257
+  - 🇺🇸 us-trojan.bonds.id:443 2258
+  - 184.168.127.50:443 3259
+  - '|17.83Mb260'
+  - 209.141.47.137:443261
+  - 209.141.47.137:443 2262
+  - s162.s2022.xyz:23802263
+  - s162.s2022.xyz:23802 2264
+  - 🇨🇳 tw.softbank.mjj-home.com:443265
+  - 🇺🇸 jp.useanlo.cf:6523 2266
+  - 🇺🇸 us-trojan.bonds.id:443 3267
+  - '|82.21Mb268'
+  - www.anloao.cf:9053269
+  - 72.167.45.6:443 3270
+  - jgw4.gaox.ml:443271
+  - '|245.00Mb272'
+  - 🇬🇧 ukt-1.opensvr.net:443273
+  - 🇺🇸 hacks.missionsec.us:443274
+  - '| 3.95Mb275'
+  - '| 6.83Mb276'
+  - '|65.03Mb277'
+  - '|12.04Mb278'
+  - www.cjf0423.cf:443279
+  - '|17.93Mb280'
+  - s162.s2022.xyz:23802 3281
+  - 167.88.61.2:443282
+  - '|20.25Mb283'
+  - 🇭🇰 hgc.iamnotagoodman.com:443284
+  - '|26.85Mb285'
+  - idtj-ikd.bonds.id:443286
+  - 103.173.155.72:28443287
+  - '|84.66Mb288'
+  - '|72.81Mb289'
+  - '|76.29Mb290'
+  - '| 0.18Mb291'
+  - id5-trojan.bonds.id:443292
+  - '|65.50Mb293'
+  - '| 2.52Mb294'
 - name: 🎯 全球直连
   type: select
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
-  - 更新于10/23/19:061
-  - ✈付费机场推荐✈2
-  - 中国(TG频道:@kxswa)3
-  - dafeivpn.com 5元专线机场4
-  - 中国(TG频道:@kxswa) 25
-  - 美国(TG频道:@kxswa)6
-  - 澳大利亚(TG频道:@kxswa)7
-  - 中国(TG频道:@kxswa) 38
-  - 中国(TG频道:@kxswa) 49
-  - 中国(TG频道:@kxswa) 510
-  - 中国(TG频道:@kxswa) 611
-  - 中国(TG频道:@kxswa) 712
-  - 中国(TG频道:@kxswa) 813
-  - 中国(TG频道:@kxswa) 914
-  - 日本(TG频道:@kxswa)15
-  - 香港(TG频道:@kxswa)16
-  - 香港(TG频道:@kxswa) 217
-  - 中国(TG频道:@kxswa) 1018
-  - 中国(TG频道:@kxswa) 1119
-  - 中国(TG频道:@kxswa) 1220
-  - 印度(TG频道:@kxswa)21
-  - 印度(TG频道:@kxswa) 222
-  - 台湾(TG频道:@kxswa)23
-  - 中国(TG频道:@kxswa) 1324
-  - 日本(TG频道:@kxswa) 225
-  - 美国(TG频道:@kxswa) 226
-  - 美国(TG频道:@kxswa) 327
-  - 英国(TG频道:@kxswa)28
-  - 捷克(TG频道:@kxswa)29
-  - 美国(TG频道:@kxswa) 430
-  - 美国(TG频道:@kxswa) 531
-  - 美国(TG频道:@kxswa) 632
-  - 美国(TG频道:@kxswa) 733
-  - 美国(TG频道:@kxswa) 834
-  - 瑞士(TG频道:@kxswa)35
-  - 美国(TG频道:@kxswa) 936
-  - 瑞士(TG频道:@kxswa) 237
-  - 日本(TG频道:@kxswa) 338
-  - 日本(TG频道:@kxswa) 439
-  - 日本(TG频道:@kxswa) 540
-  - 澳大利亚(TG频道:@kxswa) 241
-  - 日本(TG频道:@kxswa) 642
-  - 日本(TG频道:@kxswa) 743
-  - 南非(TG频道:@kxswa)44
-  - (TG频道:@kxswa)45
-  - (TG频道:@kxswa) 246
-  - 中国(TG频道:@kxswa) 1447
-  - (TG频道:@kxswa) 348
-  - 中国(TG频道:@kxswa) 1549
-  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
-  - 🇺🇸 美国1|tg频道:@ripaojiedian51
-  - 🇭🇰 香港2|tg频道:@ripaojiedian52
-  - 🇺🇸 美国2|tg频道:@ripaojiedian53
-  - 🇭🇰 香港|tg频道:@ripaojiedian54
-  - 🇭🇰 香港01|tg频道:@ripaojiedian55
-  - 🇸🇬 新加坡linode56
-  - 🇺🇸 美国US|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
-  - 🇺🇸 美国|tg频道:@ripaojiedian60
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
-  - '|15.63Mb62'
-  - '|105.42Mb63'
-  - '|41.07Mb64'
-  - '| 0.56Mb65'
-  - '|26.68Mb66'
-  - '|25.51Mb67'
-  - '|26.49Mb68'
-  - '69'
-  - '|17.16Mb70'
-  - '|14.32Mb71'
-  - '| 1.01Mb72'
-  - '|35.17Mb73'
-  - '|10.10Mb74'
-  - '|11.76Mb75'
-  - '|13.63Mb76'
-  - '|18.80Mb77'
-  - '|54.57Mb78'
-  - '| 1.78Mb79'
-  - '|17.38Mb80'
-  - '| 1.56Mb81'
-  - '| 2.08Mb82'
-  - '|24.12Mb83'
-  - '|20.99Mb84'
-  - '|25.78Mb85'
-  - '|23.33Mb86'
-  - '|24.34Mb87'
-  - '|19.44Mb88'
-  - '|25.72Mb89'
-  - '|28.50Mb90'
-  - '|306.93Mb91'
-  - '| 0.97Mb92'
-  - '| 1.67Mb93'
-  - ca-trojan.bonds.id:44394
-  - 165.154.226.108:44395
-  - '|11.07Mb96'
-  - ca-trojan.bonds.id:443 297
-  - ca-trojan.bonds.id:443 398
-  - ca-trojan.bonds.id:443 499
-  - ca-trojan.bonds.id:443 5100
-  - ca-trojan.bonds.id:443 6101
-  - ca-trojan.bonds.id:443 7102
-  - ca-trojan.bonds.id:443 8103
-  - ca-trojan.bonds.id:443 9104
-  - ca-trojan.bonds.id:443 10105
-  - ca-trojan.bonds.id:443 11106
-  - ca-trojan.bonds.id:443 12107
-  - ca-trojan.bonds.id:443 13108
-  - ca-trojan.bonds.id:443 14109
-  - ca-trojan.bonds.id:443 15110
-  - 51.161.118.38:443111
-  - ca-trojan.bonds.id:443 16112
-  - ca-trojan.bonds.id:443 17113
-  - ca-trojan.bonds.id:443 18114
-  - ca-trojan.bonds.id:443 19115
-  - ca-trojan.bonds.id:443 20116
-  - ca-trojan.bonds.id:443 21117
-  - ca-trojan.bonds.id:443 22118
-  - ca-trojan.bonds.id:443 23119
-  - ca-trojan.bonds.id:443 24120
-  - ca-trojan.bonds.id:443 25121
-  - ca-trojan.bonds.id:443 26122
-  - ca-trojan.bonds.id:443 27123
-  - ca-trojan.bonds.id:443 28124
-  - ca-trojan.bonds.id:443 29125
-  - ca-trojan.bonds.id:443 30126
-  - ca-trojan.bonds.id:443 31127
-  - ca-trojan.bonds.id:443 32128
-  - ca-trojan.bonds.id:443 33129
-  - ca-trojan.bonds.id:443 34130
-  - ca-trojan.bonds.id:443 35131
-  - ca-trojan.bonds.id:443 36132
-  - ca-trojan.bonds.id:443 37133
-  - ca-trojan.bonds.id:443 38134
-  - '| 8.64Mb135'
-  - '|43.34Mb136'
-  - '|50.39Mb137'
-  - 116.129.253.134:3384138
-  - 117.164.185.220:61002139
-  - '|12.64Mb140'
-  - '|35.78Mb141'
-  - '| 7.57Mb142'
-  - '| 2.18Mb143'
-  - '| 2.02Mb144'
-  - '| 7.00Mb145'
-  - '| 1.88Mb146'
-  - 116.129.254.29:3384147
-  - '| 2.03Mb148'
-  - '| 7.92Mb149'
-  - sg8-trojan.bonds.id:443150
-  - fr-trojan.bonds.id:443151
-  - '| 8.72Mb152'
-  - '|23.38Mb153'
-  - fr-trojan.bonds.id:443 2154
-  - api.mjj-home.com:443155
-  - '| 2.13Mb156'
-  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889157
-  - '|570.16Mb158'
-  - 43.229.153.167:443159
-  - tky3.ssgnode.ga:443160
-  - tky3.ssgnode.ga:443 2161
-  - tky3.ssgnode.ga:443 3162
-  - 106.180.225.69:1443163
-  - tky3.ssgnode.ga:443 4164
-  - tky3.ssgnode.ga:443 5165
-  - 45.66.134.219:443166
-  - tky3.ssgnode.ga:443 6167
-  - tky3.ssgnode.ga:443 7168
-  - 45.66.134.219:443 2169
-  - tky3.ssgnode.ga:443 8170
-  - tky3.ssgnode.ga:443 9171
-  - '| 7.76Mb172'
-  - '| 8.16Mb173'
-  - tky3.ssgnode.ga:443 10174
-  - 45.66.134.219:443 3175
-  - upay.com:443176
-  - jgw3.gaox.ml:443177
-  - '|30.85Mb178'
-  - www.tokyo2023.ga:443179
-  - nl-trojan.bonds.id:443180
-  - nl-trojan.bonds.id:443 2181
-  - '|11.42Mb182'
-  - nl-trojan.bonds.id:443 3183
-  - 🇺🇸 jp.useanlo.cf:6523184
-  - '| 3.91Mb185'
-  - '| 5.23Mb186'
-  - '| 4.24Mb187'
-  - 185.126.116.235:443188
-  - 185.126.116.235:443 2189
-  - 185.126.116.235:443 3190
-  - '|20.10Mb191'
-  - '| 2.59Mb192'
-  - '|10.14Mb193'
-  - 🇭🇰 hk31.ssgnode.ga:443194
-  - sg-relay.iqyun.zone:443195
-  - sg6-trojan.bonds.id:443196
-  - '|37.03Mb197'
-  - '| 3.30Mb198'
-  - '|125.11Mb199'
-  - 81.90.189.85:443200
-  - sg3-trojan.bonds.id:443201
-  - sg1-trojan.bonds.id:443202
-  - '|16.07Mb203'
-  - '|35.23Mb204'
-  - '|463.92Mb205'
-  - sg3-trojan.bonds.id:443 2206
-  - '|48.26Mb207'
-  - 2.58.242.43:443208
-  - 🇨🇳 tw-oo-01.click:443209
-  - 🇨🇳 tw-oo-01.click:443 2210
-  - 🇨🇳 mv-tw05.link:443211
-  - 2.58.242.43:443 2212
-  - '| 2.95Mb213'
-  - '| 6.81Mb214'
-  - 56789.gq:443215
-  - 173.82.192.61:443216
-  - '|14.26Mb217'
-  - xioix.gq:443218
-  - 170.187.182.212:443219
-  - sg.iamnotagoodman.com:443220
-  - kh.iamnotagoodman.com:443221
-  - '|18.04Mb222'
-  - '|25.87Mb223'
-  - t03.ssrsub.com.xyz:443224
-  - 72.167.45.6:443225
-  - 72.167.45.6:443 2226
-  - tky3.ssgnode.ga:443 11227
-  - share.softbank.mjj-home.com:443228
-  - 184.168.127.50:443229
-  - hg.053111.xyz:443230
-  - 🇺🇸 us-trojan.bonds.id:443231
-  - 184.168.127.50:443 2232
-  - 🇺🇸 us-trojan.bonds.id:443 2233
-  - 184.168.127.50:443 3234
-  - '|17.83Mb235'
-  - 209.141.47.137:443236
-  - 209.141.47.137:443 2237
-  - s162.s2022.xyz:23802238
-  - s162.s2022.xyz:23802 2239
-  - 🇨🇳 tw.softbank.mjj-home.com:443240
-  - 🇺🇸 jp.useanlo.cf:6523 2241
-  - 🇺🇸 us-trojan.bonds.id:443 3242
-  - '|82.21Mb243'
-  - www.anloao.cf:9053244
-  - 72.167.45.6:443 3245
-  - jgw4.gaox.ml:443246
-  - '|245.00Mb247'
-  - 🇬🇧 ukt-1.opensvr.net:443248
-  - 🇺🇸 hacks.missionsec.us:443249
-  - '| 3.95Mb250'
-  - '| 6.83Mb251'
-  - '|65.03Mb252'
-  - '|12.04Mb253'
-  - www.cjf0423.cf:443254
-  - '|17.93Mb255'
-  - s162.s2022.xyz:23802 3256
-  - 167.88.61.2:443257
-  - '|20.25Mb258'
-  - 🇭🇰 hgc.iamnotagoodman.com:443259
-  - '|26.85Mb260'
-  - idtj-ikd.bonds.id:443261
-  - 103.173.155.72:28443262
-  - '|84.66Mb263'
-  - '|72.81Mb264'
-  - '|76.29Mb265'
-  - '| 0.18Mb266'
-  - id5-trojan.bonds.id:443267
-  - '|65.50Mb268'
-  - '| 2.52Mb269'
+  - 🇹🇼 _TW_台湾1
+  - 🇮🇳 _IN_印度2
+  - 🇯🇵 _JP_日本3
+  - 🇺🇸 _US_美国4
+  - 🇸🇬 _SG_新加坡5
+  - 🇺🇸 _US_美国 26
+  - 🇺🇸 _US_美国 37
+  - 🇫🇷 _FR_法国8
+  - 🇫🇷 _FR_法国 29
+  - 🇳🇱 _NL_荷兰10
+  - 🇳🇱 _NL_荷兰 211
+  - 🇺🇸 _US_美国 412
+  - 🇸🇬 _SG_新加坡 213
+  - 🇫🇷 _FR_法国 314
+  - 🇳🇱 _NL_荷兰 315
+  - 🇭🇰 _HK_香港->🇯🇵_JP_日本16
+  - 🇫🇷 _FR_法国 417
+  - default_name18
+  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡19
+  - default_name 220
+  - 🇺🇸 _US_美国 521
+  - 🇺🇸 _US_美国 622
+  - 🇯🇵 _JP_日本 223
+  - 🇺🇸 _US_美国 724
+  - 🇺🇸 _US_美国 825
+  - 更新于10/23/19:0626
+  - ✈付费机场推荐✈27
+  - 中国(TG频道:@kxswa)28
+  - dafeivpn.com 5元专线机场29
+  - 中国(TG频道:@kxswa) 230
+  - 美国(TG频道:@kxswa)31
+  - 澳大利亚(TG频道:@kxswa)32
+  - 中国(TG频道:@kxswa) 333
+  - 中国(TG频道:@kxswa) 434
+  - 中国(TG频道:@kxswa) 535
+  - 中国(TG频道:@kxswa) 636
+  - 中国(TG频道:@kxswa) 737
+  - 中国(TG频道:@kxswa) 838
+  - 中国(TG频道:@kxswa) 939
+  - 日本(TG频道:@kxswa)40
+  - 香港(TG频道:@kxswa)41
+  - 香港(TG频道:@kxswa) 242
+  - 中国(TG频道:@kxswa) 1043
+  - 中国(TG频道:@kxswa) 1144
+  - 中国(TG频道:@kxswa) 1245
+  - 印度(TG频道:@kxswa)46
+  - 印度(TG频道:@kxswa) 247
+  - 台湾(TG频道:@kxswa)48
+  - 中国(TG频道:@kxswa) 1349
+  - 日本(TG频道:@kxswa) 250
+  - 美国(TG频道:@kxswa) 251
+  - 美国(TG频道:@kxswa) 352
+  - 英国(TG频道:@kxswa)53
+  - 捷克(TG频道:@kxswa)54
+  - 美国(TG频道:@kxswa) 455
+  - 美国(TG频道:@kxswa) 556
+  - 美国(TG频道:@kxswa) 657
+  - 美国(TG频道:@kxswa) 758
+  - 美国(TG频道:@kxswa) 859
+  - 瑞士(TG频道:@kxswa)60
+  - 美国(TG频道:@kxswa) 961
+  - 瑞士(TG频道:@kxswa) 262
+  - 日本(TG频道:@kxswa) 363
+  - 日本(TG频道:@kxswa) 464
+  - 日本(TG频道:@kxswa) 565
+  - 澳大利亚(TG频道:@kxswa) 266
+  - 日本(TG频道:@kxswa) 667
+  - 日本(TG频道:@kxswa) 768
+  - 南非(TG频道:@kxswa)69
+  - (TG频道:@kxswa)70
+  - (TG频道:@kxswa) 271
+  - 中国(TG频道:@kxswa) 1472
+  - (TG频道:@kxswa) 373
+  - 中国(TG频道:@kxswa) 1574
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian75
+  - 🇺🇸 美国1|tg频道:@ripaojiedian76
+  - 🇭🇰 香港2|tg频道:@ripaojiedian77
+  - 🇺🇸 美国2|tg频道:@ripaojiedian78
+  - 🇭🇰 香港|tg频道:@ripaojiedian79
+  - 🇭🇰 香港01|tg频道:@ripaojiedian80
+  - 🇸🇬 新加坡linode81
+  - 🇺🇸 美国US|tg频道:@ripaojiedian82
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian83
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian84
+  - 🇺🇸 美国|tg频道:@ripaojiedian85
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian86
+  - '|15.63Mb87'
+  - '|105.42Mb88'
+  - '|41.07Mb89'
+  - '| 0.56Mb90'
+  - '|26.68Mb91'
+  - '|25.51Mb92'
+  - '|26.49Mb93'
+  - '94'
+  - '|17.16Mb95'
+  - '|14.32Mb96'
+  - '| 1.01Mb97'
+  - '|35.17Mb98'
+  - '|10.10Mb99'
+  - '|11.76Mb100'
+  - '|13.63Mb101'
+  - '|18.80Mb102'
+  - '|54.57Mb103'
+  - '| 1.78Mb104'
+  - '|17.38Mb105'
+  - '| 1.56Mb106'
+  - '| 2.08Mb107'
+  - '|24.12Mb108'
+  - '|20.99Mb109'
+  - '|25.78Mb110'
+  - '|23.33Mb111'
+  - '|24.34Mb112'
+  - '|19.44Mb113'
+  - '|25.72Mb114'
+  - '|28.50Mb115'
+  - '|306.93Mb116'
+  - '| 0.97Mb117'
+  - '| 1.67Mb118'
+  - ca-trojan.bonds.id:443119
+  - 165.154.226.108:443120
+  - '|11.07Mb121'
+  - ca-trojan.bonds.id:443 2122
+  - ca-trojan.bonds.id:443 3123
+  - ca-trojan.bonds.id:443 4124
+  - ca-trojan.bonds.id:443 5125
+  - ca-trojan.bonds.id:443 6126
+  - ca-trojan.bonds.id:443 7127
+  - ca-trojan.bonds.id:443 8128
+  - ca-trojan.bonds.id:443 9129
+  - ca-trojan.bonds.id:443 10130
+  - ca-trojan.bonds.id:443 11131
+  - ca-trojan.bonds.id:443 12132
+  - ca-trojan.bonds.id:443 13133
+  - ca-trojan.bonds.id:443 14134
+  - ca-trojan.bonds.id:443 15135
+  - 51.161.118.38:443136
+  - ca-trojan.bonds.id:443 16137
+  - ca-trojan.bonds.id:443 17138
+  - ca-trojan.bonds.id:443 18139
+  - ca-trojan.bonds.id:443 19140
+  - ca-trojan.bonds.id:443 20141
+  - ca-trojan.bonds.id:443 21142
+  - ca-trojan.bonds.id:443 22143
+  - ca-trojan.bonds.id:443 23144
+  - ca-trojan.bonds.id:443 24145
+  - ca-trojan.bonds.id:443 25146
+  - ca-trojan.bonds.id:443 26147
+  - ca-trojan.bonds.id:443 27148
+  - ca-trojan.bonds.id:443 28149
+  - ca-trojan.bonds.id:443 29150
+  - ca-trojan.bonds.id:443 30151
+  - ca-trojan.bonds.id:443 31152
+  - ca-trojan.bonds.id:443 32153
+  - ca-trojan.bonds.id:443 33154
+  - ca-trojan.bonds.id:443 34155
+  - ca-trojan.bonds.id:443 35156
+  - ca-trojan.bonds.id:443 36157
+  - ca-trojan.bonds.id:443 37158
+  - ca-trojan.bonds.id:443 38159
+  - '| 8.64Mb160'
+  - '|43.34Mb161'
+  - '|50.39Mb162'
+  - 116.129.253.134:3384163
+  - 117.164.185.220:61002164
+  - '|12.64Mb165'
+  - '|35.78Mb166'
+  - '| 7.57Mb167'
+  - '| 2.18Mb168'
+  - '| 2.02Mb169'
+  - '| 7.00Mb170'
+  - '| 1.88Mb171'
+  - 116.129.254.29:3384172
+  - '| 2.03Mb173'
+  - '| 7.92Mb174'
+  - sg8-trojan.bonds.id:443175
+  - fr-trojan.bonds.id:443176
+  - '| 8.72Mb177'
+  - '|23.38Mb178'
+  - fr-trojan.bonds.id:443 2179
+  - api.mjj-home.com:443180
+  - '| 2.13Mb181'
+  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889182
+  - '|570.16Mb183'
+  - 43.229.153.167:443184
+  - tky3.ssgnode.ga:443185
+  - tky3.ssgnode.ga:443 2186
+  - tky3.ssgnode.ga:443 3187
+  - 106.180.225.69:1443188
+  - tky3.ssgnode.ga:443 4189
+  - tky3.ssgnode.ga:443 5190
+  - 45.66.134.219:443191
+  - tky3.ssgnode.ga:443 6192
+  - tky3.ssgnode.ga:443 7193
+  - 45.66.134.219:443 2194
+  - tky3.ssgnode.ga:443 8195
+  - tky3.ssgnode.ga:443 9196
+  - '| 7.76Mb197'
+  - '| 8.16Mb198'
+  - tky3.ssgnode.ga:443 10199
+  - 45.66.134.219:443 3200
+  - upay.com:443201
+  - jgw3.gaox.ml:443202
+  - '|30.85Mb203'
+  - www.tokyo2023.ga:443204
+  - nl-trojan.bonds.id:443205
+  - nl-trojan.bonds.id:443 2206
+  - '|11.42Mb207'
+  - nl-trojan.bonds.id:443 3208
+  - 🇺🇸 jp.useanlo.cf:6523209
+  - '| 3.91Mb210'
+  - '| 5.23Mb211'
+  - '| 4.24Mb212'
+  - 185.126.116.235:443213
+  - 185.126.116.235:443 2214
+  - 185.126.116.235:443 3215
+  - '|20.10Mb216'
+  - '| 2.59Mb217'
+  - '|10.14Mb218'
+  - 🇭🇰 hk31.ssgnode.ga:443219
+  - sg-relay.iqyun.zone:443220
+  - sg6-trojan.bonds.id:443221
+  - '|37.03Mb222'
+  - '| 3.30Mb223'
+  - '|125.11Mb224'
+  - 81.90.189.85:443225
+  - sg3-trojan.bonds.id:443226
+  - sg1-trojan.bonds.id:443227
+  - '|16.07Mb228'
+  - '|35.23Mb229'
+  - '|463.92Mb230'
+  - sg3-trojan.bonds.id:443 2231
+  - '|48.26Mb232'
+  - 2.58.242.43:443233
+  - 🇨🇳 tw-oo-01.click:443234
+  - 🇨🇳 tw-oo-01.click:443 2235
+  - 🇨🇳 mv-tw05.link:443236
+  - 2.58.242.43:443 2237
+  - '| 2.95Mb238'
+  - '| 6.81Mb239'
+  - 56789.gq:443240
+  - 173.82.192.61:443241
+  - '|14.26Mb242'
+  - xioix.gq:443243
+  - 170.187.182.212:443244
+  - sg.iamnotagoodman.com:443245
+  - kh.iamnotagoodman.com:443246
+  - '|18.04Mb247'
+  - '|25.87Mb248'
+  - t03.ssrsub.com.xyz:443249
+  - 72.167.45.6:443250
+  - 72.167.45.6:443 2251
+  - tky3.ssgnode.ga:443 11252
+  - share.softbank.mjj-home.com:443253
+  - 184.168.127.50:443254
+  - hg.053111.xyz:443255
+  - 🇺🇸 us-trojan.bonds.id:443256
+  - 184.168.127.50:443 2257
+  - 🇺🇸 us-trojan.bonds.id:443 2258
+  - 184.168.127.50:443 3259
+  - '|17.83Mb260'
+  - 209.141.47.137:443261
+  - 209.141.47.137:443 2262
+  - s162.s2022.xyz:23802263
+  - s162.s2022.xyz:23802 2264
+  - 🇨🇳 tw.softbank.mjj-home.com:443265
+  - 🇺🇸 jp.useanlo.cf:6523 2266
+  - 🇺🇸 us-trojan.bonds.id:443 3267
+  - '|82.21Mb268'
+  - www.anloao.cf:9053269
+  - 72.167.45.6:443 3270
+  - jgw4.gaox.ml:443271
+  - '|245.00Mb272'
+  - 🇬🇧 ukt-1.opensvr.net:443273
+  - 🇺🇸 hacks.missionsec.us:443274
+  - '| 3.95Mb275'
+  - '| 6.83Mb276'
+  - '|65.03Mb277'
+  - '|12.04Mb278'
+  - www.cjf0423.cf:443279
+  - '|17.93Mb280'
+  - s162.s2022.xyz:23802 3281
+  - 167.88.61.2:443282
+  - '|20.25Mb283'
+  - 🇭🇰 hgc.iamnotagoodman.com:443284
+  - '|26.85Mb285'
+  - idtj-ikd.bonds.id:443286
+  - 103.173.155.72:28443287
+  - '|84.66Mb288'
+  - '|72.81Mb289'
+  - '|76.29Mb290'
+  - '| 0.18Mb291'
+  - id5-trojan.bonds.id:443292
+  - '|65.50Mb293'
+  - '| 2.52Mb294'
 - name: 🛑 全球拦截
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 更新于10/23/19:061
-  - ✈付费机场推荐✈2
-  - 中国(TG频道:@kxswa)3
-  - dafeivpn.com 5元专线机场4
-  - 中国(TG频道:@kxswa) 25
-  - 美国(TG频道:@kxswa)6
-  - 澳大利亚(TG频道:@kxswa)7
-  - 中国(TG频道:@kxswa) 38
-  - 中国(TG频道:@kxswa) 49
-  - 中国(TG频道:@kxswa) 510
-  - 中国(TG频道:@kxswa) 611
-  - 中国(TG频道:@kxswa) 712
-  - 中国(TG频道:@kxswa) 813
-  - 中国(TG频道:@kxswa) 914
-  - 日本(TG频道:@kxswa)15
-  - 香港(TG频道:@kxswa)16
-  - 香港(TG频道:@kxswa) 217
-  - 中国(TG频道:@kxswa) 1018
-  - 中国(TG频道:@kxswa) 1119
-  - 中国(TG频道:@kxswa) 1220
-  - 印度(TG频道:@kxswa)21
-  - 印度(TG频道:@kxswa) 222
-  - 台湾(TG频道:@kxswa)23
-  - 中国(TG频道:@kxswa) 1324
-  - 日本(TG频道:@kxswa) 225
-  - 美国(TG频道:@kxswa) 226
-  - 美国(TG频道:@kxswa) 327
-  - 英国(TG频道:@kxswa)28
-  - 捷克(TG频道:@kxswa)29
-  - 美国(TG频道:@kxswa) 430
-  - 美国(TG频道:@kxswa) 531
-  - 美国(TG频道:@kxswa) 632
-  - 美国(TG频道:@kxswa) 733
-  - 美国(TG频道:@kxswa) 834
-  - 瑞士(TG频道:@kxswa)35
-  - 美国(TG频道:@kxswa) 936
-  - 瑞士(TG频道:@kxswa) 237
-  - 日本(TG频道:@kxswa) 338
-  - 日本(TG频道:@kxswa) 439
-  - 日本(TG频道:@kxswa) 540
-  - 澳大利亚(TG频道:@kxswa) 241
-  - 日本(TG频道:@kxswa) 642
-  - 日本(TG频道:@kxswa) 743
-  - 南非(TG频道:@kxswa)44
-  - (TG频道:@kxswa)45
-  - (TG频道:@kxswa) 246
-  - 中国(TG频道:@kxswa) 1447
-  - (TG频道:@kxswa) 348
-  - 中国(TG频道:@kxswa) 1549
-  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
-  - 🇺🇸 美国1|tg频道:@ripaojiedian51
-  - 🇭🇰 香港2|tg频道:@ripaojiedian52
-  - 🇺🇸 美国2|tg频道:@ripaojiedian53
-  - 🇭🇰 香港|tg频道:@ripaojiedian54
-  - 🇭🇰 香港01|tg频道:@ripaojiedian55
-  - 🇸🇬 新加坡linode56
-  - 🇺🇸 美国US|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
-  - 🇺🇸 美国|tg频道:@ripaojiedian60
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
-  - '|15.63Mb62'
-  - '|105.42Mb63'
-  - '|41.07Mb64'
-  - '| 0.56Mb65'
-  - '|26.68Mb66'
-  - '|25.51Mb67'
-  - '|26.49Mb68'
-  - '69'
-  - '|17.16Mb70'
-  - '|14.32Mb71'
-  - '| 1.01Mb72'
-  - '|35.17Mb73'
-  - '|10.10Mb74'
-  - '|11.76Mb75'
-  - '|13.63Mb76'
-  - '|18.80Mb77'
-  - '|54.57Mb78'
-  - '| 1.78Mb79'
-  - '|17.38Mb80'
-  - '| 1.56Mb81'
-  - '| 2.08Mb82'
-  - '|24.12Mb83'
-  - '|20.99Mb84'
-  - '|25.78Mb85'
-  - '|23.33Mb86'
-  - '|24.34Mb87'
-  - '|19.44Mb88'
-  - '|25.72Mb89'
-  - '|28.50Mb90'
-  - '|306.93Mb91'
-  - '| 0.97Mb92'
-  - '| 1.67Mb93'
-  - ca-trojan.bonds.id:44394
-  - 165.154.226.108:44395
-  - '|11.07Mb96'
-  - ca-trojan.bonds.id:443 297
-  - ca-trojan.bonds.id:443 398
-  - ca-trojan.bonds.id:443 499
-  - ca-trojan.bonds.id:443 5100
-  - ca-trojan.bonds.id:443 6101
-  - ca-trojan.bonds.id:443 7102
-  - ca-trojan.bonds.id:443 8103
-  - ca-trojan.bonds.id:443 9104
-  - ca-trojan.bonds.id:443 10105
-  - ca-trojan.bonds.id:443 11106
-  - ca-trojan.bonds.id:443 12107
-  - ca-trojan.bonds.id:443 13108
-  - ca-trojan.bonds.id:443 14109
-  - ca-trojan.bonds.id:443 15110
-  - 51.161.118.38:443111
-  - ca-trojan.bonds.id:443 16112
-  - ca-trojan.bonds.id:443 17113
-  - ca-trojan.bonds.id:443 18114
-  - ca-trojan.bonds.id:443 19115
-  - ca-trojan.bonds.id:443 20116
-  - ca-trojan.bonds.id:443 21117
-  - ca-trojan.bonds.id:443 22118
-  - ca-trojan.bonds.id:443 23119
-  - ca-trojan.bonds.id:443 24120
-  - ca-trojan.bonds.id:443 25121
-  - ca-trojan.bonds.id:443 26122
-  - ca-trojan.bonds.id:443 27123
-  - ca-trojan.bonds.id:443 28124
-  - ca-trojan.bonds.id:443 29125
-  - ca-trojan.bonds.id:443 30126
-  - ca-trojan.bonds.id:443 31127
-  - ca-trojan.bonds.id:443 32128
-  - ca-trojan.bonds.id:443 33129
-  - ca-trojan.bonds.id:443 34130
-  - ca-trojan.bonds.id:443 35131
-  - ca-trojan.bonds.id:443 36132
-  - ca-trojan.bonds.id:443 37133
-  - ca-trojan.bonds.id:443 38134
-  - '| 8.64Mb135'
-  - '|43.34Mb136'
-  - '|50.39Mb137'
-  - 116.129.253.134:3384138
-  - 117.164.185.220:61002139
-  - '|12.64Mb140'
-  - '|35.78Mb141'
-  - '| 7.57Mb142'
-  - '| 2.18Mb143'
-  - '| 2.02Mb144'
-  - '| 7.00Mb145'
-  - '| 1.88Mb146'
-  - 116.129.254.29:3384147
-  - '| 2.03Mb148'
-  - '| 7.92Mb149'
-  - sg8-trojan.bonds.id:443150
-  - fr-trojan.bonds.id:443151
-  - '| 8.72Mb152'
-  - '|23.38Mb153'
-  - fr-trojan.bonds.id:443 2154
-  - api.mjj-home.com:443155
-  - '| 2.13Mb156'
-  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889157
-  - '|570.16Mb158'
-  - 43.229.153.167:443159
-  - tky3.ssgnode.ga:443160
-  - tky3.ssgnode.ga:443 2161
-  - tky3.ssgnode.ga:443 3162
-  - 106.180.225.69:1443163
-  - tky3.ssgnode.ga:443 4164
-  - tky3.ssgnode.ga:443 5165
-  - 45.66.134.219:443166
-  - tky3.ssgnode.ga:443 6167
-  - tky3.ssgnode.ga:443 7168
-  - 45.66.134.219:443 2169
-  - tky3.ssgnode.ga:443 8170
-  - tky3.ssgnode.ga:443 9171
-  - '| 7.76Mb172'
-  - '| 8.16Mb173'
-  - tky3.ssgnode.ga:443 10174
-  - 45.66.134.219:443 3175
-  - upay.com:443176
-  - jgw3.gaox.ml:443177
-  - '|30.85Mb178'
-  - www.tokyo2023.ga:443179
-  - nl-trojan.bonds.id:443180
-  - nl-trojan.bonds.id:443 2181
-  - '|11.42Mb182'
-  - nl-trojan.bonds.id:443 3183
-  - 🇺🇸 jp.useanlo.cf:6523184
-  - '| 3.91Mb185'
-  - '| 5.23Mb186'
-  - '| 4.24Mb187'
-  - 185.126.116.235:443188
-  - 185.126.116.235:443 2189
-  - 185.126.116.235:443 3190
-  - '|20.10Mb191'
-  - '| 2.59Mb192'
-  - '|10.14Mb193'
-  - 🇭🇰 hk31.ssgnode.ga:443194
-  - sg-relay.iqyun.zone:443195
-  - sg6-trojan.bonds.id:443196
-  - '|37.03Mb197'
-  - '| 3.30Mb198'
-  - '|125.11Mb199'
-  - 81.90.189.85:443200
-  - sg3-trojan.bonds.id:443201
-  - sg1-trojan.bonds.id:443202
-  - '|16.07Mb203'
-  - '|35.23Mb204'
-  - '|463.92Mb205'
-  - sg3-trojan.bonds.id:443 2206
-  - '|48.26Mb207'
-  - 2.58.242.43:443208
-  - 🇨🇳 tw-oo-01.click:443209
-  - 🇨🇳 tw-oo-01.click:443 2210
-  - 🇨🇳 mv-tw05.link:443211
-  - 2.58.242.43:443 2212
-  - '| 2.95Mb213'
-  - '| 6.81Mb214'
-  - 56789.gq:443215
-  - 173.82.192.61:443216
-  - '|14.26Mb217'
-  - xioix.gq:443218
-  - 170.187.182.212:443219
-  - sg.iamnotagoodman.com:443220
-  - kh.iamnotagoodman.com:443221
-  - '|18.04Mb222'
-  - '|25.87Mb223'
-  - t03.ssrsub.com.xyz:443224
-  - 72.167.45.6:443225
-  - 72.167.45.6:443 2226
-  - tky3.ssgnode.ga:443 11227
-  - share.softbank.mjj-home.com:443228
-  - 184.168.127.50:443229
-  - hg.053111.xyz:443230
-  - 🇺🇸 us-trojan.bonds.id:443231
-  - 184.168.127.50:443 2232
-  - 🇺🇸 us-trojan.bonds.id:443 2233
-  - 184.168.127.50:443 3234
-  - '|17.83Mb235'
-  - 209.141.47.137:443236
-  - 209.141.47.137:443 2237
-  - s162.s2022.xyz:23802238
-  - s162.s2022.xyz:23802 2239
-  - 🇨🇳 tw.softbank.mjj-home.com:443240
-  - 🇺🇸 jp.useanlo.cf:6523 2241
-  - 🇺🇸 us-trojan.bonds.id:443 3242
-  - '|82.21Mb243'
-  - www.anloao.cf:9053244
-  - 72.167.45.6:443 3245
-  - jgw4.gaox.ml:443246
-  - '|245.00Mb247'
-  - 🇬🇧 ukt-1.opensvr.net:443248
-  - 🇺🇸 hacks.missionsec.us:443249
-  - '| 3.95Mb250'
-  - '| 6.83Mb251'
-  - '|65.03Mb252'
-  - '|12.04Mb253'
-  - www.cjf0423.cf:443254
-  - '|17.93Mb255'
-  - s162.s2022.xyz:23802 3256
-  - 167.88.61.2:443257
-  - '|20.25Mb258'
-  - 🇭🇰 hgc.iamnotagoodman.com:443259
-  - '|26.85Mb260'
-  - idtj-ikd.bonds.id:443261
-  - 103.173.155.72:28443262
-  - '|84.66Mb263'
-  - '|72.81Mb264'
-  - '|76.29Mb265'
-  - '| 0.18Mb266'
-  - id5-trojan.bonds.id:443267
-  - '|65.50Mb268'
-  - '| 2.52Mb269'
+  - 🇹🇼 _TW_台湾1
+  - 🇮🇳 _IN_印度2
+  - 🇯🇵 _JP_日本3
+  - 🇺🇸 _US_美国4
+  - 🇸🇬 _SG_新加坡5
+  - 🇺🇸 _US_美国 26
+  - 🇺🇸 _US_美国 37
+  - 🇫🇷 _FR_法国8
+  - 🇫🇷 _FR_法国 29
+  - 🇳🇱 _NL_荷兰10
+  - 🇳🇱 _NL_荷兰 211
+  - 🇺🇸 _US_美国 412
+  - 🇸🇬 _SG_新加坡 213
+  - 🇫🇷 _FR_法国 314
+  - 🇳🇱 _NL_荷兰 315
+  - 🇭🇰 _HK_香港->🇯🇵_JP_日本16
+  - 🇫🇷 _FR_法国 417
+  - default_name18
+  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡19
+  - default_name 220
+  - 🇺🇸 _US_美国 521
+  - 🇺🇸 _US_美国 622
+  - 🇯🇵 _JP_日本 223
+  - 🇺🇸 _US_美国 724
+  - 🇺🇸 _US_美国 825
+  - 更新于10/23/19:0626
+  - ✈付费机场推荐✈27
+  - 中国(TG频道:@kxswa)28
+  - dafeivpn.com 5元专线机场29
+  - 中国(TG频道:@kxswa) 230
+  - 美国(TG频道:@kxswa)31
+  - 澳大利亚(TG频道:@kxswa)32
+  - 中国(TG频道:@kxswa) 333
+  - 中国(TG频道:@kxswa) 434
+  - 中国(TG频道:@kxswa) 535
+  - 中国(TG频道:@kxswa) 636
+  - 中国(TG频道:@kxswa) 737
+  - 中国(TG频道:@kxswa) 838
+  - 中国(TG频道:@kxswa) 939
+  - 日本(TG频道:@kxswa)40
+  - 香港(TG频道:@kxswa)41
+  - 香港(TG频道:@kxswa) 242
+  - 中国(TG频道:@kxswa) 1043
+  - 中国(TG频道:@kxswa) 1144
+  - 中国(TG频道:@kxswa) 1245
+  - 印度(TG频道:@kxswa)46
+  - 印度(TG频道:@kxswa) 247
+  - 台湾(TG频道:@kxswa)48
+  - 中国(TG频道:@kxswa) 1349
+  - 日本(TG频道:@kxswa) 250
+  - 美国(TG频道:@kxswa) 251
+  - 美国(TG频道:@kxswa) 352
+  - 英国(TG频道:@kxswa)53
+  - 捷克(TG频道:@kxswa)54
+  - 美国(TG频道:@kxswa) 455
+  - 美国(TG频道:@kxswa) 556
+  - 美国(TG频道:@kxswa) 657
+  - 美国(TG频道:@kxswa) 758
+  - 美国(TG频道:@kxswa) 859
+  - 瑞士(TG频道:@kxswa)60
+  - 美国(TG频道:@kxswa) 961
+  - 瑞士(TG频道:@kxswa) 262
+  - 日本(TG频道:@kxswa) 363
+  - 日本(TG频道:@kxswa) 464
+  - 日本(TG频道:@kxswa) 565
+  - 澳大利亚(TG频道:@kxswa) 266
+  - 日本(TG频道:@kxswa) 667
+  - 日本(TG频道:@kxswa) 768
+  - 南非(TG频道:@kxswa)69
+  - (TG频道:@kxswa)70
+  - (TG频道:@kxswa) 271
+  - 中国(TG频道:@kxswa) 1472
+  - (TG频道:@kxswa) 373
+  - 中国(TG频道:@kxswa) 1574
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian75
+  - 🇺🇸 美国1|tg频道:@ripaojiedian76
+  - 🇭🇰 香港2|tg频道:@ripaojiedian77
+  - 🇺🇸 美国2|tg频道:@ripaojiedian78
+  - 🇭🇰 香港|tg频道:@ripaojiedian79
+  - 🇭🇰 香港01|tg频道:@ripaojiedian80
+  - 🇸🇬 新加坡linode81
+  - 🇺🇸 美国US|tg频道:@ripaojiedian82
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian83
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian84
+  - 🇺🇸 美国|tg频道:@ripaojiedian85
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian86
+  - '|15.63Mb87'
+  - '|105.42Mb88'
+  - '|41.07Mb89'
+  - '| 0.56Mb90'
+  - '|26.68Mb91'
+  - '|25.51Mb92'
+  - '|26.49Mb93'
+  - '94'
+  - '|17.16Mb95'
+  - '|14.32Mb96'
+  - '| 1.01Mb97'
+  - '|35.17Mb98'
+  - '|10.10Mb99'
+  - '|11.76Mb100'
+  - '|13.63Mb101'
+  - '|18.80Mb102'
+  - '|54.57Mb103'
+  - '| 1.78Mb104'
+  - '|17.38Mb105'
+  - '| 1.56Mb106'
+  - '| 2.08Mb107'
+  - '|24.12Mb108'
+  - '|20.99Mb109'
+  - '|25.78Mb110'
+  - '|23.33Mb111'
+  - '|24.34Mb112'
+  - '|19.44Mb113'
+  - '|25.72Mb114'
+  - '|28.50Mb115'
+  - '|306.93Mb116'
+  - '| 0.97Mb117'
+  - '| 1.67Mb118'
+  - ca-trojan.bonds.id:443119
+  - 165.154.226.108:443120
+  - '|11.07Mb121'
+  - ca-trojan.bonds.id:443 2122
+  - ca-trojan.bonds.id:443 3123
+  - ca-trojan.bonds.id:443 4124
+  - ca-trojan.bonds.id:443 5125
+  - ca-trojan.bonds.id:443 6126
+  - ca-trojan.bonds.id:443 7127
+  - ca-trojan.bonds.id:443 8128
+  - ca-trojan.bonds.id:443 9129
+  - ca-trojan.bonds.id:443 10130
+  - ca-trojan.bonds.id:443 11131
+  - ca-trojan.bonds.id:443 12132
+  - ca-trojan.bonds.id:443 13133
+  - ca-trojan.bonds.id:443 14134
+  - ca-trojan.bonds.id:443 15135
+  - 51.161.118.38:443136
+  - ca-trojan.bonds.id:443 16137
+  - ca-trojan.bonds.id:443 17138
+  - ca-trojan.bonds.id:443 18139
+  - ca-trojan.bonds.id:443 19140
+  - ca-trojan.bonds.id:443 20141
+  - ca-trojan.bonds.id:443 21142
+  - ca-trojan.bonds.id:443 22143
+  - ca-trojan.bonds.id:443 23144
+  - ca-trojan.bonds.id:443 24145
+  - ca-trojan.bonds.id:443 25146
+  - ca-trojan.bonds.id:443 26147
+  - ca-trojan.bonds.id:443 27148
+  - ca-trojan.bonds.id:443 28149
+  - ca-trojan.bonds.id:443 29150
+  - ca-trojan.bonds.id:443 30151
+  - ca-trojan.bonds.id:443 31152
+  - ca-trojan.bonds.id:443 32153
+  - ca-trojan.bonds.id:443 33154
+  - ca-trojan.bonds.id:443 34155
+  - ca-trojan.bonds.id:443 35156
+  - ca-trojan.bonds.id:443 36157
+  - ca-trojan.bonds.id:443 37158
+  - ca-trojan.bonds.id:443 38159
+  - '| 8.64Mb160'
+  - '|43.34Mb161'
+  - '|50.39Mb162'
+  - 116.129.253.134:3384163
+  - 117.164.185.220:61002164
+  - '|12.64Mb165'
+  - '|35.78Mb166'
+  - '| 7.57Mb167'
+  - '| 2.18Mb168'
+  - '| 2.02Mb169'
+  - '| 7.00Mb170'
+  - '| 1.88Mb171'
+  - 116.129.254.29:3384172
+  - '| 2.03Mb173'
+  - '| 7.92Mb174'
+  - sg8-trojan.bonds.id:443175
+  - fr-trojan.bonds.id:443176
+  - '| 8.72Mb177'
+  - '|23.38Mb178'
+  - fr-trojan.bonds.id:443 2179
+  - api.mjj-home.com:443180
+  - '| 2.13Mb181'
+  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889182
+  - '|570.16Mb183'
+  - 43.229.153.167:443184
+  - tky3.ssgnode.ga:443185
+  - tky3.ssgnode.ga:443 2186
+  - tky3.ssgnode.ga:443 3187
+  - 106.180.225.69:1443188
+  - tky3.ssgnode.ga:443 4189
+  - tky3.ssgnode.ga:443 5190
+  - 45.66.134.219:443191
+  - tky3.ssgnode.ga:443 6192
+  - tky3.ssgnode.ga:443 7193
+  - 45.66.134.219:443 2194
+  - tky3.ssgnode.ga:443 8195
+  - tky3.ssgnode.ga:443 9196
+  - '| 7.76Mb197'
+  - '| 8.16Mb198'
+  - tky3.ssgnode.ga:443 10199
+  - 45.66.134.219:443 3200
+  - upay.com:443201
+  - jgw3.gaox.ml:443202
+  - '|30.85Mb203'
+  - www.tokyo2023.ga:443204
+  - nl-trojan.bonds.id:443205
+  - nl-trojan.bonds.id:443 2206
+  - '|11.42Mb207'
+  - nl-trojan.bonds.id:443 3208
+  - 🇺🇸 jp.useanlo.cf:6523209
+  - '| 3.91Mb210'
+  - '| 5.23Mb211'
+  - '| 4.24Mb212'
+  - 185.126.116.235:443213
+  - 185.126.116.235:443 2214
+  - 185.126.116.235:443 3215
+  - '|20.10Mb216'
+  - '| 2.59Mb217'
+  - '|10.14Mb218'
+  - 🇭🇰 hk31.ssgnode.ga:443219
+  - sg-relay.iqyun.zone:443220
+  - sg6-trojan.bonds.id:443221
+  - '|37.03Mb222'
+  - '| 3.30Mb223'
+  - '|125.11Mb224'
+  - 81.90.189.85:443225
+  - sg3-trojan.bonds.id:443226
+  - sg1-trojan.bonds.id:443227
+  - '|16.07Mb228'
+  - '|35.23Mb229'
+  - '|463.92Mb230'
+  - sg3-trojan.bonds.id:443 2231
+  - '|48.26Mb232'
+  - 2.58.242.43:443233
+  - 🇨🇳 tw-oo-01.click:443234
+  - 🇨🇳 tw-oo-01.click:443 2235
+  - 🇨🇳 mv-tw05.link:443236
+  - 2.58.242.43:443 2237
+  - '| 2.95Mb238'
+  - '| 6.81Mb239'
+  - 56789.gq:443240
+  - 173.82.192.61:443241
+  - '|14.26Mb242'
+  - xioix.gq:443243
+  - 170.187.182.212:443244
+  - sg.iamnotagoodman.com:443245
+  - kh.iamnotagoodman.com:443246
+  - '|18.04Mb247'
+  - '|25.87Mb248'
+  - t03.ssrsub.com.xyz:443249
+  - 72.167.45.6:443250
+  - 72.167.45.6:443 2251
+  - tky3.ssgnode.ga:443 11252
+  - share.softbank.mjj-home.com:443253
+  - 184.168.127.50:443254
+  - hg.053111.xyz:443255
+  - 🇺🇸 us-trojan.bonds.id:443256
+  - 184.168.127.50:443 2257
+  - 🇺🇸 us-trojan.bonds.id:443 2258
+  - 184.168.127.50:443 3259
+  - '|17.83Mb260'
+  - 209.141.47.137:443261
+  - 209.141.47.137:443 2262
+  - s162.s2022.xyz:23802263
+  - s162.s2022.xyz:23802 2264
+  - 🇨🇳 tw.softbank.mjj-home.com:443265
+  - 🇺🇸 jp.useanlo.cf:6523 2266
+  - 🇺🇸 us-trojan.bonds.id:443 3267
+  - '|82.21Mb268'
+  - www.anloao.cf:9053269
+  - 72.167.45.6:443 3270
+  - jgw4.gaox.ml:443271
+  - '|245.00Mb272'
+  - 🇬🇧 ukt-1.opensvr.net:443273
+  - 🇺🇸 hacks.missionsec.us:443274
+  - '| 3.95Mb275'
+  - '| 6.83Mb276'
+  - '|65.03Mb277'
+  - '|12.04Mb278'
+  - www.cjf0423.cf:443279
+  - '|17.93Mb280'
+  - s162.s2022.xyz:23802 3281
+  - 167.88.61.2:443282
+  - '|20.25Mb283'
+  - 🇭🇰 hgc.iamnotagoodman.com:443284
+  - '|26.85Mb285'
+  - idtj-ikd.bonds.id:443286
+  - 103.173.155.72:28443287
+  - '|84.66Mb288'
+  - '|72.81Mb289'
+  - '|76.29Mb290'
+  - '| 0.18Mb291'
+  - id5-trojan.bonds.id:443292
+  - '|65.50Mb293'
+  - '| 2.52Mb294'
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 更新于10/23/19:061
-  - ✈付费机场推荐✈2
-  - 中国(TG频道:@kxswa)3
-  - dafeivpn.com 5元专线机场4
-  - 中国(TG频道:@kxswa) 25
-  - 美国(TG频道:@kxswa)6
-  - 澳大利亚(TG频道:@kxswa)7
-  - 中国(TG频道:@kxswa) 38
-  - 中国(TG频道:@kxswa) 49
-  - 中国(TG频道:@kxswa) 510
-  - 中国(TG频道:@kxswa) 611
-  - 中国(TG频道:@kxswa) 712
-  - 中国(TG频道:@kxswa) 813
-  - 中国(TG频道:@kxswa) 914
-  - 日本(TG频道:@kxswa)15
-  - 香港(TG频道:@kxswa)16
-  - 香港(TG频道:@kxswa) 217
-  - 中国(TG频道:@kxswa) 1018
-  - 中国(TG频道:@kxswa) 1119
-  - 中国(TG频道:@kxswa) 1220
-  - 印度(TG频道:@kxswa)21
-  - 印度(TG频道:@kxswa) 222
-  - 台湾(TG频道:@kxswa)23
-  - 中国(TG频道:@kxswa) 1324
-  - 日本(TG频道:@kxswa) 225
-  - 美国(TG频道:@kxswa) 226
-  - 美国(TG频道:@kxswa) 327
-  - 英国(TG频道:@kxswa)28
-  - 捷克(TG频道:@kxswa)29
-  - 美国(TG频道:@kxswa) 430
-  - 美国(TG频道:@kxswa) 531
-  - 美国(TG频道:@kxswa) 632
-  - 美国(TG频道:@kxswa) 733
-  - 美国(TG频道:@kxswa) 834
-  - 瑞士(TG频道:@kxswa)35
-  - 美国(TG频道:@kxswa) 936
-  - 瑞士(TG频道:@kxswa) 237
-  - 日本(TG频道:@kxswa) 338
-  - 日本(TG频道:@kxswa) 439
-  - 日本(TG频道:@kxswa) 540
-  - 澳大利亚(TG频道:@kxswa) 241
-  - 日本(TG频道:@kxswa) 642
-  - 日本(TG频道:@kxswa) 743
-  - 南非(TG频道:@kxswa)44
-  - (TG频道:@kxswa)45
-  - (TG频道:@kxswa) 246
-  - 中国(TG频道:@kxswa) 1447
-  - (TG频道:@kxswa) 348
-  - 中国(TG频道:@kxswa) 1549
-  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
-  - 🇺🇸 美国1|tg频道:@ripaojiedian51
-  - 🇭🇰 香港2|tg频道:@ripaojiedian52
-  - 🇺🇸 美国2|tg频道:@ripaojiedian53
-  - 🇭🇰 香港|tg频道:@ripaojiedian54
-  - 🇭🇰 香港01|tg频道:@ripaojiedian55
-  - 🇸🇬 新加坡linode56
-  - 🇺🇸 美国US|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
-  - 🇺🇸 美国|tg频道:@ripaojiedian60
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
-  - '|15.63Mb62'
-  - '|105.42Mb63'
-  - '|41.07Mb64'
-  - '| 0.56Mb65'
-  - '|26.68Mb66'
-  - '|25.51Mb67'
-  - '|26.49Mb68'
-  - '69'
-  - '|17.16Mb70'
-  - '|14.32Mb71'
-  - '| 1.01Mb72'
-  - '|35.17Mb73'
-  - '|10.10Mb74'
-  - '|11.76Mb75'
-  - '|13.63Mb76'
-  - '|18.80Mb77'
-  - '|54.57Mb78'
-  - '| 1.78Mb79'
-  - '|17.38Mb80'
-  - '| 1.56Mb81'
-  - '| 2.08Mb82'
-  - '|24.12Mb83'
-  - '|20.99Mb84'
-  - '|25.78Mb85'
-  - '|23.33Mb86'
-  - '|24.34Mb87'
-  - '|19.44Mb88'
-  - '|25.72Mb89'
-  - '|28.50Mb90'
-  - '|306.93Mb91'
-  - '| 0.97Mb92'
-  - '| 1.67Mb93'
-  - ca-trojan.bonds.id:44394
-  - 165.154.226.108:44395
-  - '|11.07Mb96'
-  - ca-trojan.bonds.id:443 297
-  - ca-trojan.bonds.id:443 398
-  - ca-trojan.bonds.id:443 499
-  - ca-trojan.bonds.id:443 5100
-  - ca-trojan.bonds.id:443 6101
-  - ca-trojan.bonds.id:443 7102
-  - ca-trojan.bonds.id:443 8103
-  - ca-trojan.bonds.id:443 9104
-  - ca-trojan.bonds.id:443 10105
-  - ca-trojan.bonds.id:443 11106
-  - ca-trojan.bonds.id:443 12107
-  - ca-trojan.bonds.id:443 13108
-  - ca-trojan.bonds.id:443 14109
-  - ca-trojan.bonds.id:443 15110
-  - 51.161.118.38:443111
-  - ca-trojan.bonds.id:443 16112
-  - ca-trojan.bonds.id:443 17113
-  - ca-trojan.bonds.id:443 18114
-  - ca-trojan.bonds.id:443 19115
-  - ca-trojan.bonds.id:443 20116
-  - ca-trojan.bonds.id:443 21117
-  - ca-trojan.bonds.id:443 22118
-  - ca-trojan.bonds.id:443 23119
-  - ca-trojan.bonds.id:443 24120
-  - ca-trojan.bonds.id:443 25121
-  - ca-trojan.bonds.id:443 26122
-  - ca-trojan.bonds.id:443 27123
-  - ca-trojan.bonds.id:443 28124
-  - ca-trojan.bonds.id:443 29125
-  - ca-trojan.bonds.id:443 30126
-  - ca-trojan.bonds.id:443 31127
-  - ca-trojan.bonds.id:443 32128
-  - ca-trojan.bonds.id:443 33129
-  - ca-trojan.bonds.id:443 34130
-  - ca-trojan.bonds.id:443 35131
-  - ca-trojan.bonds.id:443 36132
-  - ca-trojan.bonds.id:443 37133
-  - ca-trojan.bonds.id:443 38134
-  - '| 8.64Mb135'
-  - '|43.34Mb136'
-  - '|50.39Mb137'
-  - 116.129.253.134:3384138
-  - 117.164.185.220:61002139
-  - '|12.64Mb140'
-  - '|35.78Mb141'
-  - '| 7.57Mb142'
-  - '| 2.18Mb143'
-  - '| 2.02Mb144'
-  - '| 7.00Mb145'
-  - '| 1.88Mb146'
-  - 116.129.254.29:3384147
-  - '| 2.03Mb148'
-  - '| 7.92Mb149'
-  - sg8-trojan.bonds.id:443150
-  - fr-trojan.bonds.id:443151
-  - '| 8.72Mb152'
-  - '|23.38Mb153'
-  - fr-trojan.bonds.id:443 2154
-  - api.mjj-home.com:443155
-  - '| 2.13Mb156'
-  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889157
-  - '|570.16Mb158'
-  - 43.229.153.167:443159
-  - tky3.ssgnode.ga:443160
-  - tky3.ssgnode.ga:443 2161
-  - tky3.ssgnode.ga:443 3162
-  - 106.180.225.69:1443163
-  - tky3.ssgnode.ga:443 4164
-  - tky3.ssgnode.ga:443 5165
-  - 45.66.134.219:443166
-  - tky3.ssgnode.ga:443 6167
-  - tky3.ssgnode.ga:443 7168
-  - 45.66.134.219:443 2169
-  - tky3.ssgnode.ga:443 8170
-  - tky3.ssgnode.ga:443 9171
-  - '| 7.76Mb172'
-  - '| 8.16Mb173'
-  - tky3.ssgnode.ga:443 10174
-  - 45.66.134.219:443 3175
-  - upay.com:443176
-  - jgw3.gaox.ml:443177
-  - '|30.85Mb178'
-  - www.tokyo2023.ga:443179
-  - nl-trojan.bonds.id:443180
-  - nl-trojan.bonds.id:443 2181
-  - '|11.42Mb182'
-  - nl-trojan.bonds.id:443 3183
-  - 🇺🇸 jp.useanlo.cf:6523184
-  - '| 3.91Mb185'
-  - '| 5.23Mb186'
-  - '| 4.24Mb187'
-  - 185.126.116.235:443188
-  - 185.126.116.235:443 2189
-  - 185.126.116.235:443 3190
-  - '|20.10Mb191'
-  - '| 2.59Mb192'
-  - '|10.14Mb193'
-  - 🇭🇰 hk31.ssgnode.ga:443194
-  - sg-relay.iqyun.zone:443195
-  - sg6-trojan.bonds.id:443196
-  - '|37.03Mb197'
-  - '| 3.30Mb198'
-  - '|125.11Mb199'
-  - 81.90.189.85:443200
-  - sg3-trojan.bonds.id:443201
-  - sg1-trojan.bonds.id:443202
-  - '|16.07Mb203'
-  - '|35.23Mb204'
-  - '|463.92Mb205'
-  - sg3-trojan.bonds.id:443 2206
-  - '|48.26Mb207'
-  - 2.58.242.43:443208
-  - 🇨🇳 tw-oo-01.click:443209
-  - 🇨🇳 tw-oo-01.click:443 2210
-  - 🇨🇳 mv-tw05.link:443211
-  - 2.58.242.43:443 2212
-  - '| 2.95Mb213'
-  - '| 6.81Mb214'
-  - 56789.gq:443215
-  - 173.82.192.61:443216
-  - '|14.26Mb217'
-  - xioix.gq:443218
-  - 170.187.182.212:443219
-  - sg.iamnotagoodman.com:443220
-  - kh.iamnotagoodman.com:443221
-  - '|18.04Mb222'
-  - '|25.87Mb223'
-  - t03.ssrsub.com.xyz:443224
-  - 72.167.45.6:443225
-  - 72.167.45.6:443 2226
-  - tky3.ssgnode.ga:443 11227
-  - share.softbank.mjj-home.com:443228
-  - 184.168.127.50:443229
-  - hg.053111.xyz:443230
-  - 🇺🇸 us-trojan.bonds.id:443231
-  - 184.168.127.50:443 2232
-  - 🇺🇸 us-trojan.bonds.id:443 2233
-  - 184.168.127.50:443 3234
-  - '|17.83Mb235'
-  - 209.141.47.137:443236
-  - 209.141.47.137:443 2237
-  - s162.s2022.xyz:23802238
-  - s162.s2022.xyz:23802 2239
-  - 🇨🇳 tw.softbank.mjj-home.com:443240
-  - 🇺🇸 jp.useanlo.cf:6523 2241
-  - 🇺🇸 us-trojan.bonds.id:443 3242
-  - '|82.21Mb243'
-  - www.anloao.cf:9053244
-  - 72.167.45.6:443 3245
-  - jgw4.gaox.ml:443246
-  - '|245.00Mb247'
-  - 🇬🇧 ukt-1.opensvr.net:443248
-  - 🇺🇸 hacks.missionsec.us:443249
-  - '| 3.95Mb250'
-  - '| 6.83Mb251'
-  - '|65.03Mb252'
-  - '|12.04Mb253'
-  - www.cjf0423.cf:443254
-  - '|17.93Mb255'
-  - s162.s2022.xyz:23802 3256
-  - 167.88.61.2:443257
-  - '|20.25Mb258'
-  - 🇭🇰 hgc.iamnotagoodman.com:443259
-  - '|26.85Mb260'
-  - idtj-ikd.bonds.id:443261
-  - 103.173.155.72:28443262
-  - '|84.66Mb263'
-  - '|72.81Mb264'
-  - '|76.29Mb265'
-  - '| 0.18Mb266'
-  - id5-trojan.bonds.id:443267
-  - '|65.50Mb268'
-  - '| 2.52Mb269'
+  - 🇹🇼 _TW_台湾1
+  - 🇮🇳 _IN_印度2
+  - 🇯🇵 _JP_日本3
+  - 🇺🇸 _US_美国4
+  - 🇸🇬 _SG_新加坡5
+  - 🇺🇸 _US_美国 26
+  - 🇺🇸 _US_美国 37
+  - 🇫🇷 _FR_法国8
+  - 🇫🇷 _FR_法国 29
+  - 🇳🇱 _NL_荷兰10
+  - 🇳🇱 _NL_荷兰 211
+  - 🇺🇸 _US_美国 412
+  - 🇸🇬 _SG_新加坡 213
+  - 🇫🇷 _FR_法国 314
+  - 🇳🇱 _NL_荷兰 315
+  - 🇭🇰 _HK_香港->🇯🇵_JP_日本16
+  - 🇫🇷 _FR_法国 417
+  - default_name18
+  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡19
+  - default_name 220
+  - 🇺🇸 _US_美国 521
+  - 🇺🇸 _US_美国 622
+  - 🇯🇵 _JP_日本 223
+  - 🇺🇸 _US_美国 724
+  - 🇺🇸 _US_美国 825
+  - 更新于10/23/19:0626
+  - ✈付费机场推荐✈27
+  - 中国(TG频道:@kxswa)28
+  - dafeivpn.com 5元专线机场29
+  - 中国(TG频道:@kxswa) 230
+  - 美国(TG频道:@kxswa)31
+  - 澳大利亚(TG频道:@kxswa)32
+  - 中国(TG频道:@kxswa) 333
+  - 中国(TG频道:@kxswa) 434
+  - 中国(TG频道:@kxswa) 535
+  - 中国(TG频道:@kxswa) 636
+  - 中国(TG频道:@kxswa) 737
+  - 中国(TG频道:@kxswa) 838
+  - 中国(TG频道:@kxswa) 939
+  - 日本(TG频道:@kxswa)40
+  - 香港(TG频道:@kxswa)41
+  - 香港(TG频道:@kxswa) 242
+  - 中国(TG频道:@kxswa) 1043
+  - 中国(TG频道:@kxswa) 1144
+  - 中国(TG频道:@kxswa) 1245
+  - 印度(TG频道:@kxswa)46
+  - 印度(TG频道:@kxswa) 247
+  - 台湾(TG频道:@kxswa)48
+  - 中国(TG频道:@kxswa) 1349
+  - 日本(TG频道:@kxswa) 250
+  - 美国(TG频道:@kxswa) 251
+  - 美国(TG频道:@kxswa) 352
+  - 英国(TG频道:@kxswa)53
+  - 捷克(TG频道:@kxswa)54
+  - 美国(TG频道:@kxswa) 455
+  - 美国(TG频道:@kxswa) 556
+  - 美国(TG频道:@kxswa) 657
+  - 美国(TG频道:@kxswa) 758
+  - 美国(TG频道:@kxswa) 859
+  - 瑞士(TG频道:@kxswa)60
+  - 美国(TG频道:@kxswa) 961
+  - 瑞士(TG频道:@kxswa) 262
+  - 日本(TG频道:@kxswa) 363
+  - 日本(TG频道:@kxswa) 464
+  - 日本(TG频道:@kxswa) 565
+  - 澳大利亚(TG频道:@kxswa) 266
+  - 日本(TG频道:@kxswa) 667
+  - 日本(TG频道:@kxswa) 768
+  - 南非(TG频道:@kxswa)69
+  - (TG频道:@kxswa)70
+  - (TG频道:@kxswa) 271
+  - 中国(TG频道:@kxswa) 1472
+  - (TG频道:@kxswa) 373
+  - 中国(TG频道:@kxswa) 1574
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian75
+  - 🇺🇸 美国1|tg频道:@ripaojiedian76
+  - 🇭🇰 香港2|tg频道:@ripaojiedian77
+  - 🇺🇸 美国2|tg频道:@ripaojiedian78
+  - 🇭🇰 香港|tg频道:@ripaojiedian79
+  - 🇭🇰 香港01|tg频道:@ripaojiedian80
+  - 🇸🇬 新加坡linode81
+  - 🇺🇸 美国US|tg频道:@ripaojiedian82
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian83
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian84
+  - 🇺🇸 美国|tg频道:@ripaojiedian85
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian86
+  - '|15.63Mb87'
+  - '|105.42Mb88'
+  - '|41.07Mb89'
+  - '| 0.56Mb90'
+  - '|26.68Mb91'
+  - '|25.51Mb92'
+  - '|26.49Mb93'
+  - '94'
+  - '|17.16Mb95'
+  - '|14.32Mb96'
+  - '| 1.01Mb97'
+  - '|35.17Mb98'
+  - '|10.10Mb99'
+  - '|11.76Mb100'
+  - '|13.63Mb101'
+  - '|18.80Mb102'
+  - '|54.57Mb103'
+  - '| 1.78Mb104'
+  - '|17.38Mb105'
+  - '| 1.56Mb106'
+  - '| 2.08Mb107'
+  - '|24.12Mb108'
+  - '|20.99Mb109'
+  - '|25.78Mb110'
+  - '|23.33Mb111'
+  - '|24.34Mb112'
+  - '|19.44Mb113'
+  - '|25.72Mb114'
+  - '|28.50Mb115'
+  - '|306.93Mb116'
+  - '| 0.97Mb117'
+  - '| 1.67Mb118'
+  - ca-trojan.bonds.id:443119
+  - 165.154.226.108:443120
+  - '|11.07Mb121'
+  - ca-trojan.bonds.id:443 2122
+  - ca-trojan.bonds.id:443 3123
+  - ca-trojan.bonds.id:443 4124
+  - ca-trojan.bonds.id:443 5125
+  - ca-trojan.bonds.id:443 6126
+  - ca-trojan.bonds.id:443 7127
+  - ca-trojan.bonds.id:443 8128
+  - ca-trojan.bonds.id:443 9129
+  - ca-trojan.bonds.id:443 10130
+  - ca-trojan.bonds.id:443 11131
+  - ca-trojan.bonds.id:443 12132
+  - ca-trojan.bonds.id:443 13133
+  - ca-trojan.bonds.id:443 14134
+  - ca-trojan.bonds.id:443 15135
+  - 51.161.118.38:443136
+  - ca-trojan.bonds.id:443 16137
+  - ca-trojan.bonds.id:443 17138
+  - ca-trojan.bonds.id:443 18139
+  - ca-trojan.bonds.id:443 19140
+  - ca-trojan.bonds.id:443 20141
+  - ca-trojan.bonds.id:443 21142
+  - ca-trojan.bonds.id:443 22143
+  - ca-trojan.bonds.id:443 23144
+  - ca-trojan.bonds.id:443 24145
+  - ca-trojan.bonds.id:443 25146
+  - ca-trojan.bonds.id:443 26147
+  - ca-trojan.bonds.id:443 27148
+  - ca-trojan.bonds.id:443 28149
+  - ca-trojan.bonds.id:443 29150
+  - ca-trojan.bonds.id:443 30151
+  - ca-trojan.bonds.id:443 31152
+  - ca-trojan.bonds.id:443 32153
+  - ca-trojan.bonds.id:443 33154
+  - ca-trojan.bonds.id:443 34155
+  - ca-trojan.bonds.id:443 35156
+  - ca-trojan.bonds.id:443 36157
+  - ca-trojan.bonds.id:443 37158
+  - ca-trojan.bonds.id:443 38159
+  - '| 8.64Mb160'
+  - '|43.34Mb161'
+  - '|50.39Mb162'
+  - 116.129.253.134:3384163
+  - 117.164.185.220:61002164
+  - '|12.64Mb165'
+  - '|35.78Mb166'
+  - '| 7.57Mb167'
+  - '| 2.18Mb168'
+  - '| 2.02Mb169'
+  - '| 7.00Mb170'
+  - '| 1.88Mb171'
+  - 116.129.254.29:3384172
+  - '| 2.03Mb173'
+  - '| 7.92Mb174'
+  - sg8-trojan.bonds.id:443175
+  - fr-trojan.bonds.id:443176
+  - '| 8.72Mb177'
+  - '|23.38Mb178'
+  - fr-trojan.bonds.id:443 2179
+  - api.mjj-home.com:443180
+  - '| 2.13Mb181'
+  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889182
+  - '|570.16Mb183'
+  - 43.229.153.167:443184
+  - tky3.ssgnode.ga:443185
+  - tky3.ssgnode.ga:443 2186
+  - tky3.ssgnode.ga:443 3187
+  - 106.180.225.69:1443188
+  - tky3.ssgnode.ga:443 4189
+  - tky3.ssgnode.ga:443 5190
+  - 45.66.134.219:443191
+  - tky3.ssgnode.ga:443 6192
+  - tky3.ssgnode.ga:443 7193
+  - 45.66.134.219:443 2194
+  - tky3.ssgnode.ga:443 8195
+  - tky3.ssgnode.ga:443 9196
+  - '| 7.76Mb197'
+  - '| 8.16Mb198'
+  - tky3.ssgnode.ga:443 10199
+  - 45.66.134.219:443 3200
+  - upay.com:443201
+  - jgw3.gaox.ml:443202
+  - '|30.85Mb203'
+  - www.tokyo2023.ga:443204
+  - nl-trojan.bonds.id:443205
+  - nl-trojan.bonds.id:443 2206
+  - '|11.42Mb207'
+  - nl-trojan.bonds.id:443 3208
+  - 🇺🇸 jp.useanlo.cf:6523209
+  - '| 3.91Mb210'
+  - '| 5.23Mb211'
+  - '| 4.24Mb212'
+  - 185.126.116.235:443213
+  - 185.126.116.235:443 2214
+  - 185.126.116.235:443 3215
+  - '|20.10Mb216'
+  - '| 2.59Mb217'
+  - '|10.14Mb218'
+  - 🇭🇰 hk31.ssgnode.ga:443219
+  - sg-relay.iqyun.zone:443220
+  - sg6-trojan.bonds.id:443221
+  - '|37.03Mb222'
+  - '| 3.30Mb223'
+  - '|125.11Mb224'
+  - 81.90.189.85:443225
+  - sg3-trojan.bonds.id:443226
+  - sg1-trojan.bonds.id:443227
+  - '|16.07Mb228'
+  - '|35.23Mb229'
+  - '|463.92Mb230'
+  - sg3-trojan.bonds.id:443 2231
+  - '|48.26Mb232'
+  - 2.58.242.43:443233
+  - 🇨🇳 tw-oo-01.click:443234
+  - 🇨🇳 tw-oo-01.click:443 2235
+  - 🇨🇳 mv-tw05.link:443236
+  - 2.58.242.43:443 2237
+  - '| 2.95Mb238'
+  - '| 6.81Mb239'
+  - 56789.gq:443240
+  - 173.82.192.61:443241
+  - '|14.26Mb242'
+  - xioix.gq:443243
+  - 170.187.182.212:443244
+  - sg.iamnotagoodman.com:443245
+  - kh.iamnotagoodman.com:443246
+  - '|18.04Mb247'
+  - '|25.87Mb248'
+  - t03.ssrsub.com.xyz:443249
+  - 72.167.45.6:443250
+  - 72.167.45.6:443 2251
+  - tky3.ssgnode.ga:443 11252
+  - share.softbank.mjj-home.com:443253
+  - 184.168.127.50:443254
+  - hg.053111.xyz:443255
+  - 🇺🇸 us-trojan.bonds.id:443256
+  - 184.168.127.50:443 2257
+  - 🇺🇸 us-trojan.bonds.id:443 2258
+  - 184.168.127.50:443 3259
+  - '|17.83Mb260'
+  - 209.141.47.137:443261
+  - 209.141.47.137:443 2262
+  - s162.s2022.xyz:23802263
+  - s162.s2022.xyz:23802 2264
+  - 🇨🇳 tw.softbank.mjj-home.com:443265
+  - 🇺🇸 jp.useanlo.cf:6523 2266
+  - 🇺🇸 us-trojan.bonds.id:443 3267
+  - '|82.21Mb268'
+  - www.anloao.cf:9053269
+  - 72.167.45.6:443 3270
+  - jgw4.gaox.ml:443271
+  - '|245.00Mb272'
+  - 🇬🇧 ukt-1.opensvr.net:443273
+  - 🇺🇸 hacks.missionsec.us:443274
+  - '| 3.95Mb275'
+  - '| 6.83Mb276'
+  - '|65.03Mb277'
+  - '|12.04Mb278'
+  - www.cjf0423.cf:443279
+  - '|17.93Mb280'
+  - s162.s2022.xyz:23802 3281
+  - 167.88.61.2:443282
+  - '|20.25Mb283'
+  - 🇭🇰 hgc.iamnotagoodman.com:443284
+  - '|26.85Mb285'
+  - idtj-ikd.bonds.id:443286
+  - 103.173.155.72:28443287
+  - '|84.66Mb288'
+  - '|72.81Mb289'
+  - '|76.29Mb290'
+  - '| 0.18Mb291'
+  - id5-trojan.bonds.id:443292
+  - '|65.50Mb293'
+  - '| 2.52Mb294'
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 更新于10/23/19:061
-  - ✈付费机场推荐✈2
-  - 中国(TG频道:@kxswa)3
-  - dafeivpn.com 5元专线机场4
-  - 中国(TG频道:@kxswa) 25
-  - 美国(TG频道:@kxswa)6
-  - 澳大利亚(TG频道:@kxswa)7
-  - 中国(TG频道:@kxswa) 38
-  - 中国(TG频道:@kxswa) 49
-  - 中国(TG频道:@kxswa) 510
-  - 中国(TG频道:@kxswa) 611
-  - 中国(TG频道:@kxswa) 712
-  - 中国(TG频道:@kxswa) 813
-  - 中国(TG频道:@kxswa) 914
-  - 日本(TG频道:@kxswa)15
-  - 香港(TG频道:@kxswa)16
-  - 香港(TG频道:@kxswa) 217
-  - 中国(TG频道:@kxswa) 1018
-  - 中国(TG频道:@kxswa) 1119
-  - 中国(TG频道:@kxswa) 1220
-  - 印度(TG频道:@kxswa)21
-  - 印度(TG频道:@kxswa) 222
-  - 台湾(TG频道:@kxswa)23
-  - 中国(TG频道:@kxswa) 1324
-  - 日本(TG频道:@kxswa) 225
-  - 美国(TG频道:@kxswa) 226
-  - 美国(TG频道:@kxswa) 327
-  - 英国(TG频道:@kxswa)28
-  - 捷克(TG频道:@kxswa)29
-  - 美国(TG频道:@kxswa) 430
-  - 美国(TG频道:@kxswa) 531
-  - 美国(TG频道:@kxswa) 632
-  - 美国(TG频道:@kxswa) 733
-  - 美国(TG频道:@kxswa) 834
-  - 瑞士(TG频道:@kxswa)35
-  - 美国(TG频道:@kxswa) 936
-  - 瑞士(TG频道:@kxswa) 237
-  - 日本(TG频道:@kxswa) 338
-  - 日本(TG频道:@kxswa) 439
-  - 日本(TG频道:@kxswa) 540
-  - 澳大利亚(TG频道:@kxswa) 241
-  - 日本(TG频道:@kxswa) 642
-  - 日本(TG频道:@kxswa) 743
-  - 南非(TG频道:@kxswa)44
-  - (TG频道:@kxswa)45
-  - (TG频道:@kxswa) 246
-  - 中国(TG频道:@kxswa) 1447
-  - (TG频道:@kxswa) 348
-  - 中国(TG频道:@kxswa) 1549
-  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian50
-  - 🇺🇸 美国1|tg频道:@ripaojiedian51
-  - 🇭🇰 香港2|tg频道:@ripaojiedian52
-  - 🇺🇸 美国2|tg频道:@ripaojiedian53
-  - 🇭🇰 香港|tg频道:@ripaojiedian54
-  - 🇭🇰 香港01|tg频道:@ripaojiedian55
-  - 🇸🇬 新加坡linode56
-  - 🇺🇸 美国US|tg频道:@ripaojiedian57
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian58
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian59
-  - 🇺🇸 美国|tg频道:@ripaojiedian60
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian61
-  - '|15.63Mb62'
-  - '|105.42Mb63'
-  - '|41.07Mb64'
-  - '| 0.56Mb65'
-  - '|26.68Mb66'
-  - '|25.51Mb67'
-  - '|26.49Mb68'
-  - '69'
-  - '|17.16Mb70'
-  - '|14.32Mb71'
-  - '| 1.01Mb72'
-  - '|35.17Mb73'
-  - '|10.10Mb74'
-  - '|11.76Mb75'
-  - '|13.63Mb76'
-  - '|18.80Mb77'
-  - '|54.57Mb78'
-  - '| 1.78Mb79'
-  - '|17.38Mb80'
-  - '| 1.56Mb81'
-  - '| 2.08Mb82'
-  - '|24.12Mb83'
-  - '|20.99Mb84'
-  - '|25.78Mb85'
-  - '|23.33Mb86'
-  - '|24.34Mb87'
-  - '|19.44Mb88'
-  - '|25.72Mb89'
-  - '|28.50Mb90'
-  - '|306.93Mb91'
-  - '| 0.97Mb92'
-  - '| 1.67Mb93'
-  - ca-trojan.bonds.id:44394
-  - 165.154.226.108:44395
-  - '|11.07Mb96'
-  - ca-trojan.bonds.id:443 297
-  - ca-trojan.bonds.id:443 398
-  - ca-trojan.bonds.id:443 499
-  - ca-trojan.bonds.id:443 5100
-  - ca-trojan.bonds.id:443 6101
-  - ca-trojan.bonds.id:443 7102
-  - ca-trojan.bonds.id:443 8103
-  - ca-trojan.bonds.id:443 9104
-  - ca-trojan.bonds.id:443 10105
-  - ca-trojan.bonds.id:443 11106
-  - ca-trojan.bonds.id:443 12107
-  - ca-trojan.bonds.id:443 13108
-  - ca-trojan.bonds.id:443 14109
-  - ca-trojan.bonds.id:443 15110
-  - 51.161.118.38:443111
-  - ca-trojan.bonds.id:443 16112
-  - ca-trojan.bonds.id:443 17113
-  - ca-trojan.bonds.id:443 18114
-  - ca-trojan.bonds.id:443 19115
-  - ca-trojan.bonds.id:443 20116
-  - ca-trojan.bonds.id:443 21117
-  - ca-trojan.bonds.id:443 22118
-  - ca-trojan.bonds.id:443 23119
-  - ca-trojan.bonds.id:443 24120
-  - ca-trojan.bonds.id:443 25121
-  - ca-trojan.bonds.id:443 26122
-  - ca-trojan.bonds.id:443 27123
-  - ca-trojan.bonds.id:443 28124
-  - ca-trojan.bonds.id:443 29125
-  - ca-trojan.bonds.id:443 30126
-  - ca-trojan.bonds.id:443 31127
-  - ca-trojan.bonds.id:443 32128
-  - ca-trojan.bonds.id:443 33129
-  - ca-trojan.bonds.id:443 34130
-  - ca-trojan.bonds.id:443 35131
-  - ca-trojan.bonds.id:443 36132
-  - ca-trojan.bonds.id:443 37133
-  - ca-trojan.bonds.id:443 38134
-  - '| 8.64Mb135'
-  - '|43.34Mb136'
-  - '|50.39Mb137'
-  - 116.129.253.134:3384138
-  - 117.164.185.220:61002139
-  - '|12.64Mb140'
-  - '|35.78Mb141'
-  - '| 7.57Mb142'
-  - '| 2.18Mb143'
-  - '| 2.02Mb144'
-  - '| 7.00Mb145'
-  - '| 1.88Mb146'
-  - 116.129.254.29:3384147
-  - '| 2.03Mb148'
-  - '| 7.92Mb149'
-  - sg8-trojan.bonds.id:443150
-  - fr-trojan.bonds.id:443151
-  - '| 8.72Mb152'
-  - '|23.38Mb153'
-  - fr-trojan.bonds.id:443 2154
-  - api.mjj-home.com:443155
-  - '| 2.13Mb156'
-  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889157
-  - '|570.16Mb158'
-  - 43.229.153.167:443159
-  - tky3.ssgnode.ga:443160
-  - tky3.ssgnode.ga:443 2161
-  - tky3.ssgnode.ga:443 3162
-  - 106.180.225.69:1443163
-  - tky3.ssgnode.ga:443 4164
-  - tky3.ssgnode.ga:443 5165
-  - 45.66.134.219:443166
-  - tky3.ssgnode.ga:443 6167
-  - tky3.ssgnode.ga:443 7168
-  - 45.66.134.219:443 2169
-  - tky3.ssgnode.ga:443 8170
-  - tky3.ssgnode.ga:443 9171
-  - '| 7.76Mb172'
-  - '| 8.16Mb173'
-  - tky3.ssgnode.ga:443 10174
-  - 45.66.134.219:443 3175
-  - upay.com:443176
-  - jgw3.gaox.ml:443177
-  - '|30.85Mb178'
-  - www.tokyo2023.ga:443179
-  - nl-trojan.bonds.id:443180
-  - nl-trojan.bonds.id:443 2181
-  - '|11.42Mb182'
-  - nl-trojan.bonds.id:443 3183
-  - 🇺🇸 jp.useanlo.cf:6523184
-  - '| 3.91Mb185'
-  - '| 5.23Mb186'
-  - '| 4.24Mb187'
-  - 185.126.116.235:443188
-  - 185.126.116.235:443 2189
-  - 185.126.116.235:443 3190
-  - '|20.10Mb191'
-  - '| 2.59Mb192'
-  - '|10.14Mb193'
-  - 🇭🇰 hk31.ssgnode.ga:443194
-  - sg-relay.iqyun.zone:443195
-  - sg6-trojan.bonds.id:443196
-  - '|37.03Mb197'
-  - '| 3.30Mb198'
-  - '|125.11Mb199'
-  - 81.90.189.85:443200
-  - sg3-trojan.bonds.id:443201
-  - sg1-trojan.bonds.id:443202
-  - '|16.07Mb203'
-  - '|35.23Mb204'
-  - '|463.92Mb205'
-  - sg3-trojan.bonds.id:443 2206
-  - '|48.26Mb207'
-  - 2.58.242.43:443208
-  - 🇨🇳 tw-oo-01.click:443209
-  - 🇨🇳 tw-oo-01.click:443 2210
-  - 🇨🇳 mv-tw05.link:443211
-  - 2.58.242.43:443 2212
-  - '| 2.95Mb213'
-  - '| 6.81Mb214'
-  - 56789.gq:443215
-  - 173.82.192.61:443216
-  - '|14.26Mb217'
-  - xioix.gq:443218
-  - 170.187.182.212:443219
-  - sg.iamnotagoodman.com:443220
-  - kh.iamnotagoodman.com:443221
-  - '|18.04Mb222'
-  - '|25.87Mb223'
-  - t03.ssrsub.com.xyz:443224
-  - 72.167.45.6:443225
-  - 72.167.45.6:443 2226
-  - tky3.ssgnode.ga:443 11227
-  - share.softbank.mjj-home.com:443228
-  - 184.168.127.50:443229
-  - hg.053111.xyz:443230
-  - 🇺🇸 us-trojan.bonds.id:443231
-  - 184.168.127.50:443 2232
-  - 🇺🇸 us-trojan.bonds.id:443 2233
-  - 184.168.127.50:443 3234
-  - '|17.83Mb235'
-  - 209.141.47.137:443236
-  - 209.141.47.137:443 2237
-  - s162.s2022.xyz:23802238
-  - s162.s2022.xyz:23802 2239
-  - 🇨🇳 tw.softbank.mjj-home.com:443240
-  - 🇺🇸 jp.useanlo.cf:6523 2241
-  - 🇺🇸 us-trojan.bonds.id:443 3242
-  - '|82.21Mb243'
-  - www.anloao.cf:9053244
-  - 72.167.45.6:443 3245
-  - jgw4.gaox.ml:443246
-  - '|245.00Mb247'
-  - 🇬🇧 ukt-1.opensvr.net:443248
-  - 🇺🇸 hacks.missionsec.us:443249
-  - '| 3.95Mb250'
-  - '| 6.83Mb251'
-  - '|65.03Mb252'
-  - '|12.04Mb253'
-  - www.cjf0423.cf:443254
-  - '|17.93Mb255'
-  - s162.s2022.xyz:23802 3256
-  - 167.88.61.2:443257
-  - '|20.25Mb258'
-  - 🇭🇰 hgc.iamnotagoodman.com:443259
-  - '|26.85Mb260'
-  - idtj-ikd.bonds.id:443261
-  - 103.173.155.72:28443262
-  - '|84.66Mb263'
-  - '|72.81Mb264'
-  - '|76.29Mb265'
-  - '| 0.18Mb266'
-  - id5-trojan.bonds.id:443267
-  - '|65.50Mb268'
-  - '| 2.52Mb269'
+  - 🇹🇼 _TW_台湾1
+  - 🇮🇳 _IN_印度2
+  - 🇯🇵 _JP_日本3
+  - 🇺🇸 _US_美国4
+  - 🇸🇬 _SG_新加坡5
+  - 🇺🇸 _US_美国 26
+  - 🇺🇸 _US_美国 37
+  - 🇫🇷 _FR_法国8
+  - 🇫🇷 _FR_法国 29
+  - 🇳🇱 _NL_荷兰10
+  - 🇳🇱 _NL_荷兰 211
+  - 🇺🇸 _US_美国 412
+  - 🇸🇬 _SG_新加坡 213
+  - 🇫🇷 _FR_法国 314
+  - 🇳🇱 _NL_荷兰 315
+  - 🇭🇰 _HK_香港->🇯🇵_JP_日本16
+  - 🇫🇷 _FR_法国 417
+  - default_name18
+  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡19
+  - default_name 220
+  - 🇺🇸 _US_美国 521
+  - 🇺🇸 _US_美国 622
+  - 🇯🇵 _JP_日本 223
+  - 🇺🇸 _US_美国 724
+  - 🇺🇸 _US_美国 825
+  - 更新于10/23/19:0626
+  - ✈付费机场推荐✈27
+  - 中国(TG频道:@kxswa)28
+  - dafeivpn.com 5元专线机场29
+  - 中国(TG频道:@kxswa) 230
+  - 美国(TG频道:@kxswa)31
+  - 澳大利亚(TG频道:@kxswa)32
+  - 中国(TG频道:@kxswa) 333
+  - 中国(TG频道:@kxswa) 434
+  - 中国(TG频道:@kxswa) 535
+  - 中国(TG频道:@kxswa) 636
+  - 中国(TG频道:@kxswa) 737
+  - 中国(TG频道:@kxswa) 838
+  - 中国(TG频道:@kxswa) 939
+  - 日本(TG频道:@kxswa)40
+  - 香港(TG频道:@kxswa)41
+  - 香港(TG频道:@kxswa) 242
+  - 中国(TG频道:@kxswa) 1043
+  - 中国(TG频道:@kxswa) 1144
+  - 中国(TG频道:@kxswa) 1245
+  - 印度(TG频道:@kxswa)46
+  - 印度(TG频道:@kxswa) 247
+  - 台湾(TG频道:@kxswa)48
+  - 中国(TG频道:@kxswa) 1349
+  - 日本(TG频道:@kxswa) 250
+  - 美国(TG频道:@kxswa) 251
+  - 美国(TG频道:@kxswa) 352
+  - 英国(TG频道:@kxswa)53
+  - 捷克(TG频道:@kxswa)54
+  - 美国(TG频道:@kxswa) 455
+  - 美国(TG频道:@kxswa) 556
+  - 美国(TG频道:@kxswa) 657
+  - 美国(TG频道:@kxswa) 758
+  - 美国(TG频道:@kxswa) 859
+  - 瑞士(TG频道:@kxswa)60
+  - 美国(TG频道:@kxswa) 961
+  - 瑞士(TG频道:@kxswa) 262
+  - 日本(TG频道:@kxswa) 363
+  - 日本(TG频道:@kxswa) 464
+  - 日本(TG频道:@kxswa) 565
+  - 澳大利亚(TG频道:@kxswa) 266
+  - 日本(TG频道:@kxswa) 667
+  - 日本(TG频道:@kxswa) 768
+  - 南非(TG频道:@kxswa)69
+  - (TG频道:@kxswa)70
+  - (TG频道:@kxswa) 271
+  - 中国(TG频道:@kxswa) 1472
+  - (TG频道:@kxswa) 373
+  - 中国(TG频道:@kxswa) 1574
+  - 🇸🇬 狮城AZ|tg频道:@ripaojiedian75
+  - 🇺🇸 美国1|tg频道:@ripaojiedian76
+  - 🇭🇰 香港2|tg频道:@ripaojiedian77
+  - 🇺🇸 美国2|tg频道:@ripaojiedian78
+  - 🇭🇰 香港|tg频道:@ripaojiedian79
+  - 🇭🇰 香港01|tg频道:@ripaojiedian80
+  - 🇸🇬 新加坡linode81
+  - 🇺🇸 美国US|tg频道:@ripaojiedian82
+  - 🇨🇳 台湾2|tg频道:@ripaojiedian83
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian84
+  - 🇺🇸 美国|tg频道:@ripaojiedian85
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian86
+  - '|15.63Mb87'
+  - '|105.42Mb88'
+  - '|41.07Mb89'
+  - '| 0.56Mb90'
+  - '|26.68Mb91'
+  - '|25.51Mb92'
+  - '|26.49Mb93'
+  - '94'
+  - '|17.16Mb95'
+  - '|14.32Mb96'
+  - '| 1.01Mb97'
+  - '|35.17Mb98'
+  - '|10.10Mb99'
+  - '|11.76Mb100'
+  - '|13.63Mb101'
+  - '|18.80Mb102'
+  - '|54.57Mb103'
+  - '| 1.78Mb104'
+  - '|17.38Mb105'
+  - '| 1.56Mb106'
+  - '| 2.08Mb107'
+  - '|24.12Mb108'
+  - '|20.99Mb109'
+  - '|25.78Mb110'
+  - '|23.33Mb111'
+  - '|24.34Mb112'
+  - '|19.44Mb113'
+  - '|25.72Mb114'
+  - '|28.50Mb115'
+  - '|306.93Mb116'
+  - '| 0.97Mb117'
+  - '| 1.67Mb118'
+  - ca-trojan.bonds.id:443119
+  - 165.154.226.108:443120
+  - '|11.07Mb121'
+  - ca-trojan.bonds.id:443 2122
+  - ca-trojan.bonds.id:443 3123
+  - ca-trojan.bonds.id:443 4124
+  - ca-trojan.bonds.id:443 5125
+  - ca-trojan.bonds.id:443 6126
+  - ca-trojan.bonds.id:443 7127
+  - ca-trojan.bonds.id:443 8128
+  - ca-trojan.bonds.id:443 9129
+  - ca-trojan.bonds.id:443 10130
+  - ca-trojan.bonds.id:443 11131
+  - ca-trojan.bonds.id:443 12132
+  - ca-trojan.bonds.id:443 13133
+  - ca-trojan.bonds.id:443 14134
+  - ca-trojan.bonds.id:443 15135
+  - 51.161.118.38:443136
+  - ca-trojan.bonds.id:443 16137
+  - ca-trojan.bonds.id:443 17138
+  - ca-trojan.bonds.id:443 18139
+  - ca-trojan.bonds.id:443 19140
+  - ca-trojan.bonds.id:443 20141
+  - ca-trojan.bonds.id:443 21142
+  - ca-trojan.bonds.id:443 22143
+  - ca-trojan.bonds.id:443 23144
+  - ca-trojan.bonds.id:443 24145
+  - ca-trojan.bonds.id:443 25146
+  - ca-trojan.bonds.id:443 26147
+  - ca-trojan.bonds.id:443 27148
+  - ca-trojan.bonds.id:443 28149
+  - ca-trojan.bonds.id:443 29150
+  - ca-trojan.bonds.id:443 30151
+  - ca-trojan.bonds.id:443 31152
+  - ca-trojan.bonds.id:443 32153
+  - ca-trojan.bonds.id:443 33154
+  - ca-trojan.bonds.id:443 34155
+  - ca-trojan.bonds.id:443 35156
+  - ca-trojan.bonds.id:443 36157
+  - ca-trojan.bonds.id:443 37158
+  - ca-trojan.bonds.id:443 38159
+  - '| 8.64Mb160'
+  - '|43.34Mb161'
+  - '|50.39Mb162'
+  - 116.129.253.134:3384163
+  - 117.164.185.220:61002164
+  - '|12.64Mb165'
+  - '|35.78Mb166'
+  - '| 7.57Mb167'
+  - '| 2.18Mb168'
+  - '| 2.02Mb169'
+  - '| 7.00Mb170'
+  - '| 1.88Mb171'
+  - 116.129.254.29:3384172
+  - '| 2.03Mb173'
+  - '| 7.92Mb174'
+  - sg8-trojan.bonds.id:443175
+  - fr-trojan.bonds.id:443176
+  - '| 8.72Mb177'
+  - '|23.38Mb178'
+  - fr-trojan.bonds.id:443 2179
+  - api.mjj-home.com:443180
+  - '| 2.13Mb181'
+  - 🇭🇰 hk-gz-hk-hkt-tr-b.cdn.savoy.click:889182
+  - '|570.16Mb183'
+  - 43.229.153.167:443184
+  - tky3.ssgnode.ga:443185
+  - tky3.ssgnode.ga:443 2186
+  - tky3.ssgnode.ga:443 3187
+  - 106.180.225.69:1443188
+  - tky3.ssgnode.ga:443 4189
+  - tky3.ssgnode.ga:443 5190
+  - 45.66.134.219:443191
+  - tky3.ssgnode.ga:443 6192
+  - tky3.ssgnode.ga:443 7193
+  - 45.66.134.219:443 2194
+  - tky3.ssgnode.ga:443 8195
+  - tky3.ssgnode.ga:443 9196
+  - '| 7.76Mb197'
+  - '| 8.16Mb198'
+  - tky3.ssgnode.ga:443 10199
+  - 45.66.134.219:443 3200
+  - upay.com:443201
+  - jgw3.gaox.ml:443202
+  - '|30.85Mb203'
+  - www.tokyo2023.ga:443204
+  - nl-trojan.bonds.id:443205
+  - nl-trojan.bonds.id:443 2206
+  - '|11.42Mb207'
+  - nl-trojan.bonds.id:443 3208
+  - 🇺🇸 jp.useanlo.cf:6523209
+  - '| 3.91Mb210'
+  - '| 5.23Mb211'
+  - '| 4.24Mb212'
+  - 185.126.116.235:443213
+  - 185.126.116.235:443 2214
+  - 185.126.116.235:443 3215
+  - '|20.10Mb216'
+  - '| 2.59Mb217'
+  - '|10.14Mb218'
+  - 🇭🇰 hk31.ssgnode.ga:443219
+  - sg-relay.iqyun.zone:443220
+  - sg6-trojan.bonds.id:443221
+  - '|37.03Mb222'
+  - '| 3.30Mb223'
+  - '|125.11Mb224'
+  - 81.90.189.85:443225
+  - sg3-trojan.bonds.id:443226
+  - sg1-trojan.bonds.id:443227
+  - '|16.07Mb228'
+  - '|35.23Mb229'
+  - '|463.92Mb230'
+  - sg3-trojan.bonds.id:443 2231
+  - '|48.26Mb232'
+  - 2.58.242.43:443233
+  - 🇨🇳 tw-oo-01.click:443234
+  - 🇨🇳 tw-oo-01.click:443 2235
+  - 🇨🇳 mv-tw05.link:443236
+  - 2.58.242.43:443 2237
+  - '| 2.95Mb238'
+  - '| 6.81Mb239'
+  - 56789.gq:443240
+  - 173.82.192.61:443241
+  - '|14.26Mb242'
+  - xioix.gq:443243
+  - 170.187.182.212:443244
+  - sg.iamnotagoodman.com:443245
+  - kh.iamnotagoodman.com:443246
+  - '|18.04Mb247'
+  - '|25.87Mb248'
+  - t03.ssrsub.com.xyz:443249
+  - 72.167.45.6:443250
+  - 72.167.45.6:443 2251
+  - tky3.ssgnode.ga:443 11252
+  - share.softbank.mjj-home.com:443253
+  - 184.168.127.50:443254
+  - hg.053111.xyz:443255
+  - 🇺🇸 us-trojan.bonds.id:443256
+  - 184.168.127.50:443 2257
+  - 🇺🇸 us-trojan.bonds.id:443 2258
+  - 184.168.127.50:443 3259
+  - '|17.83Mb260'
+  - 209.141.47.137:443261
+  - 209.141.47.137:443 2262
+  - s162.s2022.xyz:23802263
+  - s162.s2022.xyz:23802 2264
+  - 🇨🇳 tw.softbank.mjj-home.com:443265
+  - 🇺🇸 jp.useanlo.cf:6523 2266
+  - 🇺🇸 us-trojan.bonds.id:443 3267
+  - '|82.21Mb268'
+  - www.anloao.cf:9053269
+  - 72.167.45.6:443 3270
+  - jgw4.gaox.ml:443271
+  - '|245.00Mb272'
+  - 🇬🇧 ukt-1.opensvr.net:443273
+  - 🇺🇸 hacks.missionsec.us:443274
+  - '| 3.95Mb275'
+  - '| 6.83Mb276'
+  - '|65.03Mb277'
+  - '|12.04Mb278'
+  - www.cjf0423.cf:443279
+  - '|17.93Mb280'
+  - s162.s2022.xyz:23802 3281
+  - 167.88.61.2:443282
+  - '|20.25Mb283'
+  - 🇭🇰 hgc.iamnotagoodman.com:443284
+  - '|26.85Mb285'
+  - idtj-ikd.bonds.id:443286
+  - 103.173.155.72:28443287
+  - '|84.66Mb288'
+  - '|72.81Mb289'
+  - '|76.29Mb290'
+  - '| 0.18Mb291'
+  - id5-trojan.bonds.id:443292
+  - '|65.50Mb293'
+  - '| 2.52Mb294'
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
