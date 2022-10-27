@@ -43,671 +43,589 @@ proxies:
   cipher: auto
   network: tcp
 - type: vmess
-  name: '[VIP]俄罗斯直连电信联通优化倍率1.0x_油管阿伟1_油管阿伟科技1_油管阿伟科技1_油管阿伟科技13'
-  server: 194.50.170.87
-  port: '10001'
-  uuid: 2bf51821-9075-4949-8dd9-07cf97b96087
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: '[VIP]台湾|500M|-解锁流媒体倍率1.5x_油管阿伟科技24'
-  ws-opts:
-    path: /
-  server: tw.33yun.xyz
-  port: '80'
-  uuid: 7bafb44d-9793-4d55-a5ba-bcbde8f6dd6e
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: '[Vip1]韩国01[1.0|移动]_油管阿伟科技35'
-  ws-opts:
-    path: /fly
-    headers:
-      host: fly1.fastestcloud.xyz
-  server: fly1.fastestcloud.xyz
-  port: '30004'
-  uuid: c74d892b-0df1-4e04-8db9-4ccb7927c378
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: '[Vip1]韩国04[1.0|联通]_油管阿伟科技46'
-  ws-opts:
-    path: /fly
-    headers:
-      host: fly4.fastestcloud.xyz
-  server: fly4.fastestcloud.xyz
-  port: '30004'
-  uuid: 22456e35-8c58-4d73-ae9f-4df600e143b4
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: '[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技57'
-  ws-opts:
-    path: /fly
-    headers:
-      host: fly2.fastestcloud.xyz
-  server: fly2.fastestcloud.xyz
-  port: '30081'
-  uuid: 22456e35-8c58-4d73-ae9f-4df600e143b4
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: '[Vip1]日本07[1.0|联通]_油管阿伟科技68'
-  ws-opts:
-    path: /fly
-    headers:
-      host: fly3.fastestcloud.xyz
-  server: fly3.fastestcloud.xyz
-  port: '30006'
-  uuid: 22456e35-8c58-4d73-ae9f-4df600e143b4
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: '[Vip1]香港05[1.0|移动|流媒体解锁]_油管阿伟科技79'
-  ws-opts:
-    path: /fly
-    headers:
-      host: fly1.fastestcloud.xyz
-  server: fly1.fastestcloud.xyz
-  port: '40003'
-  uuid: 22456e35-8c58-4d73-ae9f-4df600e143b4
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技810'
-  ws-opts:
-    path: /fly
-    headers:
-      host: fly4.fastestcloud.xyz
-  server: fly4.fastestcloud.xyz
-  port: '30014'
-  uuid: 22456e35-8c58-4d73-ae9f-4df600e143b4
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: trojan
-  name: +Hong+Kong+01_油管阿伟21_油管阿伟科技21_油管阿伟科技21_油管阿伟科技911
-  server: 2.api.infininode.tk
-  port: 443
-  password: d591cc73-6783-4ccb-8f96-0708a8fb0a5e
-  udp: true
-  skip-cert-verify: true
-  sni: inf-hk1.qchwnd.moe
-- type: trojan
-  name: +Hong+Kong+02_油管阿伟22_油管阿伟科技22_油管阿伟科技22_油管阿伟科技1012
-  server: 5.api.infininode.tk
-  port: 443
-  password: d591cc73-6783-4ccb-8f96-0708a8fb0a5e
-  udp: true
-  skip-cert-verify: true
-  sni: inf-hk2.qchwnd.moe
-- type: trojan
-  name: +Philippines+01_油管阿伟24_油管阿伟科技24_油管阿伟科技24_油管阿伟科技1113
-  server: 45.api.infininode.tk
-  port: 443
-  password: d591cc73-6783-4ccb-8f96-0708a8fb0a5e
-  udp: true
-  skip-cert-verify: true
-  sni: inf-ph1.qchwnd.moe
-- type: trojan
-  name: +Singapore+01_油管阿伟25_油管阿伟科技25_油管阿伟科技25_油管阿伟科技1214
-  server: 27.api.infininode.tk
-  port: 443
-  password: d591cc73-6783-4ccb-8f96-0708a8fb0a5e
-  udp: true
-  skip-cert-verify: true
-  sni: inf-sg1.qchwnd.moe
-- type: trojan
-  name: +Singapore+02_油管阿伟26_油管阿伟科技26_油管阿伟科技26_油管阿伟科技1315
-  server: 30.api.infininode.tk
-  port: 443
-  password: d591cc73-6783-4ccb-8f96-0708a8fb0a5e
-  udp: true
-  skip-cert-verify: true
-  sni: inf-sg2.qchwnd.moe
-- type: trojan
-  name: +United+States+02_油管阿伟27_油管阿伟科技27_油管阿伟科技27_油管阿伟科技1416
-  server: 36.api.infininode.tk
-  port: 443
-  password: d591cc73-6783-4ccb-8f96-0708a8fb0a5e
-  udp: true
-  skip-cert-verify: true
-  sni: inf-us2.qchwnd.moe
-- type: vmess
-  name: Ⅰ-sc菲律宾2—广港_油管阿伟科技1517
-  ws-opts:
-    path: /index
-    headers:
-      host: ydgy.fosi.hk
-  server: ydgy.fosi.hk
-  port: '48260'
-  uuid: 9267d4eb-862d-32a4-b37c-af345d2f4f65
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: Ⅰ-sc韩国1—广港_油管阿伟科技1618
-  ws-opts:
-    path: /index
-    headers:
-      host: gddx.fosi.hk
-  server: gddx.fosi.hk
-  port: '51264'
-  uuid: 9267d4eb-862d-32a4-b37c-af345d2f4f65
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: Ⅰ-sc台湾2—广港_油管阿伟科技1719
-  ws-opts:
-    path: /index
-    headers:
-      host: ydgy.fosi.hk
-  server: ydgy.fosi.hk
-  port: '18005'
-  uuid: 9267d4eb-862d-32a4-b37c-af345d2f4f65
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: Ⅰ-sc香港1—广港_油管阿伟科技1820
-  ws-opts:
-    path: /index
-    headers:
-      host: gddx.fosi.hk
-  server: gddx.fosi.hk
-  port: '18405'
-  uuid: 9267d4eb-862d-32a4-b37c-af345d2f4f65
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: Ⅰ-sc越南1—广港_油管阿伟科技1921
-  ws-opts:
-    path: /index
-    headers:
-      host: ydgy.fosi.hk
-  server: ydgy.fosi.hk
-  port: '18121'
-  uuid: 9267d4eb-862d-32a4-b37c-af345d2f4f65
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: JCBB_日本01【vip1】_1_油管阿伟科技2022
+  name: JCBB_香港06【vip1】3
   ws-opts:
     path: /
     headers:
       host: cu.kapoknode.com
   server: cu.kapoknode.com
-  port: '25888'
-  uuid: 91f73d50-427b-4023-8545-3e0ebd4aeff9
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: JCBB_日本01【vip1】_2_油管阿伟科技2123
-  ws-opts:
-    path: /
-    headers:
-      host: cu.kapoknode.com
-  server: cu.kapoknode.com
-  port: '25888'
-  uuid: c3e497f8-db55-45fc-890c-7b37daaa6f98
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: JCBB_日本03【vip1】_油管阿伟科技2224
-  ws-opts:
-    path: /
-    headers:
-      host: cu.kapoknode.com
-  server: cu.kapoknode.com
-  port: '25887'
-  uuid: c3e497f8-db55-45fc-890c-7b37daaa6f98
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: JCBB_香港04【vip1】_油管阿伟科技2325
-  ws-opts:
-    path: /
-    headers:
-      host: cm.kapoknode.com
-  server: cm.kapoknode.com
-  port: '25898'
-  uuid: c3e497f8-db55-45fc-890c-7b37daaa6f98
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: JCBB_香港05【vip1】_油管阿伟科技2426
-  ws-opts:
-    path: /
-    headers:
-      host: cm.kapoknode.com
-  server: cm.kapoknode.com
   port: '25897'
-  uuid: c3e497f8-db55-45fc-890c-7b37daaa6f98
+  uuid: 4ce896b0-c318-4c4a-bc9e-5fdaa8796bb0
   alterId: '0'
   cipher: auto
   network: ws
 - type: vmess
-  name: JCBB_香港08【vip1】_油管阿伟科技2527
+  name: JCBB_香港08【vip1】_14
   ws-opts:
     path: /
     headers:
       host: cu.kapoknode.com
   server: cu.kapoknode.com
   port: '25896'
-  uuid: c3e497f8-db55-45fc-890c-7b37daaa6f98
+  uuid: 4ce896b0-c318-4c4a-bc9e-5fdaa8796bb0
   alterId: '0'
   cipher: auto
   network: ws
 - type: vmess
-  name: JCBB_新加坡01【vip1】_油管阿伟科技2628
+  name: JCBB_新加坡01【vip1】_15
   ws-opts:
     path: /
     headers:
       host: cu.kapoknode.com
   server: cu.kapoknode.com
   port: '25895'
-  uuid: c3e497f8-db55-45fc-890c-7b37daaa6f98
+  uuid: 4ce896b0-c318-4c4a-bc9e-5fdaa8796bb0
   alterId: '0'
   cipher: auto
   network: ws
 - type: vmess
-  name: JCBB_印度02【vip1】_1_油管阿伟科技2729
+  name: JCBB_日本01【vip1】_16
   ws-opts:
     path: /
     headers:
       host: cu.kapoknode.com
   server: cu.kapoknode.com
-  port: '25882'
-  uuid: 91f73d50-427b-4023-8545-3e0ebd4aeff9
+  port: '25888'
+  uuid: 4ce896b0-c318-4c4a-bc9e-5fdaa8796bb0
   alterId: '0'
   cipher: auto
   network: ws
 - type: vmess
-  name: JCBB_印度02【vip1】_2_油管阿伟科技2830
+  name: JCBB_日本03【vip1】_17
   ws-opts:
     path: /
     headers:
       host: cu.kapoknode.com
   server: cu.kapoknode.com
-  port: '25882'
-  uuid: c3e497f8-db55-45fc-890c-7b37daaa6f98
+  port: '25887'
+  uuid: 4ce896b0-c318-4c4a-bc9e-5fdaa8796bb0
   alterId: '0'
   cipher: auto
   network: ws
 - type: vmess
-  name: V1-sc日本1—IEPL_油管阿伟科技2931
-  server: awsbj01.1aba.cn
-  port: '19279'
-  uuid: 9267d4eb-862d-32a4-b37c-af345d2f4f65
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: V2-sc人妖天堂—广港_油管阿伟科技3032
-  server: gddx.fosi.hk
-  port: '55787'
-  uuid: 9267d4eb-862d-32a4-b37c-af345d2f4f65
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: V2-sc新加坡2—广港_油管阿伟科技3133
-  server: ydgy.fosi.hk
-  port: '25611'
-  uuid: 9267d4eb-862d-32a4-b37c-af345d2f4f65
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: trojan
-  name: 🇨🇦+Canada+01_油管阿伟科技3234
-  server: 39.api.infininode.tk
-  port: 443
-  password: 944eff09-80fa-46e2-a7c0-ecc256c3bb04
-  udp: true
-  skip-cert-verify: true
-  sni: inf-ca1.qchwnd.moe
-- type: trojan
-  name: 🇨🇳+Taiwan+02_油管阿伟科技3335
-  server: 14.api.infininode.tk
-  port: 443
-  password: 944eff09-80fa-46e2-a7c0-ecc256c3bb04
-  udp: true
-  skip-cert-verify: true
-  sni: inf-tw2.qchwnd.moe
-- type: trojan
-  name: 🇭🇰+Hong+Kong+01_油管阿伟科技3436
-  server: 2.api.infininode.tk
-  port: 443
-  password: 944eff09-80fa-46e2-a7c0-ecc256c3bb04
-  udp: true
-  skip-cert-verify: true
-  sni: inf-hk1.qchwnd.moe
-- type: trojan
-  name: 🇵🇭+Philippines+01_油管阿伟科技3537
-  server: 45.api.infininode.tk
-  port: 443
-  password: 944eff09-80fa-46e2-a7c0-ecc256c3bb04
-  udp: true
-  skip-cert-verify: true
-  sni: inf-ph1.qchwnd.moe
-- type: trojan
-  name: 🇸🇬+Singapore+01_油管阿伟科技3638
-  server: 27.api.infininode.tk
-  port: 443
-  password: 944eff09-80fa-46e2-a7c0-ecc256c3bb04
-  udp: true
-  skip-cert-verify: true
-  sni: inf-sg1.qchwnd.moe
-- type: trojan
-  name: 🇺🇸+United+States+01_油管阿伟科技3739
-  server: 33.api.infininode.tk
-  port: 443
-  password: 944eff09-80fa-46e2-a7c0-ecc256c3bb04
-  udp: true
-  skip-cert-verify: true
-  sni: inf-us1.qchwnd.moe
-- type: vmess
-  name: 🚇[v1]美国|02_油管阿伟科技3840
+  name: JCBB_香港08【vip1】_28
   ws-opts:
-    path: /aceamedv
+    path: /
     headers:
-      host: sh02.fastcloud.club
-  server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
-  port: '30048'
-  uuid: 90f29979-e4c4-45dc-a30b-d085d5f490a6
+      host: cu.kapoknode.com
+  server: cu.kapoknode.com
+  port: '25896'
+  uuid: 14f720c0-0e81-488c-a8dc-86789fde1b0e
   alterId: '0'
   cipher: auto
   network: ws
 - type: vmess
-  name: 🚇[v1]印度|02_油管阿伟科技3941
+  name: JCBB_新加坡01【vip1】_29
   ws-opts:
-    path: /aceamedv
+    path: /
     headers:
-      host: sh01.fastcloud.club
-  server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
-  port: '30028'
-  uuid: 90f29979-e4c4-45dc-a30b-d085d5f490a6
+      host: cu.kapoknode.com
+  server: cu.kapoknode.com
+  port: '25895'
+  uuid: 14f720c0-0e81-488c-a8dc-86789fde1b0e
   alterId: '0'
   cipher: auto
   network: ws
-- type: trojan
-  name: 🚇+[+联通+]+韩国+·+E1+|+01_油管阿伟科技4042
-  server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
-  port: 30056
-  password: 90f29979-e4c4-45dc-a30b-d085d5f490a6
-  udp: true
-  skip-cert-verify: true
-  sni: v1kr01.fuqiangren.com
-- type: trojan
-  name: 🚇+[+移动+]+香港+·+E1+|+02_油管阿伟科技4143
-  server: sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
-  port: 30005
-  password: 90f29979-e4c4-45dc-a30b-d085d5f490a6
-  udp: true
-  skip-cert-verify: true
-  sni: v2hgc01.fuqiangren.com
 - type: vmess
-  name: 港3[直连]-流媒体NF_油管阿伟科技4244
+  name: JCBB_日本01【vip1】_210
   ws-opts:
-    path: /hls/hk3.m3u8
+    path: /
     headers:
-      host: hk3.netflix6.com
-  server: hk3.netflix6.com
-  port: '443'
-  uuid: 022b85de-6c50-3850-b64d-9c2a44bb7ab6
+      host: cu.kapoknode.com
+  server: cu.kapoknode.com
+  port: '25888'
+  uuid: 14f720c0-0e81-488c-a8dc-86789fde1b0e
   alterId: '0'
   cipher: auto
   network: ws
-  tls: true
 - type: vmess
-  name: 港6[直连]-流媒体NF_油管阿伟科技4345
+  name: JCBB_日本03【vip1】_211
   ws-opts:
-    path: /hls/hk6.m3u8
+    path: /
     headers:
-      host: hk6.netflix6.com
-  server: hk6.netflix6.com
-  port: '443'
-  uuid: 022b85de-6c50-3850-b64d-9c2a44bb7ab6
+      host: cu.kapoknode.com
+  server: cu.kapoknode.com
+  port: '25887'
+  uuid: 14f720c0-0e81-488c-a8dc-86789fde1b0e
   alterId: '0'
   cipher: auto
   network: ws
-  tls: true
-- type: trojan
-  name: 韩国|04|移动联通优化_油管阿伟科技4446
-  server: kr04.170203.xyz
-  port: 43652
-  password: 96875338-3c4a-4856-a8db-2b970cf54dba
-  udp: true
-  skip-cert-verify: true
-  sni: kr04.170203.xyz
 - type: vmess
-  name: 美国|101|流媒体优化|1x_油管阿伟科技4547
-  server: relay-us2.bfstec.com
-  port: '51959'
-  uuid: b4fa7a35-ce8a-3f2b-a02a-d3a121f73b4b
+  name: '[Vip1]香港06[1.0|联通|流媒体解锁]12'
+  ws-opts:
+    path: /fly
+    headers:
+      host: fly2.fastestcloud.xyz
+  server: fly2.fastestcloud.xyz
+  port: '40003'
+  uuid: fd39664f-14f1-4a7a-935a-586f063ce650
   alterId: '0'
   cipher: auto
-  network: tcp
+  network: ws
 - type: vmess
-  name: 美国|103|美区解锁|1x_油管阿伟科技4648
-  server: relay-us.bfstec.com
-  port: '25119'
-  uuid: b4fa7a35-ce8a-3f2b-a02a-d3a121f73b4b
+  name: '[Vip1]日本01[1.0|移动|流媒体解锁]13'
+  ws-opts:
+    path: /fly
+    headers:
+      host: fly2.fastestcloud.xyz
+  server: fly2.fastestcloud.xyz
+  port: '30005'
+  uuid: fd39664f-14f1-4a7a-935a-586f063ce650
   alterId: '0'
   cipher: auto
-  network: tcp
+  network: ws
+- type: vmess
+  name: '[Vip1]日本05[1.0|移动]14'
+  ws-opts:
+    path: /fly
+    headers:
+      host: fly1.fastestcloud.xyz
+  server: fly1.fastestcloud.xyz
+  port: '30006'
+  uuid: fd39664f-14f1-4a7a-935a-586f063ce650
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: '[Vip1]日本06[1.0|移动]15'
+  ws-opts:
+    path: /fly
+    headers:
+      host: fly2.fastestcloud.xyz
+  server: fly2.fastestcloud.xyz
+  port: '30006'
+  uuid: fd39664f-14f1-4a7a-935a-586f063ce650
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: '[Vip1]日本13[1.0|移动|流媒体解锁]16'
+  ws-opts:
+    path: /fly
+    headers:
+      host: fly1.fastestcloud.xyz
+  server: fly1.fastestcloud.xyz
+  port: '30017'
+  uuid: fd39664f-14f1-4a7a-935a-586f063ce650
+  alterId: '0'
+  cipher: auto
+  network: ws
 - type: ssr
-  name: 美国丨达拉斯丨1Gbps_油管阿伟科技4749
+  name: 美国丨达拉斯丨1Gbps17
   server: 179.61.154.58
   port: 53590
   protocol: auth_aes128_md5
   cipher: chacha20-ietf
   obfs: tls1.2_ticket_auth
   password: VsWqMoSE
-  obfs-param: TURBNU1EWXlNamd5TWk1dGFXTnliM052Wm5RdVkyOXQ=
-  protocol-param: 22822:3RVhUnFu1EJBm7Gl
+  obfs-param: YmVmZmEyMjg0OS5taWNyb3NvZnQuY29t
+  protocol-param: 22849:UGICQmxxYUa43ODB
 - type: vmess
-  name: 日2[中转]-流媒体NF_油管阿伟科技4850
-  ws-opts:
-    path: /maojp2
-    headers:
-      host: office.com
-  server: cu.594888.xyz
-  port: '60996'
-  uuid: 022b85de-6c50-3850-b64d-9c2a44bb7ab6
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: 日本|102|流媒体优化|1x_油管阿伟科技4951
-  server: relay-jp.bfstec.com
-  port: '27152'
-  uuid: b4fa7a35-ce8a-3f2b-a02a-d3a121f73b4b
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: trojan
-  name: 日本|02|奈飞移动联通优化_油管阿伟科技5052
-  server: jp02.170203.xyz
-  port: 55666
-  password: 53c6d121-9ae4-4567-aab1-a425dd38e9a3
-  udp: true
-  skip-cert-verify: true
-  sni: jp02.170203.xyz
-- type: vmess
-  name: 隧道|NF|德国01_油管阿伟科技5153
-  server: cjl-moble.gatknqh.cn
-  port: '40127'
-  uuid: a10e004b-5844-3205-a2c6-3bbeb527eb21
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 隧道|NF|日本02_油管阿伟科技5254
-  server: cjl-moble.gatknqh.cn
-  port: '40119'
-  uuid: a10e004b-5844-3205-a2c6-3bbeb527eb21
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 隧道|NF|香港01_油管阿伟科技5355
-  server: cjl-moble.gatknqh.cn
-  port: '40105'
-  uuid: a10e004b-5844-3205-a2c6-3bbeb527eb21
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 隧道|NF|香港04_油管阿伟科技5456
-  server: cjl-moble.gatknqh.cn
-  port: '40108'
-  uuid: a10e004b-5844-3205-a2c6-3bbeb527eb21
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 隧道|NF|新加坡04_油管阿伟科技5557
-  server: cjl-moble.gatknqh.cn
-  port: '40112'
-  uuid: a10e004b-5844-3205-a2c6-3bbeb527eb21
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 台湾|101|台湾解锁|1x_油管阿伟科技5658
-  server: relay-tw1.bfstec.com
-  port: '60783'
-  uuid: b4fa7a35-ce8a-3f2b-a02a-d3a121f73b4b
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 香港|102|广港|1.5x_油管阿伟科技5759
-  server: relay-hk2.bfstec.com
-  port: '59083'
-  uuid: b4fa7a35-ce8a-3f2b-a02a-d3a121f73b4b
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 香港|103|海港|1x_油管阿伟科技5860
+  name: 香港|103|海港|1x18
   server: relay-us.bfstec.com
   port: '31002'
-  uuid: b4fa7a35-ce8a-3f2b-a02a-d3a121f73b4b
+  uuid: dfb1e3dd-8ec6-3646-b950-afb03209b8cc
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 香港|105|广港|1x19
+  server: relay-hk2.bfstec.com
+  port: '44275'
+  uuid: dfb1e3dd-8ec6-3646-b950-afb03209b8cc
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 香港|102|广港|1.5x20
+  server: relay-hk2.bfstec.com
+  port: '59083'
+  uuid: dfb1e3dd-8ec6-3646-b950-afb03209b8cc
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 日本|102|流媒体优化|1x21
+  server: relay-jp.bfstec.com
+  port: '27152'
+  uuid: dfb1e3dd-8ec6-3646-b950-afb03209b8cc
   alterId: '0'
   cipher: auto
   network: tcp
 - type: trojan
-  name: 香港|21电信优化_油管阿伟科技5961
-  server: nikitshinkar69.170809.xyz
-  port: 45963
-  password: 96875338-3c4a-4856-a8db-2b970cf54dba
+  name: 🇭🇰+Hong+Kong+0122
+  server: 2.api.infininode.tk
+  port: 443
+  password: cc37ecc4-673a-4807-81b1-0f37f9cbfa24
   udp: true
   skip-cert-verify: true
-  sni: hkmax21.170203.xyz
-- type: vmess
-  name: 新[直连]2-流媒体NF_油管阿伟科技6062
-  ws-opts:
-    path: /hls/sg2.m3u8
-    headers:
-      host: sg2.netflix6.com
-  server: sg2.netflix6.com
-  port: '443'
-  uuid: 022b85de-6c50-3850-b64d-9c2a44bb7ab6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 新[直连]3-流媒体NF_油管阿伟科技6163
-  ws-opts:
-    path: /hls/sg3.m3u8
-    headers:
-      host: sg3.netflix6.com
-  server: sg3.netflix6.com
-  port: '443'
-  uuid: 022b85de-6c50-3850-b64d-9c2a44bb7ab6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 新[直连]6-流媒体NF_油管阿伟科技6264
-  ws-opts:
-    path: /hls/sg6.m3u8
-    headers:
-      host: sg6.netflix6.com
-  server: sg6.netflix6.com
-  port: '443'
-  uuid: 022b85de-6c50-3850-b64d-9c2a44bb7ab6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 新[直连]7-流媒体NF_油管阿伟科技6365
-  ws-opts:
-    path: /hls/sg7.m3u8
-    headers:
-      host: sg7.netflix6.com
-  server: sg7.netflix6.com
-  port: '443'
-  uuid: 022b85de-6c50-3850-b64d-9c2a44bb7ab6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6466
-  ws-opts:
-    path: /maopsg2
-    headers:
-      host: office.com
-  server: cu.594888.xyz
-  port: '60995'
-  uuid: 022b85de-6c50-3850-b64d-9c2a44bb7ab6
-  alterId: '0'
-  cipher: auto
-  network: ws
+  sni: inf-hk1.qchwnd.moe
 - type: trojan
-  name: 新加坡|02|奈飞DO三网优化_油管阿伟科技6567
-  server: busse6212.170809.xyz
-  port: 11538
-  password: 96875338-3c4a-4856-a8db-2b970cf54dba
+  name: 🇯🇵+Japan+0123
+  server: 17.api.infininode.tk
+  port: 443
+  password: cc37ecc4-673a-4807-81b1-0f37f9cbfa24
   udp: true
   skip-cert-verify: true
-  sni: sgmax02.170203.xyz
+  sni: inf-jp1.qchwnd.moe
 - type: trojan
-  name: 新加坡|08|移动联通优化_油管阿伟科技6668
-  server: sgmax08.170203.xyz
-  port: 30333
-  password: 53c6d121-9ae4-4567-aab1-a425dd38e9a3
+  name: 🇸🇬+Singapore+0124
+  server: 27.api.infininode.tk
+  port: 443
+  password: cc37ecc4-673a-4807-81b1-0f37f9cbfa24
   udp: true
   skip-cert-verify: true
-  sni: sgmax08.170203.xyz
-- name: 🇯🇵 日本JP|tg频道:@ripaojiedian69
+  sni: inf-sg1.qchwnd.moe
+- type: trojan
+  name: 🇺🇸+United+States+0225
+  server: 36.api.infininode.tk
+  port: 443
+  password: cc37ecc4-673a-4807-81b1-0f37f9cbfa24
+  udp: true
+  skip-cert-verify: true
+  sni: inf-us2.qchwnd.moe
+- name: 🇨🇦 CA加拿大26
+  server: 1024tw02.tfzhc.top
+  port: 443
+  type: trojan
+  password: 01e80e00-2f18-47ea-8c2f-7dbc5b57b71f
+  sni: 1024tw02.tfzhc.top
+  skip-cert-verify: false
+- name: 🇳🇱 荷兰27
+  server: v122.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: c7ba8e84-2d65-38e6-92e8-2c13bb6dd512
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v122-EthelloAcU
+    headers:
+      Host: v122.aagogo.cf
+- name: 🇺🇸 美国28
+  server: 172.64.154.150
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 🇺🇸 美国 229
+  server: 141.101.115.120
+  port: 443
+  type: vmess
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg1.cfcdn3.xyz
+- name: 🇺🇸 美国 330
+  server: 172.64.153.150
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 🇺🇸 美国 431
+  server: 172.64.154.155
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 🇺🇸 美国 532
+  server: 141.101.114.200
+  port: 443
+  type: vmess
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: v2ray2.ssr-free2.xyz
+- name: 🇳🇱 荷兰 233
+  server: v122.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 9d226234-2952-32ef-b632-c9a5261774d7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v122-EthelloAcU
+    headers:
+      Host: v122.aagogo.cf
+- name: 🇺🇸 美国 634
+  server: nl7a.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 2cc61b15-e4ec-350b-b0f4-032360e9d362
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /nl7-EcxxxOvD
+    headers:
+      Host: nl7a.aagogo.cf
+- name: 🇺🇸 us美国35
+  server: 141.101.114.120
+  port: 443
+  type: vmess
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg1.cfcdn3.xyz
+- name: 🇳🇱 荷兰 336
+  server: v122.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 90bd7f18-8d9d-3658-921b-3ad6a3d9d646
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v122-EthelloAcU
+    headers:
+      Host: v122.aagogo.cf
+- name: 🇺🇸 美国 737
+  server: nl7a.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 10759c14-d72f-346d-8d6a-af349e5ecd69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /nl7-EcxxxOvD
+    headers:
+      Host: nl7a.aagogo.cf
+- name: 🇺🇸 美国 838
+  server: v159.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 503b44b6-b701-370d-8f04-3bc852c647ea
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v159-dekDP6Otf
+    headers:
+      Host: v159.aagogo.cf
+- name: 🇺🇸 美国 939
+  server: v159a.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: b1f7479d-76d0-36a9-ab43-a167409e6b1d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v159-dekDP6Otf
+    headers:
+      Host: v159a.aagogo.cf
+- name: 🇺🇸 美国 1040
+  server: v159a.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 8f94e733-4845-39bf-a725-7b69ceb8f30c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v159-dekDP6Otf
+    headers:
+      Host: v159a.aagogo.cf
+- name: 🇺🇸 美国 1141
+  server: v116a.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: c7ba8e84-2d65-38e6-92e8-2c13bb6dd512
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v116-kDPxxx6Otf
+    headers:
+      Host: v116a.aagogo.cf
+- name: 🇳🇱 荷兰 442
+  server: v122.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 5d3e4f62-135d-3224-80cb-7463a6464c67
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v122-EthelloAcU
+    headers:
+      Host: v122.aagogo.cf
+- name: 🇺🇸 US美国43
+  server: 38.114.114.139
+  port: 810
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 🇳🇱 荷兰 544
+  server: v122.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 10759c14-d72f-346d-8d6a-af349e5ecd69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v122-EthelloAcU
+    headers:
+      Host: v122.aagogo.cf
+- name: 🇯🇵 日本45
+  server: 219.76.13.180
+  port: 443
+  type: trojan
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  sni: stutter.freetrade.link
+  skip-cert-verify: false
+- name: 🇺🇸 美国 1246
+  server: 220.130.80.179
+  port: 443
+  type: vmess
+  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /linod
+    headers:
+      Host: lindo.cnabc.eu.org
+- name: 🇺🇸 美国 1347
+  server: 172.64.154.102
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 亚洲48
+  server: vde1.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /chat
+    headers:
+      Host: vde1.0bad.com
+- name: 🇪🇺 欧洲49
+  server: 220.130.80.179
+  port: 443
+  type: vmess
+  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: v2ray2.udpgw.com
+- name: 🇺🇸 美国 1450
+  server: v149a.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 90bd7f18-8d9d-3658-921b-3ad6a3d9d646
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v149-3Fjy65
+    headers:
+      Host: v149a.aagogo.cf
+- name: 🇨🇦 加拿大51
+  server: 1024tw03.tfzhc.top
+  port: 443
+  type: trojan
+  password: 01e80e00-2f18-47ea-8c2f-7dbc5b57b71f
+  skip-cert-verify: false
+- name: 🇯🇵 日本JP|tg频道:@ripaojiedian52
   server: 45.64.22.55
   port: 443
   type: trojan
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   sni: reooec.freetrade.link
   skip-cert-verify: false
-- name: 🇰🇷 韩国解锁|tg频道:@ripaojiedian70
+- name: 🇰🇷 韩国解锁|tg频道:@ripaojiedian53
   server: 43.201.43.107
   port: 443
   type: vmess
@@ -721,7 +639,7 @@ proxies:
     path: /guolicheng/kr?=2048
     headers:
       Host: dc1-download.windowsupdate1.com
-- name: 🇺🇸 美国US|tg频道:@ripaojiedian71
+- name: 🇺🇸 美国US|tg频道:@ripaojiedian54
   server: 141.101.114.20
   port: 443
   type: vmess
@@ -735,7 +653,7 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: clash1.trump2023.net
-- name: 🇭🇰 香港HGC|tg频道:@ripaojiedian72
+- name: 🇭🇰 香港HGC|tg频道:@ripaojiedian55
   server: 223.111.122.199
   port: 38080
   type: vmess
@@ -749,7 +667,7 @@ proxies:
     path: /guolicheng/hkhgc
     headers:
       Host: www.189.cn
-- name: 🇫🇷 法国A|tg频道:@ripaojiedian73
+- name: 🇫🇷 法国A|tg频道:@ripaojiedian56
   server: 104.18.28.19
   port: 80
   type: vmess
@@ -763,7 +681,7 @@ proxies:
     path: /p9Dq67Nx/
     headers:
       Host: fr1.cachexy.ga
-- name: 🇫🇷 法国|tg频道:@ripaojiedian74
+- name: 🇫🇷 法国|tg频道:@ripaojiedian57
   server: 223.111.122.199
   port: 38080
   type: vmess
@@ -777,7 +695,7 @@ proxies:
     path: /guolicheng/fr
     headers:
       Host: i0.hdslb.com
-- name: 🇺🇸 美国A|tg频道:@ripaojiedian75
+- name: 🇺🇸 美国A|tg频道:@ripaojiedian58
   server: 104.17.146.10
   port: 80
   type: vmess
@@ -791,7 +709,7 @@ proxies:
     path: /tlfmWciG/
     headers:
       Host: us1.cachexy.ga
-- name: 🇩🇪 德国-tg频道:@ripaojiedian76
+- name: 🇩🇪 德国-tg频道:@ripaojiedian59
   server: 223.111.122.199
   port: 38080
   type: vmess
@@ -805,7 +723,7 @@ proxies:
     path: /guolicheng/de
     headers:
       Host: i0.hdslb.com
-- name: 🇭🇰 香港bgp|tg频道:@ripaojiedian77
+- name: 🇭🇰 香港bgp|tg频道:@ripaojiedian60
   server: 103.137.22.45
   port: 443
   type: ss
@@ -828,81 +746,64 @@ proxy-groups:
   - DIRECT
   - 不定时更新订阅，更多节点关注YouTube阿伟科技1
   - 导入订阅链接，开启自动更新1H2
-  - '[VIP]俄罗斯直连电信联通优化倍率1.0x_油管阿伟1_油管阿伟科技1_油管阿伟科技1_油管阿伟科技13'
-  - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_油管阿伟科技24'
-  - '[Vip1]韩国01[1.0|移动]_油管阿伟科技35'
-  - '[Vip1]韩国04[1.0|联通]_油管阿伟科技46'
-  - '[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技57'
-  - '[Vip1]日本07[1.0|联通]_油管阿伟科技68'
-  - '[Vip1]香港05[1.0|移动|流媒体解锁]_油管阿伟科技79'
-  - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技810'
-  - +Hong+Kong+01_油管阿伟21_油管阿伟科技21_油管阿伟科技21_油管阿伟科技911
-  - +Hong+Kong+02_油管阿伟22_油管阿伟科技22_油管阿伟科技22_油管阿伟科技1012
-  - +Philippines+01_油管阿伟24_油管阿伟科技24_油管阿伟科技24_油管阿伟科技1113
-  - +Singapore+01_油管阿伟25_油管阿伟科技25_油管阿伟科技25_油管阿伟科技1214
-  - +Singapore+02_油管阿伟26_油管阿伟科技26_油管阿伟科技26_油管阿伟科技1315
-  - +United+States+02_油管阿伟27_油管阿伟科技27_油管阿伟科技27_油管阿伟科技1416
-  - Ⅰ-sc菲律宾2—广港_油管阿伟科技1517
-  - Ⅰ-sc韩国1—广港_油管阿伟科技1618
-  - Ⅰ-sc台湾2—广港_油管阿伟科技1719
-  - Ⅰ-sc香港1—广港_油管阿伟科技1820
-  - Ⅰ-sc越南1—广港_油管阿伟科技1921
-  - JCBB_日本01【vip1】_1_油管阿伟科技2022
-  - JCBB_日本01【vip1】_2_油管阿伟科技2123
-  - JCBB_日本03【vip1】_油管阿伟科技2224
-  - JCBB_香港04【vip1】_油管阿伟科技2325
-  - JCBB_香港05【vip1】_油管阿伟科技2426
-  - JCBB_香港08【vip1】_油管阿伟科技2527
-  - JCBB_新加坡01【vip1】_油管阿伟科技2628
-  - JCBB_印度02【vip1】_1_油管阿伟科技2729
-  - JCBB_印度02【vip1】_2_油管阿伟科技2830
-  - V1-sc日本1—IEPL_油管阿伟科技2931
-  - V2-sc人妖天堂—广港_油管阿伟科技3032
-  - V2-sc新加坡2—广港_油管阿伟科技3133
-  - 🇨🇦+Canada+01_油管阿伟科技3234
-  - 🇨🇳+Taiwan+02_油管阿伟科技3335
-  - 🇭🇰+Hong+Kong+01_油管阿伟科技3436
-  - 🇵🇭+Philippines+01_油管阿伟科技3537
-  - 🇸🇬+Singapore+01_油管阿伟科技3638
-  - 🇺🇸+United+States+01_油管阿伟科技3739
-  - 🚇[v1]美国|02_油管阿伟科技3840
-  - 🚇[v1]印度|02_油管阿伟科技3941
-  - 🚇+[+联通+]+韩国+·+E1+|+01_油管阿伟科技4042
-  - 🚇+[+移动+]+香港+·+E1+|+02_油管阿伟科技4143
-  - 港3[直连]-流媒体NF_油管阿伟科技4244
-  - 港6[直连]-流媒体NF_油管阿伟科技4345
-  - 韩国|04|移动联通优化_油管阿伟科技4446
-  - 美国|101|流媒体优化|1x_油管阿伟科技4547
-  - 美国|103|美区解锁|1x_油管阿伟科技4648
-  - 美国丨达拉斯丨1Gbps_油管阿伟科技4749
-  - 日2[中转]-流媒体NF_油管阿伟科技4850
-  - 日本|102|流媒体优化|1x_油管阿伟科技4951
-  - 日本|02|奈飞移动联通优化_油管阿伟科技5052
-  - 隧道|NF|德国01_油管阿伟科技5153
-  - 隧道|NF|日本02_油管阿伟科技5254
-  - 隧道|NF|香港01_油管阿伟科技5355
-  - 隧道|NF|香港04_油管阿伟科技5456
-  - 隧道|NF|新加坡04_油管阿伟科技5557
-  - 台湾|101|台湾解锁|1x_油管阿伟科技5658
-  - 香港|102|广港|1.5x_油管阿伟科技5759
-  - 香港|103|海港|1x_油管阿伟科技5860
-  - 香港|21电信优化_油管阿伟科技5961
-  - 新[直连]2-流媒体NF_油管阿伟科技6062
-  - 新[直连]3-流媒体NF_油管阿伟科技6163
-  - 新[直连]6-流媒体NF_油管阿伟科技6264
-  - 新[直连]7-流媒体NF_油管阿伟科技6365
-  - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6466
-  - 新加坡|02|奈飞DO三网优化_油管阿伟科技6567
-  - 新加坡|08|移动联通优化_油管阿伟科技6668
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian70
-  - 🇺🇸 美国US|tg频道:@ripaojiedian71
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian72
-  - 🇫🇷 法国A|tg频道:@ripaojiedian73
-  - 🇫🇷 法国|tg频道:@ripaojiedian74
-  - 🇺🇸 美国A|tg频道:@ripaojiedian75
-  - 🇩🇪 德国-tg频道:@ripaojiedian76
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian77
+  - JCBB_香港06【vip1】3
+  - JCBB_香港08【vip1】_14
+  - JCBB_新加坡01【vip1】_15
+  - JCBB_日本01【vip1】_16
+  - JCBB_日本03【vip1】_17
+  - JCBB_香港08【vip1】_28
+  - JCBB_新加坡01【vip1】_29
+  - JCBB_日本01【vip1】_210
+  - JCBB_日本03【vip1】_211
+  - '[Vip1]香港06[1.0|联通|流媒体解锁]12'
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]13'
+  - '[Vip1]日本05[1.0|移动]14'
+  - '[Vip1]日本06[1.0|移动]15'
+  - '[Vip1]日本13[1.0|移动|流媒体解锁]16'
+  - 美国丨达拉斯丨1Gbps17
+  - 香港|103|海港|1x18
+  - 香港|105|广港|1x19
+  - 香港|102|广港|1.5x20
+  - 日本|102|流媒体优化|1x21
+  - 🇭🇰+Hong+Kong+0122
+  - 🇯🇵+Japan+0123
+  - 🇸🇬+Singapore+0124
+  - 🇺🇸+United+States+0225
+  - 🇨🇦 CA加拿大26
+  - 🇳🇱 荷兰27
+  - 🇺🇸 美国28
+  - 🇺🇸 美国 229
+  - 🇺🇸 美国 330
+  - 🇺🇸 美国 431
+  - 🇺🇸 美国 532
+  - 🇳🇱 荷兰 233
+  - 🇺🇸 美国 634
+  - 🇺🇸 us美国35
+  - 🇳🇱 荷兰 336
+  - 🇺🇸 美国 737
+  - 🇺🇸 美国 838
+  - 🇺🇸 美国 939
+  - 🇺🇸 美国 1040
+  - 🇺🇸 美国 1141
+  - 🇳🇱 荷兰 442
+  - 🇺🇸 US美国43
+  - 🇳🇱 荷兰 544
+  - 🇯🇵 日本45
+  - 🇺🇸 美国 1246
+  - 🇺🇸 美国 1347
+  - 亚洲48
+  - 🇪🇺 欧洲49
+  - 🇺🇸 美国 1450
+  - 🇨🇦 加拿大51
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian52
+  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian53
+  - 🇺🇸 美国US|tg频道:@ripaojiedian54
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian55
+  - 🇫🇷 法国A|tg频道:@ripaojiedian56
+  - 🇫🇷 法国|tg频道:@ripaojiedian57
+  - 🇺🇸 美国A|tg频道:@ripaojiedian58
+  - 🇩🇪 德国-tg频道:@ripaojiedian59
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian60
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -911,158 +812,124 @@ proxy-groups:
   proxies: &id001
   - 不定时更新订阅，更多节点关注YouTube阿伟科技1
   - 导入订阅链接，开启自动更新1H2
-  - '[VIP]俄罗斯直连电信联通优化倍率1.0x_油管阿伟1_油管阿伟科技1_油管阿伟科技1_油管阿伟科技13'
-  - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_油管阿伟科技24'
-  - '[Vip1]韩国01[1.0|移动]_油管阿伟科技35'
-  - '[Vip1]韩国04[1.0|联通]_油管阿伟科技46'
-  - '[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技57'
-  - '[Vip1]日本07[1.0|联通]_油管阿伟科技68'
-  - '[Vip1]香港05[1.0|移动|流媒体解锁]_油管阿伟科技79'
-  - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技810'
-  - +Hong+Kong+01_油管阿伟21_油管阿伟科技21_油管阿伟科技21_油管阿伟科技911
-  - +Hong+Kong+02_油管阿伟22_油管阿伟科技22_油管阿伟科技22_油管阿伟科技1012
-  - +Philippines+01_油管阿伟24_油管阿伟科技24_油管阿伟科技24_油管阿伟科技1113
-  - +Singapore+01_油管阿伟25_油管阿伟科技25_油管阿伟科技25_油管阿伟科技1214
-  - +Singapore+02_油管阿伟26_油管阿伟科技26_油管阿伟科技26_油管阿伟科技1315
-  - +United+States+02_油管阿伟27_油管阿伟科技27_油管阿伟科技27_油管阿伟科技1416
-  - Ⅰ-sc菲律宾2—广港_油管阿伟科技1517
-  - Ⅰ-sc韩国1—广港_油管阿伟科技1618
-  - Ⅰ-sc台湾2—广港_油管阿伟科技1719
-  - Ⅰ-sc香港1—广港_油管阿伟科技1820
-  - Ⅰ-sc越南1—广港_油管阿伟科技1921
-  - JCBB_日本01【vip1】_1_油管阿伟科技2022
-  - JCBB_日本01【vip1】_2_油管阿伟科技2123
-  - JCBB_日本03【vip1】_油管阿伟科技2224
-  - JCBB_香港04【vip1】_油管阿伟科技2325
-  - JCBB_香港05【vip1】_油管阿伟科技2426
-  - JCBB_香港08【vip1】_油管阿伟科技2527
-  - JCBB_新加坡01【vip1】_油管阿伟科技2628
-  - JCBB_印度02【vip1】_1_油管阿伟科技2729
-  - JCBB_印度02【vip1】_2_油管阿伟科技2830
-  - V1-sc日本1—IEPL_油管阿伟科技2931
-  - V2-sc人妖天堂—广港_油管阿伟科技3032
-  - V2-sc新加坡2—广港_油管阿伟科技3133
-  - 🇨🇦+Canada+01_油管阿伟科技3234
-  - 🇨🇳+Taiwan+02_油管阿伟科技3335
-  - 🇭🇰+Hong+Kong+01_油管阿伟科技3436
-  - 🇵🇭+Philippines+01_油管阿伟科技3537
-  - 🇸🇬+Singapore+01_油管阿伟科技3638
-  - 🇺🇸+United+States+01_油管阿伟科技3739
-  - 🚇[v1]美国|02_油管阿伟科技3840
-  - 🚇[v1]印度|02_油管阿伟科技3941
-  - 🚇+[+联通+]+韩国+·+E1+|+01_油管阿伟科技4042
-  - 🚇+[+移动+]+香港+·+E1+|+02_油管阿伟科技4143
-  - 港3[直连]-流媒体NF_油管阿伟科技4244
-  - 港6[直连]-流媒体NF_油管阿伟科技4345
-  - 韩国|04|移动联通优化_油管阿伟科技4446
-  - 美国|101|流媒体优化|1x_油管阿伟科技4547
-  - 美国|103|美区解锁|1x_油管阿伟科技4648
-  - 美国丨达拉斯丨1Gbps_油管阿伟科技4749
-  - 日2[中转]-流媒体NF_油管阿伟科技4850
-  - 日本|102|流媒体优化|1x_油管阿伟科技4951
-  - 日本|02|奈飞移动联通优化_油管阿伟科技5052
-  - 隧道|NF|德国01_油管阿伟科技5153
-  - 隧道|NF|日本02_油管阿伟科技5254
-  - 隧道|NF|香港01_油管阿伟科技5355
-  - 隧道|NF|香港04_油管阿伟科技5456
-  - 隧道|NF|新加坡04_油管阿伟科技5557
-  - 台湾|101|台湾解锁|1x_油管阿伟科技5658
-  - 香港|102|广港|1.5x_油管阿伟科技5759
-  - 香港|103|海港|1x_油管阿伟科技5860
-  - 香港|21电信优化_油管阿伟科技5961
-  - 新[直连]2-流媒体NF_油管阿伟科技6062
-  - 新[直连]3-流媒体NF_油管阿伟科技6163
-  - 新[直连]6-流媒体NF_油管阿伟科技6264
-  - 新[直连]7-流媒体NF_油管阿伟科技6365
-  - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6466
-  - 新加坡|02|奈飞DO三网优化_油管阿伟科技6567
-  - 新加坡|08|移动联通优化_油管阿伟科技6668
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian70
-  - 🇺🇸 美国US|tg频道:@ripaojiedian71
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian72
-  - 🇫🇷 法国A|tg频道:@ripaojiedian73
-  - 🇫🇷 法国|tg频道:@ripaojiedian74
-  - 🇺🇸 美国A|tg频道:@ripaojiedian75
-  - 🇩🇪 德国-tg频道:@ripaojiedian76
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian77
+  - JCBB_香港06【vip1】3
+  - JCBB_香港08【vip1】_14
+  - JCBB_新加坡01【vip1】_15
+  - JCBB_日本01【vip1】_16
+  - JCBB_日本03【vip1】_17
+  - JCBB_香港08【vip1】_28
+  - JCBB_新加坡01【vip1】_29
+  - JCBB_日本01【vip1】_210
+  - JCBB_日本03【vip1】_211
+  - '[Vip1]香港06[1.0|联通|流媒体解锁]12'
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]13'
+  - '[Vip1]日本05[1.0|移动]14'
+  - '[Vip1]日本06[1.0|移动]15'
+  - '[Vip1]日本13[1.0|移动|流媒体解锁]16'
+  - 美国丨达拉斯丨1Gbps17
+  - 香港|103|海港|1x18
+  - 香港|105|广港|1x19
+  - 香港|102|广港|1.5x20
+  - 日本|102|流媒体优化|1x21
+  - 🇭🇰+Hong+Kong+0122
+  - 🇯🇵+Japan+0123
+  - 🇸🇬+Singapore+0124
+  - 🇺🇸+United+States+0225
+  - 🇨🇦 CA加拿大26
+  - 🇳🇱 荷兰27
+  - 🇺🇸 美国28
+  - 🇺🇸 美国 229
+  - 🇺🇸 美国 330
+  - 🇺🇸 美国 431
+  - 🇺🇸 美国 532
+  - 🇳🇱 荷兰 233
+  - 🇺🇸 美国 634
+  - 🇺🇸 us美国35
+  - 🇳🇱 荷兰 336
+  - 🇺🇸 美国 737
+  - 🇺🇸 美国 838
+  - 🇺🇸 美国 939
+  - 🇺🇸 美国 1040
+  - 🇺🇸 美国 1141
+  - 🇳🇱 荷兰 442
+  - 🇺🇸 US美国43
+  - 🇳🇱 荷兰 544
+  - 🇯🇵 日本45
+  - 🇺🇸 美国 1246
+  - 🇺🇸 美国 1347
+  - 亚洲48
+  - 🇪🇺 欧洲49
+  - 🇺🇸 美国 1450
+  - 🇨🇦 加拿大51
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian52
+  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian53
+  - 🇺🇸 美国US|tg频道:@ripaojiedian54
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian55
+  - 🇫🇷 法国A|tg频道:@ripaojiedian56
+  - 🇫🇷 法国|tg频道:@ripaojiedian57
+  - 🇺🇸 美国A|tg频道:@ripaojiedian58
+  - 🇩🇪 德国-tg频道:@ripaojiedian59
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian60
   - 不定时更新订阅，更多节点关注YouTube阿伟科技1
   - 导入订阅链接，开启自动更新1H2
-  - '[VIP]俄罗斯直连电信联通优化倍率1.0x_油管阿伟1_油管阿伟科技1_油管阿伟科技1_油管阿伟科技13'
-  - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_油管阿伟科技24'
-  - '[Vip1]韩国01[1.0|移动]_油管阿伟科技35'
-  - '[Vip1]韩国04[1.0|联通]_油管阿伟科技46'
-  - '[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技57'
-  - '[Vip1]日本07[1.0|联通]_油管阿伟科技68'
-  - '[Vip1]香港05[1.0|移动|流媒体解锁]_油管阿伟科技79'
-  - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技810'
-  - +Hong+Kong+01_油管阿伟21_油管阿伟科技21_油管阿伟科技21_油管阿伟科技911
-  - +Hong+Kong+02_油管阿伟22_油管阿伟科技22_油管阿伟科技22_油管阿伟科技1012
-  - +Philippines+01_油管阿伟24_油管阿伟科技24_油管阿伟科技24_油管阿伟科技1113
-  - +Singapore+01_油管阿伟25_油管阿伟科技25_油管阿伟科技25_油管阿伟科技1214
-  - +Singapore+02_油管阿伟26_油管阿伟科技26_油管阿伟科技26_油管阿伟科技1315
-  - +United+States+02_油管阿伟27_油管阿伟科技27_油管阿伟科技27_油管阿伟科技1416
-  - Ⅰ-sc菲律宾2—广港_油管阿伟科技1517
-  - Ⅰ-sc韩国1—广港_油管阿伟科技1618
-  - Ⅰ-sc台湾2—广港_油管阿伟科技1719
-  - Ⅰ-sc香港1—广港_油管阿伟科技1820
-  - Ⅰ-sc越南1—广港_油管阿伟科技1921
-  - JCBB_日本01【vip1】_1_油管阿伟科技2022
-  - JCBB_日本01【vip1】_2_油管阿伟科技2123
-  - JCBB_日本03【vip1】_油管阿伟科技2224
-  - JCBB_香港04【vip1】_油管阿伟科技2325
-  - JCBB_香港05【vip1】_油管阿伟科技2426
-  - JCBB_香港08【vip1】_油管阿伟科技2527
-  - JCBB_新加坡01【vip1】_油管阿伟科技2628
-  - JCBB_印度02【vip1】_1_油管阿伟科技2729
-  - JCBB_印度02【vip1】_2_油管阿伟科技2830
-  - V1-sc日本1—IEPL_油管阿伟科技2931
-  - V2-sc人妖天堂—广港_油管阿伟科技3032
-  - V2-sc新加坡2—广港_油管阿伟科技3133
-  - 🇨🇦+Canada+01_油管阿伟科技3234
-  - 🇨🇳+Taiwan+02_油管阿伟科技3335
-  - 🇭🇰+Hong+Kong+01_油管阿伟科技3436
-  - 🇵🇭+Philippines+01_油管阿伟科技3537
-  - 🇸🇬+Singapore+01_油管阿伟科技3638
-  - 🇺🇸+United+States+01_油管阿伟科技3739
-  - 🚇[v1]美国|02_油管阿伟科技3840
-  - 🚇[v1]印度|02_油管阿伟科技3941
-  - 🚇+[+联通+]+韩国+·+E1+|+01_油管阿伟科技4042
-  - 🚇+[+移动+]+香港+·+E1+|+02_油管阿伟科技4143
-  - 港3[直连]-流媒体NF_油管阿伟科技4244
-  - 港6[直连]-流媒体NF_油管阿伟科技4345
-  - 韩国|04|移动联通优化_油管阿伟科技4446
-  - 美国|101|流媒体优化|1x_油管阿伟科技4547
-  - 美国|103|美区解锁|1x_油管阿伟科技4648
-  - 美国丨达拉斯丨1Gbps_油管阿伟科技4749
-  - 日2[中转]-流媒体NF_油管阿伟科技4850
-  - 日本|102|流媒体优化|1x_油管阿伟科技4951
-  - 日本|02|奈飞移动联通优化_油管阿伟科技5052
-  - 隧道|NF|德国01_油管阿伟科技5153
-  - 隧道|NF|日本02_油管阿伟科技5254
-  - 隧道|NF|香港01_油管阿伟科技5355
-  - 隧道|NF|香港04_油管阿伟科技5456
-  - 隧道|NF|新加坡04_油管阿伟科技5557
-  - 台湾|101|台湾解锁|1x_油管阿伟科技5658
-  - 香港|102|广港|1.5x_油管阿伟科技5759
-  - 香港|103|海港|1x_油管阿伟科技5860
-  - 香港|21电信优化_油管阿伟科技5961
-  - 新[直连]2-流媒体NF_油管阿伟科技6062
-  - 新[直连]3-流媒体NF_油管阿伟科技6163
-  - 新[直连]6-流媒体NF_油管阿伟科技6264
-  - 新[直连]7-流媒体NF_油管阿伟科技6365
-  - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6466
-  - 新加坡|02|奈飞DO三网优化_油管阿伟科技6567
-  - 新加坡|08|移动联通优化_油管阿伟科技6668
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian70
-  - 🇺🇸 美国US|tg频道:@ripaojiedian71
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian72
-  - 🇫🇷 法国A|tg频道:@ripaojiedian73
-  - 🇫🇷 法国|tg频道:@ripaojiedian74
-  - 🇺🇸 美国A|tg频道:@ripaojiedian75
-  - 🇩🇪 德国-tg频道:@ripaojiedian76
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian77
+  - JCBB_香港06【vip1】3
+  - JCBB_香港08【vip1】_14
+  - JCBB_新加坡01【vip1】_15
+  - JCBB_日本01【vip1】_16
+  - JCBB_日本03【vip1】_17
+  - JCBB_香港08【vip1】_28
+  - JCBB_新加坡01【vip1】_29
+  - JCBB_日本01【vip1】_210
+  - JCBB_日本03【vip1】_211
+  - '[Vip1]香港06[1.0|联通|流媒体解锁]12'
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]13'
+  - '[Vip1]日本05[1.0|移动]14'
+  - '[Vip1]日本06[1.0|移动]15'
+  - '[Vip1]日本13[1.0|移动|流媒体解锁]16'
+  - 美国丨达拉斯丨1Gbps17
+  - 香港|103|海港|1x18
+  - 香港|105|广港|1x19
+  - 香港|102|广港|1.5x20
+  - 日本|102|流媒体优化|1x21
+  - 🇭🇰+Hong+Kong+0122
+  - 🇯🇵+Japan+0123
+  - 🇸🇬+Singapore+0124
+  - 🇺🇸+United+States+0225
+  - 🇨🇦 CA加拿大26
+  - 🇳🇱 荷兰27
+  - 🇺🇸 美国28
+  - 🇺🇸 美国 229
+  - 🇺🇸 美国 330
+  - 🇺🇸 美国 431
+  - 🇺🇸 美国 532
+  - 🇳🇱 荷兰 233
+  - 🇺🇸 美国 634
+  - 🇺🇸 us美国35
+  - 🇳🇱 荷兰 336
+  - 🇺🇸 美国 737
+  - 🇺🇸 美国 838
+  - 🇺🇸 美国 939
+  - 🇺🇸 美国 1040
+  - 🇺🇸 美国 1141
+  - 🇳🇱 荷兰 442
+  - 🇺🇸 US美国43
+  - 🇳🇱 荷兰 544
+  - 🇯🇵 日本45
+  - 🇺🇸 美国 1246
+  - 🇺🇸 美国 1347
+  - 亚洲48
+  - 🇪🇺 欧洲49
+  - 🇺🇸 美国 1450
+  - 🇨🇦 加拿大51
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian52
+  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian53
+  - 🇺🇸 美国US|tg频道:@ripaojiedian54
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian55
+  - 🇫🇷 法国A|tg频道:@ripaojiedian56
+  - 🇫🇷 法国|tg频道:@ripaojiedian57
+  - 🇺🇸 美国A|tg频道:@ripaojiedian58
+  - 🇩🇪 德国-tg频道:@ripaojiedian59
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian60
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -1077,81 +944,64 @@ proxy-groups:
   - 🎯 全球直连
   - 不定时更新订阅，更多节点关注YouTube阿伟科技1
   - 导入订阅链接，开启自动更新1H2
-  - '[VIP]俄罗斯直连电信联通优化倍率1.0x_油管阿伟1_油管阿伟科技1_油管阿伟科技1_油管阿伟科技13'
-  - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_油管阿伟科技24'
-  - '[Vip1]韩国01[1.0|移动]_油管阿伟科技35'
-  - '[Vip1]韩国04[1.0|联通]_油管阿伟科技46'
-  - '[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技57'
-  - '[Vip1]日本07[1.0|联通]_油管阿伟科技68'
-  - '[Vip1]香港05[1.0|移动|流媒体解锁]_油管阿伟科技79'
-  - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技810'
-  - +Hong+Kong+01_油管阿伟21_油管阿伟科技21_油管阿伟科技21_油管阿伟科技911
-  - +Hong+Kong+02_油管阿伟22_油管阿伟科技22_油管阿伟科技22_油管阿伟科技1012
-  - +Philippines+01_油管阿伟24_油管阿伟科技24_油管阿伟科技24_油管阿伟科技1113
-  - +Singapore+01_油管阿伟25_油管阿伟科技25_油管阿伟科技25_油管阿伟科技1214
-  - +Singapore+02_油管阿伟26_油管阿伟科技26_油管阿伟科技26_油管阿伟科技1315
-  - +United+States+02_油管阿伟27_油管阿伟科技27_油管阿伟科技27_油管阿伟科技1416
-  - Ⅰ-sc菲律宾2—广港_油管阿伟科技1517
-  - Ⅰ-sc韩国1—广港_油管阿伟科技1618
-  - Ⅰ-sc台湾2—广港_油管阿伟科技1719
-  - Ⅰ-sc香港1—广港_油管阿伟科技1820
-  - Ⅰ-sc越南1—广港_油管阿伟科技1921
-  - JCBB_日本01【vip1】_1_油管阿伟科技2022
-  - JCBB_日本01【vip1】_2_油管阿伟科技2123
-  - JCBB_日本03【vip1】_油管阿伟科技2224
-  - JCBB_香港04【vip1】_油管阿伟科技2325
-  - JCBB_香港05【vip1】_油管阿伟科技2426
-  - JCBB_香港08【vip1】_油管阿伟科技2527
-  - JCBB_新加坡01【vip1】_油管阿伟科技2628
-  - JCBB_印度02【vip1】_1_油管阿伟科技2729
-  - JCBB_印度02【vip1】_2_油管阿伟科技2830
-  - V1-sc日本1—IEPL_油管阿伟科技2931
-  - V2-sc人妖天堂—广港_油管阿伟科技3032
-  - V2-sc新加坡2—广港_油管阿伟科技3133
-  - 🇨🇦+Canada+01_油管阿伟科技3234
-  - 🇨🇳+Taiwan+02_油管阿伟科技3335
-  - 🇭🇰+Hong+Kong+01_油管阿伟科技3436
-  - 🇵🇭+Philippines+01_油管阿伟科技3537
-  - 🇸🇬+Singapore+01_油管阿伟科技3638
-  - 🇺🇸+United+States+01_油管阿伟科技3739
-  - 🚇[v1]美国|02_油管阿伟科技3840
-  - 🚇[v1]印度|02_油管阿伟科技3941
-  - 🚇+[+联通+]+韩国+·+E1+|+01_油管阿伟科技4042
-  - 🚇+[+移动+]+香港+·+E1+|+02_油管阿伟科技4143
-  - 港3[直连]-流媒体NF_油管阿伟科技4244
-  - 港6[直连]-流媒体NF_油管阿伟科技4345
-  - 韩国|04|移动联通优化_油管阿伟科技4446
-  - 美国|101|流媒体优化|1x_油管阿伟科技4547
-  - 美国|103|美区解锁|1x_油管阿伟科技4648
-  - 美国丨达拉斯丨1Gbps_油管阿伟科技4749
-  - 日2[中转]-流媒体NF_油管阿伟科技4850
-  - 日本|102|流媒体优化|1x_油管阿伟科技4951
-  - 日本|02|奈飞移动联通优化_油管阿伟科技5052
-  - 隧道|NF|德国01_油管阿伟科技5153
-  - 隧道|NF|日本02_油管阿伟科技5254
-  - 隧道|NF|香港01_油管阿伟科技5355
-  - 隧道|NF|香港04_油管阿伟科技5456
-  - 隧道|NF|新加坡04_油管阿伟科技5557
-  - 台湾|101|台湾解锁|1x_油管阿伟科技5658
-  - 香港|102|广港|1.5x_油管阿伟科技5759
-  - 香港|103|海港|1x_油管阿伟科技5860
-  - 香港|21电信优化_油管阿伟科技5961
-  - 新[直连]2-流媒体NF_油管阿伟科技6062
-  - 新[直连]3-流媒体NF_油管阿伟科技6163
-  - 新[直连]6-流媒体NF_油管阿伟科技6264
-  - 新[直连]7-流媒体NF_油管阿伟科技6365
-  - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6466
-  - 新加坡|02|奈飞DO三网优化_油管阿伟科技6567
-  - 新加坡|08|移动联通优化_油管阿伟科技6668
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian70
-  - 🇺🇸 美国US|tg频道:@ripaojiedian71
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian72
-  - 🇫🇷 法国A|tg频道:@ripaojiedian73
-  - 🇫🇷 法国|tg频道:@ripaojiedian74
-  - 🇺🇸 美国A|tg频道:@ripaojiedian75
-  - 🇩🇪 德国-tg频道:@ripaojiedian76
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian77
+  - JCBB_香港06【vip1】3
+  - JCBB_香港08【vip1】_14
+  - JCBB_新加坡01【vip1】_15
+  - JCBB_日本01【vip1】_16
+  - JCBB_日本03【vip1】_17
+  - JCBB_香港08【vip1】_28
+  - JCBB_新加坡01【vip1】_29
+  - JCBB_日本01【vip1】_210
+  - JCBB_日本03【vip1】_211
+  - '[Vip1]香港06[1.0|联通|流媒体解锁]12'
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]13'
+  - '[Vip1]日本05[1.0|移动]14'
+  - '[Vip1]日本06[1.0|移动]15'
+  - '[Vip1]日本13[1.0|移动|流媒体解锁]16'
+  - 美国丨达拉斯丨1Gbps17
+  - 香港|103|海港|1x18
+  - 香港|105|广港|1x19
+  - 香港|102|广港|1.5x20
+  - 日本|102|流媒体优化|1x21
+  - 🇭🇰+Hong+Kong+0122
+  - 🇯🇵+Japan+0123
+  - 🇸🇬+Singapore+0124
+  - 🇺🇸+United+States+0225
+  - 🇨🇦 CA加拿大26
+  - 🇳🇱 荷兰27
+  - 🇺🇸 美国28
+  - 🇺🇸 美国 229
+  - 🇺🇸 美国 330
+  - 🇺🇸 美国 431
+  - 🇺🇸 美国 532
+  - 🇳🇱 荷兰 233
+  - 🇺🇸 美国 634
+  - 🇺🇸 us美国35
+  - 🇳🇱 荷兰 336
+  - 🇺🇸 美国 737
+  - 🇺🇸 美国 838
+  - 🇺🇸 美国 939
+  - 🇺🇸 美国 1040
+  - 🇺🇸 美国 1141
+  - 🇳🇱 荷兰 442
+  - 🇺🇸 US美国43
+  - 🇳🇱 荷兰 544
+  - 🇯🇵 日本45
+  - 🇺🇸 美国 1246
+  - 🇺🇸 美国 1347
+  - 亚洲48
+  - 🇪🇺 欧洲49
+  - 🇺🇸 美国 1450
+  - 🇨🇦 加拿大51
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian52
+  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian53
+  - 🇺🇸 美国US|tg频道:@ripaojiedian54
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian55
+  - 🇫🇷 法国A|tg频道:@ripaojiedian56
+  - 🇫🇷 法国|tg频道:@ripaojiedian57
+  - 🇺🇸 美国A|tg频道:@ripaojiedian58
+  - 🇩🇪 德国-tg频道:@ripaojiedian59
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian60
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1160,81 +1010,64 @@ proxy-groups:
   - ♻️ 自动选择
   - 不定时更新订阅，更多节点关注YouTube阿伟科技1
   - 导入订阅链接，开启自动更新1H2
-  - '[VIP]俄罗斯直连电信联通优化倍率1.0x_油管阿伟1_油管阿伟科技1_油管阿伟科技1_油管阿伟科技13'
-  - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_油管阿伟科技24'
-  - '[Vip1]韩国01[1.0|移动]_油管阿伟科技35'
-  - '[Vip1]韩国04[1.0|联通]_油管阿伟科技46'
-  - '[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技57'
-  - '[Vip1]日本07[1.0|联通]_油管阿伟科技68'
-  - '[Vip1]香港05[1.0|移动|流媒体解锁]_油管阿伟科技79'
-  - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技810'
-  - +Hong+Kong+01_油管阿伟21_油管阿伟科技21_油管阿伟科技21_油管阿伟科技911
-  - +Hong+Kong+02_油管阿伟22_油管阿伟科技22_油管阿伟科技22_油管阿伟科技1012
-  - +Philippines+01_油管阿伟24_油管阿伟科技24_油管阿伟科技24_油管阿伟科技1113
-  - +Singapore+01_油管阿伟25_油管阿伟科技25_油管阿伟科技25_油管阿伟科技1214
-  - +Singapore+02_油管阿伟26_油管阿伟科技26_油管阿伟科技26_油管阿伟科技1315
-  - +United+States+02_油管阿伟27_油管阿伟科技27_油管阿伟科技27_油管阿伟科技1416
-  - Ⅰ-sc菲律宾2—广港_油管阿伟科技1517
-  - Ⅰ-sc韩国1—广港_油管阿伟科技1618
-  - Ⅰ-sc台湾2—广港_油管阿伟科技1719
-  - Ⅰ-sc香港1—广港_油管阿伟科技1820
-  - Ⅰ-sc越南1—广港_油管阿伟科技1921
-  - JCBB_日本01【vip1】_1_油管阿伟科技2022
-  - JCBB_日本01【vip1】_2_油管阿伟科技2123
-  - JCBB_日本03【vip1】_油管阿伟科技2224
-  - JCBB_香港04【vip1】_油管阿伟科技2325
-  - JCBB_香港05【vip1】_油管阿伟科技2426
-  - JCBB_香港08【vip1】_油管阿伟科技2527
-  - JCBB_新加坡01【vip1】_油管阿伟科技2628
-  - JCBB_印度02【vip1】_1_油管阿伟科技2729
-  - JCBB_印度02【vip1】_2_油管阿伟科技2830
-  - V1-sc日本1—IEPL_油管阿伟科技2931
-  - V2-sc人妖天堂—广港_油管阿伟科技3032
-  - V2-sc新加坡2—广港_油管阿伟科技3133
-  - 🇨🇦+Canada+01_油管阿伟科技3234
-  - 🇨🇳+Taiwan+02_油管阿伟科技3335
-  - 🇭🇰+Hong+Kong+01_油管阿伟科技3436
-  - 🇵🇭+Philippines+01_油管阿伟科技3537
-  - 🇸🇬+Singapore+01_油管阿伟科技3638
-  - 🇺🇸+United+States+01_油管阿伟科技3739
-  - 🚇[v1]美国|02_油管阿伟科技3840
-  - 🚇[v1]印度|02_油管阿伟科技3941
-  - 🚇+[+联通+]+韩国+·+E1+|+01_油管阿伟科技4042
-  - 🚇+[+移动+]+香港+·+E1+|+02_油管阿伟科技4143
-  - 港3[直连]-流媒体NF_油管阿伟科技4244
-  - 港6[直连]-流媒体NF_油管阿伟科技4345
-  - 韩国|04|移动联通优化_油管阿伟科技4446
-  - 美国|101|流媒体优化|1x_油管阿伟科技4547
-  - 美国|103|美区解锁|1x_油管阿伟科技4648
-  - 美国丨达拉斯丨1Gbps_油管阿伟科技4749
-  - 日2[中转]-流媒体NF_油管阿伟科技4850
-  - 日本|102|流媒体优化|1x_油管阿伟科技4951
-  - 日本|02|奈飞移动联通优化_油管阿伟科技5052
-  - 隧道|NF|德国01_油管阿伟科技5153
-  - 隧道|NF|日本02_油管阿伟科技5254
-  - 隧道|NF|香港01_油管阿伟科技5355
-  - 隧道|NF|香港04_油管阿伟科技5456
-  - 隧道|NF|新加坡04_油管阿伟科技5557
-  - 台湾|101|台湾解锁|1x_油管阿伟科技5658
-  - 香港|102|广港|1.5x_油管阿伟科技5759
-  - 香港|103|海港|1x_油管阿伟科技5860
-  - 香港|21电信优化_油管阿伟科技5961
-  - 新[直连]2-流媒体NF_油管阿伟科技6062
-  - 新[直连]3-流媒体NF_油管阿伟科技6163
-  - 新[直连]6-流媒体NF_油管阿伟科技6264
-  - 新[直连]7-流媒体NF_油管阿伟科技6365
-  - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6466
-  - 新加坡|02|奈飞DO三网优化_油管阿伟科技6567
-  - 新加坡|08|移动联通优化_油管阿伟科技6668
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian70
-  - 🇺🇸 美国US|tg频道:@ripaojiedian71
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian72
-  - 🇫🇷 法国A|tg频道:@ripaojiedian73
-  - 🇫🇷 法国|tg频道:@ripaojiedian74
-  - 🇺🇸 美国A|tg频道:@ripaojiedian75
-  - 🇩🇪 德国-tg频道:@ripaojiedian76
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian77
+  - JCBB_香港06【vip1】3
+  - JCBB_香港08【vip1】_14
+  - JCBB_新加坡01【vip1】_15
+  - JCBB_日本01【vip1】_16
+  - JCBB_日本03【vip1】_17
+  - JCBB_香港08【vip1】_28
+  - JCBB_新加坡01【vip1】_29
+  - JCBB_日本01【vip1】_210
+  - JCBB_日本03【vip1】_211
+  - '[Vip1]香港06[1.0|联通|流媒体解锁]12'
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]13'
+  - '[Vip1]日本05[1.0|移动]14'
+  - '[Vip1]日本06[1.0|移动]15'
+  - '[Vip1]日本13[1.0|移动|流媒体解锁]16'
+  - 美国丨达拉斯丨1Gbps17
+  - 香港|103|海港|1x18
+  - 香港|105|广港|1x19
+  - 香港|102|广港|1.5x20
+  - 日本|102|流媒体优化|1x21
+  - 🇭🇰+Hong+Kong+0122
+  - 🇯🇵+Japan+0123
+  - 🇸🇬+Singapore+0124
+  - 🇺🇸+United+States+0225
+  - 🇨🇦 CA加拿大26
+  - 🇳🇱 荷兰27
+  - 🇺🇸 美国28
+  - 🇺🇸 美国 229
+  - 🇺🇸 美国 330
+  - 🇺🇸 美国 431
+  - 🇺🇸 美国 532
+  - 🇳🇱 荷兰 233
+  - 🇺🇸 美国 634
+  - 🇺🇸 us美国35
+  - 🇳🇱 荷兰 336
+  - 🇺🇸 美国 737
+  - 🇺🇸 美国 838
+  - 🇺🇸 美国 939
+  - 🇺🇸 美国 1040
+  - 🇺🇸 美国 1141
+  - 🇳🇱 荷兰 442
+  - 🇺🇸 US美国43
+  - 🇳🇱 荷兰 544
+  - 🇯🇵 日本45
+  - 🇺🇸 美国 1246
+  - 🇺🇸 美国 1347
+  - 亚洲48
+  - 🇪🇺 欧洲49
+  - 🇺🇸 美国 1450
+  - 🇨🇦 加拿大51
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian52
+  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian53
+  - 🇺🇸 美国US|tg频道:@ripaojiedian54
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian55
+  - 🇫🇷 法国A|tg频道:@ripaojiedian56
+  - 🇫🇷 法国|tg频道:@ripaojiedian57
+  - 🇺🇸 美国A|tg频道:@ripaojiedian58
+  - 🇩🇪 德国-tg频道:@ripaojiedian59
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian60
 - name: 🛑 全球拦截
   type: select
   proxies:
@@ -1242,81 +1075,64 @@ proxy-groups:
   - DIRECT
   - 不定时更新订阅，更多节点关注YouTube阿伟科技1
   - 导入订阅链接，开启自动更新1H2
-  - '[VIP]俄罗斯直连电信联通优化倍率1.0x_油管阿伟1_油管阿伟科技1_油管阿伟科技1_油管阿伟科技13'
-  - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_油管阿伟科技24'
-  - '[Vip1]韩国01[1.0|移动]_油管阿伟科技35'
-  - '[Vip1]韩国04[1.0|联通]_油管阿伟科技46'
-  - '[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技57'
-  - '[Vip1]日本07[1.0|联通]_油管阿伟科技68'
-  - '[Vip1]香港05[1.0|移动|流媒体解锁]_油管阿伟科技79'
-  - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技810'
-  - +Hong+Kong+01_油管阿伟21_油管阿伟科技21_油管阿伟科技21_油管阿伟科技911
-  - +Hong+Kong+02_油管阿伟22_油管阿伟科技22_油管阿伟科技22_油管阿伟科技1012
-  - +Philippines+01_油管阿伟24_油管阿伟科技24_油管阿伟科技24_油管阿伟科技1113
-  - +Singapore+01_油管阿伟25_油管阿伟科技25_油管阿伟科技25_油管阿伟科技1214
-  - +Singapore+02_油管阿伟26_油管阿伟科技26_油管阿伟科技26_油管阿伟科技1315
-  - +United+States+02_油管阿伟27_油管阿伟科技27_油管阿伟科技27_油管阿伟科技1416
-  - Ⅰ-sc菲律宾2—广港_油管阿伟科技1517
-  - Ⅰ-sc韩国1—广港_油管阿伟科技1618
-  - Ⅰ-sc台湾2—广港_油管阿伟科技1719
-  - Ⅰ-sc香港1—广港_油管阿伟科技1820
-  - Ⅰ-sc越南1—广港_油管阿伟科技1921
-  - JCBB_日本01【vip1】_1_油管阿伟科技2022
-  - JCBB_日本01【vip1】_2_油管阿伟科技2123
-  - JCBB_日本03【vip1】_油管阿伟科技2224
-  - JCBB_香港04【vip1】_油管阿伟科技2325
-  - JCBB_香港05【vip1】_油管阿伟科技2426
-  - JCBB_香港08【vip1】_油管阿伟科技2527
-  - JCBB_新加坡01【vip1】_油管阿伟科技2628
-  - JCBB_印度02【vip1】_1_油管阿伟科技2729
-  - JCBB_印度02【vip1】_2_油管阿伟科技2830
-  - V1-sc日本1—IEPL_油管阿伟科技2931
-  - V2-sc人妖天堂—广港_油管阿伟科技3032
-  - V2-sc新加坡2—广港_油管阿伟科技3133
-  - 🇨🇦+Canada+01_油管阿伟科技3234
-  - 🇨🇳+Taiwan+02_油管阿伟科技3335
-  - 🇭🇰+Hong+Kong+01_油管阿伟科技3436
-  - 🇵🇭+Philippines+01_油管阿伟科技3537
-  - 🇸🇬+Singapore+01_油管阿伟科技3638
-  - 🇺🇸+United+States+01_油管阿伟科技3739
-  - 🚇[v1]美国|02_油管阿伟科技3840
-  - 🚇[v1]印度|02_油管阿伟科技3941
-  - 🚇+[+联通+]+韩国+·+E1+|+01_油管阿伟科技4042
-  - 🚇+[+移动+]+香港+·+E1+|+02_油管阿伟科技4143
-  - 港3[直连]-流媒体NF_油管阿伟科技4244
-  - 港6[直连]-流媒体NF_油管阿伟科技4345
-  - 韩国|04|移动联通优化_油管阿伟科技4446
-  - 美国|101|流媒体优化|1x_油管阿伟科技4547
-  - 美国|103|美区解锁|1x_油管阿伟科技4648
-  - 美国丨达拉斯丨1Gbps_油管阿伟科技4749
-  - 日2[中转]-流媒体NF_油管阿伟科技4850
-  - 日本|102|流媒体优化|1x_油管阿伟科技4951
-  - 日本|02|奈飞移动联通优化_油管阿伟科技5052
-  - 隧道|NF|德国01_油管阿伟科技5153
-  - 隧道|NF|日本02_油管阿伟科技5254
-  - 隧道|NF|香港01_油管阿伟科技5355
-  - 隧道|NF|香港04_油管阿伟科技5456
-  - 隧道|NF|新加坡04_油管阿伟科技5557
-  - 台湾|101|台湾解锁|1x_油管阿伟科技5658
-  - 香港|102|广港|1.5x_油管阿伟科技5759
-  - 香港|103|海港|1x_油管阿伟科技5860
-  - 香港|21电信优化_油管阿伟科技5961
-  - 新[直连]2-流媒体NF_油管阿伟科技6062
-  - 新[直连]3-流媒体NF_油管阿伟科技6163
-  - 新[直连]6-流媒体NF_油管阿伟科技6264
-  - 新[直连]7-流媒体NF_油管阿伟科技6365
-  - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6466
-  - 新加坡|02|奈飞DO三网优化_油管阿伟科技6567
-  - 新加坡|08|移动联通优化_油管阿伟科技6668
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian70
-  - 🇺🇸 美国US|tg频道:@ripaojiedian71
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian72
-  - 🇫🇷 法国A|tg频道:@ripaojiedian73
-  - 🇫🇷 法国|tg频道:@ripaojiedian74
-  - 🇺🇸 美国A|tg频道:@ripaojiedian75
-  - 🇩🇪 德国-tg频道:@ripaojiedian76
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian77
+  - JCBB_香港06【vip1】3
+  - JCBB_香港08【vip1】_14
+  - JCBB_新加坡01【vip1】_15
+  - JCBB_日本01【vip1】_16
+  - JCBB_日本03【vip1】_17
+  - JCBB_香港08【vip1】_28
+  - JCBB_新加坡01【vip1】_29
+  - JCBB_日本01【vip1】_210
+  - JCBB_日本03【vip1】_211
+  - '[Vip1]香港06[1.0|联通|流媒体解锁]12'
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]13'
+  - '[Vip1]日本05[1.0|移动]14'
+  - '[Vip1]日本06[1.0|移动]15'
+  - '[Vip1]日本13[1.0|移动|流媒体解锁]16'
+  - 美国丨达拉斯丨1Gbps17
+  - 香港|103|海港|1x18
+  - 香港|105|广港|1x19
+  - 香港|102|广港|1.5x20
+  - 日本|102|流媒体优化|1x21
+  - 🇭🇰+Hong+Kong+0122
+  - 🇯🇵+Japan+0123
+  - 🇸🇬+Singapore+0124
+  - 🇺🇸+United+States+0225
+  - 🇨🇦 CA加拿大26
+  - 🇳🇱 荷兰27
+  - 🇺🇸 美国28
+  - 🇺🇸 美国 229
+  - 🇺🇸 美国 330
+  - 🇺🇸 美国 431
+  - 🇺🇸 美国 532
+  - 🇳🇱 荷兰 233
+  - 🇺🇸 美国 634
+  - 🇺🇸 us美国35
+  - 🇳🇱 荷兰 336
+  - 🇺🇸 美国 737
+  - 🇺🇸 美国 838
+  - 🇺🇸 美国 939
+  - 🇺🇸 美国 1040
+  - 🇺🇸 美国 1141
+  - 🇳🇱 荷兰 442
+  - 🇺🇸 US美国43
+  - 🇳🇱 荷兰 544
+  - 🇯🇵 日本45
+  - 🇺🇸 美国 1246
+  - 🇺🇸 美国 1347
+  - 亚洲48
+  - 🇪🇺 欧洲49
+  - 🇺🇸 美国 1450
+  - 🇨🇦 加拿大51
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian52
+  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian53
+  - 🇺🇸 美国US|tg频道:@ripaojiedian54
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian55
+  - 🇫🇷 法国A|tg频道:@ripaojiedian56
+  - 🇫🇷 法国|tg频道:@ripaojiedian57
+  - 🇺🇸 美国A|tg频道:@ripaojiedian58
+  - 🇩🇪 德国-tg频道:@ripaojiedian59
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian60
 - name: 🍃 应用净化
   type: select
   proxies:
@@ -1324,81 +1140,64 @@ proxy-groups:
   - DIRECT
   - 不定时更新订阅，更多节点关注YouTube阿伟科技1
   - 导入订阅链接，开启自动更新1H2
-  - '[VIP]俄罗斯直连电信联通优化倍率1.0x_油管阿伟1_油管阿伟科技1_油管阿伟科技1_油管阿伟科技13'
-  - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_油管阿伟科技24'
-  - '[Vip1]韩国01[1.0|移动]_油管阿伟科技35'
-  - '[Vip1]韩国04[1.0|联通]_油管阿伟科技46'
-  - '[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技57'
-  - '[Vip1]日本07[1.0|联通]_油管阿伟科技68'
-  - '[Vip1]香港05[1.0|移动|流媒体解锁]_油管阿伟科技79'
-  - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技810'
-  - +Hong+Kong+01_油管阿伟21_油管阿伟科技21_油管阿伟科技21_油管阿伟科技911
-  - +Hong+Kong+02_油管阿伟22_油管阿伟科技22_油管阿伟科技22_油管阿伟科技1012
-  - +Philippines+01_油管阿伟24_油管阿伟科技24_油管阿伟科技24_油管阿伟科技1113
-  - +Singapore+01_油管阿伟25_油管阿伟科技25_油管阿伟科技25_油管阿伟科技1214
-  - +Singapore+02_油管阿伟26_油管阿伟科技26_油管阿伟科技26_油管阿伟科技1315
-  - +United+States+02_油管阿伟27_油管阿伟科技27_油管阿伟科技27_油管阿伟科技1416
-  - Ⅰ-sc菲律宾2—广港_油管阿伟科技1517
-  - Ⅰ-sc韩国1—广港_油管阿伟科技1618
-  - Ⅰ-sc台湾2—广港_油管阿伟科技1719
-  - Ⅰ-sc香港1—广港_油管阿伟科技1820
-  - Ⅰ-sc越南1—广港_油管阿伟科技1921
-  - JCBB_日本01【vip1】_1_油管阿伟科技2022
-  - JCBB_日本01【vip1】_2_油管阿伟科技2123
-  - JCBB_日本03【vip1】_油管阿伟科技2224
-  - JCBB_香港04【vip1】_油管阿伟科技2325
-  - JCBB_香港05【vip1】_油管阿伟科技2426
-  - JCBB_香港08【vip1】_油管阿伟科技2527
-  - JCBB_新加坡01【vip1】_油管阿伟科技2628
-  - JCBB_印度02【vip1】_1_油管阿伟科技2729
-  - JCBB_印度02【vip1】_2_油管阿伟科技2830
-  - V1-sc日本1—IEPL_油管阿伟科技2931
-  - V2-sc人妖天堂—广港_油管阿伟科技3032
-  - V2-sc新加坡2—广港_油管阿伟科技3133
-  - 🇨🇦+Canada+01_油管阿伟科技3234
-  - 🇨🇳+Taiwan+02_油管阿伟科技3335
-  - 🇭🇰+Hong+Kong+01_油管阿伟科技3436
-  - 🇵🇭+Philippines+01_油管阿伟科技3537
-  - 🇸🇬+Singapore+01_油管阿伟科技3638
-  - 🇺🇸+United+States+01_油管阿伟科技3739
-  - 🚇[v1]美国|02_油管阿伟科技3840
-  - 🚇[v1]印度|02_油管阿伟科技3941
-  - 🚇+[+联通+]+韩国+·+E1+|+01_油管阿伟科技4042
-  - 🚇+[+移动+]+香港+·+E1+|+02_油管阿伟科技4143
-  - 港3[直连]-流媒体NF_油管阿伟科技4244
-  - 港6[直连]-流媒体NF_油管阿伟科技4345
-  - 韩国|04|移动联通优化_油管阿伟科技4446
-  - 美国|101|流媒体优化|1x_油管阿伟科技4547
-  - 美国|103|美区解锁|1x_油管阿伟科技4648
-  - 美国丨达拉斯丨1Gbps_油管阿伟科技4749
-  - 日2[中转]-流媒体NF_油管阿伟科技4850
-  - 日本|102|流媒体优化|1x_油管阿伟科技4951
-  - 日本|02|奈飞移动联通优化_油管阿伟科技5052
-  - 隧道|NF|德国01_油管阿伟科技5153
-  - 隧道|NF|日本02_油管阿伟科技5254
-  - 隧道|NF|香港01_油管阿伟科技5355
-  - 隧道|NF|香港04_油管阿伟科技5456
-  - 隧道|NF|新加坡04_油管阿伟科技5557
-  - 台湾|101|台湾解锁|1x_油管阿伟科技5658
-  - 香港|102|广港|1.5x_油管阿伟科技5759
-  - 香港|103|海港|1x_油管阿伟科技5860
-  - 香港|21电信优化_油管阿伟科技5961
-  - 新[直连]2-流媒体NF_油管阿伟科技6062
-  - 新[直连]3-流媒体NF_油管阿伟科技6163
-  - 新[直连]6-流媒体NF_油管阿伟科技6264
-  - 新[直连]7-流媒体NF_油管阿伟科技6365
-  - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6466
-  - 新加坡|02|奈飞DO三网优化_油管阿伟科技6567
-  - 新加坡|08|移动联通优化_油管阿伟科技6668
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian70
-  - 🇺🇸 美国US|tg频道:@ripaojiedian71
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian72
-  - 🇫🇷 法国A|tg频道:@ripaojiedian73
-  - 🇫🇷 法国|tg频道:@ripaojiedian74
-  - 🇺🇸 美国A|tg频道:@ripaojiedian75
-  - 🇩🇪 德国-tg频道:@ripaojiedian76
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian77
+  - JCBB_香港06【vip1】3
+  - JCBB_香港08【vip1】_14
+  - JCBB_新加坡01【vip1】_15
+  - JCBB_日本01【vip1】_16
+  - JCBB_日本03【vip1】_17
+  - JCBB_香港08【vip1】_28
+  - JCBB_新加坡01【vip1】_29
+  - JCBB_日本01【vip1】_210
+  - JCBB_日本03【vip1】_211
+  - '[Vip1]香港06[1.0|联通|流媒体解锁]12'
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]13'
+  - '[Vip1]日本05[1.0|移动]14'
+  - '[Vip1]日本06[1.0|移动]15'
+  - '[Vip1]日本13[1.0|移动|流媒体解锁]16'
+  - 美国丨达拉斯丨1Gbps17
+  - 香港|103|海港|1x18
+  - 香港|105|广港|1x19
+  - 香港|102|广港|1.5x20
+  - 日本|102|流媒体优化|1x21
+  - 🇭🇰+Hong+Kong+0122
+  - 🇯🇵+Japan+0123
+  - 🇸🇬+Singapore+0124
+  - 🇺🇸+United+States+0225
+  - 🇨🇦 CA加拿大26
+  - 🇳🇱 荷兰27
+  - 🇺🇸 美国28
+  - 🇺🇸 美国 229
+  - 🇺🇸 美国 330
+  - 🇺🇸 美国 431
+  - 🇺🇸 美国 532
+  - 🇳🇱 荷兰 233
+  - 🇺🇸 美国 634
+  - 🇺🇸 us美国35
+  - 🇳🇱 荷兰 336
+  - 🇺🇸 美国 737
+  - 🇺🇸 美国 838
+  - 🇺🇸 美国 939
+  - 🇺🇸 美国 1040
+  - 🇺🇸 美国 1141
+  - 🇳🇱 荷兰 442
+  - 🇺🇸 US美国43
+  - 🇳🇱 荷兰 544
+  - 🇯🇵 日本45
+  - 🇺🇸 美国 1246
+  - 🇺🇸 美国 1347
+  - 亚洲48
+  - 🇪🇺 欧洲49
+  - 🇺🇸 美国 1450
+  - 🇨🇦 加拿大51
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian52
+  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian53
+  - 🇺🇸 美国US|tg频道:@ripaojiedian54
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian55
+  - 🇫🇷 法国A|tg频道:@ripaojiedian56
+  - 🇫🇷 法国|tg频道:@ripaojiedian57
+  - 🇺🇸 美国A|tg频道:@ripaojiedian58
+  - 🇩🇪 德国-tg频道:@ripaojiedian59
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian60
 - name: 🐟 漏网之鱼
   type: select
   proxies:
@@ -1407,81 +1206,64 @@ proxy-groups:
   - ♻️ 自动选择
   - 不定时更新订阅，更多节点关注YouTube阿伟科技1
   - 导入订阅链接，开启自动更新1H2
-  - '[VIP]俄罗斯直连电信联通优化倍率1.0x_油管阿伟1_油管阿伟科技1_油管阿伟科技1_油管阿伟科技13'
-  - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_油管阿伟科技24'
-  - '[Vip1]韩国01[1.0|移动]_油管阿伟科技35'
-  - '[Vip1]韩国04[1.0|联通]_油管阿伟科技46'
-  - '[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技57'
-  - '[Vip1]日本07[1.0|联通]_油管阿伟科技68'
-  - '[Vip1]香港05[1.0|移动|流媒体解锁]_油管阿伟科技79'
-  - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技810'
-  - +Hong+Kong+01_油管阿伟21_油管阿伟科技21_油管阿伟科技21_油管阿伟科技911
-  - +Hong+Kong+02_油管阿伟22_油管阿伟科技22_油管阿伟科技22_油管阿伟科技1012
-  - +Philippines+01_油管阿伟24_油管阿伟科技24_油管阿伟科技24_油管阿伟科技1113
-  - +Singapore+01_油管阿伟25_油管阿伟科技25_油管阿伟科技25_油管阿伟科技1214
-  - +Singapore+02_油管阿伟26_油管阿伟科技26_油管阿伟科技26_油管阿伟科技1315
-  - +United+States+02_油管阿伟27_油管阿伟科技27_油管阿伟科技27_油管阿伟科技1416
-  - Ⅰ-sc菲律宾2—广港_油管阿伟科技1517
-  - Ⅰ-sc韩国1—广港_油管阿伟科技1618
-  - Ⅰ-sc台湾2—广港_油管阿伟科技1719
-  - Ⅰ-sc香港1—广港_油管阿伟科技1820
-  - Ⅰ-sc越南1—广港_油管阿伟科技1921
-  - JCBB_日本01【vip1】_1_油管阿伟科技2022
-  - JCBB_日本01【vip1】_2_油管阿伟科技2123
-  - JCBB_日本03【vip1】_油管阿伟科技2224
-  - JCBB_香港04【vip1】_油管阿伟科技2325
-  - JCBB_香港05【vip1】_油管阿伟科技2426
-  - JCBB_香港08【vip1】_油管阿伟科技2527
-  - JCBB_新加坡01【vip1】_油管阿伟科技2628
-  - JCBB_印度02【vip1】_1_油管阿伟科技2729
-  - JCBB_印度02【vip1】_2_油管阿伟科技2830
-  - V1-sc日本1—IEPL_油管阿伟科技2931
-  - V2-sc人妖天堂—广港_油管阿伟科技3032
-  - V2-sc新加坡2—广港_油管阿伟科技3133
-  - 🇨🇦+Canada+01_油管阿伟科技3234
-  - 🇨🇳+Taiwan+02_油管阿伟科技3335
-  - 🇭🇰+Hong+Kong+01_油管阿伟科技3436
-  - 🇵🇭+Philippines+01_油管阿伟科技3537
-  - 🇸🇬+Singapore+01_油管阿伟科技3638
-  - 🇺🇸+United+States+01_油管阿伟科技3739
-  - 🚇[v1]美国|02_油管阿伟科技3840
-  - 🚇[v1]印度|02_油管阿伟科技3941
-  - 🚇+[+联通+]+韩国+·+E1+|+01_油管阿伟科技4042
-  - 🚇+[+移动+]+香港+·+E1+|+02_油管阿伟科技4143
-  - 港3[直连]-流媒体NF_油管阿伟科技4244
-  - 港6[直连]-流媒体NF_油管阿伟科技4345
-  - 韩国|04|移动联通优化_油管阿伟科技4446
-  - 美国|101|流媒体优化|1x_油管阿伟科技4547
-  - 美国|103|美区解锁|1x_油管阿伟科技4648
-  - 美国丨达拉斯丨1Gbps_油管阿伟科技4749
-  - 日2[中转]-流媒体NF_油管阿伟科技4850
-  - 日本|102|流媒体优化|1x_油管阿伟科技4951
-  - 日本|02|奈飞移动联通优化_油管阿伟科技5052
-  - 隧道|NF|德国01_油管阿伟科技5153
-  - 隧道|NF|日本02_油管阿伟科技5254
-  - 隧道|NF|香港01_油管阿伟科技5355
-  - 隧道|NF|香港04_油管阿伟科技5456
-  - 隧道|NF|新加坡04_油管阿伟科技5557
-  - 台湾|101|台湾解锁|1x_油管阿伟科技5658
-  - 香港|102|广港|1.5x_油管阿伟科技5759
-  - 香港|103|海港|1x_油管阿伟科技5860
-  - 香港|21电信优化_油管阿伟科技5961
-  - 新[直连]2-流媒体NF_油管阿伟科技6062
-  - 新[直连]3-流媒体NF_油管阿伟科技6163
-  - 新[直连]6-流媒体NF_油管阿伟科技6264
-  - 新[直连]7-流媒体NF_油管阿伟科技6365
-  - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6466
-  - 新加坡|02|奈飞DO三网优化_油管阿伟科技6567
-  - 新加坡|08|移动联通优化_油管阿伟科技6668
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian70
-  - 🇺🇸 美国US|tg频道:@ripaojiedian71
-  - 🇭🇰 香港HGC|tg频道:@ripaojiedian72
-  - 🇫🇷 法国A|tg频道:@ripaojiedian73
-  - 🇫🇷 法国|tg频道:@ripaojiedian74
-  - 🇺🇸 美国A|tg频道:@ripaojiedian75
-  - 🇩🇪 德国-tg频道:@ripaojiedian76
-  - 🇭🇰 香港bgp|tg频道:@ripaojiedian77
+  - JCBB_香港06【vip1】3
+  - JCBB_香港08【vip1】_14
+  - JCBB_新加坡01【vip1】_15
+  - JCBB_日本01【vip1】_16
+  - JCBB_日本03【vip1】_17
+  - JCBB_香港08【vip1】_28
+  - JCBB_新加坡01【vip1】_29
+  - JCBB_日本01【vip1】_210
+  - JCBB_日本03【vip1】_211
+  - '[Vip1]香港06[1.0|联通|流媒体解锁]12'
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]13'
+  - '[Vip1]日本05[1.0|移动]14'
+  - '[Vip1]日本06[1.0|移动]15'
+  - '[Vip1]日本13[1.0|移动|流媒体解锁]16'
+  - 美国丨达拉斯丨1Gbps17
+  - 香港|103|海港|1x18
+  - 香港|105|广港|1x19
+  - 香港|102|广港|1.5x20
+  - 日本|102|流媒体优化|1x21
+  - 🇭🇰+Hong+Kong+0122
+  - 🇯🇵+Japan+0123
+  - 🇸🇬+Singapore+0124
+  - 🇺🇸+United+States+0225
+  - 🇨🇦 CA加拿大26
+  - 🇳🇱 荷兰27
+  - 🇺🇸 美国28
+  - 🇺🇸 美国 229
+  - 🇺🇸 美国 330
+  - 🇺🇸 美国 431
+  - 🇺🇸 美国 532
+  - 🇳🇱 荷兰 233
+  - 🇺🇸 美国 634
+  - 🇺🇸 us美国35
+  - 🇳🇱 荷兰 336
+  - 🇺🇸 美国 737
+  - 🇺🇸 美国 838
+  - 🇺🇸 美国 939
+  - 🇺🇸 美国 1040
+  - 🇺🇸 美国 1141
+  - 🇳🇱 荷兰 442
+  - 🇺🇸 US美国43
+  - 🇳🇱 荷兰 544
+  - 🇯🇵 日本45
+  - 🇺🇸 美国 1246
+  - 🇺🇸 美国 1347
+  - 亚洲48
+  - 🇪🇺 欧洲49
+  - 🇺🇸 美国 1450
+  - 🇨🇦 加拿大51
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian52
+  - 🇰🇷 韩国解锁|tg频道:@ripaojiedian53
+  - 🇺🇸 美国US|tg频道:@ripaojiedian54
+  - 🇭🇰 香港HGC|tg频道:@ripaojiedian55
+  - 🇫🇷 法国A|tg频道:@ripaojiedian56
+  - 🇫🇷 法国|tg频道:@ripaojiedian57
+  - 🇺🇸 美国A|tg频道:@ripaojiedian58
+  - 🇩🇪 德国-tg频道:@ripaojiedian59
+  - 🇭🇰 香港bgp|tg频道:@ripaojiedian60
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
