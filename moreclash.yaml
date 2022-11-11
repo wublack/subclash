@@ -26,21 +26,22 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡vmess1
+- name: vmess1
   type: vmess
-  server: ppy-moble.gatknqh.cn
-  port: '26022'
-  uuid: 969a2445-04d8-3f35-abe0-15fd31e05585
+  server: 141.101.115.121
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
-  ws-path: /
+  network: ws
+  ws-path: /ray
   ws-headers:
-    Host: ppy-moble.gatknqh.cn
-- name: 🇺🇸 _US_美国vmess2
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: vmess2
   type: vmess
-  server: 36.72img.xyz
+  server: 55.72img.xyz
   port: '443'
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
@@ -49,9 +50,9 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 36.72img.xyz
+    Host: ''
   tls: true
-- name: default_namevmess3
+- name: 🇺🇸_US_美国vmess3
   type: vmess
   server: 33.72img.xyz
   port: '443'
@@ -62,46 +63,48 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 33.72img.xyz
-  tls: true
-- name: _LA_老挝vmess4
-  type: vmess
-  server: 8.218.83.148
-  port: '63239'
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
     Host: ''
-- name: 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国vmess5
+  tls: true
+- name: 🇺🇸_US_美国vmess4
   type: vmess
-  server: 188.114.97.111
+  server: 4.72img.xyz
   port: '443'
-  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /chcara
+  ws-path: /
   ws-headers:
-    Host: v2fly.samrt.website
+    Host: ''
   tls: true
-- name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess6
+- name: aoop-12vmess5
   type: vmess
-  server: ppy-moble.gatknqh.cn
-  port: '26062'
-  uuid: 969a2445-04d8-3f35-abe0-15fd31e05585
+  server: 172.67.59.59
+  port: '443'
+  uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee
   alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
+  network: ws
+  ws-path: /live
+  ws-headers:
+    Host: www.aoop.eu.org
+  tls: true
+- name: vmess6
+  type: vmess
+  server: 43.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
   ws-path: /
   ws-headers:
-    Host: ppy-moble.gatknqh.cn
-- name: default_namevmess7
+    Host: ''
+  tls: true
+- name: 🇺🇸_US_美国vmess7
   type: vmess
   server: 34.72img.xyz
   port: '443'
@@ -114,33 +117,33 @@ proxies:
   ws-headers:
     Host: 34.72img.xyz
   tls: true
-- name: default_namevmess8
+- name: vmess8
   type: vmess
-  server: 46.72img.xyz
+  server: 141.101.115.136
   port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /
+  ws-path: /ray
   ws-headers:
-    Host: 46.72img.xyz
+    Host: lg1.cfcdn1.xyz
   tls: true
-- name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大vmess9
+- name: vmess9
   type: vmess
-  server: 43.72img.xyz
+  server: 141.101.115.120
   port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /
+  ws-path: /ray
   ws-headers:
-    Host: 43.72img.xyz
+    Host: lg30.cfcdn3.xyz
   tls: true
-- name: 🇺🇸 _US_美国vmess10
+- name: vmess10
   type: vmess
   server: 38.72img.xyz
   port: '443'
@@ -151,49 +154,50 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 38.72img.xyz
-  tls: true
-- name: 🇸🇬 _SG_新加坡vmess11
-  type: vmess
-  server: 8.218.86.250
-  port: '22362'
-  uuid: 72356bf7-487b-42c0-a7f2-845136b33503
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
     Host: ''
-- name: 🇺🇸 _US_美国vmess12
+  tls: true
+- name: aoop-12vmess11
   type: vmess
-  server: vde1.0bad.com
+  server: seviche.cc
   port: '443'
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /chat
+  ws-path: /live
   ws-headers:
-    Host: vde1.0bad.com
+    Host: www.aoop.eu.org
   tls: true
-- name: 🇨🇭 _CH_瑞士vmess13
+- name: vmess12
   type: vmess
-  server: www.liuyiyang19891222.tk
+  server: 141.101.114.102
   port: '443'
-  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /
+  ws-path: /dongtaiwang.com
   ws-headers:
-    Host: www.liuyiyang19891222.tk
+    Host: clash6.ssr-free.xyz
   tls: true
-- name: default_namevmess14
+- name: aoop-13vmess13
   type: vmess
-  server: 44.72img.xyz
+  server: 172.66.2.53
+  port: '443'
+  uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /live
+  ws-headers:
+    Host: www.aoop.eu.org
+  tls: true
+- name: 🇺🇸_US_美国vmess14
+  type: vmess
+  server: 54.72img.xyz
   port: '443'
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
@@ -202,21 +206,22 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 44.72img.xyz
+    Host: 54.72img.xyz
   tls: true
-- name: 🇭🇰 _HK_香港vmess15
+- name: 🇺🇸_US_美国vmess15
   type: vmess
-  server: 8.210.34.212
-  port: '51578'
-  uuid: 24cfd28c-a3d7-4028-89e8-b25fdcb28bac
+  server: 66.212.20.3
+  port: '443'
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
   alterId: '0'
   cipher: auto
   ucp: true
-  network: http
-  ws-path: /
+  network: ws
+  ws-path: /dongtaiwang.com
   ws-headers:
-    Host: ''
-- name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰vmess16
+    Host: v2ray2.ssr-free2.xyz
+  tls: true
+- name: vmess16
   type: vmess
   server: 55.72img.xyz
   port: '443'
@@ -229,1862 +234,7 @@ proxies:
   ws-headers:
     Host: 55.72img.xyz
   tls: true
-- name: default_namevmess17
-  type: vmess
-  server: 198.41.212.150
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: default_namevmess18
-  type: vmess
-  server: 141.101.114.20
-  port: '443'
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash1.trump2023.net
-  tls: true
-- name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess19
-  type: vmess
-  server: ppy-moble.gatknqh.cn
-  port: '26059'
-  uuid: 969a2445-04d8-3f35-abe0-15fd31e05585
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: hk1.kfcnode.xyz
-- name: 🇦🇺 _AU_澳大利亚vmess20
-  type: vmess
-  server: vau1.0bad.com
-  port: '443'
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vau1.0bad.com
-  tls: true
-- name: 🇺🇸 _US_美国->🇫🇷_FR_法国vmess21
-  type: vmess
-  server: 172.64.148.111
-  port: '443'
-  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: fr2.cfcdn4.xyz
-  tls: true
-- name: default_namevmess22
-  type: vmess
-  server: 10.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 10.72img.xyz
-  tls: true
-- name: default_namevmess23
-  type: vmess
-  server: 21.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 21.72img.xyz
-  tls: true
-- name: 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦vmess24
-  type: vmess
-  server: 9.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 9.72img.xyz
-  tls: true
-- name: 🇺🇸 _US_美国vmess25
-  type: vmess
-  server: 128.14.140.254
-  port: '443'
-  uuid: 43a55a45-6fbd-4713-9ff5-48f90bd74c5f
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hax-tunnels.petll.tk
-  tls: true
-- name: 🇭🇰 _HK_香港vmess26
-  type: vmess
-  server: 47.242.56.3
-  port: '37064'
-  uuid: d2a10a17-6191-472c-896b-782331f49fb9
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇸🇬 _SG_新加坡vmess27
-  type: vmess
-  server: 8.218.80.207
-  port: '58793'
-  uuid: 652919af-4b0f-4211-8f06-952958d05038
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇸🇬 _SG_新加坡vmess28
-  type: vmess
-  server: 8.218.85.43
-  port: '43645'
-  uuid: 0cd2e2c0-ef4f-4a49-a89f-ee2552aed247
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇸🇬 _SG_新加坡vmess29
-  type: vmess
-  server: 8.218.86.226
-  port: '51616'
-  uuid: bf6bc39e-9453-43b3-805e-7f11965981a4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇷🇺 _RU_俄罗斯联邦vmess30
-  type: vmess
-  server: 91.243.82.15
-  port: '34146'
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 🇯🇵 _US_美国->🇯🇵_JP_日本vmess31
-  type: vmess
-  server: 27.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 27.72img.xyz
-  tls: true
-- name: 🇭🇰 _HK_香港vmess32
-  type: vmess
-  server: 47.242.205.255
-  port: '49935'
-  uuid: 3ffddc7c-80a3-4677-ab9e-30da4190ec6a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇭🇰 _HK_香港vmess33
-  type: vmess
-  server: 47.242.243.218
-  port: '48471'
-  uuid: 7daf0d3d-8c74-4f46-8912-fbf59be05e39
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇺🇸 _MO_澳门->🇺🇸_US_美国vmess34
-  type: vmess
-  server: 45.64.22.23
-  port: '443'
-  uuid: 43a55a45-6fbd-4713-9ff5-48f90bd74c5f
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hax-tunnels.petll.tk
-  tls: true
-- name: 🇭🇰 _HK_香港vmess35
-  type: vmess
-  server: 8.210.203.189
-  port: '37309'
-  uuid: 74cdcc28-a0bc-421f-bd15-c6a6e401b523
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇭🇰 _HK_香港vmess36
-  type: vmess
-  server: 47.242.61.125
-  port: '51784'
-  uuid: 431c4c01-b596-4d12-a9e6-4f7f21fe82ba
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: http
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇺🇸 _US_美国vmess37
-  type: vmess
-  server: 172.66.0.105
-  port: '443'
-  uuid: 3baaad0f-b764-4f4e-d382-cdd104390838
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /live
-  ws-headers:
-    Host: www.aoop1994.eu.org
-  tls: true
-- name: 🇸🇪 _CN_中国->🇸🇪_SE_瑞典vmess38
-  type: vmess
-  server: ppy-moble.gatknqh.cn
-  port: '26011'
-  uuid: 969a2445-04d8-3f35-abe0-15fd31e05585
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: hk1.kfcnode.xyz
-- name: 🇭🇰 香港vmess39
-  type: vmess
-  server: azhk5.ssrcloud.co
-  port: '8083'
-  uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azhk5.ssrcloud.co
-- name: 🇭🇰 香港vmess40
-  type: vmess
-  server: 207.46.146.247
-  port: '8083'
-  uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇭🇰 香港vmess41
-  type: vmess
-  server: 65.52.179.8
-  port: '8083'
-  uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇭🇰 香港vmess42
-  type: vmess
-  server: azhk3.ssrcloud.co
-  port: '8083'
-  uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azhk3.ssrcloud.co
-- name: 🇭🇰 香港vmess43
-  type: vmess
-  server: azhk1.ssrcloud.co
-  port: '8083'
-  uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azhk1.ssrcloud.co
-- name: 🇭🇰 香港vmess44
-  type: vmess
-  server: 65.52.186.239
-  port: '8083'
-  uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇭🇰 香港vmess45
-  type: vmess
-  server: azhk5.ssrcloud.co
-  port: '8083'
-  uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azhk5.ssrcloud.co
-- name: 🇭🇰 香港vmess46
-  type: vmess
-  server: 75.2.123.4
-  port: '40202'
-  uuid: 91099f8a-b72a-3b1b-9f12-cdc0d255c583
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /honda
-  ws-headers:
-    Host: 75.2.123.4
-- name: 🇯🇵 日本vmess47
-  type: vmess
-  server: 45.77.181.167
-  port: '35404'
-  uuid: a216fb5c-8559-43b4-a4f7-82a50b75328c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: 45.77.181.167
-- name: 🇯🇵 日本vmess48
-  type: vmess
-  server: 45.77.181.167
-  port: '35404'
-  uuid: a216fb5c-8559-43b4-a4f7-82a50b75328c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇬🇧 英国vmess49
-  type: vmess
-  server: GB02-1-ISYVE.233cloud-node.com
-  port: '233'
-  uuid: 09d1d59d-0ca8-32c9-9b39-0ab8171de275
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: GB02-1-ISYVE.233cloud-node.com
-- name: 🇬🇧 英国vmess50
-  type: vmess
-  server: GB01-1-57I8K.233cloud-node.com
-  port: '233'
-  uuid: 09d1d59d-0ca8-32c9-9b39-0ab8171de275
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: GB01-1-57I8K.233cloud-node.com
-- name: 🇦🇺 澳大利亚vmess51
-  type: vmess
-  server: AU01-1-FXJBP.233cloud-node.com
-  port: '233'
-  uuid: 09d1d59d-0ca8-32c9-9b39-0ab8171de275
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: AU01-1-FXJBP.233cloud-node.com
-- name: 🇦🇺 澳大利亚vmess52
-  type: vmess
-  server: AU03-1-5EPAQ.233cloud-node.com
-  port: '233'
-  uuid: 09d1d59d-0ca8-32c9-9b39-0ab8171de275
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: AU03-1-5EPAQ.233cloud-node.com
-- name: 🇦🇺 澳大利亚vmess53
-  type: vmess
-  server: AU02-1-Y8DDV.233cloud-node.com
-  port: '233'
-  uuid: 09d1d59d-0ca8-32c9-9b39-0ab8171de275
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: AU02-1-Y8DDV.233cloud-node.com
-- name: 🇳🇱 荷兰vmess54
-  type: vmess
-  server: 154.84.1.140
-  port: '54671'
-  uuid: 2a7349d6-994a-434b-9589-c0020685e528
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇳🇱 荷兰vmess55
-  type: vmess
-  server: AU04-1-KHAKW.233cloud-node.com
-  port: '233'
-  uuid: 09d1d59d-0ca8-32c9-9b39-0ab8171de275
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: AU04-1-KHAKW.233cloud-node.com
-- name: 🇨🇳 台湾vmess56
-  type: vmess
-  server: 120.232.194.76
-  port: '12345'
-  uuid: 9f77a637-8f98-3e27-a5dd-fbc2b8d99fe2
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: a4.invictus.network
-- name: 🇸🇬 新加坡vmess57
-  type: vmess
-  server: gz-yd.mugun.xyz
-  port: '111'
-  uuid: 0d1e3d14-a889-386a-b199-ca16bc948bfb
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: gz-yd.mugun.xyz
-- name: 🇸🇬 新加坡vmess58
-  type: vmess
-  server: 172.104.163.103
-  port: '14750'
-  uuid: 2d127104-4cad-408e-e94e-733b89ec8ad3
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dwn
-  ws-headers:
-    Host: ''
-- name: 🇸🇬 新加坡vmess59
-  type: vmess
-  server: 120.232.15.36
-  port: '51177'
-  uuid: 69a75a78-5ecb-4ef4-88f7-ac4a0ea2d530
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v1
-  ws-headers:
-    Host: v.qq.com
-- name: 🇺🇸 美国vmess60
-  type: vmess
-  server: jmnt.speed17.club
-  port: '51177'
-  uuid: 69a75a78-5ecb-4ef4-88f7-ac4a0ea2d530
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v1
-  ws-headers:
-    Host: v.qq.com
-- name: 🇺🇸 美国vmess61
-  type: vmess
-  server: 34.72.52.247
-  port: '58491'
-  uuid: c3ec2bdf-9e42-4a91-9b2f-0dbf84fe3544
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇺🇸 美国vmess62
-  type: vmess
-  server: free-in01.starlink.cx
-  port: '8077'
-  uuid: c9206345-3acc-4bd1-85d1-7ac638d8e027
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: free-in01.starlink.cx
-- name: 🇸🇬 新加坡vmess63
-  type: vmess
-  server: gz-yd.mugun.xyz
-  port: '110'
-  uuid: 0d1e3d14-a889-386a-b199-ca16bc948bfb
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: gz-yd.mugun.xyz
-- name: 🇸🇬 新加坡vmess64
-  type: vmess
-  server: 139.162.23.119
-  port: '8077'
-  uuid: 7ecb2214-2305-4f38-ad23-aa5395fcf585
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇺🇸 美国vmess65
-  type: vmess
-  server: 54.144.153.54
-  port: '33881'
-  uuid: 8f6767fd-6fdd-4371-a2ee-a46862f721c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: 54.144.153.54
-- name: 🇸🇬 新加坡vmess66
-  type: vmess
-  server: free-sg01.starlink.cx
-  port: '8077'
-  uuid: c9206345-3acc-4bd1-85d1-7ac638d8e027
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: free-sg01.starlink.cx
-- name: 🇨🇳 台湾vmess67
-  type: vmess
-  server: a4z.invictus.network
-  port: '12345'
-  uuid: 846a0323-96ed-3847-bf58-e22816b7bdd1
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: a4.invictus.network
-- name: 🇯🇵 日本vmess68
-  type: vmess
-  server: gz-yd.mugun.xyz
-  port: '113'
-  uuid: 0d1e3d14-a889-386a-b199-ca16bc948bfb
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: gz-yd.mugun.xyz
-- name: 🇷🇺 俄罗斯vmess69
-  type: vmess
-  server: 185.22.154.203
-  port: '23803'
-  uuid: 00228c65-79e1-437b-9f88-de24bb0041e6
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇭🇰 香港vmess70
-  type: vmess
-  server: L1-aws-hk-05.baipiao.de
-  port: '80'
-  uuid: 1ae8f74a-d1ee-3c86-94ca-daf840f79ac8
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: L1-aws-hk-05.baipiao.de
-- name: 🇺🇸 美国vmess71
-  type: vmess
-  server: 76.223.57.18
-  port: '80'
-  uuid: 1ae8f74a-d1ee-3c86-94ca-daf840f79ac8
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇪🇺 欧洲vmess72
-  type: vmess
-  server: 62.216.93.213
-  port: '80'
-  uuid: 3ba56e3d-6a7a-42f2-b0db-9a5c95b7e25a
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇯🇵 日本vmess73
-  type: vmess
-  server: l1-aws-jp-06.mugun.xyz
-  port: '443'
-  uuid: 0d1e3d14-a889-386a-b199-ca16bc948bfb
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: l1-aws-jp-06.mugun.xyz
-- name: 🇰🇷 韩国vmess74
-  type: vmess
-  server: xibun.cf
-  port: '443'
-  uuid: b18a6a62-23aa-11eb-a956-5600030ecf14
-  alterId: '46'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /oAuRQeUg/
-  ws-headers:
-    Host: xibun.cf
-  tls: true
-- name: 🇰🇷 韩国vmess75
-  type: vmess
-  server: L1-aws-kr-01.baipiao.de
-  port: '80'
-  uuid: 1ae8f74a-d1ee-3c86-94ca-daf840f79ac8
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: L1-aws-kr-01.baipiao.de
-- name: 🇫🇮 芬兰vmess76
-  type: vmess
-  server: 104.16.132.229
-  port: '443'
-  uuid: 311e968c-038e-11eb-b700-512f35e39e11
-  alterId: '16'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /H9SMty3O/
-  ws-headers:
-    Host: v2.kdpd.me
-  tls: true
-- name: 🇺🇸 美国vmess77
-  type: vmess
-  server: L1-aws-kr-01.baipiao.de
-  port: '80'
-  uuid: a4b24b7e-1477-32a2-a373-9f63a34f42f2
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: L1-aws-kr-01.baipiao.de
-- name: 🇺🇸 美国vmess78
-  type: vmess
-  server: 172.67.223.77
-  port: '443'
-  uuid: 56b37d6f-aaa8-eec9-9035-5a2798598b3c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /nnpf
-  ws-headers:
-    Host: blog.v2ray-agent.com
-  tls: true
-- name: 🇯🇵  日本  1vmess79
-  type: vmess
-  server: 43.200.191.28
-  port: '42517'
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: 🇺🇸  美国加利福尼亚州洛杉矶MULTACOM数据中心 2vmess80
-  type: vmess
-  server: 100.42.78.170
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 🇺🇸  美国  3vmess81
-  type: vmess
-  server: us.vmess3.xservs.xyz
-  port: '80'
-  uuid: f4f37895-2e4d-4c71-bca0-9da107868dee
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: Vipmahsa
-- name: 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 4vmess82
-  type: vmess
-  server: 51.81.220.195
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 51.81.220.195
-- name: 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 5vmess83
-  type: vmess
-  server: us-lb.sshkit.org
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
-  ws-headers:
-    Host: us-lb.sshkit.org
-- name: 🇸🇪  瑞典Oracle Corporation 6vmess84
-  type: vmess
-  server: suzhihan.eu.org
-  port: '443'
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: suzhihan.eu.org
-  tls: true
-- name: 🇺🇸  美国惠普HP 7vmess85
-  type: vmess
-  server: 16.162.204.53
-  port: '80'
-  uuid: 66bee8fa-56a6-4108-92ec-d4a0900270cb
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 16.162.204.53
-- name: 🇳🇱  荷兰阿姆斯特丹LeaseWeb数据中心 8vmess86
-  type: vmess
-  server: 85.17.5.150
-  port: '36306'
-  uuid: 4070fdde-43d5-4b3f-dbcf-7751c77e4bf6
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 85.17.5.150
-- name: 🇬🇧  英国社会保险安全部 9vmess87
-  type: vmess
-  server: ca2.v2rayserv.com
-  port: '80'
-  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: ca2.v2rayserv.com
-- name: 🇺🇸  美国Linode数据中心 10vmess88
-  type: vmess
-  server: vus4.0bad.com
-  port: '443'
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: vus4.0bad.com
-  tls: true
-- name: 🇺🇸  美国加利福尼亚州洛杉矶Zenlayer数据中心 11vmess89
-  type: vmess
-  server: 128.14.140.254
-  port: '443'
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: v2ray2.ssr-free2.xyz
-  tls: true
-- name: 🇺🇸  美国PacificRack机房 12vmess90
-  type: vmess
-  server: 66.212.20.3
-  port: '443'
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: v2ray2.ssr-free2.xyz
-  tls: true
-- name: 🇨🇭  瑞士苏黎世Oracle云计算数据中心 13vmess91
-  type: vmess
-  server: www.liuyiyang19891222.tk
-  port: '443'
-  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: www.liuyiyang19891222.tk
-  tls: true
-- name: 🇺🇸  美国CloudFlare节点 14vmess92
-  type: vmess
-  server: 198.41.212.100
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇫🇷  法国国际航空电讯集团公司(SITA) 15vmess93
-  type: vmess
-  server: 57.128.45.161
-  port: '80'
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /user
-  ws-headers:
-    Host: 57.128.45.161
-- name: 🇺🇸  美国CloudFlare节点 16vmess94
-  type: vmess
-  server: 198.41.212.155
-  port: '443'
-  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: lg1.cfcdn2.xyz
-  tls: true
-- name: 🇺🇸  美国惠普HP 17vmess95
-  type: vmess
-  server: hk80-2.sanfen001.pics
-  port: '80'
-  uuid: 66bee8fa-56a6-4108-92ec-d4a0900270cb
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /zh-cn/download
-  ws-headers:
-    Host: a.189.cn
-- name: 🇬🇧  英国社会保险安全部 18vmess96
-  type: vmess
-  server: univstar.51.195.140.208.sslip.io
-  port: '443'
-  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: goodfamily19.site
-  tls: true
-- name: 🇺🇸  美国  19vmess97
-  type: vmess
-  server: 140.238.249.80
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 140.238.249.80
-  tls: true
-- name: 🇺🇸  美国CloudFlare节点 20vmess98
-  type: vmess
-  server: sl1.mayaa.eu.org
-  port: '443'
-  uuid: 996410c5-812f-44c7-db61-2eedf272122c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: sl1.mayaa.eu.org
-  tls: true
-- name: 🇺🇸  美国CloudFlare公司CDN节点 21vmess99
-  type: vmess
-  server: sl2.mayaa.eu.org
-  port: '443'
-  uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dsadsa144113s
-  ws-headers:
-    Host: sl2.mayaa.eu.org
-  tls: true
-- name: 🇪🇺  欧洲  22vmess100
-  type: vmess
-  server: 131.196.253.140
-  port: '80'
-  uuid: d54226f9-4427-4466-957f-173b0a5b1cbc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: 131.196.253.140
-- name: 🇺🇸  美国CloudFlare公司CDN节点 23vmess101
-  type: vmess
-  server: hardgum10.online
-  port: '443'
-  uuid: c10b8bd6-3d5a-412f-9187-b98184b9e044
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hardgum10.online
-  tls: true
-- name: 🇺🇸  美国  24vmess102
-  type: vmess
-  server: univstar1.198.244.148.214.sslip.io
-  port: '443'
-  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: goodfamily19.site
-  tls: true
-- name: 🇺🇸  美国  25vmess103
-  type: vmess
-  server: 155.248.241.52
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 155.248.241.52
-  tls: true
-- name: 🇺🇸  美国CloudFlare公司CDN节点 26vmess104
-  type: vmess
-  server: uicdn.cf
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/635cb6dd4206c/
-  ws-headers:
-    Host: sg3-v2ray.sshkit.org
-- name: 🇸🇬  新加坡OVH 28vmess105
-  type: vmess
-  server: 51.79.157.223
-  port: '80'
-  uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: ''
-- name: 🇺🇸  美国CloudFlare公司CDN节点 30vmess106
-  type: vmess
-  server: jm.jshsxxxy.top
-  port: '443'
-  uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jm.jshsxxxy.top
-  tls: true
-- name: 🇷🇺  俄罗斯  31vmess107
-  type: vmess
-  server: 91.243.82.15
-  port: '34147'
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: golang.protocolbuffer.com
-  tls: true
-- name: vmess108
-  type: vmess
-  server: 106.12.168.13
-  port: '13156'
-  uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: vmess109
-  type: vmess
-  server: 117.50.172.89
-  port: '19889'
-  uuid: 8830f9ba-b300-419f-92fc-dd5b5b82da6f
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: vmess110
-  type: vmess
-  server: 47.93.231.218
-  port: '53022'
-  uuid: 95fd7642-2160-4528-e909-3d526b533013
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: vmess111
-  type: vmess
-  server: 182.61.40.115
-  port: '23846'
-  uuid: 95ae7357-b4f5-4ff5-988a-c3b52d5eabbc
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: dafeivpn.com 5元专线机场vmess112
-  type: vmess
-  server: 106.75.218.112
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess113
-  type: vmess
-  server: zfd-moble.gatknqh.cn
-  port: '16131'
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: zfd-moble.gatknqh.cn
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess114
-  type: vmess
-  server: zfd-moble.gatknqh.cn
-  port: '16115'
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: zfd-moble.gatknqh.cn
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess115
-  type: vmess
-  server: zfd-moblev2.gatknqh.cn
-  port: '16113'
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: zfd-moblev2.gatknqh.cn
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess116
-  type: vmess
-  server: 113.31.124.147
-  port: '443'
-  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wmzmvws
-  ws-headers:
-    Host: goodfamily19.site
-  tls: true
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess117
-  type: vmess
-  server: zfd-unicomv2.gatknqh.cn
-  port: '16106'
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: zfd-unicomv2.gatknqh.cn
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess118
-  type: vmess
-  server: zfd-moblev2.gatknqh.cn
-  port: '16119'
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: zfd-moblev2.gatknqh.cn
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess119
-  type: vmess
-  server: 113.31.124.147
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess120
-  type: vmess
-  server: 106.75.77.120
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess121
-  type: vmess
-  server: zfd-moble.gatknqh.cn
-  port: '16131'
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: zfd-moble.gatknqh.cn
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess122
-  type: vmess
-  server: 106.75.104.152
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇨🇳 中国(TG频道:@kxswa)vmess123
-  type: vmess
-  server: zfd-moble.gatknqh.cn
-  port: '16108'
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: zfd-moble.gatknqh.cn
-- name: 🇸🇬 新加坡(TG频道:@kxswa)vmess124
-  type: vmess
-  server: univstar.188.166.186.249.sslip.io
-  port: '443'
-  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wmzmvws
-  ws-headers:
-    Host: goodfamily19.site
-  tls: true
-- name: 🇸🇬 新加坡(TG频道:@kxswa)vmess125
-  type: vmess
-  server: 8.219.155.255
-  port: '80'
-  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: ca2.v2rayserv.com
-- name: 🇭🇰 香港(TG频道:@kxswa)vmess126
-  type: vmess
-  server: 119.247.119.212
-  port: '443'
-  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /reffs7y26g0ua
-  ws-headers:
-    Host: surongwei.eu.org
-  tls: true
-- name: 🇭🇰 香港(TG频道:@kxswa)vmess127
-  type: vmess
-  server: 159.100.206.88
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇭🇰 香港(TG频道:@kxswa)vmess128
-  type: vmess
-  server: 167.179.32.53
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇨🇳 台湾(TG频道:@kxswa)vmess129
-  type: vmess
-  server: 211.72.35.110
-  port: '443'
-  uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ru.tzccifq.ga
-  tls: true
-- name: 🇨🇳 台湾(TG频道:@kxswa)vmess130
-  type: vmess
-  server: 220.130.80.179
-  port: '443'
-  uuid: 70206490-8292-4242-b263-e7d11589362e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /down
-  ws-headers:
-    Host: wx.adbse.xyz
-  tls: true
-- name: 🇯🇵 日本(TG频道:@kxswa)vmess131
-  type: vmess
-  server: vjp1.0bad.com
-  port: '443'
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vjp1.0bad.com
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess132
-  type: vmess
-  server: 128.14.140.254
-  port: '443'
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: v2ray2.ssr-free2.xyz
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess133
-  type: vmess
-  server: 15.235.147.186
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Ertusg86/635014638c264/
-  ws-headers:
-    Host: 15.235.147.186
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess134
-  type: vmess
-  server: suzhihan.eu.org
-  port: '443'
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /roewesu
-  ws-headers:
-    Host: suzhihan.eu.org
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess135
-  type: vmess
-  server: us-lb.sshkit.org
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
-  ws-headers:
-    Host: zoom.us
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess136
-  type: vmess
-  server: 20.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.72img.xyz
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess137
-  type: vmess
-  server: 172.64.154.222
-  port: '443'
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg1.cfcdn1.xyz
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess138
-  type: vmess
-  server: 51.81.220.195
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
-  ws-headers:
-    Host: 51.81.220.195
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess139
-  type: vmess
-  server: 172.64.154.201
-  port: '2086'
-  uuid: 2deba385-c19c-4f77-958e-dde0bcdddff5
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /@heinuhome
-  ws-headers:
-    Host: heinuhome-awsus.heinu.cf
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess140
-  type: vmess
-  server: vde1.0bad.com
-  port: '443'
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vde1.0bad.com
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess141
-  type: vmess
-  server: 66.212.20.3
-  port: '443'
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: v2ray2.ssr-free2.xyz
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess142
-  type: vmess
-  server: kr1.sanfen001.pics
-  port: '443'
-  uuid: 66bee8fa-56a6-4108-92ec-d4a0900270cb
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /zh-cn
-  ws-headers:
-    Host: kr1.sanfen001.pics
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess143
-  type: vmess
-  server: us.vmess3.xservs.xyz
-  port: '80'
-  uuid: f4f37895-2e4d-4c71-bca0-9da107868dee
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: Vipmahsa
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess144
-  type: vmess
-  server: sg-lb.vhax.net
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Deroxbxb7/63530b4859a5f/
-  ws-headers:
-    Host: zoom.us
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess145
-  type: vmess
-  server: br1.v2rayserv.com
-  port: '443'
-  uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: br1.v2rayserv.com
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess146
-  type: vmess
-  server: 172.66.0.105
-  port: '443'
-  uuid: 3baaad0f-b764-4f4e-d382-cdd104390838
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /live
-  ws-headers:
-    Host: www.aoop1994.eu.org
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess147
-  type: vmess
-  server: 44.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 44.72img.xyz
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess148
-  type: vmess
-  server: 172.64.152.150
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: 🇺🇸 美国(TG频道:@kxswa)vmess149
-  type: vmess
-  server: 172.67.178.55
-  port: '443'
-  uuid: 0145bfef-aa53-416f-90d4-8634295dab57
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /live
-  ws-headers:
-    Host: www.aoopmiss.cf
-  tls: true
-- name: 🇨🇦 加拿大(TG频道:@kxswa)vmess150
-  type: vmess
-  server: 51.222.137.198
-  port: '80'
-  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: 51.222.137.198
-- name: 🇨🇦 加拿大(TG频道:@kxswa)vmess151
-  type: vmess
-  server: ca2.v2rayserv.com
-  port: '80'
-  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: ca2.v2rayserv.com
-- name: 🇳🇱 荷兰(TG频道:@kxswa)vmess152
-  type: vmess
-  server: 85.17.5.150
-  port: '36306'
-  uuid: 4070fdde-43d5-4b3f-dbcf-7751c77e4bf6
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Af5645tr
-  ws-headers:
-    Host: 85.17.5.150
-- name: 🇫🇷 法国(TG频道:@kxswa)vmess153
-  type: vmess
-  server: 152.228.191.232
-  port: '443'
-  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wmzmvws
-  ws-headers:
-    Host: goodfamily19.site
-  tls: true
-- name: 🇫🇷 法国(TG频道:@kxswa)vmess154
-  type: vmess
-  server: univstar1.198.244.148.214.sslip.io
-  port: '443'
-  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wmzmvws
-  ws-headers:
-    Host: goodfamily19.site
-  tls: true
-- name: 🇫🇷 法国(TG频道:@kxswa)vmess155
-  type: vmess
-  server: 152.228.191.232
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇫🇷 法国(TG频道:@kxswa)vmess156
-  type: vmess
-  server: 198.244.148.214
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇫🇷 法国(TG频道:@kxswa)vmess157
-  type: vmess
-  server: 51.75.70.34
-  port: '443'
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash1.trump2023.net
-  tls: true
-- name: 🇧🇪 比利时(TG频道:@kxswa)vmess158
-  type: vmess
-  server: 57.128.45.161
-  port: '80'
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /user
-  ws-headers:
-    Host: 57.128.45.161
-- name: 🇲🇴 澳门(TG频道:@kxswa)vmess159
-  type: vmess
-  server: 45.64.22.55
-  port: '443'
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: p1.chigua.tk
-  tls: true
-- name: 🇦🇺 澳大利亚(TG频道:@kxswa)vmess160
-  type: vmess
-  server: 139.99.236.163
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: 🇦🇺 澳大利亚(TG频道:@kxswa)vmess161
-  type: vmess
-  server: 139.99.237.62
-  port: '80'
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /user
-  ws-headers:
-    Host: static.azadrah22.com
-- name: 🇦🇺 澳大利亚(TG频道:@kxswa)vmess162
-  type: vmess
-  server: 139.99.236.163
-  port: '443'
-  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wmzmvws
-  ws-headers:
-    Host: goodfamily19.site
-  tls: true
-- name: (TG频道:@kxswa)vmess163
-  type: vmess
-  server: 103.174.115.163
-  port: '6827'
-  uuid: eaec114d-1e77-418e-8f1e-5c16772c3a52
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /98TP1fcpG
-  ws-headers:
-    Host: yinni.ar04.com
-  tls: true
-- name: (TG频道:@kxswa)vmess164
-  type: vmess
-  server: 1.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 1.72img.xyz
-  tls: true
-- name: (TG频道:@kxswa)vmess165
-  type: vmess
-  server: 198.41.212.150
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: (TG频道:@kxswa)vmess166
+- name: vmess17
   type: vmess
   server: 43.72img.xyz
   port: '443'
@@ -2097,9 +247,9 @@ proxies:
   ws-headers:
     Host: 43.72img.xyz
   tls: true
-- name: (TG频道:@kxswa)vmess167
+- name: YouTube梦歌|Netflix_96vmess18
   type: vmess
-  server: 16.72img.xyz
+  server: 36.72img.xyz
   port: '443'
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
@@ -2108,11 +258,75 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 16.72img.xyz
+    Host: 36.72img.xyz
   tls: true
-- name: (TG频道:@kxswa)vmess168
+- name: vmess19
   type: vmess
-  server: 26.72img.xyz
+  server: 198.41.203.1
+  port: '443'
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /VHONOFZ3
+  ws-headers:
+    Host: lg1.cfcdn2.xyz
+  tls: true
+- name: 🇺🇸_US_美国vmess20
+  type: vmess
+  server: us-lb.sshkit.org
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/Variu88/634dab7abadf1/
+  ws-headers:
+    Host: zoom.us
+- name: vmess21
+  type: vmess
+  server: 141.101.114.133
+  port: '443'
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg1.cfcdn1.xyz
+  tls: true
+- name: vmess22
+  type: vmess
+  server: 141.101.115.133
+  port: '443'
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg1.cfcdn1.xyz
+  tls: true
+- name: vmess23
+  type: vmess
+  server: 198.41.203.3
+  port: '443'
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: lg1.cfcdn3.xyz
+  tls: true
+- name: vmess24
+  type: vmess
+  server: 35.72img.xyz
   port: '443'
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
@@ -2121,37 +335,63 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 26.72img.xyz
+    Host: ''
   tls: true
-- name: (TG频道:@kxswa)vmess169
+- name: aoop-15vmess25
   type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  server: init.blog
+  port: '443'
+  uuid: df6bf859-d846-4d34-8fbc-2fcbb935a40e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /eisasqa
+  ws-path: /live
   ws-headers:
-    Host: foxdeovz1.fovi.tk
+    Host: aoop.aoop.eu.org
   tls: true
-- name: (TG频道:@kxswa)vmess170
+- name: vmess26
   type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  server: 141.101.114.120
+  port: '443'
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /eisasqa
+  ws-path: /dongtaiwang.com
   ws-headers:
-    Host: foxuk.fovi.tk
+    Host: lg1.cfcdn3.xyz
   tls: true
-- name: (TG频道:@kxswa)vmess171
+- name: 🇺🇸_US_美国vmess27
   type: vmess
-  server: 4.72img.xyz
+  server: 172.64.154.222
+  port: '443'
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg1.cfcdn1.xyz
+  tls: true
+- name: vmess28
+  type: vmess
+  server: 198.41.203.2
+  port: '443'
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash1.trump2023.net
+  tls: true
+- name: vmess29
+  type: vmess
+  server: 25.72img.xyz
   port: '443'
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
@@ -2160,22 +400,112 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 4.72img.xyz
+    Host: 25.72img.xyz
   tls: true
-- name: (TG频道:@kxswa)vmess172
+- name: YouTube梦歌|Netflix_98vmess30
   type: vmess
-  server: pf.napsternetv.com
-  port: '34146'
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  server: 25.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
+  network: ws
   ws-path: /
   ws-headers:
-    Host: pf.napsternetv.com
+    Host: ''
   tls: true
-- name: (TG频道:@kxswa)vmess173
+- name: 🇺🇸_US_美国vmess31
+  type: vmess
+  server: 34.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: vmess32
+  type: vmess
+  server: 198.41.212.150
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: YouTube梦歌|Netflix_61vmess33
+  type: vmess
+  server: 6.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 6.72img.xyz
+  tls: true
+- name: vmess34
+  type: vmess
+  server: sl1.mayaa.eu.org
+  port: '443'
+  uuid: 996410c5-812f-44c7-db61-2eedf272122c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dsaahjj1111d
+  ws-headers:
+    Host: ''
+  tls: true
+- name: vmess35
+  type: vmess
+  server: 141.101.114.17
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: TR Familyvmess36
+  type: vmess
+  server: zeroo.kandimiz.cf
+  port: '8880'
+  uuid: 7a45cf87-1533-45dc-9ae2-21d8c796db4c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+- name: vmess37
+  type: vmess
+  server: 198.41.212.100
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: vmess38
   type: vmess
   server: sl1.mayaa.eu.org
   port: '443'
@@ -2188,20 +518,390 @@ proxies:
   ws-headers:
     Host: sl1.mayaa.eu.org
   tls: true
-- name: (TG频道:@kxswa)vmess174
+- name: 🇳🇱_NL_荷兰vmess39
   type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  server: 85.17.5.150
+  port: '36306'
+  uuid: 4070fdde-43d5-4b3f-dbcf-7751c77e4bf6
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /eisasqa
+  ws-path: /Af5645tr
   ws-headers:
-    Host: foxpol.fovi.tk
+    Host: ''
+- name: 🇺🇸_US_美国vmess40
+  type: vmess
+  server: 44.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
   tls: true
-- name: (TG频道:@kxswa)vmess175
+- name: SSHKit 3vmess41
+  type: vmess
+  server: uicdn.cf
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/1736960111/635cb6dd4206c/
+  ws-headers:
+    Host: sg3-v2ray.sshkit.org
+- name: 🇺🇸_US_美国vmess42
+  type: vmess
+  server: us-lb.sshkit.org
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/Variu88/634dab7abadf1/
+  ws-headers:
+    Host: ''
+- name: vmess43
+  type: vmess
+  server: 35.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 35.72img.xyz
+  tls: true
+- name: YouTube梦歌|Netflix_119vmess44
+  type: vmess
+  server: 172.64.152.150
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: vmess45
+  type: vmess
+  server: els200.jslist.tk
+  port: '8443'
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /wo.php
+  ws-headers:
+    Host: els200.jslist.tk
+  tls: true
+- name: 🇺🇸_US_美国vmess46
+  type: vmess
+  server: 45.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: aoop-13vmess47
+  type: vmess
+  server: icook.hk
+  port: '443'
+  uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /live
+  ws-headers:
+    Host: www.aoop.eu.org
+  tls: true
+- name: 🇺🇸_US_美国vmess48
+  type: vmess
+  server: us-lb.sshkit.org
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/Variu88/634dab7abadf1/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 🇺🇸_US_美国vmess49
+  type: vmess
+  server: 21.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: YouTube梦歌|Netflix_89vmess50
+  type: vmess
+  server: 21.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 21.72img.xyz
+  tls: true
+- name: 🇺🇸_US_美国vmess51
+  type: vmess
+  server: 46.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 46.72img.xyz
+  tls: true
+- name: 🇫🇷_FR_法国vmess52
+  type: vmess
+  server: 51.75.70.34
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: YouTube梦歌|Netflix_108vmess53
+  type: vmess
+  server: 172.64.154.155
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: vmess54
+  type: vmess
+  server: 15.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: Private-116vmess55
+  type: vmess
+  server: zeroo.kandimiz.online
+  port: '2082'
+  uuid: 2490e71e-9f3c-4e26-f003-b8a39ec5ce38
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+- name: YouTube梦歌|Netflix_107vmess56
+  type: vmess
+  server: 20.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 20.72img.xyz
+  tls: true
+- name: YouTube梦歌|Netflix_103vmess57
+  type: vmess
+  server: 16.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 16.72img.xyz
+  tls: true
+- name: 🇺🇸_US_美国vmess58
+  type: vmess
+  server: 54.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: aoop-14vmess59
+  type: vmess
+  server: senjianlu.com
+  port: '443'
+  uuid: df6bf859-d846-4d34-8fbc-2fcbb935a40e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /live
+  ws-headers:
+    Host: aoop.aoop.eu.org
+  tls: true
+- name: PRIVATE-DIGITALvmess60
+  type: vmess
+  server: digital.proto-route.cf
+  port: '2086'
+  uuid: 9216e22b-c3a4-40d8-bb8c-ee48c62c1052
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+- name: aoop-4vmess61
+  type: vmess
+  server: muwaii.com
+  port: '443'
+  uuid: 0145bfef-aa53-416f-90d4-8634295dab57
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /live
+  ws-headers:
+    Host: www.aoopmiss.cf
+  tls: true
+- name: YouTube梦歌|Netflix_78vmess62
+  type: vmess
+  server: 4.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 4.72img.xyz
+  tls: true
+- name: vmess63
+  type: vmess
+  server: 198.41.203.5
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: YouTube梦歌|Netflix_13vmess64
+  type: vmess
+  server: ip.skk.moe
+  port: '2086'
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: buyvm.cloudflare.quest
+- name: vmess65
+  type: vmess
+  server: hardgum10.online
+  port: '443'
+  uuid: c10b8bd6-3d5a-412f-9187-b98184b9e044
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ipuyvws
+  ws-headers:
+    Host: hardgum10.online
+  tls: true
+- name: 103.174.115.163普通线路vmess66
+  type: vmess
+  server: 103.174.115.163
+  port: '6827'
+  uuid: eaec114d-1e77-418e-8f1e-5c16772c3a52
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /98TP1fcpG
+  ws-headers:
+    Host: yinni.ar04.com
+  tls: true
+- name: 印尼v2-11.21到期-续费420vmess67
+  type: vmess
+  server: 45.94.42.137
+  port: '5467'
+  uuid: eaec114d-1e77-418e-8f1e-5c16772c3a52
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /98TP1fcpG
+  ws-headers:
+    Host: yinni.ar04.com
+  tls: true
+- name: vmess68
+  type: vmess
+  server: 141.101.115.100
+  port: '443'
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /VHONOFZ3
+  ws-headers:
+    Host: lg1.cfcdn2.xyz
+  tls: true
+- name: vmess69
   type: vmess
   server: jm.jshsxxxy.top
   port: '443'
@@ -2212,246 +912,39 @@ proxies:
   network: ws
   ws-path: /MokonaModokiMkv2Rentry
   ws-headers:
-    Host: jm.jshsxxxy.top
+    Host: ''
   tls: true
-- name: 🇯🇵 _JP_日本trojan1
-  type: trojan
-  server: trs12.bolab.net
-  port: '443'
-  udp: true
-  password: 14bdba6dede262387ebdebaa706e1c90
-  skip-cert-verify: true
-  sni: trs12.bolab.net
-- name: 🇯🇵 _JP_日本trojan2
-  type: trojan
-  server: trs07.bolab.net
-  port: '443'
-  udp: true
-  password: 14bdba6dede262387ebdebaa706e1c90
-  skip-cert-verify: true
-  sni: trs07.bolab.net
-- name: 🇯🇵 _JP_日本trojan3
-  type: trojan
-  server: jp1.sanfen001.pics
-  port: '443'
-  udp: true
-  password: 66bee8fa-56a6-4108-92ec-d4a0900270cb
-  skip-cert-verify: true
-  sni: jp1.sanfen001.pics
-- name: 🇭🇰 _HK_香港->🇸🇬_SG_新加坡trojan4
-  type: trojan
-  server: tgunivstar.219.76.13.175.sslip.io
-  port: '443'
-  udp: true
-  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
-  skip-cert-verify: true
-  sni: httah.freetrade.link
-- name: 🇭🇰 _HK_香港->🇺🇸_US_美国trojan5
-  type: trojan
-  server: 219.76.13.181
-  port: '443'
-  udp: true
-  password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
-  skip-cert-verify: true
-  sni: arbettp.freetrade.link
-- name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡trojan6
-  type: trojan
-  server: tgunivstar.34.150.180.124.sslip.io
-  port: '443'
-  udp: true
-  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
-  skip-cert-verify: true
-  sni: httah.freetrade.link
-- name: 🇭🇰 _HK_香港->🇯🇵_JP_日本trojan7
-  type: trojan
-  server: 219.76.13.180
-  port: '443'
-  udp: true
-  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
-  skip-cert-verify: true
-  sni: stutter.freetrade.link
-- name: 🇺🇸 _US_美国trojan8
-  type: trojan
-  server: hk3.kfcnode.xyz
-  port: '443'
-  udp: true
-  password: e90f6dea-23f9-47ec-ba23-e2eb5def2e78
-  skip-cert-verify: true
-  sni: ''
-- name: 🇯🇵 _MO_澳门->🇯🇵_JP_日本trojan9
-  type: trojan
-  server: 45.64.22.55
-  port: '443'
-  udp: true
-  password: ZEIR0qFZau9jOp7x6e8e4y3AaXwS2SzD3llxTyRYKCF8DCD3c5Y3pgNnaSOBAC
-  skip-cert-verify: true
-  sni: tensely.freetrade.link
-- name: 🇺🇸  美国  27trojan10
-  type: trojan
-  server: kr05.wangxd.life
-  port: '443'
-  udp: true
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  skip-cert-verify: true
-  sni: ''
-- name: 🇯🇵  日本东京Linode数据中心 29trojan11
-  type: trojan
-  server: jp1.sanfen001.pics
-  port: '443'
-  udp: true
-  password: 66bee8fa-56a6-4108-92ec-d4a0900270cb
-  skip-cert-verify: true
-  sni: ''
-- name: 🇯🇵  日本北海道石狩SAKURA数据中心 32trojan12
-  type: trojan
-  server: trs12.bolab.net
-  port: '443'
-  udp: true
-  password: 14bdba6dede262387ebdebaa706e1c90
-  skip-cert-verify: true
-  sni: ''
-- name: 🇭🇰 香港(TG频道trojan13
-  type: trojan
-  server: 1030hk99.fans8.xyz
-  port: '51592'
-  udp: true
-  password: add246b5-4686-4886-9848-808608e5222e
-  skip-cert-verify: true
-  sni: 1030hk99.fans8.xyz
-- name: 🇯🇵 日本(TG频道trojan14
-  type: trojan
-  server: jp1.sanfen001.pics
-  port: '443'
-  udp: true
-  password: 66bee8fa-56a6-4108-92ec-d4a0900270cb
-  skip-cert-verify: true
-  sni: jp1.sanfen001.pics
-- name: 🇺🇸 美国(TG频道trojan15
-  type: trojan
-  server: tj2.dalazhi.cyou
-  port: '443'
-  udp: true
-  password: 8f70fde3-a04c-4f6a-b705-aef7406f6ac1
-  skip-cert-verify: true
-  sni: tj2.dalazhi.cyou
-- name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡ss1
-  server: apollo.cn.v4.hdsky.org
-  port: '13921'
-  method: chacha20-ietf-poly1305
-  cipher: chacha20-ietf-poly1305
-  password: f32f863d-2e3c-4bf3-9f95-049f22e2302d
-  type: ss
-- name: 🇩🇪 _CN_中国->🇩🇪_DE_德国ss2
-  server: apollo.cn.v4.hdsky.org
-  port: '57381'
-  method: chacha20-ietf-poly1305
-  cipher: chacha20-ietf-poly1305
-  password: f32f863d-2e3c-4bf3-9f95-049f22e2302d
-  type: ss
-- name: 🇨🇳 台湾ss3
-  server: 103.98.75.71
-  port: '31572'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: n8w4StnbVD9dmXYn4Ajt87EA
-  type: ss
-- name: 🇺🇸 美国ss4
-  server: 66.115.147.94
-  port: '31572'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: n8w4StnbVD9dmXYn4Ajt87EA
-  type: ss
-- name: 🇨🇳 台湾ss5
-  server: 2.58.241.27
-  port: '38033'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: xpQwyV4W5FdA6NMANJJx73US
-  type: ss
-- name: 🇨🇦 加拿大ss6
-  server: 172.98.82.229
-  port: '31572'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: n8w4StnbVD9dmXYn4Ajt87EA
-  type: ss
-- name: 🇪🇺 欧洲ss7
-  server: 37.120.194.99
-  port: '33992'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  type: ss
-- name: 🇨🇳 台湾ss8
-  server: 2.58.241.4
-  port: '38033'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: xpQwyV4W5FdA6NMANJJx73US
-  type: ss
-- name: 🇦🇹 奥地利ss9
-  server: 37.120.212.77
-  port: '33992'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  type: ss
-- name: 🇨🇳 台湾ss10
-  server: 2.58.241.3
-  port: '38033'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: xpQwyV4W5FdA6NMANJJx73US
-  type: ss
-- name: 🇨🇳 台湾ss11
-  server: 103.98.75.71
-  port: '40093'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: x23Z4LGkGDkThZ9Kaz4DURQp
-  type: ss
-- name: 🇨🇳 台湾ss12
-  server: 2.58.241.29
-  port: '38033'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: xpQwyV4W5FdA6NMANJJx73US
-  type: ss
-- name: 🇪🇺 欧洲ss13
-  server: 37.120.221.3
-  port: '31572'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: n8w4StnbVD9dmXYn4Ajt87EA
-  type: ss
-- name: 🇭🇰 香港ss14
-  server: 2.58.241.43
-  port: '38033'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: xpQwyV4W5FdA6NMANJJx73US
-  type: ss
-- name: 🇪🇺 欧洲ss15
-  server: 89.164.99.111
-  port: '31572'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: n8w4StnbVD9dmXYn4Ajt87EA
-  type: ss
-- name: 🇨🇳 台湾ss16
-  server: 2.58.241.46
-  port: '38033'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: xpQwyV4W5FdA6NMANJJx73US
-  type: ss
-- name: 🇪🇺 欧洲ss17
-  server: 165.231.163.19
-  port: '31572'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: n8w4StnbVD9dmXYn4Ajt87EA
+- name: 🇺🇸_US_美国vmess70
+  type: vmess
+  server: 172.67.60.36
+  port: '2053'
+  uuid: fb580643-1b0f-4c61-c228-e0dc5a70abbe
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /live
+  ws-headers:
+    Host: www.aoop.cf
+  tls: true
+- name: YouTube梦歌|Netflix_101vmess71
+  type: vmess
+  server: 57.128.45.161
+  port: '80'
+  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /user
+  ws-headers:
+    Host: ''
+- name: 🇸🇬_SG_新加坡ss1
+  server: sg.securevpn.cc
+  port: '1020'
+  method: aes-128-gcm
+  cipher: aes-128-gcm
+  password: '202211000000000000000020'
   type: ss
 proxy-groups:
 - name: 🚀 节点选择
@@ -2460,426 +953,156 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡vmess1
-  - 🇺🇸 _US_美国vmess2
-  - default_namevmess3
-  - _LA_老挝vmess4
-  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国vmess5
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess6
-  - default_namevmess7
-  - default_namevmess8
-  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大vmess9
-  - 🇺🇸 _US_美国vmess10
-  - 🇸🇬 _SG_新加坡vmess11
-  - 🇺🇸 _US_美国vmess12
-  - 🇨🇭 _CH_瑞士vmess13
-  - default_namevmess14
-  - 🇭🇰 _HK_香港vmess15
-  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰vmess16
-  - default_namevmess17
-  - default_namevmess18
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess19
-  - 🇦🇺 _AU_澳大利亚vmess20
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国vmess21
-  - default_namevmess22
-  - default_namevmess23
-  - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦vmess24
-  - 🇺🇸 _US_美国vmess25
-  - 🇭🇰 _HK_香港vmess26
-  - 🇸🇬 _SG_新加坡vmess27
-  - 🇸🇬 _SG_新加坡vmess28
-  - 🇸🇬 _SG_新加坡vmess29
-  - 🇷🇺 _RU_俄罗斯联邦vmess30
-  - 🇯🇵 _US_美国->🇯🇵_JP_日本vmess31
-  - 🇭🇰 _HK_香港vmess32
-  - 🇭🇰 _HK_香港vmess33
-  - 🇺🇸 _MO_澳门->🇺🇸_US_美国vmess34
-  - 🇭🇰 _HK_香港vmess35
-  - 🇭🇰 _HK_香港vmess36
-  - 🇺🇸 _US_美国vmess37
-  - 🇸🇪 _CN_中国->🇸🇪_SE_瑞典vmess38
-  - 🇭🇰 香港vmess39
-  - 🇭🇰 香港vmess40
-  - 🇭🇰 香港vmess41
-  - 🇭🇰 香港vmess42
-  - 🇭🇰 香港vmess43
-  - 🇭🇰 香港vmess44
-  - 🇭🇰 香港vmess45
-  - 🇭🇰 香港vmess46
-  - 🇯🇵 日本vmess47
-  - 🇯🇵 日本vmess48
-  - 🇬🇧 英国vmess49
-  - 🇬🇧 英国vmess50
-  - 🇦🇺 澳大利亚vmess51
-  - 🇦🇺 澳大利亚vmess52
-  - 🇦🇺 澳大利亚vmess53
-  - 🇳🇱 荷兰vmess54
-  - 🇳🇱 荷兰vmess55
-  - 🇨🇳 台湾vmess56
-  - 🇸🇬 新加坡vmess57
-  - 🇸🇬 新加坡vmess58
-  - 🇸🇬 新加坡vmess59
-  - 🇺🇸 美国vmess60
-  - 🇺🇸 美国vmess61
-  - 🇺🇸 美国vmess62
-  - 🇸🇬 新加坡vmess63
-  - 🇸🇬 新加坡vmess64
-  - 🇺🇸 美国vmess65
-  - 🇸🇬 新加坡vmess66
-  - 🇨🇳 台湾vmess67
-  - 🇯🇵 日本vmess68
-  - 🇷🇺 俄罗斯vmess69
-  - 🇭🇰 香港vmess70
-  - 🇺🇸 美国vmess71
-  - 🇪🇺 欧洲vmess72
-  - 🇯🇵 日本vmess73
-  - 🇰🇷 韩国vmess74
-  - 🇰🇷 韩国vmess75
-  - 🇫🇮 芬兰vmess76
-  - 🇺🇸 美国vmess77
-  - 🇺🇸 美国vmess78
-  - 🇯🇵  日本  1vmess79
-  - 🇺🇸  美国加利福尼亚州洛杉矶MULTACOM数据中心 2vmess80
-  - 🇺🇸  美国  3vmess81
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 4vmess82
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 5vmess83
-  - 🇸🇪  瑞典Oracle Corporation 6vmess84
-  - 🇺🇸  美国惠普HP 7vmess85
-  - 🇳🇱  荷兰阿姆斯特丹LeaseWeb数据中心 8vmess86
-  - 🇬🇧  英国社会保险安全部 9vmess87
-  - 🇺🇸  美国Linode数据中心 10vmess88
-  - 🇺🇸  美国加利福尼亚州洛杉矶Zenlayer数据中心 11vmess89
-  - 🇺🇸  美国PacificRack机房 12vmess90
-  - 🇨🇭  瑞士苏黎世Oracle云计算数据中心 13vmess91
-  - 🇺🇸  美国CloudFlare节点 14vmess92
-  - 🇫🇷  法国国际航空电讯集团公司(SITA) 15vmess93
-  - 🇺🇸  美国CloudFlare节点 16vmess94
-  - 🇺🇸  美国惠普HP 17vmess95
-  - 🇬🇧  英国社会保险安全部 18vmess96
-  - 🇺🇸  美国  19vmess97
-  - 🇺🇸  美国CloudFlare节点 20vmess98
-  - 🇺🇸  美国CloudFlare公司CDN节点 21vmess99
-  - 🇪🇺  欧洲  22vmess100
-  - 🇺🇸  美国CloudFlare公司CDN节点 23vmess101
-  - 🇺🇸  美国  24vmess102
-  - 🇺🇸  美国  25vmess103
-  - 🇺🇸  美国CloudFlare公司CDN节点 26vmess104
-  - 🇸🇬  新加坡OVH 28vmess105
-  - 🇺🇸  美国CloudFlare公司CDN节点 30vmess106
-  - 🇷🇺  俄罗斯  31vmess107
-  - vmess108
-  - vmess109
-  - vmess110
-  - vmess111
-  - dafeivpn.com 5元专线机场vmess112
-  - 🇨🇳 中国(TG频道:@kxswa)vmess113
-  - 🇨🇳 中国(TG频道:@kxswa)vmess114
-  - 🇨🇳 中国(TG频道:@kxswa)vmess115
-  - 🇨🇳 中国(TG频道:@kxswa)vmess116
-  - 🇨🇳 中国(TG频道:@kxswa)vmess117
-  - 🇨🇳 中国(TG频道:@kxswa)vmess118
-  - 🇨🇳 中国(TG频道:@kxswa)vmess119
-  - 🇨🇳 中国(TG频道:@kxswa)vmess120
-  - 🇨🇳 中国(TG频道:@kxswa)vmess121
-  - 🇨🇳 中国(TG频道:@kxswa)vmess122
-  - 🇨🇳 中国(TG频道:@kxswa)vmess123
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess124
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess125
-  - 🇭🇰 香港(TG频道:@kxswa)vmess126
-  - 🇭🇰 香港(TG频道:@kxswa)vmess127
-  - 🇭🇰 香港(TG频道:@kxswa)vmess128
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess129
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess130
-  - 🇯🇵 日本(TG频道:@kxswa)vmess131
-  - 🇺🇸 美国(TG频道:@kxswa)vmess132
-  - 🇺🇸 美国(TG频道:@kxswa)vmess133
-  - 🇺🇸 美国(TG频道:@kxswa)vmess134
-  - 🇺🇸 美国(TG频道:@kxswa)vmess135
-  - 🇺🇸 美国(TG频道:@kxswa)vmess136
-  - 🇺🇸 美国(TG频道:@kxswa)vmess137
-  - 🇺🇸 美国(TG频道:@kxswa)vmess138
-  - 🇺🇸 美国(TG频道:@kxswa)vmess139
-  - 🇺🇸 美国(TG频道:@kxswa)vmess140
-  - 🇺🇸 美国(TG频道:@kxswa)vmess141
-  - 🇺🇸 美国(TG频道:@kxswa)vmess142
-  - 🇺🇸 美国(TG频道:@kxswa)vmess143
-  - 🇺🇸 美国(TG频道:@kxswa)vmess144
-  - 🇺🇸 美国(TG频道:@kxswa)vmess145
-  - 🇺🇸 美国(TG频道:@kxswa)vmess146
-  - 🇺🇸 美国(TG频道:@kxswa)vmess147
-  - 🇺🇸 美国(TG频道:@kxswa)vmess148
-  - 🇺🇸 美国(TG频道:@kxswa)vmess149
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess150
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess151
-  - 🇳🇱 荷兰(TG频道:@kxswa)vmess152
-  - 🇫🇷 法国(TG频道:@kxswa)vmess153
-  - 🇫🇷 法国(TG频道:@kxswa)vmess154
-  - 🇫🇷 法国(TG频道:@kxswa)vmess155
-  - 🇫🇷 法国(TG频道:@kxswa)vmess156
-  - 🇫🇷 法国(TG频道:@kxswa)vmess157
-  - 🇧🇪 比利时(TG频道:@kxswa)vmess158
-  - 🇲🇴 澳门(TG频道:@kxswa)vmess159
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess160
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess161
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess162
-  - (TG频道:@kxswa)vmess163
-  - (TG频道:@kxswa)vmess164
-  - (TG频道:@kxswa)vmess165
-  - (TG频道:@kxswa)vmess166
-  - (TG频道:@kxswa)vmess167
-  - (TG频道:@kxswa)vmess168
-  - (TG频道:@kxswa)vmess169
-  - (TG频道:@kxswa)vmess170
-  - (TG频道:@kxswa)vmess171
-  - (TG频道:@kxswa)vmess172
-  - (TG频道:@kxswa)vmess173
-  - (TG频道:@kxswa)vmess174
-  - (TG频道:@kxswa)vmess175
-  - 🇯🇵 _JP_日本trojan1
-  - 🇯🇵 _JP_日本trojan2
-  - 🇯🇵 _JP_日本trojan3
-  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡trojan4
-  - 🇭🇰 _HK_香港->🇺🇸_US_美国trojan5
-  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡trojan6
-  - 🇭🇰 _HK_香港->🇯🇵_JP_日本trojan7
-  - 🇺🇸 _US_美国trojan8
-  - 🇯🇵 _MO_澳门->🇯🇵_JP_日本trojan9
-  - 🇺🇸  美国  27trojan10
-  - 🇯🇵  日本东京Linode数据中心 29trojan11
-  - 🇯🇵  日本北海道石狩SAKURA数据中心 32trojan12
-  - 🇭🇰 香港(TG频道trojan13
-  - 🇯🇵 日本(TG频道trojan14
-  - 🇺🇸 美国(TG频道trojan15
-  - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡ss1
-  - 🇩🇪 _CN_中国->🇩🇪_DE_德国ss2
-  - 🇨🇳 台湾ss3
-  - 🇺🇸 美国ss4
-  - 🇨🇳 台湾ss5
-  - 🇨🇦 加拿大ss6
-  - 🇪🇺 欧洲ss7
-  - 🇨🇳 台湾ss8
-  - 🇦🇹 奥地利ss9
-  - 🇨🇳 台湾ss10
-  - 🇨🇳 台湾ss11
-  - 🇨🇳 台湾ss12
-  - 🇪🇺 欧洲ss13
-  - 🇭🇰 香港ss14
-  - 🇪🇺 欧洲ss15
-  - 🇨🇳 台湾ss16
-  - 🇪🇺 欧洲ss17
+  - vmess1
+  - vmess2
+  - 🇺🇸_US_美国vmess3
+  - 🇺🇸_US_美国vmess4
+  - aoop-12vmess5
+  - vmess6
+  - 🇺🇸_US_美国vmess7
+  - vmess8
+  - vmess9
+  - vmess10
+  - aoop-12vmess11
+  - vmess12
+  - aoop-13vmess13
+  - 🇺🇸_US_美国vmess14
+  - 🇺🇸_US_美国vmess15
+  - vmess16
+  - vmess17
+  - YouTube梦歌|Netflix_96vmess18
+  - vmess19
+  - 🇺🇸_US_美国vmess20
+  - vmess21
+  - vmess22
+  - vmess23
+  - vmess24
+  - aoop-15vmess25
+  - vmess26
+  - 🇺🇸_US_美国vmess27
+  - vmess28
+  - vmess29
+  - YouTube梦歌|Netflix_98vmess30
+  - 🇺🇸_US_美国vmess31
+  - vmess32
+  - YouTube梦歌|Netflix_61vmess33
+  - vmess34
+  - vmess35
+  - TR Familyvmess36
+  - vmess37
+  - vmess38
+  - 🇳🇱_NL_荷兰vmess39
+  - 🇺🇸_US_美国vmess40
+  - SSHKit 3vmess41
+  - 🇺🇸_US_美国vmess42
+  - vmess43
+  - YouTube梦歌|Netflix_119vmess44
+  - vmess45
+  - 🇺🇸_US_美国vmess46
+  - aoop-13vmess47
+  - 🇺🇸_US_美国vmess48
+  - 🇺🇸_US_美国vmess49
+  - YouTube梦歌|Netflix_89vmess50
+  - 🇺🇸_US_美国vmess51
+  - 🇫🇷_FR_法国vmess52
+  - YouTube梦歌|Netflix_108vmess53
+  - vmess54
+  - Private-116vmess55
+  - YouTube梦歌|Netflix_107vmess56
+  - YouTube梦歌|Netflix_103vmess57
+  - 🇺🇸_US_美国vmess58
+  - aoop-14vmess59
+  - PRIVATE-DIGITALvmess60
+  - aoop-4vmess61
+  - YouTube梦歌|Netflix_78vmess62
+  - vmess63
+  - YouTube梦歌|Netflix_13vmess64
+  - vmess65
+  - 103.174.115.163普通线路vmess66
+  - 印尼v2-11.21到期-续费420vmess67
+  - vmess68
+  - vmess69
+  - 🇺🇸_US_美国vmess70
+  - YouTube梦歌|Netflix_101vmess71
+  - 🇸🇬_SG_新加坡ss1
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡vmess1
-  - 🇺🇸 _US_美国vmess2
-  - default_namevmess3
-  - _LA_老挝vmess4
-  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国vmess5
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess6
-  - default_namevmess7
-  - default_namevmess8
-  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大vmess9
-  - 🇺🇸 _US_美国vmess10
-  - 🇸🇬 _SG_新加坡vmess11
-  - 🇺🇸 _US_美国vmess12
-  - 🇨🇭 _CH_瑞士vmess13
-  - default_namevmess14
-  - 🇭🇰 _HK_香港vmess15
-  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰vmess16
-  - default_namevmess17
-  - default_namevmess18
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess19
-  - 🇦🇺 _AU_澳大利亚vmess20
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国vmess21
-  - default_namevmess22
-  - default_namevmess23
-  - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦vmess24
-  - 🇺🇸 _US_美国vmess25
-  - 🇭🇰 _HK_香港vmess26
-  - 🇸🇬 _SG_新加坡vmess27
-  - 🇸🇬 _SG_新加坡vmess28
-  - 🇸🇬 _SG_新加坡vmess29
-  - 🇷🇺 _RU_俄罗斯联邦vmess30
-  - 🇯🇵 _US_美国->🇯🇵_JP_日本vmess31
-  - 🇭🇰 _HK_香港vmess32
-  - 🇭🇰 _HK_香港vmess33
-  - 🇺🇸 _MO_澳门->🇺🇸_US_美国vmess34
-  - 🇭🇰 _HK_香港vmess35
-  - 🇭🇰 _HK_香港vmess36
-  - 🇺🇸 _US_美国vmess37
-  - 🇸🇪 _CN_中国->🇸🇪_SE_瑞典vmess38
-  - 🇭🇰 香港vmess39
-  - 🇭🇰 香港vmess40
-  - 🇭🇰 香港vmess41
-  - 🇭🇰 香港vmess42
-  - 🇭🇰 香港vmess43
-  - 🇭🇰 香港vmess44
-  - 🇭🇰 香港vmess45
-  - 🇭🇰 香港vmess46
-  - 🇯🇵 日本vmess47
-  - 🇯🇵 日本vmess48
-  - 🇬🇧 英国vmess49
-  - 🇬🇧 英国vmess50
-  - 🇦🇺 澳大利亚vmess51
-  - 🇦🇺 澳大利亚vmess52
-  - 🇦🇺 澳大利亚vmess53
-  - 🇳🇱 荷兰vmess54
-  - 🇳🇱 荷兰vmess55
-  - 🇨🇳 台湾vmess56
-  - 🇸🇬 新加坡vmess57
-  - 🇸🇬 新加坡vmess58
-  - 🇸🇬 新加坡vmess59
-  - 🇺🇸 美国vmess60
-  - 🇺🇸 美国vmess61
-  - 🇺🇸 美国vmess62
-  - 🇸🇬 新加坡vmess63
-  - 🇸🇬 新加坡vmess64
-  - 🇺🇸 美国vmess65
-  - 🇸🇬 新加坡vmess66
-  - 🇨🇳 台湾vmess67
-  - 🇯🇵 日本vmess68
-  - 🇷🇺 俄罗斯vmess69
-  - 🇭🇰 香港vmess70
-  - 🇺🇸 美国vmess71
-  - 🇪🇺 欧洲vmess72
-  - 🇯🇵 日本vmess73
-  - 🇰🇷 韩国vmess74
-  - 🇰🇷 韩国vmess75
-  - 🇫🇮 芬兰vmess76
-  - 🇺🇸 美国vmess77
-  - 🇺🇸 美国vmess78
-  - 🇯🇵  日本  1vmess79
-  - 🇺🇸  美国加利福尼亚州洛杉矶MULTACOM数据中心 2vmess80
-  - 🇺🇸  美国  3vmess81
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 4vmess82
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 5vmess83
-  - 🇸🇪  瑞典Oracle Corporation 6vmess84
-  - 🇺🇸  美国惠普HP 7vmess85
-  - 🇳🇱  荷兰阿姆斯特丹LeaseWeb数据中心 8vmess86
-  - 🇬🇧  英国社会保险安全部 9vmess87
-  - 🇺🇸  美国Linode数据中心 10vmess88
-  - 🇺🇸  美国加利福尼亚州洛杉矶Zenlayer数据中心 11vmess89
-  - 🇺🇸  美国PacificRack机房 12vmess90
-  - 🇨🇭  瑞士苏黎世Oracle云计算数据中心 13vmess91
-  - 🇺🇸  美国CloudFlare节点 14vmess92
-  - 🇫🇷  法国国际航空电讯集团公司(SITA) 15vmess93
-  - 🇺🇸  美国CloudFlare节点 16vmess94
-  - 🇺🇸  美国惠普HP 17vmess95
-  - 🇬🇧  英国社会保险安全部 18vmess96
-  - 🇺🇸  美国  19vmess97
-  - 🇺🇸  美国CloudFlare节点 20vmess98
-  - 🇺🇸  美国CloudFlare公司CDN节点 21vmess99
-  - 🇪🇺  欧洲  22vmess100
-  - 🇺🇸  美国CloudFlare公司CDN节点 23vmess101
-  - 🇺🇸  美国  24vmess102
-  - 🇺🇸  美国  25vmess103
-  - 🇺🇸  美国CloudFlare公司CDN节点 26vmess104
-  - 🇸🇬  新加坡OVH 28vmess105
-  - 🇺🇸  美国CloudFlare公司CDN节点 30vmess106
-  - 🇷🇺  俄罗斯  31vmess107
-  - vmess108
-  - vmess109
-  - vmess110
-  - vmess111
-  - dafeivpn.com 5元专线机场vmess112
-  - 🇨🇳 中国(TG频道:@kxswa)vmess113
-  - 🇨🇳 中国(TG频道:@kxswa)vmess114
-  - 🇨🇳 中国(TG频道:@kxswa)vmess115
-  - 🇨🇳 中国(TG频道:@kxswa)vmess116
-  - 🇨🇳 中国(TG频道:@kxswa)vmess117
-  - 🇨🇳 中国(TG频道:@kxswa)vmess118
-  - 🇨🇳 中国(TG频道:@kxswa)vmess119
-  - 🇨🇳 中国(TG频道:@kxswa)vmess120
-  - 🇨🇳 中国(TG频道:@kxswa)vmess121
-  - 🇨🇳 中国(TG频道:@kxswa)vmess122
-  - 🇨🇳 中国(TG频道:@kxswa)vmess123
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess124
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess125
-  - 🇭🇰 香港(TG频道:@kxswa)vmess126
-  - 🇭🇰 香港(TG频道:@kxswa)vmess127
-  - 🇭🇰 香港(TG频道:@kxswa)vmess128
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess129
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess130
-  - 🇯🇵 日本(TG频道:@kxswa)vmess131
-  - 🇺🇸 美国(TG频道:@kxswa)vmess132
-  - 🇺🇸 美国(TG频道:@kxswa)vmess133
-  - 🇺🇸 美国(TG频道:@kxswa)vmess134
-  - 🇺🇸 美国(TG频道:@kxswa)vmess135
-  - 🇺🇸 美国(TG频道:@kxswa)vmess136
-  - 🇺🇸 美国(TG频道:@kxswa)vmess137
-  - 🇺🇸 美国(TG频道:@kxswa)vmess138
-  - 🇺🇸 美国(TG频道:@kxswa)vmess139
-  - 🇺🇸 美国(TG频道:@kxswa)vmess140
-  - 🇺🇸 美国(TG频道:@kxswa)vmess141
-  - 🇺🇸 美国(TG频道:@kxswa)vmess142
-  - 🇺🇸 美国(TG频道:@kxswa)vmess143
-  - 🇺🇸 美国(TG频道:@kxswa)vmess144
-  - 🇺🇸 美国(TG频道:@kxswa)vmess145
-  - 🇺🇸 美国(TG频道:@kxswa)vmess146
-  - 🇺🇸 美国(TG频道:@kxswa)vmess147
-  - 🇺🇸 美国(TG频道:@kxswa)vmess148
-  - 🇺🇸 美国(TG频道:@kxswa)vmess149
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess150
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess151
-  - 🇳🇱 荷兰(TG频道:@kxswa)vmess152
-  - 🇫🇷 法国(TG频道:@kxswa)vmess153
-  - 🇫🇷 法国(TG频道:@kxswa)vmess154
-  - 🇫🇷 法国(TG频道:@kxswa)vmess155
-  - 🇫🇷 法国(TG频道:@kxswa)vmess156
-  - 🇫🇷 法国(TG频道:@kxswa)vmess157
-  - 🇧🇪 比利时(TG频道:@kxswa)vmess158
-  - 🇲🇴 澳门(TG频道:@kxswa)vmess159
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess160
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess161
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess162
-  - (TG频道:@kxswa)vmess163
-  - (TG频道:@kxswa)vmess164
-  - (TG频道:@kxswa)vmess165
-  - (TG频道:@kxswa)vmess166
-  - (TG频道:@kxswa)vmess167
-  - (TG频道:@kxswa)vmess168
-  - (TG频道:@kxswa)vmess169
-  - (TG频道:@kxswa)vmess170
-  - (TG频道:@kxswa)vmess171
-  - (TG频道:@kxswa)vmess172
-  - (TG频道:@kxswa)vmess173
-  - (TG频道:@kxswa)vmess174
-  - (TG频道:@kxswa)vmess175
-  - 🇯🇵 _JP_日本trojan1
-  - 🇯🇵 _JP_日本trojan2
-  - 🇯🇵 _JP_日本trojan3
-  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡trojan4
-  - 🇭🇰 _HK_香港->🇺🇸_US_美国trojan5
-  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡trojan6
-  - 🇭🇰 _HK_香港->🇯🇵_JP_日本trojan7
-  - 🇺🇸 _US_美国trojan8
-  - 🇯🇵 _MO_澳门->🇯🇵_JP_日本trojan9
-  - 🇺🇸  美国  27trojan10
-  - 🇯🇵  日本东京Linode数据中心 29trojan11
-  - 🇯🇵  日本北海道石狩SAKURA数据中心 32trojan12
-  - 🇭🇰 香港(TG频道trojan13
-  - 🇯🇵 日本(TG频道trojan14
-  - 🇺🇸 美国(TG频道trojan15
-  - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡ss1
-  - 🇩🇪 _CN_中国->🇩🇪_DE_德国ss2
-  - 🇨🇳 台湾ss3
-  - 🇺🇸 美国ss4
-  - 🇨🇳 台湾ss5
-  - 🇨🇦 加拿大ss6
-  - 🇪🇺 欧洲ss7
-  - 🇨🇳 台湾ss8
-  - 🇦🇹 奥地利ss9
-  - 🇨🇳 台湾ss10
-  - 🇨🇳 台湾ss11
-  - 🇨🇳 台湾ss12
-  - 🇪🇺 欧洲ss13
-  - 🇭🇰 香港ss14
-  - 🇪🇺 欧洲ss15
-  - 🇨🇳 台湾ss16
-  - 🇪🇺 欧洲ss17
+  - vmess1
+  - vmess2
+  - 🇺🇸_US_美国vmess3
+  - 🇺🇸_US_美国vmess4
+  - aoop-12vmess5
+  - vmess6
+  - 🇺🇸_US_美国vmess7
+  - vmess8
+  - vmess9
+  - vmess10
+  - aoop-12vmess11
+  - vmess12
+  - aoop-13vmess13
+  - 🇺🇸_US_美国vmess14
+  - 🇺🇸_US_美国vmess15
+  - vmess16
+  - vmess17
+  - YouTube梦歌|Netflix_96vmess18
+  - vmess19
+  - 🇺🇸_US_美国vmess20
+  - vmess21
+  - vmess22
+  - vmess23
+  - vmess24
+  - aoop-15vmess25
+  - vmess26
+  - 🇺🇸_US_美国vmess27
+  - vmess28
+  - vmess29
+  - YouTube梦歌|Netflix_98vmess30
+  - 🇺🇸_US_美国vmess31
+  - vmess32
+  - YouTube梦歌|Netflix_61vmess33
+  - vmess34
+  - vmess35
+  - TR Familyvmess36
+  - vmess37
+  - vmess38
+  - 🇳🇱_NL_荷兰vmess39
+  - 🇺🇸_US_美国vmess40
+  - SSHKit 3vmess41
+  - 🇺🇸_US_美国vmess42
+  - vmess43
+  - YouTube梦歌|Netflix_119vmess44
+  - vmess45
+  - 🇺🇸_US_美国vmess46
+  - aoop-13vmess47
+  - 🇺🇸_US_美国vmess48
+  - 🇺🇸_US_美国vmess49
+  - YouTube梦歌|Netflix_89vmess50
+  - 🇺🇸_US_美国vmess51
+  - 🇫🇷_FR_法国vmess52
+  - YouTube梦歌|Netflix_108vmess53
+  - vmess54
+  - Private-116vmess55
+  - YouTube梦歌|Netflix_107vmess56
+  - YouTube梦歌|Netflix_103vmess57
+  - 🇺🇸_US_美国vmess58
+  - aoop-14vmess59
+  - PRIVATE-DIGITALvmess60
+  - aoop-4vmess61
+  - YouTube梦歌|Netflix_78vmess62
+  - vmess63
+  - YouTube梦歌|Netflix_13vmess64
+  - vmess65
+  - 103.174.115.163普通线路vmess66
+  - 印尼v2-11.21到期-续费420vmess67
+  - vmess68
+  - vmess69
+  - 🇺🇸_US_美国vmess70
+  - YouTube梦歌|Netflix_101vmess71
+  - 🇸🇬_SG_新加坡ss1
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -2892,213 +1115,78 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡vmess1
-  - 🇺🇸 _US_美国vmess2
-  - default_namevmess3
-  - _LA_老挝vmess4
-  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国vmess5
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess6
-  - default_namevmess7
-  - default_namevmess8
-  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大vmess9
-  - 🇺🇸 _US_美国vmess10
-  - 🇸🇬 _SG_新加坡vmess11
-  - 🇺🇸 _US_美国vmess12
-  - 🇨🇭 _CH_瑞士vmess13
-  - default_namevmess14
-  - 🇭🇰 _HK_香港vmess15
-  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰vmess16
-  - default_namevmess17
-  - default_namevmess18
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess19
-  - 🇦🇺 _AU_澳大利亚vmess20
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国vmess21
-  - default_namevmess22
-  - default_namevmess23
-  - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦vmess24
-  - 🇺🇸 _US_美国vmess25
-  - 🇭🇰 _HK_香港vmess26
-  - 🇸🇬 _SG_新加坡vmess27
-  - 🇸🇬 _SG_新加坡vmess28
-  - 🇸🇬 _SG_新加坡vmess29
-  - 🇷🇺 _RU_俄罗斯联邦vmess30
-  - 🇯🇵 _US_美国->🇯🇵_JP_日本vmess31
-  - 🇭🇰 _HK_香港vmess32
-  - 🇭🇰 _HK_香港vmess33
-  - 🇺🇸 _MO_澳门->🇺🇸_US_美国vmess34
-  - 🇭🇰 _HK_香港vmess35
-  - 🇭🇰 _HK_香港vmess36
-  - 🇺🇸 _US_美国vmess37
-  - 🇸🇪 _CN_中国->🇸🇪_SE_瑞典vmess38
-  - 🇭🇰 香港vmess39
-  - 🇭🇰 香港vmess40
-  - 🇭🇰 香港vmess41
-  - 🇭🇰 香港vmess42
-  - 🇭🇰 香港vmess43
-  - 🇭🇰 香港vmess44
-  - 🇭🇰 香港vmess45
-  - 🇭🇰 香港vmess46
-  - 🇯🇵 日本vmess47
-  - 🇯🇵 日本vmess48
-  - 🇬🇧 英国vmess49
-  - 🇬🇧 英国vmess50
-  - 🇦🇺 澳大利亚vmess51
-  - 🇦🇺 澳大利亚vmess52
-  - 🇦🇺 澳大利亚vmess53
-  - 🇳🇱 荷兰vmess54
-  - 🇳🇱 荷兰vmess55
-  - 🇨🇳 台湾vmess56
-  - 🇸🇬 新加坡vmess57
-  - 🇸🇬 新加坡vmess58
-  - 🇸🇬 新加坡vmess59
-  - 🇺🇸 美国vmess60
-  - 🇺🇸 美国vmess61
-  - 🇺🇸 美国vmess62
-  - 🇸🇬 新加坡vmess63
-  - 🇸🇬 新加坡vmess64
-  - 🇺🇸 美国vmess65
-  - 🇸🇬 新加坡vmess66
-  - 🇨🇳 台湾vmess67
-  - 🇯🇵 日本vmess68
-  - 🇷🇺 俄罗斯vmess69
-  - 🇭🇰 香港vmess70
-  - 🇺🇸 美国vmess71
-  - 🇪🇺 欧洲vmess72
-  - 🇯🇵 日本vmess73
-  - 🇰🇷 韩国vmess74
-  - 🇰🇷 韩国vmess75
-  - 🇫🇮 芬兰vmess76
-  - 🇺🇸 美国vmess77
-  - 🇺🇸 美国vmess78
-  - 🇯🇵  日本  1vmess79
-  - 🇺🇸  美国加利福尼亚州洛杉矶MULTACOM数据中心 2vmess80
-  - 🇺🇸  美国  3vmess81
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 4vmess82
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 5vmess83
-  - 🇸🇪  瑞典Oracle Corporation 6vmess84
-  - 🇺🇸  美国惠普HP 7vmess85
-  - 🇳🇱  荷兰阿姆斯特丹LeaseWeb数据中心 8vmess86
-  - 🇬🇧  英国社会保险安全部 9vmess87
-  - 🇺🇸  美国Linode数据中心 10vmess88
-  - 🇺🇸  美国加利福尼亚州洛杉矶Zenlayer数据中心 11vmess89
-  - 🇺🇸  美国PacificRack机房 12vmess90
-  - 🇨🇭  瑞士苏黎世Oracle云计算数据中心 13vmess91
-  - 🇺🇸  美国CloudFlare节点 14vmess92
-  - 🇫🇷  法国国际航空电讯集团公司(SITA) 15vmess93
-  - 🇺🇸  美国CloudFlare节点 16vmess94
-  - 🇺🇸  美国惠普HP 17vmess95
-  - 🇬🇧  英国社会保险安全部 18vmess96
-  - 🇺🇸  美国  19vmess97
-  - 🇺🇸  美国CloudFlare节点 20vmess98
-  - 🇺🇸  美国CloudFlare公司CDN节点 21vmess99
-  - 🇪🇺  欧洲  22vmess100
-  - 🇺🇸  美国CloudFlare公司CDN节点 23vmess101
-  - 🇺🇸  美国  24vmess102
-  - 🇺🇸  美国  25vmess103
-  - 🇺🇸  美国CloudFlare公司CDN节点 26vmess104
-  - 🇸🇬  新加坡OVH 28vmess105
-  - 🇺🇸  美国CloudFlare公司CDN节点 30vmess106
-  - 🇷🇺  俄罗斯  31vmess107
-  - vmess108
-  - vmess109
-  - vmess110
-  - vmess111
-  - dafeivpn.com 5元专线机场vmess112
-  - 🇨🇳 中国(TG频道:@kxswa)vmess113
-  - 🇨🇳 中国(TG频道:@kxswa)vmess114
-  - 🇨🇳 中国(TG频道:@kxswa)vmess115
-  - 🇨🇳 中国(TG频道:@kxswa)vmess116
-  - 🇨🇳 中国(TG频道:@kxswa)vmess117
-  - 🇨🇳 中国(TG频道:@kxswa)vmess118
-  - 🇨🇳 中国(TG频道:@kxswa)vmess119
-  - 🇨🇳 中国(TG频道:@kxswa)vmess120
-  - 🇨🇳 中国(TG频道:@kxswa)vmess121
-  - 🇨🇳 中国(TG频道:@kxswa)vmess122
-  - 🇨🇳 中国(TG频道:@kxswa)vmess123
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess124
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess125
-  - 🇭🇰 香港(TG频道:@kxswa)vmess126
-  - 🇭🇰 香港(TG频道:@kxswa)vmess127
-  - 🇭🇰 香港(TG频道:@kxswa)vmess128
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess129
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess130
-  - 🇯🇵 日本(TG频道:@kxswa)vmess131
-  - 🇺🇸 美国(TG频道:@kxswa)vmess132
-  - 🇺🇸 美国(TG频道:@kxswa)vmess133
-  - 🇺🇸 美国(TG频道:@kxswa)vmess134
-  - 🇺🇸 美国(TG频道:@kxswa)vmess135
-  - 🇺🇸 美国(TG频道:@kxswa)vmess136
-  - 🇺🇸 美国(TG频道:@kxswa)vmess137
-  - 🇺🇸 美国(TG频道:@kxswa)vmess138
-  - 🇺🇸 美国(TG频道:@kxswa)vmess139
-  - 🇺🇸 美国(TG频道:@kxswa)vmess140
-  - 🇺🇸 美国(TG频道:@kxswa)vmess141
-  - 🇺🇸 美国(TG频道:@kxswa)vmess142
-  - 🇺🇸 美国(TG频道:@kxswa)vmess143
-  - 🇺🇸 美国(TG频道:@kxswa)vmess144
-  - 🇺🇸 美国(TG频道:@kxswa)vmess145
-  - 🇺🇸 美国(TG频道:@kxswa)vmess146
-  - 🇺🇸 美国(TG频道:@kxswa)vmess147
-  - 🇺🇸 美国(TG频道:@kxswa)vmess148
-  - 🇺🇸 美国(TG频道:@kxswa)vmess149
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess150
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess151
-  - 🇳🇱 荷兰(TG频道:@kxswa)vmess152
-  - 🇫🇷 法国(TG频道:@kxswa)vmess153
-  - 🇫🇷 法国(TG频道:@kxswa)vmess154
-  - 🇫🇷 法国(TG频道:@kxswa)vmess155
-  - 🇫🇷 法国(TG频道:@kxswa)vmess156
-  - 🇫🇷 法国(TG频道:@kxswa)vmess157
-  - 🇧🇪 比利时(TG频道:@kxswa)vmess158
-  - 🇲🇴 澳门(TG频道:@kxswa)vmess159
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess160
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess161
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess162
-  - (TG频道:@kxswa)vmess163
-  - (TG频道:@kxswa)vmess164
-  - (TG频道:@kxswa)vmess165
-  - (TG频道:@kxswa)vmess166
-  - (TG频道:@kxswa)vmess167
-  - (TG频道:@kxswa)vmess168
-  - (TG频道:@kxswa)vmess169
-  - (TG频道:@kxswa)vmess170
-  - (TG频道:@kxswa)vmess171
-  - (TG频道:@kxswa)vmess172
-  - (TG频道:@kxswa)vmess173
-  - (TG频道:@kxswa)vmess174
-  - (TG频道:@kxswa)vmess175
-  - 🇯🇵 _JP_日本trojan1
-  - 🇯🇵 _JP_日本trojan2
-  - 🇯🇵 _JP_日本trojan3
-  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡trojan4
-  - 🇭🇰 _HK_香港->🇺🇸_US_美国trojan5
-  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡trojan6
-  - 🇭🇰 _HK_香港->🇯🇵_JP_日本trojan7
-  - 🇺🇸 _US_美国trojan8
-  - 🇯🇵 _MO_澳门->🇯🇵_JP_日本trojan9
-  - 🇺🇸  美国  27trojan10
-  - 🇯🇵  日本东京Linode数据中心 29trojan11
-  - 🇯🇵  日本北海道石狩SAKURA数据中心 32trojan12
-  - 🇭🇰 香港(TG频道trojan13
-  - 🇯🇵 日本(TG频道trojan14
-  - 🇺🇸 美国(TG频道trojan15
-  - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡ss1
-  - 🇩🇪 _CN_中国->🇩🇪_DE_德国ss2
-  - 🇨🇳 台湾ss3
-  - 🇺🇸 美国ss4
-  - 🇨🇳 台湾ss5
-  - 🇨🇦 加拿大ss6
-  - 🇪🇺 欧洲ss7
-  - 🇨🇳 台湾ss8
-  - 🇦🇹 奥地利ss9
-  - 🇨🇳 台湾ss10
-  - 🇨🇳 台湾ss11
-  - 🇨🇳 台湾ss12
-  - 🇪🇺 欧洲ss13
-  - 🇭🇰 香港ss14
-  - 🇪🇺 欧洲ss15
-  - 🇨🇳 台湾ss16
-  - 🇪🇺 欧洲ss17
+  - vmess1
+  - vmess2
+  - 🇺🇸_US_美国vmess3
+  - 🇺🇸_US_美国vmess4
+  - aoop-12vmess5
+  - vmess6
+  - 🇺🇸_US_美国vmess7
+  - vmess8
+  - vmess9
+  - vmess10
+  - aoop-12vmess11
+  - vmess12
+  - aoop-13vmess13
+  - 🇺🇸_US_美国vmess14
+  - 🇺🇸_US_美国vmess15
+  - vmess16
+  - vmess17
+  - YouTube梦歌|Netflix_96vmess18
+  - vmess19
+  - 🇺🇸_US_美国vmess20
+  - vmess21
+  - vmess22
+  - vmess23
+  - vmess24
+  - aoop-15vmess25
+  - vmess26
+  - 🇺🇸_US_美国vmess27
+  - vmess28
+  - vmess29
+  - YouTube梦歌|Netflix_98vmess30
+  - 🇺🇸_US_美国vmess31
+  - vmess32
+  - YouTube梦歌|Netflix_61vmess33
+  - vmess34
+  - vmess35
+  - TR Familyvmess36
+  - vmess37
+  - vmess38
+  - 🇳🇱_NL_荷兰vmess39
+  - 🇺🇸_US_美国vmess40
+  - SSHKit 3vmess41
+  - 🇺🇸_US_美国vmess42
+  - vmess43
+  - YouTube梦歌|Netflix_119vmess44
+  - vmess45
+  - 🇺🇸_US_美国vmess46
+  - aoop-13vmess47
+  - 🇺🇸_US_美国vmess48
+  - 🇺🇸_US_美国vmess49
+  - YouTube梦歌|Netflix_89vmess50
+  - 🇺🇸_US_美国vmess51
+  - 🇫🇷_FR_法国vmess52
+  - YouTube梦歌|Netflix_108vmess53
+  - vmess54
+  - Private-116vmess55
+  - YouTube梦歌|Netflix_107vmess56
+  - YouTube梦歌|Netflix_103vmess57
+  - 🇺🇸_US_美国vmess58
+  - aoop-14vmess59
+  - PRIVATE-DIGITALvmess60
+  - aoop-4vmess61
+  - YouTube梦歌|Netflix_78vmess62
+  - vmess63
+  - YouTube梦歌|Netflix_13vmess64
+  - vmess65
+  - 103.174.115.163普通线路vmess66
+  - 印尼v2-11.21到期-续费420vmess67
+  - vmess68
+  - vmess69
+  - 🇺🇸_US_美国vmess70
+  - YouTube梦歌|Netflix_101vmess71
+  - 🇸🇬_SG_新加坡ss1
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -3110,638 +1198,233 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡vmess1
-  - 🇺🇸 _US_美国vmess2
-  - default_namevmess3
-  - _LA_老挝vmess4
-  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国vmess5
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess6
-  - default_namevmess7
-  - default_namevmess8
-  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大vmess9
-  - 🇺🇸 _US_美国vmess10
-  - 🇸🇬 _SG_新加坡vmess11
-  - 🇺🇸 _US_美国vmess12
-  - 🇨🇭 _CH_瑞士vmess13
-  - default_namevmess14
-  - 🇭🇰 _HK_香港vmess15
-  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰vmess16
-  - default_namevmess17
-  - default_namevmess18
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess19
-  - 🇦🇺 _AU_澳大利亚vmess20
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国vmess21
-  - default_namevmess22
-  - default_namevmess23
-  - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦vmess24
-  - 🇺🇸 _US_美国vmess25
-  - 🇭🇰 _HK_香港vmess26
-  - 🇸🇬 _SG_新加坡vmess27
-  - 🇸🇬 _SG_新加坡vmess28
-  - 🇸🇬 _SG_新加坡vmess29
-  - 🇷🇺 _RU_俄罗斯联邦vmess30
-  - 🇯🇵 _US_美国->🇯🇵_JP_日本vmess31
-  - 🇭🇰 _HK_香港vmess32
-  - 🇭🇰 _HK_香港vmess33
-  - 🇺🇸 _MO_澳门->🇺🇸_US_美国vmess34
-  - 🇭🇰 _HK_香港vmess35
-  - 🇭🇰 _HK_香港vmess36
-  - 🇺🇸 _US_美国vmess37
-  - 🇸🇪 _CN_中国->🇸🇪_SE_瑞典vmess38
-  - 🇭🇰 香港vmess39
-  - 🇭🇰 香港vmess40
-  - 🇭🇰 香港vmess41
-  - 🇭🇰 香港vmess42
-  - 🇭🇰 香港vmess43
-  - 🇭🇰 香港vmess44
-  - 🇭🇰 香港vmess45
-  - 🇭🇰 香港vmess46
-  - 🇯🇵 日本vmess47
-  - 🇯🇵 日本vmess48
-  - 🇬🇧 英国vmess49
-  - 🇬🇧 英国vmess50
-  - 🇦🇺 澳大利亚vmess51
-  - 🇦🇺 澳大利亚vmess52
-  - 🇦🇺 澳大利亚vmess53
-  - 🇳🇱 荷兰vmess54
-  - 🇳🇱 荷兰vmess55
-  - 🇨🇳 台湾vmess56
-  - 🇸🇬 新加坡vmess57
-  - 🇸🇬 新加坡vmess58
-  - 🇸🇬 新加坡vmess59
-  - 🇺🇸 美国vmess60
-  - 🇺🇸 美国vmess61
-  - 🇺🇸 美国vmess62
-  - 🇸🇬 新加坡vmess63
-  - 🇸🇬 新加坡vmess64
-  - 🇺🇸 美国vmess65
-  - 🇸🇬 新加坡vmess66
-  - 🇨🇳 台湾vmess67
-  - 🇯🇵 日本vmess68
-  - 🇷🇺 俄罗斯vmess69
-  - 🇭🇰 香港vmess70
-  - 🇺🇸 美国vmess71
-  - 🇪🇺 欧洲vmess72
-  - 🇯🇵 日本vmess73
-  - 🇰🇷 韩国vmess74
-  - 🇰🇷 韩国vmess75
-  - 🇫🇮 芬兰vmess76
-  - 🇺🇸 美国vmess77
-  - 🇺🇸 美国vmess78
-  - 🇯🇵  日本  1vmess79
-  - 🇺🇸  美国加利福尼亚州洛杉矶MULTACOM数据中心 2vmess80
-  - 🇺🇸  美国  3vmess81
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 4vmess82
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 5vmess83
-  - 🇸🇪  瑞典Oracle Corporation 6vmess84
-  - 🇺🇸  美国惠普HP 7vmess85
-  - 🇳🇱  荷兰阿姆斯特丹LeaseWeb数据中心 8vmess86
-  - 🇬🇧  英国社会保险安全部 9vmess87
-  - 🇺🇸  美国Linode数据中心 10vmess88
-  - 🇺🇸  美国加利福尼亚州洛杉矶Zenlayer数据中心 11vmess89
-  - 🇺🇸  美国PacificRack机房 12vmess90
-  - 🇨🇭  瑞士苏黎世Oracle云计算数据中心 13vmess91
-  - 🇺🇸  美国CloudFlare节点 14vmess92
-  - 🇫🇷  法国国际航空电讯集团公司(SITA) 15vmess93
-  - 🇺🇸  美国CloudFlare节点 16vmess94
-  - 🇺🇸  美国惠普HP 17vmess95
-  - 🇬🇧  英国社会保险安全部 18vmess96
-  - 🇺🇸  美国  19vmess97
-  - 🇺🇸  美国CloudFlare节点 20vmess98
-  - 🇺🇸  美国CloudFlare公司CDN节点 21vmess99
-  - 🇪🇺  欧洲  22vmess100
-  - 🇺🇸  美国CloudFlare公司CDN节点 23vmess101
-  - 🇺🇸  美国  24vmess102
-  - 🇺🇸  美国  25vmess103
-  - 🇺🇸  美国CloudFlare公司CDN节点 26vmess104
-  - 🇸🇬  新加坡OVH 28vmess105
-  - 🇺🇸  美国CloudFlare公司CDN节点 30vmess106
-  - 🇷🇺  俄罗斯  31vmess107
-  - vmess108
-  - vmess109
-  - vmess110
-  - vmess111
-  - dafeivpn.com 5元专线机场vmess112
-  - 🇨🇳 中国(TG频道:@kxswa)vmess113
-  - 🇨🇳 中国(TG频道:@kxswa)vmess114
-  - 🇨🇳 中国(TG频道:@kxswa)vmess115
-  - 🇨🇳 中国(TG频道:@kxswa)vmess116
-  - 🇨🇳 中国(TG频道:@kxswa)vmess117
-  - 🇨🇳 中国(TG频道:@kxswa)vmess118
-  - 🇨🇳 中国(TG频道:@kxswa)vmess119
-  - 🇨🇳 中国(TG频道:@kxswa)vmess120
-  - 🇨🇳 中国(TG频道:@kxswa)vmess121
-  - 🇨🇳 中国(TG频道:@kxswa)vmess122
-  - 🇨🇳 中国(TG频道:@kxswa)vmess123
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess124
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess125
-  - 🇭🇰 香港(TG频道:@kxswa)vmess126
-  - 🇭🇰 香港(TG频道:@kxswa)vmess127
-  - 🇭🇰 香港(TG频道:@kxswa)vmess128
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess129
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess130
-  - 🇯🇵 日本(TG频道:@kxswa)vmess131
-  - 🇺🇸 美国(TG频道:@kxswa)vmess132
-  - 🇺🇸 美国(TG频道:@kxswa)vmess133
-  - 🇺🇸 美国(TG频道:@kxswa)vmess134
-  - 🇺🇸 美国(TG频道:@kxswa)vmess135
-  - 🇺🇸 美国(TG频道:@kxswa)vmess136
-  - 🇺🇸 美国(TG频道:@kxswa)vmess137
-  - 🇺🇸 美国(TG频道:@kxswa)vmess138
-  - 🇺🇸 美国(TG频道:@kxswa)vmess139
-  - 🇺🇸 美国(TG频道:@kxswa)vmess140
-  - 🇺🇸 美国(TG频道:@kxswa)vmess141
-  - 🇺🇸 美国(TG频道:@kxswa)vmess142
-  - 🇺🇸 美国(TG频道:@kxswa)vmess143
-  - 🇺🇸 美国(TG频道:@kxswa)vmess144
-  - 🇺🇸 美国(TG频道:@kxswa)vmess145
-  - 🇺🇸 美国(TG频道:@kxswa)vmess146
-  - 🇺🇸 美国(TG频道:@kxswa)vmess147
-  - 🇺🇸 美国(TG频道:@kxswa)vmess148
-  - 🇺🇸 美国(TG频道:@kxswa)vmess149
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess150
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess151
-  - 🇳🇱 荷兰(TG频道:@kxswa)vmess152
-  - 🇫🇷 法国(TG频道:@kxswa)vmess153
-  - 🇫🇷 法国(TG频道:@kxswa)vmess154
-  - 🇫🇷 法国(TG频道:@kxswa)vmess155
-  - 🇫🇷 法国(TG频道:@kxswa)vmess156
-  - 🇫🇷 法国(TG频道:@kxswa)vmess157
-  - 🇧🇪 比利时(TG频道:@kxswa)vmess158
-  - 🇲🇴 澳门(TG频道:@kxswa)vmess159
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess160
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess161
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess162
-  - (TG频道:@kxswa)vmess163
-  - (TG频道:@kxswa)vmess164
-  - (TG频道:@kxswa)vmess165
-  - (TG频道:@kxswa)vmess166
-  - (TG频道:@kxswa)vmess167
-  - (TG频道:@kxswa)vmess168
-  - (TG频道:@kxswa)vmess169
-  - (TG频道:@kxswa)vmess170
-  - (TG频道:@kxswa)vmess171
-  - (TG频道:@kxswa)vmess172
-  - (TG频道:@kxswa)vmess173
-  - (TG频道:@kxswa)vmess174
-  - (TG频道:@kxswa)vmess175
-  - 🇯🇵 _JP_日本trojan1
-  - 🇯🇵 _JP_日本trojan2
-  - 🇯🇵 _JP_日本trojan3
-  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡trojan4
-  - 🇭🇰 _HK_香港->🇺🇸_US_美国trojan5
-  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡trojan6
-  - 🇭🇰 _HK_香港->🇯🇵_JP_日本trojan7
-  - 🇺🇸 _US_美国trojan8
-  - 🇯🇵 _MO_澳门->🇯🇵_JP_日本trojan9
-  - 🇺🇸  美国  27trojan10
-  - 🇯🇵  日本东京Linode数据中心 29trojan11
-  - 🇯🇵  日本北海道石狩SAKURA数据中心 32trojan12
-  - 🇭🇰 香港(TG频道trojan13
-  - 🇯🇵 日本(TG频道trojan14
-  - 🇺🇸 美国(TG频道trojan15
-  - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡ss1
-  - 🇩🇪 _CN_中国->🇩🇪_DE_德国ss2
-  - 🇨🇳 台湾ss3
-  - 🇺🇸 美国ss4
-  - 🇨🇳 台湾ss5
-  - 🇨🇦 加拿大ss6
-  - 🇪🇺 欧洲ss7
-  - 🇨🇳 台湾ss8
-  - 🇦🇹 奥地利ss9
-  - 🇨🇳 台湾ss10
-  - 🇨🇳 台湾ss11
-  - 🇨🇳 台湾ss12
-  - 🇪🇺 欧洲ss13
-  - 🇭🇰 香港ss14
-  - 🇪🇺 欧洲ss15
-  - 🇨🇳 台湾ss16
-  - 🇪🇺 欧洲ss17
+  - vmess1
+  - vmess2
+  - 🇺🇸_US_美国vmess3
+  - 🇺🇸_US_美国vmess4
+  - aoop-12vmess5
+  - vmess6
+  - 🇺🇸_US_美国vmess7
+  - vmess8
+  - vmess9
+  - vmess10
+  - aoop-12vmess11
+  - vmess12
+  - aoop-13vmess13
+  - 🇺🇸_US_美国vmess14
+  - 🇺🇸_US_美国vmess15
+  - vmess16
+  - vmess17
+  - YouTube梦歌|Netflix_96vmess18
+  - vmess19
+  - 🇺🇸_US_美国vmess20
+  - vmess21
+  - vmess22
+  - vmess23
+  - vmess24
+  - aoop-15vmess25
+  - vmess26
+  - 🇺🇸_US_美国vmess27
+  - vmess28
+  - vmess29
+  - YouTube梦歌|Netflix_98vmess30
+  - 🇺🇸_US_美国vmess31
+  - vmess32
+  - YouTube梦歌|Netflix_61vmess33
+  - vmess34
+  - vmess35
+  - TR Familyvmess36
+  - vmess37
+  - vmess38
+  - 🇳🇱_NL_荷兰vmess39
+  - 🇺🇸_US_美国vmess40
+  - SSHKit 3vmess41
+  - 🇺🇸_US_美国vmess42
+  - vmess43
+  - YouTube梦歌|Netflix_119vmess44
+  - vmess45
+  - 🇺🇸_US_美国vmess46
+  - aoop-13vmess47
+  - 🇺🇸_US_美国vmess48
+  - 🇺🇸_US_美国vmess49
+  - YouTube梦歌|Netflix_89vmess50
+  - 🇺🇸_US_美国vmess51
+  - 🇫🇷_FR_法国vmess52
+  - YouTube梦歌|Netflix_108vmess53
+  - vmess54
+  - Private-116vmess55
+  - YouTube梦歌|Netflix_107vmess56
+  - YouTube梦歌|Netflix_103vmess57
+  - 🇺🇸_US_美国vmess58
+  - aoop-14vmess59
+  - PRIVATE-DIGITALvmess60
+  - aoop-4vmess61
+  - YouTube梦歌|Netflix_78vmess62
+  - vmess63
+  - YouTube梦歌|Netflix_13vmess64
+  - vmess65
+  - 103.174.115.163普通线路vmess66
+  - 印尼v2-11.21到期-续费420vmess67
+  - vmess68
+  - vmess69
+  - 🇺🇸_US_美国vmess70
+  - YouTube梦歌|Netflix_101vmess71
+  - 🇸🇬_SG_新加坡ss1
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡vmess1
-  - 🇺🇸 _US_美国vmess2
-  - default_namevmess3
-  - _LA_老挝vmess4
-  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国vmess5
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess6
-  - default_namevmess7
-  - default_namevmess8
-  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大vmess9
-  - 🇺🇸 _US_美国vmess10
-  - 🇸🇬 _SG_新加坡vmess11
-  - 🇺🇸 _US_美国vmess12
-  - 🇨🇭 _CH_瑞士vmess13
-  - default_namevmess14
-  - 🇭🇰 _HK_香港vmess15
-  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰vmess16
-  - default_namevmess17
-  - default_namevmess18
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess19
-  - 🇦🇺 _AU_澳大利亚vmess20
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国vmess21
-  - default_namevmess22
-  - default_namevmess23
-  - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦vmess24
-  - 🇺🇸 _US_美国vmess25
-  - 🇭🇰 _HK_香港vmess26
-  - 🇸🇬 _SG_新加坡vmess27
-  - 🇸🇬 _SG_新加坡vmess28
-  - 🇸🇬 _SG_新加坡vmess29
-  - 🇷🇺 _RU_俄罗斯联邦vmess30
-  - 🇯🇵 _US_美国->🇯🇵_JP_日本vmess31
-  - 🇭🇰 _HK_香港vmess32
-  - 🇭🇰 _HK_香港vmess33
-  - 🇺🇸 _MO_澳门->🇺🇸_US_美国vmess34
-  - 🇭🇰 _HK_香港vmess35
-  - 🇭🇰 _HK_香港vmess36
-  - 🇺🇸 _US_美国vmess37
-  - 🇸🇪 _CN_中国->🇸🇪_SE_瑞典vmess38
-  - 🇭🇰 香港vmess39
-  - 🇭🇰 香港vmess40
-  - 🇭🇰 香港vmess41
-  - 🇭🇰 香港vmess42
-  - 🇭🇰 香港vmess43
-  - 🇭🇰 香港vmess44
-  - 🇭🇰 香港vmess45
-  - 🇭🇰 香港vmess46
-  - 🇯🇵 日本vmess47
-  - 🇯🇵 日本vmess48
-  - 🇬🇧 英国vmess49
-  - 🇬🇧 英国vmess50
-  - 🇦🇺 澳大利亚vmess51
-  - 🇦🇺 澳大利亚vmess52
-  - 🇦🇺 澳大利亚vmess53
-  - 🇳🇱 荷兰vmess54
-  - 🇳🇱 荷兰vmess55
-  - 🇨🇳 台湾vmess56
-  - 🇸🇬 新加坡vmess57
-  - 🇸🇬 新加坡vmess58
-  - 🇸🇬 新加坡vmess59
-  - 🇺🇸 美国vmess60
-  - 🇺🇸 美国vmess61
-  - 🇺🇸 美国vmess62
-  - 🇸🇬 新加坡vmess63
-  - 🇸🇬 新加坡vmess64
-  - 🇺🇸 美国vmess65
-  - 🇸🇬 新加坡vmess66
-  - 🇨🇳 台湾vmess67
-  - 🇯🇵 日本vmess68
-  - 🇷🇺 俄罗斯vmess69
-  - 🇭🇰 香港vmess70
-  - 🇺🇸 美国vmess71
-  - 🇪🇺 欧洲vmess72
-  - 🇯🇵 日本vmess73
-  - 🇰🇷 韩国vmess74
-  - 🇰🇷 韩国vmess75
-  - 🇫🇮 芬兰vmess76
-  - 🇺🇸 美国vmess77
-  - 🇺🇸 美国vmess78
-  - 🇯🇵  日本  1vmess79
-  - 🇺🇸  美国加利福尼亚州洛杉矶MULTACOM数据中心 2vmess80
-  - 🇺🇸  美国  3vmess81
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 4vmess82
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 5vmess83
-  - 🇸🇪  瑞典Oracle Corporation 6vmess84
-  - 🇺🇸  美国惠普HP 7vmess85
-  - 🇳🇱  荷兰阿姆斯特丹LeaseWeb数据中心 8vmess86
-  - 🇬🇧  英国社会保险安全部 9vmess87
-  - 🇺🇸  美国Linode数据中心 10vmess88
-  - 🇺🇸  美国加利福尼亚州洛杉矶Zenlayer数据中心 11vmess89
-  - 🇺🇸  美国PacificRack机房 12vmess90
-  - 🇨🇭  瑞士苏黎世Oracle云计算数据中心 13vmess91
-  - 🇺🇸  美国CloudFlare节点 14vmess92
-  - 🇫🇷  法国国际航空电讯集团公司(SITA) 15vmess93
-  - 🇺🇸  美国CloudFlare节点 16vmess94
-  - 🇺🇸  美国惠普HP 17vmess95
-  - 🇬🇧  英国社会保险安全部 18vmess96
-  - 🇺🇸  美国  19vmess97
-  - 🇺🇸  美国CloudFlare节点 20vmess98
-  - 🇺🇸  美国CloudFlare公司CDN节点 21vmess99
-  - 🇪🇺  欧洲  22vmess100
-  - 🇺🇸  美国CloudFlare公司CDN节点 23vmess101
-  - 🇺🇸  美国  24vmess102
-  - 🇺🇸  美国  25vmess103
-  - 🇺🇸  美国CloudFlare公司CDN节点 26vmess104
-  - 🇸🇬  新加坡OVH 28vmess105
-  - 🇺🇸  美国CloudFlare公司CDN节点 30vmess106
-  - 🇷🇺  俄罗斯  31vmess107
-  - vmess108
-  - vmess109
-  - vmess110
-  - vmess111
-  - dafeivpn.com 5元专线机场vmess112
-  - 🇨🇳 中国(TG频道:@kxswa)vmess113
-  - 🇨🇳 中国(TG频道:@kxswa)vmess114
-  - 🇨🇳 中国(TG频道:@kxswa)vmess115
-  - 🇨🇳 中国(TG频道:@kxswa)vmess116
-  - 🇨🇳 中国(TG频道:@kxswa)vmess117
-  - 🇨🇳 中国(TG频道:@kxswa)vmess118
-  - 🇨🇳 中国(TG频道:@kxswa)vmess119
-  - 🇨🇳 中国(TG频道:@kxswa)vmess120
-  - 🇨🇳 中国(TG频道:@kxswa)vmess121
-  - 🇨🇳 中国(TG频道:@kxswa)vmess122
-  - 🇨🇳 中国(TG频道:@kxswa)vmess123
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess124
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess125
-  - 🇭🇰 香港(TG频道:@kxswa)vmess126
-  - 🇭🇰 香港(TG频道:@kxswa)vmess127
-  - 🇭🇰 香港(TG频道:@kxswa)vmess128
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess129
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess130
-  - 🇯🇵 日本(TG频道:@kxswa)vmess131
-  - 🇺🇸 美国(TG频道:@kxswa)vmess132
-  - 🇺🇸 美国(TG频道:@kxswa)vmess133
-  - 🇺🇸 美国(TG频道:@kxswa)vmess134
-  - 🇺🇸 美国(TG频道:@kxswa)vmess135
-  - 🇺🇸 美国(TG频道:@kxswa)vmess136
-  - 🇺🇸 美国(TG频道:@kxswa)vmess137
-  - 🇺🇸 美国(TG频道:@kxswa)vmess138
-  - 🇺🇸 美国(TG频道:@kxswa)vmess139
-  - 🇺🇸 美国(TG频道:@kxswa)vmess140
-  - 🇺🇸 美国(TG频道:@kxswa)vmess141
-  - 🇺🇸 美国(TG频道:@kxswa)vmess142
-  - 🇺🇸 美国(TG频道:@kxswa)vmess143
-  - 🇺🇸 美国(TG频道:@kxswa)vmess144
-  - 🇺🇸 美国(TG频道:@kxswa)vmess145
-  - 🇺🇸 美国(TG频道:@kxswa)vmess146
-  - 🇺🇸 美国(TG频道:@kxswa)vmess147
-  - 🇺🇸 美国(TG频道:@kxswa)vmess148
-  - 🇺🇸 美国(TG频道:@kxswa)vmess149
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess150
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess151
-  - 🇳🇱 荷兰(TG频道:@kxswa)vmess152
-  - 🇫🇷 法国(TG频道:@kxswa)vmess153
-  - 🇫🇷 法国(TG频道:@kxswa)vmess154
-  - 🇫🇷 法国(TG频道:@kxswa)vmess155
-  - 🇫🇷 法国(TG频道:@kxswa)vmess156
-  - 🇫🇷 法国(TG频道:@kxswa)vmess157
-  - 🇧🇪 比利时(TG频道:@kxswa)vmess158
-  - 🇲🇴 澳门(TG频道:@kxswa)vmess159
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess160
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess161
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess162
-  - (TG频道:@kxswa)vmess163
-  - (TG频道:@kxswa)vmess164
-  - (TG频道:@kxswa)vmess165
-  - (TG频道:@kxswa)vmess166
-  - (TG频道:@kxswa)vmess167
-  - (TG频道:@kxswa)vmess168
-  - (TG频道:@kxswa)vmess169
-  - (TG频道:@kxswa)vmess170
-  - (TG频道:@kxswa)vmess171
-  - (TG频道:@kxswa)vmess172
-  - (TG频道:@kxswa)vmess173
-  - (TG频道:@kxswa)vmess174
-  - (TG频道:@kxswa)vmess175
-  - 🇯🇵 _JP_日本trojan1
-  - 🇯🇵 _JP_日本trojan2
-  - 🇯🇵 _JP_日本trojan3
-  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡trojan4
-  - 🇭🇰 _HK_香港->🇺🇸_US_美国trojan5
-  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡trojan6
-  - 🇭🇰 _HK_香港->🇯🇵_JP_日本trojan7
-  - 🇺🇸 _US_美国trojan8
-  - 🇯🇵 _MO_澳门->🇯🇵_JP_日本trojan9
-  - 🇺🇸  美国  27trojan10
-  - 🇯🇵  日本东京Linode数据中心 29trojan11
-  - 🇯🇵  日本北海道石狩SAKURA数据中心 32trojan12
-  - 🇭🇰 香港(TG频道trojan13
-  - 🇯🇵 日本(TG频道trojan14
-  - 🇺🇸 美国(TG频道trojan15
-  - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡ss1
-  - 🇩🇪 _CN_中国->🇩🇪_DE_德国ss2
-  - 🇨🇳 台湾ss3
-  - 🇺🇸 美国ss4
-  - 🇨🇳 台湾ss5
-  - 🇨🇦 加拿大ss6
-  - 🇪🇺 欧洲ss7
-  - 🇨🇳 台湾ss8
-  - 🇦🇹 奥地利ss9
-  - 🇨🇳 台湾ss10
-  - 🇨🇳 台湾ss11
-  - 🇨🇳 台湾ss12
-  - 🇪🇺 欧洲ss13
-  - 🇭🇰 香港ss14
-  - 🇪🇺 欧洲ss15
-  - 🇨🇳 台湾ss16
-  - 🇪🇺 欧洲ss17
+  - vmess1
+  - vmess2
+  - 🇺🇸_US_美国vmess3
+  - 🇺🇸_US_美国vmess4
+  - aoop-12vmess5
+  - vmess6
+  - 🇺🇸_US_美国vmess7
+  - vmess8
+  - vmess9
+  - vmess10
+  - aoop-12vmess11
+  - vmess12
+  - aoop-13vmess13
+  - 🇺🇸_US_美国vmess14
+  - 🇺🇸_US_美国vmess15
+  - vmess16
+  - vmess17
+  - YouTube梦歌|Netflix_96vmess18
+  - vmess19
+  - 🇺🇸_US_美国vmess20
+  - vmess21
+  - vmess22
+  - vmess23
+  - vmess24
+  - aoop-15vmess25
+  - vmess26
+  - 🇺🇸_US_美国vmess27
+  - vmess28
+  - vmess29
+  - YouTube梦歌|Netflix_98vmess30
+  - 🇺🇸_US_美国vmess31
+  - vmess32
+  - YouTube梦歌|Netflix_61vmess33
+  - vmess34
+  - vmess35
+  - TR Familyvmess36
+  - vmess37
+  - vmess38
+  - 🇳🇱_NL_荷兰vmess39
+  - 🇺🇸_US_美国vmess40
+  - SSHKit 3vmess41
+  - 🇺🇸_US_美国vmess42
+  - vmess43
+  - YouTube梦歌|Netflix_119vmess44
+  - vmess45
+  - 🇺🇸_US_美国vmess46
+  - aoop-13vmess47
+  - 🇺🇸_US_美国vmess48
+  - 🇺🇸_US_美国vmess49
+  - YouTube梦歌|Netflix_89vmess50
+  - 🇺🇸_US_美国vmess51
+  - 🇫🇷_FR_法国vmess52
+  - YouTube梦歌|Netflix_108vmess53
+  - vmess54
+  - Private-116vmess55
+  - YouTube梦歌|Netflix_107vmess56
+  - YouTube梦歌|Netflix_103vmess57
+  - 🇺🇸_US_美国vmess58
+  - aoop-14vmess59
+  - PRIVATE-DIGITALvmess60
+  - aoop-4vmess61
+  - YouTube梦歌|Netflix_78vmess62
+  - vmess63
+  - YouTube梦歌|Netflix_13vmess64
+  - vmess65
+  - 103.174.115.163普通线路vmess66
+  - 印尼v2-11.21到期-续费420vmess67
+  - vmess68
+  - vmess69
+  - 🇺🇸_US_美国vmess70
+  - YouTube梦歌|Netflix_101vmess71
+  - 🇸🇬_SG_新加坡ss1
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡vmess1
-  - 🇺🇸 _US_美国vmess2
-  - default_namevmess3
-  - _LA_老挝vmess4
-  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国vmess5
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess6
-  - default_namevmess7
-  - default_namevmess8
-  - 🇺🇸 _US_美国->🇨🇦_CA_加拿大vmess9
-  - 🇺🇸 _US_美国vmess10
-  - 🇸🇬 _SG_新加坡vmess11
-  - 🇺🇸 _US_美国vmess12
-  - 🇨🇭 _CH_瑞士vmess13
-  - default_namevmess14
-  - 🇭🇰 _HK_香港vmess15
-  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰vmess16
-  - default_namevmess17
-  - default_namevmess18
-  - 🇨🇳 _CN_中国->🇹🇼_TW_台湾vmess19
-  - 🇦🇺 _AU_澳大利亚vmess20
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国vmess21
-  - default_namevmess22
-  - default_namevmess23
-  - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦vmess24
-  - 🇺🇸 _US_美国vmess25
-  - 🇭🇰 _HK_香港vmess26
-  - 🇸🇬 _SG_新加坡vmess27
-  - 🇸🇬 _SG_新加坡vmess28
-  - 🇸🇬 _SG_新加坡vmess29
-  - 🇷🇺 _RU_俄罗斯联邦vmess30
-  - 🇯🇵 _US_美国->🇯🇵_JP_日本vmess31
-  - 🇭🇰 _HK_香港vmess32
-  - 🇭🇰 _HK_香港vmess33
-  - 🇺🇸 _MO_澳门->🇺🇸_US_美国vmess34
-  - 🇭🇰 _HK_香港vmess35
-  - 🇭🇰 _HK_香港vmess36
-  - 🇺🇸 _US_美国vmess37
-  - 🇸🇪 _CN_中国->🇸🇪_SE_瑞典vmess38
-  - 🇭🇰 香港vmess39
-  - 🇭🇰 香港vmess40
-  - 🇭🇰 香港vmess41
-  - 🇭🇰 香港vmess42
-  - 🇭🇰 香港vmess43
-  - 🇭🇰 香港vmess44
-  - 🇭🇰 香港vmess45
-  - 🇭🇰 香港vmess46
-  - 🇯🇵 日本vmess47
-  - 🇯🇵 日本vmess48
-  - 🇬🇧 英国vmess49
-  - 🇬🇧 英国vmess50
-  - 🇦🇺 澳大利亚vmess51
-  - 🇦🇺 澳大利亚vmess52
-  - 🇦🇺 澳大利亚vmess53
-  - 🇳🇱 荷兰vmess54
-  - 🇳🇱 荷兰vmess55
-  - 🇨🇳 台湾vmess56
-  - 🇸🇬 新加坡vmess57
-  - 🇸🇬 新加坡vmess58
-  - 🇸🇬 新加坡vmess59
-  - 🇺🇸 美国vmess60
-  - 🇺🇸 美国vmess61
-  - 🇺🇸 美国vmess62
-  - 🇸🇬 新加坡vmess63
-  - 🇸🇬 新加坡vmess64
-  - 🇺🇸 美国vmess65
-  - 🇸🇬 新加坡vmess66
-  - 🇨🇳 台湾vmess67
-  - 🇯🇵 日本vmess68
-  - 🇷🇺 俄罗斯vmess69
-  - 🇭🇰 香港vmess70
-  - 🇺🇸 美国vmess71
-  - 🇪🇺 欧洲vmess72
-  - 🇯🇵 日本vmess73
-  - 🇰🇷 韩国vmess74
-  - 🇰🇷 韩国vmess75
-  - 🇫🇮 芬兰vmess76
-  - 🇺🇸 美国vmess77
-  - 🇺🇸 美国vmess78
-  - 🇯🇵  日本  1vmess79
-  - 🇺🇸  美国加利福尼亚州洛杉矶MULTACOM数据中心 2vmess80
-  - 🇺🇸  美国  3vmess81
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 4vmess82
-  - 🇺🇸  美国弗吉尼亚州文特山农场OVH数据中心 5vmess83
-  - 🇸🇪  瑞典Oracle Corporation 6vmess84
-  - 🇺🇸  美国惠普HP 7vmess85
-  - 🇳🇱  荷兰阿姆斯特丹LeaseWeb数据中心 8vmess86
-  - 🇬🇧  英国社会保险安全部 9vmess87
-  - 🇺🇸  美国Linode数据中心 10vmess88
-  - 🇺🇸  美国加利福尼亚州洛杉矶Zenlayer数据中心 11vmess89
-  - 🇺🇸  美国PacificRack机房 12vmess90
-  - 🇨🇭  瑞士苏黎世Oracle云计算数据中心 13vmess91
-  - 🇺🇸  美国CloudFlare节点 14vmess92
-  - 🇫🇷  法国国际航空电讯集团公司(SITA) 15vmess93
-  - 🇺🇸  美国CloudFlare节点 16vmess94
-  - 🇺🇸  美国惠普HP 17vmess95
-  - 🇬🇧  英国社会保险安全部 18vmess96
-  - 🇺🇸  美国  19vmess97
-  - 🇺🇸  美国CloudFlare节点 20vmess98
-  - 🇺🇸  美国CloudFlare公司CDN节点 21vmess99
-  - 🇪🇺  欧洲  22vmess100
-  - 🇺🇸  美国CloudFlare公司CDN节点 23vmess101
-  - 🇺🇸  美国  24vmess102
-  - 🇺🇸  美国  25vmess103
-  - 🇺🇸  美国CloudFlare公司CDN节点 26vmess104
-  - 🇸🇬  新加坡OVH 28vmess105
-  - 🇺🇸  美国CloudFlare公司CDN节点 30vmess106
-  - 🇷🇺  俄罗斯  31vmess107
-  - vmess108
-  - vmess109
-  - vmess110
-  - vmess111
-  - dafeivpn.com 5元专线机场vmess112
-  - 🇨🇳 中国(TG频道:@kxswa)vmess113
-  - 🇨🇳 中国(TG频道:@kxswa)vmess114
-  - 🇨🇳 中国(TG频道:@kxswa)vmess115
-  - 🇨🇳 中国(TG频道:@kxswa)vmess116
-  - 🇨🇳 中国(TG频道:@kxswa)vmess117
-  - 🇨🇳 中国(TG频道:@kxswa)vmess118
-  - 🇨🇳 中国(TG频道:@kxswa)vmess119
-  - 🇨🇳 中国(TG频道:@kxswa)vmess120
-  - 🇨🇳 中国(TG频道:@kxswa)vmess121
-  - 🇨🇳 中国(TG频道:@kxswa)vmess122
-  - 🇨🇳 中国(TG频道:@kxswa)vmess123
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess124
-  - 🇸🇬 新加坡(TG频道:@kxswa)vmess125
-  - 🇭🇰 香港(TG频道:@kxswa)vmess126
-  - 🇭🇰 香港(TG频道:@kxswa)vmess127
-  - 🇭🇰 香港(TG频道:@kxswa)vmess128
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess129
-  - 🇨🇳 台湾(TG频道:@kxswa)vmess130
-  - 🇯🇵 日本(TG频道:@kxswa)vmess131
-  - 🇺🇸 美国(TG频道:@kxswa)vmess132
-  - 🇺🇸 美国(TG频道:@kxswa)vmess133
-  - 🇺🇸 美国(TG频道:@kxswa)vmess134
-  - 🇺🇸 美国(TG频道:@kxswa)vmess135
-  - 🇺🇸 美国(TG频道:@kxswa)vmess136
-  - 🇺🇸 美国(TG频道:@kxswa)vmess137
-  - 🇺🇸 美国(TG频道:@kxswa)vmess138
-  - 🇺🇸 美国(TG频道:@kxswa)vmess139
-  - 🇺🇸 美国(TG频道:@kxswa)vmess140
-  - 🇺🇸 美国(TG频道:@kxswa)vmess141
-  - 🇺🇸 美国(TG频道:@kxswa)vmess142
-  - 🇺🇸 美国(TG频道:@kxswa)vmess143
-  - 🇺🇸 美国(TG频道:@kxswa)vmess144
-  - 🇺🇸 美国(TG频道:@kxswa)vmess145
-  - 🇺🇸 美国(TG频道:@kxswa)vmess146
-  - 🇺🇸 美国(TG频道:@kxswa)vmess147
-  - 🇺🇸 美国(TG频道:@kxswa)vmess148
-  - 🇺🇸 美国(TG频道:@kxswa)vmess149
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess150
-  - 🇨🇦 加拿大(TG频道:@kxswa)vmess151
-  - 🇳🇱 荷兰(TG频道:@kxswa)vmess152
-  - 🇫🇷 法国(TG频道:@kxswa)vmess153
-  - 🇫🇷 法国(TG频道:@kxswa)vmess154
-  - 🇫🇷 法国(TG频道:@kxswa)vmess155
-  - 🇫🇷 法国(TG频道:@kxswa)vmess156
-  - 🇫🇷 法国(TG频道:@kxswa)vmess157
-  - 🇧🇪 比利时(TG频道:@kxswa)vmess158
-  - 🇲🇴 澳门(TG频道:@kxswa)vmess159
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess160
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess161
-  - 🇦🇺 澳大利亚(TG频道:@kxswa)vmess162
-  - (TG频道:@kxswa)vmess163
-  - (TG频道:@kxswa)vmess164
-  - (TG频道:@kxswa)vmess165
-  - (TG频道:@kxswa)vmess166
-  - (TG频道:@kxswa)vmess167
-  - (TG频道:@kxswa)vmess168
-  - (TG频道:@kxswa)vmess169
-  - (TG频道:@kxswa)vmess170
-  - (TG频道:@kxswa)vmess171
-  - (TG频道:@kxswa)vmess172
-  - (TG频道:@kxswa)vmess173
-  - (TG频道:@kxswa)vmess174
-  - (TG频道:@kxswa)vmess175
-  - 🇯🇵 _JP_日本trojan1
-  - 🇯🇵 _JP_日本trojan2
-  - 🇯🇵 _JP_日本trojan3
-  - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡trojan4
-  - 🇭🇰 _HK_香港->🇺🇸_US_美国trojan5
-  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡trojan6
-  - 🇭🇰 _HK_香港->🇯🇵_JP_日本trojan7
-  - 🇺🇸 _US_美国trojan8
-  - 🇯🇵 _MO_澳门->🇯🇵_JP_日本trojan9
-  - 🇺🇸  美国  27trojan10
-  - 🇯🇵  日本东京Linode数据中心 29trojan11
-  - 🇯🇵  日本北海道石狩SAKURA数据中心 32trojan12
-  - 🇭🇰 香港(TG频道trojan13
-  - 🇯🇵 日本(TG频道trojan14
-  - 🇺🇸 美国(TG频道trojan15
-  - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡ss1
-  - 🇩🇪 _CN_中国->🇩🇪_DE_德国ss2
-  - 🇨🇳 台湾ss3
-  - 🇺🇸 美国ss4
-  - 🇨🇳 台湾ss5
-  - 🇨🇦 加拿大ss6
-  - 🇪🇺 欧洲ss7
-  - 🇨🇳 台湾ss8
-  - 🇦🇹 奥地利ss9
-  - 🇨🇳 台湾ss10
-  - 🇨🇳 台湾ss11
-  - 🇨🇳 台湾ss12
-  - 🇪🇺 欧洲ss13
-  - 🇭🇰 香港ss14
-  - 🇪🇺 欧洲ss15
-  - 🇨🇳 台湾ss16
-  - 🇪🇺 欧洲ss17
+  - vmess1
+  - vmess2
+  - 🇺🇸_US_美国vmess3
+  - 🇺🇸_US_美国vmess4
+  - aoop-12vmess5
+  - vmess6
+  - 🇺🇸_US_美国vmess7
+  - vmess8
+  - vmess9
+  - vmess10
+  - aoop-12vmess11
+  - vmess12
+  - aoop-13vmess13
+  - 🇺🇸_US_美国vmess14
+  - 🇺🇸_US_美国vmess15
+  - vmess16
+  - vmess17
+  - YouTube梦歌|Netflix_96vmess18
+  - vmess19
+  - 🇺🇸_US_美国vmess20
+  - vmess21
+  - vmess22
+  - vmess23
+  - vmess24
+  - aoop-15vmess25
+  - vmess26
+  - 🇺🇸_US_美国vmess27
+  - vmess28
+  - vmess29
+  - YouTube梦歌|Netflix_98vmess30
+  - 🇺🇸_US_美国vmess31
+  - vmess32
+  - YouTube梦歌|Netflix_61vmess33
+  - vmess34
+  - vmess35
+  - TR Familyvmess36
+  - vmess37
+  - vmess38
+  - 🇳🇱_NL_荷兰vmess39
+  - 🇺🇸_US_美国vmess40
+  - SSHKit 3vmess41
+  - 🇺🇸_US_美国vmess42
+  - vmess43
+  - YouTube梦歌|Netflix_119vmess44
+  - vmess45
+  - 🇺🇸_US_美国vmess46
+  - aoop-13vmess47
+  - 🇺🇸_US_美国vmess48
+  - 🇺🇸_US_美国vmess49
+  - YouTube梦歌|Netflix_89vmess50
+  - 🇺🇸_US_美国vmess51
+  - 🇫🇷_FR_法国vmess52
+  - YouTube梦歌|Netflix_108vmess53
+  - vmess54
+  - Private-116vmess55
+  - YouTube梦歌|Netflix_107vmess56
+  - YouTube梦歌|Netflix_103vmess57
+  - 🇺🇸_US_美国vmess58
+  - aoop-14vmess59
+  - PRIVATE-DIGITALvmess60
+  - aoop-4vmess61
+  - YouTube梦歌|Netflix_78vmess62
+  - vmess63
+  - YouTube梦歌|Netflix_13vmess64
+  - vmess65
+  - 103.174.115.163普通线路vmess66
+  - 印尼v2-11.21到期-续费420vmess67
+  - vmess68
+  - vmess69
+  - 🇺🇸_US_美国vmess70
+  - YouTube梦歌|Netflix_101vmess71
+  - 🇸🇬_SG_新加坡ss1
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
