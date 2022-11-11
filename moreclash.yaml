@@ -26,22 +26,47 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: vmess1
+- name: 美国(yudou66.com 玉豆免费节点)vmess1
   type: vmess
-  server: 141.101.115.121
+  server: 172.64.153.155
   port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /ray
+  ws-path: /dongtaiwang.com
   ws-headers:
-    Host: lg30.cfcdn3.xyz
+    Host: clash6.ssr-free.xyz
   tls: true
-- name: vmess2
+- name: 韩国(yudou66.com 玉豆免费节点)vmess2
   type: vmess
-  server: 55.72img.xyz
+  server: 26.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 26.72img.xyz
+  tls: true
+- name: 卢森堡(yudou66.com 玉豆免费节点)vmess3
+  type: vmess
+  server: ip.skk.moe
+  port: '2086'
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: buyvm.cloudflare.quest
+- name: United States [US 52] @ResistalProxyvmess4
+  type: vmess
+  server: 35.72img.xyz
   port: '443'
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
@@ -52,74 +77,9 @@ proxies:
   ws-headers:
     Host: ''
   tls: true
-- name: 🇺🇸_US_美国vmess3
+- name: 美国(yudou66.com 玉豆免费节点)vmess5
   type: vmess
-  server: 33.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 🇺🇸_US_美国vmess4
-  type: vmess
-  server: 4.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: aoop-12vmess5
-  type: vmess
-  server: 172.67.59.59
-  port: '443'
-  uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /live
-  ws-headers:
-    Host: www.aoop.eu.org
-  tls: true
-- name: vmess6
-  type: vmess
-  server: 43.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 🇺🇸_US_美国vmess7
-  type: vmess
-  server: 34.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 34.72img.xyz
-  tls: true
-- name: vmess8
-  type: vmess
-  server: 141.101.115.136
+  server: 172.64.154.222
   port: '443'
   uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
   alterId: '0'
@@ -130,7 +90,46 @@ proxies:
   ws-headers:
     Host: lg1.cfcdn1.xyz
   tls: true
-- name: vmess9
+- name: 美国(yudou66.com 玉豆免费节点)vmess6
+  type: vmess
+  server: 25.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: vmess7
+  type: vmess
+  server: 198.41.203.5
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess8
+  type: vmess
+  server: els200.jslist.tk
+  port: '8443'
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /wo.php
+  ws-headers:
+    Host: els200.jslist.tk
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess9
   type: vmess
   server: 141.101.115.120
   port: '443'
@@ -145,188 +144,32 @@ proxies:
   tls: true
 - name: vmess10
   type: vmess
-  server: 38.72img.xyz
+  server: 141.101.115.121
   port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: aoop-12vmess11
-  type: vmess
-  server: seviche.cc
-  port: '443'
-  uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /live
-  ws-headers:
-    Host: www.aoop.eu.org
-  tls: true
-- name: vmess12
-  type: vmess
-  server: 141.101.114.102
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: aoop-13vmess13
-  type: vmess
-  server: 172.66.2.53
-  port: '443'
-  uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /live
-  ws-headers:
-    Host: www.aoop.eu.org
-  tls: true
-- name: 🇺🇸_US_美国vmess14
-  type: vmess
-  server: 54.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 54.72img.xyz
-  tls: true
-- name: 🇺🇸_US_美国vmess15
-  type: vmess
-  server: 66.212.20.3
-  port: '443'
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: v2ray2.ssr-free2.xyz
-  tls: true
-- name: vmess16
-  type: vmess
-  server: 55.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 55.72img.xyz
-  tls: true
-- name: vmess17
-  type: vmess
-  server: 43.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 43.72img.xyz
-  tls: true
-- name: YouTube梦歌|Netflix_96vmess18
-  type: vmess
-  server: 36.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 36.72img.xyz
-  tls: true
-- name: vmess19
-  type: vmess
-  server: 198.41.203.1
-  port: '443'
-  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /VHONOFZ3
-  ws-headers:
-    Host: lg1.cfcdn2.xyz
-  tls: true
-- name: 🇺🇸_US_美国vmess20
-  type: vmess
-  server: us-lb.sshkit.org
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
-  ws-headers:
-    Host: zoom.us
-- name: vmess21
-  type: vmess
-  server: 141.101.114.133
-  port: '443'
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
   ws-path: /ray
   ws-headers:
-    Host: lg1.cfcdn1.xyz
+    Host: lg30.cfcdn3.xyz
   tls: true
-- name: vmess22
+- name: 尼日利亚(yudou66.com 玉豆免费节点)vmess11
   type: vmess
-  server: 141.101.115.133
-  port: '443'
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  server: 85.17.5.150
+  port: '36306'
+  uuid: 4070fdde-43d5-4b3f-dbcf-7751c77e4bf6
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /ray
+  ws-path: /Af5645tr
   ws-headers:
-    Host: lg1.cfcdn1.xyz
-  tls: true
-- name: vmess23
+    Host: 85.17.5.150
+- name: 美国(yudou66.com 玉豆免费节点)vmess12
   type: vmess
-  server: 198.41.203.3
-  port: '443'
-  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: lg1.cfcdn3.xyz
-  tls: true
-- name: vmess24
-  type: vmess
-  server: 35.72img.xyz
+  server: 16.72img.xyz
   port: '443'
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
@@ -337,111 +180,7 @@ proxies:
   ws-headers:
     Host: ''
   tls: true
-- name: aoop-15vmess25
-  type: vmess
-  server: init.blog
-  port: '443'
-  uuid: df6bf859-d846-4d34-8fbc-2fcbb935a40e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /live
-  ws-headers:
-    Host: aoop.aoop.eu.org
-  tls: true
-- name: vmess26
-  type: vmess
-  server: 141.101.114.120
-  port: '443'
-  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: lg1.cfcdn3.xyz
-  tls: true
-- name: 🇺🇸_US_美国vmess27
-  type: vmess
-  server: 172.64.154.222
-  port: '443'
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg1.cfcdn1.xyz
-  tls: true
-- name: vmess28
-  type: vmess
-  server: 198.41.203.2
-  port: '443'
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash1.trump2023.net
-  tls: true
-- name: vmess29
-  type: vmess
-  server: 25.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 25.72img.xyz
-  tls: true
-- name: YouTube梦歌|Netflix_98vmess30
-  type: vmess
-  server: 25.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 🇺🇸_US_美国vmess31
-  type: vmess
-  server: 34.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: vmess32
-  type: vmess
-  server: 198.41.212.150
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: YouTube梦歌|Netflix_61vmess33
+- name: 欧洲(yudou66.com 玉豆免费节点)vmess13
   type: vmess
   server: 6.72img.xyz
   port: '443'
@@ -454,22 +193,35 @@ proxies:
   ws-headers:
     Host: 6.72img.xyz
   tls: true
-- name: vmess34
+- name: 欧洲(yudou66.com 玉豆免费节点)vmess14
   type: vmess
-  server: sl1.mayaa.eu.org
+  server: 211.72.35.110
   port: '443'
-  uuid: 996410c5-812f-44c7-db61-2eedf272122c
+  uuid: 2c0afd0e-e288-4754-8d26-103f01a98e14
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /dsaahjj1111d
+  ws-path: /20hk.letitbe.inkvws?ed=2048
   ws-headers:
-    Host: ''
+    Host: 20hk.letitbe.ink
   tls: true
-- name: vmess35
+- name: vmess15
   type: vmess
-  server: 141.101.114.17
+  server: 141.101.115.136
+  port: '443'
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg1.cfcdn1.xyz
+  tls: true
+- name: vmess16
+  type: vmess
+  server: 198.41.212.150
   port: '443'
   uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: '0'
@@ -480,107 +232,7 @@ proxies:
   ws-headers:
     Host: clash6.ssr-free.xyz
   tls: true
-- name: TR Familyvmess36
-  type: vmess
-  server: zeroo.kandimiz.cf
-  port: '8880'
-  uuid: 7a45cf87-1533-45dc-9ae2-21d8c796db4c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: vmess37
-  type: vmess
-  server: 198.41.212.100
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: vmess38
-  type: vmess
-  server: sl1.mayaa.eu.org
-  port: '443'
-  uuid: 996410c5-812f-44c7-db61-2eedf272122c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dsaahjj1111d
-  ws-headers:
-    Host: sl1.mayaa.eu.org
-  tls: true
-- name: 🇳🇱_NL_荷兰vmess39
-  type: vmess
-  server: 85.17.5.150
-  port: '36306'
-  uuid: 4070fdde-43d5-4b3f-dbcf-7751c77e4bf6
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Af5645tr
-  ws-headers:
-    Host: ''
-- name: 🇺🇸_US_美国vmess40
-  type: vmess
-  server: 44.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: SSHKit 3vmess41
-  type: vmess
-  server: uicdn.cf
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/635cb6dd4206c/
-  ws-headers:
-    Host: sg3-v2ray.sshkit.org
-- name: 🇺🇸_US_美国vmess42
-  type: vmess
-  server: us-lb.sshkit.org
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
-  ws-headers:
-    Host: ''
-- name: vmess43
-  type: vmess
-  server: 35.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 35.72img.xyz
-  tls: true
-- name: YouTube梦歌|Netflix_119vmess44
+- name: YouTube梦歌|Netflix_119vmess17
   type: vmess
   server: 172.64.152.150
   port: '443'
@@ -593,24 +245,11 @@ proxies:
   ws-headers:
     Host: clash6.ssr-free.xyz
   tls: true
-- name: vmess45
+- name: PRIVATE-DIGITALvmess18
   type: vmess
-  server: els200.jslist.tk
-  port: '8443'
-  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wo.php
-  ws-headers:
-    Host: els200.jslist.tk
-  tls: true
-- name: 🇺🇸_US_美国vmess46
-  type: vmess
-  server: 45.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  server: digital.proto-route.cf
+  port: '2086'
+  uuid: 9216e22b-c3a4-40d8-bb8c-ee48c62c1052
   alterId: '0'
   cipher: auto
   ucp: true
@@ -618,136 +257,20 @@ proxies:
   ws-path: /
   ws-headers:
     Host: ''
-  tls: true
-- name: aoop-13vmess47
+- name: 美国(yudou66.com 玉豆免费节点)vmess19
   type: vmess
-  server: icook.hk
+  server: cf.fovi.tk
   port: '443'
-  uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /live
+  ws-path: /eisasqa
   ws-headers:
-    Host: www.aoop.eu.org
+    Host: foxpol.fovi.tk
   tls: true
-- name: 🇺🇸_US_美国vmess48
-  type: vmess
-  server: us-lb.sshkit.org
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
-  ws-headers:
-    Host: us-lb.sshkit.org
-- name: 🇺🇸_US_美国vmess49
-  type: vmess
-  server: 21.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: YouTube梦歌|Netflix_89vmess50
-  type: vmess
-  server: 21.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 21.72img.xyz
-  tls: true
-- name: 🇺🇸_US_美国vmess51
-  type: vmess
-  server: 46.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 46.72img.xyz
-  tls: true
-- name: 🇫🇷_FR_法国vmess52
-  type: vmess
-  server: 51.75.70.34
-  port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  tls: true
-- name: YouTube梦歌|Netflix_108vmess53
-  type: vmess
-  server: 172.64.154.155
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: vmess54
-  type: vmess
-  server: 15.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: true
-- name: Private-116vmess55
-  type: vmess
-  server: zeroo.kandimiz.online
-  port: '2082'
-  uuid: 2490e71e-9f3c-4e26-f003-b8a39ec5ce38
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: YouTube梦歌|Netflix_107vmess56
-  type: vmess
-  server: 20.72img.xyz
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.72img.xyz
-  tls: true
-- name: YouTube梦歌|Netflix_103vmess57
+- name: 美国(yudou66.com 玉豆免费节点)vmess20
   type: vmess
   server: 16.72img.xyz
   port: '443'
@@ -760,9 +283,138 @@ proxies:
   ws-headers:
     Host: 16.72img.xyz
   tls: true
-- name: 🇺🇸_US_美国vmess58
+- name: vmess21
   type: vmess
-  server: 54.72img.xyz
+  server: 141.101.115.133
+  port: '443'
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg1.cfcdn1.xyz
+  tls: true
+- name: vmess22
+  type: vmess
+  server: 198.41.203.3
+  port: '443'
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: lg1.cfcdn3.xyz
+  tls: true
+- name: aoop-15vmess23
+  type: vmess
+  server: init.blog
+  port: '443'
+  uuid: df6bf859-d846-4d34-8fbc-2fcbb935a40e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /live
+  ws-headers:
+    Host: aoop.aoop.eu.org
+  tls: true
+- name: vmess24
+  type: vmess
+  server: 141.101.114.120
+  port: '443'
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: lg1.cfcdn3.xyz
+  tls: true
+- name: vmess25
+  type: vmess
+  server: 141.101.114.17
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess26
+  type: vmess
+  server: 66.212.20.3
+  port: '443'
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: v2ray2.ssr-free2.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess27
+  type: vmess
+  server: 141.101.115.120
+  port: '443'
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: lg1.cfcdn3.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess28
+  type: vmess
+  server: hardgum10.online
+  port: '443'
+  uuid: c10b8bd6-3d5a-412f-9187-b98184b9e044
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ipuyvws
+  ws-headers:
+    Host: ''
+  tls: true
+- name: Private-116vmess29
+  type: vmess
+  server: zeroo.kandimiz.online
+  port: '2082'
+  uuid: 2490e71e-9f3c-4e26-f003-b8a39ec5ce38
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+- name: vmess30
+  type: vmess
+  server: 198.41.212.100
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess31
+  type: vmess
+  server: 10.72img.xyz
   port: '443'
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
@@ -773,7 +425,20 @@ proxies:
   ws-headers:
     Host: ''
   tls: true
-- name: aoop-14vmess59
+- name: 欧洲(yudou66.com 玉豆免费节点)vmess32
+  type: vmess
+  server: 141.101.115.20
+  port: '443'
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash1.trump2023.net
+  tls: true
+- name: aoop-14vmess33
   type: vmess
   server: senjianlu.com
   port: '443'
@@ -786,34 +451,22 @@ proxies:
   ws-headers:
     Host: aoop.aoop.eu.org
   tls: true
-- name: PRIVATE-DIGITALvmess60
+- name: 美国(yudou66.com 玉豆免费节点)vmess34
   type: vmess
-  server: digital.proto-route.cf
-  port: '2086'
-  uuid: 9216e22b-c3a4-40d8-bb8c-ee48c62c1052
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: aoop-4vmess61
-  type: vmess
-  server: muwaii.com
+  server: 172.64.153.150
   port: '443'
-  uuid: 0145bfef-aa53-416f-90d4-8634295dab57
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /live
+  ws-path: /dongtaiwang.com
   ws-headers:
-    Host: www.aoopmiss.cf
+    Host: clash6.ssr-free.xyz
   tls: true
-- name: YouTube梦歌|Netflix_78vmess62
+- name: 🇺🇸_US_美国vmess35
   type: vmess
-  server: 4.72img.xyz
+  server: 21.72img.xyz
   port: '443'
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
@@ -822,34 +475,100 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 4.72img.xyz
+    Host: ''
   tls: true
-- name: vmess63
+- name: 美国(yudou66.com 玉豆免费节点)vmess36
   type: vmess
-  server: 198.41.203.5
+  server: 34.72img.xyz
   port: '443'
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /ray
+  ws-path: /
   ws-headers:
-    Host: lg30.cfcdn3.xyz
+    Host: 34.72img.xyz
   tls: true
-- name: YouTube梦歌|Netflix_13vmess64
+- name: 美国(yudou66.com 玉豆免费节点)vmess37
   type: vmess
-  server: ip.skk.moe
-  port: '2086'
-  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+  server: 141.101.114.100
+  port: '443'
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /aries
+  ws-path: /VHONOFZ3
   ws-headers:
-    Host: buyvm.cloudflare.quest
-- name: vmess65
+    Host: lg1.cfcdn2.xyz
+  tls: true
+- name: 俄罗斯(yudou66.com 玉豆免费节点)vmess38
+  type: vmess
+  server: 211.72.35.110
+  port: '443'
+  uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ru.tzccifq.ga
+  tls: true
+- name: vmess39
+  type: vmess
+  server: 55.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess40
+  type: vmess
+  server: 128.14.140.254
+  port: '443'
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: v2ray2.ssr-free2.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess41
+  type: vmess
+  server: 24.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 24.72img.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess42
+  type: vmess
+  server: 172.64.154.155
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess43
   type: vmess
   server: hardgum10.online
   port: '443'
@@ -862,33 +581,33 @@ proxies:
   ws-headers:
     Host: hardgum10.online
   tls: true
-- name: 103.174.115.163普通线路vmess66
+- name: United States [US 53] @ResistalProxyvmess44
   type: vmess
-  server: 103.174.115.163
-  port: '6827'
-  uuid: eaec114d-1e77-418e-8f1e-5c16772c3a52
+  server: 34.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /98TP1fcpG
+  ws-path: /
   ws-headers:
-    Host: yinni.ar04.com
+    Host: ''
   tls: true
-- name: 印尼v2-11.21到期-续费420vmess67
+- name: 🇺🇸_US_美国vmess45
   type: vmess
-  server: 45.94.42.137
-  port: '5467'
-  uuid: eaec114d-1e77-418e-8f1e-5c16772c3a52
+  server: 45.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /98TP1fcpG
+  ws-path: /
   ws-headers:
-    Host: yinni.ar04.com
+    Host: ''
   tls: true
-- name: vmess68
+- name: 美国(yudou66.com 玉豆免费节点)vmess46
   type: vmess
   server: 141.101.115.100
   port: '443'
@@ -901,44 +620,165 @@ proxies:
   ws-headers:
     Host: lg1.cfcdn2.xyz
   tls: true
-- name: vmess69
+- name: Japan [JP 55] @ResistalProxyvmess47
   type: vmess
-  server: jm.jshsxxxy.top
+  server: 29.72img.xyz
   port: '443'
-  uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /MokonaModokiMkv2Rentry
+  ws-path: /
   ws-headers:
     Host: ''
   tls: true
-- name: 🇺🇸_US_美国vmess70
+- name: 美国(yudou66.com 玉豆免费节点)vmess48
   type: vmess
-  server: 172.67.60.36
+  server: 172.64.154.150
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 印度(yudou66.com 玉豆免费节点)vmess49
+  type: vmess
+  server: 21.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 21.72img.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess50
+  type: vmess
+  server: 55.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 55.72img.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess51
+  type: vmess
+  server: 141.101.114.120
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: 🇨🇦_CA_加拿大vmess52
+  type: vmess
+  server: 44.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess53
+  type: vmess
+  server: cf.fovi.tk
   port: '2053'
-  uuid: fb580643-1b0f-4c61-c228-e0dc5a70abbe
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /live
+  ws-path: /eisasqa
   ws-headers:
-    Host: www.aoop.cf
+    Host: foxpol.fovi.tk
   tls: true
-- name: YouTube梦歌|Netflix_101vmess71
+- name: 美国(yudou66.com 玉豆免费节点)vmess54
   type: vmess
-  server: 57.128.45.161
-  port: '80'
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
+  server: 22.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /user
+  ws-path: /
+  ws-headers:
+    Host: 22.72img.xyz
+  tls: true
+- name: 德国(yudou66.com 玉豆免费节点)vmess55
+  type: vmess
+  server: 47.91.94.116
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess56
+  type: vmess
+  server: 43.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 43.72img.xyz
+  tls: true
+- name: Germany [DE 23] @ResistalProxyvmess57
+  type: vmess
+  server: 54.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
   ws-headers:
     Host: ''
+  tls: true
+- name: 韩国(yudou66.com+玉豆免费节点)trojan1
+  type: trojan
+  server: 121.78.213.3
+  port: '443'
+  udp: true
+  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
+  skip-cert-verify: true
+  sni: httah.freetrade.link
+- name: 欧洲(油管trojan2
+  type: trojan
+  server: 45.64.22.23
+  port: '443'
+  udp: true
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  skip-cert-verify: true
+  sni: reooec.freetrade.link
 - name: 🇸🇬_SG_新加坡ss1
   server: sg.securevpn.cc
   port: '1020'
@@ -953,77 +793,65 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - vmess1
-  - vmess2
-  - 🇺🇸_US_美国vmess3
-  - 🇺🇸_US_美国vmess4
-  - aoop-12vmess5
-  - vmess6
-  - 🇺🇸_US_美国vmess7
-  - vmess8
-  - vmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess1
+  - 韩国(yudou66.com 玉豆免费节点)vmess2
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess3
+  - United States [US 52] @ResistalProxyvmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - vmess7
+  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 美国(yudou66.com 玉豆免费节点)vmess9
   - vmess10
-  - aoop-12vmess11
-  - vmess12
-  - aoop-13vmess13
-  - 🇺🇸_US_美国vmess14
-  - 🇺🇸_US_美国vmess15
+  - 尼日利亚(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 欧洲(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - vmess15
   - vmess16
-  - vmess17
-  - YouTube梦歌|Netflix_96vmess18
-  - vmess19
-  - 🇺🇸_US_美国vmess20
+  - YouTube梦歌|Netflix_119vmess17
+  - PRIVATE-DIGITALvmess18
+  - 美国(yudou66.com 玉豆免费节点)vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
   - vmess21
   - vmess22
-  - vmess23
+  - aoop-15vmess23
   - vmess24
-  - aoop-15vmess25
-  - vmess26
-  - 🇺🇸_US_美国vmess27
-  - vmess28
-  - vmess29
-  - YouTube梦歌|Netflix_98vmess30
-  - 🇺🇸_US_美国vmess31
-  - vmess32
-  - YouTube梦歌|Netflix_61vmess33
-  - vmess34
-  - vmess35
-  - TR Familyvmess36
-  - vmess37
-  - vmess38
-  - 🇳🇱_NL_荷兰vmess39
-  - 🇺🇸_US_美国vmess40
-  - SSHKit 3vmess41
-  - 🇺🇸_US_美国vmess42
-  - vmess43
-  - YouTube梦歌|Netflix_119vmess44
-  - vmess45
-  - 🇺🇸_US_美国vmess46
-  - aoop-13vmess47
-  - 🇺🇸_US_美国vmess48
-  - 🇺🇸_US_美国vmess49
-  - YouTube梦歌|Netflix_89vmess50
-  - 🇺🇸_US_美国vmess51
-  - 🇫🇷_FR_法国vmess52
-  - YouTube梦歌|Netflix_108vmess53
-  - vmess54
-  - Private-116vmess55
-  - YouTube梦歌|Netflix_107vmess56
-  - YouTube梦歌|Netflix_103vmess57
-  - 🇺🇸_US_美国vmess58
-  - aoop-14vmess59
-  - PRIVATE-DIGITALvmess60
-  - aoop-4vmess61
-  - YouTube梦歌|Netflix_78vmess62
-  - vmess63
-  - YouTube梦歌|Netflix_13vmess64
-  - vmess65
-  - 103.174.115.163普通线路vmess66
-  - 印尼v2-11.21到期-续费420vmess67
-  - vmess68
-  - vmess69
-  - 🇺🇸_US_美国vmess70
-  - YouTube梦歌|Netflix_101vmess71
+  - vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国(yudou66.com 玉豆免费节点)vmess28
+  - Private-116vmess29
+  - vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 欧洲(yudou66.com 玉豆免费节点)vmess32
+  - aoop-14vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇺🇸_US_美国vmess35
+  - 美国(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess38
+  - vmess39
+  - 美国(yudou66.com 玉豆免费节点)vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - United States [US 53] @ResistalProxyvmess44
+  - 🇺🇸_US_美国vmess45
+  - 美国(yudou66.com 玉豆免费节点)vmess46
+  - Japan [JP 55] @ResistalProxyvmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - 印度(yudou66.com 玉豆免费节点)vmess49
+  - 美国(yudou66.com 玉豆免费节点)vmess50
+  - 美国(yudou66.com 玉豆免费节点)vmess51
+  - 🇨🇦_CA_加拿大vmess52
+  - 美国(yudou66.com 玉豆免费节点)vmess53
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 德国(yudou66.com 玉豆免费节点)vmess55
+  - 加拿大(yudou66.com 玉豆免费节点)vmess56
+  - Germany [DE 23] @ResistalProxyvmess57
+  - 韩国(yudou66.com+玉豆免费节点)trojan1
+  - 欧洲(油管trojan2
   - 🇸🇬_SG_新加坡ss1
 - name: ♻️ 自动选择
   type: url-test
@@ -1031,77 +859,65 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies: &id001
-  - vmess1
-  - vmess2
-  - 🇺🇸_US_美国vmess3
-  - 🇺🇸_US_美国vmess4
-  - aoop-12vmess5
-  - vmess6
-  - 🇺🇸_US_美国vmess7
-  - vmess8
-  - vmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess1
+  - 韩国(yudou66.com 玉豆免费节点)vmess2
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess3
+  - United States [US 52] @ResistalProxyvmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - vmess7
+  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 美国(yudou66.com 玉豆免费节点)vmess9
   - vmess10
-  - aoop-12vmess11
-  - vmess12
-  - aoop-13vmess13
-  - 🇺🇸_US_美国vmess14
-  - 🇺🇸_US_美国vmess15
+  - 尼日利亚(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 欧洲(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - vmess15
   - vmess16
-  - vmess17
-  - YouTube梦歌|Netflix_96vmess18
-  - vmess19
-  - 🇺🇸_US_美国vmess20
+  - YouTube梦歌|Netflix_119vmess17
+  - PRIVATE-DIGITALvmess18
+  - 美国(yudou66.com 玉豆免费节点)vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
   - vmess21
   - vmess22
-  - vmess23
+  - aoop-15vmess23
   - vmess24
-  - aoop-15vmess25
-  - vmess26
-  - 🇺🇸_US_美国vmess27
-  - vmess28
-  - vmess29
-  - YouTube梦歌|Netflix_98vmess30
-  - 🇺🇸_US_美国vmess31
-  - vmess32
-  - YouTube梦歌|Netflix_61vmess33
-  - vmess34
-  - vmess35
-  - TR Familyvmess36
-  - vmess37
-  - vmess38
-  - 🇳🇱_NL_荷兰vmess39
-  - 🇺🇸_US_美国vmess40
-  - SSHKit 3vmess41
-  - 🇺🇸_US_美国vmess42
-  - vmess43
-  - YouTube梦歌|Netflix_119vmess44
-  - vmess45
-  - 🇺🇸_US_美国vmess46
-  - aoop-13vmess47
-  - 🇺🇸_US_美国vmess48
-  - 🇺🇸_US_美国vmess49
-  - YouTube梦歌|Netflix_89vmess50
-  - 🇺🇸_US_美国vmess51
-  - 🇫🇷_FR_法国vmess52
-  - YouTube梦歌|Netflix_108vmess53
-  - vmess54
-  - Private-116vmess55
-  - YouTube梦歌|Netflix_107vmess56
-  - YouTube梦歌|Netflix_103vmess57
-  - 🇺🇸_US_美国vmess58
-  - aoop-14vmess59
-  - PRIVATE-DIGITALvmess60
-  - aoop-4vmess61
-  - YouTube梦歌|Netflix_78vmess62
-  - vmess63
-  - YouTube梦歌|Netflix_13vmess64
-  - vmess65
-  - 103.174.115.163普通线路vmess66
-  - 印尼v2-11.21到期-续费420vmess67
-  - vmess68
-  - vmess69
-  - 🇺🇸_US_美国vmess70
-  - YouTube梦歌|Netflix_101vmess71
+  - vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国(yudou66.com 玉豆免费节点)vmess28
+  - Private-116vmess29
+  - vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 欧洲(yudou66.com 玉豆免费节点)vmess32
+  - aoop-14vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇺🇸_US_美国vmess35
+  - 美国(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess38
+  - vmess39
+  - 美国(yudou66.com 玉豆免费节点)vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - United States [US 53] @ResistalProxyvmess44
+  - 🇺🇸_US_美国vmess45
+  - 美国(yudou66.com 玉豆免费节点)vmess46
+  - Japan [JP 55] @ResistalProxyvmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - 印度(yudou66.com 玉豆免费节点)vmess49
+  - 美国(yudou66.com 玉豆免费节点)vmess50
+  - 美国(yudou66.com 玉豆免费节点)vmess51
+  - 🇨🇦_CA_加拿大vmess52
+  - 美国(yudou66.com 玉豆免费节点)vmess53
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 德国(yudou66.com 玉豆免费节点)vmess55
+  - 加拿大(yudou66.com 玉豆免费节点)vmess56
+  - Germany [DE 23] @ResistalProxyvmess57
+  - 韩国(yudou66.com+玉豆免费节点)trojan1
+  - 欧洲(油管trojan2
   - 🇸🇬_SG_新加坡ss1
 - name: 🎯 负载均衡
   type: load-balance
@@ -1115,77 +931,65 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - vmess1
-  - vmess2
-  - 🇺🇸_US_美国vmess3
-  - 🇺🇸_US_美国vmess4
-  - aoop-12vmess5
-  - vmess6
-  - 🇺🇸_US_美国vmess7
-  - vmess8
-  - vmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess1
+  - 韩国(yudou66.com 玉豆免费节点)vmess2
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess3
+  - United States [US 52] @ResistalProxyvmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - vmess7
+  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 美国(yudou66.com 玉豆免费节点)vmess9
   - vmess10
-  - aoop-12vmess11
-  - vmess12
-  - aoop-13vmess13
-  - 🇺🇸_US_美国vmess14
-  - 🇺🇸_US_美国vmess15
+  - 尼日利亚(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 欧洲(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - vmess15
   - vmess16
-  - vmess17
-  - YouTube梦歌|Netflix_96vmess18
-  - vmess19
-  - 🇺🇸_US_美国vmess20
+  - YouTube梦歌|Netflix_119vmess17
+  - PRIVATE-DIGITALvmess18
+  - 美国(yudou66.com 玉豆免费节点)vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
   - vmess21
   - vmess22
-  - vmess23
+  - aoop-15vmess23
   - vmess24
-  - aoop-15vmess25
-  - vmess26
-  - 🇺🇸_US_美国vmess27
-  - vmess28
-  - vmess29
-  - YouTube梦歌|Netflix_98vmess30
-  - 🇺🇸_US_美国vmess31
-  - vmess32
-  - YouTube梦歌|Netflix_61vmess33
-  - vmess34
-  - vmess35
-  - TR Familyvmess36
-  - vmess37
-  - vmess38
-  - 🇳🇱_NL_荷兰vmess39
-  - 🇺🇸_US_美国vmess40
-  - SSHKit 3vmess41
-  - 🇺🇸_US_美国vmess42
-  - vmess43
-  - YouTube梦歌|Netflix_119vmess44
-  - vmess45
-  - 🇺🇸_US_美国vmess46
-  - aoop-13vmess47
-  - 🇺🇸_US_美国vmess48
-  - 🇺🇸_US_美国vmess49
-  - YouTube梦歌|Netflix_89vmess50
-  - 🇺🇸_US_美国vmess51
-  - 🇫🇷_FR_法国vmess52
-  - YouTube梦歌|Netflix_108vmess53
-  - vmess54
-  - Private-116vmess55
-  - YouTube梦歌|Netflix_107vmess56
-  - YouTube梦歌|Netflix_103vmess57
-  - 🇺🇸_US_美国vmess58
-  - aoop-14vmess59
-  - PRIVATE-DIGITALvmess60
-  - aoop-4vmess61
-  - YouTube梦歌|Netflix_78vmess62
-  - vmess63
-  - YouTube梦歌|Netflix_13vmess64
-  - vmess65
-  - 103.174.115.163普通线路vmess66
-  - 印尼v2-11.21到期-续费420vmess67
-  - vmess68
-  - vmess69
-  - 🇺🇸_US_美国vmess70
-  - YouTube梦歌|Netflix_101vmess71
+  - vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国(yudou66.com 玉豆免费节点)vmess28
+  - Private-116vmess29
+  - vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 欧洲(yudou66.com 玉豆免费节点)vmess32
+  - aoop-14vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇺🇸_US_美国vmess35
+  - 美国(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess38
+  - vmess39
+  - 美国(yudou66.com 玉豆免费节点)vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - United States [US 53] @ResistalProxyvmess44
+  - 🇺🇸_US_美国vmess45
+  - 美国(yudou66.com 玉豆免费节点)vmess46
+  - Japan [JP 55] @ResistalProxyvmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - 印度(yudou66.com 玉豆免费节点)vmess49
+  - 美国(yudou66.com 玉豆免费节点)vmess50
+  - 美国(yudou66.com 玉豆免费节点)vmess51
+  - 🇨🇦_CA_加拿大vmess52
+  - 美国(yudou66.com 玉豆免费节点)vmess53
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 德国(yudou66.com 玉豆免费节点)vmess55
+  - 加拿大(yudou66.com 玉豆免费节点)vmess56
+  - Germany [DE 23] @ResistalProxyvmess57
+  - 韩国(yudou66.com+玉豆免费节点)trojan1
+  - 欧洲(油管trojan2
   - 🇸🇬_SG_新加坡ss1
 - name: 🎯 全球直连
   type: select
@@ -1198,154 +1002,130 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - vmess1
-  - vmess2
-  - 🇺🇸_US_美国vmess3
-  - 🇺🇸_US_美国vmess4
-  - aoop-12vmess5
-  - vmess6
-  - 🇺🇸_US_美国vmess7
-  - vmess8
-  - vmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess1
+  - 韩国(yudou66.com 玉豆免费节点)vmess2
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess3
+  - United States [US 52] @ResistalProxyvmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - vmess7
+  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 美国(yudou66.com 玉豆免费节点)vmess9
   - vmess10
-  - aoop-12vmess11
-  - vmess12
-  - aoop-13vmess13
-  - 🇺🇸_US_美国vmess14
-  - 🇺🇸_US_美国vmess15
+  - 尼日利亚(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 欧洲(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - vmess15
   - vmess16
-  - vmess17
-  - YouTube梦歌|Netflix_96vmess18
-  - vmess19
-  - 🇺🇸_US_美国vmess20
+  - YouTube梦歌|Netflix_119vmess17
+  - PRIVATE-DIGITALvmess18
+  - 美国(yudou66.com 玉豆免费节点)vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
   - vmess21
   - vmess22
-  - vmess23
+  - aoop-15vmess23
   - vmess24
-  - aoop-15vmess25
-  - vmess26
-  - 🇺🇸_US_美国vmess27
-  - vmess28
-  - vmess29
-  - YouTube梦歌|Netflix_98vmess30
-  - 🇺🇸_US_美国vmess31
-  - vmess32
-  - YouTube梦歌|Netflix_61vmess33
-  - vmess34
-  - vmess35
-  - TR Familyvmess36
-  - vmess37
-  - vmess38
-  - 🇳🇱_NL_荷兰vmess39
-  - 🇺🇸_US_美国vmess40
-  - SSHKit 3vmess41
-  - 🇺🇸_US_美国vmess42
-  - vmess43
-  - YouTube梦歌|Netflix_119vmess44
-  - vmess45
-  - 🇺🇸_US_美国vmess46
-  - aoop-13vmess47
-  - 🇺🇸_US_美国vmess48
-  - 🇺🇸_US_美国vmess49
-  - YouTube梦歌|Netflix_89vmess50
-  - 🇺🇸_US_美国vmess51
-  - 🇫🇷_FR_法国vmess52
-  - YouTube梦歌|Netflix_108vmess53
-  - vmess54
-  - Private-116vmess55
-  - YouTube梦歌|Netflix_107vmess56
-  - YouTube梦歌|Netflix_103vmess57
-  - 🇺🇸_US_美国vmess58
-  - aoop-14vmess59
-  - PRIVATE-DIGITALvmess60
-  - aoop-4vmess61
-  - YouTube梦歌|Netflix_78vmess62
-  - vmess63
-  - YouTube梦歌|Netflix_13vmess64
-  - vmess65
-  - 103.174.115.163普通线路vmess66
-  - 印尼v2-11.21到期-续费420vmess67
-  - vmess68
-  - vmess69
-  - 🇺🇸_US_美国vmess70
-  - YouTube梦歌|Netflix_101vmess71
+  - vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国(yudou66.com 玉豆免费节点)vmess28
+  - Private-116vmess29
+  - vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 欧洲(yudou66.com 玉豆免费节点)vmess32
+  - aoop-14vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇺🇸_US_美国vmess35
+  - 美国(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess38
+  - vmess39
+  - 美国(yudou66.com 玉豆免费节点)vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - United States [US 53] @ResistalProxyvmess44
+  - 🇺🇸_US_美国vmess45
+  - 美国(yudou66.com 玉豆免费节点)vmess46
+  - Japan [JP 55] @ResistalProxyvmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - 印度(yudou66.com 玉豆免费节点)vmess49
+  - 美国(yudou66.com 玉豆免费节点)vmess50
+  - 美国(yudou66.com 玉豆免费节点)vmess51
+  - 🇨🇦_CA_加拿大vmess52
+  - 美国(yudou66.com 玉豆免费节点)vmess53
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 德国(yudou66.com 玉豆免费节点)vmess55
+  - 加拿大(yudou66.com 玉豆免费节点)vmess56
+  - Germany [DE 23] @ResistalProxyvmess57
+  - 韩国(yudou66.com+玉豆免费节点)trojan1
+  - 欧洲(油管trojan2
   - 🇸🇬_SG_新加坡ss1
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - vmess1
-  - vmess2
-  - 🇺🇸_US_美国vmess3
-  - 🇺🇸_US_美国vmess4
-  - aoop-12vmess5
-  - vmess6
-  - 🇺🇸_US_美国vmess7
-  - vmess8
-  - vmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess1
+  - 韩国(yudou66.com 玉豆免费节点)vmess2
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess3
+  - United States [US 52] @ResistalProxyvmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - vmess7
+  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 美国(yudou66.com 玉豆免费节点)vmess9
   - vmess10
-  - aoop-12vmess11
-  - vmess12
-  - aoop-13vmess13
-  - 🇺🇸_US_美国vmess14
-  - 🇺🇸_US_美国vmess15
+  - 尼日利亚(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 欧洲(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - vmess15
   - vmess16
-  - vmess17
-  - YouTube梦歌|Netflix_96vmess18
-  - vmess19
-  - 🇺🇸_US_美国vmess20
+  - YouTube梦歌|Netflix_119vmess17
+  - PRIVATE-DIGITALvmess18
+  - 美国(yudou66.com 玉豆免费节点)vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
   - vmess21
   - vmess22
-  - vmess23
+  - aoop-15vmess23
   - vmess24
-  - aoop-15vmess25
-  - vmess26
-  - 🇺🇸_US_美国vmess27
-  - vmess28
-  - vmess29
-  - YouTube梦歌|Netflix_98vmess30
-  - 🇺🇸_US_美国vmess31
-  - vmess32
-  - YouTube梦歌|Netflix_61vmess33
-  - vmess34
-  - vmess35
-  - TR Familyvmess36
-  - vmess37
-  - vmess38
-  - 🇳🇱_NL_荷兰vmess39
-  - 🇺🇸_US_美国vmess40
-  - SSHKit 3vmess41
-  - 🇺🇸_US_美国vmess42
-  - vmess43
-  - YouTube梦歌|Netflix_119vmess44
-  - vmess45
-  - 🇺🇸_US_美国vmess46
-  - aoop-13vmess47
-  - 🇺🇸_US_美国vmess48
-  - 🇺🇸_US_美国vmess49
-  - YouTube梦歌|Netflix_89vmess50
-  - 🇺🇸_US_美国vmess51
-  - 🇫🇷_FR_法国vmess52
-  - YouTube梦歌|Netflix_108vmess53
-  - vmess54
-  - Private-116vmess55
-  - YouTube梦歌|Netflix_107vmess56
-  - YouTube梦歌|Netflix_103vmess57
-  - 🇺🇸_US_美国vmess58
-  - aoop-14vmess59
-  - PRIVATE-DIGITALvmess60
-  - aoop-4vmess61
-  - YouTube梦歌|Netflix_78vmess62
-  - vmess63
-  - YouTube梦歌|Netflix_13vmess64
-  - vmess65
-  - 103.174.115.163普通线路vmess66
-  - 印尼v2-11.21到期-续费420vmess67
-  - vmess68
-  - vmess69
-  - 🇺🇸_US_美国vmess70
-  - YouTube梦歌|Netflix_101vmess71
+  - vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国(yudou66.com 玉豆免费节点)vmess28
+  - Private-116vmess29
+  - vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 欧洲(yudou66.com 玉豆免费节点)vmess32
+  - aoop-14vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇺🇸_US_美国vmess35
+  - 美国(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess38
+  - vmess39
+  - 美国(yudou66.com 玉豆免费节点)vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - United States [US 53] @ResistalProxyvmess44
+  - 🇺🇸_US_美国vmess45
+  - 美国(yudou66.com 玉豆免费节点)vmess46
+  - Japan [JP 55] @ResistalProxyvmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - 印度(yudou66.com 玉豆免费节点)vmess49
+  - 美国(yudou66.com 玉豆免费节点)vmess50
+  - 美国(yudou66.com 玉豆免费节点)vmess51
+  - 🇨🇦_CA_加拿大vmess52
+  - 美国(yudou66.com 玉豆免费节点)vmess53
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 德国(yudou66.com 玉豆免费节点)vmess55
+  - 加拿大(yudou66.com 玉豆免费节点)vmess56
+  - Germany [DE 23] @ResistalProxyvmess57
+  - 韩国(yudou66.com+玉豆免费节点)trojan1
+  - 欧洲(油管trojan2
   - 🇸🇬_SG_新加坡ss1
 - name: 🐟 漏网之鱼
   type: select
@@ -1353,77 +1133,65 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - vmess1
-  - vmess2
-  - 🇺🇸_US_美国vmess3
-  - 🇺🇸_US_美国vmess4
-  - aoop-12vmess5
-  - vmess6
-  - 🇺🇸_US_美国vmess7
-  - vmess8
-  - vmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess1
+  - 韩国(yudou66.com 玉豆免费节点)vmess2
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess3
+  - United States [US 52] @ResistalProxyvmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - vmess7
+  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 美国(yudou66.com 玉豆免费节点)vmess9
   - vmess10
-  - aoop-12vmess11
-  - vmess12
-  - aoop-13vmess13
-  - 🇺🇸_US_美国vmess14
-  - 🇺🇸_US_美国vmess15
+  - 尼日利亚(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 欧洲(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - vmess15
   - vmess16
-  - vmess17
-  - YouTube梦歌|Netflix_96vmess18
-  - vmess19
-  - 🇺🇸_US_美国vmess20
+  - YouTube梦歌|Netflix_119vmess17
+  - PRIVATE-DIGITALvmess18
+  - 美国(yudou66.com 玉豆免费节点)vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
   - vmess21
   - vmess22
-  - vmess23
+  - aoop-15vmess23
   - vmess24
-  - aoop-15vmess25
-  - vmess26
-  - 🇺🇸_US_美国vmess27
-  - vmess28
-  - vmess29
-  - YouTube梦歌|Netflix_98vmess30
-  - 🇺🇸_US_美国vmess31
-  - vmess32
-  - YouTube梦歌|Netflix_61vmess33
-  - vmess34
-  - vmess35
-  - TR Familyvmess36
-  - vmess37
-  - vmess38
-  - 🇳🇱_NL_荷兰vmess39
-  - 🇺🇸_US_美国vmess40
-  - SSHKit 3vmess41
-  - 🇺🇸_US_美国vmess42
-  - vmess43
-  - YouTube梦歌|Netflix_119vmess44
-  - vmess45
-  - 🇺🇸_US_美国vmess46
-  - aoop-13vmess47
-  - 🇺🇸_US_美国vmess48
-  - 🇺🇸_US_美国vmess49
-  - YouTube梦歌|Netflix_89vmess50
-  - 🇺🇸_US_美国vmess51
-  - 🇫🇷_FR_法国vmess52
-  - YouTube梦歌|Netflix_108vmess53
-  - vmess54
-  - Private-116vmess55
-  - YouTube梦歌|Netflix_107vmess56
-  - YouTube梦歌|Netflix_103vmess57
-  - 🇺🇸_US_美国vmess58
-  - aoop-14vmess59
-  - PRIVATE-DIGITALvmess60
-  - aoop-4vmess61
-  - YouTube梦歌|Netflix_78vmess62
-  - vmess63
-  - YouTube梦歌|Netflix_13vmess64
-  - vmess65
-  - 103.174.115.163普通线路vmess66
-  - 印尼v2-11.21到期-续费420vmess67
-  - vmess68
-  - vmess69
-  - 🇺🇸_US_美国vmess70
-  - YouTube梦歌|Netflix_101vmess71
+  - vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国(yudou66.com 玉豆免费节点)vmess28
+  - Private-116vmess29
+  - vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 欧洲(yudou66.com 玉豆免费节点)vmess32
+  - aoop-14vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇺🇸_US_美国vmess35
+  - 美国(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess38
+  - vmess39
+  - 美国(yudou66.com 玉豆免费节点)vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - United States [US 53] @ResistalProxyvmess44
+  - 🇺🇸_US_美国vmess45
+  - 美国(yudou66.com 玉豆免费节点)vmess46
+  - Japan [JP 55] @ResistalProxyvmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - 印度(yudou66.com 玉豆免费节点)vmess49
+  - 美国(yudou66.com 玉豆免费节点)vmess50
+  - 美国(yudou66.com 玉豆免费节点)vmess51
+  - 🇨🇦_CA_加拿大vmess52
+  - 美国(yudou66.com 玉豆免费节点)vmess53
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 德国(yudou66.com 玉豆免费节点)vmess55
+  - 加拿大(yudou66.com 玉豆免费节点)vmess56
+  - Germany [DE 23] @ResistalProxyvmess57
+  - 韩国(yudou66.com+玉豆免费节点)trojan1
+  - 欧洲(油管trojan2
   - 🇸🇬_SG_新加坡ss1
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
