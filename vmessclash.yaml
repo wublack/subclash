@@ -26,22 +26,287 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 🇺🇸 美国1
-  server: 38.72img.xyz
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
+- type: vmess
+  name: 不定时更新订阅，更多节点关注YouTube阿伟科技1
+  ws-opts:
+    path: /path/120306182525
+    headers:
+      host: 119.36.161.40
+  server: 119.36.161.40
+  port: '443'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '0'
   cipher: auto
-  tls: true
-  skip-cert-verify: false
   network: ws
+  tls: true
+- type: vmess
+  name: 导入订阅链接，手动开启自动更新1H2
+  ws-opts:
+    path: /path/120306182525
+    headers:
+      host: 119.36.161.40
+  server: 119.36.161.40
+  port: '443'
+  uuid: 946ba5df-5771-4873-a3cb-892378526147
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 免费节点搭配网盘里的节点使用3
   ws-opts:
     path: /
     headers:
-      Host: 38.72img.xyz
-- name: 🇺🇸 美国 22
-  server: 141.101.115.120
+      host: 46.72img.xyz
+  server: 46.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: JCBB_新加坡01【vip1】_油管阿伟科技14
+  ws-opts:
+    path: /
+    headers:
+      host: cu.kapoknode.com
+  server: cu.kapoknode.com
+  port: '25895'
+  uuid: 2390c3be-c515-422d-987a-3931a23dea26
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: '[Vip1]日本07[1.0|联通]_油管阿伟科技25'
+  ws-opts:
+    path: /fly
+    headers:
+      host: fly3.fastestcloud.xyz
+  server: fly3.fastestcloud.xyz
+  port: '30006'
+  uuid: 8bfc4233-9e8e-4fb2-baf8-f92606671f81
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 隧道|NF|新加坡05_油管阿伟科技36
+  server: cjl-moble.gatknqh.cn
+  port: '40113'
+  uuid: 1a5c6c56-ae49-34b0-979c-ba57278e06fb
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: '[Vip1]日本01[1.0|移动|流媒体解锁]_油管阿伟科技47'
+  ws-opts:
+    path: /fly
+    headers:
+      host: fly2.fastestcloud.xyz
+  server: fly2.fastestcloud.xyz
+  port: '30005'
+  uuid: 1cca52ab-2a4c-4dd2-9067-774cc431871e
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: JCBB_香港07【vip1】_油管阿伟科技58
+  ws-opts:
+    path: /
+    headers:
+      host: cm.kapoknode.com
+  server: cm.kapoknode.com
+  port: '25896'
+  uuid: 39c11bfd-4bde-4e7d-8566-79e962003c8a
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: trojan
+  name: 香港|05奈飞HGC海港电信隧道_油管阿伟科技69
+  server: 124.225.24.191
+  port: 10377
+  password: af552776-0194-434a-b267-44b383a8a22c
+  udp: true
+  skip-cert-verify: true
+  sni: hkmax05.170203.xyz
+- type: vmess
+  name: 🚇[联通]日本·F1|04_油管阿伟科技710
+  ws-opts:
+    path: /aceamedv
+    headers:
+      host: sh02.fastcloud.club
+  server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: '30045'
+  uuid: 2f5bb639-7dc6-4e3b-8dd8-110238392513
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 🚇[联通]香港·F1|01_油管阿伟科技811
+  ws-opts:
+    path: /aceamedv
+    headers:
+      host: gz.fastcloud.club
+  server: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: '30015'
+  uuid: 2f5bb639-7dc6-4e3b-8dd8-110238392513
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: trojan
+  name: 🚇+[+联通+]+韩国+·+E1+|+02_油管阿伟科技912
+  server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: 30057
+  password: 2f5bb639-7dc6-4e3b-8dd8-110238392513
+  udp: true
+  skip-cert-verify: true
+  sni: v1kr02.fuqiangren.com
+- type: trojan
+  name: 🚇+[+v1+]+菲律宾+|+01_油管阿伟科技1013
+  server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: 30053
+  password: 2f5bb639-7dc6-4e3b-8dd8-110238392513
+  udp: true
+  skip-cert-verify: true
+  sni: v2phl01.fuqiangren.com
+- type: trojan
+  name: 📺️+[+v1+]+台湾原生+|+02_油管阿伟科技1114
+  server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: 30003
+  password: 2f5bb639-7dc6-4e3b-8dd8-110238392513
+  udp: true
+  skip-cert-verify: true
+  sni: v2tw01.fuqiangren.com
+- type: vmess
+  name: 香港C_油管阿伟科技1215
+  server: 43.198.73.232
+  port: '43632'
+  uuid: 5185c19d-bdc1-4e78-997a-721f5a9096eb
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 韩国Ｂ_油管阿伟科技1316
+  server: 43.201.29.120
+  port: '43632'
+  uuid: 5185c19d-bdc1-4e78-997a-721f5a9096eb
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 🇭🇰香港|103|杭港|1x_油管阿伟科技1417
+  server: relay-us.bfstec.com
+  port: '31002'
+  uuid: 0bb9733a-6a16-323c-9644-92ae89884956
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 🇭🇰香港|105|海港|1x_油管阿伟科技1518
+  server: relay-hk2.bfstec.com
+  port: '44275'
+  uuid: 0bb9733a-6a16-323c-9644-92ae89884956
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 🇭🇰香港|102|海港|1.5x_油管阿伟科技1619
+  server: relay-hk2.bfstec.com
+  port: '59083'
+  uuid: 0bb9733a-6a16-323c-9644-92ae89884956
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 🇺🇲美国|103|美区解锁|1x_油管阿伟科技1720
+  server: relay-us.bfstec.com
+  port: '25119'
+  uuid: 0bb9733a-6a16-323c-9644-92ae89884956
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 🇹🇼台湾|101|台湾解锁|1x_油管阿伟科技1821
+  server: relay-tw1.bfstec.com
+  port: '60783'
+  uuid: 0bb9733a-6a16-323c-9644-92ae89884956
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 🇺🇲美国|101|流媒体优化|1x_油管阿伟科技1922
+  server: relay-us2.bfstec.com
+  port: '51959'
+  uuid: 0bb9733a-6a16-323c-9644-92ae89884956
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 🇯🇵日本|102|流媒体优化|1x_油管阿伟科技2023
+  server: relay-jp.bfstec.com
+  port: '27152'
+  uuid: 0bb9733a-6a16-323c-9644-92ae89884956
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 🇨🇳韩国|101|江苏BGP|1x_油管阿伟科技2124
+  server: relay-sg.bfstec.com
+  port: '52791'
+  uuid: 0bb9733a-6a16-323c-9644-92ae89884956
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 🇭🇰香港|106|深港IPLC|1x_油管阿伟科技2225
+  server: relay-hk3.bfstec.com
+  port: '32123'
+  uuid: 0bb9733a-6a16-323c-9644-92ae89884956
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: trojan
+  name: 🇨🇳+Taiwan+01_油管阿伟科技2326
+  server: 11.api.infininode.tk
+  port: 443
+  password: ecab284c-1d1d-49a9-b0a3-6740c648864e
+  udp: true
+  skip-cert-verify: true
+  sni: inf-tw1.qchwnd.moe
+- type: trojan
+  name: 🇯🇵+Japan+01_油管阿伟科技2427
+  server: 17.api.infininode.tk
+  port: 443
+  password: ecab284c-1d1d-49a9-b0a3-6740c648864e
+  udp: true
+  skip-cert-verify: true
+  sni: inf-jp1.qchwnd.moe
+- type: trojan
+  name: 🇯🇵+Japan+02_油管阿伟科技2528
+  server: 20.api.infininode.tk
+  port: 443
+  password: ecab284c-1d1d-49a9-b0a3-6740c648864e
+  udp: true
+  skip-cert-verify: true
+  sni: inf-jp2.qchwnd.moe
+- type: trojan
+  name: 🇺🇸+United+States+01_油管阿伟科技2629
+  server: 33.api.infininode.tk
+  port: 443
+  password: ecab284c-1d1d-49a9-b0a3-6740c648864e
+  udp: true
+  skip-cert-verify: true
+  sni: inf-us1.qchwnd.moe
+- type: trojan
+  name: 🇺🇸+United+States+02_油管阿伟科技2730
+  server: 36.api.infininode.tk
+  port: 443
+  password: ecab284c-1d1d-49a9-b0a3-6740c648864e
+  udp: true
+  skip-cert-verify: true
+  sni: inf-us2.qchwnd.moe
+- name: 🇯🇵 日本(nodefree.org)31
+  server: 47.91.23.182
   port: 443
   type: vmess
   uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
@@ -54,7 +319,49 @@ proxies:
     path: /ray
     headers:
       Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国 33
+- name: 亚洲(nodefree.org)32
+  server: 146.56.162.25
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇰🇷 韩国(nodefree.org)33
+  server: 146.56.166.153
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org)34
+  server: 198.41.203.3
+  port: 443
+  type: vmess
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg1.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 235
   server: 141.101.115.100
   port: 443
   type: vmess
@@ -68,137 +375,11 @@ proxies:
     path: /VHONOFZ3
     headers:
       Host: lg1.cfcdn2.xyz
-- name: 🇺🇸 美国 44
-  server: 141.101.114.150
+- name: 🇺🇸 美国(nodefree.org) 336
+  server: 141.101.115.136
   port: 443
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇺🇸 美国 55
-  server: 198.41.212.150
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇪🇺 欧洲6
-  server: 141.101.114.120
-  port: 443
-  type: vmess
-  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg1.cfcdn3.xyz
-- name: 🇯🇵 _JP_日本7
-  server: 29.72img.xyz
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 29.72img.xyz
-- name: 🇺🇸 美国 68
-  server: king6.workingoogle.ga
-  port: 8880
-  type: vmess
-  uuid: 050624ec-ba6a-49c3-e8d9-c46e5c167be0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /fh454hg4fthfh
-    headers:
-      Host: king6.workingoogle.ga
-- name: 🇺🇸 美国 79
-  server: 26.72img.xyz
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 26.72img.xyz
-- name: 🇪🇺 欧洲 210
-  server: 141.101.115.20
-  port: 443
-  type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash1.trump2023.net
-- name: 🇱🇺 卢森堡11
-  server: ip.skk.moe
-  port: 2086
-  type: vmess
-  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: buyvm.cloudflare.quest
-- name: 🇺🇸 美国 812
-  server: 141.101.114.17
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇺🇸 美国 913
-  server: 141.101.115.121
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
   alterId: 0
   cipher: auto
   tls: true
@@ -207,9 +388,9 @@ proxies:
   ws-opts:
     path: /ray
     headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国 1014
-  server: 172.64.153.155
+      Host: lg1.cfcdn1.xyz
+- name: 🇫🇷 法国(nodefree.org)37
+  server: 172.64.154.102
   port: 443
   type: vmess
   uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
@@ -222,7 +403,7 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: clash6.ssr-free.xyz
-- name: 🇺🇸 美国 1115
+- name: 🇺🇸 美国(nodefree.org) 438
   server: 141.101.114.100
   port: 443
   type: vmess
@@ -236,59 +417,11 @@ proxies:
     path: /VHONOFZ3
     headers:
       Host: lg1.cfcdn2.xyz
-- name: 🇪🇺 欧洲 316
-  server: 6.72img.xyz
+- name: 🇺🇸 美国(nodefree.org) 539
+  server: 141.101.115.120
   port: 443
   type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 6.72img.xyz
-- name: 🇫🇷 FR法国17
-  server: 51.75.70.34
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国 1218
-  server: 103.186.0.188
-  port: 4364
-  type: ss
-  cipher: aes-128-gcm
-  password: doub.io
-- name: 🇺🇸 美国 1319
-  server: 128.14.140.254
-  port: 443
-  type: vmess
-  uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /123
-    headers:
-      Host: zz1.wblogw1.tk
-- name: 🇺🇸 美国 1420
-  server: 128.14.140.254
-  port: 443
-  type: vmess
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
   alterId: 0
   cipher: auto
   tls: true
@@ -297,61 +430,12 @@ proxies:
   ws-opts:
     path: /dongtaiwang.com
     headers:
-      Host: v2ray2.ssr-free2.xyz
-- name: 🇺🇸 美国 1521
-  server: 139.99.236.163
+      Host: lg1.cfcdn3.xyz
+- name: 🇪🇺 欧洲(nodefree.org)40
+  server: 141.101.114.20
   port: 443
   type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国 1622
-  server: 138.2.122.225
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇭🇰 香港23
-  server: tgunivstar.219.76.13.175.sslip.io
-  port: 443
-  type: trojan
-  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
-  sni: httah.freetrade.link
-  skip-cert-verify: false
-- name: 🇰🇷 韩国24
-  server: 146.56.166.153
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxuk.fovi.tk
-- name: 🇺🇸 美国 1725
-  server: 172.64.152.150
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
   alterId: 0
   cipher: auto
   tls: true
@@ -360,40 +444,12 @@ proxies:
   ws-opts:
     path: /dongtaiwang.com
     headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇺🇸 美国 1826
-  server: 57.128.45.161
-  port: 80
-  type: vmess
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /user
-    headers:
-      Host: 57.128.45.161
-- name: 🇯🇵 日本27
-  server: vjp3.0bad.com
+      Host: clash1.trump2023.net
+- name: 🇪🇺 欧洲(nodefree.org) 241
+  server: 172.64.148.111
   port: 443
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /chat
-    headers:
-      Host: vjp3.0bad.com
-- name: 🇺🇸 美国 1928
-  server: 138.2.122.225
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
   alterId: 0
   cipher: auto
   tls: true
@@ -402,14 +458,8 @@ proxies:
   ws-opts:
     path: /ray
     headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国 2029
-  server: tj2.dalazhi.cyou
-  port: 443
-  type: trojan
-  password: 8f70fde3-a04c-4f6a-b705-aef7406f6ac1
-  skip-cert-verify: false
-- name: 🇺🇸 美国 20 230
+      Host: fr2.cfcdn4.xyz
+- name: 🇪🇺 欧洲(nodefree.org) 342
   server: 198.41.203.2
   port: 443
   type: vmess
@@ -423,42 +473,644 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: clash1.trump2023.net
-- name: 🇭🇰 香港 231
-  server: 219.76.13.181
+- name: 🇺🇸 美国(nodefree.org) 643
+  server: 198.41.212.122
+  port: 443
+  type: vmess
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: fr2.cfcdn4.xyz
+- name: 🇺🇸 美国(nodefree.org) 744
+  server: 104.29.64.25
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 845
+  server: 172.64.154.201
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 946
+  server: 198.41.203.1
+  port: 443
+  type: vmess
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /VHONOFZ3
+    headers:
+      Host: lg1.cfcdn2.xyz
+- name: 🇺🇸 美国(nodefree.org) 1047
+  server: 141.101.115.20
+  port: 443
+  type: vmess
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash1.trump2023.net
+- name: 🇩🇪 _DE_德国48
+  server: 172.64.154.222
+  port: 443
+  type: vmess
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg1.cfcdn1.xyz
+- name: 🇺🇸 美国(nodefree.org) 1149
+  server: 141.101.115.121
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 1250
+  server: 141.101.114.133
+  port: 443
+  type: vmess
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg1.cfcdn1.xyz
+- name: 🇺🇸 美国(nodefree.org) 1351
+  server: 198.41.212.122
+  port: 443
+  type: vmess
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg1.cfcdn1.xyz
+- name: 🇺🇸 美国(nodefree.org) 1452
+  server: 141.101.114.17
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 🇺🇸 美国(nodefree.org) 1553
+  server: 141.101.115.160
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 🇪🇺 欧洲(nodefree.org) 454
+  server: 141.101.114.120
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 1655
+  server: www.gov.hk
+  port: 2086
+  type: vmess
+  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: linus.cloudflare.quest
+- name: 🇪🇺 欧洲(nodefree.org) 556
+  server: 141.101.114.120
+  port: 443
+  type: vmess
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg1.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 1757
+  server: 141.101.114.111
+  port: 443
+  type: vmess
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: fr2.cfcdn4.xyz
+- name: 🇺🇸 美国(nodefree.org) 1858
+  server: 1.1808.cf
+  port: 443
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: v2.chigua.tk
+- name: 🇺🇸 美国(nodefree.org) 1959
+  server: 198.41.203.4
+  port: 443
+  type: vmess
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg1.cfcdn1.xyz
+- name: 🇺🇸 美国(nodefree.org) 2060
+  server: 54.72img.xyz
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 54.72img.xyz
+- name: 🇨🇳 台湾(nodefree.org)61
+  server: tw.qii9.com
+  port: 25100
+  type: vmess
+  uuid: b780f933-17b7-42b4-ac86-73ac1f4e54f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /jcnf
+    headers:
+      Host: tw.qii9.com
+- name: 🇺🇸 美国(nodefree.org) 2162
+  server: 51.75.70.34
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 2263
+  server: cn2.us.xlkjjs.top
+  port: 17861
+  type: vmess
+  uuid: 0a6b7226-2f9c-393c-bc94-5a34859250c0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cn2.us.xlkjjs.top
+- name: 🇺🇸 美国(nodefree.org) 2364
+  server: 141.101.114.121
+  port: 443
+  type: vmess
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: fr2.cfcdn4.xyz
+- name: 🇪🇺 欧洲(nodefree.org) 665
+  server: 51.75.70.34
+  port: 443
+  type: vmess
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash1.trump2023.net
+- name: 🇫🇷 _FR_法国66
+  server: powerservice.com
+  port: 443
+  type: vmess
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: uk2.v2rayserv.com
+- name: 🇺🇸 美国(nodefree.org) 2467
+  server: 141.101.115.120
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 2568
+  server: 128.14.140.254
+  port: 443
+  type: vmess
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: v2ray2.ssr-free2.xyz
+- name: 🇺🇸 _US_美国69
+  server: 104.26.9.74
+  port: 443
+  type: vmess
+  uuid: f6c1babe-416e-47d1-8726-049678e25c7a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: us2.v2rayserv.com
+- name: 🇯🇵 日本(nodefree.org) 270
+  server: 8.209.214.184
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxuk.fovi.tk
+- name: 🇺🇸 美国(nodefree.org) 2671
+  server: 138.2.122.225
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇩🇪 _DE_德国 272
+  server: 66.212.20.3
+  port: 443
+  type: vmess
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: v2ray2.ssr-free2.xyz
+- name: 🇺🇸 美国(nodefree.org) 2773
+  server: 138.2.122.225
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇰🇷 韩国(nodefree.org) 274
+  server: 146.56.166.153
+  port: 443
+  type: vmess
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: v2ray2.ssr-free2.xyz
+- name: 🇰🇷 _KR_韩国75
+  server: 146.56.166.153
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxuk.fovi.tk
+- name: 🇺🇸 美国(nodefree.org) 2876
+  server: 1.1808.cf
+  port: 443
+  type: vmess
+  uuid: bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /bea4a9b4
+    headers:
+      Host: reduction-accomplish-entities-surname.trycloudflare.com
+- name: 🇱🇺 卢森堡(nodefree.org)77
+  server: ip.skk.moe
+  port: 2086
+  type: vmess
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: buyvm.cloudflare.quest
+- name: 🇺🇸 美国(nodefree.org) 2978
+  server: 141.101.114.100
+  port: 443
+  type: vmess
+  uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: v2ray1.zhujicn2.org
+- name: 🇺🇸 美国(nodefree.org) 3079
+  server: cdn.chigua.tk
+  port: 443
+  type: vmess
+  uuid: bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /bea4a9b4
+    headers:
+      Host: reduction-accomplish-entities-surname.trycloudflare.com
+- name: 🇭🇰 香港(nodefree.org)80
+  server: 119.247.119.212
   port: 443
   type: trojan
-  password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
-  sni: arbettp.freetrade.link
+  password: 123456
+  sni: trojan-ctb-sg01.globalssh.xyz
   skip-cert-verify: false
-- name: 🇺🇸 美国 2132
-  server: 51.81.220.195
-  port: 80
+- name: 🇺🇸 美国(nodefree.org) 3181
+  server: 128.14.140.254
+  port: 443
   type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /123
+    headers:
+      Host: zz1.wblogw1.tk
+- name: 🇺🇸 美国(nodefree.org) 3282
+  server: huclouds.ml
+  port: 5505
+  type: vmess
+  uuid: 69801534-3870-4d14-9d07-6f65da593da4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /sshkit/Variu88/634dab7abadf1/
+    path: /
     headers:
-      Host: 51.81.220.195
-- name: 🇺🇸 美国 2233
-  server: us-lb.sshkit.org
-  port: 80
+      Host: huclouds.ml
+- name: 🇺🇸 美国(nodefree.org) 3383
+  server: 1.1808.cf
+  port: 443
   type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: 2cc54dbd-d448-4cc0-b61c-1d1ba6317307
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /2cc54dbd
+    headers:
+      Host: earth-identity-devel-pubmed.trycloudflare.com
+- name: 🇭🇰 香港(nodefree.org) 284
+  server: 167.179.32.53
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 3485
+  server: Shopify.com
+  port: 2086
+  type: vmess
+  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /sshkit/Variu88/634dab7abadf1/
+    path: /aries
     headers:
-      Host: us-lb.sshkit.org
-- name: 🇭🇰 香港2|tg频道:@ripaojiedian34
+      Host: scw.cloudflare.quest
+- name: 🇺🇸 美国(nodefree.org) 3586
+  server: 1.1808.cf
+  port: 443
+  type: vmess
+  uuid: 72f8cfcb-dcbc-4ba9-b621-05e48ee7d588
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /72f8cfcb
+    headers:
+      Host: treasurer-bonds-bm-punk.trycloudflare.com
+- name: 🇺🇸 美国(nodefree.org) 3687
+  server: 198.244.148.214
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇺🇸 美国(nodefree.org) 3788
+  server: 152.228.191.232
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇭🇰 香港2|tg频道:@ripaojiedian89
   server: hk.mayiyun.shop
   port: 80
   type: vmess
@@ -472,21 +1124,21 @@ proxies:
     path: /ll
     headers:
       Host: a.189.cn
-- name: 🇭🇰 香港1|tg频道:@ripaojiedian35
+- name: 🇭🇰 香港1|tg频道:@ripaojiedian90
   server: hk1.sexoo.xyz
   port: 60667
   type: trojan
   password: 473def74-c926-4007-81a4-e692a051c9ab
   sni: hk1.sexoo.xyz
   skip-cert-verify: false
-- name: 🇯🇵 日本高速|永久免费36
+- name: 🇯🇵 日本高速|永久免费91
   server: jp3.elknode.top
   port: 10000
   type: trojan
   password: 1eded6fc-8b28-33df-a93f-6491de5f7a12
   sni: jp3.elknode.top
   skip-cert-verify: false
-- name: 🇸🇬 狮城SSR|tg频道:@ripaojiedian37
+- name: 🇸🇬 狮城SSR|tg频道:@ripaojiedian92
   server: 120.240.102.6
   port: 64502
   type: ssr
@@ -496,35 +1148,35 @@ proxies:
   obfs: plain
   protocol-param: 25249:rV8wN2
   obfs-param: 25249bb315.download.windowsupdate.com
-- name: 🇰🇷 首尔|tg频道:@ripaojiedian38
+- name: 🇰🇷 首尔|tg频道:@ripaojiedian93
   server: kr3.sexoo.xyz
   port: 60666
   type: trojan
   password: 473def74-c926-4007-81a4-e692a051c9ab
   sni: kr3.sexoo.xyz
   skip-cert-verify: false
-- name: 🇯🇵 日本JP|tg频道:@ripaojiedian39
+- name: 🇯🇵 日本JP|tg频道:@ripaojiedian94
   server: 45.64.22.55
   port: 443
   type: trojan
   password: ZEIR0qFZau9jOp7x6e8e4y3AaXwS2SzD3llxTyRYKCF8DCD3c5Y3pgNnaSOBAC
   sni: tensely.freetrade.link
   skip-cert-verify: false
-- name: 🇸🇬 狮城1|tg频道:@ripaojiedian40
+- name: 🇸🇬 狮城1|tg频道:@ripaojiedian95
   server: 45.64.22.55
   port: 443
   type: trojan
   password: TaSXwOxORaZ7pD8DlzCE3yNFS5C38eeCuDng03FcA4BSpjK96YaZRIAlx2yqY3
   sni: mhkla.freetrade.link
   skip-cert-verify: false
-- name: 🇸🇬 狮城SG|tg频道:@ripaojiedian41
+- name: 🇸🇬 狮城SG|tg频道:@ripaojiedian96
   server: 45.64.22.55
   port: 443
   type: trojan
   password: TaSXwOxORaZ7pD8DlzCE3yNFS5C38eeCuDng03FcA4BSpjK96YaZRIAlx2yqY3
   sni: mhkla.freetrade.link
   skip-cert-verify: false
-- name: 🇨🇳 台湾|tg频道:@ripaojiedian42
+- name: 🇨🇳 台湾|tg频道:@ripaojiedian97
   server: a-ct1.jsmmm.cyou
   port: 39222
   type: vmess
@@ -533,21 +1185,21 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇯🇵 日本1|tg频道:@ripaojiedian43
+- name: 🇯🇵 日本1|tg频道:@ripaojiedian98
   server: 45.64.22.55
   port: 443
   type: trojan
   password: Ty33ylFA4u6A5e0NE3wRFp3DIa8lZOzC87CeKnxYgpSOSa2ZaXBjDDSY9qCcxR
   sni: flowery.meijireform.com
   skip-cert-verify: false
-- name: 🇸🇬 新加坡高速|欢迎分享44
+- name: 🇸🇬 新加坡高速|欢迎分享99
   server: sg1.elknode.top
   port: 443
   type: trojan
   password: 1eded6fc-8b28-33df-a93f-6491de5f7a12
   sni: sg1.elknode.top
   skip-cert-verify: false
-- name: 🇯🇵 日本2|tg频道:@ripaojiedian45
+- name: 🇯🇵 日本2|tg频道:@ripaojiedian100
   server: myjp.brucean.cn
   port: 443
   type: vmess
@@ -561,7 +1213,7 @@ proxies:
     path: /
     headers:
       Host: myjp.brucean.cn
-- name: 🇺🇸 美国2|tg频道:@ripaojiedian46
+- name: 🇺🇸 美国2|tg频道:@ripaojiedian101
   server: 51.81.220.195
   port: 80
   type: vmess
@@ -575,7 +1227,7 @@ proxies:
     path: /sshkit/Variu88/634dab7abadf1/
     headers:
       Host: 51.81.220.195
-- name: 🇺🇸 美国1|tg频道:@ripaojiedian47
+- name: 🇺🇸 美国1|tg频道:@ripaojiedian102
   server: jm.jshsxxxy.top
   port: 443
   type: vmess
@@ -589,7 +1241,7 @@ proxies:
     path: /MokonaModokiMkv2Rentry
     headers:
       Host: jm.jshsxxxy.top
-- name: 🇨🇳 台湾1|tg频道:@ripaojiedian48
+- name: 🇨🇳 台湾1|tg频道:@ripaojiedian103
   server: 104.27.29.251
   port: 80
   type: vmess
@@ -603,7 +1255,7 @@ proxies:
     path: /
     headers:
       Host: tw.girsun.workers.dev
-- name: 🇸🇬 新加坡|tg频道:@ripaojiedian49
+- name: 🇸🇬 新加坡|tg频道:@ripaojiedian104
   server: lll.277428.xyz
   port: 40836
   type: vmess
@@ -619,159 +1271,324 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 🇺🇸 美国1
-  - 🇺🇸 美国 22
-  - 🇺🇸 美国 33
-  - 🇺🇸 美国 44
-  - 🇺🇸 美国 55
-  - 🇪🇺 欧洲6
-  - 🇯🇵 _JP_日本7
-  - 🇺🇸 美国 68
-  - 🇺🇸 美国 79
-  - 🇪🇺 欧洲 210
-  - 🇱🇺 卢森堡11
-  - 🇺🇸 美国 812
-  - 🇺🇸 美国 913
-  - 🇺🇸 美国 1014
-  - 🇺🇸 美国 1115
-  - 🇪🇺 欧洲 316
-  - 🇫🇷 FR法国17
-  - 🇺🇸 美国 1218
-  - 🇺🇸 美国 1319
-  - 🇺🇸 美国 1420
-  - 🇺🇸 美国 1521
-  - 🇺🇸 美国 1622
-  - 🇭🇰 香港23
-  - 🇰🇷 韩国24
-  - 🇺🇸 美国 1725
-  - 🇺🇸 美国 1826
-  - 🇯🇵 日本27
-  - 🇺🇸 美国 1928
-  - 🇺🇸 美国 2029
-  - 🇺🇸 美国 20 230
-  - 🇭🇰 香港 231
-  - 🇺🇸 美国 2132
-  - 🇺🇸 美国 2233
-  - 🇭🇰 香港2|tg频道:@ripaojiedian34
-  - 🇭🇰 香港1|tg频道:@ripaojiedian35
-  - 🇯🇵 日本高速|永久免费36
-  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian37
-  - 🇰🇷 首尔|tg频道:@ripaojiedian38
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian39
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian40
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian41
-  - 🇨🇳 台湾|tg频道:@ripaojiedian42
-  - 🇯🇵 日本1|tg频道:@ripaojiedian43
-  - 🇸🇬 新加坡高速|欢迎分享44
-  - 🇯🇵 日本2|tg频道:@ripaojiedian45
-  - 🇺🇸 美国2|tg频道:@ripaojiedian46
-  - 🇺🇸 美国1|tg频道:@ripaojiedian47
-  - 🇨🇳 台湾1|tg频道:@ripaojiedian48
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian49
+  - 不定时更新订阅，更多节点关注YouTube阿伟科技1
+  - 导入订阅链接，手动开启自动更新1H2
+  - 免费节点搭配网盘里的节点使用3
+  - JCBB_新加坡01【vip1】_油管阿伟科技14
+  - '[Vip1]日本07[1.0|联通]_油管阿伟科技25'
+  - 隧道|NF|新加坡05_油管阿伟科技36
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]_油管阿伟科技47'
+  - JCBB_香港07【vip1】_油管阿伟科技58
+  - 香港|05奈飞HGC海港电信隧道_油管阿伟科技69
+  - 🚇[联通]日本·F1|04_油管阿伟科技710
+  - 🚇[联通]香港·F1|01_油管阿伟科技811
+  - 🚇+[+联通+]+韩国+·+E1+|+02_油管阿伟科技912
+  - 🚇+[+v1+]+菲律宾+|+01_油管阿伟科技1013
+  - 📺️+[+v1+]+台湾原生+|+02_油管阿伟科技1114
+  - 香港C_油管阿伟科技1215
+  - 韩国Ｂ_油管阿伟科技1316
+  - 🇭🇰香港|103|杭港|1x_油管阿伟科技1417
+  - 🇭🇰香港|105|海港|1x_油管阿伟科技1518
+  - 🇭🇰香港|102|海港|1.5x_油管阿伟科技1619
+  - 🇺🇲美国|103|美区解锁|1x_油管阿伟科技1720
+  - 🇹🇼台湾|101|台湾解锁|1x_油管阿伟科技1821
+  - 🇺🇲美国|101|流媒体优化|1x_油管阿伟科技1922
+  - 🇯🇵日本|102|流媒体优化|1x_油管阿伟科技2023
+  - 🇨🇳韩国|101|江苏BGP|1x_油管阿伟科技2124
+  - 🇭🇰香港|106|深港IPLC|1x_油管阿伟科技2225
+  - 🇨🇳+Taiwan+01_油管阿伟科技2326
+  - 🇯🇵+Japan+01_油管阿伟科技2427
+  - 🇯🇵+Japan+02_油管阿伟科技2528
+  - 🇺🇸+United+States+01_油管阿伟科技2629
+  - 🇺🇸+United+States+02_油管阿伟科技2730
+  - 🇯🇵 日本(nodefree.org)31
+  - 亚洲(nodefree.org)32
+  - 🇰🇷 韩国(nodefree.org)33
+  - 🇺🇸 美国(nodefree.org)34
+  - 🇺🇸 美国(nodefree.org) 235
+  - 🇺🇸 美国(nodefree.org) 336
+  - 🇫🇷 法国(nodefree.org)37
+  - 🇺🇸 美国(nodefree.org) 438
+  - 🇺🇸 美国(nodefree.org) 539
+  - 🇪🇺 欧洲(nodefree.org)40
+  - 🇪🇺 欧洲(nodefree.org) 241
+  - 🇪🇺 欧洲(nodefree.org) 342
+  - 🇺🇸 美国(nodefree.org) 643
+  - 🇺🇸 美国(nodefree.org) 744
+  - 🇺🇸 美国(nodefree.org) 845
+  - 🇺🇸 美国(nodefree.org) 946
+  - 🇺🇸 美国(nodefree.org) 1047
+  - 🇩🇪 _DE_德国48
+  - 🇺🇸 美国(nodefree.org) 1149
+  - 🇺🇸 美国(nodefree.org) 1250
+  - 🇺🇸 美国(nodefree.org) 1351
+  - 🇺🇸 美国(nodefree.org) 1452
+  - 🇺🇸 美国(nodefree.org) 1553
+  - 🇪🇺 欧洲(nodefree.org) 454
+  - 🇺🇸 美国(nodefree.org) 1655
+  - 🇪🇺 欧洲(nodefree.org) 556
+  - 🇺🇸 美国(nodefree.org) 1757
+  - 🇺🇸 美国(nodefree.org) 1858
+  - 🇺🇸 美国(nodefree.org) 1959
+  - 🇺🇸 美国(nodefree.org) 2060
+  - 🇨🇳 台湾(nodefree.org)61
+  - 🇺🇸 美国(nodefree.org) 2162
+  - 🇺🇸 美国(nodefree.org) 2263
+  - 🇺🇸 美国(nodefree.org) 2364
+  - 🇪🇺 欧洲(nodefree.org) 665
+  - 🇫🇷 _FR_法国66
+  - 🇺🇸 美国(nodefree.org) 2467
+  - 🇺🇸 美国(nodefree.org) 2568
+  - 🇺🇸 _US_美国69
+  - 🇯🇵 日本(nodefree.org) 270
+  - 🇺🇸 美国(nodefree.org) 2671
+  - 🇩🇪 _DE_德国 272
+  - 🇺🇸 美国(nodefree.org) 2773
+  - 🇰🇷 韩国(nodefree.org) 274
+  - 🇰🇷 _KR_韩国75
+  - 🇺🇸 美国(nodefree.org) 2876
+  - 🇱🇺 卢森堡(nodefree.org)77
+  - 🇺🇸 美国(nodefree.org) 2978
+  - 🇺🇸 美国(nodefree.org) 3079
+  - 🇭🇰 香港(nodefree.org)80
+  - 🇺🇸 美国(nodefree.org) 3181
+  - 🇺🇸 美国(nodefree.org) 3282
+  - 🇺🇸 美国(nodefree.org) 3383
+  - 🇭🇰 香港(nodefree.org) 284
+  - 🇺🇸 美国(nodefree.org) 3485
+  - 🇺🇸 美国(nodefree.org) 3586
+  - 🇺🇸 美国(nodefree.org) 3687
+  - 🇺🇸 美国(nodefree.org) 3788
+  - 🇭🇰 香港2|tg频道:@ripaojiedian89
+  - 🇭🇰 香港1|tg频道:@ripaojiedian90
+  - 🇯🇵 日本高速|永久免费91
+  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian92
+  - 🇰🇷 首尔|tg频道:@ripaojiedian93
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian94
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian95
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian96
+  - 🇨🇳 台湾|tg频道:@ripaojiedian97
+  - 🇯🇵 日本1|tg频道:@ripaojiedian98
+  - 🇸🇬 新加坡高速|欢迎分享99
+  - 🇯🇵 日本2|tg频道:@ripaojiedian100
+  - 🇺🇸 美国2|tg频道:@ripaojiedian101
+  - 🇺🇸 美国1|tg频道:@ripaojiedian102
+  - 🇨🇳 台湾1|tg频道:@ripaojiedian103
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian104
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 🇺🇸 美国1
-  - 🇺🇸 美国 22
-  - 🇺🇸 美国 33
-  - 🇺🇸 美国 44
-  - 🇺🇸 美国 55
-  - 🇪🇺 欧洲6
-  - 🇯🇵 _JP_日本7
-  - 🇺🇸 美国 68
-  - 🇺🇸 美国 79
-  - 🇪🇺 欧洲 210
-  - 🇱🇺 卢森堡11
-  - 🇺🇸 美国 812
-  - 🇺🇸 美国 913
-  - 🇺🇸 美国 1014
-  - 🇺🇸 美国 1115
-  - 🇪🇺 欧洲 316
-  - 🇫🇷 FR法国17
-  - 🇺🇸 美国 1218
-  - 🇺🇸 美国 1319
-  - 🇺🇸 美国 1420
-  - 🇺🇸 美国 1521
-  - 🇺🇸 美国 1622
-  - 🇭🇰 香港23
-  - 🇰🇷 韩国24
-  - 🇺🇸 美国 1725
-  - 🇺🇸 美国 1826
-  - 🇯🇵 日本27
-  - 🇺🇸 美国 1928
-  - 🇺🇸 美国 2029
-  - 🇺🇸 美国 20 230
-  - 🇭🇰 香港 231
-  - 🇺🇸 美国 2132
-  - 🇺🇸 美国 2233
-  - 🇭🇰 香港2|tg频道:@ripaojiedian34
-  - 🇭🇰 香港1|tg频道:@ripaojiedian35
-  - 🇯🇵 日本高速|永久免费36
-  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian37
-  - 🇰🇷 首尔|tg频道:@ripaojiedian38
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian39
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian40
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian41
-  - 🇨🇳 台湾|tg频道:@ripaojiedian42
-  - 🇯🇵 日本1|tg频道:@ripaojiedian43
-  - 🇸🇬 新加坡高速|欢迎分享44
-  - 🇯🇵 日本2|tg频道:@ripaojiedian45
-  - 🇺🇸 美国2|tg频道:@ripaojiedian46
-  - 🇺🇸 美国1|tg频道:@ripaojiedian47
-  - 🇨🇳 台湾1|tg频道:@ripaojiedian48
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian49
-  - 🇺🇸 美国1
-  - 🇺🇸 美国 22
-  - 🇺🇸 美国 33
-  - 🇺🇸 美国 44
-  - 🇺🇸 美国 55
-  - 🇪🇺 欧洲6
-  - 🇯🇵 _JP_日本7
-  - 🇺🇸 美国 68
-  - 🇺🇸 美国 79
-  - 🇪🇺 欧洲 210
-  - 🇱🇺 卢森堡11
-  - 🇺🇸 美国 812
-  - 🇺🇸 美国 913
-  - 🇺🇸 美国 1014
-  - 🇺🇸 美国 1115
-  - 🇪🇺 欧洲 316
-  - 🇫🇷 FR法国17
-  - 🇺🇸 美国 1218
-  - 🇺🇸 美国 1319
-  - 🇺🇸 美国 1420
-  - 🇺🇸 美国 1521
-  - 🇺🇸 美国 1622
-  - 🇭🇰 香港23
-  - 🇰🇷 韩国24
-  - 🇺🇸 美国 1725
-  - 🇺🇸 美国 1826
-  - 🇯🇵 日本27
-  - 🇺🇸 美国 1928
-  - 🇺🇸 美国 2029
-  - 🇺🇸 美国 20 230
-  - 🇭🇰 香港 231
-  - 🇺🇸 美国 2132
-  - 🇺🇸 美国 2233
-  - 🇭🇰 香港2|tg频道:@ripaojiedian34
-  - 🇭🇰 香港1|tg频道:@ripaojiedian35
-  - 🇯🇵 日本高速|永久免费36
-  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian37
-  - 🇰🇷 首尔|tg频道:@ripaojiedian38
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian39
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian40
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian41
-  - 🇨🇳 台湾|tg频道:@ripaojiedian42
-  - 🇯🇵 日本1|tg频道:@ripaojiedian43
-  - 🇸🇬 新加坡高速|欢迎分享44
-  - 🇯🇵 日本2|tg频道:@ripaojiedian45
-  - 🇺🇸 美国2|tg频道:@ripaojiedian46
-  - 🇺🇸 美国1|tg频道:@ripaojiedian47
-  - 🇨🇳 台湾1|tg频道:@ripaojiedian48
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian49
+  - 不定时更新订阅，更多节点关注YouTube阿伟科技1
+  - 导入订阅链接，手动开启自动更新1H2
+  - 免费节点搭配网盘里的节点使用3
+  - JCBB_新加坡01【vip1】_油管阿伟科技14
+  - '[Vip1]日本07[1.0|联通]_油管阿伟科技25'
+  - 隧道|NF|新加坡05_油管阿伟科技36
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]_油管阿伟科技47'
+  - JCBB_香港07【vip1】_油管阿伟科技58
+  - 香港|05奈飞HGC海港电信隧道_油管阿伟科技69
+  - 🚇[联通]日本·F1|04_油管阿伟科技710
+  - 🚇[联通]香港·F1|01_油管阿伟科技811
+  - 🚇+[+联通+]+韩国+·+E1+|+02_油管阿伟科技912
+  - 🚇+[+v1+]+菲律宾+|+01_油管阿伟科技1013
+  - 📺️+[+v1+]+台湾原生+|+02_油管阿伟科技1114
+  - 香港C_油管阿伟科技1215
+  - 韩国Ｂ_油管阿伟科技1316
+  - 🇭🇰香港|103|杭港|1x_油管阿伟科技1417
+  - 🇭🇰香港|105|海港|1x_油管阿伟科技1518
+  - 🇭🇰香港|102|海港|1.5x_油管阿伟科技1619
+  - 🇺🇲美国|103|美区解锁|1x_油管阿伟科技1720
+  - 🇹🇼台湾|101|台湾解锁|1x_油管阿伟科技1821
+  - 🇺🇲美国|101|流媒体优化|1x_油管阿伟科技1922
+  - 🇯🇵日本|102|流媒体优化|1x_油管阿伟科技2023
+  - 🇨🇳韩国|101|江苏BGP|1x_油管阿伟科技2124
+  - 🇭🇰香港|106|深港IPLC|1x_油管阿伟科技2225
+  - 🇨🇳+Taiwan+01_油管阿伟科技2326
+  - 🇯🇵+Japan+01_油管阿伟科技2427
+  - 🇯🇵+Japan+02_油管阿伟科技2528
+  - 🇺🇸+United+States+01_油管阿伟科技2629
+  - 🇺🇸+United+States+02_油管阿伟科技2730
+  - 🇯🇵 日本(nodefree.org)31
+  - 亚洲(nodefree.org)32
+  - 🇰🇷 韩国(nodefree.org)33
+  - 🇺🇸 美国(nodefree.org)34
+  - 🇺🇸 美国(nodefree.org) 235
+  - 🇺🇸 美国(nodefree.org) 336
+  - 🇫🇷 法国(nodefree.org)37
+  - 🇺🇸 美国(nodefree.org) 438
+  - 🇺🇸 美国(nodefree.org) 539
+  - 🇪🇺 欧洲(nodefree.org)40
+  - 🇪🇺 欧洲(nodefree.org) 241
+  - 🇪🇺 欧洲(nodefree.org) 342
+  - 🇺🇸 美国(nodefree.org) 643
+  - 🇺🇸 美国(nodefree.org) 744
+  - 🇺🇸 美国(nodefree.org) 845
+  - 🇺🇸 美国(nodefree.org) 946
+  - 🇺🇸 美国(nodefree.org) 1047
+  - 🇩🇪 _DE_德国48
+  - 🇺🇸 美国(nodefree.org) 1149
+  - 🇺🇸 美国(nodefree.org) 1250
+  - 🇺🇸 美国(nodefree.org) 1351
+  - 🇺🇸 美国(nodefree.org) 1452
+  - 🇺🇸 美国(nodefree.org) 1553
+  - 🇪🇺 欧洲(nodefree.org) 454
+  - 🇺🇸 美国(nodefree.org) 1655
+  - 🇪🇺 欧洲(nodefree.org) 556
+  - 🇺🇸 美国(nodefree.org) 1757
+  - 🇺🇸 美国(nodefree.org) 1858
+  - 🇺🇸 美国(nodefree.org) 1959
+  - 🇺🇸 美国(nodefree.org) 2060
+  - 🇨🇳 台湾(nodefree.org)61
+  - 🇺🇸 美国(nodefree.org) 2162
+  - 🇺🇸 美国(nodefree.org) 2263
+  - 🇺🇸 美国(nodefree.org) 2364
+  - 🇪🇺 欧洲(nodefree.org) 665
+  - 🇫🇷 _FR_法国66
+  - 🇺🇸 美国(nodefree.org) 2467
+  - 🇺🇸 美国(nodefree.org) 2568
+  - 🇺🇸 _US_美国69
+  - 🇯🇵 日本(nodefree.org) 270
+  - 🇺🇸 美国(nodefree.org) 2671
+  - 🇩🇪 _DE_德国 272
+  - 🇺🇸 美国(nodefree.org) 2773
+  - 🇰🇷 韩国(nodefree.org) 274
+  - 🇰🇷 _KR_韩国75
+  - 🇺🇸 美国(nodefree.org) 2876
+  - 🇱🇺 卢森堡(nodefree.org)77
+  - 🇺🇸 美国(nodefree.org) 2978
+  - 🇺🇸 美国(nodefree.org) 3079
+  - 🇭🇰 香港(nodefree.org)80
+  - 🇺🇸 美国(nodefree.org) 3181
+  - 🇺🇸 美国(nodefree.org) 3282
+  - 🇺🇸 美国(nodefree.org) 3383
+  - 🇭🇰 香港(nodefree.org) 284
+  - 🇺🇸 美国(nodefree.org) 3485
+  - 🇺🇸 美国(nodefree.org) 3586
+  - 🇺🇸 美国(nodefree.org) 3687
+  - 🇺🇸 美国(nodefree.org) 3788
+  - 🇭🇰 香港2|tg频道:@ripaojiedian89
+  - 🇭🇰 香港1|tg频道:@ripaojiedian90
+  - 🇯🇵 日本高速|永久免费91
+  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian92
+  - 🇰🇷 首尔|tg频道:@ripaojiedian93
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian94
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian95
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian96
+  - 🇨🇳 台湾|tg频道:@ripaojiedian97
+  - 🇯🇵 日本1|tg频道:@ripaojiedian98
+  - 🇸🇬 新加坡高速|欢迎分享99
+  - 🇯🇵 日本2|tg频道:@ripaojiedian100
+  - 🇺🇸 美国2|tg频道:@ripaojiedian101
+  - 🇺🇸 美国1|tg频道:@ripaojiedian102
+  - 🇨🇳 台湾1|tg频道:@ripaojiedian103
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian104
+  - 不定时更新订阅，更多节点关注YouTube阿伟科技1
+  - 导入订阅链接，手动开启自动更新1H2
+  - 免费节点搭配网盘里的节点使用3
+  - JCBB_新加坡01【vip1】_油管阿伟科技14
+  - '[Vip1]日本07[1.0|联通]_油管阿伟科技25'
+  - 隧道|NF|新加坡05_油管阿伟科技36
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]_油管阿伟科技47'
+  - JCBB_香港07【vip1】_油管阿伟科技58
+  - 香港|05奈飞HGC海港电信隧道_油管阿伟科技69
+  - 🚇[联通]日本·F1|04_油管阿伟科技710
+  - 🚇[联通]香港·F1|01_油管阿伟科技811
+  - 🚇+[+联通+]+韩国+·+E1+|+02_油管阿伟科技912
+  - 🚇+[+v1+]+菲律宾+|+01_油管阿伟科技1013
+  - 📺️+[+v1+]+台湾原生+|+02_油管阿伟科技1114
+  - 香港C_油管阿伟科技1215
+  - 韩国Ｂ_油管阿伟科技1316
+  - 🇭🇰香港|103|杭港|1x_油管阿伟科技1417
+  - 🇭🇰香港|105|海港|1x_油管阿伟科技1518
+  - 🇭🇰香港|102|海港|1.5x_油管阿伟科技1619
+  - 🇺🇲美国|103|美区解锁|1x_油管阿伟科技1720
+  - 🇹🇼台湾|101|台湾解锁|1x_油管阿伟科技1821
+  - 🇺🇲美国|101|流媒体优化|1x_油管阿伟科技1922
+  - 🇯🇵日本|102|流媒体优化|1x_油管阿伟科技2023
+  - 🇨🇳韩国|101|江苏BGP|1x_油管阿伟科技2124
+  - 🇭🇰香港|106|深港IPLC|1x_油管阿伟科技2225
+  - 🇨🇳+Taiwan+01_油管阿伟科技2326
+  - 🇯🇵+Japan+01_油管阿伟科技2427
+  - 🇯🇵+Japan+02_油管阿伟科技2528
+  - 🇺🇸+United+States+01_油管阿伟科技2629
+  - 🇺🇸+United+States+02_油管阿伟科技2730
+  - 🇯🇵 日本(nodefree.org)31
+  - 亚洲(nodefree.org)32
+  - 🇰🇷 韩国(nodefree.org)33
+  - 🇺🇸 美国(nodefree.org)34
+  - 🇺🇸 美国(nodefree.org) 235
+  - 🇺🇸 美国(nodefree.org) 336
+  - 🇫🇷 法国(nodefree.org)37
+  - 🇺🇸 美国(nodefree.org) 438
+  - 🇺🇸 美国(nodefree.org) 539
+  - 🇪🇺 欧洲(nodefree.org)40
+  - 🇪🇺 欧洲(nodefree.org) 241
+  - 🇪🇺 欧洲(nodefree.org) 342
+  - 🇺🇸 美国(nodefree.org) 643
+  - 🇺🇸 美国(nodefree.org) 744
+  - 🇺🇸 美国(nodefree.org) 845
+  - 🇺🇸 美国(nodefree.org) 946
+  - 🇺🇸 美国(nodefree.org) 1047
+  - 🇩🇪 _DE_德国48
+  - 🇺🇸 美国(nodefree.org) 1149
+  - 🇺🇸 美国(nodefree.org) 1250
+  - 🇺🇸 美国(nodefree.org) 1351
+  - 🇺🇸 美国(nodefree.org) 1452
+  - 🇺🇸 美国(nodefree.org) 1553
+  - 🇪🇺 欧洲(nodefree.org) 454
+  - 🇺🇸 美国(nodefree.org) 1655
+  - 🇪🇺 欧洲(nodefree.org) 556
+  - 🇺🇸 美国(nodefree.org) 1757
+  - 🇺🇸 美国(nodefree.org) 1858
+  - 🇺🇸 美国(nodefree.org) 1959
+  - 🇺🇸 美国(nodefree.org) 2060
+  - 🇨🇳 台湾(nodefree.org)61
+  - 🇺🇸 美国(nodefree.org) 2162
+  - 🇺🇸 美国(nodefree.org) 2263
+  - 🇺🇸 美国(nodefree.org) 2364
+  - 🇪🇺 欧洲(nodefree.org) 665
+  - 🇫🇷 _FR_法国66
+  - 🇺🇸 美国(nodefree.org) 2467
+  - 🇺🇸 美国(nodefree.org) 2568
+  - 🇺🇸 _US_美国69
+  - 🇯🇵 日本(nodefree.org) 270
+  - 🇺🇸 美国(nodefree.org) 2671
+  - 🇩🇪 _DE_德国 272
+  - 🇺🇸 美国(nodefree.org) 2773
+  - 🇰🇷 韩国(nodefree.org) 274
+  - 🇰🇷 _KR_韩国75
+  - 🇺🇸 美国(nodefree.org) 2876
+  - 🇱🇺 卢森堡(nodefree.org)77
+  - 🇺🇸 美国(nodefree.org) 2978
+  - 🇺🇸 美国(nodefree.org) 3079
+  - 🇭🇰 香港(nodefree.org)80
+  - 🇺🇸 美国(nodefree.org) 3181
+  - 🇺🇸 美国(nodefree.org) 3282
+  - 🇺🇸 美国(nodefree.org) 3383
+  - 🇭🇰 香港(nodefree.org) 284
+  - 🇺🇸 美国(nodefree.org) 3485
+  - 🇺🇸 美国(nodefree.org) 3586
+  - 🇺🇸 美国(nodefree.org) 3687
+  - 🇺🇸 美国(nodefree.org) 3788
+  - 🇭🇰 香港2|tg频道:@ripaojiedian89
+  - 🇭🇰 香港1|tg频道:@ripaojiedian90
+  - 🇯🇵 日本高速|永久免费91
+  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian92
+  - 🇰🇷 首尔|tg频道:@ripaojiedian93
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian94
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian95
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian96
+  - 🇨🇳 台湾|tg频道:@ripaojiedian97
+  - 🇯🇵 日本1|tg频道:@ripaojiedian98
+  - 🇸🇬 新加坡高速|欢迎分享99
+  - 🇯🇵 日本2|tg频道:@ripaojiedian100
+  - 🇺🇸 美国2|tg频道:@ripaojiedian101
+  - 🇺🇸 美国1|tg频道:@ripaojiedian102
+  - 🇨🇳 台湾1|tg频道:@ripaojiedian103
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian104
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -784,273 +1601,548 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 美国1
-  - 🇺🇸 美国 22
-  - 🇺🇸 美国 33
-  - 🇺🇸 美国 44
-  - 🇺🇸 美国 55
-  - 🇪🇺 欧洲6
-  - 🇯🇵 _JP_日本7
-  - 🇺🇸 美国 68
-  - 🇺🇸 美国 79
-  - 🇪🇺 欧洲 210
-  - 🇱🇺 卢森堡11
-  - 🇺🇸 美国 812
-  - 🇺🇸 美国 913
-  - 🇺🇸 美国 1014
-  - 🇺🇸 美国 1115
-  - 🇪🇺 欧洲 316
-  - 🇫🇷 FR法国17
-  - 🇺🇸 美国 1218
-  - 🇺🇸 美国 1319
-  - 🇺🇸 美国 1420
-  - 🇺🇸 美国 1521
-  - 🇺🇸 美国 1622
-  - 🇭🇰 香港23
-  - 🇰🇷 韩国24
-  - 🇺🇸 美国 1725
-  - 🇺🇸 美国 1826
-  - 🇯🇵 日本27
-  - 🇺🇸 美国 1928
-  - 🇺🇸 美国 2029
-  - 🇺🇸 美国 20 230
-  - 🇭🇰 香港 231
-  - 🇺🇸 美国 2132
-  - 🇺🇸 美国 2233
-  - 🇭🇰 香港2|tg频道:@ripaojiedian34
-  - 🇭🇰 香港1|tg频道:@ripaojiedian35
-  - 🇯🇵 日本高速|永久免费36
-  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian37
-  - 🇰🇷 首尔|tg频道:@ripaojiedian38
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian39
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian40
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian41
-  - 🇨🇳 台湾|tg频道:@ripaojiedian42
-  - 🇯🇵 日本1|tg频道:@ripaojiedian43
-  - 🇸🇬 新加坡高速|欢迎分享44
-  - 🇯🇵 日本2|tg频道:@ripaojiedian45
-  - 🇺🇸 美国2|tg频道:@ripaojiedian46
-  - 🇺🇸 美国1|tg频道:@ripaojiedian47
-  - 🇨🇳 台湾1|tg频道:@ripaojiedian48
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian49
+  - 不定时更新订阅，更多节点关注YouTube阿伟科技1
+  - 导入订阅链接，手动开启自动更新1H2
+  - 免费节点搭配网盘里的节点使用3
+  - JCBB_新加坡01【vip1】_油管阿伟科技14
+  - '[Vip1]日本07[1.0|联通]_油管阿伟科技25'
+  - 隧道|NF|新加坡05_油管阿伟科技36
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]_油管阿伟科技47'
+  - JCBB_香港07【vip1】_油管阿伟科技58
+  - 香港|05奈飞HGC海港电信隧道_油管阿伟科技69
+  - 🚇[联通]日本·F1|04_油管阿伟科技710
+  - 🚇[联通]香港·F1|01_油管阿伟科技811
+  - 🚇+[+联通+]+韩国+·+E1+|+02_油管阿伟科技912
+  - 🚇+[+v1+]+菲律宾+|+01_油管阿伟科技1013
+  - 📺️+[+v1+]+台湾原生+|+02_油管阿伟科技1114
+  - 香港C_油管阿伟科技1215
+  - 韩国Ｂ_油管阿伟科技1316
+  - 🇭🇰香港|103|杭港|1x_油管阿伟科技1417
+  - 🇭🇰香港|105|海港|1x_油管阿伟科技1518
+  - 🇭🇰香港|102|海港|1.5x_油管阿伟科技1619
+  - 🇺🇲美国|103|美区解锁|1x_油管阿伟科技1720
+  - 🇹🇼台湾|101|台湾解锁|1x_油管阿伟科技1821
+  - 🇺🇲美国|101|流媒体优化|1x_油管阿伟科技1922
+  - 🇯🇵日本|102|流媒体优化|1x_油管阿伟科技2023
+  - 🇨🇳韩国|101|江苏BGP|1x_油管阿伟科技2124
+  - 🇭🇰香港|106|深港IPLC|1x_油管阿伟科技2225
+  - 🇨🇳+Taiwan+01_油管阿伟科技2326
+  - 🇯🇵+Japan+01_油管阿伟科技2427
+  - 🇯🇵+Japan+02_油管阿伟科技2528
+  - 🇺🇸+United+States+01_油管阿伟科技2629
+  - 🇺🇸+United+States+02_油管阿伟科技2730
+  - 🇯🇵 日本(nodefree.org)31
+  - 亚洲(nodefree.org)32
+  - 🇰🇷 韩国(nodefree.org)33
+  - 🇺🇸 美国(nodefree.org)34
+  - 🇺🇸 美国(nodefree.org) 235
+  - 🇺🇸 美国(nodefree.org) 336
+  - 🇫🇷 法国(nodefree.org)37
+  - 🇺🇸 美国(nodefree.org) 438
+  - 🇺🇸 美国(nodefree.org) 539
+  - 🇪🇺 欧洲(nodefree.org)40
+  - 🇪🇺 欧洲(nodefree.org) 241
+  - 🇪🇺 欧洲(nodefree.org) 342
+  - 🇺🇸 美国(nodefree.org) 643
+  - 🇺🇸 美国(nodefree.org) 744
+  - 🇺🇸 美国(nodefree.org) 845
+  - 🇺🇸 美国(nodefree.org) 946
+  - 🇺🇸 美国(nodefree.org) 1047
+  - 🇩🇪 _DE_德国48
+  - 🇺🇸 美国(nodefree.org) 1149
+  - 🇺🇸 美国(nodefree.org) 1250
+  - 🇺🇸 美国(nodefree.org) 1351
+  - 🇺🇸 美国(nodefree.org) 1452
+  - 🇺🇸 美国(nodefree.org) 1553
+  - 🇪🇺 欧洲(nodefree.org) 454
+  - 🇺🇸 美国(nodefree.org) 1655
+  - 🇪🇺 欧洲(nodefree.org) 556
+  - 🇺🇸 美国(nodefree.org) 1757
+  - 🇺🇸 美国(nodefree.org) 1858
+  - 🇺🇸 美国(nodefree.org) 1959
+  - 🇺🇸 美国(nodefree.org) 2060
+  - 🇨🇳 台湾(nodefree.org)61
+  - 🇺🇸 美国(nodefree.org) 2162
+  - 🇺🇸 美国(nodefree.org) 2263
+  - 🇺🇸 美国(nodefree.org) 2364
+  - 🇪🇺 欧洲(nodefree.org) 665
+  - 🇫🇷 _FR_法国66
+  - 🇺🇸 美国(nodefree.org) 2467
+  - 🇺🇸 美国(nodefree.org) 2568
+  - 🇺🇸 _US_美国69
+  - 🇯🇵 日本(nodefree.org) 270
+  - 🇺🇸 美国(nodefree.org) 2671
+  - 🇩🇪 _DE_德国 272
+  - 🇺🇸 美国(nodefree.org) 2773
+  - 🇰🇷 韩国(nodefree.org) 274
+  - 🇰🇷 _KR_韩国75
+  - 🇺🇸 美国(nodefree.org) 2876
+  - 🇱🇺 卢森堡(nodefree.org)77
+  - 🇺🇸 美国(nodefree.org) 2978
+  - 🇺🇸 美国(nodefree.org) 3079
+  - 🇭🇰 香港(nodefree.org)80
+  - 🇺🇸 美国(nodefree.org) 3181
+  - 🇺🇸 美国(nodefree.org) 3282
+  - 🇺🇸 美国(nodefree.org) 3383
+  - 🇭🇰 香港(nodefree.org) 284
+  - 🇺🇸 美国(nodefree.org) 3485
+  - 🇺🇸 美国(nodefree.org) 3586
+  - 🇺🇸 美国(nodefree.org) 3687
+  - 🇺🇸 美国(nodefree.org) 3788
+  - 🇭🇰 香港2|tg频道:@ripaojiedian89
+  - 🇭🇰 香港1|tg频道:@ripaojiedian90
+  - 🇯🇵 日本高速|永久免费91
+  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian92
+  - 🇰🇷 首尔|tg频道:@ripaojiedian93
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian94
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian95
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian96
+  - 🇨🇳 台湾|tg频道:@ripaojiedian97
+  - 🇯🇵 日本1|tg频道:@ripaojiedian98
+  - 🇸🇬 新加坡高速|欢迎分享99
+  - 🇯🇵 日本2|tg频道:@ripaojiedian100
+  - 🇺🇸 美国2|tg频道:@ripaojiedian101
+  - 🇺🇸 美国1|tg频道:@ripaojiedian102
+  - 🇨🇳 台湾1|tg频道:@ripaojiedian103
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian104
 - name: 🎯 全球直连
   type: select
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
-  - 🇺🇸 美国1
-  - 🇺🇸 美国 22
-  - 🇺🇸 美国 33
-  - 🇺🇸 美国 44
-  - 🇺🇸 美国 55
-  - 🇪🇺 欧洲6
-  - 🇯🇵 _JP_日本7
-  - 🇺🇸 美国 68
-  - 🇺🇸 美国 79
-  - 🇪🇺 欧洲 210
-  - 🇱🇺 卢森堡11
-  - 🇺🇸 美国 812
-  - 🇺🇸 美国 913
-  - 🇺🇸 美国 1014
-  - 🇺🇸 美国 1115
-  - 🇪🇺 欧洲 316
-  - 🇫🇷 FR法国17
-  - 🇺🇸 美国 1218
-  - 🇺🇸 美国 1319
-  - 🇺🇸 美国 1420
-  - 🇺🇸 美国 1521
-  - 🇺🇸 美国 1622
-  - 🇭🇰 香港23
-  - 🇰🇷 韩国24
-  - 🇺🇸 美国 1725
-  - 🇺🇸 美国 1826
-  - 🇯🇵 日本27
-  - 🇺🇸 美国 1928
-  - 🇺🇸 美国 2029
-  - 🇺🇸 美国 20 230
-  - 🇭🇰 香港 231
-  - 🇺🇸 美国 2132
-  - 🇺🇸 美国 2233
-  - 🇭🇰 香港2|tg频道:@ripaojiedian34
-  - 🇭🇰 香港1|tg频道:@ripaojiedian35
-  - 🇯🇵 日本高速|永久免费36
-  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian37
-  - 🇰🇷 首尔|tg频道:@ripaojiedian38
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian39
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian40
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian41
-  - 🇨🇳 台湾|tg频道:@ripaojiedian42
-  - 🇯🇵 日本1|tg频道:@ripaojiedian43
-  - 🇸🇬 新加坡高速|欢迎分享44
-  - 🇯🇵 日本2|tg频道:@ripaojiedian45
-  - 🇺🇸 美国2|tg频道:@ripaojiedian46
-  - 🇺🇸 美国1|tg频道:@ripaojiedian47
-  - 🇨🇳 台湾1|tg频道:@ripaojiedian48
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian49
+  - 不定时更新订阅，更多节点关注YouTube阿伟科技1
+  - 导入订阅链接，手动开启自动更新1H2
+  - 免费节点搭配网盘里的节点使用3
+  - JCBB_新加坡01【vip1】_油管阿伟科技14
+  - '[Vip1]日本07[1.0|联通]_油管阿伟科技25'
+  - 隧道|NF|新加坡05_油管阿伟科技36
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]_油管阿伟科技47'
+  - JCBB_香港07【vip1】_油管阿伟科技58
+  - 香港|05奈飞HGC海港电信隧道_油管阿伟科技69
+  - 🚇[联通]日本·F1|04_油管阿伟科技710
+  - 🚇[联通]香港·F1|01_油管阿伟科技811
+  - 🚇+[+联通+]+韩国+·+E1+|+02_油管阿伟科技912
+  - 🚇+[+v1+]+菲律宾+|+01_油管阿伟科技1013
+  - 📺️+[+v1+]+台湾原生+|+02_油管阿伟科技1114
+  - 香港C_油管阿伟科技1215
+  - 韩国Ｂ_油管阿伟科技1316
+  - 🇭🇰香港|103|杭港|1x_油管阿伟科技1417
+  - 🇭🇰香港|105|海港|1x_油管阿伟科技1518
+  - 🇭🇰香港|102|海港|1.5x_油管阿伟科技1619
+  - 🇺🇲美国|103|美区解锁|1x_油管阿伟科技1720
+  - 🇹🇼台湾|101|台湾解锁|1x_油管阿伟科技1821
+  - 🇺🇲美国|101|流媒体优化|1x_油管阿伟科技1922
+  - 🇯🇵日本|102|流媒体优化|1x_油管阿伟科技2023
+  - 🇨🇳韩国|101|江苏BGP|1x_油管阿伟科技2124
+  - 🇭🇰香港|106|深港IPLC|1x_油管阿伟科技2225
+  - 🇨🇳+Taiwan+01_油管阿伟科技2326
+  - 🇯🇵+Japan+01_油管阿伟科技2427
+  - 🇯🇵+Japan+02_油管阿伟科技2528
+  - 🇺🇸+United+States+01_油管阿伟科技2629
+  - 🇺🇸+United+States+02_油管阿伟科技2730
+  - 🇯🇵 日本(nodefree.org)31
+  - 亚洲(nodefree.org)32
+  - 🇰🇷 韩国(nodefree.org)33
+  - 🇺🇸 美国(nodefree.org)34
+  - 🇺🇸 美国(nodefree.org) 235
+  - 🇺🇸 美国(nodefree.org) 336
+  - 🇫🇷 法国(nodefree.org)37
+  - 🇺🇸 美国(nodefree.org) 438
+  - 🇺🇸 美国(nodefree.org) 539
+  - 🇪🇺 欧洲(nodefree.org)40
+  - 🇪🇺 欧洲(nodefree.org) 241
+  - 🇪🇺 欧洲(nodefree.org) 342
+  - 🇺🇸 美国(nodefree.org) 643
+  - 🇺🇸 美国(nodefree.org) 744
+  - 🇺🇸 美国(nodefree.org) 845
+  - 🇺🇸 美国(nodefree.org) 946
+  - 🇺🇸 美国(nodefree.org) 1047
+  - 🇩🇪 _DE_德国48
+  - 🇺🇸 美国(nodefree.org) 1149
+  - 🇺🇸 美国(nodefree.org) 1250
+  - 🇺🇸 美国(nodefree.org) 1351
+  - 🇺🇸 美国(nodefree.org) 1452
+  - 🇺🇸 美国(nodefree.org) 1553
+  - 🇪🇺 欧洲(nodefree.org) 454
+  - 🇺🇸 美国(nodefree.org) 1655
+  - 🇪🇺 欧洲(nodefree.org) 556
+  - 🇺🇸 美国(nodefree.org) 1757
+  - 🇺🇸 美国(nodefree.org) 1858
+  - 🇺🇸 美国(nodefree.org) 1959
+  - 🇺🇸 美国(nodefree.org) 2060
+  - 🇨🇳 台湾(nodefree.org)61
+  - 🇺🇸 美国(nodefree.org) 2162
+  - 🇺🇸 美国(nodefree.org) 2263
+  - 🇺🇸 美国(nodefree.org) 2364
+  - 🇪🇺 欧洲(nodefree.org) 665
+  - 🇫🇷 _FR_法国66
+  - 🇺🇸 美国(nodefree.org) 2467
+  - 🇺🇸 美国(nodefree.org) 2568
+  - 🇺🇸 _US_美国69
+  - 🇯🇵 日本(nodefree.org) 270
+  - 🇺🇸 美国(nodefree.org) 2671
+  - 🇩🇪 _DE_德国 272
+  - 🇺🇸 美国(nodefree.org) 2773
+  - 🇰🇷 韩国(nodefree.org) 274
+  - 🇰🇷 _KR_韩国75
+  - 🇺🇸 美国(nodefree.org) 2876
+  - 🇱🇺 卢森堡(nodefree.org)77
+  - 🇺🇸 美国(nodefree.org) 2978
+  - 🇺🇸 美国(nodefree.org) 3079
+  - 🇭🇰 香港(nodefree.org)80
+  - 🇺🇸 美国(nodefree.org) 3181
+  - 🇺🇸 美国(nodefree.org) 3282
+  - 🇺🇸 美国(nodefree.org) 3383
+  - 🇭🇰 香港(nodefree.org) 284
+  - 🇺🇸 美国(nodefree.org) 3485
+  - 🇺🇸 美国(nodefree.org) 3586
+  - 🇺🇸 美国(nodefree.org) 3687
+  - 🇺🇸 美国(nodefree.org) 3788
+  - 🇭🇰 香港2|tg频道:@ripaojiedian89
+  - 🇭🇰 香港1|tg频道:@ripaojiedian90
+  - 🇯🇵 日本高速|永久免费91
+  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian92
+  - 🇰🇷 首尔|tg频道:@ripaojiedian93
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian94
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian95
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian96
+  - 🇨🇳 台湾|tg频道:@ripaojiedian97
+  - 🇯🇵 日本1|tg频道:@ripaojiedian98
+  - 🇸🇬 新加坡高速|欢迎分享99
+  - 🇯🇵 日本2|tg频道:@ripaojiedian100
+  - 🇺🇸 美国2|tg频道:@ripaojiedian101
+  - 🇺🇸 美国1|tg频道:@ripaojiedian102
+  - 🇨🇳 台湾1|tg频道:@ripaojiedian103
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian104
 - name: 🛑 全球拦截
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 🇺🇸 美国1
-  - 🇺🇸 美国 22
-  - 🇺🇸 美国 33
-  - 🇺🇸 美国 44
-  - 🇺🇸 美国 55
-  - 🇪🇺 欧洲6
-  - 🇯🇵 _JP_日本7
-  - 🇺🇸 美国 68
-  - 🇺🇸 美国 79
-  - 🇪🇺 欧洲 210
-  - 🇱🇺 卢森堡11
-  - 🇺🇸 美国 812
-  - 🇺🇸 美国 913
-  - 🇺🇸 美国 1014
-  - 🇺🇸 美国 1115
-  - 🇪🇺 欧洲 316
-  - 🇫🇷 FR法国17
-  - 🇺🇸 美国 1218
-  - 🇺🇸 美国 1319
-  - 🇺🇸 美国 1420
-  - 🇺🇸 美国 1521
-  - 🇺🇸 美国 1622
-  - 🇭🇰 香港23
-  - 🇰🇷 韩国24
-  - 🇺🇸 美国 1725
-  - 🇺🇸 美国 1826
-  - 🇯🇵 日本27
-  - 🇺🇸 美国 1928
-  - 🇺🇸 美国 2029
-  - 🇺🇸 美国 20 230
-  - 🇭🇰 香港 231
-  - 🇺🇸 美国 2132
-  - 🇺🇸 美国 2233
-  - 🇭🇰 香港2|tg频道:@ripaojiedian34
-  - 🇭🇰 香港1|tg频道:@ripaojiedian35
-  - 🇯🇵 日本高速|永久免费36
-  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian37
-  - 🇰🇷 首尔|tg频道:@ripaojiedian38
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian39
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian40
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian41
-  - 🇨🇳 台湾|tg频道:@ripaojiedian42
-  - 🇯🇵 日本1|tg频道:@ripaojiedian43
-  - 🇸🇬 新加坡高速|欢迎分享44
-  - 🇯🇵 日本2|tg频道:@ripaojiedian45
-  - 🇺🇸 美国2|tg频道:@ripaojiedian46
-  - 🇺🇸 美国1|tg频道:@ripaojiedian47
-  - 🇨🇳 台湾1|tg频道:@ripaojiedian48
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian49
+  - 不定时更新订阅，更多节点关注YouTube阿伟科技1
+  - 导入订阅链接，手动开启自动更新1H2
+  - 免费节点搭配网盘里的节点使用3
+  - JCBB_新加坡01【vip1】_油管阿伟科技14
+  - '[Vip1]日本07[1.0|联通]_油管阿伟科技25'
+  - 隧道|NF|新加坡05_油管阿伟科技36
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]_油管阿伟科技47'
+  - JCBB_香港07【vip1】_油管阿伟科技58
+  - 香港|05奈飞HGC海港电信隧道_油管阿伟科技69
+  - 🚇[联通]日本·F1|04_油管阿伟科技710
+  - 🚇[联通]香港·F1|01_油管阿伟科技811
+  - 🚇+[+联通+]+韩国+·+E1+|+02_油管阿伟科技912
+  - 🚇+[+v1+]+菲律宾+|+01_油管阿伟科技1013
+  - 📺️+[+v1+]+台湾原生+|+02_油管阿伟科技1114
+  - 香港C_油管阿伟科技1215
+  - 韩国Ｂ_油管阿伟科技1316
+  - 🇭🇰香港|103|杭港|1x_油管阿伟科技1417
+  - 🇭🇰香港|105|海港|1x_油管阿伟科技1518
+  - 🇭🇰香港|102|海港|1.5x_油管阿伟科技1619
+  - 🇺🇲美国|103|美区解锁|1x_油管阿伟科技1720
+  - 🇹🇼台湾|101|台湾解锁|1x_油管阿伟科技1821
+  - 🇺🇲美国|101|流媒体优化|1x_油管阿伟科技1922
+  - 🇯🇵日本|102|流媒体优化|1x_油管阿伟科技2023
+  - 🇨🇳韩国|101|江苏BGP|1x_油管阿伟科技2124
+  - 🇭🇰香港|106|深港IPLC|1x_油管阿伟科技2225
+  - 🇨🇳+Taiwan+01_油管阿伟科技2326
+  - 🇯🇵+Japan+01_油管阿伟科技2427
+  - 🇯🇵+Japan+02_油管阿伟科技2528
+  - 🇺🇸+United+States+01_油管阿伟科技2629
+  - 🇺🇸+United+States+02_油管阿伟科技2730
+  - 🇯🇵 日本(nodefree.org)31
+  - 亚洲(nodefree.org)32
+  - 🇰🇷 韩国(nodefree.org)33
+  - 🇺🇸 美国(nodefree.org)34
+  - 🇺🇸 美国(nodefree.org) 235
+  - 🇺🇸 美国(nodefree.org) 336
+  - 🇫🇷 法国(nodefree.org)37
+  - 🇺🇸 美国(nodefree.org) 438
+  - 🇺🇸 美国(nodefree.org) 539
+  - 🇪🇺 欧洲(nodefree.org)40
+  - 🇪🇺 欧洲(nodefree.org) 241
+  - 🇪🇺 欧洲(nodefree.org) 342
+  - 🇺🇸 美国(nodefree.org) 643
+  - 🇺🇸 美国(nodefree.org) 744
+  - 🇺🇸 美国(nodefree.org) 845
+  - 🇺🇸 美国(nodefree.org) 946
+  - 🇺🇸 美国(nodefree.org) 1047
+  - 🇩🇪 _DE_德国48
+  - 🇺🇸 美国(nodefree.org) 1149
+  - 🇺🇸 美国(nodefree.org) 1250
+  - 🇺🇸 美国(nodefree.org) 1351
+  - 🇺🇸 美国(nodefree.org) 1452
+  - 🇺🇸 美国(nodefree.org) 1553
+  - 🇪🇺 欧洲(nodefree.org) 454
+  - 🇺🇸 美国(nodefree.org) 1655
+  - 🇪🇺 欧洲(nodefree.org) 556
+  - 🇺🇸 美国(nodefree.org) 1757
+  - 🇺🇸 美国(nodefree.org) 1858
+  - 🇺🇸 美国(nodefree.org) 1959
+  - 🇺🇸 美国(nodefree.org) 2060
+  - 🇨🇳 台湾(nodefree.org)61
+  - 🇺🇸 美国(nodefree.org) 2162
+  - 🇺🇸 美国(nodefree.org) 2263
+  - 🇺🇸 美国(nodefree.org) 2364
+  - 🇪🇺 欧洲(nodefree.org) 665
+  - 🇫🇷 _FR_法国66
+  - 🇺🇸 美国(nodefree.org) 2467
+  - 🇺🇸 美国(nodefree.org) 2568
+  - 🇺🇸 _US_美国69
+  - 🇯🇵 日本(nodefree.org) 270
+  - 🇺🇸 美国(nodefree.org) 2671
+  - 🇩🇪 _DE_德国 272
+  - 🇺🇸 美国(nodefree.org) 2773
+  - 🇰🇷 韩国(nodefree.org) 274
+  - 🇰🇷 _KR_韩国75
+  - 🇺🇸 美国(nodefree.org) 2876
+  - 🇱🇺 卢森堡(nodefree.org)77
+  - 🇺🇸 美国(nodefree.org) 2978
+  - 🇺🇸 美国(nodefree.org) 3079
+  - 🇭🇰 香港(nodefree.org)80
+  - 🇺🇸 美国(nodefree.org) 3181
+  - 🇺🇸 美国(nodefree.org) 3282
+  - 🇺🇸 美国(nodefree.org) 3383
+  - 🇭🇰 香港(nodefree.org) 284
+  - 🇺🇸 美国(nodefree.org) 3485
+  - 🇺🇸 美国(nodefree.org) 3586
+  - 🇺🇸 美国(nodefree.org) 3687
+  - 🇺🇸 美国(nodefree.org) 3788
+  - 🇭🇰 香港2|tg频道:@ripaojiedian89
+  - 🇭🇰 香港1|tg频道:@ripaojiedian90
+  - 🇯🇵 日本高速|永久免费91
+  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian92
+  - 🇰🇷 首尔|tg频道:@ripaojiedian93
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian94
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian95
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian96
+  - 🇨🇳 台湾|tg频道:@ripaojiedian97
+  - 🇯🇵 日本1|tg频道:@ripaojiedian98
+  - 🇸🇬 新加坡高速|欢迎分享99
+  - 🇯🇵 日本2|tg频道:@ripaojiedian100
+  - 🇺🇸 美国2|tg频道:@ripaojiedian101
+  - 🇺🇸 美国1|tg频道:@ripaojiedian102
+  - 🇨🇳 台湾1|tg频道:@ripaojiedian103
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian104
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 🇺🇸 美国1
-  - 🇺🇸 美国 22
-  - 🇺🇸 美国 33
-  - 🇺🇸 美国 44
-  - 🇺🇸 美国 55
-  - 🇪🇺 欧洲6
-  - 🇯🇵 _JP_日本7
-  - 🇺🇸 美国 68
-  - 🇺🇸 美国 79
-  - 🇪🇺 欧洲 210
-  - 🇱🇺 卢森堡11
-  - 🇺🇸 美国 812
-  - 🇺🇸 美国 913
-  - 🇺🇸 美国 1014
-  - 🇺🇸 美国 1115
-  - 🇪🇺 欧洲 316
-  - 🇫🇷 FR法国17
-  - 🇺🇸 美国 1218
-  - 🇺🇸 美国 1319
-  - 🇺🇸 美国 1420
-  - 🇺🇸 美国 1521
-  - 🇺🇸 美国 1622
-  - 🇭🇰 香港23
-  - 🇰🇷 韩国24
-  - 🇺🇸 美国 1725
-  - 🇺🇸 美国 1826
-  - 🇯🇵 日本27
-  - 🇺🇸 美国 1928
-  - 🇺🇸 美国 2029
-  - 🇺🇸 美国 20 230
-  - 🇭🇰 香港 231
-  - 🇺🇸 美国 2132
-  - 🇺🇸 美国 2233
-  - 🇭🇰 香港2|tg频道:@ripaojiedian34
-  - 🇭🇰 香港1|tg频道:@ripaojiedian35
-  - 🇯🇵 日本高速|永久免费36
-  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian37
-  - 🇰🇷 首尔|tg频道:@ripaojiedian38
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian39
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian40
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian41
-  - 🇨🇳 台湾|tg频道:@ripaojiedian42
-  - 🇯🇵 日本1|tg频道:@ripaojiedian43
-  - 🇸🇬 新加坡高速|欢迎分享44
-  - 🇯🇵 日本2|tg频道:@ripaojiedian45
-  - 🇺🇸 美国2|tg频道:@ripaojiedian46
-  - 🇺🇸 美国1|tg频道:@ripaojiedian47
-  - 🇨🇳 台湾1|tg频道:@ripaojiedian48
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian49
+  - 不定时更新订阅，更多节点关注YouTube阿伟科技1
+  - 导入订阅链接，手动开启自动更新1H2
+  - 免费节点搭配网盘里的节点使用3
+  - JCBB_新加坡01【vip1】_油管阿伟科技14
+  - '[Vip1]日本07[1.0|联通]_油管阿伟科技25'
+  - 隧道|NF|新加坡05_油管阿伟科技36
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]_油管阿伟科技47'
+  - JCBB_香港07【vip1】_油管阿伟科技58
+  - 香港|05奈飞HGC海港电信隧道_油管阿伟科技69
+  - 🚇[联通]日本·F1|04_油管阿伟科技710
+  - 🚇[联通]香港·F1|01_油管阿伟科技811
+  - 🚇+[+联通+]+韩国+·+E1+|+02_油管阿伟科技912
+  - 🚇+[+v1+]+菲律宾+|+01_油管阿伟科技1013
+  - 📺️+[+v1+]+台湾原生+|+02_油管阿伟科技1114
+  - 香港C_油管阿伟科技1215
+  - 韩国Ｂ_油管阿伟科技1316
+  - 🇭🇰香港|103|杭港|1x_油管阿伟科技1417
+  - 🇭🇰香港|105|海港|1x_油管阿伟科技1518
+  - 🇭🇰香港|102|海港|1.5x_油管阿伟科技1619
+  - 🇺🇲美国|103|美区解锁|1x_油管阿伟科技1720
+  - 🇹🇼台湾|101|台湾解锁|1x_油管阿伟科技1821
+  - 🇺🇲美国|101|流媒体优化|1x_油管阿伟科技1922
+  - 🇯🇵日本|102|流媒体优化|1x_油管阿伟科技2023
+  - 🇨🇳韩国|101|江苏BGP|1x_油管阿伟科技2124
+  - 🇭🇰香港|106|深港IPLC|1x_油管阿伟科技2225
+  - 🇨🇳+Taiwan+01_油管阿伟科技2326
+  - 🇯🇵+Japan+01_油管阿伟科技2427
+  - 🇯🇵+Japan+02_油管阿伟科技2528
+  - 🇺🇸+United+States+01_油管阿伟科技2629
+  - 🇺🇸+United+States+02_油管阿伟科技2730
+  - 🇯🇵 日本(nodefree.org)31
+  - 亚洲(nodefree.org)32
+  - 🇰🇷 韩国(nodefree.org)33
+  - 🇺🇸 美国(nodefree.org)34
+  - 🇺🇸 美国(nodefree.org) 235
+  - 🇺🇸 美国(nodefree.org) 336
+  - 🇫🇷 法国(nodefree.org)37
+  - 🇺🇸 美国(nodefree.org) 438
+  - 🇺🇸 美国(nodefree.org) 539
+  - 🇪🇺 欧洲(nodefree.org)40
+  - 🇪🇺 欧洲(nodefree.org) 241
+  - 🇪🇺 欧洲(nodefree.org) 342
+  - 🇺🇸 美国(nodefree.org) 643
+  - 🇺🇸 美国(nodefree.org) 744
+  - 🇺🇸 美国(nodefree.org) 845
+  - 🇺🇸 美国(nodefree.org) 946
+  - 🇺🇸 美国(nodefree.org) 1047
+  - 🇩🇪 _DE_德国48
+  - 🇺🇸 美国(nodefree.org) 1149
+  - 🇺🇸 美国(nodefree.org) 1250
+  - 🇺🇸 美国(nodefree.org) 1351
+  - 🇺🇸 美国(nodefree.org) 1452
+  - 🇺🇸 美国(nodefree.org) 1553
+  - 🇪🇺 欧洲(nodefree.org) 454
+  - 🇺🇸 美国(nodefree.org) 1655
+  - 🇪🇺 欧洲(nodefree.org) 556
+  - 🇺🇸 美国(nodefree.org) 1757
+  - 🇺🇸 美国(nodefree.org) 1858
+  - 🇺🇸 美国(nodefree.org) 1959
+  - 🇺🇸 美国(nodefree.org) 2060
+  - 🇨🇳 台湾(nodefree.org)61
+  - 🇺🇸 美国(nodefree.org) 2162
+  - 🇺🇸 美国(nodefree.org) 2263
+  - 🇺🇸 美国(nodefree.org) 2364
+  - 🇪🇺 欧洲(nodefree.org) 665
+  - 🇫🇷 _FR_法国66
+  - 🇺🇸 美国(nodefree.org) 2467
+  - 🇺🇸 美国(nodefree.org) 2568
+  - 🇺🇸 _US_美国69
+  - 🇯🇵 日本(nodefree.org) 270
+  - 🇺🇸 美国(nodefree.org) 2671
+  - 🇩🇪 _DE_德国 272
+  - 🇺🇸 美国(nodefree.org) 2773
+  - 🇰🇷 韩国(nodefree.org) 274
+  - 🇰🇷 _KR_韩国75
+  - 🇺🇸 美国(nodefree.org) 2876
+  - 🇱🇺 卢森堡(nodefree.org)77
+  - 🇺🇸 美国(nodefree.org) 2978
+  - 🇺🇸 美国(nodefree.org) 3079
+  - 🇭🇰 香港(nodefree.org)80
+  - 🇺🇸 美国(nodefree.org) 3181
+  - 🇺🇸 美国(nodefree.org) 3282
+  - 🇺🇸 美国(nodefree.org) 3383
+  - 🇭🇰 香港(nodefree.org) 284
+  - 🇺🇸 美国(nodefree.org) 3485
+  - 🇺🇸 美国(nodefree.org) 3586
+  - 🇺🇸 美国(nodefree.org) 3687
+  - 🇺🇸 美国(nodefree.org) 3788
+  - 🇭🇰 香港2|tg频道:@ripaojiedian89
+  - 🇭🇰 香港1|tg频道:@ripaojiedian90
+  - 🇯🇵 日本高速|永久免费91
+  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian92
+  - 🇰🇷 首尔|tg频道:@ripaojiedian93
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian94
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian95
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian96
+  - 🇨🇳 台湾|tg频道:@ripaojiedian97
+  - 🇯🇵 日本1|tg频道:@ripaojiedian98
+  - 🇸🇬 新加坡高速|欢迎分享99
+  - 🇯🇵 日本2|tg频道:@ripaojiedian100
+  - 🇺🇸 美国2|tg频道:@ripaojiedian101
+  - 🇺🇸 美国1|tg频道:@ripaojiedian102
+  - 🇨🇳 台湾1|tg频道:@ripaojiedian103
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian104
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸 美国1
-  - 🇺🇸 美国 22
-  - 🇺🇸 美国 33
-  - 🇺🇸 美国 44
-  - 🇺🇸 美国 55
-  - 🇪🇺 欧洲6
-  - 🇯🇵 _JP_日本7
-  - 🇺🇸 美国 68
-  - 🇺🇸 美国 79
-  - 🇪🇺 欧洲 210
-  - 🇱🇺 卢森堡11
-  - 🇺🇸 美国 812
-  - 🇺🇸 美国 913
-  - 🇺🇸 美国 1014
-  - 🇺🇸 美国 1115
-  - 🇪🇺 欧洲 316
-  - 🇫🇷 FR法国17
-  - 🇺🇸 美国 1218
-  - 🇺🇸 美国 1319
-  - 🇺🇸 美国 1420
-  - 🇺🇸 美国 1521
-  - 🇺🇸 美国 1622
-  - 🇭🇰 香港23
-  - 🇰🇷 韩国24
-  - 🇺🇸 美国 1725
-  - 🇺🇸 美国 1826
-  - 🇯🇵 日本27
-  - 🇺🇸 美国 1928
-  - 🇺🇸 美国 2029
-  - 🇺🇸 美国 20 230
-  - 🇭🇰 香港 231
-  - 🇺🇸 美国 2132
-  - 🇺🇸 美国 2233
-  - 🇭🇰 香港2|tg频道:@ripaojiedian34
-  - 🇭🇰 香港1|tg频道:@ripaojiedian35
-  - 🇯🇵 日本高速|永久免费36
-  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian37
-  - 🇰🇷 首尔|tg频道:@ripaojiedian38
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian39
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian40
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian41
-  - 🇨🇳 台湾|tg频道:@ripaojiedian42
-  - 🇯🇵 日本1|tg频道:@ripaojiedian43
-  - 🇸🇬 新加坡高速|欢迎分享44
-  - 🇯🇵 日本2|tg频道:@ripaojiedian45
-  - 🇺🇸 美国2|tg频道:@ripaojiedian46
-  - 🇺🇸 美国1|tg频道:@ripaojiedian47
-  - 🇨🇳 台湾1|tg频道:@ripaojiedian48
-  - 🇸🇬 新加坡|tg频道:@ripaojiedian49
+  - 不定时更新订阅，更多节点关注YouTube阿伟科技1
+  - 导入订阅链接，手动开启自动更新1H2
+  - 免费节点搭配网盘里的节点使用3
+  - JCBB_新加坡01【vip1】_油管阿伟科技14
+  - '[Vip1]日本07[1.0|联通]_油管阿伟科技25'
+  - 隧道|NF|新加坡05_油管阿伟科技36
+  - '[Vip1]日本01[1.0|移动|流媒体解锁]_油管阿伟科技47'
+  - JCBB_香港07【vip1】_油管阿伟科技58
+  - 香港|05奈飞HGC海港电信隧道_油管阿伟科技69
+  - 🚇[联通]日本·F1|04_油管阿伟科技710
+  - 🚇[联通]香港·F1|01_油管阿伟科技811
+  - 🚇+[+联通+]+韩国+·+E1+|+02_油管阿伟科技912
+  - 🚇+[+v1+]+菲律宾+|+01_油管阿伟科技1013
+  - 📺️+[+v1+]+台湾原生+|+02_油管阿伟科技1114
+  - 香港C_油管阿伟科技1215
+  - 韩国Ｂ_油管阿伟科技1316
+  - 🇭🇰香港|103|杭港|1x_油管阿伟科技1417
+  - 🇭🇰香港|105|海港|1x_油管阿伟科技1518
+  - 🇭🇰香港|102|海港|1.5x_油管阿伟科技1619
+  - 🇺🇲美国|103|美区解锁|1x_油管阿伟科技1720
+  - 🇹🇼台湾|101|台湾解锁|1x_油管阿伟科技1821
+  - 🇺🇲美国|101|流媒体优化|1x_油管阿伟科技1922
+  - 🇯🇵日本|102|流媒体优化|1x_油管阿伟科技2023
+  - 🇨🇳韩国|101|江苏BGP|1x_油管阿伟科技2124
+  - 🇭🇰香港|106|深港IPLC|1x_油管阿伟科技2225
+  - 🇨🇳+Taiwan+01_油管阿伟科技2326
+  - 🇯🇵+Japan+01_油管阿伟科技2427
+  - 🇯🇵+Japan+02_油管阿伟科技2528
+  - 🇺🇸+United+States+01_油管阿伟科技2629
+  - 🇺🇸+United+States+02_油管阿伟科技2730
+  - 🇯🇵 日本(nodefree.org)31
+  - 亚洲(nodefree.org)32
+  - 🇰🇷 韩国(nodefree.org)33
+  - 🇺🇸 美国(nodefree.org)34
+  - 🇺🇸 美国(nodefree.org) 235
+  - 🇺🇸 美国(nodefree.org) 336
+  - 🇫🇷 法国(nodefree.org)37
+  - 🇺🇸 美国(nodefree.org) 438
+  - 🇺🇸 美国(nodefree.org) 539
+  - 🇪🇺 欧洲(nodefree.org)40
+  - 🇪🇺 欧洲(nodefree.org) 241
+  - 🇪🇺 欧洲(nodefree.org) 342
+  - 🇺🇸 美国(nodefree.org) 643
+  - 🇺🇸 美国(nodefree.org) 744
+  - 🇺🇸 美国(nodefree.org) 845
+  - 🇺🇸 美国(nodefree.org) 946
+  - 🇺🇸 美国(nodefree.org) 1047
+  - 🇩🇪 _DE_德国48
+  - 🇺🇸 美国(nodefree.org) 1149
+  - 🇺🇸 美国(nodefree.org) 1250
+  - 🇺🇸 美国(nodefree.org) 1351
+  - 🇺🇸 美国(nodefree.org) 1452
+  - 🇺🇸 美国(nodefree.org) 1553
+  - 🇪🇺 欧洲(nodefree.org) 454
+  - 🇺🇸 美国(nodefree.org) 1655
+  - 🇪🇺 欧洲(nodefree.org) 556
+  - 🇺🇸 美国(nodefree.org) 1757
+  - 🇺🇸 美国(nodefree.org) 1858
+  - 🇺🇸 美国(nodefree.org) 1959
+  - 🇺🇸 美国(nodefree.org) 2060
+  - 🇨🇳 台湾(nodefree.org)61
+  - 🇺🇸 美国(nodefree.org) 2162
+  - 🇺🇸 美国(nodefree.org) 2263
+  - 🇺🇸 美国(nodefree.org) 2364
+  - 🇪🇺 欧洲(nodefree.org) 665
+  - 🇫🇷 _FR_法国66
+  - 🇺🇸 美国(nodefree.org) 2467
+  - 🇺🇸 美国(nodefree.org) 2568
+  - 🇺🇸 _US_美国69
+  - 🇯🇵 日本(nodefree.org) 270
+  - 🇺🇸 美国(nodefree.org) 2671
+  - 🇩🇪 _DE_德国 272
+  - 🇺🇸 美国(nodefree.org) 2773
+  - 🇰🇷 韩国(nodefree.org) 274
+  - 🇰🇷 _KR_韩国75
+  - 🇺🇸 美国(nodefree.org) 2876
+  - 🇱🇺 卢森堡(nodefree.org)77
+  - 🇺🇸 美国(nodefree.org) 2978
+  - 🇺🇸 美国(nodefree.org) 3079
+  - 🇭🇰 香港(nodefree.org)80
+  - 🇺🇸 美国(nodefree.org) 3181
+  - 🇺🇸 美国(nodefree.org) 3282
+  - 🇺🇸 美国(nodefree.org) 3383
+  - 🇭🇰 香港(nodefree.org) 284
+  - 🇺🇸 美国(nodefree.org) 3485
+  - 🇺🇸 美国(nodefree.org) 3586
+  - 🇺🇸 美国(nodefree.org) 3687
+  - 🇺🇸 美国(nodefree.org) 3788
+  - 🇭🇰 香港2|tg频道:@ripaojiedian89
+  - 🇭🇰 香港1|tg频道:@ripaojiedian90
+  - 🇯🇵 日本高速|永久免费91
+  - 🇸🇬 狮城SSR|tg频道:@ripaojiedian92
+  - 🇰🇷 首尔|tg频道:@ripaojiedian93
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian94
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian95
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian96
+  - 🇨🇳 台湾|tg频道:@ripaojiedian97
+  - 🇯🇵 日本1|tg频道:@ripaojiedian98
+  - 🇸🇬 新加坡高速|欢迎分享99
+  - 🇯🇵 日本2|tg频道:@ripaojiedian100
+  - 🇺🇸 美国2|tg频道:@ripaojiedian101
+  - 🇺🇸 美国1|tg频道:@ripaojiedian102
+  - 🇨🇳 台湾1|tg频道:@ripaojiedian103
+  - 🇸🇬 新加坡|tg频道:@ripaojiedian104
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
