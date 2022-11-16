@@ -26,147 +26,29 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 🇯🇵 日本(nodefree.org)1
-  server: 47.91.23.182
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
+- name: 🇯🇵 _JP_日本1
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇭🇰 _HK_香港2
+  server: 1030hk99.fans8.xyz
+  port: 51599
+  type: trojan
+  password: 4f280b94-f83d-4080-a147-9324e45351fa
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 亚洲(nodefree.org)2
-  server: 146.56.162.25
+- name: 🇯🇵 _JP_日本 23
+  server: trs12.bolab.net
   port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 14bdba6dede262387ebdebaa706e1c90
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇰🇷 韩国(nodefree.org)3
-  server: 146.56.166.153
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org)4
-  server: 198.41.203.3
-  port: 443
-  type: vmess
-  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg1.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 25
-  server: 141.101.115.100
-  port: 443
-  type: vmess
-  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /VHONOFZ3
-    headers:
-      Host: lg1.cfcdn2.xyz
-- name: 🇺🇸 美国(nodefree.org) 36
-  server: 141.101.115.136
-  port: 443
-  type: vmess
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg1.cfcdn1.xyz
-- name: 🇫🇷 法国(nodefree.org)7
-  server: 172.64.154.102
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇺🇸 美国(nodefree.org) 48
-  server: 141.101.114.100
-  port: 443
-  type: vmess
-  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /VHONOFZ3
-    headers:
-      Host: lg1.cfcdn2.xyz
-- name: 🇺🇸 美国(nodefree.org) 59
-  server: 141.101.115.120
-  port: 443
-  type: vmess
-  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg1.cfcdn3.xyz
-- name: 🇪🇺 欧洲(nodefree.org)10
-  server: 141.101.114.20
-  port: 443
-  type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash1.trump2023.net
-- name: 🇪🇺 欧洲(nodefree.org) 211
+- name: 🇺🇸 _US_美国->🇫🇷_FR_法国4
   server: 172.64.148.111
   port: 443
   type: vmess
@@ -180,64 +62,22 @@ proxies:
     path: /ray
     headers:
       Host: fr2.cfcdn4.xyz
-- name: 🇪🇺 欧洲(nodefree.org) 312
-  server: 198.41.203.2
-  port: 443
+- name: 🇭🇰 _CN_中国->🇭🇰_HK_香港5
+  server: data-hk-v2.shwjfkw.cn
+  port: 50206
   type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: 0
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 1
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /dongtaiwang.com
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host: clash1.trump2023.net
-- name: 🇺🇸 美国(nodefree.org) 613
-  server: 198.41.212.122
-  port: 443
-  type: vmess
-  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: fr2.cfcdn4.xyz
-- name: 🇺🇸 美国(nodefree.org) 714
-  server: 104.29.64.25
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 815
-  server: 172.64.154.201
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 916
-  server: 198.41.203.1
+      Host: data-hk-v2.shwjfkw.cn
+- name: default_name6
+  server: 141.101.114.100
   port: 443
   type: vmess
   uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
@@ -250,652 +90,7 @@ proxies:
     path: /VHONOFZ3
     headers:
       Host: lg1.cfcdn2.xyz
-- name: 🇺🇸 美国(nodefree.org) 1017
-  server: 141.101.115.20
-  port: 443
-  type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash1.trump2023.net
-- name: 🇩🇪 _DE_德国18
-  server: 172.64.154.222
-  port: 443
-  type: vmess
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg1.cfcdn1.xyz
-- name: 🇺🇸 美国(nodefree.org) 1119
-  server: 141.101.115.121
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 1220
-  server: 141.101.114.133
-  port: 443
-  type: vmess
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg1.cfcdn1.xyz
-- name: 🇺🇸 美国(nodefree.org) 1321
-  server: 198.41.212.122
-  port: 443
-  type: vmess
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg1.cfcdn1.xyz
-- name: 🇺🇸 美国(nodefree.org) 1422
-  server: 141.101.114.17
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇺🇸 美国(nodefree.org) 1523
-  server: 141.101.115.160
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇪🇺 欧洲(nodefree.org) 424
-  server: 141.101.114.120
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 1625
-  server: www.gov.hk
-  port: 2086
-  type: vmess
-  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: linus.cloudflare.quest
-- name: 🇪🇺 欧洲(nodefree.org) 526
-  server: 141.101.114.120
-  port: 443
-  type: vmess
-  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg1.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 1727
-  server: 141.101.114.111
-  port: 443
-  type: vmess
-  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: fr2.cfcdn4.xyz
-- name: 🇺🇸 美国(nodefree.org) 1828
-  server: 1.1808.cf
-  port: 443
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: v2.chigua.tk
-- name: 🇺🇸 美国(nodefree.org) 1929
-  server: 198.41.203.4
-  port: 443
-  type: vmess
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg1.cfcdn1.xyz
-- name: 🇺🇸 美国(nodefree.org) 2030
-  server: 54.72img.xyz
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 54.72img.xyz
-- name: 🇨🇳 台湾(nodefree.org)31
-  server: tw.qii9.com
-  port: 25100
-  type: vmess
-  uuid: b780f933-17b7-42b4-ac86-73ac1f4e54f8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /jcnf
-    headers:
-      Host: tw.qii9.com
-- name: 🇺🇸 美国(nodefree.org) 2132
-  server: 51.75.70.34
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 2233
-  server: cn2.us.xlkjjs.top
-  port: 17861
-  type: vmess
-  uuid: 0a6b7226-2f9c-393c-bc94-5a34859250c0
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cn2.us.xlkjjs.top
-- name: 🇺🇸 美国(nodefree.org) 2334
-  server: 141.101.114.121
-  port: 443
-  type: vmess
-  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: fr2.cfcdn4.xyz
-- name: 🇪🇺 欧洲(nodefree.org) 635
-  server: 51.75.70.34
-  port: 443
-  type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash1.trump2023.net
-- name: 🇫🇷 _FR_法国36
-  server: powerservice.com
-  port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: uk2.v2rayserv.com
-- name: 🇺🇸 美国(nodefree.org) 2437
-  server: 141.101.115.120
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 2538
-  server: 128.14.140.254
-  port: 443
-  type: vmess
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: v2ray2.ssr-free2.xyz
-- name: 🇺🇸 _US_美国39
-  server: 104.26.9.74
-  port: 443
-  type: vmess
-  uuid: f6c1babe-416e-47d1-8726-049678e25c7a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: us2.v2rayserv.com
-- name: 🇯🇵 日本(nodefree.org) 240
-  server: 8.209.214.184
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxuk.fovi.tk
-- name: 🇺🇸 美国(nodefree.org) 2641
-  server: 138.2.122.225
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇩🇪 _DE_德国 242
-  server: 66.212.20.3
-  port: 443
-  type: vmess
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: v2ray2.ssr-free2.xyz
-- name: 🇺🇸 美国(nodefree.org) 2743
-  server: 138.2.122.225
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇰🇷 韩国(nodefree.org) 244
-  server: 146.56.166.153
-  port: 443
-  type: vmess
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: v2ray2.ssr-free2.xyz
-- name: 🇰🇷 _KR_韩国45
-  server: 146.56.166.153
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxuk.fovi.tk
-- name: 🇺🇸 美国(nodefree.org) 2846
-  server: 1.1808.cf
-  port: 443
-  type: vmess
-  uuid: bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /bea4a9b4
-    headers:
-      Host: reduction-accomplish-entities-surname.trycloudflare.com
-- name: 🇱🇺 卢森堡(nodefree.org)47
-  server: ip.skk.moe
-  port: 2086
-  type: vmess
-  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: buyvm.cloudflare.quest
-- name: 🇺🇸 美国(nodefree.org) 2948
-  server: 141.101.114.100
-  port: 443
-  type: vmess
-  uuid: 4679f00e-90ce-430d-9714-6a19367ba112
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: v2ray1.zhujicn2.org
-- name: 🇺🇸 美国(nodefree.org) 3049
-  server: cdn.chigua.tk
-  port: 443
-  type: vmess
-  uuid: bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /bea4a9b4
-    headers:
-      Host: reduction-accomplish-entities-surname.trycloudflare.com
-- name: 🇭🇰 香港(nodefree.org)50
-  server: 119.247.119.212
-  port: 443
-  type: trojan
-  password: 123456
-  sni: trojan-ctb-sg01.globalssh.xyz
-  skip-cert-verify: false
-- name: 🇺🇸 美国(nodefree.org) 3151
-  server: 128.14.140.254
-  port: 443
-  type: vmess
-  uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /123
-    headers:
-      Host: zz1.wblogw1.tk
-- name: 🇺🇸 美国(nodefree.org) 3252
-  server: huclouds.ml
-  port: 5505
-  type: vmess
-  uuid: 69801534-3870-4d14-9d07-6f65da593da4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: huclouds.ml
-- name: 🇺🇸 美国(nodefree.org) 3353
-  server: 1.1808.cf
-  port: 443
-  type: vmess
-  uuid: 2cc54dbd-d448-4cc0-b61c-1d1ba6317307
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /2cc54dbd
-    headers:
-      Host: earth-identity-devel-pubmed.trycloudflare.com
-- name: 🇭🇰 香港(nodefree.org) 254
-  server: 167.179.32.53
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 3455
-  server: Shopify.com
-  port: 2086
-  type: vmess
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: scw.cloudflare.quest
-- name: 🇺🇸 美国(nodefree.org) 3556
-  server: 1.1808.cf
-  port: 443
-  type: vmess
-  uuid: 72f8cfcb-dcbc-4ba9-b621-05e48ee7d588
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /72f8cfcb
-    headers:
-      Host: treasurer-bonds-bm-punk.trycloudflare.com
-- name: 🇺🇸 美国(nodefree.org) 3657
-  server: 198.244.148.214
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇺🇸 美国(nodefree.org) 3758
-  server: 152.228.191.232
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg30.cfcdn3.xyz
-- name: 🇭🇰 香港BGP|tg频道:@ripaojiedian59
-  server: ap-northeast.6641634715834932.me
-  port: 443
-  type: trojan
-  password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71
-  sni: wel-hk.optage.moe
-  skip-cert-verify: false
-- name: 🇨🇳 台湾|tg频道:@ripaojiedian60
-  server: ap-northeast.6641634715834932.me
-  port: 443
-  type: trojan
-  password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71
-  sni: wel-tw.optage.moe
-  skip-cert-verify: false
-- name: 🇰🇷 韩国快|tg频道:@ripaojiedian61
-  server: kr1.elknode.top
-  port: 443
-  type: trojan
-  password: 1eded6fc-8b28-33df-a93f-6491de5f7a12
-  sni: kr1.elknode.top
-  skip-cert-verify: false
-- name: 🇯🇵 日本JP|tg频道:@ripaojiedian62
-  server: 45.64.22.55
-  port: 443
-  type: trojan
-  password: ZEIR0qFZau9jOp7x6e8e4y3AaXwS2SzD3llxTyRYKCF8DCD3c5Y3pgNnaSOBAC
-  sni: tensely.freetrade.link
-  skip-cert-verify: false
-- name: 🇺🇸 美国|tg频道:@ripaojiedian63
-  server: us3.elknode.top
-  port: 443
-  type: trojan
-  password: 1eded6fc-8b28-33df-a93f-6491de5f7a12
-  sni: us3.elknode.top
-  skip-cert-verify: false
-- name: 🇭🇰 香港|tg频道:@ripaojiedian64
-  server: kqs-moble.gatknqh.cn
-  port: 53304
-  type: ss
-  cipher: aes-256-gcm
-  password: 999e212b-7b23-431e-b6d7-567a7dd21c53
-- name: 🇯🇵 日本1|tg频道:@ripaojiedian65
-  server: 45.64.22.55
-  port: 443
-  type: trojan
-  password: Ty33ylFA4u6A5e0NE3wRFp3DIa8lZOzC87CeKnxYgpSOSa2ZaXBjDDSY9qCcxR
-  sni: flowery.meijireform.com
-  skip-cert-verify: false
-- name: 欢迎分享给需要的人66
-  server: 1030hk99.fans8.xyz
-  port: 51599
-  type: trojan
-  password: 4f280b94-f83d-4080-a147-9324e45351fa
-  sni: 1030hk99.fans8.xyz
-  skip-cert-verify: false
-- name: 🇺🇸 洛杉矶|tg频道:@ripaojiedian67
-  server: uslsjzz1.jjyun.ml
-  port: 31296
-  type: vmess
-  uuid: ada04dd6-4cca-4398-9255-5634ec6f5c7d
-  alterId: 10
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸 美国2|tg频道:@ripaojiedian68
+- name: 🇺🇸 _US_美国7
   server: 51.81.220.195
   port: 80
   type: vmess
@@ -909,7 +104,305 @@ proxies:
     path: /sshkit/Variu88/634dab7abadf1/
     headers:
       Host: 51.81.220.195
-- name: 🇺🇸 美国1|tg频道:@ripaojiedian69
+- name: default_name 28
+  server: 141.101.114.200
+  port: 443
+  type: vmess
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: v2ray2.ssr-free2.xyz
+- name: 🇸🇬 _SG_新加坡9
+  server: 139.99.47.36
+  port: 80
+  type: vmess
+  uuid: 0bf0cc63-cc4d-4a6f-8770-a7fa5a0d1c55
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: sg2.v2rayserv.com
+- name: 🇺🇸 _US_美国 210
+  server: 1.1808.cf
+  port: 443
+  type: vmess
+  uuid: 2cc54dbd-d448-4cc0-b61c-1d1ba6317307
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /2cc54dbd
+    headers:
+      Host: earth-identity-devel-pubmed.trycloudflare.com
+- name: 🇭🇰 _HK_香港->🇩🇪_DE_德国11
+  server: 219.76.13.180
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: default_name 312
+  server: jm.jshsxxxy.top
+  port: 443
+  type: vmess
+  uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /MokonaModokiMkv2Rentry
+    headers:
+      Host: jm.jshsxxxy.top
+- name: default_name 413
+  server: aomen2.mybestjj.com
+  port: 443
+  type: vmess
+  uuid: db452a88-08a0-4a6a-ac87-937bb0b27909
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /1654431
+    headers:
+      Host: uk1.mybestjj.com
+- name: 🇺🇸 _US_美国->🇩🇪_DE_德国14
+  server: 172.64.152.150
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 🇰🇷 _KR_韩国->🇺🇸_US_美国15
+  server: 146.56.166.153
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxuk.fovi.tk
+- name: 🇺🇸 _US_美国->🇩🇪_DE_德国 216
+  server: 172.64.154.222
+  port: 443
+  type: vmess
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg1.cfcdn1.xyz
+- name: default_name 517
+  server: uicdn.cf
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/635cb6dd4206c/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+- name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰18
+  server: surongwei.eu.org
+  port: 443
+  type: vmess
+  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /reffs7y26g0ua
+    headers:
+      Host: surongwei.eu.org
+- name: 🇺🇸 _US_美国->🇩🇪_DE_德国 319
+  server: 66.212.20.3
+  port: 443
+  type: vmess
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: v2ray2.ssr-free2.xyz
+- name: 🇸🇬 _SG_新加坡 220
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸 _US_美国 321
+  server: 104.26.9.74
+  port: 443
+  type: vmess
+  uuid: f6c1babe-416e-47d1-8726-049678e25c7a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: us2.v2rayserv.com
+- name: 🇺🇸 _US_美国 422
+  server: us-lb.sshkit.org
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Variu88/634dab7abadf1/
+    headers:
+      Host: us-lb.sshkit.org
+- name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡23
+  server: 15.235.147.186
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+    headers:
+      Host: 15.235.147.186
+- name: 🇭🇰 香港BGP|tg频道:@ripaojiedian24
+  server: ap-northeast.6641634715834932.me
+  port: 443
+  type: trojan
+  password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71
+  sni: wel-hk.optage.moe
+  skip-cert-verify: false
+- name: 🇨🇳 台湾|tg频道:@ripaojiedian25
+  server: ap-northeast.6641634715834932.me
+  port: 443
+  type: trojan
+  password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71
+  sni: wel-tw.optage.moe
+  skip-cert-verify: false
+- name: 🇰🇷 韩国快|tg频道:@ripaojiedian26
+  server: kr1.elknode.top
+  port: 443
+  type: trojan
+  password: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+  sni: kr1.elknode.top
+  skip-cert-verify: false
+- name: 🇯🇵 日本JP|tg频道:@ripaojiedian27
+  server: 45.64.22.55
+  port: 443
+  type: trojan
+  password: ZEIR0qFZau9jOp7x6e8e4y3AaXwS2SzD3llxTyRYKCF8DCD3c5Y3pgNnaSOBAC
+  sni: tensely.freetrade.link
+  skip-cert-verify: false
+- name: 🇺🇸 美国|tg频道:@ripaojiedian28
+  server: us3.elknode.top
+  port: 443
+  type: trojan
+  password: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+  sni: us3.elknode.top
+  skip-cert-verify: false
+- name: 🇭🇰 香港|tg频道:@ripaojiedian29
+  server: kqs-moble.gatknqh.cn
+  port: 53304
+  type: ss
+  cipher: aes-256-gcm
+  password: 999e212b-7b23-431e-b6d7-567a7dd21c53
+- name: 🇯🇵 日本1|tg频道:@ripaojiedian30
+  server: 45.64.22.55
+  port: 443
+  type: trojan
+  password: Ty33ylFA4u6A5e0NE3wRFp3DIa8lZOzC87CeKnxYgpSOSa2ZaXBjDDSY9qCcxR
+  sni: flowery.meijireform.com
+  skip-cert-verify: false
+- name: 欢迎分享给需要的人31
+  server: 1030hk99.fans8.xyz
+  port: 51599
+  type: trojan
+  password: 4f280b94-f83d-4080-a147-9324e45351fa
+  sni: 1030hk99.fans8.xyz
+  skip-cert-verify: false
+- name: 🇺🇸 洛杉矶|tg频道:@ripaojiedian32
+  server: uslsjzz1.jjyun.ml
+  port: 31296
+  type: vmess
+  uuid: ada04dd6-4cca-4398-9255-5634ec6f5c7d
+  alterId: 10
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸 美国2|tg频道:@ripaojiedian33
+  server: 51.81.220.195
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sshkit/Variu88/634dab7abadf1/
+    headers:
+      Host: 51.81.220.195
+- name: 🇺🇸 美国1|tg频道:@ripaojiedian34
   server: 104.29.64.24
   port: 80
   type: vmess
@@ -923,14 +416,14 @@ proxies:
     path: /ge0EAGwf/
     headers:
       Host: us2.cachexy.ga
-- name: 🇰🇷 韩国|tg频道:@ripaojiedian70
+- name: 🇰🇷 韩国|tg频道:@ripaojiedian35
   server: ap-northeast.6641634715834932.me
   port: 443
   type: trojan
   password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71
   sni: wel-kr.optage.moe
   skip-cert-verify: false
-- name: 🇺🇸 美国中转|tg频道:@ripaojiedian71
+- name: 🇺🇸 美国中转|tg频道:@ripaojiedian36
   server: 101.89.181.39
   port: 26800
   type: vmess
@@ -942,7 +435,7 @@ proxies:
   network: ws
   ws-opts:
     path: /ge0EAGwf/
-- name: 欢迎分享给需要的人 272
+- name: 欢迎分享给需要的人 237
   server: 89.107.61.241
   port: 8080
   type: vmess
@@ -958,228 +451,123 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 🇯🇵 日本(nodefree.org)1
-  - 亚洲(nodefree.org)2
-  - 🇰🇷 韩国(nodefree.org)3
-  - 🇺🇸 美国(nodefree.org)4
-  - 🇺🇸 美国(nodefree.org) 25
-  - 🇺🇸 美国(nodefree.org) 36
-  - 🇫🇷 法国(nodefree.org)7
-  - 🇺🇸 美国(nodefree.org) 48
-  - 🇺🇸 美国(nodefree.org) 59
-  - 🇪🇺 欧洲(nodefree.org)10
-  - 🇪🇺 欧洲(nodefree.org) 211
-  - 🇪🇺 欧洲(nodefree.org) 312
-  - 🇺🇸 美国(nodefree.org) 613
-  - 🇺🇸 美国(nodefree.org) 714
-  - 🇺🇸 美国(nodefree.org) 815
-  - 🇺🇸 美国(nodefree.org) 916
-  - 🇺🇸 美国(nodefree.org) 1017
-  - 🇩🇪 _DE_德国18
-  - 🇺🇸 美国(nodefree.org) 1119
-  - 🇺🇸 美国(nodefree.org) 1220
-  - 🇺🇸 美国(nodefree.org) 1321
-  - 🇺🇸 美国(nodefree.org) 1422
-  - 🇺🇸 美国(nodefree.org) 1523
-  - 🇪🇺 欧洲(nodefree.org) 424
-  - 🇺🇸 美国(nodefree.org) 1625
-  - 🇪🇺 欧洲(nodefree.org) 526
-  - 🇺🇸 美国(nodefree.org) 1727
-  - 🇺🇸 美国(nodefree.org) 1828
-  - 🇺🇸 美国(nodefree.org) 1929
-  - 🇺🇸 美国(nodefree.org) 2030
-  - 🇨🇳 台湾(nodefree.org)31
-  - 🇺🇸 美国(nodefree.org) 2132
-  - 🇺🇸 美国(nodefree.org) 2233
-  - 🇺🇸 美国(nodefree.org) 2334
-  - 🇪🇺 欧洲(nodefree.org) 635
-  - 🇫🇷 _FR_法国36
-  - 🇺🇸 美国(nodefree.org) 2437
-  - 🇺🇸 美国(nodefree.org) 2538
-  - 🇺🇸 _US_美国39
-  - 🇯🇵 日本(nodefree.org) 240
-  - 🇺🇸 美国(nodefree.org) 2641
-  - 🇩🇪 _DE_德国 242
-  - 🇺🇸 美国(nodefree.org) 2743
-  - 🇰🇷 韩国(nodefree.org) 244
-  - 🇰🇷 _KR_韩国45
-  - 🇺🇸 美国(nodefree.org) 2846
-  - 🇱🇺 卢森堡(nodefree.org)47
-  - 🇺🇸 美国(nodefree.org) 2948
-  - 🇺🇸 美国(nodefree.org) 3049
-  - 🇭🇰 香港(nodefree.org)50
-  - 🇺🇸 美国(nodefree.org) 3151
-  - 🇺🇸 美国(nodefree.org) 3252
-  - 🇺🇸 美国(nodefree.org) 3353
-  - 🇭🇰 香港(nodefree.org) 254
-  - 🇺🇸 美国(nodefree.org) 3455
-  - 🇺🇸 美国(nodefree.org) 3556
-  - 🇺🇸 美国(nodefree.org) 3657
-  - 🇺🇸 美国(nodefree.org) 3758
-  - 🇭🇰 香港BGP|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾|tg频道:@ripaojiedian60
-  - 🇰🇷 韩国快|tg频道:@ripaojiedian61
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian62
-  - 🇺🇸 美国|tg频道:@ripaojiedian63
-  - 🇭🇰 香港|tg频道:@ripaojiedian64
-  - 🇯🇵 日本1|tg频道:@ripaojiedian65
-  - 欢迎分享给需要的人66
-  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian67
-  - 🇺🇸 美国2|tg频道:@ripaojiedian68
-  - 🇺🇸 美国1|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇺🇸 美国中转|tg频道:@ripaojiedian71
-  - 欢迎分享给需要的人 272
+  - 🇯🇵 _JP_日本1
+  - 🇭🇰 _HK_香港2
+  - 🇯🇵 _JP_日本 23
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国4
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港5
+  - default_name6
+  - 🇺🇸 _US_美国7
+  - default_name 28
+  - 🇸🇬 _SG_新加坡9
+  - 🇺🇸 _US_美国 210
+  - 🇭🇰 _HK_香港->🇩🇪_DE_德国11
+  - default_name 312
+  - default_name 413
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国14
+  - 🇰🇷 _KR_韩国->🇺🇸_US_美国15
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 216
+  - default_name 517
+  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰18
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 319
+  - 🇸🇬 _SG_新加坡 220
+  - 🇺🇸 _US_美国 321
+  - 🇺🇸 _US_美国 422
+  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡23
+  - 🇭🇰 香港BGP|tg频道:@ripaojiedian24
+  - 🇨🇳 台湾|tg频道:@ripaojiedian25
+  - 🇰🇷 韩国快|tg频道:@ripaojiedian26
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian27
+  - 🇺🇸 美国|tg频道:@ripaojiedian28
+  - 🇭🇰 香港|tg频道:@ripaojiedian29
+  - 🇯🇵 日本1|tg频道:@ripaojiedian30
+  - 欢迎分享给需要的人31
+  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian32
+  - 🇺🇸 美国2|tg频道:@ripaojiedian33
+  - 🇺🇸 美国1|tg频道:@ripaojiedian34
+  - 🇰🇷 韩国|tg频道:@ripaojiedian35
+  - 🇺🇸 美国中转|tg频道:@ripaojiedian36
+  - 欢迎分享给需要的人 237
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 🇯🇵 日本(nodefree.org)1
-  - 亚洲(nodefree.org)2
-  - 🇰🇷 韩国(nodefree.org)3
-  - 🇺🇸 美国(nodefree.org)4
-  - 🇺🇸 美国(nodefree.org) 25
-  - 🇺🇸 美国(nodefree.org) 36
-  - 🇫🇷 法国(nodefree.org)7
-  - 🇺🇸 美国(nodefree.org) 48
-  - 🇺🇸 美国(nodefree.org) 59
-  - 🇪🇺 欧洲(nodefree.org)10
-  - 🇪🇺 欧洲(nodefree.org) 211
-  - 🇪🇺 欧洲(nodefree.org) 312
-  - 🇺🇸 美国(nodefree.org) 613
-  - 🇺🇸 美国(nodefree.org) 714
-  - 🇺🇸 美国(nodefree.org) 815
-  - 🇺🇸 美国(nodefree.org) 916
-  - 🇺🇸 美国(nodefree.org) 1017
-  - 🇩🇪 _DE_德国18
-  - 🇺🇸 美国(nodefree.org) 1119
-  - 🇺🇸 美国(nodefree.org) 1220
-  - 🇺🇸 美国(nodefree.org) 1321
-  - 🇺🇸 美国(nodefree.org) 1422
-  - 🇺🇸 美国(nodefree.org) 1523
-  - 🇪🇺 欧洲(nodefree.org) 424
-  - 🇺🇸 美国(nodefree.org) 1625
-  - 🇪🇺 欧洲(nodefree.org) 526
-  - 🇺🇸 美国(nodefree.org) 1727
-  - 🇺🇸 美国(nodefree.org) 1828
-  - 🇺🇸 美国(nodefree.org) 1929
-  - 🇺🇸 美国(nodefree.org) 2030
-  - 🇨🇳 台湾(nodefree.org)31
-  - 🇺🇸 美国(nodefree.org) 2132
-  - 🇺🇸 美国(nodefree.org) 2233
-  - 🇺🇸 美国(nodefree.org) 2334
-  - 🇪🇺 欧洲(nodefree.org) 635
-  - 🇫🇷 _FR_法国36
-  - 🇺🇸 美国(nodefree.org) 2437
-  - 🇺🇸 美国(nodefree.org) 2538
-  - 🇺🇸 _US_美国39
-  - 🇯🇵 日本(nodefree.org) 240
-  - 🇺🇸 美国(nodefree.org) 2641
-  - 🇩🇪 _DE_德国 242
-  - 🇺🇸 美国(nodefree.org) 2743
-  - 🇰🇷 韩国(nodefree.org) 244
-  - 🇰🇷 _KR_韩国45
-  - 🇺🇸 美国(nodefree.org) 2846
-  - 🇱🇺 卢森堡(nodefree.org)47
-  - 🇺🇸 美国(nodefree.org) 2948
-  - 🇺🇸 美国(nodefree.org) 3049
-  - 🇭🇰 香港(nodefree.org)50
-  - 🇺🇸 美国(nodefree.org) 3151
-  - 🇺🇸 美国(nodefree.org) 3252
-  - 🇺🇸 美国(nodefree.org) 3353
-  - 🇭🇰 香港(nodefree.org) 254
-  - 🇺🇸 美国(nodefree.org) 3455
-  - 🇺🇸 美国(nodefree.org) 3556
-  - 🇺🇸 美国(nodefree.org) 3657
-  - 🇺🇸 美国(nodefree.org) 3758
-  - 🇭🇰 香港BGP|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾|tg频道:@ripaojiedian60
-  - 🇰🇷 韩国快|tg频道:@ripaojiedian61
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian62
-  - 🇺🇸 美国|tg频道:@ripaojiedian63
-  - 🇭🇰 香港|tg频道:@ripaojiedian64
-  - 🇯🇵 日本1|tg频道:@ripaojiedian65
-  - 欢迎分享给需要的人66
-  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian67
-  - 🇺🇸 美国2|tg频道:@ripaojiedian68
-  - 🇺🇸 美国1|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇺🇸 美国中转|tg频道:@ripaojiedian71
-  - 欢迎分享给需要的人 272
-  - 🇯🇵 日本(nodefree.org)1
-  - 亚洲(nodefree.org)2
-  - 🇰🇷 韩国(nodefree.org)3
-  - 🇺🇸 美国(nodefree.org)4
-  - 🇺🇸 美国(nodefree.org) 25
-  - 🇺🇸 美国(nodefree.org) 36
-  - 🇫🇷 法国(nodefree.org)7
-  - 🇺🇸 美国(nodefree.org) 48
-  - 🇺🇸 美国(nodefree.org) 59
-  - 🇪🇺 欧洲(nodefree.org)10
-  - 🇪🇺 欧洲(nodefree.org) 211
-  - 🇪🇺 欧洲(nodefree.org) 312
-  - 🇺🇸 美国(nodefree.org) 613
-  - 🇺🇸 美国(nodefree.org) 714
-  - 🇺🇸 美国(nodefree.org) 815
-  - 🇺🇸 美国(nodefree.org) 916
-  - 🇺🇸 美国(nodefree.org) 1017
-  - 🇩🇪 _DE_德国18
-  - 🇺🇸 美国(nodefree.org) 1119
-  - 🇺🇸 美国(nodefree.org) 1220
-  - 🇺🇸 美国(nodefree.org) 1321
-  - 🇺🇸 美国(nodefree.org) 1422
-  - 🇺🇸 美国(nodefree.org) 1523
-  - 🇪🇺 欧洲(nodefree.org) 424
-  - 🇺🇸 美国(nodefree.org) 1625
-  - 🇪🇺 欧洲(nodefree.org) 526
-  - 🇺🇸 美国(nodefree.org) 1727
-  - 🇺🇸 美国(nodefree.org) 1828
-  - 🇺🇸 美国(nodefree.org) 1929
-  - 🇺🇸 美国(nodefree.org) 2030
-  - 🇨🇳 台湾(nodefree.org)31
-  - 🇺🇸 美国(nodefree.org) 2132
-  - 🇺🇸 美国(nodefree.org) 2233
-  - 🇺🇸 美国(nodefree.org) 2334
-  - 🇪🇺 欧洲(nodefree.org) 635
-  - 🇫🇷 _FR_法国36
-  - 🇺🇸 美国(nodefree.org) 2437
-  - 🇺🇸 美国(nodefree.org) 2538
-  - 🇺🇸 _US_美国39
-  - 🇯🇵 日本(nodefree.org) 240
-  - 🇺🇸 美国(nodefree.org) 2641
-  - 🇩🇪 _DE_德国 242
-  - 🇺🇸 美国(nodefree.org) 2743
-  - 🇰🇷 韩国(nodefree.org) 244
-  - 🇰🇷 _KR_韩国45
-  - 🇺🇸 美国(nodefree.org) 2846
-  - 🇱🇺 卢森堡(nodefree.org)47
-  - 🇺🇸 美国(nodefree.org) 2948
-  - 🇺🇸 美国(nodefree.org) 3049
-  - 🇭🇰 香港(nodefree.org)50
-  - 🇺🇸 美国(nodefree.org) 3151
-  - 🇺🇸 美国(nodefree.org) 3252
-  - 🇺🇸 美国(nodefree.org) 3353
-  - 🇭🇰 香港(nodefree.org) 254
-  - 🇺🇸 美国(nodefree.org) 3455
-  - 🇺🇸 美国(nodefree.org) 3556
-  - 🇺🇸 美国(nodefree.org) 3657
-  - 🇺🇸 美国(nodefree.org) 3758
-  - 🇭🇰 香港BGP|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾|tg频道:@ripaojiedian60
-  - 🇰🇷 韩国快|tg频道:@ripaojiedian61
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian62
-  - 🇺🇸 美国|tg频道:@ripaojiedian63
-  - 🇭🇰 香港|tg频道:@ripaojiedian64
-  - 🇯🇵 日本1|tg频道:@ripaojiedian65
-  - 欢迎分享给需要的人66
-  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian67
-  - 🇺🇸 美国2|tg频道:@ripaojiedian68
-  - 🇺🇸 美国1|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇺🇸 美国中转|tg频道:@ripaojiedian71
-  - 欢迎分享给需要的人 272
+  - 🇯🇵 _JP_日本1
+  - 🇭🇰 _HK_香港2
+  - 🇯🇵 _JP_日本 23
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国4
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港5
+  - default_name6
+  - 🇺🇸 _US_美国7
+  - default_name 28
+  - 🇸🇬 _SG_新加坡9
+  - 🇺🇸 _US_美国 210
+  - 🇭🇰 _HK_香港->🇩🇪_DE_德国11
+  - default_name 312
+  - default_name 413
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国14
+  - 🇰🇷 _KR_韩国->🇺🇸_US_美国15
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 216
+  - default_name 517
+  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰18
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 319
+  - 🇸🇬 _SG_新加坡 220
+  - 🇺🇸 _US_美国 321
+  - 🇺🇸 _US_美国 422
+  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡23
+  - 🇭🇰 香港BGP|tg频道:@ripaojiedian24
+  - 🇨🇳 台湾|tg频道:@ripaojiedian25
+  - 🇰🇷 韩国快|tg频道:@ripaojiedian26
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian27
+  - 🇺🇸 美国|tg频道:@ripaojiedian28
+  - 🇭🇰 香港|tg频道:@ripaojiedian29
+  - 🇯🇵 日本1|tg频道:@ripaojiedian30
+  - 欢迎分享给需要的人31
+  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian32
+  - 🇺🇸 美国2|tg频道:@ripaojiedian33
+  - 🇺🇸 美国1|tg频道:@ripaojiedian34
+  - 🇰🇷 韩国|tg频道:@ripaojiedian35
+  - 🇺🇸 美国中转|tg频道:@ripaojiedian36
+  - 欢迎分享给需要的人 237
+  - 🇯🇵 _JP_日本1
+  - 🇭🇰 _HK_香港2
+  - 🇯🇵 _JP_日本 23
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国4
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港5
+  - default_name6
+  - 🇺🇸 _US_美国7
+  - default_name 28
+  - 🇸🇬 _SG_新加坡9
+  - 🇺🇸 _US_美国 210
+  - 🇭🇰 _HK_香港->🇩🇪_DE_德国11
+  - default_name 312
+  - default_name 413
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国14
+  - 🇰🇷 _KR_韩国->🇺🇸_US_美国15
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 216
+  - default_name 517
+  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰18
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 319
+  - 🇸🇬 _SG_新加坡 220
+  - 🇺🇸 _US_美国 321
+  - 🇺🇸 _US_美国 422
+  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡23
+  - 🇭🇰 香港BGP|tg频道:@ripaojiedian24
+  - 🇨🇳 台湾|tg频道:@ripaojiedian25
+  - 🇰🇷 韩国快|tg频道:@ripaojiedian26
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian27
+  - 🇺🇸 美国|tg频道:@ripaojiedian28
+  - 🇭🇰 香港|tg频道:@ripaojiedian29
+  - 🇯🇵 日本1|tg频道:@ripaojiedian30
+  - 欢迎分享给需要的人31
+  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian32
+  - 🇺🇸 美国2|tg频道:@ripaojiedian33
+  - 🇺🇸 美国1|tg频道:@ripaojiedian34
+  - 🇰🇷 韩国|tg频道:@ripaojiedian35
+  - 🇺🇸 美国中转|tg频道:@ripaojiedian36
+  - 欢迎分享给需要的人 237
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -1192,388 +580,213 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇯🇵 日本(nodefree.org)1
-  - 亚洲(nodefree.org)2
-  - 🇰🇷 韩国(nodefree.org)3
-  - 🇺🇸 美国(nodefree.org)4
-  - 🇺🇸 美国(nodefree.org) 25
-  - 🇺🇸 美国(nodefree.org) 36
-  - 🇫🇷 法国(nodefree.org)7
-  - 🇺🇸 美国(nodefree.org) 48
-  - 🇺🇸 美国(nodefree.org) 59
-  - 🇪🇺 欧洲(nodefree.org)10
-  - 🇪🇺 欧洲(nodefree.org) 211
-  - 🇪🇺 欧洲(nodefree.org) 312
-  - 🇺🇸 美国(nodefree.org) 613
-  - 🇺🇸 美国(nodefree.org) 714
-  - 🇺🇸 美国(nodefree.org) 815
-  - 🇺🇸 美国(nodefree.org) 916
-  - 🇺🇸 美国(nodefree.org) 1017
-  - 🇩🇪 _DE_德国18
-  - 🇺🇸 美国(nodefree.org) 1119
-  - 🇺🇸 美国(nodefree.org) 1220
-  - 🇺🇸 美国(nodefree.org) 1321
-  - 🇺🇸 美国(nodefree.org) 1422
-  - 🇺🇸 美国(nodefree.org) 1523
-  - 🇪🇺 欧洲(nodefree.org) 424
-  - 🇺🇸 美国(nodefree.org) 1625
-  - 🇪🇺 欧洲(nodefree.org) 526
-  - 🇺🇸 美国(nodefree.org) 1727
-  - 🇺🇸 美国(nodefree.org) 1828
-  - 🇺🇸 美国(nodefree.org) 1929
-  - 🇺🇸 美国(nodefree.org) 2030
-  - 🇨🇳 台湾(nodefree.org)31
-  - 🇺🇸 美国(nodefree.org) 2132
-  - 🇺🇸 美国(nodefree.org) 2233
-  - 🇺🇸 美国(nodefree.org) 2334
-  - 🇪🇺 欧洲(nodefree.org) 635
-  - 🇫🇷 _FR_法国36
-  - 🇺🇸 美国(nodefree.org) 2437
-  - 🇺🇸 美国(nodefree.org) 2538
-  - 🇺🇸 _US_美国39
-  - 🇯🇵 日本(nodefree.org) 240
-  - 🇺🇸 美国(nodefree.org) 2641
-  - 🇩🇪 _DE_德国 242
-  - 🇺🇸 美国(nodefree.org) 2743
-  - 🇰🇷 韩国(nodefree.org) 244
-  - 🇰🇷 _KR_韩国45
-  - 🇺🇸 美国(nodefree.org) 2846
-  - 🇱🇺 卢森堡(nodefree.org)47
-  - 🇺🇸 美国(nodefree.org) 2948
-  - 🇺🇸 美国(nodefree.org) 3049
-  - 🇭🇰 香港(nodefree.org)50
-  - 🇺🇸 美国(nodefree.org) 3151
-  - 🇺🇸 美国(nodefree.org) 3252
-  - 🇺🇸 美国(nodefree.org) 3353
-  - 🇭🇰 香港(nodefree.org) 254
-  - 🇺🇸 美国(nodefree.org) 3455
-  - 🇺🇸 美国(nodefree.org) 3556
-  - 🇺🇸 美国(nodefree.org) 3657
-  - 🇺🇸 美国(nodefree.org) 3758
-  - 🇭🇰 香港BGP|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾|tg频道:@ripaojiedian60
-  - 🇰🇷 韩国快|tg频道:@ripaojiedian61
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian62
-  - 🇺🇸 美国|tg频道:@ripaojiedian63
-  - 🇭🇰 香港|tg频道:@ripaojiedian64
-  - 🇯🇵 日本1|tg频道:@ripaojiedian65
-  - 欢迎分享给需要的人66
-  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian67
-  - 🇺🇸 美国2|tg频道:@ripaojiedian68
-  - 🇺🇸 美国1|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇺🇸 美国中转|tg频道:@ripaojiedian71
-  - 欢迎分享给需要的人 272
+  - 🇯🇵 _JP_日本1
+  - 🇭🇰 _HK_香港2
+  - 🇯🇵 _JP_日本 23
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国4
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港5
+  - default_name6
+  - 🇺🇸 _US_美国7
+  - default_name 28
+  - 🇸🇬 _SG_新加坡9
+  - 🇺🇸 _US_美国 210
+  - 🇭🇰 _HK_香港->🇩🇪_DE_德国11
+  - default_name 312
+  - default_name 413
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国14
+  - 🇰🇷 _KR_韩国->🇺🇸_US_美国15
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 216
+  - default_name 517
+  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰18
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 319
+  - 🇸🇬 _SG_新加坡 220
+  - 🇺🇸 _US_美国 321
+  - 🇺🇸 _US_美国 422
+  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡23
+  - 🇭🇰 香港BGP|tg频道:@ripaojiedian24
+  - 🇨🇳 台湾|tg频道:@ripaojiedian25
+  - 🇰🇷 韩国快|tg频道:@ripaojiedian26
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian27
+  - 🇺🇸 美国|tg频道:@ripaojiedian28
+  - 🇭🇰 香港|tg频道:@ripaojiedian29
+  - 🇯🇵 日本1|tg频道:@ripaojiedian30
+  - 欢迎分享给需要的人31
+  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian32
+  - 🇺🇸 美国2|tg频道:@ripaojiedian33
+  - 🇺🇸 美国1|tg频道:@ripaojiedian34
+  - 🇰🇷 韩国|tg频道:@ripaojiedian35
+  - 🇺🇸 美国中转|tg频道:@ripaojiedian36
+  - 欢迎分享给需要的人 237
 - name: 🎯 全球直连
   type: select
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
-  - 🇯🇵 日本(nodefree.org)1
-  - 亚洲(nodefree.org)2
-  - 🇰🇷 韩国(nodefree.org)3
-  - 🇺🇸 美国(nodefree.org)4
-  - 🇺🇸 美国(nodefree.org) 25
-  - 🇺🇸 美国(nodefree.org) 36
-  - 🇫🇷 法国(nodefree.org)7
-  - 🇺🇸 美国(nodefree.org) 48
-  - 🇺🇸 美国(nodefree.org) 59
-  - 🇪🇺 欧洲(nodefree.org)10
-  - 🇪🇺 欧洲(nodefree.org) 211
-  - 🇪🇺 欧洲(nodefree.org) 312
-  - 🇺🇸 美国(nodefree.org) 613
-  - 🇺🇸 美国(nodefree.org) 714
-  - 🇺🇸 美国(nodefree.org) 815
-  - 🇺🇸 美国(nodefree.org) 916
-  - 🇺🇸 美国(nodefree.org) 1017
-  - 🇩🇪 _DE_德国18
-  - 🇺🇸 美国(nodefree.org) 1119
-  - 🇺🇸 美国(nodefree.org) 1220
-  - 🇺🇸 美国(nodefree.org) 1321
-  - 🇺🇸 美国(nodefree.org) 1422
-  - 🇺🇸 美国(nodefree.org) 1523
-  - 🇪🇺 欧洲(nodefree.org) 424
-  - 🇺🇸 美国(nodefree.org) 1625
-  - 🇪🇺 欧洲(nodefree.org) 526
-  - 🇺🇸 美国(nodefree.org) 1727
-  - 🇺🇸 美国(nodefree.org) 1828
-  - 🇺🇸 美国(nodefree.org) 1929
-  - 🇺🇸 美国(nodefree.org) 2030
-  - 🇨🇳 台湾(nodefree.org)31
-  - 🇺🇸 美国(nodefree.org) 2132
-  - 🇺🇸 美国(nodefree.org) 2233
-  - 🇺🇸 美国(nodefree.org) 2334
-  - 🇪🇺 欧洲(nodefree.org) 635
-  - 🇫🇷 _FR_法国36
-  - 🇺🇸 美国(nodefree.org) 2437
-  - 🇺🇸 美国(nodefree.org) 2538
-  - 🇺🇸 _US_美国39
-  - 🇯🇵 日本(nodefree.org) 240
-  - 🇺🇸 美国(nodefree.org) 2641
-  - 🇩🇪 _DE_德国 242
-  - 🇺🇸 美国(nodefree.org) 2743
-  - 🇰🇷 韩国(nodefree.org) 244
-  - 🇰🇷 _KR_韩国45
-  - 🇺🇸 美国(nodefree.org) 2846
-  - 🇱🇺 卢森堡(nodefree.org)47
-  - 🇺🇸 美国(nodefree.org) 2948
-  - 🇺🇸 美国(nodefree.org) 3049
-  - 🇭🇰 香港(nodefree.org)50
-  - 🇺🇸 美国(nodefree.org) 3151
-  - 🇺🇸 美国(nodefree.org) 3252
-  - 🇺🇸 美国(nodefree.org) 3353
-  - 🇭🇰 香港(nodefree.org) 254
-  - 🇺🇸 美国(nodefree.org) 3455
-  - 🇺🇸 美国(nodefree.org) 3556
-  - 🇺🇸 美国(nodefree.org) 3657
-  - 🇺🇸 美国(nodefree.org) 3758
-  - 🇭🇰 香港BGP|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾|tg频道:@ripaojiedian60
-  - 🇰🇷 韩国快|tg频道:@ripaojiedian61
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian62
-  - 🇺🇸 美国|tg频道:@ripaojiedian63
-  - 🇭🇰 香港|tg频道:@ripaojiedian64
-  - 🇯🇵 日本1|tg频道:@ripaojiedian65
-  - 欢迎分享给需要的人66
-  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian67
-  - 🇺🇸 美国2|tg频道:@ripaojiedian68
-  - 🇺🇸 美国1|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇺🇸 美国中转|tg频道:@ripaojiedian71
-  - 欢迎分享给需要的人 272
+  - 🇯🇵 _JP_日本1
+  - 🇭🇰 _HK_香港2
+  - 🇯🇵 _JP_日本 23
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国4
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港5
+  - default_name6
+  - 🇺🇸 _US_美国7
+  - default_name 28
+  - 🇸🇬 _SG_新加坡9
+  - 🇺🇸 _US_美国 210
+  - 🇭🇰 _HK_香港->🇩🇪_DE_德国11
+  - default_name 312
+  - default_name 413
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国14
+  - 🇰🇷 _KR_韩国->🇺🇸_US_美国15
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 216
+  - default_name 517
+  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰18
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 319
+  - 🇸🇬 _SG_新加坡 220
+  - 🇺🇸 _US_美国 321
+  - 🇺🇸 _US_美国 422
+  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡23
+  - 🇭🇰 香港BGP|tg频道:@ripaojiedian24
+  - 🇨🇳 台湾|tg频道:@ripaojiedian25
+  - 🇰🇷 韩国快|tg频道:@ripaojiedian26
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian27
+  - 🇺🇸 美国|tg频道:@ripaojiedian28
+  - 🇭🇰 香港|tg频道:@ripaojiedian29
+  - 🇯🇵 日本1|tg频道:@ripaojiedian30
+  - 欢迎分享给需要的人31
+  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian32
+  - 🇺🇸 美国2|tg频道:@ripaojiedian33
+  - 🇺🇸 美国1|tg频道:@ripaojiedian34
+  - 🇰🇷 韩国|tg频道:@ripaojiedian35
+  - 🇺🇸 美国中转|tg频道:@ripaojiedian36
+  - 欢迎分享给需要的人 237
 - name: 🛑 全球拦截
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 🇯🇵 日本(nodefree.org)1
-  - 亚洲(nodefree.org)2
-  - 🇰🇷 韩国(nodefree.org)3
-  - 🇺🇸 美国(nodefree.org)4
-  - 🇺🇸 美国(nodefree.org) 25
-  - 🇺🇸 美国(nodefree.org) 36
-  - 🇫🇷 法国(nodefree.org)7
-  - 🇺🇸 美国(nodefree.org) 48
-  - 🇺🇸 美国(nodefree.org) 59
-  - 🇪🇺 欧洲(nodefree.org)10
-  - 🇪🇺 欧洲(nodefree.org) 211
-  - 🇪🇺 欧洲(nodefree.org) 312
-  - 🇺🇸 美国(nodefree.org) 613
-  - 🇺🇸 美国(nodefree.org) 714
-  - 🇺🇸 美国(nodefree.org) 815
-  - 🇺🇸 美国(nodefree.org) 916
-  - 🇺🇸 美国(nodefree.org) 1017
-  - 🇩🇪 _DE_德国18
-  - 🇺🇸 美国(nodefree.org) 1119
-  - 🇺🇸 美国(nodefree.org) 1220
-  - 🇺🇸 美国(nodefree.org) 1321
-  - 🇺🇸 美国(nodefree.org) 1422
-  - 🇺🇸 美国(nodefree.org) 1523
-  - 🇪🇺 欧洲(nodefree.org) 424
-  - 🇺🇸 美国(nodefree.org) 1625
-  - 🇪🇺 欧洲(nodefree.org) 526
-  - 🇺🇸 美国(nodefree.org) 1727
-  - 🇺🇸 美国(nodefree.org) 1828
-  - 🇺🇸 美国(nodefree.org) 1929
-  - 🇺🇸 美国(nodefree.org) 2030
-  - 🇨🇳 台湾(nodefree.org)31
-  - 🇺🇸 美国(nodefree.org) 2132
-  - 🇺🇸 美国(nodefree.org) 2233
-  - 🇺🇸 美国(nodefree.org) 2334
-  - 🇪🇺 欧洲(nodefree.org) 635
-  - 🇫🇷 _FR_法国36
-  - 🇺🇸 美国(nodefree.org) 2437
-  - 🇺🇸 美国(nodefree.org) 2538
-  - 🇺🇸 _US_美国39
-  - 🇯🇵 日本(nodefree.org) 240
-  - 🇺🇸 美国(nodefree.org) 2641
-  - 🇩🇪 _DE_德国 242
-  - 🇺🇸 美国(nodefree.org) 2743
-  - 🇰🇷 韩国(nodefree.org) 244
-  - 🇰🇷 _KR_韩国45
-  - 🇺🇸 美国(nodefree.org) 2846
-  - 🇱🇺 卢森堡(nodefree.org)47
-  - 🇺🇸 美国(nodefree.org) 2948
-  - 🇺🇸 美国(nodefree.org) 3049
-  - 🇭🇰 香港(nodefree.org)50
-  - 🇺🇸 美国(nodefree.org) 3151
-  - 🇺🇸 美国(nodefree.org) 3252
-  - 🇺🇸 美国(nodefree.org) 3353
-  - 🇭🇰 香港(nodefree.org) 254
-  - 🇺🇸 美国(nodefree.org) 3455
-  - 🇺🇸 美国(nodefree.org) 3556
-  - 🇺🇸 美国(nodefree.org) 3657
-  - 🇺🇸 美国(nodefree.org) 3758
-  - 🇭🇰 香港BGP|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾|tg频道:@ripaojiedian60
-  - 🇰🇷 韩国快|tg频道:@ripaojiedian61
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian62
-  - 🇺🇸 美国|tg频道:@ripaojiedian63
-  - 🇭🇰 香港|tg频道:@ripaojiedian64
-  - 🇯🇵 日本1|tg频道:@ripaojiedian65
-  - 欢迎分享给需要的人66
-  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian67
-  - 🇺🇸 美国2|tg频道:@ripaojiedian68
-  - 🇺🇸 美国1|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇺🇸 美国中转|tg频道:@ripaojiedian71
-  - 欢迎分享给需要的人 272
+  - 🇯🇵 _JP_日本1
+  - 🇭🇰 _HK_香港2
+  - 🇯🇵 _JP_日本 23
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国4
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港5
+  - default_name6
+  - 🇺🇸 _US_美国7
+  - default_name 28
+  - 🇸🇬 _SG_新加坡9
+  - 🇺🇸 _US_美国 210
+  - 🇭🇰 _HK_香港->🇩🇪_DE_德国11
+  - default_name 312
+  - default_name 413
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国14
+  - 🇰🇷 _KR_韩国->🇺🇸_US_美国15
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 216
+  - default_name 517
+  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰18
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 319
+  - 🇸🇬 _SG_新加坡 220
+  - 🇺🇸 _US_美国 321
+  - 🇺🇸 _US_美国 422
+  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡23
+  - 🇭🇰 香港BGP|tg频道:@ripaojiedian24
+  - 🇨🇳 台湾|tg频道:@ripaojiedian25
+  - 🇰🇷 韩国快|tg频道:@ripaojiedian26
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian27
+  - 🇺🇸 美国|tg频道:@ripaojiedian28
+  - 🇭🇰 香港|tg频道:@ripaojiedian29
+  - 🇯🇵 日本1|tg频道:@ripaojiedian30
+  - 欢迎分享给需要的人31
+  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian32
+  - 🇺🇸 美国2|tg频道:@ripaojiedian33
+  - 🇺🇸 美国1|tg频道:@ripaojiedian34
+  - 🇰🇷 韩国|tg频道:@ripaojiedian35
+  - 🇺🇸 美国中转|tg频道:@ripaojiedian36
+  - 欢迎分享给需要的人 237
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 🇯🇵 日本(nodefree.org)1
-  - 亚洲(nodefree.org)2
-  - 🇰🇷 韩国(nodefree.org)3
-  - 🇺🇸 美国(nodefree.org)4
-  - 🇺🇸 美国(nodefree.org) 25
-  - 🇺🇸 美国(nodefree.org) 36
-  - 🇫🇷 法国(nodefree.org)7
-  - 🇺🇸 美国(nodefree.org) 48
-  - 🇺🇸 美国(nodefree.org) 59
-  - 🇪🇺 欧洲(nodefree.org)10
-  - 🇪🇺 欧洲(nodefree.org) 211
-  - 🇪🇺 欧洲(nodefree.org) 312
-  - 🇺🇸 美国(nodefree.org) 613
-  - 🇺🇸 美国(nodefree.org) 714
-  - 🇺🇸 美国(nodefree.org) 815
-  - 🇺🇸 美国(nodefree.org) 916
-  - 🇺🇸 美国(nodefree.org) 1017
-  - 🇩🇪 _DE_德国18
-  - 🇺🇸 美国(nodefree.org) 1119
-  - 🇺🇸 美国(nodefree.org) 1220
-  - 🇺🇸 美国(nodefree.org) 1321
-  - 🇺🇸 美国(nodefree.org) 1422
-  - 🇺🇸 美国(nodefree.org) 1523
-  - 🇪🇺 欧洲(nodefree.org) 424
-  - 🇺🇸 美国(nodefree.org) 1625
-  - 🇪🇺 欧洲(nodefree.org) 526
-  - 🇺🇸 美国(nodefree.org) 1727
-  - 🇺🇸 美国(nodefree.org) 1828
-  - 🇺🇸 美国(nodefree.org) 1929
-  - 🇺🇸 美国(nodefree.org) 2030
-  - 🇨🇳 台湾(nodefree.org)31
-  - 🇺🇸 美国(nodefree.org) 2132
-  - 🇺🇸 美国(nodefree.org) 2233
-  - 🇺🇸 美国(nodefree.org) 2334
-  - 🇪🇺 欧洲(nodefree.org) 635
-  - 🇫🇷 _FR_法国36
-  - 🇺🇸 美国(nodefree.org) 2437
-  - 🇺🇸 美国(nodefree.org) 2538
-  - 🇺🇸 _US_美国39
-  - 🇯🇵 日本(nodefree.org) 240
-  - 🇺🇸 美国(nodefree.org) 2641
-  - 🇩🇪 _DE_德国 242
-  - 🇺🇸 美国(nodefree.org) 2743
-  - 🇰🇷 韩国(nodefree.org) 244
-  - 🇰🇷 _KR_韩国45
-  - 🇺🇸 美国(nodefree.org) 2846
-  - 🇱🇺 卢森堡(nodefree.org)47
-  - 🇺🇸 美国(nodefree.org) 2948
-  - 🇺🇸 美国(nodefree.org) 3049
-  - 🇭🇰 香港(nodefree.org)50
-  - 🇺🇸 美国(nodefree.org) 3151
-  - 🇺🇸 美国(nodefree.org) 3252
-  - 🇺🇸 美国(nodefree.org) 3353
-  - 🇭🇰 香港(nodefree.org) 254
-  - 🇺🇸 美国(nodefree.org) 3455
-  - 🇺🇸 美国(nodefree.org) 3556
-  - 🇺🇸 美国(nodefree.org) 3657
-  - 🇺🇸 美国(nodefree.org) 3758
-  - 🇭🇰 香港BGP|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾|tg频道:@ripaojiedian60
-  - 🇰🇷 韩国快|tg频道:@ripaojiedian61
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian62
-  - 🇺🇸 美国|tg频道:@ripaojiedian63
-  - 🇭🇰 香港|tg频道:@ripaojiedian64
-  - 🇯🇵 日本1|tg频道:@ripaojiedian65
-  - 欢迎分享给需要的人66
-  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian67
-  - 🇺🇸 美国2|tg频道:@ripaojiedian68
-  - 🇺🇸 美国1|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇺🇸 美国中转|tg频道:@ripaojiedian71
-  - 欢迎分享给需要的人 272
+  - 🇯🇵 _JP_日本1
+  - 🇭🇰 _HK_香港2
+  - 🇯🇵 _JP_日本 23
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国4
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港5
+  - default_name6
+  - 🇺🇸 _US_美国7
+  - default_name 28
+  - 🇸🇬 _SG_新加坡9
+  - 🇺🇸 _US_美国 210
+  - 🇭🇰 _HK_香港->🇩🇪_DE_德国11
+  - default_name 312
+  - default_name 413
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国14
+  - 🇰🇷 _KR_韩国->🇺🇸_US_美国15
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 216
+  - default_name 517
+  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰18
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 319
+  - 🇸🇬 _SG_新加坡 220
+  - 🇺🇸 _US_美国 321
+  - 🇺🇸 _US_美国 422
+  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡23
+  - 🇭🇰 香港BGP|tg频道:@ripaojiedian24
+  - 🇨🇳 台湾|tg频道:@ripaojiedian25
+  - 🇰🇷 韩国快|tg频道:@ripaojiedian26
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian27
+  - 🇺🇸 美国|tg频道:@ripaojiedian28
+  - 🇭🇰 香港|tg频道:@ripaojiedian29
+  - 🇯🇵 日本1|tg频道:@ripaojiedian30
+  - 欢迎分享给需要的人31
+  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian32
+  - 🇺🇸 美国2|tg频道:@ripaojiedian33
+  - 🇺🇸 美国1|tg频道:@ripaojiedian34
+  - 🇰🇷 韩国|tg频道:@ripaojiedian35
+  - 🇺🇸 美国中转|tg频道:@ripaojiedian36
+  - 欢迎分享给需要的人 237
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇯🇵 日本(nodefree.org)1
-  - 亚洲(nodefree.org)2
-  - 🇰🇷 韩国(nodefree.org)3
-  - 🇺🇸 美国(nodefree.org)4
-  - 🇺🇸 美国(nodefree.org) 25
-  - 🇺🇸 美国(nodefree.org) 36
-  - 🇫🇷 法国(nodefree.org)7
-  - 🇺🇸 美国(nodefree.org) 48
-  - 🇺🇸 美国(nodefree.org) 59
-  - 🇪🇺 欧洲(nodefree.org)10
-  - 🇪🇺 欧洲(nodefree.org) 211
-  - 🇪🇺 欧洲(nodefree.org) 312
-  - 🇺🇸 美国(nodefree.org) 613
-  - 🇺🇸 美国(nodefree.org) 714
-  - 🇺🇸 美国(nodefree.org) 815
-  - 🇺🇸 美国(nodefree.org) 916
-  - 🇺🇸 美国(nodefree.org) 1017
-  - 🇩🇪 _DE_德国18
-  - 🇺🇸 美国(nodefree.org) 1119
-  - 🇺🇸 美国(nodefree.org) 1220
-  - 🇺🇸 美国(nodefree.org) 1321
-  - 🇺🇸 美国(nodefree.org) 1422
-  - 🇺🇸 美国(nodefree.org) 1523
-  - 🇪🇺 欧洲(nodefree.org) 424
-  - 🇺🇸 美国(nodefree.org) 1625
-  - 🇪🇺 欧洲(nodefree.org) 526
-  - 🇺🇸 美国(nodefree.org) 1727
-  - 🇺🇸 美国(nodefree.org) 1828
-  - 🇺🇸 美国(nodefree.org) 1929
-  - 🇺🇸 美国(nodefree.org) 2030
-  - 🇨🇳 台湾(nodefree.org)31
-  - 🇺🇸 美国(nodefree.org) 2132
-  - 🇺🇸 美国(nodefree.org) 2233
-  - 🇺🇸 美国(nodefree.org) 2334
-  - 🇪🇺 欧洲(nodefree.org) 635
-  - 🇫🇷 _FR_法国36
-  - 🇺🇸 美国(nodefree.org) 2437
-  - 🇺🇸 美国(nodefree.org) 2538
-  - 🇺🇸 _US_美国39
-  - 🇯🇵 日本(nodefree.org) 240
-  - 🇺🇸 美国(nodefree.org) 2641
-  - 🇩🇪 _DE_德国 242
-  - 🇺🇸 美国(nodefree.org) 2743
-  - 🇰🇷 韩国(nodefree.org) 244
-  - 🇰🇷 _KR_韩国45
-  - 🇺🇸 美国(nodefree.org) 2846
-  - 🇱🇺 卢森堡(nodefree.org)47
-  - 🇺🇸 美国(nodefree.org) 2948
-  - 🇺🇸 美国(nodefree.org) 3049
-  - 🇭🇰 香港(nodefree.org)50
-  - 🇺🇸 美国(nodefree.org) 3151
-  - 🇺🇸 美国(nodefree.org) 3252
-  - 🇺🇸 美国(nodefree.org) 3353
-  - 🇭🇰 香港(nodefree.org) 254
-  - 🇺🇸 美国(nodefree.org) 3455
-  - 🇺🇸 美国(nodefree.org) 3556
-  - 🇺🇸 美国(nodefree.org) 3657
-  - 🇺🇸 美国(nodefree.org) 3758
-  - 🇭🇰 香港BGP|tg频道:@ripaojiedian59
-  - 🇨🇳 台湾|tg频道:@ripaojiedian60
-  - 🇰🇷 韩国快|tg频道:@ripaojiedian61
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian62
-  - 🇺🇸 美国|tg频道:@ripaojiedian63
-  - 🇭🇰 香港|tg频道:@ripaojiedian64
-  - 🇯🇵 日本1|tg频道:@ripaojiedian65
-  - 欢迎分享给需要的人66
-  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian67
-  - 🇺🇸 美国2|tg频道:@ripaojiedian68
-  - 🇺🇸 美国1|tg频道:@ripaojiedian69
-  - 🇰🇷 韩国|tg频道:@ripaojiedian70
-  - 🇺🇸 美国中转|tg频道:@ripaojiedian71
-  - 欢迎分享给需要的人 272
+  - 🇯🇵 _JP_日本1
+  - 🇭🇰 _HK_香港2
+  - 🇯🇵 _JP_日本 23
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国4
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港5
+  - default_name6
+  - 🇺🇸 _US_美国7
+  - default_name 28
+  - 🇸🇬 _SG_新加坡9
+  - 🇺🇸 _US_美国 210
+  - 🇭🇰 _HK_香港->🇩🇪_DE_德国11
+  - default_name 312
+  - default_name 413
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国14
+  - 🇰🇷 _KR_韩国->🇺🇸_US_美国15
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 216
+  - default_name 517
+  - 🇺🇸 _US_美国->🇳🇱_NL_荷兰18
+  - 🇺🇸 _US_美国->🇩🇪_DE_德国 319
+  - 🇸🇬 _SG_新加坡 220
+  - 🇺🇸 _US_美国 321
+  - 🇺🇸 _US_美国 422
+  - 🇸🇬 _US_美国->🇸🇬_SG_新加坡23
+  - 🇭🇰 香港BGP|tg频道:@ripaojiedian24
+  - 🇨🇳 台湾|tg频道:@ripaojiedian25
+  - 🇰🇷 韩国快|tg频道:@ripaojiedian26
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian27
+  - 🇺🇸 美国|tg频道:@ripaojiedian28
+  - 🇭🇰 香港|tg频道:@ripaojiedian29
+  - 🇯🇵 日本1|tg频道:@ripaojiedian30
+  - 欢迎分享给需要的人31
+  - 🇺🇸 洛杉矶|tg频道:@ripaojiedian32
+  - 🇺🇸 美国2|tg频道:@ripaojiedian33
+  - 🇺🇸 美国1|tg频道:@ripaojiedian34
+  - 🇰🇷 韩国|tg频道:@ripaojiedian35
+  - 🇺🇸 美国中转|tg频道:@ripaojiedian36
+  - 欢迎分享给需要的人 237
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
