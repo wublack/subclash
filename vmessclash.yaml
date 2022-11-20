@@ -26,59 +26,8 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 🇭🇰 _HK_香港1
-  server: v2-hkg-cm.clsnet.online
-  port: 543
-  type: vmess
-  uuid: 7ee5a840-75d1-34a8-bd2a-187cdb286792
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸 _US_美国2
-  server: ocrb1.happyfree.top
-  port: 443
-  type: trojan
-  password: 6578df36-8b6f-4411-b42a-521877145573
-  skip-cert-verify: false
-- name: 🇺🇸 _US_美国 23
-  server: dba.happyfree.top
-  port: 443
-  type: trojan
-  password: 6578df36-8b6f-4411-b42a-521877145573
-  skip-cert-verify: false
-- name: 🇺🇸 _US_美国->🇩🇪_DE_德国4
-  server: 172.64.154.222
-  port: 443
-  type: vmess
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg1.cfcdn1.xyz
-- name: 🇺🇸 _US_美国 35
-  server: 129.146.190.42
-  port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  skip-cert-verify: false
-- name: 🇯🇵 _JP_日本6
-  server: jp-am48-6.eqnode.net
-  port: 8081
-  type: ssr
-  cipher: aes-256-cfb
-  password: eAokbaDN6
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: default_name7
-  server: 198.41.212.155
+- name: default_name1
+  server: 141.101.115.100
   port: 443
   type: vmess
   uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
@@ -91,27 +40,7 @@ proxies:
     path: /VHONOFZ3
     headers:
       Host: lg1.cfcdn2.xyz
-- name: 🇯🇵 _JP_日本 28
-  server: ocrb2.happyfree.top
-  port: 443
-  type: trojan
-  password: 6578df36-8b6f-4411-b42a-521877145573
-  skip-cert-verify: false
-- name: default_name 29
-  server: 141.101.115.20
-  port: 443
-  type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash1.trump2023.net
-- name: 🇺🇸 _US_美国 410
+- name: 🇺🇸 _US_美国2
   server: 172.67.225.31
   port: 443
   type: vmess
@@ -125,25 +54,11 @@ proxies:
     path: /
     headers:
       Host: 38.72img.xyz
-- name: default_name 311
-  server: techplanet.today
-  port: 2083
-  type: vmess
-  uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xui.mycf.ml
-- name: 🇺🇸 _US_美国 512
-  server: 128.14.140.254
+- name: default_name 23
+  server: 198.41.212.100
   port: 443
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
   alterId: 0
   cipher: auto
   tls: true
@@ -152,50 +67,140 @@ proxies:
   ws-opts:
     path: /dongtaiwang.com
     headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇳🇱 _NL_荷兰13
+      Host: lg1.cfcdn3.xyz
+- name: 🇩🇪 _DE_德国4
+  server: 33.72img.xyz
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 33.72img.xyz
+- name: default_name 35
+  server: 141.101.115.120
+  port: 443
+  type: vmess
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg1.cfcdn3.xyz
+- name: 🇺🇸 _US_美国 26
+  server: 129.146.242.130
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  skip-cert-verify: false
+- name: default_name 47
+  server: 141.101.115.20
+  port: 443
+  type: vmess
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash1.trump2023.net
+- name: 🇳🇱 _NL_荷兰8
+  server: content-provider24.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇳🇱 _NL_荷兰 29
+  server: 185.212.200.75
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  skip-cert-verify: false
+- name: 🇮🇹 _IT_意大利10
+  server: 34.72img.xyz
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 34.72img.xyz
+- name: default_name 511
+  server: sl2.mayaa.eu.org
+  port: 443
+  type: vmess
+  uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dsadsa144113s
+    headers:
+      Host: sl2.mayaa.eu.org
+- name: 🇳🇱 _NL_荷兰 312
   server: content-provider23.cdn-delivery.akamaicd.com
   port: 443
   type: trojan
   password: Sp3eDVp
   skip-cert-verify: false
+- name: default_name 613
+  server: 141.101.114.121
+  port: 443
+  type: vmess
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: fr2.cfcdn4.xyz
 - name: 🇫🇷 _FR_法国14
   server: content-provider5.cdn-delivery.akamaicd.com
   port: 443
   type: trojan
   password: Sp3eDVp
   skip-cert-verify: false
-- name: 🇺🇸 _US_美国->🇫🇷_FR_法国15
-  server: frr.xlkjjs.top
+- name: 🇰🇷 _US_美国->🇰🇷_KR_韩国15
+  server: sl1.mayaa.eu.org
   port: 443
   type: vmess
-  uuid: b3b0c76a-c54b-37eb-b3aa-8ad440f29baf
+  uuid: 996410c5-812f-44c7-db61-2eedf272122c
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /dsaahjj1111d
     headers:
-      Host: frr.xlkjjs.top
-- name: 🇳🇱 _NL_荷兰 216
-  server: 185.212.200.75
-  port: 443
-  type: trojan
-  password: Sp3eDVp
-  skip-cert-verify: false
-- name: 🇳🇱 _NL_荷兰 317
-  server: content-provider24.cdn-delivery.akamaicd.com
-  port: 443
-  type: trojan
-  password: Sp3eDVp
-  skip-cert-verify: false
-- name: default_name 418
-  server: 198.41.212.150
+      Host: sl1.mayaa.eu.org
+- name: default_name 716
+  server: 141.101.114.20
   port: 443
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
   alterId: 0
   cipher: auto
   tls: true
@@ -204,121 +209,73 @@ proxies:
   ws-opts:
     path: /dongtaiwang.com
     headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇫🇷 _FR_法国 219
+      Host: clash1.trump2023.net
+- name: default_name 817
+  server: 198.41.212.155
+  port: 443
+  type: vmess
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /VHONOFZ3
+    headers:
+      Host: lg1.cfcdn2.xyz
+- name: 🇫🇷 _FR_法国 218
   server: content-provider12.cdn-delivery.akamaicd.com
   port: 443
   type: trojan
   password: origin
   skip-cert-verify: false
-- name: 🇺🇸 _US_美国 620
-  server: cdn.chigua.tk
-  port: 443
-  type: vmess
-  uuid: 3d683981-c68c-43ca-a91b-ae71bfcbf365
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /3d683981
-    headers:
-      Host: philip-did-disclaimers-bill.trycloudflare.com
-- name: 🇮🇳 _IN_印度21
-  server: 152.67.160.174
-  port: 443
-  type: trojan
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  skip-cert-verify: false
-- name: 🇩🇪 _DE_德国22
-  server: 188.34.159.186
-  port: 35855
-  type: vmess
-  uuid: 97e8fba7-327a-4752-8aca-043858a7e518
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇫🇷 _FR_法国 323
-  server: content-provider26.cdn-delivery.akamaicd.com
-  port: 443
-  type: trojan
-  password: origin
-  skip-cert-verify: false
-- name: 🇺🇸 _US_美国 724
-  server: jp1.mayaa.cf
-  port: 443
-  type: vmess
-  uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hfhqqweqwxxx
-    headers:
-      Host: jp1.mayaa.cf
-- name: 🇸🇬 _SG_新加坡25
-  server: lll.277428.xyz
-  port: 40771
-  type: vmess
-  uuid: 61194810-5193-48bc-eb0a-7978a059d681
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-- name: 🇫🇷 _FR_法国 426
-  server: 51.77.71.131
-  port: 443
-  type: trojan
-  password: Sp3eDVp
-  skip-cert-verify: false
-- name: 🇸🇬 _SG_新加坡 227
-  server: sg-am3.eqsunshine.com
-  port: 32001
-  type: ssr
-  cipher: aes-256-cfb
-  password: 3g0dHlKME
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇫🇷 _FR_法国 528
+- name: 🇫🇷 _FR_法国 319
   server: 51.77.71.134
   port: 443
   type: trojan
   password: origin
   skip-cert-verify: false
-- name: 🇺🇸 _US_美国 829
-  server: jp1.happyfree.top
+- name: 🇰🇷 _KR_韩国20
+  server: kr1.api-aws.com
   port: 443
   type: trojan
-  password: 6578df36-8b6f-4411-b42a-521877145573
+  password: 88452dfb-fad4-44b2-b8a1-d230d145848c
   skip-cert-verify: false
-- name: 🇭🇰 _HK_香港 230
-  server: hgc.iamnotagoodman.com
+- name: 🇺🇸 _CN_中国->🇺🇸_US_美国21
+  server: h217022.waihuizhibiaowang.com
+  port: 15143
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2
+- name: 🇲🇾 _MY_马来西亚22
+  server: 123.253.32.50
+  port: 31372
+  type: vmess
+  uuid: 678d0d7d-c651-4ae1-ced1-320783565749
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: _CN_中国23
+  server: h745768.waihuizhibiaowang.com
+  port: 15243
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2
+- name: 🇫🇷 _FR_法国 424
+  server: 51.77.71.131
   port: 443
   type: trojan
-  password: f8d19ba5-8684-45f2-8523-77dbea588955
+  password: Sp3eDVp
   skip-cert-verify: false
-- name: 🇨🇳 _TW_台湾31
-  server: TW.xibai6.top
-  port: 31007
-  type: trojan
-  password: ca2345ba-46e7-3991-b1b7-45d18954caf1
-  skip-cert-verify: false
-- name: 🇯🇵 _JP_日本 332
-  server: trs12.bolab.net
+- name: 🇸🇬 _SG_新加坡25
+  server: tw1111.tfzhc.top
   port: 443
   type: trojan
-  password: 14bdba6dede262387ebdebaa706e1c90
+  password: bd7b4308-a9b3-40cc-a674-1c35f2684549
   skip-cert-verify: false
-- name: 🇭🇰 香港|tg频道:@ripaojiedian33
+- name: 🇭🇰 香港|tg频道:@ripaojiedian26
   server: hk5.996fb.top
   port: 10443
   type: vmess
@@ -332,84 +289,98 @@ proxies:
     path: /
     headers:
       Host: hk4.996fb.top
-- name: 🇨🇳 台湾|tg频道:@ripaojiedian34
-  server: official.taipeicitygovernment.dp.ua
-  port: 8443
+- name: 🇸🇬 订阅每天更新27
+  server: 49.212.221.47
+  port: 2053
   type: trojan
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  sni: 202.182.120.250
+  sni: 49.212.221.47
   skip-cert-verify: false
-- name: 🇯🇵 日本A|tg频道:@ripaojiedian35
-  server: jp04-vm0.entry.srthdw.art
-  port: 448
-  type: vmess
-  uuid: 2059e025-0be8-349c-ab1f-90fa0e66c074
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: bf419d5f59f7d0.windowsupdate.com
-- name: 🇸🇬 狮城SG|tg频道:@ripaojiedian36
+- name: 🇸🇬 狮城1|tg频道:@ripaojiedian28
   server: 45.64.22.55
   port: 443
   type: trojan
   password: TaSXwOxORaZ7pD8DlzCE3yNFS5C38eeCuDng03FcA4BSpjK96YaZRIAlx2yqY3
   sni: mhkla.freetrade.link
   skip-cert-verify: false
-- name: 🇰🇷 韩国|tg频道:@ripaojiedian37
-  server: kr1.api-aws.com
-  port: 443
-  type: trojan
-  password: 36443c4f-4487-48a6-8438-57bd7700b916
-  sni: kr1.api-aws.com
-  skip-cert-verify: false
-- name: 🇯🇵 日本JP|tg频道:@ripaojiedian38
-  server: 45.64.22.55
-  port: 443
-  type: trojan
-  password: ZEIR0qFZau9jOp7x6e8e4y3AaXwS2SzD3llxTyRYKCF8DCD3c5Y3pgNnaSOBAC
-  sni: tensely.freetrade.link
-  skip-cert-verify: false
-- name: 🇯🇵 日本3|tg频道:@ripaojiedian39
-  server: 45.64.22.55
-  port: 443
-  type: trojan
-  password: Ty33ylFA4u6A5e0NE3wRFp3DIa8lZOzC87CeKnxYgpSOSa2ZaXBjDDSY9qCcxR
-  sni: flowery.meijireform.com
-  skip-cert-verify: false
-- name: 🇸🇬 订阅每天更新40
-  server: frontend.yijianlian.app
-  port: 54560
-  type: trojan
-  password: ae3d8af4-4e4f-47a8-a4d7-fda41150d71a
-  sni: frontend.yijianlian.app
-  skip-cert-verify: false
-- name: 🇸🇬 狮城1|tg频道:@ripaojiedian41
-  server: 45.64.22.55
-  port: 443
-  type: trojan
-  password: TaSXwOxORaZ7pD8DlzCE3yNFS5C38eeCuDng03FcA4BSpjK96YaZRIAlx2yqY3
-  sni: mhkla.freetrade.link
-  skip-cert-verify: false
-- name: 🇭🇰 香港HK|tg频道:@ripaojiedian42
-  server: 219.76.13.180
-  port: 443
-  type: trojan
-  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
-  sni: stutter.freetrade.link
-  skip-cert-verify: false
-- name: 🇸🇬 狮城2|tg频道:@ripaojiedian43
+- name: 🇸🇬 狮城2|tg频道:@ripaojiedian29
   server: 45.64.22.55
   port: 443
   type: trojan
   password: NqYpxKxB8A5jnDaISe834lAOaTwEOYzCeSD7CSZyFa0C3ypcR2F9XD3ug36lZR
   sni: pbvre.freetrade.link
   skip-cert-verify: false
-- name: 🇸🇬 使用前更新订阅44
+- name: 🇸🇬 狮城SG|tg频道:@ripaojiedian30
+  server: 45.64.22.55
+  port: 443
+  type: trojan
+  password: TaSXwOxORaZ7pD8DlzCE3yNFS5C38eeCuDng03FcA4BSpjK96YaZRIAlx2yqY3
+  sni: mhkla.freetrade.link
+  skip-cert-verify: false
+- name: 🇯🇵 日本JP|tg频道:@ripaojiedian31
+  server: 45.64.22.55
+  port: 443
+  type: trojan
+  password: ZEIR0qFZau9jOp7x6e8e4y3AaXwS2SzD3llxTyRYKCF8DCD3c5Y3pgNnaSOBAC
+  sni: tensely.freetrade.link
+  skip-cert-verify: false
+- name: 🇯🇵 日本3|tg频道:@ripaojiedian32
+  server: 45.64.22.55
+  port: 443
+  type: trojan
+  password: Ty33ylFA4u6A5e0NE3wRFp3DIa8lZOzC87CeKnxYgpSOSa2ZaXBjDDSY9qCcxR
+  sni: flowery.meijireform.com
+  skip-cert-verify: false
+- name: 🇺🇸 美国D|tg频道:@ripaojiedian33
+  server: 45.12.131.238
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/321113221131
+    headers:
+      Host: www.62896171.xyz
+- name: 🇨🇳 台湾|tg频道:@ripaojiedian34
+  server: frontend.yijianlian.app
+  port: 54570
+  type: trojan
+  password: ae3d8af4-4e4f-47a8-a4d7-fda41150d71a
+  sni: frontend.yijianlian.app
+  skip-cert-verify: false
+- name: 🇨🇳 台湾联通|tg频道:@ripaojiedian35
+  server: tw1111.tfzhc.top
+  port: 443
+  type: trojan
+  password: bd7b4308-a9b3-40cc-a674-1c35f2684549
+  sni: tw1111.tfzhc.top
+  skip-cert-verify: false
+- name: 🇭🇰 香港HK|tg频道:@ripaojiedian36
+  server: 219.76.13.180
+  port: 443
+  type: trojan
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  sni: stutter.freetrade.link
+  skip-cert-verify: false
+- name: 🇺🇸 美国C|tg频道:@ripaojiedian37
+  server: 2.56.121.245
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/321113221131
+    headers:
+      Host: www.94565401.xyz
+- name: 🇸🇬 使用前更新订阅38
   server: 2607:f130:0:103::72f9:6485
   port: 65512
   type: vmess
@@ -418,14 +389,35 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳 台湾联通|tg频道:@ripaojiedian45
-  server: tw1111.tfzhc.top
+- name: 🇰🇷 韩国|tg频道:@ripaojiedian39
+  server: kr1.api-aws.com
   port: 443
   type: trojan
-  password: bd7b4308-a9b3-40cc-a674-1c35f2684549
-  sni: tw1111.tfzhc.top
+  password: 36443c4f-4487-48a6-8438-57bd7700b916
+  sni: kr1.api-aws.com
   skip-cert-verify: false
-- name: 🇺🇸 美国优选|tg频道:@ripaojiedian46
+- name: 🇺🇸 美国A|tg频道:@ripaojiedian40
+  server: 198.2.221.167
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/321113221131
+    headers:
+      Host: www.82852918.xyz
+- name: 🇰🇷 韩国kr|tg频道:@ripaojiedian41
+  server: 121.78.213.3
+  port: 443
+  type: trojan
+  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
+  sni: httah.freetrade.link
+  skip-cert-verify: false
+- name: 🇺🇸 美国优选|tg频道:@ripaojiedian42
   server: 198.41.200.200
   port: 443
   type: vmess
@@ -439,14 +431,21 @@ proxies:
     path: /dwujvws
     headers:
       Host: guil.tk
-- name: 🇨🇳 台湾2|tg频道:@ripaojiedian47
-  server: frontend.yijianlian.app
-  port: 54410
-  type: trojan
-  password: ae3d8af4-4e4f-47a8-a4d7-fda41150d71a
-  sni: frontend.yijianlian.app
+- name: 🇺🇸 美国B|tg频道:@ripaojiedian43
+  server: 154.84.1.214
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
+  alterId: 64
+  cipher: auto
+  tls: true
   skip-cert-verify: false
-- name: 🇭🇰 香港3|tg频道:@ripaojiedian48
+  network: ws
+  ws-opts:
+    path: /path/321113221131
+    headers:
+      Host: www.38463540.xyz
+- name: 🇭🇰 香港3|tg频道:@ripaojiedian44
   server: 219.76.13.181
   port: 443
   type: trojan
@@ -460,156 +459,144 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 🇭🇰 _HK_香港1
+  - default_name1
   - 🇺🇸 _US_美国2
-  - 🇺🇸 _US_美国 23
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国4
-  - 🇺🇸 _US_美国 35
-  - 🇯🇵 _JP_日本6
-  - default_name7
-  - 🇯🇵 _JP_日本 28
-  - default_name 29
-  - 🇺🇸 _US_美国 410
-  - default_name 311
-  - 🇺🇸 _US_美国 512
-  - 🇳🇱 _NL_荷兰13
+  - default_name 23
+  - 🇩🇪 _DE_德国4
+  - default_name 35
+  - 🇺🇸 _US_美国 26
+  - default_name 47
+  - 🇳🇱 _NL_荷兰8
+  - 🇳🇱 _NL_荷兰 29
+  - 🇮🇹 _IT_意大利10
+  - default_name 511
+  - 🇳🇱 _NL_荷兰 312
+  - default_name 613
   - 🇫🇷 _FR_法国14
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国15
-  - 🇳🇱 _NL_荷兰 216
-  - 🇳🇱 _NL_荷兰 317
-  - default_name 418
-  - 🇫🇷 _FR_法国 219
-  - 🇺🇸 _US_美国 620
-  - 🇮🇳 _IN_印度21
-  - 🇩🇪 _DE_德国22
-  - 🇫🇷 _FR_法国 323
-  - 🇺🇸 _US_美国 724
+  - 🇰🇷 _US_美国->🇰🇷_KR_韩国15
+  - default_name 716
+  - default_name 817
+  - 🇫🇷 _FR_法国 218
+  - 🇫🇷 _FR_法国 319
+  - 🇰🇷 _KR_韩国20
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国21
+  - 🇲🇾 _MY_马来西亚22
+  - _CN_中国23
+  - 🇫🇷 _FR_法国 424
   - 🇸🇬 _SG_新加坡25
-  - 🇫🇷 _FR_法国 426
-  - 🇸🇬 _SG_新加坡 227
-  - 🇫🇷 _FR_法国 528
-  - 🇺🇸 _US_美国 829
-  - 🇭🇰 _HK_香港 230
-  - 🇨🇳 _TW_台湾31
-  - 🇯🇵 _JP_日本 332
-  - 🇭🇰 香港|tg频道:@ripaojiedian33
+  - 🇭🇰 香港|tg频道:@ripaojiedian26
+  - 🇸🇬 订阅每天更新27
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian28
+  - 🇸🇬 狮城2|tg频道:@ripaojiedian29
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian30
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian31
+  - 🇯🇵 日本3|tg频道:@ripaojiedian32
+  - 🇺🇸 美国D|tg频道:@ripaojiedian33
   - 🇨🇳 台湾|tg频道:@ripaojiedian34
-  - 🇯🇵 日本A|tg频道:@ripaojiedian35
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian36
-  - 🇰🇷 韩国|tg频道:@ripaojiedian37
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian38
-  - 🇯🇵 日本3|tg频道:@ripaojiedian39
-  - 🇸🇬 订阅每天更新40
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian41
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian42
-  - 🇸🇬 狮城2|tg频道:@ripaojiedian43
-  - 🇸🇬 使用前更新订阅44
-  - 🇨🇳 台湾联通|tg频道:@ripaojiedian45
-  - 🇺🇸 美国优选|tg频道:@ripaojiedian46
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian47
-  - 🇭🇰 香港3|tg频道:@ripaojiedian48
+  - 🇨🇳 台湾联通|tg频道:@ripaojiedian35
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian36
+  - 🇺🇸 美国C|tg频道:@ripaojiedian37
+  - 🇸🇬 使用前更新订阅38
+  - 🇰🇷 韩国|tg频道:@ripaojiedian39
+  - 🇺🇸 美国A|tg频道:@ripaojiedian40
+  - 🇰🇷 韩国kr|tg频道:@ripaojiedian41
+  - 🇺🇸 美国优选|tg频道:@ripaojiedian42
+  - 🇺🇸 美国B|tg频道:@ripaojiedian43
+  - 🇭🇰 香港3|tg频道:@ripaojiedian44
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 🇭🇰 _HK_香港1
+  - default_name1
   - 🇺🇸 _US_美国2
-  - 🇺🇸 _US_美国 23
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国4
-  - 🇺🇸 _US_美国 35
-  - 🇯🇵 _JP_日本6
-  - default_name7
-  - 🇯🇵 _JP_日本 28
-  - default_name 29
-  - 🇺🇸 _US_美国 410
-  - default_name 311
-  - 🇺🇸 _US_美国 512
-  - 🇳🇱 _NL_荷兰13
+  - default_name 23
+  - 🇩🇪 _DE_德国4
+  - default_name 35
+  - 🇺🇸 _US_美国 26
+  - default_name 47
+  - 🇳🇱 _NL_荷兰8
+  - 🇳🇱 _NL_荷兰 29
+  - 🇮🇹 _IT_意大利10
+  - default_name 511
+  - 🇳🇱 _NL_荷兰 312
+  - default_name 613
   - 🇫🇷 _FR_法国14
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国15
-  - 🇳🇱 _NL_荷兰 216
-  - 🇳🇱 _NL_荷兰 317
-  - default_name 418
-  - 🇫🇷 _FR_法国 219
-  - 🇺🇸 _US_美国 620
-  - 🇮🇳 _IN_印度21
-  - 🇩🇪 _DE_德国22
-  - 🇫🇷 _FR_法国 323
-  - 🇺🇸 _US_美国 724
+  - 🇰🇷 _US_美国->🇰🇷_KR_韩国15
+  - default_name 716
+  - default_name 817
+  - 🇫🇷 _FR_法国 218
+  - 🇫🇷 _FR_法国 319
+  - 🇰🇷 _KR_韩国20
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国21
+  - 🇲🇾 _MY_马来西亚22
+  - _CN_中国23
+  - 🇫🇷 _FR_法国 424
   - 🇸🇬 _SG_新加坡25
-  - 🇫🇷 _FR_法国 426
-  - 🇸🇬 _SG_新加坡 227
-  - 🇫🇷 _FR_法国 528
-  - 🇺🇸 _US_美国 829
-  - 🇭🇰 _HK_香港 230
-  - 🇨🇳 _TW_台湾31
-  - 🇯🇵 _JP_日本 332
-  - 🇭🇰 香港|tg频道:@ripaojiedian33
+  - 🇭🇰 香港|tg频道:@ripaojiedian26
+  - 🇸🇬 订阅每天更新27
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian28
+  - 🇸🇬 狮城2|tg频道:@ripaojiedian29
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian30
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian31
+  - 🇯🇵 日本3|tg频道:@ripaojiedian32
+  - 🇺🇸 美国D|tg频道:@ripaojiedian33
   - 🇨🇳 台湾|tg频道:@ripaojiedian34
-  - 🇯🇵 日本A|tg频道:@ripaojiedian35
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian36
-  - 🇰🇷 韩国|tg频道:@ripaojiedian37
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian38
-  - 🇯🇵 日本3|tg频道:@ripaojiedian39
-  - 🇸🇬 订阅每天更新40
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian41
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian42
-  - 🇸🇬 狮城2|tg频道:@ripaojiedian43
-  - 🇸🇬 使用前更新订阅44
-  - 🇨🇳 台湾联通|tg频道:@ripaojiedian45
-  - 🇺🇸 美国优选|tg频道:@ripaojiedian46
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian47
-  - 🇭🇰 香港3|tg频道:@ripaojiedian48
-  - 🇭🇰 _HK_香港1
+  - 🇨🇳 台湾联通|tg频道:@ripaojiedian35
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian36
+  - 🇺🇸 美国C|tg频道:@ripaojiedian37
+  - 🇸🇬 使用前更新订阅38
+  - 🇰🇷 韩国|tg频道:@ripaojiedian39
+  - 🇺🇸 美国A|tg频道:@ripaojiedian40
+  - 🇰🇷 韩国kr|tg频道:@ripaojiedian41
+  - 🇺🇸 美国优选|tg频道:@ripaojiedian42
+  - 🇺🇸 美国B|tg频道:@ripaojiedian43
+  - 🇭🇰 香港3|tg频道:@ripaojiedian44
+  - default_name1
   - 🇺🇸 _US_美国2
-  - 🇺🇸 _US_美国 23
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国4
-  - 🇺🇸 _US_美国 35
-  - 🇯🇵 _JP_日本6
-  - default_name7
-  - 🇯🇵 _JP_日本 28
-  - default_name 29
-  - 🇺🇸 _US_美国 410
-  - default_name 311
-  - 🇺🇸 _US_美国 512
-  - 🇳🇱 _NL_荷兰13
+  - default_name 23
+  - 🇩🇪 _DE_德国4
+  - default_name 35
+  - 🇺🇸 _US_美国 26
+  - default_name 47
+  - 🇳🇱 _NL_荷兰8
+  - 🇳🇱 _NL_荷兰 29
+  - 🇮🇹 _IT_意大利10
+  - default_name 511
+  - 🇳🇱 _NL_荷兰 312
+  - default_name 613
   - 🇫🇷 _FR_法国14
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国15
-  - 🇳🇱 _NL_荷兰 216
-  - 🇳🇱 _NL_荷兰 317
-  - default_name 418
-  - 🇫🇷 _FR_法国 219
-  - 🇺🇸 _US_美国 620
-  - 🇮🇳 _IN_印度21
-  - 🇩🇪 _DE_德国22
-  - 🇫🇷 _FR_法国 323
-  - 🇺🇸 _US_美国 724
+  - 🇰🇷 _US_美国->🇰🇷_KR_韩国15
+  - default_name 716
+  - default_name 817
+  - 🇫🇷 _FR_法国 218
+  - 🇫🇷 _FR_法国 319
+  - 🇰🇷 _KR_韩国20
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国21
+  - 🇲🇾 _MY_马来西亚22
+  - _CN_中国23
+  - 🇫🇷 _FR_法国 424
   - 🇸🇬 _SG_新加坡25
-  - 🇫🇷 _FR_法国 426
-  - 🇸🇬 _SG_新加坡 227
-  - 🇫🇷 _FR_法国 528
-  - 🇺🇸 _US_美国 829
-  - 🇭🇰 _HK_香港 230
-  - 🇨🇳 _TW_台湾31
-  - 🇯🇵 _JP_日本 332
-  - 🇭🇰 香港|tg频道:@ripaojiedian33
+  - 🇭🇰 香港|tg频道:@ripaojiedian26
+  - 🇸🇬 订阅每天更新27
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian28
+  - 🇸🇬 狮城2|tg频道:@ripaojiedian29
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian30
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian31
+  - 🇯🇵 日本3|tg频道:@ripaojiedian32
+  - 🇺🇸 美国D|tg频道:@ripaojiedian33
   - 🇨🇳 台湾|tg频道:@ripaojiedian34
-  - 🇯🇵 日本A|tg频道:@ripaojiedian35
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian36
-  - 🇰🇷 韩国|tg频道:@ripaojiedian37
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian38
-  - 🇯🇵 日本3|tg频道:@ripaojiedian39
-  - 🇸🇬 订阅每天更新40
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian41
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian42
-  - 🇸🇬 狮城2|tg频道:@ripaojiedian43
-  - 🇸🇬 使用前更新订阅44
-  - 🇨🇳 台湾联通|tg频道:@ripaojiedian45
-  - 🇺🇸 美国优选|tg频道:@ripaojiedian46
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian47
-  - 🇭🇰 香港3|tg频道:@ripaojiedian48
+  - 🇨🇳 台湾联通|tg频道:@ripaojiedian35
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian36
+  - 🇺🇸 美国C|tg频道:@ripaojiedian37
+  - 🇸🇬 使用前更新订阅38
+  - 🇰🇷 韩国|tg频道:@ripaojiedian39
+  - 🇺🇸 美国A|tg频道:@ripaojiedian40
+  - 🇰🇷 韩国kr|tg频道:@ripaojiedian41
+  - 🇺🇸 美国优选|tg频道:@ripaojiedian42
+  - 🇺🇸 美国B|tg频道:@ripaojiedian43
+  - 🇭🇰 香港3|tg频道:@ripaojiedian44
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -622,268 +609,248 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇭🇰 _HK_香港1
+  - default_name1
   - 🇺🇸 _US_美国2
-  - 🇺🇸 _US_美国 23
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国4
-  - 🇺🇸 _US_美国 35
-  - 🇯🇵 _JP_日本6
-  - default_name7
-  - 🇯🇵 _JP_日本 28
-  - default_name 29
-  - 🇺🇸 _US_美国 410
-  - default_name 311
-  - 🇺🇸 _US_美国 512
-  - 🇳🇱 _NL_荷兰13
+  - default_name 23
+  - 🇩🇪 _DE_德国4
+  - default_name 35
+  - 🇺🇸 _US_美国 26
+  - default_name 47
+  - 🇳🇱 _NL_荷兰8
+  - 🇳🇱 _NL_荷兰 29
+  - 🇮🇹 _IT_意大利10
+  - default_name 511
+  - 🇳🇱 _NL_荷兰 312
+  - default_name 613
   - 🇫🇷 _FR_法国14
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国15
-  - 🇳🇱 _NL_荷兰 216
-  - 🇳🇱 _NL_荷兰 317
-  - default_name 418
-  - 🇫🇷 _FR_法国 219
-  - 🇺🇸 _US_美国 620
-  - 🇮🇳 _IN_印度21
-  - 🇩🇪 _DE_德国22
-  - 🇫🇷 _FR_法国 323
-  - 🇺🇸 _US_美国 724
+  - 🇰🇷 _US_美国->🇰🇷_KR_韩国15
+  - default_name 716
+  - default_name 817
+  - 🇫🇷 _FR_法国 218
+  - 🇫🇷 _FR_法国 319
+  - 🇰🇷 _KR_韩国20
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国21
+  - 🇲🇾 _MY_马来西亚22
+  - _CN_中国23
+  - 🇫🇷 _FR_法国 424
   - 🇸🇬 _SG_新加坡25
-  - 🇫🇷 _FR_法国 426
-  - 🇸🇬 _SG_新加坡 227
-  - 🇫🇷 _FR_法国 528
-  - 🇺🇸 _US_美国 829
-  - 🇭🇰 _HK_香港 230
-  - 🇨🇳 _TW_台湾31
-  - 🇯🇵 _JP_日本 332
-  - 🇭🇰 香港|tg频道:@ripaojiedian33
+  - 🇭🇰 香港|tg频道:@ripaojiedian26
+  - 🇸🇬 订阅每天更新27
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian28
+  - 🇸🇬 狮城2|tg频道:@ripaojiedian29
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian30
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian31
+  - 🇯🇵 日本3|tg频道:@ripaojiedian32
+  - 🇺🇸 美国D|tg频道:@ripaojiedian33
   - 🇨🇳 台湾|tg频道:@ripaojiedian34
-  - 🇯🇵 日本A|tg频道:@ripaojiedian35
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian36
-  - 🇰🇷 韩国|tg频道:@ripaojiedian37
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian38
-  - 🇯🇵 日本3|tg频道:@ripaojiedian39
-  - 🇸🇬 订阅每天更新40
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian41
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian42
-  - 🇸🇬 狮城2|tg频道:@ripaojiedian43
-  - 🇸🇬 使用前更新订阅44
-  - 🇨🇳 台湾联通|tg频道:@ripaojiedian45
-  - 🇺🇸 美国优选|tg频道:@ripaojiedian46
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian47
-  - 🇭🇰 香港3|tg频道:@ripaojiedian48
+  - 🇨🇳 台湾联通|tg频道:@ripaojiedian35
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian36
+  - 🇺🇸 美国C|tg频道:@ripaojiedian37
+  - 🇸🇬 使用前更新订阅38
+  - 🇰🇷 韩国|tg频道:@ripaojiedian39
+  - 🇺🇸 美国A|tg频道:@ripaojiedian40
+  - 🇰🇷 韩国kr|tg频道:@ripaojiedian41
+  - 🇺🇸 美国优选|tg频道:@ripaojiedian42
+  - 🇺🇸 美国B|tg频道:@ripaojiedian43
+  - 🇭🇰 香港3|tg频道:@ripaojiedian44
 - name: 🎯 全球直连
   type: select
   proxies:
   - DIRECT
   - 🚀 节点选择
   - ♻️ 自动选择
-  - 🇭🇰 _HK_香港1
+  - default_name1
   - 🇺🇸 _US_美国2
-  - 🇺🇸 _US_美国 23
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国4
-  - 🇺🇸 _US_美国 35
-  - 🇯🇵 _JP_日本6
-  - default_name7
-  - 🇯🇵 _JP_日本 28
-  - default_name 29
-  - 🇺🇸 _US_美国 410
-  - default_name 311
-  - 🇺🇸 _US_美国 512
-  - 🇳🇱 _NL_荷兰13
+  - default_name 23
+  - 🇩🇪 _DE_德国4
+  - default_name 35
+  - 🇺🇸 _US_美国 26
+  - default_name 47
+  - 🇳🇱 _NL_荷兰8
+  - 🇳🇱 _NL_荷兰 29
+  - 🇮🇹 _IT_意大利10
+  - default_name 511
+  - 🇳🇱 _NL_荷兰 312
+  - default_name 613
   - 🇫🇷 _FR_法国14
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国15
-  - 🇳🇱 _NL_荷兰 216
-  - 🇳🇱 _NL_荷兰 317
-  - default_name 418
-  - 🇫🇷 _FR_法国 219
-  - 🇺🇸 _US_美国 620
-  - 🇮🇳 _IN_印度21
-  - 🇩🇪 _DE_德国22
-  - 🇫🇷 _FR_法国 323
-  - 🇺🇸 _US_美国 724
+  - 🇰🇷 _US_美国->🇰🇷_KR_韩国15
+  - default_name 716
+  - default_name 817
+  - 🇫🇷 _FR_法国 218
+  - 🇫🇷 _FR_法国 319
+  - 🇰🇷 _KR_韩国20
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国21
+  - 🇲🇾 _MY_马来西亚22
+  - _CN_中国23
+  - 🇫🇷 _FR_法国 424
   - 🇸🇬 _SG_新加坡25
-  - 🇫🇷 _FR_法国 426
-  - 🇸🇬 _SG_新加坡 227
-  - 🇫🇷 _FR_法国 528
-  - 🇺🇸 _US_美国 829
-  - 🇭🇰 _HK_香港 230
-  - 🇨🇳 _TW_台湾31
-  - 🇯🇵 _JP_日本 332
-  - 🇭🇰 香港|tg频道:@ripaojiedian33
+  - 🇭🇰 香港|tg频道:@ripaojiedian26
+  - 🇸🇬 订阅每天更新27
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian28
+  - 🇸🇬 狮城2|tg频道:@ripaojiedian29
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian30
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian31
+  - 🇯🇵 日本3|tg频道:@ripaojiedian32
+  - 🇺🇸 美国D|tg频道:@ripaojiedian33
   - 🇨🇳 台湾|tg频道:@ripaojiedian34
-  - 🇯🇵 日本A|tg频道:@ripaojiedian35
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian36
-  - 🇰🇷 韩国|tg频道:@ripaojiedian37
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian38
-  - 🇯🇵 日本3|tg频道:@ripaojiedian39
-  - 🇸🇬 订阅每天更新40
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian41
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian42
-  - 🇸🇬 狮城2|tg频道:@ripaojiedian43
-  - 🇸🇬 使用前更新订阅44
-  - 🇨🇳 台湾联通|tg频道:@ripaojiedian45
-  - 🇺🇸 美国优选|tg频道:@ripaojiedian46
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian47
-  - 🇭🇰 香港3|tg频道:@ripaojiedian48
+  - 🇨🇳 台湾联通|tg频道:@ripaojiedian35
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian36
+  - 🇺🇸 美国C|tg频道:@ripaojiedian37
+  - 🇸🇬 使用前更新订阅38
+  - 🇰🇷 韩国|tg频道:@ripaojiedian39
+  - 🇺🇸 美国A|tg频道:@ripaojiedian40
+  - 🇰🇷 韩国kr|tg频道:@ripaojiedian41
+  - 🇺🇸 美国优选|tg频道:@ripaojiedian42
+  - 🇺🇸 美国B|tg频道:@ripaojiedian43
+  - 🇭🇰 香港3|tg频道:@ripaojiedian44
 - name: 🛑 全球拦截
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 🇭🇰 _HK_香港1
+  - default_name1
   - 🇺🇸 _US_美国2
-  - 🇺🇸 _US_美国 23
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国4
-  - 🇺🇸 _US_美国 35
-  - 🇯🇵 _JP_日本6
-  - default_name7
-  - 🇯🇵 _JP_日本 28
-  - default_name 29
-  - 🇺🇸 _US_美国 410
-  - default_name 311
-  - 🇺🇸 _US_美国 512
-  - 🇳🇱 _NL_荷兰13
+  - default_name 23
+  - 🇩🇪 _DE_德国4
+  - default_name 35
+  - 🇺🇸 _US_美国 26
+  - default_name 47
+  - 🇳🇱 _NL_荷兰8
+  - 🇳🇱 _NL_荷兰 29
+  - 🇮🇹 _IT_意大利10
+  - default_name 511
+  - 🇳🇱 _NL_荷兰 312
+  - default_name 613
   - 🇫🇷 _FR_法国14
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国15
-  - 🇳🇱 _NL_荷兰 216
-  - 🇳🇱 _NL_荷兰 317
-  - default_name 418
-  - 🇫🇷 _FR_法国 219
-  - 🇺🇸 _US_美国 620
-  - 🇮🇳 _IN_印度21
-  - 🇩🇪 _DE_德国22
-  - 🇫🇷 _FR_法国 323
-  - 🇺🇸 _US_美国 724
+  - 🇰🇷 _US_美国->🇰🇷_KR_韩国15
+  - default_name 716
+  - default_name 817
+  - 🇫🇷 _FR_法国 218
+  - 🇫🇷 _FR_法国 319
+  - 🇰🇷 _KR_韩国20
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国21
+  - 🇲🇾 _MY_马来西亚22
+  - _CN_中国23
+  - 🇫🇷 _FR_法国 424
   - 🇸🇬 _SG_新加坡25
-  - 🇫🇷 _FR_法国 426
-  - 🇸🇬 _SG_新加坡 227
-  - 🇫🇷 _FR_法国 528
-  - 🇺🇸 _US_美国 829
-  - 🇭🇰 _HK_香港 230
-  - 🇨🇳 _TW_台湾31
-  - 🇯🇵 _JP_日本 332
-  - 🇭🇰 香港|tg频道:@ripaojiedian33
+  - 🇭🇰 香港|tg频道:@ripaojiedian26
+  - 🇸🇬 订阅每天更新27
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian28
+  - 🇸🇬 狮城2|tg频道:@ripaojiedian29
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian30
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian31
+  - 🇯🇵 日本3|tg频道:@ripaojiedian32
+  - 🇺🇸 美国D|tg频道:@ripaojiedian33
   - 🇨🇳 台湾|tg频道:@ripaojiedian34
-  - 🇯🇵 日本A|tg频道:@ripaojiedian35
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian36
-  - 🇰🇷 韩国|tg频道:@ripaojiedian37
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian38
-  - 🇯🇵 日本3|tg频道:@ripaojiedian39
-  - 🇸🇬 订阅每天更新40
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian41
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian42
-  - 🇸🇬 狮城2|tg频道:@ripaojiedian43
-  - 🇸🇬 使用前更新订阅44
-  - 🇨🇳 台湾联通|tg频道:@ripaojiedian45
-  - 🇺🇸 美国优选|tg频道:@ripaojiedian46
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian47
-  - 🇭🇰 香港3|tg频道:@ripaojiedian48
+  - 🇨🇳 台湾联通|tg频道:@ripaojiedian35
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian36
+  - 🇺🇸 美国C|tg频道:@ripaojiedian37
+  - 🇸🇬 使用前更新订阅38
+  - 🇰🇷 韩国|tg频道:@ripaojiedian39
+  - 🇺🇸 美国A|tg频道:@ripaojiedian40
+  - 🇰🇷 韩国kr|tg频道:@ripaojiedian41
+  - 🇺🇸 美国优选|tg频道:@ripaojiedian42
+  - 🇺🇸 美国B|tg频道:@ripaojiedian43
+  - 🇭🇰 香港3|tg频道:@ripaojiedian44
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 🇭🇰 _HK_香港1
+  - default_name1
   - 🇺🇸 _US_美国2
-  - 🇺🇸 _US_美国 23
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国4
-  - 🇺🇸 _US_美国 35
-  - 🇯🇵 _JP_日本6
-  - default_name7
-  - 🇯🇵 _JP_日本 28
-  - default_name 29
-  - 🇺🇸 _US_美国 410
-  - default_name 311
-  - 🇺🇸 _US_美国 512
-  - 🇳🇱 _NL_荷兰13
+  - default_name 23
+  - 🇩🇪 _DE_德国4
+  - default_name 35
+  - 🇺🇸 _US_美国 26
+  - default_name 47
+  - 🇳🇱 _NL_荷兰8
+  - 🇳🇱 _NL_荷兰 29
+  - 🇮🇹 _IT_意大利10
+  - default_name 511
+  - 🇳🇱 _NL_荷兰 312
+  - default_name 613
   - 🇫🇷 _FR_法国14
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国15
-  - 🇳🇱 _NL_荷兰 216
-  - 🇳🇱 _NL_荷兰 317
-  - default_name 418
-  - 🇫🇷 _FR_法国 219
-  - 🇺🇸 _US_美国 620
-  - 🇮🇳 _IN_印度21
-  - 🇩🇪 _DE_德国22
-  - 🇫🇷 _FR_法国 323
-  - 🇺🇸 _US_美国 724
+  - 🇰🇷 _US_美国->🇰🇷_KR_韩国15
+  - default_name 716
+  - default_name 817
+  - 🇫🇷 _FR_法国 218
+  - 🇫🇷 _FR_法国 319
+  - 🇰🇷 _KR_韩国20
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国21
+  - 🇲🇾 _MY_马来西亚22
+  - _CN_中国23
+  - 🇫🇷 _FR_法国 424
   - 🇸🇬 _SG_新加坡25
-  - 🇫🇷 _FR_法国 426
-  - 🇸🇬 _SG_新加坡 227
-  - 🇫🇷 _FR_法国 528
-  - 🇺🇸 _US_美国 829
-  - 🇭🇰 _HK_香港 230
-  - 🇨🇳 _TW_台湾31
-  - 🇯🇵 _JP_日本 332
-  - 🇭🇰 香港|tg频道:@ripaojiedian33
+  - 🇭🇰 香港|tg频道:@ripaojiedian26
+  - 🇸🇬 订阅每天更新27
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian28
+  - 🇸🇬 狮城2|tg频道:@ripaojiedian29
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian30
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian31
+  - 🇯🇵 日本3|tg频道:@ripaojiedian32
+  - 🇺🇸 美国D|tg频道:@ripaojiedian33
   - 🇨🇳 台湾|tg频道:@ripaojiedian34
-  - 🇯🇵 日本A|tg频道:@ripaojiedian35
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian36
-  - 🇰🇷 韩国|tg频道:@ripaojiedian37
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian38
-  - 🇯🇵 日本3|tg频道:@ripaojiedian39
-  - 🇸🇬 订阅每天更新40
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian41
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian42
-  - 🇸🇬 狮城2|tg频道:@ripaojiedian43
-  - 🇸🇬 使用前更新订阅44
-  - 🇨🇳 台湾联通|tg频道:@ripaojiedian45
-  - 🇺🇸 美国优选|tg频道:@ripaojiedian46
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian47
-  - 🇭🇰 香港3|tg频道:@ripaojiedian48
+  - 🇨🇳 台湾联通|tg频道:@ripaojiedian35
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian36
+  - 🇺🇸 美国C|tg频道:@ripaojiedian37
+  - 🇸🇬 使用前更新订阅38
+  - 🇰🇷 韩国|tg频道:@ripaojiedian39
+  - 🇺🇸 美国A|tg频道:@ripaojiedian40
+  - 🇰🇷 韩国kr|tg频道:@ripaojiedian41
+  - 🇺🇸 美国优选|tg频道:@ripaojiedian42
+  - 🇺🇸 美国B|tg频道:@ripaojiedian43
+  - 🇭🇰 香港3|tg频道:@ripaojiedian44
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇭🇰 _HK_香港1
+  - default_name1
   - 🇺🇸 _US_美国2
-  - 🇺🇸 _US_美国 23
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国4
-  - 🇺🇸 _US_美国 35
-  - 🇯🇵 _JP_日本6
-  - default_name7
-  - 🇯🇵 _JP_日本 28
-  - default_name 29
-  - 🇺🇸 _US_美国 410
-  - default_name 311
-  - 🇺🇸 _US_美国 512
-  - 🇳🇱 _NL_荷兰13
+  - default_name 23
+  - 🇩🇪 _DE_德国4
+  - default_name 35
+  - 🇺🇸 _US_美国 26
+  - default_name 47
+  - 🇳🇱 _NL_荷兰8
+  - 🇳🇱 _NL_荷兰 29
+  - 🇮🇹 _IT_意大利10
+  - default_name 511
+  - 🇳🇱 _NL_荷兰 312
+  - default_name 613
   - 🇫🇷 _FR_法国14
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国15
-  - 🇳🇱 _NL_荷兰 216
-  - 🇳🇱 _NL_荷兰 317
-  - default_name 418
-  - 🇫🇷 _FR_法国 219
-  - 🇺🇸 _US_美国 620
-  - 🇮🇳 _IN_印度21
-  - 🇩🇪 _DE_德国22
-  - 🇫🇷 _FR_法国 323
-  - 🇺🇸 _US_美国 724
+  - 🇰🇷 _US_美国->🇰🇷_KR_韩国15
+  - default_name 716
+  - default_name 817
+  - 🇫🇷 _FR_法国 218
+  - 🇫🇷 _FR_法国 319
+  - 🇰🇷 _KR_韩国20
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国21
+  - 🇲🇾 _MY_马来西亚22
+  - _CN_中国23
+  - 🇫🇷 _FR_法国 424
   - 🇸🇬 _SG_新加坡25
-  - 🇫🇷 _FR_法国 426
-  - 🇸🇬 _SG_新加坡 227
-  - 🇫🇷 _FR_法国 528
-  - 🇺🇸 _US_美国 829
-  - 🇭🇰 _HK_香港 230
-  - 🇨🇳 _TW_台湾31
-  - 🇯🇵 _JP_日本 332
-  - 🇭🇰 香港|tg频道:@ripaojiedian33
+  - 🇭🇰 香港|tg频道:@ripaojiedian26
+  - 🇸🇬 订阅每天更新27
+  - 🇸🇬 狮城1|tg频道:@ripaojiedian28
+  - 🇸🇬 狮城2|tg频道:@ripaojiedian29
+  - 🇸🇬 狮城SG|tg频道:@ripaojiedian30
+  - 🇯🇵 日本JP|tg频道:@ripaojiedian31
+  - 🇯🇵 日本3|tg频道:@ripaojiedian32
+  - 🇺🇸 美国D|tg频道:@ripaojiedian33
   - 🇨🇳 台湾|tg频道:@ripaojiedian34
-  - 🇯🇵 日本A|tg频道:@ripaojiedian35
-  - 🇸🇬 狮城SG|tg频道:@ripaojiedian36
-  - 🇰🇷 韩国|tg频道:@ripaojiedian37
-  - 🇯🇵 日本JP|tg频道:@ripaojiedian38
-  - 🇯🇵 日本3|tg频道:@ripaojiedian39
-  - 🇸🇬 订阅每天更新40
-  - 🇸🇬 狮城1|tg频道:@ripaojiedian41
-  - 🇭🇰 香港HK|tg频道:@ripaojiedian42
-  - 🇸🇬 狮城2|tg频道:@ripaojiedian43
-  - 🇸🇬 使用前更新订阅44
-  - 🇨🇳 台湾联通|tg频道:@ripaojiedian45
-  - 🇺🇸 美国优选|tg频道:@ripaojiedian46
-  - 🇨🇳 台湾2|tg频道:@ripaojiedian47
-  - 🇭🇰 香港3|tg频道:@ripaojiedian48
+  - 🇨🇳 台湾联通|tg频道:@ripaojiedian35
+  - 🇭🇰 香港HK|tg频道:@ripaojiedian36
+  - 🇺🇸 美国C|tg频道:@ripaojiedian37
+  - 🇸🇬 使用前更新订阅38
+  - 🇰🇷 韩国|tg频道:@ripaojiedian39
+  - 🇺🇸 美国A|tg频道:@ripaojiedian40
+  - 🇰🇷 韩国kr|tg频道:@ripaojiedian41
+  - 🇺🇸 美国优选|tg频道:@ripaojiedian42
+  - 🇺🇸 美国B|tg频道:@ripaojiedian43
+  - 🇭🇰 香港3|tg频道:@ripaojiedian44
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
