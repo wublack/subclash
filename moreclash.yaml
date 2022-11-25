@@ -26,43 +26,7 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: HK 香港(youtube阿伟科技)vmess1
-  type: vmess
-  server: cu.kapoknode.com
-  port: '25897'
-  uuid: 556b9320-c778-4166-b009-1ec14374a9c5
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cu.kapoknode.com
-- name: HK 香港(youtube阿伟科技)vmess2
-  type: vmess
-  server: cu.kapoknode.com
-  port: '25897'
-  uuid: 8b1b6169-d4af-474c-826d-5e7b3308ab26
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cu.kapoknode.com
-- name: HK 香港(youtube阿伟科技)vmess3
-  type: vmess
-  server: hk80.sanfen001.pics
-  port: '80'
-  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /zh-cn/download
-  ws-headers:
-    Host: hk80.sanfen001.pics
-- name: YouTube梦歌|NETFLIX_17vmess4
+- name: YouTube梦歌|NETFLIX_17vmess1
   type: vmess
   server: 198.41.203.1
   port: '443'
@@ -75,98 +39,9 @@ proxies:
   ws-headers:
     Host: lg1.cfcdn2.xyz
   tls: true
-- name: KR 韩国(youtube阿伟科技)vmess5
-  type: vmess
-  server: kr1.sanfen001.pics
-  port: '443'
-  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /zh-cn
-  ws-headers:
-    Host: kr1.sanfen001.pics
-  tls: true
-- name: 低速备用-油管阿伟科技vmess6
+- name: 美国(yudou66.com 玉豆免费节点)vmess2
   type: vmess
   server: 128.14.140.254
-  port: '443'
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: v2ray2.ssr-free2.xyz
-  tls: true
-- name: 低速备用-油管阿伟科技vmess7
-  type: vmess
-  server: 162.55.214.110
-  port: '51549'
-  uuid: 6399ab58-b7ce-4d24-be9e-92c581c93b44
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 162.55.214.110
-- name: 低速备用-油管阿伟科技vmess8
-  type: vmess
-  server: 172.67.125.28
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 38.72img.xyz
-  tls: true
-- name: 新加坡(yudou66.com 玉豆免费节点)vmess9
-  type: vmess
-  server: 168.138.184.67
-  port: '47165'
-  uuid: a4ead4e6-c4db-458a-c612-a3991f4081d2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: apple.com
-- name: YouTube梦歌|NETFLIX_10vmess10
-  type: vmess
-  server: 141.101.114.100
-  port: '443'
-  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /VHONOFZ3
-  ws-headers:
-    Host: lg1.cfcdn2.xyz
-  tls: true
-- name: 低速备用-油管阿伟科技vmess11
-  type: vmess
-  server: 172.66.40.10
-  port: '443'
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 38.72img.xyz
-  tls: true
-- name: YouTube梦歌|NETFLIX_127vmess12
-  type: vmess
-  server: 172.64.153.155
   port: '443'
   uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: '0'
@@ -177,19 +52,59 @@ proxies:
   ws-headers:
     Host: clash6.ssr-free.xyz
   tls: true
-- name: 🇻🇳VGR-HN10Gbps (2) (Garena)vmess13
+- name: 美国(yudou66.com 玉豆免费节点)vmess3
   type: vmess
-  server: 180.214.236.138
-  port: '80'
-  uuid: c169fa50-a06e-4615-bec2-a776b102bc22
+  server: 25.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /vpngiare.net
+  ws-path: /
   ws-headers:
-    Host: dl.kgvn.garenanow.com
-- name: YouTube梦歌|NETFLIX_46vmess14
+    Host: 25.72img.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess4
+  type: vmess
+  server: 34.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 34.72img.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess5
+  type: vmess
+  server: 198.41.203.5
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess6
+  type: vmess
+  server: 54.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 54.72img.xyz
+  tls: true
+- name: YouTube梦歌|NETFLIX_46vmess7
   type: vmess
   server: 172.67.225.31
   port: '443'
@@ -202,19 +117,110 @@ proxies:
   ws-headers:
     Host: 38.72img.xyz
   tls: true
-- name: 保加利亚(youtube阿伟科技)vmess15
+- name: www.youneed.winvmess8
   type: vmess
-  server: 91.215.154.200
-  port: '33454'
-  uuid: 58325a55-bd92-4417-af11-81ea7c7938e4
+  server: 141.101.115.120
+  port: '443'
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /jcnf
+  ws-path: /ray
   ws-headers:
-    Host: 91.215.154.200
-- name: 低速备用-油管阿伟科技vmess16
+    Host: lg30.cfcdn3.xyz
+  tls: true
+- name: www.youneed.winvmess9
+  type: vmess
+  server: 141.101.114.133
+  port: '443'
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg1.cfcdn1.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess10
+  type: vmess
+  server: 172.64.154.155
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess11
+  type: vmess
+  server: 34.145.145.76
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess12
+  type: vmess
+  server: 17.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 17.72img.xyz
+  tls: true
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess13
+  type: vmess
+  server: 45.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 欧洲(yudou66.com 玉豆免费节点)vmess14
+  type: vmess
+  server: 128.14.140.254
+  port: '443'
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: v2ray2.ssr-free2.xyz
+  tls: true
+- name: 香港(yudou66.com 玉豆免费节点)vmess15
+  type: vmess
+  server: tgunivstar-119-237-43-96.sslip.io
+  port: '80'
+  uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
+  alterId: '64'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: vn3.thanhhaivpn.name.vn
+- name: 美国(yudou66.com 玉豆免费节点)vmess16
   type: vmess
   server: ip125.com
   port: '2086'
@@ -226,7 +232,221 @@ proxies:
   ws-path: /aries
   ws-headers:
     Host: kz.cloudflare.quest
-- name: 美国(yudou66.com 玉豆免费节点)vmess17
+- name: 俄罗斯(yudou66.com 玉豆免费节点)vmess17
+  type: vmess
+  server: 9.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: YouTube梦歌|NETFLIX_10vmess18
+  type: vmess
+  server: 141.101.114.100
+  port: '443'
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /VHONOFZ3
+  ws-headers:
+    Host: lg1.cfcdn2.xyz
+  tls: true
+- name: 欧洲(yudou66.com 玉豆免费节点)vmess19
+  type: vmess
+  server: 54.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 印度(yudou66.com 玉豆免费节点)vmess20
+  type: vmess
+  server: 24.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 低速备用-油管阿伟科技vmess21
+  type: vmess
+  server: 172.67.125.28
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 38.72img.xyz
+  tls: true
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess22
+  type: vmess
+  server: 44.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 44.72img.xyz
+  tls: true
+- name: 香港(yudou66.com 玉豆免费节点)vmess23
+  type: vmess
+  server: cu.kapoknode.com
+  port: '25897'
+  uuid: 8b1b6169-d4af-474c-826d-5e7b3308ab26
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cu.kapoknode.com
+- name: www.youneed.winvmess24
+  type: vmess
+  server: 124.221.131.176
+  port: '50797'
+  uuid: fa4b6f8f-1264-45ec-9651-6160c12cabc5
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /
+  ws-headers:
+    Host: ''
+- name: YouTube梦歌|NETFLIX_127vmess25
+  type: vmess
+  server: 172.64.153.155
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess26
+  type: vmess
+  server: www.digitalocean.com
+  port: '80'
+  uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: o07.tgfaka.com
+- name: 美国(yudou66.com 玉豆免费节点)vmess27
+  type: vmess
+  server: 14.72img.xyz
+  port: '443'
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 14.72img.xyz
+  tls: true
+- name: www.youneed.winvmess28
+  type: vmess
+  server: vau1.0bad.com
+  port: '443'
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vau1.0bad.com
+  tls: true
+- name: www.youneed.winvmess29
+  type: vmess
+  server: 152.69.230.170
+  port: '80'
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 152.69.230.170
+- name: 卢森堡(yudou66.com 玉豆免费节点)vmess30
+  type: vmess
+  server: 107.189.31.41
+  port: '12378'
+  uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /@Backdor_Filter
+  ws-headers:
+    Host: 107.189.31.41
+- name: 印尼(yudou66.com 玉豆免费节点)vmess31
+  type: vmess
+  server: hynesconstruction.com
+  port: '443'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/401452697/635b464921141/
+  ws-headers:
+    Host: sg1-v2ray.sshkit.org
+  tls: true
+- name: 低速备用-油管阿伟科技vmess32
+  type: vmess
+  server: 162.55.214.110
+  port: '51549'
+  uuid: 6399ab58-b7ce-4d24-be9e-92c581c93b44
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 162.55.214.110
+- name: www.youneed.winvmess33
+  type: vmess
+  server: 47.88.52.220
+  port: '80'
+  uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: w.800876.xyz
+- name: www.youneed.winvmess34
   type: vmess
   server: 1.1808.cf
   port: '443'
@@ -239,7 +459,81 @@ proxies:
   ws-headers:
     Host: v2.chigua.tk
   tls: true
-- name: DE 德国(youtube阿伟科技)vmess18
+- name: 香港(yudou66.com 玉豆免费节点)vmess35
+  type: vmess
+  server: cu.kapoknode.com
+  port: '25897'
+  uuid: 556b9320-c778-4166-b009-1ec14374a9c5
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cu.kapoknode.com
+- name: 保加利亚(yudou66.com 玉豆免费节点)vmess36
+  type: vmess
+  server: 91.215.154.200
+  port: '33454'
+  uuid: 58325a55-bd92-4417-af11-81ea7c7938e4
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /jcnf
+  ws-headers:
+    Host: 91.215.154.200
+- name: 美国(yudou66.com 玉豆免费节点)vmess37
+  type: vmess
+  server: 128.14.140.254
+  port: '443'
+  uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /123
+  ws-headers:
+    Host: zz1.wblogw1.tk
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess38
+  type: vmess
+  server: xing.quorecs.tk
+  port: '80'
+  uuid: d2322443-0575-4abc-a9dd-e46fdc9c570f
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /scaleway
+  ws-headers:
+    Host: ''
+- name: 🇻🇳VGR-HN10Gbps (2) (Garena)vmess39
+  type: vmess
+  server: 180.214.236.138
+  port: '80'
+  uuid: c169fa50-a06e-4615-bec2-a776b102bc22
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /vpngiare.net
+  ws-headers:
+    Host: dl.kgvn.garenanow.com
+- name: www.youneed.winvmess40
+  type: vmess
+  server: 45.64.22.55
+  port: '443'
+  uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: h1.800876.xyz
+  tls: true
+- name: DE 德国(youtube阿伟科技)vmess41
   type: vmess
   server: 51.89.100.10
   port: '443'
@@ -252,35 +546,70 @@ proxies:
   ws-headers:
     Host: www.96357765.xyz
   tls: true
-- name: 🇸🇬VGR-SING(1)(LQ)vmess19
+- name: gaofumei.net_澳门澳门电讯 26vmess42
   type: vmess
-  server: 159.223.34.15
-  port: '80'
-  uuid: c169fa50-a06e-4615-bec2-a776b102bc22
+  server: 45.64.22.55
+  port: '443'
+  uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /vpngiare.net
+  ws-path: /
   ws-headers:
-    Host: dl.kgvn.garenanow.com
-- name: UK+英国(youtube阿伟科技)trojan1
-  type: trojan
-  server: 47.52.101.237
+    Host: w.800876.xyz
+  tls: true
+- name: www.youneed.winvmess43
+  type: vmess
+  server: 47.93.231.218
+  port: '53022'
+  uuid: 95fd7642-2160-4528-e909-3d526b533013
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sd.189.cn
+- name: www.youneed.winvmess44
+  type: vmess
+  server: 117.50.172.89
+  port: '19889'
+  uuid: 8830f9ba-b300-419f-92fc-dd5b5b82da6f
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: www.youneed.winvmess45
+  type: vmess
+  server: 45.64.22.6
   port: '443'
-  udp: true
-  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
-  skip-cert-verify: true
-  sni: httah.freetrade.link
-- name: US+美国(youtube阿伟科技)trojan2
-  type: trojan
-  server: 219.76.13.180
+  uuid: 1f4322e1-0e7e-4af2-cc09-84666ac15616
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: w1.800876.xyz
+  tls: true
+- name: 印尼(yudou66.com 玉豆免费节点)vmess46
+  type: vmess
+  server: 172.67.183.35
   port: '443'
-  udp: true
-  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
-  skip-cert-verify: true
-  sni: stutter.freetrade.link
-- name: YouTube梦歌|NETFLIX_5trojan3
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 38.72img.xyz
+  tls: true
+- name: YouTube梦歌|NETFLIX_5trojan1
   type: trojan
   server: 45.64.22.55
   port: '443'
@@ -288,16 +617,23 @@ proxies:
   password: ZEIR0qFZau9jOp7x6e8e4y3AaXwS2SzD3llxTyRYKCF8DCD3c5Y3pgNnaSOBAC
   skip-cert-verify: true
   sni: tensely.freetrade.link
-- name: youtube阿伟科技ss1
+- name: 日本(yudou66.com 玉豆免费节点)ss1
+  server: h745768.waihuizhibiaowang.com
+  port: '15443'
+  method: chacha20-ietf-poly1305
+  cipher: chacha20-ietf-poly1305
+  password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2
+  type: ss
+- name: youtube阿伟科技ss2
   server: jp.securevpn.cc
   port: '1020'
   method: aes-128-gcm
   cipher: aes-128-gcm
   password: '202211000000000000000020'
   type: ss
-- name: 日本(yudou66.com 玉豆免费节点)ss2
-  server: h745768.waihuizhibiaowang.com
-  port: '15443'
+- name: 香港(yudou66.com 玉豆免费节点)ss3
+  server: h217022.waihuizhibiaowang.com
+  port: '15143'
   method: chacha20-ietf-poly1305
   cipher: chacha20-ietf-poly1305
   password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2
@@ -309,60 +645,112 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - HK 香港(youtube阿伟科技)vmess1
-  - HK 香港(youtube阿伟科技)vmess2
-  - HK 香港(youtube阿伟科技)vmess3
-  - YouTube梦歌|NETFLIX_17vmess4
-  - KR 韩国(youtube阿伟科技)vmess5
-  - 低速备用-油管阿伟科技vmess6
-  - 低速备用-油管阿伟科技vmess7
-  - 低速备用-油管阿伟科技vmess8
-  - 新加坡(yudou66.com 玉豆免费节点)vmess9
-  - YouTube梦歌|NETFLIX_10vmess10
-  - 低速备用-油管阿伟科技vmess11
-  - YouTube梦歌|NETFLIX_127vmess12
-  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess13
-  - YouTube梦歌|NETFLIX_46vmess14
-  - 保加利亚(youtube阿伟科技)vmess15
-  - 低速备用-油管阿伟科技vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - DE 德国(youtube阿伟科技)vmess18
-  - 🇸🇬VGR-SING(1)(LQ)vmess19
-  - UK+英国(youtube阿伟科技)trojan1
-  - US+美国(youtube阿伟科技)trojan2
-  - YouTube梦歌|NETFLIX_5trojan3
-  - youtube阿伟科技ss1
-  - 日本(yudou66.com 玉豆免费节点)ss2
+  - YouTube梦歌|NETFLIX_17vmess1
+  - 美国(yudou66.com 玉豆免费节点)vmess2
+  - 美国(yudou66.com 玉豆免费节点)vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - YouTube梦歌|NETFLIX_46vmess7
+  - www.youneed.winvmess8
+  - www.youneed.winvmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - 香港(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess17
+  - YouTube梦歌|NETFLIX_10vmess18
+  - 欧洲(yudou66.com 玉豆免费节点)vmess19
+  - 印度(yudou66.com 玉豆免费节点)vmess20
+  - 低速备用-油管阿伟科技vmess21
+  - 加拿大(yudou66.com 玉豆免费节点)vmess22
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - www.youneed.winvmess24
+  - YouTube梦歌|NETFLIX_127vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - www.youneed.winvmess28
+  - www.youneed.winvmess29
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess30
+  - 印尼(yudou66.com 玉豆免费节点)vmess31
+  - 低速备用-油管阿伟科技vmess32
+  - www.youneed.winvmess33
+  - www.youneed.winvmess34
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 保加利亚(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess39
+  - www.youneed.winvmess40
+  - DE 德国(youtube阿伟科技)vmess41
+  - gaofumei.net_澳门澳门电讯 26vmess42
+  - www.youneed.winvmess43
+  - www.youneed.winvmess44
+  - www.youneed.winvmess45
+  - 印尼(yudou66.com 玉豆免费节点)vmess46
+  - YouTube梦歌|NETFLIX_5trojan1
+  - 日本(yudou66.com 玉豆免费节点)ss1
+  - youtube阿伟科技ss2
+  - 香港(yudou66.com 玉豆免费节点)ss3
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - HK 香港(youtube阿伟科技)vmess1
-  - HK 香港(youtube阿伟科技)vmess2
-  - HK 香港(youtube阿伟科技)vmess3
-  - YouTube梦歌|NETFLIX_17vmess4
-  - KR 韩国(youtube阿伟科技)vmess5
-  - 低速备用-油管阿伟科技vmess6
-  - 低速备用-油管阿伟科技vmess7
-  - 低速备用-油管阿伟科技vmess8
-  - 新加坡(yudou66.com 玉豆免费节点)vmess9
-  - YouTube梦歌|NETFLIX_10vmess10
-  - 低速备用-油管阿伟科技vmess11
-  - YouTube梦歌|NETFLIX_127vmess12
-  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess13
-  - YouTube梦歌|NETFLIX_46vmess14
-  - 保加利亚(youtube阿伟科技)vmess15
-  - 低速备用-油管阿伟科技vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - DE 德国(youtube阿伟科技)vmess18
-  - 🇸🇬VGR-SING(1)(LQ)vmess19
-  - UK+英国(youtube阿伟科技)trojan1
-  - US+美国(youtube阿伟科技)trojan2
-  - YouTube梦歌|NETFLIX_5trojan3
-  - youtube阿伟科技ss1
-  - 日本(yudou66.com 玉豆免费节点)ss2
+  - YouTube梦歌|NETFLIX_17vmess1
+  - 美国(yudou66.com 玉豆免费节点)vmess2
+  - 美国(yudou66.com 玉豆免费节点)vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - YouTube梦歌|NETFLIX_46vmess7
+  - www.youneed.winvmess8
+  - www.youneed.winvmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - 香港(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess17
+  - YouTube梦歌|NETFLIX_10vmess18
+  - 欧洲(yudou66.com 玉豆免费节点)vmess19
+  - 印度(yudou66.com 玉豆免费节点)vmess20
+  - 低速备用-油管阿伟科技vmess21
+  - 加拿大(yudou66.com 玉豆免费节点)vmess22
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - www.youneed.winvmess24
+  - YouTube梦歌|NETFLIX_127vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - www.youneed.winvmess28
+  - www.youneed.winvmess29
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess30
+  - 印尼(yudou66.com 玉豆免费节点)vmess31
+  - 低速备用-油管阿伟科技vmess32
+  - www.youneed.winvmess33
+  - www.youneed.winvmess34
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 保加利亚(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess39
+  - www.youneed.winvmess40
+  - DE 德国(youtube阿伟科技)vmess41
+  - gaofumei.net_澳门澳门电讯 26vmess42
+  - www.youneed.winvmess43
+  - www.youneed.winvmess44
+  - www.youneed.winvmess45
+  - 印尼(yudou66.com 玉豆免费节点)vmess46
+  - YouTube梦歌|NETFLIX_5trojan1
+  - 日本(yudou66.com 玉豆免费节点)ss1
+  - youtube阿伟科技ss2
+  - 香港(yudou66.com 玉豆免费节点)ss3
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -375,30 +763,56 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - HK 香港(youtube阿伟科技)vmess1
-  - HK 香港(youtube阿伟科技)vmess2
-  - HK 香港(youtube阿伟科技)vmess3
-  - YouTube梦歌|NETFLIX_17vmess4
-  - KR 韩国(youtube阿伟科技)vmess5
-  - 低速备用-油管阿伟科技vmess6
-  - 低速备用-油管阿伟科技vmess7
-  - 低速备用-油管阿伟科技vmess8
-  - 新加坡(yudou66.com 玉豆免费节点)vmess9
-  - YouTube梦歌|NETFLIX_10vmess10
-  - 低速备用-油管阿伟科技vmess11
-  - YouTube梦歌|NETFLIX_127vmess12
-  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess13
-  - YouTube梦歌|NETFLIX_46vmess14
-  - 保加利亚(youtube阿伟科技)vmess15
-  - 低速备用-油管阿伟科技vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - DE 德国(youtube阿伟科技)vmess18
-  - 🇸🇬VGR-SING(1)(LQ)vmess19
-  - UK+英国(youtube阿伟科技)trojan1
-  - US+美国(youtube阿伟科技)trojan2
-  - YouTube梦歌|NETFLIX_5trojan3
-  - youtube阿伟科技ss1
-  - 日本(yudou66.com 玉豆免费节点)ss2
+  - YouTube梦歌|NETFLIX_17vmess1
+  - 美国(yudou66.com 玉豆免费节点)vmess2
+  - 美国(yudou66.com 玉豆免费节点)vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - YouTube梦歌|NETFLIX_46vmess7
+  - www.youneed.winvmess8
+  - www.youneed.winvmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - 香港(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess17
+  - YouTube梦歌|NETFLIX_10vmess18
+  - 欧洲(yudou66.com 玉豆免费节点)vmess19
+  - 印度(yudou66.com 玉豆免费节点)vmess20
+  - 低速备用-油管阿伟科技vmess21
+  - 加拿大(yudou66.com 玉豆免费节点)vmess22
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - www.youneed.winvmess24
+  - YouTube梦歌|NETFLIX_127vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - www.youneed.winvmess28
+  - www.youneed.winvmess29
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess30
+  - 印尼(yudou66.com 玉豆免费节点)vmess31
+  - 低速备用-油管阿伟科技vmess32
+  - www.youneed.winvmess33
+  - www.youneed.winvmess34
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 保加利亚(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess39
+  - www.youneed.winvmess40
+  - DE 德国(youtube阿伟科技)vmess41
+  - gaofumei.net_澳门澳门电讯 26vmess42
+  - www.youneed.winvmess43
+  - www.youneed.winvmess44
+  - www.youneed.winvmess45
+  - 印尼(yudou66.com 玉豆免费节点)vmess46
+  - YouTube梦歌|NETFLIX_5trojan1
+  - 日本(yudou66.com 玉豆免费节点)ss1
+  - youtube阿伟科技ss2
+  - 香港(yudou66.com 玉豆免费节点)ss3
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -410,89 +824,167 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - HK 香港(youtube阿伟科技)vmess1
-  - HK 香港(youtube阿伟科技)vmess2
-  - HK 香港(youtube阿伟科技)vmess3
-  - YouTube梦歌|NETFLIX_17vmess4
-  - KR 韩国(youtube阿伟科技)vmess5
-  - 低速备用-油管阿伟科技vmess6
-  - 低速备用-油管阿伟科技vmess7
-  - 低速备用-油管阿伟科技vmess8
-  - 新加坡(yudou66.com 玉豆免费节点)vmess9
-  - YouTube梦歌|NETFLIX_10vmess10
-  - 低速备用-油管阿伟科技vmess11
-  - YouTube梦歌|NETFLIX_127vmess12
-  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess13
-  - YouTube梦歌|NETFLIX_46vmess14
-  - 保加利亚(youtube阿伟科技)vmess15
-  - 低速备用-油管阿伟科技vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - DE 德国(youtube阿伟科技)vmess18
-  - 🇸🇬VGR-SING(1)(LQ)vmess19
-  - UK+英国(youtube阿伟科技)trojan1
-  - US+美国(youtube阿伟科技)trojan2
-  - YouTube梦歌|NETFLIX_5trojan3
-  - youtube阿伟科技ss1
-  - 日本(yudou66.com 玉豆免费节点)ss2
+  - YouTube梦歌|NETFLIX_17vmess1
+  - 美国(yudou66.com 玉豆免费节点)vmess2
+  - 美国(yudou66.com 玉豆免费节点)vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - YouTube梦歌|NETFLIX_46vmess7
+  - www.youneed.winvmess8
+  - www.youneed.winvmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - 香港(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess17
+  - YouTube梦歌|NETFLIX_10vmess18
+  - 欧洲(yudou66.com 玉豆免费节点)vmess19
+  - 印度(yudou66.com 玉豆免费节点)vmess20
+  - 低速备用-油管阿伟科技vmess21
+  - 加拿大(yudou66.com 玉豆免费节点)vmess22
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - www.youneed.winvmess24
+  - YouTube梦歌|NETFLIX_127vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - www.youneed.winvmess28
+  - www.youneed.winvmess29
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess30
+  - 印尼(yudou66.com 玉豆免费节点)vmess31
+  - 低速备用-油管阿伟科技vmess32
+  - www.youneed.winvmess33
+  - www.youneed.winvmess34
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 保加利亚(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess39
+  - www.youneed.winvmess40
+  - DE 德国(youtube阿伟科技)vmess41
+  - gaofumei.net_澳门澳门电讯 26vmess42
+  - www.youneed.winvmess43
+  - www.youneed.winvmess44
+  - www.youneed.winvmess45
+  - 印尼(yudou66.com 玉豆免费节点)vmess46
+  - YouTube梦歌|NETFLIX_5trojan1
+  - 日本(yudou66.com 玉豆免费节点)ss1
+  - youtube阿伟科技ss2
+  - 香港(yudou66.com 玉豆免费节点)ss3
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - HK 香港(youtube阿伟科技)vmess1
-  - HK 香港(youtube阿伟科技)vmess2
-  - HK 香港(youtube阿伟科技)vmess3
-  - YouTube梦歌|NETFLIX_17vmess4
-  - KR 韩国(youtube阿伟科技)vmess5
-  - 低速备用-油管阿伟科技vmess6
-  - 低速备用-油管阿伟科技vmess7
-  - 低速备用-油管阿伟科技vmess8
-  - 新加坡(yudou66.com 玉豆免费节点)vmess9
-  - YouTube梦歌|NETFLIX_10vmess10
-  - 低速备用-油管阿伟科技vmess11
-  - YouTube梦歌|NETFLIX_127vmess12
-  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess13
-  - YouTube梦歌|NETFLIX_46vmess14
-  - 保加利亚(youtube阿伟科技)vmess15
-  - 低速备用-油管阿伟科技vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - DE 德国(youtube阿伟科技)vmess18
-  - 🇸🇬VGR-SING(1)(LQ)vmess19
-  - UK+英国(youtube阿伟科技)trojan1
-  - US+美国(youtube阿伟科技)trojan2
-  - YouTube梦歌|NETFLIX_5trojan3
-  - youtube阿伟科技ss1
-  - 日本(yudou66.com 玉豆免费节点)ss2
+  - YouTube梦歌|NETFLIX_17vmess1
+  - 美国(yudou66.com 玉豆免费节点)vmess2
+  - 美国(yudou66.com 玉豆免费节点)vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - YouTube梦歌|NETFLIX_46vmess7
+  - www.youneed.winvmess8
+  - www.youneed.winvmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - 香港(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess17
+  - YouTube梦歌|NETFLIX_10vmess18
+  - 欧洲(yudou66.com 玉豆免费节点)vmess19
+  - 印度(yudou66.com 玉豆免费节点)vmess20
+  - 低速备用-油管阿伟科技vmess21
+  - 加拿大(yudou66.com 玉豆免费节点)vmess22
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - www.youneed.winvmess24
+  - YouTube梦歌|NETFLIX_127vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - www.youneed.winvmess28
+  - www.youneed.winvmess29
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess30
+  - 印尼(yudou66.com 玉豆免费节点)vmess31
+  - 低速备用-油管阿伟科技vmess32
+  - www.youneed.winvmess33
+  - www.youneed.winvmess34
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 保加利亚(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess39
+  - www.youneed.winvmess40
+  - DE 德国(youtube阿伟科技)vmess41
+  - gaofumei.net_澳门澳门电讯 26vmess42
+  - www.youneed.winvmess43
+  - www.youneed.winvmess44
+  - www.youneed.winvmess45
+  - 印尼(yudou66.com 玉豆免费节点)vmess46
+  - YouTube梦歌|NETFLIX_5trojan1
+  - 日本(yudou66.com 玉豆免费节点)ss1
+  - youtube阿伟科技ss2
+  - 香港(yudou66.com 玉豆免费节点)ss3
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - HK 香港(youtube阿伟科技)vmess1
-  - HK 香港(youtube阿伟科技)vmess2
-  - HK 香港(youtube阿伟科技)vmess3
-  - YouTube梦歌|NETFLIX_17vmess4
-  - KR 韩国(youtube阿伟科技)vmess5
-  - 低速备用-油管阿伟科技vmess6
-  - 低速备用-油管阿伟科技vmess7
-  - 低速备用-油管阿伟科技vmess8
-  - 新加坡(yudou66.com 玉豆免费节点)vmess9
-  - YouTube梦歌|NETFLIX_10vmess10
-  - 低速备用-油管阿伟科技vmess11
-  - YouTube梦歌|NETFLIX_127vmess12
-  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess13
-  - YouTube梦歌|NETFLIX_46vmess14
-  - 保加利亚(youtube阿伟科技)vmess15
-  - 低速备用-油管阿伟科技vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - DE 德国(youtube阿伟科技)vmess18
-  - 🇸🇬VGR-SING(1)(LQ)vmess19
-  - UK+英国(youtube阿伟科技)trojan1
-  - US+美国(youtube阿伟科技)trojan2
-  - YouTube梦歌|NETFLIX_5trojan3
-  - youtube阿伟科技ss1
-  - 日本(yudou66.com 玉豆免费节点)ss2
+  - YouTube梦歌|NETFLIX_17vmess1
+  - 美国(yudou66.com 玉豆免费节点)vmess2
+  - 美国(yudou66.com 玉豆免费节点)vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - YouTube梦歌|NETFLIX_46vmess7
+  - www.youneed.winvmess8
+  - www.youneed.winvmess9
+  - 美国(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - 欧洲(yudou66.com 玉豆免费节点)vmess14
+  - 香港(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 俄罗斯(yudou66.com 玉豆免费节点)vmess17
+  - YouTube梦歌|NETFLIX_10vmess18
+  - 欧洲(yudou66.com 玉豆免费节点)vmess19
+  - 印度(yudou66.com 玉豆免费节点)vmess20
+  - 低速备用-油管阿伟科技vmess21
+  - 加拿大(yudou66.com 玉豆免费节点)vmess22
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - www.youneed.winvmess24
+  - YouTube梦歌|NETFLIX_127vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - www.youneed.winvmess28
+  - www.youneed.winvmess29
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess30
+  - 印尼(yudou66.com 玉豆免费节点)vmess31
+  - 低速备用-油管阿伟科技vmess32
+  - www.youneed.winvmess33
+  - www.youneed.winvmess34
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 保加利亚(yudou66.com 玉豆免费节点)vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 🇻🇳VGR-HN10Gbps (2) (Garena)vmess39
+  - www.youneed.winvmess40
+  - DE 德国(youtube阿伟科技)vmess41
+  - gaofumei.net_澳门澳门电讯 26vmess42
+  - www.youneed.winvmess43
+  - www.youneed.winvmess44
+  - www.youneed.winvmess45
+  - 印尼(yudou66.com 玉豆免费节点)vmess46
+  - YouTube梦歌|NETFLIX_5trojan1
+  - 日本(yudou66.com 玉豆免费节点)ss1
+  - youtube阿伟科技ss2
+  - 香港(yudou66.com 玉豆免费节点)ss3
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
