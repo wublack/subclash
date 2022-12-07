@@ -26,22 +26,10 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: UK 英国(youtube阿伟科技)vmess1
+- name: KR 韩国(youtube阿伟科技)vmess1
   type: vmess
   server: ying-moble.gatknqh.cn
-  port: '40228'
-  uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /5QNROSRV
-  ws-headers:
-    Host: oplg1.zhujicn2.com
-- name: SG 新加坡(youtube阿伟科技)vmess2
-  type: vmess
-  server: ying-moble.gatknqh.cn
-  port: '40210'
+  port: '40223'
   uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
   alterId: '0'
   cipher: auto
@@ -49,34 +37,32 @@ proxies:
   network: tcp
   ws-path: /
   ws-headers:
-    Host: lisg.crushs.cc
-- name: FR 法国(youtube阿伟科技)vmess3
+    Host: ying-moble.gatknqh.cn
+- name: US 美国(youtube阿伟科技)vmess2
   type: vmess
-  server: cacerts.digicert.com
-  port: '443'
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  server: ying-unicom.gatknqh.cn
+  port: '40225'
+  uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
   alterId: '0'
   cipher: auto
   ucp: true
-  network: ws
-  ws-path: /IYKLD53M
-  ws-headers:
-    Host: opfr1.v2rayfree1.xyz
-  tls: true
-- name: US 美国(youtube阿伟科技)vmess4
-  type: vmess
-  server: v13.583182.xyz
-  port: '2053'
-  uuid: 07f70760-3167-48c4-aa4d-3c81f5266b35
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
+  network: tcp
   ws-path: /
   ws-headers:
-    Host: v13.583181.xyz
-  tls: true
-- name: YouTube简迷离|杭港BGP|NETFLIX_47vmess5
+    Host: cn2.usa1.ridefullspeed.com
+- name: US 美国(youtube阿伟科技)vmess3
+  type: vmess
+  server: ying-unicom.gatknqh.cn
+  port: '40224'
+  uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /
+  ws-headers:
+    Host: lijp.crushs.cc
+- name: YouTube简迷离|杭港BGP|NETFLIX_47vmess4
   type: vmess
   server: 203.30.190.191
   port: '443'
@@ -89,75 +75,10 @@ proxies:
   ws-headers:
     Host: oplg1.zhujicn2.com
   tls: true
-- name: RU 俄罗斯(youtube阿伟科技)vmess6
+- name: SG 新加坡(youtube阿伟科技)vmess5
   type: vmess
-  server: els200.jslist.tk
-  port: '8443'
-  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wo.php
-  ws-headers:
-    Host: els200.jslist.tk
-  tls: true
-- name: 香港BGP|流量用完失效|梦歌_17vmess7
-  type: vmess
-  server: 190.93.244.2
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: NL 荷兰(youtube阿伟科技)vmess8
-  type: vmess
-  server: news.microsoft.com
-  port: '443'
-  uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /lXvA0Vse/
-  ws-headers:
-    Host: hl1.cachexy.ga
-  tls: true
-- name: FR 法国(youtube阿伟科技)vmess9
-  type: vmess
-  server: main.millionaireaisle.com
-  port: '443'
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /IYKLD53M
-  ws-headers:
-    Host: opfr1.v2rayfree1.xyz
-  tls: true
-- name: YouTube简迷离|杭港BGP|NETFLIX_25vmess10
-  type: vmess
-  server: 141.101.115.111
-  port: '443'
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /9JZFDTKE
-  ws-headers:
-    Host: fr1.trump2023.org
-  tls: true
-- name: US 美国(youtube阿伟科技)vmess11
-  type: vmess
-  server: ying-unicom.gatknqh.cn
-  port: '40224'
+  server: ying-moble.gatknqh.cn
+  port: '40210'
   uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
   alterId: '0'
   cipher: auto
@@ -165,112 +86,20 @@ proxies:
   network: tcp
   ws-path: /
   ws-headers:
-    Host: lijp.crushs.cc
-- name: 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess12
+    Host: lisg.crushs.cc
+- name: KR 韩国(youtube阿伟科技)vmess6
   type: vmess
-  server: 203.24.108.8
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  server: ying-moble.gatknqh.cn
+  port: '40222'
+  uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
   alterId: '0'
   cipher: auto
   ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
+  network: tcp
+  ws-path: /
   ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: US 美国(youtube阿伟科技)vmess13
-  type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /eisasqa
-  ws-headers:
-    Host: foxusovz1.fovi.tk
-  tls: true
-- name: US 美国(youtube阿伟科技)vmess14
-  type: vmess
-  server: 203.30.188.188
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess15
-  type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /eisasqa
-  ws-headers:
-    Host: foxusovz3.fovi.tk
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess16
-  type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /eisasqa
-  ws-headers:
-    Host: foxdeovz1.fovi.tk
-  tls: true
-- name: ID 印尼(youtube阿伟科技)vmess17
-  type: vmess
-  server: cacerts.digicert.com
-  port: '443'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/63859b5b38f53/
-  ws-headers:
-    Host: sg1-v2ray.sshkit.org
-  tls: true
-- name: YouTube简迷离|杭港BGP|NETFLIX_49vmess18
-  type: vmess
-  server: 141.101.114.134
-  port: '443'
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /IYKLD53M
-  ws-headers:
-    Host: opfr1.v2rayfree1.xyz
-  tls: true
-- name: 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess19
-  type: vmess
-  server: 23.227.38.38
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess20
+    Host: ying-moble.gatknqh.cn
+- name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess7
   type: vmess
   server: main.millionaireaisle.com
   port: '2053'
@@ -283,46 +112,9 @@ proxies:
   ws-headers:
     Host: v2ray.wefuckgfw.ga
   tls: true
-- name: KR 韩国(youtube阿伟科技)vmess21
+- name: FR 法国(youtube阿伟科技)vmess8
   type: vmess
-  server: ying-moble.gatknqh.cn
-  port: '40223'
-  uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: ying-moble.gatknqh.cn
-- name: 印尼(yudou66.com 玉豆免费节点)vmess22
-  type: vmess
-  server: uicdn.cf
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/63859b5b38f53/
-  ws-headers:
-    Host: sg1-v2ray.sshkit.org
-- name: YouTube简迷离|杭港BGP|NETFLIX_79vmess23
-  type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /eisasqa
-  ws-headers:
-    Host: foxdeovz2.fovi.tk
-  tls: true
-- name: Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess24
-  type: vmess
-  server: 203.30.188.120
+  server: cacerts.digicert.com
   port: '443'
   uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
   alterId: '0'
@@ -333,20 +125,19 @@ proxies:
   ws-headers:
     Host: opfr1.v2rayfree1.xyz
   tls: true
-- name: Youtube顺丰资源  - 美国CloudFlare节点 6vmess25
+- name: UK 英国(youtube阿伟科技)vmess9
   type: vmess
-  server: 198.41.203.6
-  port: '443'
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  server: ying-moble.gatknqh.cn
+  port: '40228'
+  uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
   alterId: '0'
   cipher: auto
   ucp: true
-  network: ws
-  ws-path: /9JZFDTKE
+  network: tcp
+  ws-path: /5QNROSRV
   ws-headers:
-    Host: fr1.trump2023.org
-  tls: true
-- name: US 美国(youtube阿伟科技)vmess26
+    Host: oplg1.zhujicn2.com
+- name: US 美国(youtube阿伟科技)vmess10
   type: vmess
   server: cf.fovi.tk
   port: '2053'
@@ -359,7 +150,7 @@ proxies:
   ws-headers:
     Host: foxusovz2.fovi.tk
   tls: true
-- name: US 美国(youtube阿伟科技)vmess27
+- name: US 美国(youtube阿伟科技)vmess11
   type: vmess
   server: main.millionaireaisle.com
   port: '443'
@@ -372,32 +163,7 @@ proxies:
   ws-headers:
     Host: lg1.trump2023.us
   tls: true
-- name: US 美国(youtube阿伟科技)vmess28
-  type: vmess
-  server: ying-unicom.gatknqh.cn
-  port: '40225'
-  uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: cn2.usa1.ridefullspeed.com
-- name: Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess29
-  type: vmess
-  server: 188.114.99.9
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: ID 印尼(youtube阿伟科技)vmess30
+- name: VN 越南(youtube阿伟科技)vmess12
   type: vmess
   server: news.microsoft.com
   port: '443'
@@ -406,37 +172,23 @@ proxies:
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/1736960111/63859b5b38f53/
+  ws-path: /sshkit/1736960111/63859bc177a33/
   ws-headers:
-    Host: sg1-v2ray.sshkit.org
+    Host: sg3-v2ray.sshkit.org
   tls: true
-- name: KR 韩国(youtube阿伟科技)vmess31
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess13
   type: vmess
-  server: kr1.sanfen001.pics
-  port: '443'
-  uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
+  server: uicdn.cf
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /zh-cn
+  ws-path: /sshkit/1736960111/63859b95e5be4/
   ws-headers:
-    Host: kr1.sanfen001.pics
-  tls: true
-- name: Youtube顺丰资源  - 美国CloudFlare节点 4vmess32
-  type: vmess
-  server: 141.101.114.31
-  port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5QNROSRV
-  ws-headers:
-    Host: oplg1.zhujicn2.com
-  tls: true
-- name: DE 德国(youtube阿伟科技)vmess33
+    Host: sg2-v2ray.sshkit.org
+- name: DE 德国(youtube阿伟科技)vmess14
   type: vmess
   server: main.millionaireaisle.com
   port: '443'
@@ -449,20 +201,59 @@ proxies:
   ws-headers:
     Host: fr1.trump2023.org
   tls: true
-- name: 越南(yudou66.com 玉豆免费节点)vmess34
+- name: US 美国(youtube阿伟科技)vmess15
   type: vmess
-  server: cacerts.digicert.com
-  port: '443'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  server: main.millionaireaisle.com
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/1736960111/63859bc177a33/
+  ws-path: /eisasqa
   ws-headers:
-    Host: sg3-v2ray.sshkit.org
+    Host: foxusovz3.fovi.tk
   tls: true
-- name: VN 越南(youtube阿伟科技)vmess35
+- name: 香港BGP|流量用完失效|梦歌_17vmess16
+  type: vmess
+  server: 190.93.244.2
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: NL 荷兰(youtube阿伟科技)vmess17
+  type: vmess
+  server: news.microsoft.com
+  port: '443'
+  uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /lXvA0Vse/
+  ws-headers:
+    Host: hl1.cachexy.ga
+  tls: true
+- name: YouTube简迷离|杭港BGP|NETFLIX_25vmess18
+  type: vmess
+  server: 141.101.115.111
+  port: '443'
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /9JZFDTKE
+  ws-headers:
+    Host: fr1.trump2023.org
+  tls: true
+- name: ID 印尼(youtube阿伟科技)vmess19
   type: vmess
   server: news.microsoft.com
   port: '443'
@@ -471,36 +262,127 @@ proxies:
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/1736960111/63859bc177a33/
+  ws-path: /sshkit/1736960111/63859b5b38f53/
   ws-headers:
-    Host: sg3-v2ray.sshkit.org
+    Host: sg1-v2ray.sshkit.org
   tls: true
-- name: Youtube顺丰资源  - 澳大利亚悉尼 4 2vmess36
+- name: US 美国(youtube阿伟科技)vmess20
   type: vmess
-  server: 203.24.108.9
-  port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  server: cf.fovi.tk
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /5QNROSRV
+  ws-path: /eisasqa
   ws-headers:
-    Host: oplg1.zhujicn2.com
+    Host: foxusovz1.fovi.tk
   tls: true
-- name: 印尼(yudou66.com 玉豆免费节点)vmess37
+- name: US 美国(youtube阿伟科技)vmess21
   type: vmess
-  server: uicdn.cf
-  port: '80'
+  server: 203.30.188.188
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: ID 印尼(youtube阿伟科技)vmess22
+  type: vmess
+  server: cacerts.digicert.com
+  port: '443'
   uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/1736960111/63859bc177a33/
+  ws-path: /sshkit/1736960111/63859b5b38f53/
   ws-headers:
-    Host: sg3-v2ray.sshkit.org
-- name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess38
+    Host: sg1-v2ray.sshkit.org
+  tls: true
+- name: VN 越南(youtube阿伟科技)vmess23
+  type: vmess
+  server: news.microsoft.com
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: US 美国(youtube阿伟科技)vmess24
+  type: vmess
+  server: v13.583182.xyz
+  port: '2053'
+  uuid: 07f70760-3167-48c4-aa4d-3c81f5266b35
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: v13.583181.xyz
+  tls: true
+- name: US 美国(youtube阿伟科技)vmess25
+  type: vmess
+  server: cu.gongyiyun.cf
+  port: '2095'
+  uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: dknbyn3lw16n5elj.gongyiyun.cf
+- name: 美国(yudou66.com 玉豆免费节点)vmess26
+  type: vmess
+  server: cf.fovi.tk
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /eisasqa
+  ws-headers:
+    Host: foxusovz3.fovi.tk
+  tls: true
+- name: Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess27
+  type: vmess
+  server: 203.30.188.120
+  port: '443'
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /IYKLD53M
+  ws-headers:
+    Host: opfr1.v2rayfree1.xyz
+  tls: true
+- name: Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess28
+  type: vmess
+  server: 188.114.99.9
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess29
   type: vmess
   server: 66.235.200.22
   port: '443'
@@ -513,7 +395,96 @@ proxies:
   ws-headers:
     Host: lg10.cfcdn1.xyz
   tls: true
-- name: UK 英国(youtube阿伟科技)vmess39
+- name: 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess30
+  type: vmess
+  server: 203.24.108.8
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: SG 新加坡(youtube阿伟科技)vmess31
+  type: vmess
+  server: racknerd.com
+  port: '2086'
+  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: azstu.cloudflare.quest
+- name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点 7vmess32
+  type: vmess
+  server: uicdn.cf
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: FR 法国(youtube阿伟科技)vmess33
+  type: vmess
+  server: main.millionaireaisle.com
+  port: '443'
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /IYKLD53M
+  ws-headers:
+    Host: opfr1.v2rayfree1.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess34
+  type: vmess
+  server: cf.fovi.tk
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /eisasqa
+  ws-headers:
+    Host: foxdeovz1.fovi.tk
+  tls: true
+- name: 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess35
+  type: vmess
+  server: 23.227.38.38
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: RU 俄罗斯(youtube阿伟科技)vmess36
+  type: vmess
+  server: els200.jslist.tk
+  port: '8443'
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /wo.php
+  ws-headers:
+    Host: els200.jslist.tk
+  tls: true
+- name: UK 英国(youtube阿伟科技)vmess37
   type: vmess
   server: ying-moble.gatknqh.cn
   port: '40228'
@@ -525,15 +496,83 @@ proxies:
   ws-path: /
   ws-headers:
     Host: ying-moble.gatknqh.cn
-- name: TW+台湾(youtube阿伟科技)trojan1
-  type: trojan
-  server: sldron.kctr2038.icu
-  port: '11189'
-  udp: true
-  password: bdecf580-0294-4231-a6b2-64205f04055b
-  skip-cert-verify: true
-  sni: sldron.kctr2038.icu
-- name: YouTube简迷离|杭港BGP|NETFLIX_9trojan2
+- name: 印尼(yudou66.com 玉豆免费节点)vmess38
+  type: vmess
+  server: uicdn.cf
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/1736960111/63859bc177a33/
+  ws-headers:
+    Host: sg3-v2ray.sshkit.org
+- name: Youtube顺丰资源  - 美国CloudFlare节点 27vmess39
+  type: vmess
+  server: 198.41.212.150
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: Youtube顺丰资源  - 美国CloudFlare节点 4vmess40
+  type: vmess
+  server: 141.101.114.31
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: Youtube顺丰资源  - 美国CloudFlare节点 18vmess41
+  type: vmess
+  server: 141.101.114.102
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: www.youneed.winvmess42
+  type: vmess
+  server: 47.93.231.218
+  port: '53022'
+  uuid: 95fd7642-2160-4528-e909-3d526b533013
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sd.189.cn
+- name: Youtube顺丰资源  - 美国RF Engineering 12vmess43
+  type: vmess
+  server: news.microsoft.com
+  port: '443'
+  uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /share
+  ws-headers:
+    Host: us.awsbest.com
+  tls: true
+- name: YouTube简迷离|杭港BGP|NETFLIX_9trojan1
   type: trojan
   server: 45.64.22.55
   port: '443'
@@ -541,14 +580,6 @@ proxies:
   password: KLF0qOU0ZZGw5Tnu
   skip-cert-verify: true
   sni: swift.protocolbuffer.com
-- name: HK+香港(youtube阿伟科技)trojan3
-  type: trojan
-  server: 20.239.94.179
-  port: '443'
-  udp: true
-  password: ce6a8639-e367-42bd-bcc7-a5857f713386
-  skip-cert-verify: true
-  sni: data-hk.efyunpan.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -556,96 +587,100 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - UK 英国(youtube阿伟科技)vmess1
-  - SG 新加坡(youtube阿伟科技)vmess2
-  - FR 法国(youtube阿伟科技)vmess3
-  - US 美国(youtube阿伟科技)vmess4
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess5
-  - RU 俄罗斯(youtube阿伟科技)vmess6
-  - 香港BGP|流量用完失效|梦歌_17vmess7
-  - NL 荷兰(youtube阿伟科技)vmess8
-  - FR 法国(youtube阿伟科技)vmess9
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess10
+  - KR 韩国(youtube阿伟科技)vmess1
+  - US 美国(youtube阿伟科技)vmess2
+  - US 美国(youtube阿伟科技)vmess3
+  - YouTube简迷离|杭港BGP|NETFLIX_47vmess4
+  - SG 新加坡(youtube阿伟科技)vmess5
+  - KR 韩国(youtube阿伟科技)vmess6
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess7
+  - FR 法国(youtube阿伟科技)vmess8
+  - UK 英国(youtube阿伟科技)vmess9
+  - US 美国(youtube阿伟科技)vmess10
   - US 美国(youtube阿伟科技)vmess11
-  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess12
-  - US 美国(youtube阿伟科技)vmess13
-  - US 美国(youtube阿伟科技)vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - ID 印尼(youtube阿伟科技)vmess17
-  - YouTube简迷离|杭港BGP|NETFLIX_49vmess18
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess19
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess20
-  - KR 韩国(youtube阿伟科技)vmess21
-  - 印尼(yudou66.com 玉豆免费节点)vmess22
-  - YouTube简迷离|杭港BGP|NETFLIX_79vmess23
-  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess24
-  - Youtube顺丰资源  - 美国CloudFlare节点 6vmess25
-  - US 美国(youtube阿伟科技)vmess26
-  - US 美国(youtube阿伟科技)vmess27
-  - US 美国(youtube阿伟科技)vmess28
-  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess29
-  - ID 印尼(youtube阿伟科技)vmess30
-  - KR 韩国(youtube阿伟科技)vmess31
-  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess32
-  - DE 德国(youtube阿伟科技)vmess33
-  - 越南(yudou66.com 玉豆免费节点)vmess34
-  - VN 越南(youtube阿伟科技)vmess35
-  - Youtube顺丰资源  - 澳大利亚悉尼 4 2vmess36
-  - 印尼(yudou66.com 玉豆免费节点)vmess37
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess38
-  - UK 英国(youtube阿伟科技)vmess39
-  - TW+台湾(youtube阿伟科技)trojan1
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan2
-  - HK+香港(youtube阿伟科技)trojan3
+  - VN 越南(youtube阿伟科技)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - DE 德国(youtube阿伟科技)vmess14
+  - US 美国(youtube阿伟科技)vmess15
+  - 香港BGP|流量用完失效|梦歌_17vmess16
+  - NL 荷兰(youtube阿伟科技)vmess17
+  - YouTube简迷离|杭港BGP|NETFLIX_25vmess18
+  - ID 印尼(youtube阿伟科技)vmess19
+  - US 美国(youtube阿伟科技)vmess20
+  - US 美国(youtube阿伟科技)vmess21
+  - ID 印尼(youtube阿伟科技)vmess22
+  - VN 越南(youtube阿伟科技)vmess23
+  - US 美国(youtube阿伟科技)vmess24
+  - US 美国(youtube阿伟科技)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess27
+  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess28
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess29
+  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess30
+  - SG 新加坡(youtube阿伟科技)vmess31
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 7vmess32
+  - FR 法国(youtube阿伟科技)vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess35
+  - RU 俄罗斯(youtube阿伟科技)vmess36
+  - UK 英国(youtube阿伟科技)vmess37
+  - 印尼(yudou66.com 玉豆免费节点)vmess38
+  - Youtube顺丰资源  - 美国CloudFlare节点 27vmess39
+  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess40
+  - Youtube顺丰资源  - 美国CloudFlare节点 18vmess41
+  - www.youneed.winvmess42
+  - Youtube顺丰资源  - 美国RF Engineering 12vmess43
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - UK 英国(youtube阿伟科技)vmess1
-  - SG 新加坡(youtube阿伟科技)vmess2
-  - FR 法国(youtube阿伟科技)vmess3
-  - US 美国(youtube阿伟科技)vmess4
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess5
-  - RU 俄罗斯(youtube阿伟科技)vmess6
-  - 香港BGP|流量用完失效|梦歌_17vmess7
-  - NL 荷兰(youtube阿伟科技)vmess8
-  - FR 法国(youtube阿伟科技)vmess9
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess10
+  - KR 韩国(youtube阿伟科技)vmess1
+  - US 美国(youtube阿伟科技)vmess2
+  - US 美国(youtube阿伟科技)vmess3
+  - YouTube简迷离|杭港BGP|NETFLIX_47vmess4
+  - SG 新加坡(youtube阿伟科技)vmess5
+  - KR 韩国(youtube阿伟科技)vmess6
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess7
+  - FR 法国(youtube阿伟科技)vmess8
+  - UK 英国(youtube阿伟科技)vmess9
+  - US 美国(youtube阿伟科技)vmess10
   - US 美国(youtube阿伟科技)vmess11
-  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess12
-  - US 美国(youtube阿伟科技)vmess13
-  - US 美国(youtube阿伟科技)vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - ID 印尼(youtube阿伟科技)vmess17
-  - YouTube简迷离|杭港BGP|NETFLIX_49vmess18
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess19
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess20
-  - KR 韩国(youtube阿伟科技)vmess21
-  - 印尼(yudou66.com 玉豆免费节点)vmess22
-  - YouTube简迷离|杭港BGP|NETFLIX_79vmess23
-  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess24
-  - Youtube顺丰资源  - 美国CloudFlare节点 6vmess25
-  - US 美国(youtube阿伟科技)vmess26
-  - US 美国(youtube阿伟科技)vmess27
-  - US 美国(youtube阿伟科技)vmess28
-  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess29
-  - ID 印尼(youtube阿伟科技)vmess30
-  - KR 韩国(youtube阿伟科技)vmess31
-  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess32
-  - DE 德国(youtube阿伟科技)vmess33
-  - 越南(yudou66.com 玉豆免费节点)vmess34
-  - VN 越南(youtube阿伟科技)vmess35
-  - Youtube顺丰资源  - 澳大利亚悉尼 4 2vmess36
-  - 印尼(yudou66.com 玉豆免费节点)vmess37
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess38
-  - UK 英国(youtube阿伟科技)vmess39
-  - TW+台湾(youtube阿伟科技)trojan1
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan2
-  - HK+香港(youtube阿伟科技)trojan3
+  - VN 越南(youtube阿伟科技)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - DE 德国(youtube阿伟科技)vmess14
+  - US 美国(youtube阿伟科技)vmess15
+  - 香港BGP|流量用完失效|梦歌_17vmess16
+  - NL 荷兰(youtube阿伟科技)vmess17
+  - YouTube简迷离|杭港BGP|NETFLIX_25vmess18
+  - ID 印尼(youtube阿伟科技)vmess19
+  - US 美国(youtube阿伟科技)vmess20
+  - US 美国(youtube阿伟科技)vmess21
+  - ID 印尼(youtube阿伟科技)vmess22
+  - VN 越南(youtube阿伟科技)vmess23
+  - US 美国(youtube阿伟科技)vmess24
+  - US 美国(youtube阿伟科技)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess27
+  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess28
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess29
+  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess30
+  - SG 新加坡(youtube阿伟科技)vmess31
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 7vmess32
+  - FR 法国(youtube阿伟科技)vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess35
+  - RU 俄罗斯(youtube阿伟科技)vmess36
+  - UK 英国(youtube阿伟科技)vmess37
+  - 印尼(yudou66.com 玉豆免费节点)vmess38
+  - Youtube顺丰资源  - 美国CloudFlare节点 27vmess39
+  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess40
+  - Youtube顺丰资源  - 美国CloudFlare节点 18vmess41
+  - www.youneed.winvmess42
+  - Youtube顺丰资源  - 美国RF Engineering 12vmess43
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -658,48 +693,50 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - UK 英国(youtube阿伟科技)vmess1
-  - SG 新加坡(youtube阿伟科技)vmess2
-  - FR 法国(youtube阿伟科技)vmess3
-  - US 美国(youtube阿伟科技)vmess4
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess5
-  - RU 俄罗斯(youtube阿伟科技)vmess6
-  - 香港BGP|流量用完失效|梦歌_17vmess7
-  - NL 荷兰(youtube阿伟科技)vmess8
-  - FR 法国(youtube阿伟科技)vmess9
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess10
+  - KR 韩国(youtube阿伟科技)vmess1
+  - US 美国(youtube阿伟科技)vmess2
+  - US 美国(youtube阿伟科技)vmess3
+  - YouTube简迷离|杭港BGP|NETFLIX_47vmess4
+  - SG 新加坡(youtube阿伟科技)vmess5
+  - KR 韩国(youtube阿伟科技)vmess6
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess7
+  - FR 法国(youtube阿伟科技)vmess8
+  - UK 英国(youtube阿伟科技)vmess9
+  - US 美国(youtube阿伟科技)vmess10
   - US 美国(youtube阿伟科技)vmess11
-  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess12
-  - US 美国(youtube阿伟科技)vmess13
-  - US 美国(youtube阿伟科技)vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - ID 印尼(youtube阿伟科技)vmess17
-  - YouTube简迷离|杭港BGP|NETFLIX_49vmess18
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess19
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess20
-  - KR 韩国(youtube阿伟科技)vmess21
-  - 印尼(yudou66.com 玉豆免费节点)vmess22
-  - YouTube简迷离|杭港BGP|NETFLIX_79vmess23
-  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess24
-  - Youtube顺丰资源  - 美国CloudFlare节点 6vmess25
-  - US 美国(youtube阿伟科技)vmess26
-  - US 美国(youtube阿伟科技)vmess27
-  - US 美国(youtube阿伟科技)vmess28
-  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess29
-  - ID 印尼(youtube阿伟科技)vmess30
-  - KR 韩国(youtube阿伟科技)vmess31
-  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess32
-  - DE 德国(youtube阿伟科技)vmess33
-  - 越南(yudou66.com 玉豆免费节点)vmess34
-  - VN 越南(youtube阿伟科技)vmess35
-  - Youtube顺丰资源  - 澳大利亚悉尼 4 2vmess36
-  - 印尼(yudou66.com 玉豆免费节点)vmess37
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess38
-  - UK 英国(youtube阿伟科技)vmess39
-  - TW+台湾(youtube阿伟科技)trojan1
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan2
-  - HK+香港(youtube阿伟科技)trojan3
+  - VN 越南(youtube阿伟科技)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - DE 德国(youtube阿伟科技)vmess14
+  - US 美国(youtube阿伟科技)vmess15
+  - 香港BGP|流量用完失效|梦歌_17vmess16
+  - NL 荷兰(youtube阿伟科技)vmess17
+  - YouTube简迷离|杭港BGP|NETFLIX_25vmess18
+  - ID 印尼(youtube阿伟科技)vmess19
+  - US 美国(youtube阿伟科技)vmess20
+  - US 美国(youtube阿伟科技)vmess21
+  - ID 印尼(youtube阿伟科技)vmess22
+  - VN 越南(youtube阿伟科技)vmess23
+  - US 美国(youtube阿伟科技)vmess24
+  - US 美国(youtube阿伟科技)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess27
+  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess28
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess29
+  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess30
+  - SG 新加坡(youtube阿伟科技)vmess31
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 7vmess32
+  - FR 法国(youtube阿伟科技)vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess35
+  - RU 俄罗斯(youtube阿伟科技)vmess36
+  - UK 英国(youtube阿伟科技)vmess37
+  - 印尼(yudou66.com 玉豆免费节点)vmess38
+  - Youtube顺丰资源  - 美国CloudFlare节点 27vmess39
+  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess40
+  - Youtube顺丰资源  - 美国CloudFlare节点 18vmess41
+  - www.youneed.winvmess42
+  - Youtube顺丰资源  - 美国RF Engineering 12vmess43
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -711,143 +748,149 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - UK 英国(youtube阿伟科技)vmess1
-  - SG 新加坡(youtube阿伟科技)vmess2
-  - FR 法国(youtube阿伟科技)vmess3
-  - US 美国(youtube阿伟科技)vmess4
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess5
-  - RU 俄罗斯(youtube阿伟科技)vmess6
-  - 香港BGP|流量用完失效|梦歌_17vmess7
-  - NL 荷兰(youtube阿伟科技)vmess8
-  - FR 法国(youtube阿伟科技)vmess9
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess10
+  - KR 韩国(youtube阿伟科技)vmess1
+  - US 美国(youtube阿伟科技)vmess2
+  - US 美国(youtube阿伟科技)vmess3
+  - YouTube简迷离|杭港BGP|NETFLIX_47vmess4
+  - SG 新加坡(youtube阿伟科技)vmess5
+  - KR 韩国(youtube阿伟科技)vmess6
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess7
+  - FR 法国(youtube阿伟科技)vmess8
+  - UK 英国(youtube阿伟科技)vmess9
+  - US 美国(youtube阿伟科技)vmess10
   - US 美国(youtube阿伟科技)vmess11
-  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess12
-  - US 美国(youtube阿伟科技)vmess13
-  - US 美国(youtube阿伟科技)vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - ID 印尼(youtube阿伟科技)vmess17
-  - YouTube简迷离|杭港BGP|NETFLIX_49vmess18
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess19
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess20
-  - KR 韩国(youtube阿伟科技)vmess21
-  - 印尼(yudou66.com 玉豆免费节点)vmess22
-  - YouTube简迷离|杭港BGP|NETFLIX_79vmess23
-  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess24
-  - Youtube顺丰资源  - 美国CloudFlare节点 6vmess25
-  - US 美国(youtube阿伟科技)vmess26
-  - US 美国(youtube阿伟科技)vmess27
-  - US 美国(youtube阿伟科技)vmess28
-  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess29
-  - ID 印尼(youtube阿伟科技)vmess30
-  - KR 韩国(youtube阿伟科技)vmess31
-  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess32
-  - DE 德国(youtube阿伟科技)vmess33
-  - 越南(yudou66.com 玉豆免费节点)vmess34
-  - VN 越南(youtube阿伟科技)vmess35
-  - Youtube顺丰资源  - 澳大利亚悉尼 4 2vmess36
-  - 印尼(yudou66.com 玉豆免费节点)vmess37
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess38
-  - UK 英国(youtube阿伟科技)vmess39
-  - TW+台湾(youtube阿伟科技)trojan1
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan2
-  - HK+香港(youtube阿伟科技)trojan3
+  - VN 越南(youtube阿伟科技)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - DE 德国(youtube阿伟科技)vmess14
+  - US 美国(youtube阿伟科技)vmess15
+  - 香港BGP|流量用完失效|梦歌_17vmess16
+  - NL 荷兰(youtube阿伟科技)vmess17
+  - YouTube简迷离|杭港BGP|NETFLIX_25vmess18
+  - ID 印尼(youtube阿伟科技)vmess19
+  - US 美国(youtube阿伟科技)vmess20
+  - US 美国(youtube阿伟科技)vmess21
+  - ID 印尼(youtube阿伟科技)vmess22
+  - VN 越南(youtube阿伟科技)vmess23
+  - US 美国(youtube阿伟科技)vmess24
+  - US 美国(youtube阿伟科技)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess27
+  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess28
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess29
+  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess30
+  - SG 新加坡(youtube阿伟科技)vmess31
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 7vmess32
+  - FR 法国(youtube阿伟科技)vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess35
+  - RU 俄罗斯(youtube阿伟科技)vmess36
+  - UK 英国(youtube阿伟科技)vmess37
+  - 印尼(yudou66.com 玉豆免费节点)vmess38
+  - Youtube顺丰资源  - 美国CloudFlare节点 27vmess39
+  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess40
+  - Youtube顺丰资源  - 美国CloudFlare节点 18vmess41
+  - www.youneed.winvmess42
+  - Youtube顺丰资源  - 美国RF Engineering 12vmess43
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - UK 英国(youtube阿伟科技)vmess1
-  - SG 新加坡(youtube阿伟科技)vmess2
-  - FR 法国(youtube阿伟科技)vmess3
-  - US 美国(youtube阿伟科技)vmess4
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess5
-  - RU 俄罗斯(youtube阿伟科技)vmess6
-  - 香港BGP|流量用完失效|梦歌_17vmess7
-  - NL 荷兰(youtube阿伟科技)vmess8
-  - FR 法国(youtube阿伟科技)vmess9
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess10
+  - KR 韩国(youtube阿伟科技)vmess1
+  - US 美国(youtube阿伟科技)vmess2
+  - US 美国(youtube阿伟科技)vmess3
+  - YouTube简迷离|杭港BGP|NETFLIX_47vmess4
+  - SG 新加坡(youtube阿伟科技)vmess5
+  - KR 韩国(youtube阿伟科技)vmess6
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess7
+  - FR 法国(youtube阿伟科技)vmess8
+  - UK 英国(youtube阿伟科技)vmess9
+  - US 美国(youtube阿伟科技)vmess10
   - US 美国(youtube阿伟科技)vmess11
-  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess12
-  - US 美国(youtube阿伟科技)vmess13
-  - US 美国(youtube阿伟科技)vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - ID 印尼(youtube阿伟科技)vmess17
-  - YouTube简迷离|杭港BGP|NETFLIX_49vmess18
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess19
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess20
-  - KR 韩国(youtube阿伟科技)vmess21
-  - 印尼(yudou66.com 玉豆免费节点)vmess22
-  - YouTube简迷离|杭港BGP|NETFLIX_79vmess23
-  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess24
-  - Youtube顺丰资源  - 美国CloudFlare节点 6vmess25
-  - US 美国(youtube阿伟科技)vmess26
-  - US 美国(youtube阿伟科技)vmess27
-  - US 美国(youtube阿伟科技)vmess28
-  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess29
-  - ID 印尼(youtube阿伟科技)vmess30
-  - KR 韩国(youtube阿伟科技)vmess31
-  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess32
-  - DE 德国(youtube阿伟科技)vmess33
-  - 越南(yudou66.com 玉豆免费节点)vmess34
-  - VN 越南(youtube阿伟科技)vmess35
-  - Youtube顺丰资源  - 澳大利亚悉尼 4 2vmess36
-  - 印尼(yudou66.com 玉豆免费节点)vmess37
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess38
-  - UK 英国(youtube阿伟科技)vmess39
-  - TW+台湾(youtube阿伟科技)trojan1
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan2
-  - HK+香港(youtube阿伟科技)trojan3
+  - VN 越南(youtube阿伟科技)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - DE 德国(youtube阿伟科技)vmess14
+  - US 美国(youtube阿伟科技)vmess15
+  - 香港BGP|流量用完失效|梦歌_17vmess16
+  - NL 荷兰(youtube阿伟科技)vmess17
+  - YouTube简迷离|杭港BGP|NETFLIX_25vmess18
+  - ID 印尼(youtube阿伟科技)vmess19
+  - US 美国(youtube阿伟科技)vmess20
+  - US 美国(youtube阿伟科技)vmess21
+  - ID 印尼(youtube阿伟科技)vmess22
+  - VN 越南(youtube阿伟科技)vmess23
+  - US 美国(youtube阿伟科技)vmess24
+  - US 美国(youtube阿伟科技)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess27
+  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess28
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess29
+  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess30
+  - SG 新加坡(youtube阿伟科技)vmess31
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 7vmess32
+  - FR 法国(youtube阿伟科技)vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess35
+  - RU 俄罗斯(youtube阿伟科技)vmess36
+  - UK 英国(youtube阿伟科技)vmess37
+  - 印尼(yudou66.com 玉豆免费节点)vmess38
+  - Youtube顺丰资源  - 美国CloudFlare节点 27vmess39
+  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess40
+  - Youtube顺丰资源  - 美国CloudFlare节点 18vmess41
+  - www.youneed.winvmess42
+  - Youtube顺丰资源  - 美国RF Engineering 12vmess43
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - UK 英国(youtube阿伟科技)vmess1
-  - SG 新加坡(youtube阿伟科技)vmess2
-  - FR 法国(youtube阿伟科技)vmess3
-  - US 美国(youtube阿伟科技)vmess4
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess5
-  - RU 俄罗斯(youtube阿伟科技)vmess6
-  - 香港BGP|流量用完失效|梦歌_17vmess7
-  - NL 荷兰(youtube阿伟科技)vmess8
-  - FR 法国(youtube阿伟科技)vmess9
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess10
+  - KR 韩国(youtube阿伟科技)vmess1
+  - US 美国(youtube阿伟科技)vmess2
+  - US 美国(youtube阿伟科技)vmess3
+  - YouTube简迷离|杭港BGP|NETFLIX_47vmess4
+  - SG 新加坡(youtube阿伟科技)vmess5
+  - KR 韩国(youtube阿伟科技)vmess6
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess7
+  - FR 法国(youtube阿伟科技)vmess8
+  - UK 英国(youtube阿伟科技)vmess9
+  - US 美国(youtube阿伟科技)vmess10
   - US 美国(youtube阿伟科技)vmess11
-  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess12
-  - US 美国(youtube阿伟科技)vmess13
-  - US 美国(youtube阿伟科技)vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - ID 印尼(youtube阿伟科技)vmess17
-  - YouTube简迷离|杭港BGP|NETFLIX_49vmess18
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess19
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 14 2vmess20
-  - KR 韩国(youtube阿伟科技)vmess21
-  - 印尼(yudou66.com 玉豆免费节点)vmess22
-  - YouTube简迷离|杭港BGP|NETFLIX_79vmess23
-  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess24
-  - Youtube顺丰资源  - 美国CloudFlare节点 6vmess25
-  - US 美国(youtube阿伟科技)vmess26
-  - US 美国(youtube阿伟科技)vmess27
-  - US 美国(youtube阿伟科技)vmess28
-  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess29
-  - ID 印尼(youtube阿伟科技)vmess30
-  - KR 韩国(youtube阿伟科技)vmess31
-  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess32
-  - DE 德国(youtube阿伟科技)vmess33
-  - 越南(yudou66.com 玉豆免费节点)vmess34
-  - VN 越南(youtube阿伟科技)vmess35
-  - Youtube顺丰资源  - 澳大利亚悉尼 4 2vmess36
-  - 印尼(yudou66.com 玉豆免费节点)vmess37
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess38
-  - UK 英国(youtube阿伟科技)vmess39
-  - TW+台湾(youtube阿伟科技)trojan1
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan2
-  - HK+香港(youtube阿伟科技)trojan3
+  - VN 越南(youtube阿伟科技)vmess12
+  - 加拿大(yudou66.com 玉豆免费节点)vmess13
+  - DE 德国(youtube阿伟科技)vmess14
+  - US 美国(youtube阿伟科技)vmess15
+  - 香港BGP|流量用完失效|梦歌_17vmess16
+  - NL 荷兰(youtube阿伟科技)vmess17
+  - YouTube简迷离|杭港BGP|NETFLIX_25vmess18
+  - ID 印尼(youtube阿伟科技)vmess19
+  - US 美国(youtube阿伟科技)vmess20
+  - US 美国(youtube阿伟科技)vmess21
+  - ID 印尼(youtube阿伟科技)vmess22
+  - VN 越南(youtube阿伟科技)vmess23
+  - US 美国(youtube阿伟科技)vmess24
+  - US 美国(youtube阿伟科技)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 15vmess27
+  - Youtube顺丰资源  - 巴西圣保罗CloudFlare节点 12vmess28
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess29
+  - 🇨🇾塞浦路斯(欢迎订阅Youtube元亨利贞)vmess30
+  - SG 新加坡(youtube阿伟科技)vmess31
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点 7vmess32
+  - FR 法国(youtube阿伟科技)vmess33
+  - 美国(yudou66.com 玉豆免费节点)vmess34
+  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess35
+  - RU 俄罗斯(youtube阿伟科技)vmess36
+  - UK 英国(youtube阿伟科技)vmess37
+  - 印尼(yudou66.com 玉豆免费节点)vmess38
+  - Youtube顺丰资源  - 美国CloudFlare节点 27vmess39
+  - Youtube顺丰资源  - 美国CloudFlare节点 4vmess40
+  - Youtube顺丰资源  - 美国CloudFlare节点 18vmess41
+  - www.youneed.winvmess42
+  - Youtube顺丰资源  - 美国RF Engineering 12vmess43
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
