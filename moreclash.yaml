@@ -26,35 +26,33 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: VN 越南(youtube阿伟科技)vmess1
+- name: YouTube简迷离|江港BGP_28vmess1
   type: vmess
-  server: news.microsoft.com
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  server: in-sg-1.homelands.net.cn
+  port: '38701'
+  uuid: f4280e17-b29c-372b-882d-8c45e435a1c7
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /A2DJOPFT
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess2
+    Host: tv.cctv.com
+- name: YouTube简迷离|江港BGP_56vmess2
   type: vmess
-  server: 66.235.200.22
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  server: in-tw-1.homelands.net.cn
+  port: '38201'
+  uuid: f4280e17-b29c-372b-882d-8c45e435a1c7
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /A2DJOPFT
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: YouTube简迷离|杭港BGP|NETFLIX_47vmess3
+    Host: tv.cctv.com
+- name: YouTube简迷离|江港BGP_130vmess3
   type: vmess
-  server: 203.30.190.191
+  server: 172.67.199.34
   port: '443'
   uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: '0'
@@ -65,100 +63,9 @@ proxies:
   ws-headers:
     Host: oplg1.zhujicn2.com
   tls: true
-- name: ID 印尼(youtube阿伟科技)vmess4
+- name: YouTube简迷离|江港BGP_108vmess4
   type: vmess
-  server: news.microsoft.com
-  port: '443'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/63859b5b38f53/
-  ws-headers:
-    Host: sg1-v2ray.sshkit.org
-  tls: true
-- name: 法国(yudou66.com 玉豆免费节点)vmess5
-  type: vmess
-  server: main.millionaireaisle.com
-  port: '443'
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /9JZFDTKE
-  ws-headers:
-    Host: fr1.trump2023.org
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess6
-  type: vmess
-  server: 203.30.188.188
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess7
-  type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /eisasqa
-  ws-headers:
-    Host: foxusovz3.fovi.tk
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess8
-  type: vmess
-  server: v13.583182.xyz
-  port: '2053'
-  uuid: 07f70760-3167-48c4-aa4d-3c81f5266b35
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: v13.583181.xyz
-  tls: true
-- name: NL 荷兰(youtube阿伟科技)vmess9
-  type: vmess
-  server: news.microsoft.com
-  port: '443'
-  uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /lXvA0Vse/
-  ws-headers:
-    Host: hl1.cachexy.ga
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess10
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: hk.sharecentre.online
-  tls: true
-- name: VN 越南(youtube阿伟科技)vmess11
-  type: vmess
-  server: news.microsoft.com
+  server: 172.67.199.34
   port: '443'
   uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: '0'
@@ -169,19 +76,20 @@ proxies:
   ws-headers:
     Host: sg3-v2ray.sshkit.org
   tls: true
-- name: SG 新加坡(youtube阿伟科技)vmess12
+- name: YouTube简迷离|江港BGP_152vmess5
   type: vmess
-  server: racknerd.com
-  port: '2086'
-  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+  server: 185.162.228.230
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /aries
+  ws-path: /A2DJOPFT
   ws-headers:
-    Host: azstu.cloudflare.quest
-- name: 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess13
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: YouTube简迷离|江港BGP_117vmess6
   type: vmess
   server: 23.227.38.38
   port: '443'
@@ -194,58 +102,214 @@ proxies:
   ws-headers:
     Host: lg1.trump2023.us
   tls: true
-- name: YouTube简迷离|杭港BGP|NETFLIX_25vmess14
+- name: NL 荷兰(youtube阿伟科技)vmess7
   type: vmess
-  server: 141.101.115.111
+  server: news.microsoft.com
   port: '443'
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /9JZFDTKE
+  ws-path: /lXvA0Vse/
   ws-headers:
-    Host: fr1.trump2023.org
+    Host: hl1.cachexy.ga
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess15
+- name: 美国(yudou66.com 玉豆免费节点)vmess8
   type: vmess
-  server: cf.fovi.tk
+  server: 203.30.188.188
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: YouTube简迷离|江港BGP_119vmess9
+  type: vmess
+  server: 23.227.38.40
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: YouTube简迷离|江港BGP_144vmess10
+  type: vmess
+  server: 203.24.108.10
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess11
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: hk.sharecentre.online
+  tls: true
+- name: YouTube简迷离|江港BGP_20vmess12
+  type: vmess
+  server: 172.67.199.34
   port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /eisasqa
+  ws-path: /DQsafRJn/
   ws-headers:
-    Host: foxusovz1.fovi.tk
+    Host: v2ray.wefuckgfw.ga
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess16
+- name: YouTube简迷离|江港BGP_89vmess13
   type: vmess
-  server: hk80.sanfen001.pics
+  server: hkt.comefromchinatown.com
   port: '80'
-  uuid: e30fa02c-d604-4191-9b81-c550b32f82bc
-  alterId: '0'
+  uuid: 7003c645-327f-878b-82a9-6af6f7ee481b
+  alterId: '2'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /zh-cn/download
+  ws-path: /
   ws-headers:
-    Host: a.189.cn
-- name: 美国(yudou66.com 玉豆免费节点)vmess17
+    Host: broadcastlv.chat.bilibili.com
+- name: YouTube简迷离|江港BGP_116vmess14
   type: vmess
-  server: 104.18.62.179
+  server: 203.30.190.191
   port: '443'
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /vmess
+  ws-path: /5QNROSRV
   ws-headers:
-    Host: v2.chigua.tk
+    Host: oplg1.zhujicn2.com
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess18
+- name: YouTube简迷离|江港BGP_133vmess15
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: YouTube简迷离|江港BGP_149vmess16
+  type: vmess
+  server: 185.162.228.228
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: ID 印尼(youtube阿伟科技)vmess17
+  type: vmess
+  server: news.microsoft.com
+  port: '443'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/1736960111/63859b5b38f53/
+  ws-headers:
+    Host: sg1-v2ray.sshkit.org
+  tls: true
+- name: YouTube简迷离|江港BGP_58vmess18
+  type: vmess
+  server: amshare.jingledev.me
+  port: '443'
+  uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /pkhhvws
+  ws-headers:
+    Host: amshare.jingledev.me
+  tls: true
+- name: YouTube简迷离|江港BGP_138vmess19
+  type: vmess
+  server: 203.30.189.191
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: YouTube简迷离|江港BGP_141vmess20
+  type: vmess
+  server: 203.30.189.189
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: YouTube简迷离|江港BGP_136vmess21
+  type: vmess
+  server: 203.24.108.8
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: YouTube简迷离|江港BGP_134vmess22
+  type: vmess
+  server: 203.24.108.9
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess23
   type: vmess
   server: 203.30.189.190
   port: '443'
@@ -258,20 +322,33 @@ proxies:
   ws-headers:
     Host: oplg1.zhujicn2.com
   tls: true
-- name: US 美国(youtube阿伟科技)vmess19
+- name: YouTube简迷离|江港BGP_50vmess24
   type: vmess
-  server: main.millionaireaisle.com
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  server: amshare.jingledev.me
+  port: '443'
+  uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /eisasqa
+  ws-path: /pkhhvws
   ws-headers:
-    Host: foxusovz3.fovi.tk
+    Host: ''
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess20
+- name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess25
+  type: vmess
+  server: 66.235.200.22
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess26
   type: vmess
   server: stock.hostmonit.com
   port: '443'
@@ -284,7 +361,7 @@ proxies:
   ws-headers:
     Host: sg-ovh.sharecentre.online
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess21
+- name: YouTube简迷离|江港BGP_111vmess27
   type: vmess
   server: cf.fovi.tk
   port: '2053'
@@ -295,9 +372,113 @@ proxies:
   network: ws
   ws-path: /eisasqa
   ws-headers:
-    Host: foxpol.fovi.tk
+    Host: foxusovz3.fovi.tk
   tls: true
-- name: 📶SV1- VIETTEL🇻🇳vmess22
+- name: 法国(yudou66.com 玉豆免费节点)vmess28
+  type: vmess
+  server: main.millionaireaisle.com
+  port: '443'
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /9JZFDTKE
+  ws-headers:
+    Host: fr1.trump2023.org
+  tls: true
+- name: YouTube简迷离|江港BGP_121vmess29
+  type: vmess
+  server: 203.30.188.120
+  port: '443'
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /IYKLD53M
+  ws-headers:
+    Host: opfr1.v2rayfree1.xyz
+  tls: true
+- name: YouTube简迷离|江港BGP_126vmess30
+  type: vmess
+  server: 23.227.38.39
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: YouTube简迷离|江港BGP_147vmess31
+  type: vmess
+  server: 203.30.191.193
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: VN 越南(youtube阿伟科技)vmess32
+  type: vmess
+  server: news.microsoft.com
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: YouTube简迷离|江港BGP_146vmess33
+  type: vmess
+  server: 203.30.188.190
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: YouTube简迷离|江港BGP_103vmess34
+  type: vmess
+  server: cf.fovi.tk
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /eisasqa
+  ws-headers:
+    Host: foxusovz1.fovi.tk
+  tls: true
+- name: YouTube简迷离|江港BGP_124vmess35
+  type: vmess
+  server: 203.30.190.192
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 📶SV1- VIETTEL🇻🇳vmess36
   type: vmess
   server: 103.179.189.75
   port: '80'
@@ -309,19 +490,19 @@ proxies:
   ws-path: /5gtocdocao.com
   ws-headers:
     Host: dl.kgvn.garenanow.com
-- name: US 美国(youtube阿伟科技)vmess23
+- name: 📶SING VIETTEL🇻🇳vmess37
   type: vmess
-  server: cu.gongyiyun.cf
-  port: '2095'
-  uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+  server: 172.105.118.26
+  port: '80'
+  uuid: 933c0ecc-8fef-4d6f-b4a3-c9d62c1326ef
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /
+  ws-path: /5gtocdocao.com
   ws-headers:
-    Host: dknbyn3lw16n5elj.gongyiyun.cf
-- name: 美国(yudou66.com 玉豆免费节点)vmess24
+    Host: dl.kgvn.garenanow.com
+- name: 美国(yudou66.com 玉豆免费节点)vmess38
   type: vmess
   server: stock.hostmonit.com
   port: '443'
@@ -334,19 +515,7 @@ proxies:
   ws-headers:
     Host: sg-ovh.sharecentre.online
   tls: true
-- name: www.youneed.winvmess25
-  type: vmess
-  server: 47.93.231.218
-  port: '53022'
-  uuid: 95fd7642-2160-4528-e909-3d526b533013
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: sd.189.cn
-- name: 美国(yudou66.com 玉豆免费节点)vmess26
+- name: 美国(yudou66.com 玉豆免费节点)vmess39
   type: vmess
   server: news.microsoft.com
   port: '443'
@@ -359,65 +528,187 @@ proxies:
   ws-headers:
     Host: us.awsbest.com
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess27
+- name: www.youneed.winvmess40
   type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  server: 47.93.231.218
+  port: '53022'
+  uuid: 95fd7642-2160-4528-e909-3d526b533013
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /eisasqa
+  ws-path: /
   ws-headers:
-    Host: foxpol2.fovi.tk
-  tls: true
-- name: 📶SING VIETTEL🇻🇳vmess28
-  type: vmess
-  server: 172.105.118.26
-  port: '80'
-  uuid: 933c0ecc-8fef-4d6f-b4a3-c9d62c1326ef
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5gtocdocao.com
-  ws-headers:
-    Host: dl.kgvn.garenanow.com
-- name: 美国(yudou66.com 玉豆免费节点)vmess29
-  type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /eisasqa
-  ws-headers:
-    Host: foxusovz2.fovi.tk
-  tls: true
-- name: 📶SV8-VIETTEL-MOBI🇻🇳vmess30
-  type: vmess
-  server: 103.125.191.104
-  port: '80'
-  uuid: 933c0ecc-8fef-4d6f-b4a3-c9d62c1326ef
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5gtocdocao.com
-  ws-headers:
-    Host: dl.kgvn.garenanow.com
-- name: YouTube简迷离|杭港BGP|NETFLIX_9trojan1
+    Host: sd.189.cn
+- name: YouTube简迷离|江港BGP_3trojan1
   type: trojan
-  server: 45.64.22.55
-  port: '443'
+  server: hnn.xiaohouzi.club
+  port: '47454'
   udp: true
-  password: KLF0qOU0ZZGw5Tnu
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   skip-cert-verify: true
-  sni: swift.protocolbuffer.com
-- name: 香港(yudou66.com 玉豆免费节点)trojan2
+  sni: dosig.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_148trojan2
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '18437'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: avas02.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_143trojan3
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '18436'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: avas01.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_16trojan4
+  type: trojan
+  server: hn01.xiaohouzi.club
+  port: '16081'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: timotw.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_67trojan5
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '18441'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: vutnkr01.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_142trojan6
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '14185'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: vuus02.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_76trojan7
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '18445'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: vutnkr05.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_60trojan8
+  type: trojan
+  server: szf02.xiaohouzi.club
+  port: '27841'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: aws-s01.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_101trojan9
+  type: trojan
+  server: iplc.xiaohouzi.club
+  port: '20034'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: awv093.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_22trojan10
+  type: trojan
+  server: iplc.xiaohouzi.club
+  port: '20032'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: hk-azure02.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_62trojan11
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '18458'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: aru03.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_2trojan12
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '18435'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: ajpn05.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_34trojan13
+  type: trojan
+  server: hnm.xiaohouzi.club
+  port: '19362'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: aws-hk03.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_29trojan14
+  type: trojan
+  server: iplc.xiaohouzi.club
+  port: '20039'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: azhk02.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_54trojan15
+  type: trojan
+  server: hnm.xiaohouzi.club
+  port: '47554'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: au01.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_125trojan16
+  type: trojan
+  server: sub.xiaohouzi.club
+  port: '37093'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: vuus01.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_53trojan17
+  type: trojan
+  server: iplc.xiaohouzi.club
+  port: '20033'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: hk-azure03.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_45trojan18
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '28389'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: ger01.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_55trojan19
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '16015'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: tckr01.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_78trojan20
+  type: trojan
+  server: hn.xiaohouzi.club
+  port: '18461'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: vuus01.xiaohouzi.club
+- name: YouTube简迷离|江港BGP_80trojan21
+  type: trojan
+  server: hnm.xiaohouzi.club
+  port: '17113'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: shk01.xiaohouzi.club
+- name: 香港(yudou66.com 玉豆免费节点)trojan22
   type: trojan
   server: 219.76.13.181
   port: '443'
@@ -425,6 +716,62 @@ proxies:
   password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
   skip-cert-verify: true
   sni: arbettp.freetrade.link
+- name: YouTube简迷离|江港BGP_112trojan23
+  type: trojan
+  server: fr-par-2.fuckjdieng.uk
+  port: '50022'
+  udp: true
+  password: d6812956-680b-4eed-aff6-f4f7688ea25b
+  skip-cert-verify: true
+  sni: fr-par-2.fuckjdieng.uk
+- name: YouTube简迷离|江港BGP_114trojan24
+  type: trojan
+  server: iplc.xiaohouzi.club
+  port: '20036'
+  udp: true
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  skip-cert-verify: true
+  sni: nazhk03.xiaohouzi.club
+- name: YouTube简迷离|杭港BGP|NETFLIX_9trojan25
+  type: trojan
+  server: 45.64.22.55
+  port: '443'
+  udp: true
+  password: KLF0qOU0ZZGw5Tnu
+  skip-cert-verify: true
+  sni: swift.protocolbuffer.com
+- name: 🇨🇳CN-116.129.253.62-0167trojan26
+  type: trojan
+  server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: '30050'
+  udp: true
+  password: 9c789762-cb13-4c28-a3ba-333fe78b30f3
+  skip-cert-verify: true
+  sni: v2sg02.fuqiangren.com
+- name: YouTube简迷离|江港BGP_110trojan27
+  type: trojan
+  server: sgp-2.fuckjdieng.uk
+  port: '50118'
+  udp: true
+  password: d7fa1e42-2dcc-46af-9260-e53e3191b5c1
+  skip-cert-verify: true
+  sni: sgp-2.fuckjdieng.uk
+- name: 🇨🇳CN-120.241.146.157-0156trojan28
+  type: trojan
+  server: sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: '30038'
+  udp: true
+  password: 9c789762-cb13-4c28-a3ba-333fe78b30f3
+  skip-cert-verify: true
+  sni: v2hgc02.fuqiangren.com
+- name: YouTube简迷离|江港BGP_6trojan29
+  type: trojan
+  server: 45.64.22.55
+  port: '443'
+  udp: true
+  password: Ty33ylFA4u6A5e0NE3wRFp3DIa8lZOzC87CeKnxYgpSOSa2ZaXBjDDSY9qCcxR
+  skip-cert-verify: true
+  sni: flowery.meijireform.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -432,76 +779,150 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - VN 越南(youtube阿伟科技)vmess1
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess2
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess3
-  - ID 印尼(youtube阿伟科技)vmess4
-  - 法国(yudou66.com 玉豆免费节点)vmess5
-  - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - YouTube简迷离|江港BGP_28vmess1
+  - YouTube简迷离|江港BGP_56vmess2
+  - YouTube简迷离|江港BGP_130vmess3
+  - YouTube简迷离|江港BGP_108vmess4
+  - YouTube简迷离|江港BGP_152vmess5
+  - YouTube简迷离|江港BGP_117vmess6
+  - NL 荷兰(youtube阿伟科技)vmess7
   - 美国(yudou66.com 玉豆免费节点)vmess8
-  - NL 荷兰(youtube阿伟科技)vmess9
-  - 美国(yudou66.com 玉豆免费节点)vmess10
-  - VN 越南(youtube阿伟科技)vmess11
-  - SG 新加坡(youtube阿伟科技)vmess12
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess13
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
-  - US 美国(youtube阿伟科技)vmess19
-  - 美国(yudou66.com 玉豆免费节点)vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 📶SV1- VIETTEL🇻🇳vmess22
-  - US 美国(youtube阿伟科技)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - www.youneed.winvmess25
+  - YouTube简迷离|江港BGP_119vmess9
+  - YouTube简迷离|江港BGP_144vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - YouTube简迷离|江港BGP_20vmess12
+  - YouTube简迷离|江港BGP_89vmess13
+  - YouTube简迷离|江港BGP_116vmess14
+  - YouTube简迷离|江港BGP_133vmess15
+  - YouTube简迷离|江港BGP_149vmess16
+  - ID 印尼(youtube阿伟科技)vmess17
+  - YouTube简迷离|江港BGP_58vmess18
+  - YouTube简迷离|江港BGP_138vmess19
+  - YouTube简迷离|江港BGP_141vmess20
+  - YouTube简迷离|江港BGP_136vmess21
+  - YouTube简迷离|江港BGP_134vmess22
+  - 美国(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|江港BGP_50vmess24
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess25
   - 美国(yudou66.com 玉豆免费节点)vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 📶SING VIETTEL🇻🇳vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 📶SV8-VIETTEL-MOBI🇻🇳vmess30
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
-  - 香港(yudou66.com 玉豆免费节点)trojan2
+  - YouTube简迷离|江港BGP_111vmess27
+  - 法国(yudou66.com 玉豆免费节点)vmess28
+  - YouTube简迷离|江港BGP_121vmess29
+  - YouTube简迷离|江港BGP_126vmess30
+  - YouTube简迷离|江港BGP_147vmess31
+  - VN 越南(youtube阿伟科技)vmess32
+  - YouTube简迷离|江港BGP_146vmess33
+  - YouTube简迷离|江港BGP_103vmess34
+  - YouTube简迷离|江港BGP_124vmess35
+  - 📶SV1- VIETTEL🇻🇳vmess36
+  - 📶SING VIETTEL🇻🇳vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - www.youneed.winvmess40
+  - YouTube简迷离|江港BGP_3trojan1
+  - YouTube简迷离|江港BGP_148trojan2
+  - YouTube简迷离|江港BGP_143trojan3
+  - YouTube简迷离|江港BGP_16trojan4
+  - YouTube简迷离|江港BGP_67trojan5
+  - YouTube简迷离|江港BGP_142trojan6
+  - YouTube简迷离|江港BGP_76trojan7
+  - YouTube简迷离|江港BGP_60trojan8
+  - YouTube简迷离|江港BGP_101trojan9
+  - YouTube简迷离|江港BGP_22trojan10
+  - YouTube简迷离|江港BGP_62trojan11
+  - YouTube简迷离|江港BGP_2trojan12
+  - YouTube简迷离|江港BGP_34trojan13
+  - YouTube简迷离|江港BGP_29trojan14
+  - YouTube简迷离|江港BGP_54trojan15
+  - YouTube简迷离|江港BGP_125trojan16
+  - YouTube简迷离|江港BGP_53trojan17
+  - YouTube简迷离|江港BGP_45trojan18
+  - YouTube简迷离|江港BGP_55trojan19
+  - YouTube简迷离|江港BGP_78trojan20
+  - YouTube简迷离|江港BGP_80trojan21
+  - 香港(yudou66.com 玉豆免费节点)trojan22
+  - YouTube简迷离|江港BGP_112trojan23
+  - YouTube简迷离|江港BGP_114trojan24
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan25
+  - 🇨🇳CN-116.129.253.62-0167trojan26
+  - YouTube简迷离|江港BGP_110trojan27
+  - 🇨🇳CN-120.241.146.157-0156trojan28
+  - YouTube简迷离|江港BGP_6trojan29
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - VN 越南(youtube阿伟科技)vmess1
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess2
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess3
-  - ID 印尼(youtube阿伟科技)vmess4
-  - 法国(yudou66.com 玉豆免费节点)vmess5
-  - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - YouTube简迷离|江港BGP_28vmess1
+  - YouTube简迷离|江港BGP_56vmess2
+  - YouTube简迷离|江港BGP_130vmess3
+  - YouTube简迷离|江港BGP_108vmess4
+  - YouTube简迷离|江港BGP_152vmess5
+  - YouTube简迷离|江港BGP_117vmess6
+  - NL 荷兰(youtube阿伟科技)vmess7
   - 美国(yudou66.com 玉豆免费节点)vmess8
-  - NL 荷兰(youtube阿伟科技)vmess9
-  - 美国(yudou66.com 玉豆免费节点)vmess10
-  - VN 越南(youtube阿伟科技)vmess11
-  - SG 新加坡(youtube阿伟科技)vmess12
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess13
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
-  - US 美国(youtube阿伟科技)vmess19
-  - 美国(yudou66.com 玉豆免费节点)vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 📶SV1- VIETTEL🇻🇳vmess22
-  - US 美国(youtube阿伟科技)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - www.youneed.winvmess25
+  - YouTube简迷离|江港BGP_119vmess9
+  - YouTube简迷离|江港BGP_144vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - YouTube简迷离|江港BGP_20vmess12
+  - YouTube简迷离|江港BGP_89vmess13
+  - YouTube简迷离|江港BGP_116vmess14
+  - YouTube简迷离|江港BGP_133vmess15
+  - YouTube简迷离|江港BGP_149vmess16
+  - ID 印尼(youtube阿伟科技)vmess17
+  - YouTube简迷离|江港BGP_58vmess18
+  - YouTube简迷离|江港BGP_138vmess19
+  - YouTube简迷离|江港BGP_141vmess20
+  - YouTube简迷离|江港BGP_136vmess21
+  - YouTube简迷离|江港BGP_134vmess22
+  - 美国(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|江港BGP_50vmess24
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess25
   - 美国(yudou66.com 玉豆免费节点)vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 📶SING VIETTEL🇻🇳vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 📶SV8-VIETTEL-MOBI🇻🇳vmess30
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
-  - 香港(yudou66.com 玉豆免费节点)trojan2
+  - YouTube简迷离|江港BGP_111vmess27
+  - 法国(yudou66.com 玉豆免费节点)vmess28
+  - YouTube简迷离|江港BGP_121vmess29
+  - YouTube简迷离|江港BGP_126vmess30
+  - YouTube简迷离|江港BGP_147vmess31
+  - VN 越南(youtube阿伟科技)vmess32
+  - YouTube简迷离|江港BGP_146vmess33
+  - YouTube简迷离|江港BGP_103vmess34
+  - YouTube简迷离|江港BGP_124vmess35
+  - 📶SV1- VIETTEL🇻🇳vmess36
+  - 📶SING VIETTEL🇻🇳vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - www.youneed.winvmess40
+  - YouTube简迷离|江港BGP_3trojan1
+  - YouTube简迷离|江港BGP_148trojan2
+  - YouTube简迷离|江港BGP_143trojan3
+  - YouTube简迷离|江港BGP_16trojan4
+  - YouTube简迷离|江港BGP_67trojan5
+  - YouTube简迷离|江港BGP_142trojan6
+  - YouTube简迷离|江港BGP_76trojan7
+  - YouTube简迷离|江港BGP_60trojan8
+  - YouTube简迷离|江港BGP_101trojan9
+  - YouTube简迷离|江港BGP_22trojan10
+  - YouTube简迷离|江港BGP_62trojan11
+  - YouTube简迷离|江港BGP_2trojan12
+  - YouTube简迷离|江港BGP_34trojan13
+  - YouTube简迷离|江港BGP_29trojan14
+  - YouTube简迷离|江港BGP_54trojan15
+  - YouTube简迷离|江港BGP_125trojan16
+  - YouTube简迷离|江港BGP_53trojan17
+  - YouTube简迷离|江港BGP_45trojan18
+  - YouTube简迷离|江港BGP_55trojan19
+  - YouTube简迷离|江港BGP_78trojan20
+  - YouTube简迷离|江港BGP_80trojan21
+  - 香港(yudou66.com 玉豆免费节点)trojan22
+  - YouTube简迷离|江港BGP_112trojan23
+  - YouTube简迷离|江港BGP_114trojan24
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan25
+  - 🇨🇳CN-116.129.253.62-0167trojan26
+  - YouTube简迷离|江港BGP_110trojan27
+  - 🇨🇳CN-120.241.146.157-0156trojan28
+  - YouTube简迷离|江港BGP_6trojan29
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -514,38 +935,75 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - VN 越南(youtube阿伟科技)vmess1
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess2
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess3
-  - ID 印尼(youtube阿伟科技)vmess4
-  - 法国(yudou66.com 玉豆免费节点)vmess5
-  - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - YouTube简迷离|江港BGP_28vmess1
+  - YouTube简迷离|江港BGP_56vmess2
+  - YouTube简迷离|江港BGP_130vmess3
+  - YouTube简迷离|江港BGP_108vmess4
+  - YouTube简迷离|江港BGP_152vmess5
+  - YouTube简迷离|江港BGP_117vmess6
+  - NL 荷兰(youtube阿伟科技)vmess7
   - 美国(yudou66.com 玉豆免费节点)vmess8
-  - NL 荷兰(youtube阿伟科技)vmess9
-  - 美国(yudou66.com 玉豆免费节点)vmess10
-  - VN 越南(youtube阿伟科技)vmess11
-  - SG 新加坡(youtube阿伟科技)vmess12
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess13
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
-  - US 美国(youtube阿伟科技)vmess19
-  - 美国(yudou66.com 玉豆免费节点)vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 📶SV1- VIETTEL🇻🇳vmess22
-  - US 美国(youtube阿伟科技)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - www.youneed.winvmess25
+  - YouTube简迷离|江港BGP_119vmess9
+  - YouTube简迷离|江港BGP_144vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - YouTube简迷离|江港BGP_20vmess12
+  - YouTube简迷离|江港BGP_89vmess13
+  - YouTube简迷离|江港BGP_116vmess14
+  - YouTube简迷离|江港BGP_133vmess15
+  - YouTube简迷离|江港BGP_149vmess16
+  - ID 印尼(youtube阿伟科技)vmess17
+  - YouTube简迷离|江港BGP_58vmess18
+  - YouTube简迷离|江港BGP_138vmess19
+  - YouTube简迷离|江港BGP_141vmess20
+  - YouTube简迷离|江港BGP_136vmess21
+  - YouTube简迷离|江港BGP_134vmess22
+  - 美国(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|江港BGP_50vmess24
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess25
   - 美国(yudou66.com 玉豆免费节点)vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 📶SING VIETTEL🇻🇳vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 📶SV8-VIETTEL-MOBI🇻🇳vmess30
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
-  - 香港(yudou66.com 玉豆免费节点)trojan2
+  - YouTube简迷离|江港BGP_111vmess27
+  - 法国(yudou66.com 玉豆免费节点)vmess28
+  - YouTube简迷离|江港BGP_121vmess29
+  - YouTube简迷离|江港BGP_126vmess30
+  - YouTube简迷离|江港BGP_147vmess31
+  - VN 越南(youtube阿伟科技)vmess32
+  - YouTube简迷离|江港BGP_146vmess33
+  - YouTube简迷离|江港BGP_103vmess34
+  - YouTube简迷离|江港BGP_124vmess35
+  - 📶SV1- VIETTEL🇻🇳vmess36
+  - 📶SING VIETTEL🇻🇳vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - www.youneed.winvmess40
+  - YouTube简迷离|江港BGP_3trojan1
+  - YouTube简迷离|江港BGP_148trojan2
+  - YouTube简迷离|江港BGP_143trojan3
+  - YouTube简迷离|江港BGP_16trojan4
+  - YouTube简迷离|江港BGP_67trojan5
+  - YouTube简迷离|江港BGP_142trojan6
+  - YouTube简迷离|江港BGP_76trojan7
+  - YouTube简迷离|江港BGP_60trojan8
+  - YouTube简迷离|江港BGP_101trojan9
+  - YouTube简迷离|江港BGP_22trojan10
+  - YouTube简迷离|江港BGP_62trojan11
+  - YouTube简迷离|江港BGP_2trojan12
+  - YouTube简迷离|江港BGP_34trojan13
+  - YouTube简迷离|江港BGP_29trojan14
+  - YouTube简迷离|江港BGP_54trojan15
+  - YouTube简迷离|江港BGP_125trojan16
+  - YouTube简迷离|江港BGP_53trojan17
+  - YouTube简迷离|江港BGP_45trojan18
+  - YouTube简迷离|江港BGP_55trojan19
+  - YouTube简迷离|江港BGP_78trojan20
+  - YouTube简迷离|江港BGP_80trojan21
+  - 香港(yudou66.com 玉豆免费节点)trojan22
+  - YouTube简迷离|江港BGP_112trojan23
+  - YouTube简迷离|江港BGP_114trojan24
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan25
+  - 🇨🇳CN-116.129.253.62-0167trojan26
+  - YouTube简迷离|江港BGP_110trojan27
+  - 🇨🇳CN-120.241.146.157-0156trojan28
+  - YouTube简迷离|江港BGP_6trojan29
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -557,113 +1015,224 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - VN 越南(youtube阿伟科技)vmess1
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess2
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess3
-  - ID 印尼(youtube阿伟科技)vmess4
-  - 法国(yudou66.com 玉豆免费节点)vmess5
-  - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - YouTube简迷离|江港BGP_28vmess1
+  - YouTube简迷离|江港BGP_56vmess2
+  - YouTube简迷离|江港BGP_130vmess3
+  - YouTube简迷离|江港BGP_108vmess4
+  - YouTube简迷离|江港BGP_152vmess5
+  - YouTube简迷离|江港BGP_117vmess6
+  - NL 荷兰(youtube阿伟科技)vmess7
   - 美国(yudou66.com 玉豆免费节点)vmess8
-  - NL 荷兰(youtube阿伟科技)vmess9
-  - 美国(yudou66.com 玉豆免费节点)vmess10
-  - VN 越南(youtube阿伟科技)vmess11
-  - SG 新加坡(youtube阿伟科技)vmess12
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess13
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
-  - US 美国(youtube阿伟科技)vmess19
-  - 美国(yudou66.com 玉豆免费节点)vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 📶SV1- VIETTEL🇻🇳vmess22
-  - US 美国(youtube阿伟科技)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - www.youneed.winvmess25
+  - YouTube简迷离|江港BGP_119vmess9
+  - YouTube简迷离|江港BGP_144vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - YouTube简迷离|江港BGP_20vmess12
+  - YouTube简迷离|江港BGP_89vmess13
+  - YouTube简迷离|江港BGP_116vmess14
+  - YouTube简迷离|江港BGP_133vmess15
+  - YouTube简迷离|江港BGP_149vmess16
+  - ID 印尼(youtube阿伟科技)vmess17
+  - YouTube简迷离|江港BGP_58vmess18
+  - YouTube简迷离|江港BGP_138vmess19
+  - YouTube简迷离|江港BGP_141vmess20
+  - YouTube简迷离|江港BGP_136vmess21
+  - YouTube简迷离|江港BGP_134vmess22
+  - 美国(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|江港BGP_50vmess24
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess25
   - 美国(yudou66.com 玉豆免费节点)vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 📶SING VIETTEL🇻🇳vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 📶SV8-VIETTEL-MOBI🇻🇳vmess30
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
-  - 香港(yudou66.com 玉豆免费节点)trojan2
+  - YouTube简迷离|江港BGP_111vmess27
+  - 法国(yudou66.com 玉豆免费节点)vmess28
+  - YouTube简迷离|江港BGP_121vmess29
+  - YouTube简迷离|江港BGP_126vmess30
+  - YouTube简迷离|江港BGP_147vmess31
+  - VN 越南(youtube阿伟科技)vmess32
+  - YouTube简迷离|江港BGP_146vmess33
+  - YouTube简迷离|江港BGP_103vmess34
+  - YouTube简迷离|江港BGP_124vmess35
+  - 📶SV1- VIETTEL🇻🇳vmess36
+  - 📶SING VIETTEL🇻🇳vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - www.youneed.winvmess40
+  - YouTube简迷离|江港BGP_3trojan1
+  - YouTube简迷离|江港BGP_148trojan2
+  - YouTube简迷离|江港BGP_143trojan3
+  - YouTube简迷离|江港BGP_16trojan4
+  - YouTube简迷离|江港BGP_67trojan5
+  - YouTube简迷离|江港BGP_142trojan6
+  - YouTube简迷离|江港BGP_76trojan7
+  - YouTube简迷离|江港BGP_60trojan8
+  - YouTube简迷离|江港BGP_101trojan9
+  - YouTube简迷离|江港BGP_22trojan10
+  - YouTube简迷离|江港BGP_62trojan11
+  - YouTube简迷离|江港BGP_2trojan12
+  - YouTube简迷离|江港BGP_34trojan13
+  - YouTube简迷离|江港BGP_29trojan14
+  - YouTube简迷离|江港BGP_54trojan15
+  - YouTube简迷离|江港BGP_125trojan16
+  - YouTube简迷离|江港BGP_53trojan17
+  - YouTube简迷离|江港BGP_45trojan18
+  - YouTube简迷离|江港BGP_55trojan19
+  - YouTube简迷离|江港BGP_78trojan20
+  - YouTube简迷离|江港BGP_80trojan21
+  - 香港(yudou66.com 玉豆免费节点)trojan22
+  - YouTube简迷离|江港BGP_112trojan23
+  - YouTube简迷离|江港BGP_114trojan24
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan25
+  - 🇨🇳CN-116.129.253.62-0167trojan26
+  - YouTube简迷离|江港BGP_110trojan27
+  - 🇨🇳CN-120.241.146.157-0156trojan28
+  - YouTube简迷离|江港BGP_6trojan29
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - VN 越南(youtube阿伟科技)vmess1
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess2
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess3
-  - ID 印尼(youtube阿伟科技)vmess4
-  - 法国(yudou66.com 玉豆免费节点)vmess5
-  - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - YouTube简迷离|江港BGP_28vmess1
+  - YouTube简迷离|江港BGP_56vmess2
+  - YouTube简迷离|江港BGP_130vmess3
+  - YouTube简迷离|江港BGP_108vmess4
+  - YouTube简迷离|江港BGP_152vmess5
+  - YouTube简迷离|江港BGP_117vmess6
+  - NL 荷兰(youtube阿伟科技)vmess7
   - 美国(yudou66.com 玉豆免费节点)vmess8
-  - NL 荷兰(youtube阿伟科技)vmess9
-  - 美国(yudou66.com 玉豆免费节点)vmess10
-  - VN 越南(youtube阿伟科技)vmess11
-  - SG 新加坡(youtube阿伟科技)vmess12
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess13
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
-  - US 美国(youtube阿伟科技)vmess19
-  - 美国(yudou66.com 玉豆免费节点)vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 📶SV1- VIETTEL🇻🇳vmess22
-  - US 美国(youtube阿伟科技)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - www.youneed.winvmess25
+  - YouTube简迷离|江港BGP_119vmess9
+  - YouTube简迷离|江港BGP_144vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - YouTube简迷离|江港BGP_20vmess12
+  - YouTube简迷离|江港BGP_89vmess13
+  - YouTube简迷离|江港BGP_116vmess14
+  - YouTube简迷离|江港BGP_133vmess15
+  - YouTube简迷离|江港BGP_149vmess16
+  - ID 印尼(youtube阿伟科技)vmess17
+  - YouTube简迷离|江港BGP_58vmess18
+  - YouTube简迷离|江港BGP_138vmess19
+  - YouTube简迷离|江港BGP_141vmess20
+  - YouTube简迷离|江港BGP_136vmess21
+  - YouTube简迷离|江港BGP_134vmess22
+  - 美国(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|江港BGP_50vmess24
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess25
   - 美国(yudou66.com 玉豆免费节点)vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 📶SING VIETTEL🇻🇳vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 📶SV8-VIETTEL-MOBI🇻🇳vmess30
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
-  - 香港(yudou66.com 玉豆免费节点)trojan2
+  - YouTube简迷离|江港BGP_111vmess27
+  - 法国(yudou66.com 玉豆免费节点)vmess28
+  - YouTube简迷离|江港BGP_121vmess29
+  - YouTube简迷离|江港BGP_126vmess30
+  - YouTube简迷离|江港BGP_147vmess31
+  - VN 越南(youtube阿伟科技)vmess32
+  - YouTube简迷离|江港BGP_146vmess33
+  - YouTube简迷离|江港BGP_103vmess34
+  - YouTube简迷离|江港BGP_124vmess35
+  - 📶SV1- VIETTEL🇻🇳vmess36
+  - 📶SING VIETTEL🇻🇳vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - www.youneed.winvmess40
+  - YouTube简迷离|江港BGP_3trojan1
+  - YouTube简迷离|江港BGP_148trojan2
+  - YouTube简迷离|江港BGP_143trojan3
+  - YouTube简迷离|江港BGP_16trojan4
+  - YouTube简迷离|江港BGP_67trojan5
+  - YouTube简迷离|江港BGP_142trojan6
+  - YouTube简迷离|江港BGP_76trojan7
+  - YouTube简迷离|江港BGP_60trojan8
+  - YouTube简迷离|江港BGP_101trojan9
+  - YouTube简迷离|江港BGP_22trojan10
+  - YouTube简迷离|江港BGP_62trojan11
+  - YouTube简迷离|江港BGP_2trojan12
+  - YouTube简迷离|江港BGP_34trojan13
+  - YouTube简迷离|江港BGP_29trojan14
+  - YouTube简迷离|江港BGP_54trojan15
+  - YouTube简迷离|江港BGP_125trojan16
+  - YouTube简迷离|江港BGP_53trojan17
+  - YouTube简迷离|江港BGP_45trojan18
+  - YouTube简迷离|江港BGP_55trojan19
+  - YouTube简迷离|江港BGP_78trojan20
+  - YouTube简迷离|江港BGP_80trojan21
+  - 香港(yudou66.com 玉豆免费节点)trojan22
+  - YouTube简迷离|江港BGP_112trojan23
+  - YouTube简迷离|江港BGP_114trojan24
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan25
+  - 🇨🇳CN-116.129.253.62-0167trojan26
+  - YouTube简迷离|江港BGP_110trojan27
+  - 🇨🇳CN-120.241.146.157-0156trojan28
+  - YouTube简迷离|江港BGP_6trojan29
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - VN 越南(youtube阿伟科技)vmess1
-  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess2
-  - YouTube简迷离|杭港BGP|NETFLIX_47vmess3
-  - ID 印尼(youtube阿伟科技)vmess4
-  - 法国(yudou66.com 玉豆免费节点)vmess5
-  - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - YouTube简迷离|江港BGP_28vmess1
+  - YouTube简迷离|江港BGP_56vmess2
+  - YouTube简迷离|江港BGP_130vmess3
+  - YouTube简迷离|江港BGP_108vmess4
+  - YouTube简迷离|江港BGP_152vmess5
+  - YouTube简迷离|江港BGP_117vmess6
+  - NL 荷兰(youtube阿伟科技)vmess7
   - 美国(yudou66.com 玉豆免费节点)vmess8
-  - NL 荷兰(youtube阿伟科技)vmess9
-  - 美国(yudou66.com 玉豆免费节点)vmess10
-  - VN 越南(youtube阿伟科技)vmess11
-  - SG 新加坡(youtube阿伟科技)vmess12
-  - 🇨🇦加拿大(欢迎订阅Youtube元亨利贞)vmess13
-  - YouTube简迷离|杭港BGP|NETFLIX_25vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 美国(yudou66.com 玉豆免费节点)vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
-  - US 美国(youtube阿伟科技)vmess19
-  - 美国(yudou66.com 玉豆免费节点)vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 📶SV1- VIETTEL🇻🇳vmess22
-  - US 美国(youtube阿伟科技)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - www.youneed.winvmess25
+  - YouTube简迷离|江港BGP_119vmess9
+  - YouTube简迷离|江港BGP_144vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - YouTube简迷离|江港BGP_20vmess12
+  - YouTube简迷离|江港BGP_89vmess13
+  - YouTube简迷离|江港BGP_116vmess14
+  - YouTube简迷离|江港BGP_133vmess15
+  - YouTube简迷离|江港BGP_149vmess16
+  - ID 印尼(youtube阿伟科技)vmess17
+  - YouTube简迷离|江港BGP_58vmess18
+  - YouTube简迷离|江港BGP_138vmess19
+  - YouTube简迷离|江港BGP_141vmess20
+  - YouTube简迷离|江港BGP_136vmess21
+  - YouTube简迷离|江港BGP_134vmess22
+  - 美国(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|江港BGP_50vmess24
+  - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2vmess25
   - 美国(yudou66.com 玉豆免费节点)vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 📶SING VIETTEL🇻🇳vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 📶SV8-VIETTEL-MOBI🇻🇳vmess30
-  - YouTube简迷离|杭港BGP|NETFLIX_9trojan1
-  - 香港(yudou66.com 玉豆免费节点)trojan2
+  - YouTube简迷离|江港BGP_111vmess27
+  - 法国(yudou66.com 玉豆免费节点)vmess28
+  - YouTube简迷离|江港BGP_121vmess29
+  - YouTube简迷离|江港BGP_126vmess30
+  - YouTube简迷离|江港BGP_147vmess31
+  - VN 越南(youtube阿伟科技)vmess32
+  - YouTube简迷离|江港BGP_146vmess33
+  - YouTube简迷离|江港BGP_103vmess34
+  - YouTube简迷离|江港BGP_124vmess35
+  - 📶SV1- VIETTEL🇻🇳vmess36
+  - 📶SING VIETTEL🇻🇳vmess37
+  - 美国(yudou66.com 玉豆免费节点)vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - www.youneed.winvmess40
+  - YouTube简迷离|江港BGP_3trojan1
+  - YouTube简迷离|江港BGP_148trojan2
+  - YouTube简迷离|江港BGP_143trojan3
+  - YouTube简迷离|江港BGP_16trojan4
+  - YouTube简迷离|江港BGP_67trojan5
+  - YouTube简迷离|江港BGP_142trojan6
+  - YouTube简迷离|江港BGP_76trojan7
+  - YouTube简迷离|江港BGP_60trojan8
+  - YouTube简迷离|江港BGP_101trojan9
+  - YouTube简迷离|江港BGP_22trojan10
+  - YouTube简迷离|江港BGP_62trojan11
+  - YouTube简迷离|江港BGP_2trojan12
+  - YouTube简迷离|江港BGP_34trojan13
+  - YouTube简迷离|江港BGP_29trojan14
+  - YouTube简迷离|江港BGP_54trojan15
+  - YouTube简迷离|江港BGP_125trojan16
+  - YouTube简迷离|江港BGP_53trojan17
+  - YouTube简迷离|江港BGP_45trojan18
+  - YouTube简迷离|江港BGP_55trojan19
+  - YouTube简迷离|江港BGP_78trojan20
+  - YouTube简迷离|江港BGP_80trojan21
+  - 香港(yudou66.com 玉豆免费节点)trojan22
+  - YouTube简迷离|江港BGP_112trojan23
+  - YouTube简迷离|江港BGP_114trojan24
+  - YouTube简迷离|杭港BGP|NETFLIX_9trojan25
+  - 🇨🇳CN-116.129.253.62-0167trojan26
+  - YouTube简迷离|江港BGP_110trojan27
+  - 🇨🇳CN-120.241.146.157-0156trojan28
+  - YouTube简迷离|江港BGP_6trojan29
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
