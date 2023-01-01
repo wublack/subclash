@@ -26,117 +26,82 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 🇨🇳CN-124.225.88.38-1430vmess1
+- name: Relay 🇩🇪 Germany 06vmess1
   type: vmess
-  server: scloud18.jafiyun.world
-  port: '22018'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: Relay 🇭🇰 Hong Kong 28vmess2
-  type: vmess
-  server: in04.my1188.org
-  port: '61078'
-  uuid: 45b31da4-8aac-3d51-951b-b984ce15c7f9
+  server: in05.my1188.org
+  port: '64084'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: hk-balancer.airport-v2.com
-  tls: true
-- name: 🇨🇳CN-124.225.24.151-1421vmess3
+    Host: de01-cdn.airport-v2.com
+- name: Relay 🇭🇰 Hong Kong 31vmess2
   type: vmess
-  server: sg01.jafiyun.world
-  port: '21104'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-1423vmess4
-  type: vmess
-  server: sg03.jafiyun.world
-  port: '21106'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-0282vmess5
-  type: vmess
-  server: sg02.jafiyun.world
-  port: '21105'
-  uuid: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: Relay 🇹🇼 Taiwan 08vmess6
-  type: vmess
-  server: pro01.my1188.org
-  port: '3071'
-  uuid: 45b31da4-8aac-3d51-951b-b984ce15c7f9
+  server: hk80-2.sanfen001.pics
+  port: '80'
+  uuid: fe0c02e5-89e7-4a46-8f8d-172947ea70bb
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /
+  ws-path: /zh-cn/download
   ws-headers:
-    Host: tw03.yaofan.in168.net
+    Host: a.189.cn
+- name: 法国(yudou66.com 玉豆免费节点)vmess3
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /9JZFDTKE
+  ws-headers:
+    Host: fr1.trump2023.org
   tls: true
-- name: 🇨🇳CN-124.225.24.151-0281vmess7
+- name: 日本(yudou66.com 玉豆免费节点)vmess4
   type: vmess
-  server: sg01.jafiyun.world
-  port: '21104'
-  uuid: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  alterId: '2'
+  server: 172.67.199.34
+  port: '443'
+  uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a
+  alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
-  ws-path: ''
+  network: ws
+  ws-path: /hfhqqweqwxxx
   ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-1422vmess8
+    Host: jp1.mayaa.cf
+  tls: true
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess5
   type: vmess
-  server: sg02.jafiyun.world
-  port: '21105'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
-  ws-path: ''
+  network: ws
+  ws-path: /Falling42gcoresggnode
   ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-1418vmess9
+    Host: gcoresgg.sylu.cyou
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess6
   type: vmess
-  server: scloud32.jafiyun.world
-  port: '22032'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
+  server: sun.prxpro.cc
+  port: '80'
+  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+  alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
-  ws-path: ''
+  network: ws
+  ws-path: /p3573l6m92h1ham3q23t
   ws-headers:
-    Host: ''
-- name: Relay 🇹🇼 Taiwan 09vmess10
+    Host: sun.prxpro.cc
+- name: Relay 🇹🇼 Taiwan 09vmess7
   type: vmess
   server: in01.my1188.org
   port: '61088'
@@ -149,212 +114,20 @@ proxies:
   ws-headers:
     Host: tw-load-balancer.myn1des.com
   tls: true
-- name: 🇨🇳CN-140.179.136.12-0265vmess11
+- name: 法国(yudou66.com 玉豆免费节点)vmess8
   type: vmess
-  server: jp02.jafiyun.world
-  port: '21125'
-  uuid: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-1420vmess12
-  type: vmess
-  server: us06.jafiyun.world
-  port: '21119'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-0280vmess13
-  type: vmess
-  server: us06.jafiyun.world
-  port: '21119'
-  uuid: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-0279vmess14
-  type: vmess
-  server: scloud33.jafiyun.world
-  port: '22033'
-  uuid: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-0275vmess15
-  type: vmess
-  server: us09.jafiyun.world
-  port: '21122'
-  uuid: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-1415vmess16
-  type: vmess
-  server: us09.jafiyun.world
-  port: '21122'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.88.38-1429vmess17
-  type: vmess
-  server: scloud17.jafiyun.world
-  port: '22017'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: Relay 🇭🇰 Hong Kong 31vmess18
-  type: vmess
-  server: hk80-2.sanfen001.pics
-  port: '80'
-  uuid: fe0c02e5-89e7-4a46-8f8d-172947ea70bb
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /zh-cn/download
-  ws-headers:
-    Host: a.189.cn
-- name: 🇨🇳CN-124.225.24.151-1428vmess19
-  type: vmess
-  server: us10.jafiyun.world
-  port: '21123'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-140.179.136.12-1405vmess20
-  type: vmess
-  server: jp02.jafiyun.world
-  port: '21125'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-1419vmess21
-  type: vmess
-  server: scloud33.jafiyun.world
-  port: '22033'
-  uuid: ccb70334-3f0b-3809-a21c-308990171618
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-0288vmess22
-  type: vmess
-  server: us10.jafiyun.world
-  port: '21123'
-  uuid: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-0277vmess23
-  type: vmess
-  server: scloud31.jafiyun.world
-  port: '22031'
-  uuid: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇨🇳CN-124.225.24.151-0274vmess24
-  type: vmess
-  server: us08.jafiyun.world
-  port: '21121'
-  uuid: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  alterId: '2'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 🇯🇵 Japan 14vmess25
-  type: vmess
-  server: jp04-vm0.entry.srthdw.art
-  port: '446'
-  uuid: 947453fe-c8f0-3079-9e7f-2f67b78d8fe8
-  alterId: '1'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp04-vm0.entry.srthdw.art
-- name: Relay 🇬🇧 United Kingdom 05vmess26
-  type: vmess
-  server: in05.my1188.org
-  port: '61021'
-  uuid: 45b31da4-8aac-3d51-951b-b984ce15c7f9
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: uk01-cdn.airport-v2.com
-- name: 美国(yudou66.com 玉豆免费节点)vmess27
-  type: vmess
-  server: 172.67.199.34
+  server: 185.162.228.230
   port: '443'
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /v47-unlimitndxd
+  ws-path: /A2DJOPFT
   ws-headers:
-    Host: v47.toddns.tk
+    Host: lg10.cfcdn1.xyz
   tls: true
-- name: 新加坡(yudou66.com 玉豆免费节点)vmess28
+- name: 香港(yudou66.com 玉豆免费节点)vmess9
   type: vmess
   server: 172.67.199.34
   port: '443'
@@ -363,115 +136,76 @@ proxies:
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /Falling42gcsssgnode
+  ws-path: /Falling42gcorehkknode
   ws-headers:
-    Host: gcsssg.sylu.cyou
+    Host: gcorehkk.sylu.cyou
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess29
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess10
   type: vmess
-  server: www.dynadot.com
+  server: get.tech
   port: '2086'
-  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
+  uuid: 8c067a46-155c-402a-a762-f42b40179438
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
   ws-path: /aries
   ws-headers:
-    Host: kz.cloudflare.quest
-- name: 新加坡(yudou66.com 玉豆免费节点)vmess30
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dsadsa1dsadsa33434
-  ws-headers:
-    Host: xjp4h.mayaa.ml
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess31
-  type: vmess
-  server: 203.30.188.188
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国vmess32
-  type: vmess
-  server: 203.24.108.9
-  port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5QNROSRV
-  ws-headers:
-    Host: oplg1.zhujicn2.com
-  tls: true
-- name: 🇺🇸 United States 26vmess33
-  type: vmess
-  server: la56.burstlinker.com.fobzs.com
-  port: '443'
-  uuid: dd01617b-7f89-45e1-89e7-d9ddcf15a210
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: la56.burstlinker.com.fobzs.com
-  tls: true
-- name: 🇺🇸_US_美国->🇸🇬_SG_新加坡vmess34
-  type: vmess
-  server: xjp4h.mayaa.ml
-  port: '443'
-  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dsadsa1dsadsa33434
-  ws-headers:
-    Host: xjp4h.mayaa.ml
-  tls: true
-- name: Relay 🇩🇪 Germany 06vmess35
+    Host: SG.GCORE.CLOUDFLARE.QUEST
+- name: Relay 🇭🇰 Hong Kong 41vmess11
   type: vmess
   server: in05.my1188.org
-  port: '64084'
-  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+  port: '61082'
+  uuid: c7d2d996-7159-3b34-8730-0bd396bfba7e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: de01-cdn.airport-v2.com
-- name: 🇺🇸_US_美国vmess36
+    Host: hkt3-cdn.tencent.best
+- name: 美国(yudou66.com 玉豆免费节点)vmess12
   type: vmess
-  server: 141.193.213.20
+  server: 172.67.199.34
   port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /5QNROSRV
+  ws-path: /shared
   ws-headers:
-    Host: oplg1.zhujicn2.com
+    Host: lv.awsbest.com
   tls: true
-- name: 🇦🇺-澳大利亚-203.24.108.8(youtube阿伟科技)280vmess37
+- name: 德国(yudou66.com 玉豆免费节点)vmess13
   type: vmess
-  server: 203.24.108.8
+  server: 172.67.199.34
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /eisasqa
+  ws-headers:
+    Host: foxdeovz1.fovi.tk
+  tls: true
+- name: 香港(yudou66.com 玉豆免费节点)vmess14
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcsshknode
+  ws-headers:
+    Host: gcsshk.sylu.cyou
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess15
+  type: vmess
+  server: 172.67.199.34
   port: '443'
   uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
   alterId: '0'
@@ -482,19 +216,45 @@ proxies:
   ws-headers:
     Host: lg1.trump2023.us
   tls: true
-- name: 🇯🇵 Japan 20vmess38
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess16
   type: vmess
-  server: jp06-vm0.entry.srthdw.art
-  port: '444'
-  uuid: 1e82e707-826f-39eb-8d88-4dc0434f6f3a
-  alterId: '1'
+  server: 172.67.199.34
+  port: '443'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /sshkit/5451739078/638a336fa2223/
   ws-headers:
-    Host: jp06-vm0.entry.srthdw.art
-- name: 🇨🇦 Canada 04vmess39
+    Host: sg1-v2ray.sshkit.org
+  tls: true
+- name: 波兰(yudou66.com 玉豆免费节点)vmess17
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcoreplnode
+  ws-headers:
+    Host: gcorepl.sylu.cyou
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess18
+  type: vmess
+  server: Get.TECH
+  port: '2086'
+  uuid: f9ac8978-be94-40a7-eabd-b07d77037429
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: sfodo.cloudflare.quest
+- name: 🇨🇦 Canada 04vmess19
   type: vmess
   server: 01.montreal.can.anrun-ix.top
   port: '13029'
@@ -507,7 +267,7 @@ proxies:
   ws-headers:
     Host: 01.montreal.can.anrun-ix.top
   tls: true
-- name: HK（YouTube-aweikeji）vmess40
+- name: 香港(yudou66.com 玉豆免费节点)vmess20
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -520,340 +280,312 @@ proxies:
   ws-headers:
     Host: hk-gcore.sharecentre.online
   tls: true
-- name: 🇧🇿_BZ_伯利兹vmess41
+- name: 澳大利亚(yudou66.com 玉豆免费节点)vmess21
   type: vmess
-  server: 203.30.189.189
+  server: 203.30.189.190
   port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /ECTCJ0DF
+  ws-path: /5QNROSRV
   ws-headers:
-    Host: lg1.trump2023.us
+    Host: oplg1.zhujicn2.com
   tls: true
-- name: 🇨🇳CN-182.151.11.238-0583trojan1
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15617'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-183.245.146.6-0441trojan2
-  type: trojan
-  server: 183.245.146.6
-  port: '61009'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-118.212.143.44-0260trojan3
-  type: trojan
-  server: scloud56.jafiyun.world
-  port: '22056'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud56.jafiyun.world
-- name: 🇨🇳CN-183.245.146.6-0437trojan4
-  type: trojan
-  server: 183.245.146.6
-  port: '61007'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-118.212.143.44-1400trojan5
-  type: trojan
-  server: scloud56.jafiyun.world
-  port: '22056'
-  udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
-  skip-cert-verify: true
-  sni: scloud56.jafiyun.world
-- name: 🇨🇳CN-182.151.11.238-0580trojan6
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15603'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.151.11.238-0546trojan7
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15669'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.44.21.71-0564trojan8
-  type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15659'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-124.225.88.38-1407trojan9
-  type: trojan
-  server: scloud41.jafiyun.world
-  port: '22041'
-  udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
-  skip-cert-verify: true
-  sni: scloud41.jafiyun.world
-- name: 🇨🇳CN-123.6.102.124-0427trojan10
-  type: trojan
-  server: 123.6.102.124
-  port: '61014'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-118.212.143.44-0264trojan11
-  type: trojan
-  server: scloud60.jafiyun.world
-  port: '22060'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud60.jafiyun.world
-- name: 🇨🇳CN-118.212.143.44-1401trojan12
-  type: trojan
-  server: scloud57.jafiyun.world
-  port: '22057'
-  udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
-  skip-cert-verify: true
-  sni: scloud57.jafiyun.world
-- name: 🇨🇳CN-118.212.143.44-0261trojan13
-  type: trojan
-  server: scloud57.jafiyun.world
-  port: '22057'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud57.jafiyun.world
-- name: 🇨🇳CN-124.225.24.151-0266trojan14
-  type: trojan
-  server: scloud29.jafiyun.world
-  port: '22029'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud29.jafiyun.world
-- name: 🇨🇳CN-183.245.146.6-0439trojan15
-  type: trojan
-  server: 183.245.146.6
-  port: '61011'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-183.245.7.181-0422trojan16
-  type: trojan
-  server: 183.245.7.181
-  port: '12210'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-118.212.143.44-1404trojan17
-  type: trojan
-  server: scloud60.jafiyun.world
-  port: '22060'
-  udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
-  skip-cert-verify: true
-  sni: scloud60.jafiyun.world
-- name: 🇨🇳CN-124.225.88.38-1409trojan18
-  type: trojan
-  server: scloud43.jafiyun.world
-  port: '22043'
-  udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
-  skip-cert-verify: true
-  sni: scloud43.jafiyun.world
-- name: 🇨🇳CN-124.225.24.151-0286trojan19
-  type: trojan
-  server: scloud15.jafiyun.world
-  port: '22015'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud15.jafiyun.world
-- name: 🇨🇳CN-124.225.24.151-0271trojan20
-  type: trojan
-  server: scloud52.jafiyun.world
-  port: '22052'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud52.jafiyun.world
-- name: 🇨🇳CN-183.245.146.6-0424trojan21
-  type: trojan
-  server: 183.245.146.6
-  port: '61013'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-124.225.24.151-1426trojan22
-  type: trojan
-  server: scloud15.jafiyun.world
-  port: '22015'
-  udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
-  skip-cert-verify: true
-  sni: scloud15.jafiyun.world
-- name: 🇨🇳CN-118.212.143.44-0263trojan23
-  type: trojan
-  server: scloud59.jafiyun.world
-  port: '22059'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud59.jafiyun.world
-- name: 🇨🇳CN-182.44.21.71-0557trojan24
-  type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15614'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.151.11.238-0585trojan25
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15619'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-183.245.7.181-0432trojan26
-  type: trojan
-  server: 183.245.7.181
-  port: '12199'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-124.225.24.151-0287trojan27
-  type: trojan
-  server: scloud16.jafiyun.world
-  port: '22016'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud16.jafiyun.world
-- name: 🇨🇳CN-118.212.143.44-0273trojan28
-  type: trojan
-  server: scloud54.jafiyun.world
-  port: '22054'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud54.jafiyun.world
-- name: 🇨🇳CN-118.212.143.44-1413trojan29
-  type: trojan
-  server: scloud54.jafiyun.world
-  port: '22054'
-  udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
-  skip-cert-verify: true
-  sni: scloud54.jafiyun.world
-- name: 🇨🇳CN-183.245.7.181-0438trojan30
-  type: trojan
-  server: 183.245.7.181
-  port: '61008'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-182.151.11.238-0577trojan31
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15667'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-124.225.24.151-1427trojan32
-  type: trojan
-  server: scloud16.jafiyun.world
-  port: '22016'
-  udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
-  skip-cert-verify: true
-  sni: scloud16.jafiyun.world
-- name: 🇨🇳CN-182.151.11.238-0543trojan33
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15653'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-118.212.143.44-1425trojan34
-  type: trojan
-  server: scloud12.jafiyun.world
-  port: '22012'
-  udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
-  skip-cert-verify: true
-  sni: scloud12.jafiyun.world
-- name: 🇨🇳CN-182.151.11.238-0573trojan35
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15634'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-118.212.143.44-0262trojan36
-  type: trojan
-  server: scloud58.jafiyun.world
-  port: '22058'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud58.jafiyun.world
-- name: 🇨🇳CN-182.44.21.71-0566trojan37
-  type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15615'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.44.21.71-0542trojan38
-  type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15616'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-183.245.7.181-0440trojan39
-  type: trojan
-  server: 183.245.7.181
-  port: '61012'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-183.245.146.6-0433trojan40
-  type: trojan
-  server: 183.245.146.6
-  port: '12200'
-  udp: true
-  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
-  skip-cert-verify: true
-  sni: 65-108-102-32.nhost.00cdn.com
-- name: 🇨🇳CN-182.151.11.238-0553trojan41
+- name: 美国(yudou66.com 玉豆免费节点)vmess22
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /IYKLD53M
+  ws-headers:
+    Host: opfr1.v2rayfree1.xyz
+  tls: true
+- name: Singapore [SG 4] @ResistalProxyvmess23
+  type: vmess
+  server: 198.41.208.172
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore-2.sharecentre.online
+  tls: true
+- name: 🇦🇺 Australia 04vmess24
+  type: vmess
+  server: 02.sdy.aus.anrun-ix.top
+  port: '13026'
+  uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /
+  ws-headers:
+    Host: 02.sdy.aus.anrun-ix.top
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess25
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: b5f0ac18-e0fa-4437-a3a6-8a457eeaea0d
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: us.xn--94q352ahyl.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess26
+  type: vmess
+  server: get.tech
+  port: '80'
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shared
+  ws-headers:
+    Host: lv.awsbest.com
+- name: Netherlands [NL 4] @ResistalProxyvmess27
+  type: vmess
+  server: tray.tawanaclub.tk
+  port: '8443'
+  uuid: f5d12723-c743-4990-9019-dc22f64bae3a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /TawanaProxy5
+  ws-headers:
+    Host: ''
+- name: 香港(yudou66.com 玉豆免费节点)vmess28
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcorehknode
+  ws-headers:
+    Host: gcorehk.sylu.cyou
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess29
+  type: vmess
+  server: 172.67.199.34
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 香港(yudou66.com 玉豆免费节点)vmess30
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcsshkknode
+  ws-headers:
+    Host: gcsshkk.sylu.cyou
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess31
+  type: vmess
+  server: uicdn.cf
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 香港(yudou66.com 玉豆免费节点)vmess32
+  type: vmess
+  server: r001.baipiaoxd.com
+  port: '11451'
+  uuid: d57d3206-d398-449e-b637-19471a3943e4
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: ''
+- name: 美国(yudou66.com 玉豆免费节点)vmess33
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 22223.daoxin.shop
+  tls: true
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess34
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcsssgnode
+  ws-headers:
+    Host: gcsssg.sylu.cyou
+  tls: true
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess35
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcoresgnode
+  ws-headers:
+    Host: gcoresg.sylu.cyou
+  tls: true
+- name: 🇦🇺 Australia 03vmess36
+  type: vmess
+  server: 01.sdy.aus.anrun-ix.top
+  port: '13025'
+  uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /
+  ws-headers:
+    Host: 01.sdy.aus.anrun-ix.top
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess37
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: b5f0ac18-e0fa-4437-a3a6-8a457eeaea0d
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: us2.xn--94q352ahyl.xyz
+  tls: true
+- name: 🇯🇵 Japan 16vmess38
+  type: vmess
+  server: 20.239.76.193
+  port: '44151'
+  uuid: b51d625d-7257-32bd-af6e-60ecbf5f4cc0
+  alterId: '2'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: ''
+- name: 美国(yudou66.com 玉豆免费节点)vmess39
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: hk.sharecentre.online
+  tls: true
+- name: 🇦🇺 Australia 05vmess40
+  type: vmess
+  server: 01.mel.aus.anrun-ix.top
+  port: '13023'
+  uuid: dd86a105-00c1-41ba-899c-c31aa74f4539
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /
+  ws-headers:
+    Host: 01.mel.aus.anrun-ix.top
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess41
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/Variu88/634dab7abadf1/
+  ws-headers:
+    Host: us-lb.sshkit.org
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess42
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess43
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: 新加坡-北北每日分享_5vmess44
+  type: vmess
+  server: 52.221.202.63
+  port: '17801'
+  uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 52.221.202.63
+- name: 🇨🇳CN-182.151.11.238-0553trojan1
   type: trojan
   server: ctcc.kuaiyin.uk
   port: '15670'
@@ -861,23 +593,39 @@ proxies:
   password: a7dbc751-5223-3360-b3aa-03be8e17f56e
   skip-cert-verify: true
   sni: eplcgame.com
-- name: 🇨🇳CN-124.225.24.151-1411trojan42
+- name: 🇨🇳CN-183.245.7.181-0440trojan2
   type: trojan
-  server: scloud52.jafiyun.world
-  port: '22052'
+  server: 183.245.7.181
+  port: '61012'
   udp: true
-  password: ccb70334-3f0b-3809-a21c-308990171618
+  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
   skip-cert-verify: true
-  sni: scloud52.jafiyun.world
-- name: 🇨🇳CN-118.212.143.44-0285trojan43
+  sni: 65-108-102-32.nhost.00cdn.com
+- name: 🇨🇳CN-182.151.11.238-0575trojan3
   type: trojan
-  server: scloud12.jafiyun.world
-  port: '22012'
+  server: ctcc.kuaiyin.uk
+  port: '15666'
   udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
+  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
   skip-cert-verify: true
-  sni: scloud12.jafiyun.world
-- name: 🇨🇳CN-182.44.21.71-0551trojan44
+  sni: eplcgame.com
+- name: 🇨🇳CN-183.245.146.6-0430trojan4
+  type: trojan
+  server: 183.245.146.6
+  port: '12197'
+  udp: true
+  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
+  skip-cert-verify: true
+  sni: 65-108-102-32.nhost.00cdn.com
+- name: 🇨🇳CN-182.151.11.238-0543trojan5
+  type: trojan
+  server: ctcc.kuaiyin.uk
+  port: '15653'
+  udp: true
+  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
+  skip-cert-verify: true
+  sni: eplcgame.com
+- name: 🇨🇳CN-182.44.21.71-0551trojan6
   type: trojan
   server: cmcc.kuaiyin.uk
   port: '15632'
@@ -885,31 +633,7 @@ proxies:
   password: a7dbc751-5223-3360-b3aa-03be8e17f56e
   skip-cert-verify: true
   sni: eplcgame.com
-- name: 🇨🇳CN-182.44.21.71-0544trojan45
-  type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15665'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.151.11.238-0584trojan46
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15625'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.151.11.238-0582trojan47
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15610'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.151.11.238-0572trojan48
+- name: 🇨🇳CN-182.151.11.238-0572trojan7
   type: trojan
   server: ctcc.kuaiyin.uk
   port: '15633'
@@ -917,87 +641,15 @@ proxies:
   password: a7dbc751-5223-3360-b3aa-03be8e17f56e
   skip-cert-verify: true
   sni: eplcgame.com
-- name: 🇨🇳CN-182.44.21.71-0571trojan49
+- name: 🇨🇳CN-183.245.146.6-0434trojan8
   type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15643'
+  server: 183.245.146.6
+  port: '12201'
   udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
+  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
   skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.151.11.238-0567trojan50
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15639'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇺🇸 United States 11trojan51
-  type: trojan
-  server: 88.210.37.46
-  port: '39940'
-  udp: true
-  password: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  skip-cert-verify: true
-  sni: node.ctcucm.xyz
-- name: 🇨🇳CN-182.44.21.71-0587trojan52
-  type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15624'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.151.11.238-0556trojan53
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15613'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.44.21.71-0560trojan54
-  type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15657'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.151.11.238-0569trojan55
-  type: trojan
-  server: ctcc.kuaiyin.uk
-  port: '15600'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.44.21.71-0586trojan56
-  type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15623'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-182.44.21.71-0589trojan57
-  type: trojan
-  server: cmcc.kuaiyin.uk
-  port: '15621'
-  udp: true
-  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
-  skip-cert-verify: true
-  sni: eplcgame.com
-- name: 🇨🇳CN-124.225.88.38-0269trojan58
-  type: trojan
-  server: scloud43.jafiyun.world
-  port: '22043'
-  udp: true
-  password: a3bf8d50-2a7e-39ae-955e-8b4663979aa1
-  skip-cert-verify: true
-  sni: scloud43.jafiyun.world
-- name: 🇨🇳CN-182.44.21.71-0581trojan59
+  sni: 65-108-102-32.nhost.00cdn.com
+- name: 🇨🇳CN-182.44.21.71-0581trojan9
   type: trojan
   server: cmcc.kuaiyin.uk
   port: '15627'
@@ -1005,9 +657,65 @@ proxies:
   password: a7dbc751-5223-3360-b3aa-03be8e17f56e
   skip-cert-verify: true
   sni: eplcgame.com
-- name: Relay 🇸🇬 Singapore 32ss1
-  server: 52.81.179.243
-  port: '11008'
+- name: 🇨🇳CN-183.245.7.181-0435trojan10
+  type: trojan
+  server: 183.245.7.181
+  port: '12202'
+  udp: true
+  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
+  skip-cert-verify: true
+  sni: 65-108-102-32.nhost.00cdn.com
+- name: 🇨🇳CN-183.245.146.6-0439trojan11
+  type: trojan
+  server: 183.245.146.6
+  port: '61011'
+  udp: true
+  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
+  skip-cert-verify: true
+  sni: 65-108-102-32.nhost.00cdn.com
+- name: 🇩🇪 Germany 01trojan12
+  type: trojan
+  server: 89.185.85.136
+  port: '39940'
+  udp: true
+  password: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  skip-cert-verify: true
+  sni: node.ctcucm.xyz
+- name: 🇨🇳CN-183.245.7.181-0432trojan13
+  type: trojan
+  server: 183.245.7.181
+  port: '12199'
+  udp: true
+  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
+  skip-cert-verify: true
+  sni: 65-108-102-32.nhost.00cdn.com
+- name: 🇨🇳CN-183.245.7.181-0436trojan14
+  type: trojan
+  server: 183.245.7.181
+  port: '12203'
+  udp: true
+  password: 73bda90b-df07-44d9-af10-96a1e17ee6d5
+  skip-cert-verify: true
+  sni: 65-108-102-32.nhost.00cdn.com
+- name: 🇷🇺 Russia 02trojan15
+  type: trojan
+  server: 80.85.241.225
+  port: '39940'
+  udp: true
+  password: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  skip-cert-verify: true
+  sni: node.ctcucm.xyz
+- name: 🇨🇳CN-182.151.11.238-0548trojan16
+  type: trojan
+  server: ctcc.kuaiyin.uk
+  port: '15629'
+  udp: true
+  password: a7dbc751-5223-3360-b3aa-03be8e17f56e
+  skip-cert-verify: true
+  sni: eplcgame.com
+- name: Relay 🇸🇬 Singapore 22ss1
+  server: 120.241.126.28
+  port: '11005'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: dd86a105-00c1-41ba-899c-c31aa74f4539
@@ -1019,20 +727,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   type: ss
-- name: Relay 🇸🇬 Singapore 29ss3
-  server: 120.241.126.28
-  port: '11009'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: dd86a105-00c1-41ba-899c-c31aa74f4539
-  type: ss
-- name: Relay 🇸🇬 Singapore 20ss4
-  server: 120.241.126.28
-  port: '11003'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: dd86a105-00c1-41ba-899c-c31aa74f4539
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -1040,220 +734,136 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 🇨🇳CN-124.225.88.38-1430vmess1
-  - Relay 🇭🇰 Hong Kong 28vmess2
-  - 🇨🇳CN-124.225.24.151-1421vmess3
-  - 🇨🇳CN-124.225.24.151-1423vmess4
-  - 🇨🇳CN-124.225.24.151-0282vmess5
-  - Relay 🇹🇼 Taiwan 08vmess6
-  - 🇨🇳CN-124.225.24.151-0281vmess7
-  - 🇨🇳CN-124.225.24.151-1422vmess8
-  - 🇨🇳CN-124.225.24.151-1418vmess9
-  - Relay 🇹🇼 Taiwan 09vmess10
-  - 🇨🇳CN-140.179.136.12-0265vmess11
-  - 🇨🇳CN-124.225.24.151-1420vmess12
-  - 🇨🇳CN-124.225.24.151-0280vmess13
-  - 🇨🇳CN-124.225.24.151-0279vmess14
-  - 🇨🇳CN-124.225.24.151-0275vmess15
-  - 🇨🇳CN-124.225.24.151-1415vmess16
-  - 🇨🇳CN-124.225.88.38-1429vmess17
-  - Relay 🇭🇰 Hong Kong 31vmess18
-  - 🇨🇳CN-124.225.24.151-1428vmess19
-  - 🇨🇳CN-140.179.136.12-1405vmess20
-  - 🇨🇳CN-124.225.24.151-1419vmess21
-  - 🇨🇳CN-124.225.24.151-0288vmess22
-  - 🇨🇳CN-124.225.24.151-0277vmess23
-  - 🇨🇳CN-124.225.24.151-0274vmess24
-  - 🇯🇵 Japan 14vmess25
-  - Relay 🇬🇧 United Kingdom 05vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 新加坡(yudou66.com 玉豆免费节点)vmess28
+  - Relay 🇩🇪 Germany 06vmess1
+  - Relay 🇭🇰 Hong Kong 31vmess2
+  - 法国(yudou66.com 玉豆免费节点)vmess3
+  - 日本(yudou66.com 玉豆免费节点)vmess4
+  - 新加坡(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - Relay 🇹🇼 Taiwan 09vmess7
+  - 法国(yudou66.com 玉豆免费节点)vmess8
+  - 香港(yudou66.com 玉豆免费节点)vmess9
+  - 新加坡(yudou66.com 玉豆免费节点)vmess10
+  - Relay 🇭🇰 Hong Kong 41vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 德国(yudou66.com 玉豆免费节点)vmess13
+  - 香港(yudou66.com 玉豆免费节点)vmess14
+  - 美国(yudou66.com 玉豆免费节点)vmess15
+  - 新加坡(yudou66.com 玉豆免费节点)vmess16
+  - 波兰(yudou66.com 玉豆免费节点)vmess17
+  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 🇨🇦 Canada 04vmess19
+  - 香港(yudou66.com 玉豆免费节点)vmess20
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess21
+  - 美国(yudou66.com 玉豆免费节点)vmess22
+  - Singapore [SG 4] @ResistalProxyvmess23
+  - 🇦🇺 Australia 04vmess24
+  - 美国(yudou66.com 玉豆免费节点)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Netherlands [NL 4] @ResistalProxyvmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
   - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 香港(yudou66.com 玉豆免费节点)vmess30
   - 美国(yudou66.com 玉豆免费节点)vmess31
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国vmess32
-  - 🇺🇸 United States 26vmess33
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡vmess34
-  - Relay 🇩🇪 Germany 06vmess35
-  - 🇺🇸_US_美国vmess36
-  - 🇦🇺-澳大利亚-203.24.108.8(youtube阿伟科技)280vmess37
-  - 🇯🇵 Japan 20vmess38
-  - 🇨🇦 Canada 04vmess39
-  - HK（YouTube-aweikeji）vmess40
-  - 🇧🇿_BZ_伯利兹vmess41
-  - 🇨🇳CN-182.151.11.238-0583trojan1
-  - 🇨🇳CN-183.245.146.6-0441trojan2
-  - 🇨🇳CN-118.212.143.44-0260trojan3
-  - 🇨🇳CN-183.245.146.6-0437trojan4
-  - 🇨🇳CN-118.212.143.44-1400trojan5
-  - 🇨🇳CN-182.151.11.238-0580trojan6
-  - 🇨🇳CN-182.151.11.238-0546trojan7
-  - 🇨🇳CN-182.44.21.71-0564trojan8
-  - 🇨🇳CN-124.225.88.38-1407trojan9
-  - 🇨🇳CN-123.6.102.124-0427trojan10
-  - 🇨🇳CN-118.212.143.44-0264trojan11
-  - 🇨🇳CN-118.212.143.44-1401trojan12
-  - 🇨🇳CN-118.212.143.44-0261trojan13
-  - 🇨🇳CN-124.225.24.151-0266trojan14
-  - 🇨🇳CN-183.245.146.6-0439trojan15
-  - 🇨🇳CN-183.245.7.181-0422trojan16
-  - 🇨🇳CN-118.212.143.44-1404trojan17
-  - 🇨🇳CN-124.225.88.38-1409trojan18
-  - 🇨🇳CN-124.225.24.151-0286trojan19
-  - 🇨🇳CN-124.225.24.151-0271trojan20
-  - 🇨🇳CN-183.245.146.6-0424trojan21
-  - 🇨🇳CN-124.225.24.151-1426trojan22
-  - 🇨🇳CN-118.212.143.44-0263trojan23
-  - 🇨🇳CN-182.44.21.71-0557trojan24
-  - 🇨🇳CN-182.151.11.238-0585trojan25
-  - 🇨🇳CN-183.245.7.181-0432trojan26
-  - 🇨🇳CN-124.225.24.151-0287trojan27
-  - 🇨🇳CN-118.212.143.44-0273trojan28
-  - 🇨🇳CN-118.212.143.44-1413trojan29
-  - 🇨🇳CN-183.245.7.181-0438trojan30
-  - 🇨🇳CN-182.151.11.238-0577trojan31
-  - 🇨🇳CN-124.225.24.151-1427trojan32
-  - 🇨🇳CN-182.151.11.238-0543trojan33
-  - 🇨🇳CN-118.212.143.44-1425trojan34
-  - 🇨🇳CN-182.151.11.238-0573trojan35
-  - 🇨🇳CN-118.212.143.44-0262trojan36
-  - 🇨🇳CN-182.44.21.71-0566trojan37
-  - 🇨🇳CN-182.44.21.71-0542trojan38
-  - 🇨🇳CN-183.245.7.181-0440trojan39
-  - 🇨🇳CN-183.245.146.6-0433trojan40
-  - 🇨🇳CN-182.151.11.238-0553trojan41
-  - 🇨🇳CN-124.225.24.151-1411trojan42
-  - 🇨🇳CN-118.212.143.44-0285trojan43
-  - 🇨🇳CN-182.44.21.71-0551trojan44
-  - 🇨🇳CN-182.44.21.71-0544trojan45
-  - 🇨🇳CN-182.151.11.238-0584trojan46
-  - 🇨🇳CN-182.151.11.238-0582trojan47
-  - 🇨🇳CN-182.151.11.238-0572trojan48
-  - 🇨🇳CN-182.44.21.71-0571trojan49
-  - 🇨🇳CN-182.151.11.238-0567trojan50
-  - 🇺🇸 United States 11trojan51
-  - 🇨🇳CN-182.44.21.71-0587trojan52
-  - 🇨🇳CN-182.151.11.238-0556trojan53
-  - 🇨🇳CN-182.44.21.71-0560trojan54
-  - 🇨🇳CN-182.151.11.238-0569trojan55
-  - 🇨🇳CN-182.44.21.71-0586trojan56
-  - 🇨🇳CN-182.44.21.71-0589trojan57
-  - 🇨🇳CN-124.225.88.38-0269trojan58
-  - 🇨🇳CN-182.44.21.71-0581trojan59
-  - Relay 🇸🇬 Singapore 32ss1
+  - 香港(yudou66.com 玉豆免费节点)vmess32
+  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess34
+  - 新加坡(yudou66.com 玉豆免费节点)vmess35
+  - 🇦🇺 Australia 03vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 🇯🇵 Japan 16vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - 🇦🇺 Australia 05vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡-北北每日分享_5vmess44
+  - 🇨🇳CN-182.151.11.238-0553trojan1
+  - 🇨🇳CN-183.245.7.181-0440trojan2
+  - 🇨🇳CN-182.151.11.238-0575trojan3
+  - 🇨🇳CN-183.245.146.6-0430trojan4
+  - 🇨🇳CN-182.151.11.238-0543trojan5
+  - 🇨🇳CN-182.44.21.71-0551trojan6
+  - 🇨🇳CN-182.151.11.238-0572trojan7
+  - 🇨🇳CN-183.245.146.6-0434trojan8
+  - 🇨🇳CN-182.44.21.71-0581trojan9
+  - 🇨🇳CN-183.245.7.181-0435trojan10
+  - 🇨🇳CN-183.245.146.6-0439trojan11
+  - 🇩🇪 Germany 01trojan12
+  - 🇨🇳CN-183.245.7.181-0432trojan13
+  - 🇨🇳CN-183.245.7.181-0436trojan14
+  - 🇷🇺 Russia 02trojan15
+  - 🇨🇳CN-182.151.11.238-0548trojan16
+  - Relay 🇸🇬 Singapore 22ss1
   - Relay 🇭🇰 Hong Kong 20ss2
-  - Relay 🇸🇬 Singapore 29ss3
-  - Relay 🇸🇬 Singapore 20ss4
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 🇨🇳CN-124.225.88.38-1430vmess1
-  - Relay 🇭🇰 Hong Kong 28vmess2
-  - 🇨🇳CN-124.225.24.151-1421vmess3
-  - 🇨🇳CN-124.225.24.151-1423vmess4
-  - 🇨🇳CN-124.225.24.151-0282vmess5
-  - Relay 🇹🇼 Taiwan 08vmess6
-  - 🇨🇳CN-124.225.24.151-0281vmess7
-  - 🇨🇳CN-124.225.24.151-1422vmess8
-  - 🇨🇳CN-124.225.24.151-1418vmess9
-  - Relay 🇹🇼 Taiwan 09vmess10
-  - 🇨🇳CN-140.179.136.12-0265vmess11
-  - 🇨🇳CN-124.225.24.151-1420vmess12
-  - 🇨🇳CN-124.225.24.151-0280vmess13
-  - 🇨🇳CN-124.225.24.151-0279vmess14
-  - 🇨🇳CN-124.225.24.151-0275vmess15
-  - 🇨🇳CN-124.225.24.151-1415vmess16
-  - 🇨🇳CN-124.225.88.38-1429vmess17
-  - Relay 🇭🇰 Hong Kong 31vmess18
-  - 🇨🇳CN-124.225.24.151-1428vmess19
-  - 🇨🇳CN-140.179.136.12-1405vmess20
-  - 🇨🇳CN-124.225.24.151-1419vmess21
-  - 🇨🇳CN-124.225.24.151-0288vmess22
-  - 🇨🇳CN-124.225.24.151-0277vmess23
-  - 🇨🇳CN-124.225.24.151-0274vmess24
-  - 🇯🇵 Japan 14vmess25
-  - Relay 🇬🇧 United Kingdom 05vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 新加坡(yudou66.com 玉豆免费节点)vmess28
+  - Relay 🇩🇪 Germany 06vmess1
+  - Relay 🇭🇰 Hong Kong 31vmess2
+  - 法国(yudou66.com 玉豆免费节点)vmess3
+  - 日本(yudou66.com 玉豆免费节点)vmess4
+  - 新加坡(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - Relay 🇹🇼 Taiwan 09vmess7
+  - 法国(yudou66.com 玉豆免费节点)vmess8
+  - 香港(yudou66.com 玉豆免费节点)vmess9
+  - 新加坡(yudou66.com 玉豆免费节点)vmess10
+  - Relay 🇭🇰 Hong Kong 41vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 德国(yudou66.com 玉豆免费节点)vmess13
+  - 香港(yudou66.com 玉豆免费节点)vmess14
+  - 美国(yudou66.com 玉豆免费节点)vmess15
+  - 新加坡(yudou66.com 玉豆免费节点)vmess16
+  - 波兰(yudou66.com 玉豆免费节点)vmess17
+  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 🇨🇦 Canada 04vmess19
+  - 香港(yudou66.com 玉豆免费节点)vmess20
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess21
+  - 美国(yudou66.com 玉豆免费节点)vmess22
+  - Singapore [SG 4] @ResistalProxyvmess23
+  - 🇦🇺 Australia 04vmess24
+  - 美国(yudou66.com 玉豆免费节点)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Netherlands [NL 4] @ResistalProxyvmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
   - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 香港(yudou66.com 玉豆免费节点)vmess30
   - 美国(yudou66.com 玉豆免费节点)vmess31
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国vmess32
-  - 🇺🇸 United States 26vmess33
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡vmess34
-  - Relay 🇩🇪 Germany 06vmess35
-  - 🇺🇸_US_美国vmess36
-  - 🇦🇺-澳大利亚-203.24.108.8(youtube阿伟科技)280vmess37
-  - 🇯🇵 Japan 20vmess38
-  - 🇨🇦 Canada 04vmess39
-  - HK（YouTube-aweikeji）vmess40
-  - 🇧🇿_BZ_伯利兹vmess41
-  - 🇨🇳CN-182.151.11.238-0583trojan1
-  - 🇨🇳CN-183.245.146.6-0441trojan2
-  - 🇨🇳CN-118.212.143.44-0260trojan3
-  - 🇨🇳CN-183.245.146.6-0437trojan4
-  - 🇨🇳CN-118.212.143.44-1400trojan5
-  - 🇨🇳CN-182.151.11.238-0580trojan6
-  - 🇨🇳CN-182.151.11.238-0546trojan7
-  - 🇨🇳CN-182.44.21.71-0564trojan8
-  - 🇨🇳CN-124.225.88.38-1407trojan9
-  - 🇨🇳CN-123.6.102.124-0427trojan10
-  - 🇨🇳CN-118.212.143.44-0264trojan11
-  - 🇨🇳CN-118.212.143.44-1401trojan12
-  - 🇨🇳CN-118.212.143.44-0261trojan13
-  - 🇨🇳CN-124.225.24.151-0266trojan14
-  - 🇨🇳CN-183.245.146.6-0439trojan15
-  - 🇨🇳CN-183.245.7.181-0422trojan16
-  - 🇨🇳CN-118.212.143.44-1404trojan17
-  - 🇨🇳CN-124.225.88.38-1409trojan18
-  - 🇨🇳CN-124.225.24.151-0286trojan19
-  - 🇨🇳CN-124.225.24.151-0271trojan20
-  - 🇨🇳CN-183.245.146.6-0424trojan21
-  - 🇨🇳CN-124.225.24.151-1426trojan22
-  - 🇨🇳CN-118.212.143.44-0263trojan23
-  - 🇨🇳CN-182.44.21.71-0557trojan24
-  - 🇨🇳CN-182.151.11.238-0585trojan25
-  - 🇨🇳CN-183.245.7.181-0432trojan26
-  - 🇨🇳CN-124.225.24.151-0287trojan27
-  - 🇨🇳CN-118.212.143.44-0273trojan28
-  - 🇨🇳CN-118.212.143.44-1413trojan29
-  - 🇨🇳CN-183.245.7.181-0438trojan30
-  - 🇨🇳CN-182.151.11.238-0577trojan31
-  - 🇨🇳CN-124.225.24.151-1427trojan32
-  - 🇨🇳CN-182.151.11.238-0543trojan33
-  - 🇨🇳CN-118.212.143.44-1425trojan34
-  - 🇨🇳CN-182.151.11.238-0573trojan35
-  - 🇨🇳CN-118.212.143.44-0262trojan36
-  - 🇨🇳CN-182.44.21.71-0566trojan37
-  - 🇨🇳CN-182.44.21.71-0542trojan38
-  - 🇨🇳CN-183.245.7.181-0440trojan39
-  - 🇨🇳CN-183.245.146.6-0433trojan40
-  - 🇨🇳CN-182.151.11.238-0553trojan41
-  - 🇨🇳CN-124.225.24.151-1411trojan42
-  - 🇨🇳CN-118.212.143.44-0285trojan43
-  - 🇨🇳CN-182.44.21.71-0551trojan44
-  - 🇨🇳CN-182.44.21.71-0544trojan45
-  - 🇨🇳CN-182.151.11.238-0584trojan46
-  - 🇨🇳CN-182.151.11.238-0582trojan47
-  - 🇨🇳CN-182.151.11.238-0572trojan48
-  - 🇨🇳CN-182.44.21.71-0571trojan49
-  - 🇨🇳CN-182.151.11.238-0567trojan50
-  - 🇺🇸 United States 11trojan51
-  - 🇨🇳CN-182.44.21.71-0587trojan52
-  - 🇨🇳CN-182.151.11.238-0556trojan53
-  - 🇨🇳CN-182.44.21.71-0560trojan54
-  - 🇨🇳CN-182.151.11.238-0569trojan55
-  - 🇨🇳CN-182.44.21.71-0586trojan56
-  - 🇨🇳CN-182.44.21.71-0589trojan57
-  - 🇨🇳CN-124.225.88.38-0269trojan58
-  - 🇨🇳CN-182.44.21.71-0581trojan59
-  - Relay 🇸🇬 Singapore 32ss1
+  - 香港(yudou66.com 玉豆免费节点)vmess32
+  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess34
+  - 新加坡(yudou66.com 玉豆免费节点)vmess35
+  - 🇦🇺 Australia 03vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 🇯🇵 Japan 16vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - 🇦🇺 Australia 05vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡-北北每日分享_5vmess44
+  - 🇨🇳CN-182.151.11.238-0553trojan1
+  - 🇨🇳CN-183.245.7.181-0440trojan2
+  - 🇨🇳CN-182.151.11.238-0575trojan3
+  - 🇨🇳CN-183.245.146.6-0430trojan4
+  - 🇨🇳CN-182.151.11.238-0543trojan5
+  - 🇨🇳CN-182.44.21.71-0551trojan6
+  - 🇨🇳CN-182.151.11.238-0572trojan7
+  - 🇨🇳CN-183.245.146.6-0434trojan8
+  - 🇨🇳CN-182.44.21.71-0581trojan9
+  - 🇨🇳CN-183.245.7.181-0435trojan10
+  - 🇨🇳CN-183.245.146.6-0439trojan11
+  - 🇩🇪 Germany 01trojan12
+  - 🇨🇳CN-183.245.7.181-0432trojan13
+  - 🇨🇳CN-183.245.7.181-0436trojan14
+  - 🇷🇺 Russia 02trojan15
+  - 🇨🇳CN-182.151.11.238-0548trojan16
+  - Relay 🇸🇬 Singapore 22ss1
   - Relay 🇭🇰 Hong Kong 20ss2
-  - Relay 🇸🇬 Singapore 29ss3
-  - Relay 🇸🇬 Singapore 20ss4
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -1266,110 +876,68 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇨🇳CN-124.225.88.38-1430vmess1
-  - Relay 🇭🇰 Hong Kong 28vmess2
-  - 🇨🇳CN-124.225.24.151-1421vmess3
-  - 🇨🇳CN-124.225.24.151-1423vmess4
-  - 🇨🇳CN-124.225.24.151-0282vmess5
-  - Relay 🇹🇼 Taiwan 08vmess6
-  - 🇨🇳CN-124.225.24.151-0281vmess7
-  - 🇨🇳CN-124.225.24.151-1422vmess8
-  - 🇨🇳CN-124.225.24.151-1418vmess9
-  - Relay 🇹🇼 Taiwan 09vmess10
-  - 🇨🇳CN-140.179.136.12-0265vmess11
-  - 🇨🇳CN-124.225.24.151-1420vmess12
-  - 🇨🇳CN-124.225.24.151-0280vmess13
-  - 🇨🇳CN-124.225.24.151-0279vmess14
-  - 🇨🇳CN-124.225.24.151-0275vmess15
-  - 🇨🇳CN-124.225.24.151-1415vmess16
-  - 🇨🇳CN-124.225.88.38-1429vmess17
-  - Relay 🇭🇰 Hong Kong 31vmess18
-  - 🇨🇳CN-124.225.24.151-1428vmess19
-  - 🇨🇳CN-140.179.136.12-1405vmess20
-  - 🇨🇳CN-124.225.24.151-1419vmess21
-  - 🇨🇳CN-124.225.24.151-0288vmess22
-  - 🇨🇳CN-124.225.24.151-0277vmess23
-  - 🇨🇳CN-124.225.24.151-0274vmess24
-  - 🇯🇵 Japan 14vmess25
-  - Relay 🇬🇧 United Kingdom 05vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 新加坡(yudou66.com 玉豆免费节点)vmess28
+  - Relay 🇩🇪 Germany 06vmess1
+  - Relay 🇭🇰 Hong Kong 31vmess2
+  - 法国(yudou66.com 玉豆免费节点)vmess3
+  - 日本(yudou66.com 玉豆免费节点)vmess4
+  - 新加坡(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - Relay 🇹🇼 Taiwan 09vmess7
+  - 法国(yudou66.com 玉豆免费节点)vmess8
+  - 香港(yudou66.com 玉豆免费节点)vmess9
+  - 新加坡(yudou66.com 玉豆免费节点)vmess10
+  - Relay 🇭🇰 Hong Kong 41vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 德国(yudou66.com 玉豆免费节点)vmess13
+  - 香港(yudou66.com 玉豆免费节点)vmess14
+  - 美国(yudou66.com 玉豆免费节点)vmess15
+  - 新加坡(yudou66.com 玉豆免费节点)vmess16
+  - 波兰(yudou66.com 玉豆免费节点)vmess17
+  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 🇨🇦 Canada 04vmess19
+  - 香港(yudou66.com 玉豆免费节点)vmess20
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess21
+  - 美国(yudou66.com 玉豆免费节点)vmess22
+  - Singapore [SG 4] @ResistalProxyvmess23
+  - 🇦🇺 Australia 04vmess24
+  - 美国(yudou66.com 玉豆免费节点)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Netherlands [NL 4] @ResistalProxyvmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
   - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 香港(yudou66.com 玉豆免费节点)vmess30
   - 美国(yudou66.com 玉豆免费节点)vmess31
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国vmess32
-  - 🇺🇸 United States 26vmess33
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡vmess34
-  - Relay 🇩🇪 Germany 06vmess35
-  - 🇺🇸_US_美国vmess36
-  - 🇦🇺-澳大利亚-203.24.108.8(youtube阿伟科技)280vmess37
-  - 🇯🇵 Japan 20vmess38
-  - 🇨🇦 Canada 04vmess39
-  - HK（YouTube-aweikeji）vmess40
-  - 🇧🇿_BZ_伯利兹vmess41
-  - 🇨🇳CN-182.151.11.238-0583trojan1
-  - 🇨🇳CN-183.245.146.6-0441trojan2
-  - 🇨🇳CN-118.212.143.44-0260trojan3
-  - 🇨🇳CN-183.245.146.6-0437trojan4
-  - 🇨🇳CN-118.212.143.44-1400trojan5
-  - 🇨🇳CN-182.151.11.238-0580trojan6
-  - 🇨🇳CN-182.151.11.238-0546trojan7
-  - 🇨🇳CN-182.44.21.71-0564trojan8
-  - 🇨🇳CN-124.225.88.38-1407trojan9
-  - 🇨🇳CN-123.6.102.124-0427trojan10
-  - 🇨🇳CN-118.212.143.44-0264trojan11
-  - 🇨🇳CN-118.212.143.44-1401trojan12
-  - 🇨🇳CN-118.212.143.44-0261trojan13
-  - 🇨🇳CN-124.225.24.151-0266trojan14
-  - 🇨🇳CN-183.245.146.6-0439trojan15
-  - 🇨🇳CN-183.245.7.181-0422trojan16
-  - 🇨🇳CN-118.212.143.44-1404trojan17
-  - 🇨🇳CN-124.225.88.38-1409trojan18
-  - 🇨🇳CN-124.225.24.151-0286trojan19
-  - 🇨🇳CN-124.225.24.151-0271trojan20
-  - 🇨🇳CN-183.245.146.6-0424trojan21
-  - 🇨🇳CN-124.225.24.151-1426trojan22
-  - 🇨🇳CN-118.212.143.44-0263trojan23
-  - 🇨🇳CN-182.44.21.71-0557trojan24
-  - 🇨🇳CN-182.151.11.238-0585trojan25
-  - 🇨🇳CN-183.245.7.181-0432trojan26
-  - 🇨🇳CN-124.225.24.151-0287trojan27
-  - 🇨🇳CN-118.212.143.44-0273trojan28
-  - 🇨🇳CN-118.212.143.44-1413trojan29
-  - 🇨🇳CN-183.245.7.181-0438trojan30
-  - 🇨🇳CN-182.151.11.238-0577trojan31
-  - 🇨🇳CN-124.225.24.151-1427trojan32
-  - 🇨🇳CN-182.151.11.238-0543trojan33
-  - 🇨🇳CN-118.212.143.44-1425trojan34
-  - 🇨🇳CN-182.151.11.238-0573trojan35
-  - 🇨🇳CN-118.212.143.44-0262trojan36
-  - 🇨🇳CN-182.44.21.71-0566trojan37
-  - 🇨🇳CN-182.44.21.71-0542trojan38
-  - 🇨🇳CN-183.245.7.181-0440trojan39
-  - 🇨🇳CN-183.245.146.6-0433trojan40
-  - 🇨🇳CN-182.151.11.238-0553trojan41
-  - 🇨🇳CN-124.225.24.151-1411trojan42
-  - 🇨🇳CN-118.212.143.44-0285trojan43
-  - 🇨🇳CN-182.44.21.71-0551trojan44
-  - 🇨🇳CN-182.44.21.71-0544trojan45
-  - 🇨🇳CN-182.151.11.238-0584trojan46
-  - 🇨🇳CN-182.151.11.238-0582trojan47
-  - 🇨🇳CN-182.151.11.238-0572trojan48
-  - 🇨🇳CN-182.44.21.71-0571trojan49
-  - 🇨🇳CN-182.151.11.238-0567trojan50
-  - 🇺🇸 United States 11trojan51
-  - 🇨🇳CN-182.44.21.71-0587trojan52
-  - 🇨🇳CN-182.151.11.238-0556trojan53
-  - 🇨🇳CN-182.44.21.71-0560trojan54
-  - 🇨🇳CN-182.151.11.238-0569trojan55
-  - 🇨🇳CN-182.44.21.71-0586trojan56
-  - 🇨🇳CN-182.44.21.71-0589trojan57
-  - 🇨🇳CN-124.225.88.38-0269trojan58
-  - 🇨🇳CN-182.44.21.71-0581trojan59
-  - Relay 🇸🇬 Singapore 32ss1
+  - 香港(yudou66.com 玉豆免费节点)vmess32
+  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess34
+  - 新加坡(yudou66.com 玉豆免费节点)vmess35
+  - 🇦🇺 Australia 03vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 🇯🇵 Japan 16vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - 🇦🇺 Australia 05vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡-北北每日分享_5vmess44
+  - 🇨🇳CN-182.151.11.238-0553trojan1
+  - 🇨🇳CN-183.245.7.181-0440trojan2
+  - 🇨🇳CN-182.151.11.238-0575trojan3
+  - 🇨🇳CN-183.245.146.6-0430trojan4
+  - 🇨🇳CN-182.151.11.238-0543trojan5
+  - 🇨🇳CN-182.44.21.71-0551trojan6
+  - 🇨🇳CN-182.151.11.238-0572trojan7
+  - 🇨🇳CN-183.245.146.6-0434trojan8
+  - 🇨🇳CN-182.44.21.71-0581trojan9
+  - 🇨🇳CN-183.245.7.181-0435trojan10
+  - 🇨🇳CN-183.245.146.6-0439trojan11
+  - 🇩🇪 Germany 01trojan12
+  - 🇨🇳CN-183.245.7.181-0432trojan13
+  - 🇨🇳CN-183.245.7.181-0436trojan14
+  - 🇷🇺 Russia 02trojan15
+  - 🇨🇳CN-182.151.11.238-0548trojan16
+  - Relay 🇸🇬 Singapore 22ss1
   - Relay 🇭🇰 Hong Kong 20ss2
-  - Relay 🇸🇬 Singapore 29ss3
-  - Relay 🇸🇬 Singapore 20ss4
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1381,329 +949,203 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇨🇳CN-124.225.88.38-1430vmess1
-  - Relay 🇭🇰 Hong Kong 28vmess2
-  - 🇨🇳CN-124.225.24.151-1421vmess3
-  - 🇨🇳CN-124.225.24.151-1423vmess4
-  - 🇨🇳CN-124.225.24.151-0282vmess5
-  - Relay 🇹🇼 Taiwan 08vmess6
-  - 🇨🇳CN-124.225.24.151-0281vmess7
-  - 🇨🇳CN-124.225.24.151-1422vmess8
-  - 🇨🇳CN-124.225.24.151-1418vmess9
-  - Relay 🇹🇼 Taiwan 09vmess10
-  - 🇨🇳CN-140.179.136.12-0265vmess11
-  - 🇨🇳CN-124.225.24.151-1420vmess12
-  - 🇨🇳CN-124.225.24.151-0280vmess13
-  - 🇨🇳CN-124.225.24.151-0279vmess14
-  - 🇨🇳CN-124.225.24.151-0275vmess15
-  - 🇨🇳CN-124.225.24.151-1415vmess16
-  - 🇨🇳CN-124.225.88.38-1429vmess17
-  - Relay 🇭🇰 Hong Kong 31vmess18
-  - 🇨🇳CN-124.225.24.151-1428vmess19
-  - 🇨🇳CN-140.179.136.12-1405vmess20
-  - 🇨🇳CN-124.225.24.151-1419vmess21
-  - 🇨🇳CN-124.225.24.151-0288vmess22
-  - 🇨🇳CN-124.225.24.151-0277vmess23
-  - 🇨🇳CN-124.225.24.151-0274vmess24
-  - 🇯🇵 Japan 14vmess25
-  - Relay 🇬🇧 United Kingdom 05vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 新加坡(yudou66.com 玉豆免费节点)vmess28
+  - Relay 🇩🇪 Germany 06vmess1
+  - Relay 🇭🇰 Hong Kong 31vmess2
+  - 法国(yudou66.com 玉豆免费节点)vmess3
+  - 日本(yudou66.com 玉豆免费节点)vmess4
+  - 新加坡(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - Relay 🇹🇼 Taiwan 09vmess7
+  - 法国(yudou66.com 玉豆免费节点)vmess8
+  - 香港(yudou66.com 玉豆免费节点)vmess9
+  - 新加坡(yudou66.com 玉豆免费节点)vmess10
+  - Relay 🇭🇰 Hong Kong 41vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 德国(yudou66.com 玉豆免费节点)vmess13
+  - 香港(yudou66.com 玉豆免费节点)vmess14
+  - 美国(yudou66.com 玉豆免费节点)vmess15
+  - 新加坡(yudou66.com 玉豆免费节点)vmess16
+  - 波兰(yudou66.com 玉豆免费节点)vmess17
+  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 🇨🇦 Canada 04vmess19
+  - 香港(yudou66.com 玉豆免费节点)vmess20
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess21
+  - 美国(yudou66.com 玉豆免费节点)vmess22
+  - Singapore [SG 4] @ResistalProxyvmess23
+  - 🇦🇺 Australia 04vmess24
+  - 美国(yudou66.com 玉豆免费节点)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Netherlands [NL 4] @ResistalProxyvmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
   - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 香港(yudou66.com 玉豆免费节点)vmess30
   - 美国(yudou66.com 玉豆免费节点)vmess31
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国vmess32
-  - 🇺🇸 United States 26vmess33
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡vmess34
-  - Relay 🇩🇪 Germany 06vmess35
-  - 🇺🇸_US_美国vmess36
-  - 🇦🇺-澳大利亚-203.24.108.8(youtube阿伟科技)280vmess37
-  - 🇯🇵 Japan 20vmess38
-  - 🇨🇦 Canada 04vmess39
-  - HK（YouTube-aweikeji）vmess40
-  - 🇧🇿_BZ_伯利兹vmess41
-  - 🇨🇳CN-182.151.11.238-0583trojan1
-  - 🇨🇳CN-183.245.146.6-0441trojan2
-  - 🇨🇳CN-118.212.143.44-0260trojan3
-  - 🇨🇳CN-183.245.146.6-0437trojan4
-  - 🇨🇳CN-118.212.143.44-1400trojan5
-  - 🇨🇳CN-182.151.11.238-0580trojan6
-  - 🇨🇳CN-182.151.11.238-0546trojan7
-  - 🇨🇳CN-182.44.21.71-0564trojan8
-  - 🇨🇳CN-124.225.88.38-1407trojan9
-  - 🇨🇳CN-123.6.102.124-0427trojan10
-  - 🇨🇳CN-118.212.143.44-0264trojan11
-  - 🇨🇳CN-118.212.143.44-1401trojan12
-  - 🇨🇳CN-118.212.143.44-0261trojan13
-  - 🇨🇳CN-124.225.24.151-0266trojan14
-  - 🇨🇳CN-183.245.146.6-0439trojan15
-  - 🇨🇳CN-183.245.7.181-0422trojan16
-  - 🇨🇳CN-118.212.143.44-1404trojan17
-  - 🇨🇳CN-124.225.88.38-1409trojan18
-  - 🇨🇳CN-124.225.24.151-0286trojan19
-  - 🇨🇳CN-124.225.24.151-0271trojan20
-  - 🇨🇳CN-183.245.146.6-0424trojan21
-  - 🇨🇳CN-124.225.24.151-1426trojan22
-  - 🇨🇳CN-118.212.143.44-0263trojan23
-  - 🇨🇳CN-182.44.21.71-0557trojan24
-  - 🇨🇳CN-182.151.11.238-0585trojan25
-  - 🇨🇳CN-183.245.7.181-0432trojan26
-  - 🇨🇳CN-124.225.24.151-0287trojan27
-  - 🇨🇳CN-118.212.143.44-0273trojan28
-  - 🇨🇳CN-118.212.143.44-1413trojan29
-  - 🇨🇳CN-183.245.7.181-0438trojan30
-  - 🇨🇳CN-182.151.11.238-0577trojan31
-  - 🇨🇳CN-124.225.24.151-1427trojan32
-  - 🇨🇳CN-182.151.11.238-0543trojan33
-  - 🇨🇳CN-118.212.143.44-1425trojan34
-  - 🇨🇳CN-182.151.11.238-0573trojan35
-  - 🇨🇳CN-118.212.143.44-0262trojan36
-  - 🇨🇳CN-182.44.21.71-0566trojan37
-  - 🇨🇳CN-182.44.21.71-0542trojan38
-  - 🇨🇳CN-183.245.7.181-0440trojan39
-  - 🇨🇳CN-183.245.146.6-0433trojan40
-  - 🇨🇳CN-182.151.11.238-0553trojan41
-  - 🇨🇳CN-124.225.24.151-1411trojan42
-  - 🇨🇳CN-118.212.143.44-0285trojan43
-  - 🇨🇳CN-182.44.21.71-0551trojan44
-  - 🇨🇳CN-182.44.21.71-0544trojan45
-  - 🇨🇳CN-182.151.11.238-0584trojan46
-  - 🇨🇳CN-182.151.11.238-0582trojan47
-  - 🇨🇳CN-182.151.11.238-0572trojan48
-  - 🇨🇳CN-182.44.21.71-0571trojan49
-  - 🇨🇳CN-182.151.11.238-0567trojan50
-  - 🇺🇸 United States 11trojan51
-  - 🇨🇳CN-182.44.21.71-0587trojan52
-  - 🇨🇳CN-182.151.11.238-0556trojan53
-  - 🇨🇳CN-182.44.21.71-0560trojan54
-  - 🇨🇳CN-182.151.11.238-0569trojan55
-  - 🇨🇳CN-182.44.21.71-0586trojan56
-  - 🇨🇳CN-182.44.21.71-0589trojan57
-  - 🇨🇳CN-124.225.88.38-0269trojan58
-  - 🇨🇳CN-182.44.21.71-0581trojan59
-  - Relay 🇸🇬 Singapore 32ss1
+  - 香港(yudou66.com 玉豆免费节点)vmess32
+  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess34
+  - 新加坡(yudou66.com 玉豆免费节点)vmess35
+  - 🇦🇺 Australia 03vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 🇯🇵 Japan 16vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - 🇦🇺 Australia 05vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡-北北每日分享_5vmess44
+  - 🇨🇳CN-182.151.11.238-0553trojan1
+  - 🇨🇳CN-183.245.7.181-0440trojan2
+  - 🇨🇳CN-182.151.11.238-0575trojan3
+  - 🇨🇳CN-183.245.146.6-0430trojan4
+  - 🇨🇳CN-182.151.11.238-0543trojan5
+  - 🇨🇳CN-182.44.21.71-0551trojan6
+  - 🇨🇳CN-182.151.11.238-0572trojan7
+  - 🇨🇳CN-183.245.146.6-0434trojan8
+  - 🇨🇳CN-182.44.21.71-0581trojan9
+  - 🇨🇳CN-183.245.7.181-0435trojan10
+  - 🇨🇳CN-183.245.146.6-0439trojan11
+  - 🇩🇪 Germany 01trojan12
+  - 🇨🇳CN-183.245.7.181-0432trojan13
+  - 🇨🇳CN-183.245.7.181-0436trojan14
+  - 🇷🇺 Russia 02trojan15
+  - 🇨🇳CN-182.151.11.238-0548trojan16
+  - Relay 🇸🇬 Singapore 22ss1
   - Relay 🇭🇰 Hong Kong 20ss2
-  - Relay 🇸🇬 Singapore 29ss3
-  - Relay 🇸🇬 Singapore 20ss4
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 🇨🇳CN-124.225.88.38-1430vmess1
-  - Relay 🇭🇰 Hong Kong 28vmess2
-  - 🇨🇳CN-124.225.24.151-1421vmess3
-  - 🇨🇳CN-124.225.24.151-1423vmess4
-  - 🇨🇳CN-124.225.24.151-0282vmess5
-  - Relay 🇹🇼 Taiwan 08vmess6
-  - 🇨🇳CN-124.225.24.151-0281vmess7
-  - 🇨🇳CN-124.225.24.151-1422vmess8
-  - 🇨🇳CN-124.225.24.151-1418vmess9
-  - Relay 🇹🇼 Taiwan 09vmess10
-  - 🇨🇳CN-140.179.136.12-0265vmess11
-  - 🇨🇳CN-124.225.24.151-1420vmess12
-  - 🇨🇳CN-124.225.24.151-0280vmess13
-  - 🇨🇳CN-124.225.24.151-0279vmess14
-  - 🇨🇳CN-124.225.24.151-0275vmess15
-  - 🇨🇳CN-124.225.24.151-1415vmess16
-  - 🇨🇳CN-124.225.88.38-1429vmess17
-  - Relay 🇭🇰 Hong Kong 31vmess18
-  - 🇨🇳CN-124.225.24.151-1428vmess19
-  - 🇨🇳CN-140.179.136.12-1405vmess20
-  - 🇨🇳CN-124.225.24.151-1419vmess21
-  - 🇨🇳CN-124.225.24.151-0288vmess22
-  - 🇨🇳CN-124.225.24.151-0277vmess23
-  - 🇨🇳CN-124.225.24.151-0274vmess24
-  - 🇯🇵 Japan 14vmess25
-  - Relay 🇬🇧 United Kingdom 05vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 新加坡(yudou66.com 玉豆免费节点)vmess28
+  - Relay 🇩🇪 Germany 06vmess1
+  - Relay 🇭🇰 Hong Kong 31vmess2
+  - 法国(yudou66.com 玉豆免费节点)vmess3
+  - 日本(yudou66.com 玉豆免费节点)vmess4
+  - 新加坡(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - Relay 🇹🇼 Taiwan 09vmess7
+  - 法国(yudou66.com 玉豆免费节点)vmess8
+  - 香港(yudou66.com 玉豆免费节点)vmess9
+  - 新加坡(yudou66.com 玉豆免费节点)vmess10
+  - Relay 🇭🇰 Hong Kong 41vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 德国(yudou66.com 玉豆免费节点)vmess13
+  - 香港(yudou66.com 玉豆免费节点)vmess14
+  - 美国(yudou66.com 玉豆免费节点)vmess15
+  - 新加坡(yudou66.com 玉豆免费节点)vmess16
+  - 波兰(yudou66.com 玉豆免费节点)vmess17
+  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 🇨🇦 Canada 04vmess19
+  - 香港(yudou66.com 玉豆免费节点)vmess20
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess21
+  - 美国(yudou66.com 玉豆免费节点)vmess22
+  - Singapore [SG 4] @ResistalProxyvmess23
+  - 🇦🇺 Australia 04vmess24
+  - 美国(yudou66.com 玉豆免费节点)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Netherlands [NL 4] @ResistalProxyvmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
   - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 香港(yudou66.com 玉豆免费节点)vmess30
   - 美国(yudou66.com 玉豆免费节点)vmess31
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国vmess32
-  - 🇺🇸 United States 26vmess33
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡vmess34
-  - Relay 🇩🇪 Germany 06vmess35
-  - 🇺🇸_US_美国vmess36
-  - 🇦🇺-澳大利亚-203.24.108.8(youtube阿伟科技)280vmess37
-  - 🇯🇵 Japan 20vmess38
-  - 🇨🇦 Canada 04vmess39
-  - HK（YouTube-aweikeji）vmess40
-  - 🇧🇿_BZ_伯利兹vmess41
-  - 🇨🇳CN-182.151.11.238-0583trojan1
-  - 🇨🇳CN-183.245.146.6-0441trojan2
-  - 🇨🇳CN-118.212.143.44-0260trojan3
-  - 🇨🇳CN-183.245.146.6-0437trojan4
-  - 🇨🇳CN-118.212.143.44-1400trojan5
-  - 🇨🇳CN-182.151.11.238-0580trojan6
-  - 🇨🇳CN-182.151.11.238-0546trojan7
-  - 🇨🇳CN-182.44.21.71-0564trojan8
-  - 🇨🇳CN-124.225.88.38-1407trojan9
-  - 🇨🇳CN-123.6.102.124-0427trojan10
-  - 🇨🇳CN-118.212.143.44-0264trojan11
-  - 🇨🇳CN-118.212.143.44-1401trojan12
-  - 🇨🇳CN-118.212.143.44-0261trojan13
-  - 🇨🇳CN-124.225.24.151-0266trojan14
-  - 🇨🇳CN-183.245.146.6-0439trojan15
-  - 🇨🇳CN-183.245.7.181-0422trojan16
-  - 🇨🇳CN-118.212.143.44-1404trojan17
-  - 🇨🇳CN-124.225.88.38-1409trojan18
-  - 🇨🇳CN-124.225.24.151-0286trojan19
-  - 🇨🇳CN-124.225.24.151-0271trojan20
-  - 🇨🇳CN-183.245.146.6-0424trojan21
-  - 🇨🇳CN-124.225.24.151-1426trojan22
-  - 🇨🇳CN-118.212.143.44-0263trojan23
-  - 🇨🇳CN-182.44.21.71-0557trojan24
-  - 🇨🇳CN-182.151.11.238-0585trojan25
-  - 🇨🇳CN-183.245.7.181-0432trojan26
-  - 🇨🇳CN-124.225.24.151-0287trojan27
-  - 🇨🇳CN-118.212.143.44-0273trojan28
-  - 🇨🇳CN-118.212.143.44-1413trojan29
-  - 🇨🇳CN-183.245.7.181-0438trojan30
-  - 🇨🇳CN-182.151.11.238-0577trojan31
-  - 🇨🇳CN-124.225.24.151-1427trojan32
-  - 🇨🇳CN-182.151.11.238-0543trojan33
-  - 🇨🇳CN-118.212.143.44-1425trojan34
-  - 🇨🇳CN-182.151.11.238-0573trojan35
-  - 🇨🇳CN-118.212.143.44-0262trojan36
-  - 🇨🇳CN-182.44.21.71-0566trojan37
-  - 🇨🇳CN-182.44.21.71-0542trojan38
-  - 🇨🇳CN-183.245.7.181-0440trojan39
-  - 🇨🇳CN-183.245.146.6-0433trojan40
-  - 🇨🇳CN-182.151.11.238-0553trojan41
-  - 🇨🇳CN-124.225.24.151-1411trojan42
-  - 🇨🇳CN-118.212.143.44-0285trojan43
-  - 🇨🇳CN-182.44.21.71-0551trojan44
-  - 🇨🇳CN-182.44.21.71-0544trojan45
-  - 🇨🇳CN-182.151.11.238-0584trojan46
-  - 🇨🇳CN-182.151.11.238-0582trojan47
-  - 🇨🇳CN-182.151.11.238-0572trojan48
-  - 🇨🇳CN-182.44.21.71-0571trojan49
-  - 🇨🇳CN-182.151.11.238-0567trojan50
-  - 🇺🇸 United States 11trojan51
-  - 🇨🇳CN-182.44.21.71-0587trojan52
-  - 🇨🇳CN-182.151.11.238-0556trojan53
-  - 🇨🇳CN-182.44.21.71-0560trojan54
-  - 🇨🇳CN-182.151.11.238-0569trojan55
-  - 🇨🇳CN-182.44.21.71-0586trojan56
-  - 🇨🇳CN-182.44.21.71-0589trojan57
-  - 🇨🇳CN-124.225.88.38-0269trojan58
-  - 🇨🇳CN-182.44.21.71-0581trojan59
-  - Relay 🇸🇬 Singapore 32ss1
+  - 香港(yudou66.com 玉豆免费节点)vmess32
+  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess34
+  - 新加坡(yudou66.com 玉豆免费节点)vmess35
+  - 🇦🇺 Australia 03vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 🇯🇵 Japan 16vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - 🇦🇺 Australia 05vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡-北北每日分享_5vmess44
+  - 🇨🇳CN-182.151.11.238-0553trojan1
+  - 🇨🇳CN-183.245.7.181-0440trojan2
+  - 🇨🇳CN-182.151.11.238-0575trojan3
+  - 🇨🇳CN-183.245.146.6-0430trojan4
+  - 🇨🇳CN-182.151.11.238-0543trojan5
+  - 🇨🇳CN-182.44.21.71-0551trojan6
+  - 🇨🇳CN-182.151.11.238-0572trojan7
+  - 🇨🇳CN-183.245.146.6-0434trojan8
+  - 🇨🇳CN-182.44.21.71-0581trojan9
+  - 🇨🇳CN-183.245.7.181-0435trojan10
+  - 🇨🇳CN-183.245.146.6-0439trojan11
+  - 🇩🇪 Germany 01trojan12
+  - 🇨🇳CN-183.245.7.181-0432trojan13
+  - 🇨🇳CN-183.245.7.181-0436trojan14
+  - 🇷🇺 Russia 02trojan15
+  - 🇨🇳CN-182.151.11.238-0548trojan16
+  - Relay 🇸🇬 Singapore 22ss1
   - Relay 🇭🇰 Hong Kong 20ss2
-  - Relay 🇸🇬 Singapore 29ss3
-  - Relay 🇸🇬 Singapore 20ss4
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇨🇳CN-124.225.88.38-1430vmess1
-  - Relay 🇭🇰 Hong Kong 28vmess2
-  - 🇨🇳CN-124.225.24.151-1421vmess3
-  - 🇨🇳CN-124.225.24.151-1423vmess4
-  - 🇨🇳CN-124.225.24.151-0282vmess5
-  - Relay 🇹🇼 Taiwan 08vmess6
-  - 🇨🇳CN-124.225.24.151-0281vmess7
-  - 🇨🇳CN-124.225.24.151-1422vmess8
-  - 🇨🇳CN-124.225.24.151-1418vmess9
-  - Relay 🇹🇼 Taiwan 09vmess10
-  - 🇨🇳CN-140.179.136.12-0265vmess11
-  - 🇨🇳CN-124.225.24.151-1420vmess12
-  - 🇨🇳CN-124.225.24.151-0280vmess13
-  - 🇨🇳CN-124.225.24.151-0279vmess14
-  - 🇨🇳CN-124.225.24.151-0275vmess15
-  - 🇨🇳CN-124.225.24.151-1415vmess16
-  - 🇨🇳CN-124.225.88.38-1429vmess17
-  - Relay 🇭🇰 Hong Kong 31vmess18
-  - 🇨🇳CN-124.225.24.151-1428vmess19
-  - 🇨🇳CN-140.179.136.12-1405vmess20
-  - 🇨🇳CN-124.225.24.151-1419vmess21
-  - 🇨🇳CN-124.225.24.151-0288vmess22
-  - 🇨🇳CN-124.225.24.151-0277vmess23
-  - 🇨🇳CN-124.225.24.151-0274vmess24
-  - 🇯🇵 Japan 14vmess25
-  - Relay 🇬🇧 United Kingdom 05vmess26
-  - 美国(yudou66.com 玉豆免费节点)vmess27
-  - 新加坡(yudou66.com 玉豆免费节点)vmess28
+  - Relay 🇩🇪 Germany 06vmess1
+  - Relay 🇭🇰 Hong Kong 31vmess2
+  - 法国(yudou66.com 玉豆免费节点)vmess3
+  - 日本(yudou66.com 玉豆免费节点)vmess4
+  - 新加坡(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - Relay 🇹🇼 Taiwan 09vmess7
+  - 法国(yudou66.com 玉豆免费节点)vmess8
+  - 香港(yudou66.com 玉豆免费节点)vmess9
+  - 新加坡(yudou66.com 玉豆免费节点)vmess10
+  - Relay 🇭🇰 Hong Kong 41vmess11
+  - 美国(yudou66.com 玉豆免费节点)vmess12
+  - 德国(yudou66.com 玉豆免费节点)vmess13
+  - 香港(yudou66.com 玉豆免费节点)vmess14
+  - 美国(yudou66.com 玉豆免费节点)vmess15
+  - 新加坡(yudou66.com 玉豆免费节点)vmess16
+  - 波兰(yudou66.com 玉豆免费节点)vmess17
+  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 🇨🇦 Canada 04vmess19
+  - 香港(yudou66.com 玉豆免费节点)vmess20
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess21
+  - 美国(yudou66.com 玉豆免费节点)vmess22
+  - Singapore [SG 4] @ResistalProxyvmess23
+  - 🇦🇺 Australia 04vmess24
+  - 美国(yudou66.com 玉豆免费节点)vmess25
+  - 美国(yudou66.com 玉豆免费节点)vmess26
+  - Netherlands [NL 4] @ResistalProxyvmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
   - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 香港(yudou66.com 玉豆免费节点)vmess30
   - 美国(yudou66.com 玉豆免费节点)vmess31
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国vmess32
-  - 🇺🇸 United States 26vmess33
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡vmess34
-  - Relay 🇩🇪 Germany 06vmess35
-  - 🇺🇸_US_美国vmess36
-  - 🇦🇺-澳大利亚-203.24.108.8(youtube阿伟科技)280vmess37
-  - 🇯🇵 Japan 20vmess38
-  - 🇨🇦 Canada 04vmess39
-  - HK（YouTube-aweikeji）vmess40
-  - 🇧🇿_BZ_伯利兹vmess41
-  - 🇨🇳CN-182.151.11.238-0583trojan1
-  - 🇨🇳CN-183.245.146.6-0441trojan2
-  - 🇨🇳CN-118.212.143.44-0260trojan3
-  - 🇨🇳CN-183.245.146.6-0437trojan4
-  - 🇨🇳CN-118.212.143.44-1400trojan5
-  - 🇨🇳CN-182.151.11.238-0580trojan6
-  - 🇨🇳CN-182.151.11.238-0546trojan7
-  - 🇨🇳CN-182.44.21.71-0564trojan8
-  - 🇨🇳CN-124.225.88.38-1407trojan9
-  - 🇨🇳CN-123.6.102.124-0427trojan10
-  - 🇨🇳CN-118.212.143.44-0264trojan11
-  - 🇨🇳CN-118.212.143.44-1401trojan12
-  - 🇨🇳CN-118.212.143.44-0261trojan13
-  - 🇨🇳CN-124.225.24.151-0266trojan14
-  - 🇨🇳CN-183.245.146.6-0439trojan15
-  - 🇨🇳CN-183.245.7.181-0422trojan16
-  - 🇨🇳CN-118.212.143.44-1404trojan17
-  - 🇨🇳CN-124.225.88.38-1409trojan18
-  - 🇨🇳CN-124.225.24.151-0286trojan19
-  - 🇨🇳CN-124.225.24.151-0271trojan20
-  - 🇨🇳CN-183.245.146.6-0424trojan21
-  - 🇨🇳CN-124.225.24.151-1426trojan22
-  - 🇨🇳CN-118.212.143.44-0263trojan23
-  - 🇨🇳CN-182.44.21.71-0557trojan24
-  - 🇨🇳CN-182.151.11.238-0585trojan25
-  - 🇨🇳CN-183.245.7.181-0432trojan26
-  - 🇨🇳CN-124.225.24.151-0287trojan27
-  - 🇨🇳CN-118.212.143.44-0273trojan28
-  - 🇨🇳CN-118.212.143.44-1413trojan29
-  - 🇨🇳CN-183.245.7.181-0438trojan30
-  - 🇨🇳CN-182.151.11.238-0577trojan31
-  - 🇨🇳CN-124.225.24.151-1427trojan32
-  - 🇨🇳CN-182.151.11.238-0543trojan33
-  - 🇨🇳CN-118.212.143.44-1425trojan34
-  - 🇨🇳CN-182.151.11.238-0573trojan35
-  - 🇨🇳CN-118.212.143.44-0262trojan36
-  - 🇨🇳CN-182.44.21.71-0566trojan37
-  - 🇨🇳CN-182.44.21.71-0542trojan38
-  - 🇨🇳CN-183.245.7.181-0440trojan39
-  - 🇨🇳CN-183.245.146.6-0433trojan40
-  - 🇨🇳CN-182.151.11.238-0553trojan41
-  - 🇨🇳CN-124.225.24.151-1411trojan42
-  - 🇨🇳CN-118.212.143.44-0285trojan43
-  - 🇨🇳CN-182.44.21.71-0551trojan44
-  - 🇨🇳CN-182.44.21.71-0544trojan45
-  - 🇨🇳CN-182.151.11.238-0584trojan46
-  - 🇨🇳CN-182.151.11.238-0582trojan47
-  - 🇨🇳CN-182.151.11.238-0572trojan48
-  - 🇨🇳CN-182.44.21.71-0571trojan49
-  - 🇨🇳CN-182.151.11.238-0567trojan50
-  - 🇺🇸 United States 11trojan51
-  - 🇨🇳CN-182.44.21.71-0587trojan52
-  - 🇨🇳CN-182.151.11.238-0556trojan53
-  - 🇨🇳CN-182.44.21.71-0560trojan54
-  - 🇨🇳CN-182.151.11.238-0569trojan55
-  - 🇨🇳CN-182.44.21.71-0586trojan56
-  - 🇨🇳CN-182.44.21.71-0589trojan57
-  - 🇨🇳CN-124.225.88.38-0269trojan58
-  - 🇨🇳CN-182.44.21.71-0581trojan59
-  - Relay 🇸🇬 Singapore 32ss1
+  - 香港(yudou66.com 玉豆免费节点)vmess32
+  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess34
+  - 新加坡(yudou66.com 玉豆免费节点)vmess35
+  - 🇦🇺 Australia 03vmess36
+  - 美国(yudou66.com 玉豆免费节点)vmess37
+  - 🇯🇵 Japan 16vmess38
+  - 美国(yudou66.com 玉豆免费节点)vmess39
+  - 🇦🇺 Australia 05vmess40
+  - 美国(yudou66.com 玉豆免费节点)vmess41
+  - 美国(yudou66.com 玉豆免费节点)vmess42
+  - 美国(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡-北北每日分享_5vmess44
+  - 🇨🇳CN-182.151.11.238-0553trojan1
+  - 🇨🇳CN-183.245.7.181-0440trojan2
+  - 🇨🇳CN-182.151.11.238-0575trojan3
+  - 🇨🇳CN-183.245.146.6-0430trojan4
+  - 🇨🇳CN-182.151.11.238-0543trojan5
+  - 🇨🇳CN-182.44.21.71-0551trojan6
+  - 🇨🇳CN-182.151.11.238-0572trojan7
+  - 🇨🇳CN-183.245.146.6-0434trojan8
+  - 🇨🇳CN-182.44.21.71-0581trojan9
+  - 🇨🇳CN-183.245.7.181-0435trojan10
+  - 🇨🇳CN-183.245.146.6-0439trojan11
+  - 🇩🇪 Germany 01trojan12
+  - 🇨🇳CN-183.245.7.181-0432trojan13
+  - 🇨🇳CN-183.245.7.181-0436trojan14
+  - 🇷🇺 Russia 02trojan15
+  - 🇨🇳CN-182.151.11.238-0548trojan16
+  - Relay 🇸🇬 Singapore 22ss1
   - Relay 🇭🇰 Hong Kong 20ss2
-  - Relay 🇸🇬 Singapore 29ss3
-  - Relay 🇸🇬 Singapore 20ss4
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
