@@ -26,31 +26,71 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: Relay 🇭🇰 Hong Kong 31vmess1
+- name: 台湾(yudou66.com 玉豆免费节点)vmess1
   type: vmess
-  server: hk80-2.sanfen001.pics
-  port: '80'
-  uuid: fe0c02e5-89e7-4a46-8f8d-172947ea70bb
+  server: in03.my1188.org
+  port: '64088'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /zh-cn/download
+  ws-path: /biteb
   ws-headers:
-    Host: a.189.cn
-- name: SG 3vmess2
+    Host: tw-load-balancer.myn1des.com
+  tls: true
+- name: aliyun中转2vmess2
   type: vmess
-  server: uicdn.cf
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  server: 39.103.165.178
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 日本(yudou66.com 玉豆免费节点)vmess3
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/1736960111/63b1af7a5f43f/
+  ws-path: /Falling42gcssjpnode
   ws-headers:
-    Host: sg3-v2ray.sshkit.org
-- name: JP 日本（YouTube-aweikeji）vmess3
+    Host: gcssjp.sylu.cyou
+  tls: true
+- name: 亚美尼亚(yudou66.com 玉豆免费节点)vmess4
+  type: vmess
+  server: 185.162.228.229
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess5
+  type: vmess
+  server: 23.227.38.40
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess6
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -61,35 +101,11 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: opc-jp.sharecentre.online
+    Host: lu.sharecentre.online
   tls: true
-- name: Relay 🇩🇪 Germany 06vmess4
+- name: 美国(yudou66.com 玉豆免费节点)vmess7
   type: vmess
-  server: in05.my1188.org
-  port: '64084'
-  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: de01-cdn.airport-v2.com
-- name: SG 7vmess5
-  type: vmess
-  server: 198.41.208.200
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/63b1af7a5f43f/
-  ws-headers:
-    Host: sg3-v2ray.sshkit.org
-- name: Singapore [SG 4] @ResistalProxyvmess6
-  type: vmess
-  server: 198.41.208.172
+  server: 172.67.199.34
   port: '443'
   uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
@@ -98,22 +114,47 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: sg-gcore-2.sharecentre.online
+    Host: sg-gcore.sharecentre.online
   tls: true
-- name: 法国(yudou66.com 玉豆免费节点)vmess7
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess8
   type: vmess
   server: 172.67.199.34
   port: '443'
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /9JZFDTKE
+  ws-path: /sshkit/1350195536/63a625eb069d5/
   ws-headers:
-    Host: fr1.trump2023.org
+    Host: sg2-v2ray.sshkit.org
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess8
+- name: 香港(yudou66.com 玉豆免费节点)vmess9
+  type: vmess
+  server: in05.my1188.org
+  port: '64081'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hkt2-cdn.tencent.best
+- name: 香港(yudou66.com 玉豆免费节点)vmess10
+  type: vmess
+  server: in04.my1188.org
+  port: '64078'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk-balancer.airport-v2.com
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess11
   type: vmess
   server: 172.67.199.34
   port: '443'
@@ -126,7 +167,7 @@ proxies:
   ws-headers:
     Host: lv.awsbest.com
   tls: true
-- name: 香港(yudou66.com 玉豆免费节点)vmess9
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess12
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -137,110 +178,34 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: hk-gcore.sharecentre.online
+    Host: sg-gcore-2.sharecentre.online
   tls: true
-- name: 新加坡(yudou66.com 玉豆免费节点)vmess10
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Falling42gcoresgnode
-  ws-headers:
-    Host: gcoresg.sylu.cyou
-  tls: true
-- name: 澳大利亚(yudou66.com 玉豆免费节点)vmess11
-  type: vmess
-  server: 203.30.189.190
-  port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5QNROSRV
-  ws-headers:
-    Host: oplg1.zhujicn2.com
-  tls: true
-- name: 香港(yudou66.com 玉豆免费节点)vmess12
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Falling42gcsshknode
-  ws-headers:
-    Host: gcsshk.sylu.cyou
-  tls: true
-- name: 新加坡(yudou66.com 玉豆免费节点)vmess13
+- name: 美国(yudou66.com 玉豆免费节点)vmess13
   type: vmess
   server: get.tech
-  port: '2086'
-  uuid: 8c067a46-155c-402a-a762-f42b40179438
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: SG.GCORE.CLOUDFLARE.QUEST
-- name: aliyun中转2vmess14
-  type: vmess
-  server: 39.103.165.178
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: SG 1vmess15
-  type: vmess
-  server: uicdn.cf
   port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/1736960111/63b1af08c16fd/
+  ws-path: /shared
   ws-headers:
-    Host: sg1-v2ray.sshkit.org
-- name: 美国(yudou66.com 玉豆免费节点)vmess16
+    Host: lv.awsbest.com
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess14
   type: vmess
-  server: 172.67.199.34
+  server: 23.227.38.39
   port: '443'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
+  ws-path: /IYKLD53M
   ws-headers:
-    Host: us-lb.sshkit.org
+    Host: opfr1.v2rayfree1.xyz
   tls: true
-- name: 波兰(yudou66.com 玉豆免费节点)vmess17
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Falling42gcoreplnode
-  ws-headers:
-    Host: gcorepl.sylu.cyou
-  tls: true
-- name: 新加坡(yudou66.com 玉豆免费节点)vmess18
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess15
   type: vmess
   server: 172.67.199.34
   port: '443'
@@ -253,131 +218,22 @@ proxies:
   ws-headers:
     Host: gcsssg.sylu.cyou
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess19
+- name: 台湾(yudou66.com 玉豆免费节点)vmess16
   type: vmess
   server: 172.67.199.34
   port: '443'
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /IYKLD53M
+  ws-path: /xyf520
   ws-headers:
-    Host: opfr1.v2rayfree1.xyz
+    Host: 22331.eutopiacloud.ml
   tls: true
-- name: SG 2vmess20
+- name: Singapore [SG 4] @ResistalProxyvmess17
   type: vmess
-  server: uicdn.cf
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/63b1af553659d/
-  ws-headers:
-    Host: sg2-v2ray.sshkit.org
-- name: 美国(yudou66.com 玉豆免费节点)vmess21
-  type: vmess
-  server: sun.prxpro.cc
-  port: '80'
-  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /p3573l6m92h1ham3q23t
-  ws-headers:
-    Host: sun.prxpro.cc
-- name: 美国(yudou66.com 玉豆免费节点)vmess22
-  type: vmess
-  server: Get.TECH
-  port: '2086'
-  uuid: f9ac8978-be94-40a7-eabd-b07d77037429
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: sfodo.cloudflare.quest
-- name: 法国(yudou66.com 玉豆免费节点)vmess23
-  type: vmess
-  server: 185.162.228.230
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess24
-  type: vmess
-  server: 172.67.199.34
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
-  ws-headers:
-    Host: us-lb.sshkit.org
-- name: Netherlands [NL 4] @ResistalProxyvmess25
-  type: vmess
-  server: tray.tawanaclub.tk
-  port: '8443'
-  uuid: f5d12723-c743-4990-9019-dc22f64bae3a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /TawanaProxy5
-  ws-headers:
-    Host: ''
-- name: SG 5vmess26
-  type: vmess
-  server: 198.41.208.200
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/63b1af08c16fd/
-  ws-headers:
-    Host: sg1-v2ray.sshkit.org
-- name: 🇺🇸 US 16vmess27
-  type: vmess
-  server: 104.21.47.94
-  port: '80'
-  uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 22223.daoxin.shop
-- name: 美国(yudou66.com 玉豆免费节点)vmess28
-  type: vmess
-  server: get.tech
-  port: '80'
-  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shared
-  ws-headers:
-    Host: lv.awsbest.com
-- name: 美国(yudou66.com 玉豆免费节点)vmess29
-  type: vmess
-  server: 172.67.199.34
+  server: 198.41.208.172
   port: '443'
   uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
@@ -386,110 +242,9 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: sg-gcore.sharecentre.online
+    Host: sg-gcore-2.sharecentre.online
   tls: true
-- name: 🇮🇪 IL 01vmess30
-  type: vmess
-  server: 52.214.4.7
-  port: '22171'
-  uuid: 10a36f04-bb64-4eed-f4f3-4f1465c2c72a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ''
-- name: aliyun中转1vmess31
-  type: vmess
-  server: 47.104.237.32
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 香港(yudou66.com 玉豆免费节点)vmess32
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Falling42gcorehknode
-  ws-headers:
-    Host: gcorehk.sylu.cyou
-  tls: true
-- name: 香港(yudou66.com 玉豆免费节点)vmess33
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Falling42gcorehkknode
-  ws-headers:
-    Host: gcorehkk.sylu.cyou
-  tls: true
-- name: 新加坡(yudou66.com 玉豆免费节点)vmess34
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Falling42gcoresggnode
-  ws-headers:
-    Host: gcoresgg.sylu.cyou
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess35
-  type: vmess
-  server: uicdn.cf
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
-  ws-headers:
-    Host: us-lb.sshkit.org
-- name: 美国(yudou66.com 玉豆免费节点)vmess36
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: sg-gcore.sharecentre.online
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess37
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 22223.daoxin.shop
-  tls: true
-- name: 德国(yudou66.com 玉豆免费节点)vmess38
+- name: 德国(yudou66.com 玉豆免费节点)vmess18
   type: vmess
   server: 172.67.199.34
   port: '2053'
@@ -502,71 +257,108 @@ proxies:
   ws-headers:
     Host: foxdeovz1.fovi.tk
   tls: true
-- name: 🇺🇸 US 01vmess39
+- name: SG 3vmess19
   type: vmess
-  server: 154.37.152.120
-  port: '33440'
-  uuid: 90b41a76-68c3-4d1a-f55d-e33fff885605
+  server: uicdn.cf
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /ghjsdhfjksdhfkjsdf
+  ws-path: /sshkit/1736960111/63b1af7a5f43f/
   ws-headers:
-    Host: ''
-- name: 美国(yudou66.com 玉豆免费节点)vmess40
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: b5f0ac18-e0fa-4437-a3a6-8a457eeaea0d
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: us.xn--94q352ahyl.xyz
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess41
+    Host: sg3-v2ray.sshkit.org
+- name: 美国(yudou66.com 玉豆免费节点)vmess20
   type: vmess
   server: 172.67.199.34
   port: '443'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-path: /shares
   ws-headers:
-    Host: us-lb.sshkit.org
+    Host: la.awsbest.com
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess42
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess21
+  type: vmess
+  server: 162.159.128.7
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcsssgnode
+  ws-headers:
+    Host: gcsssg.sylu.cyou
+  tls: true
+- name: SG 2vmess22
+  type: vmess
+  server: uicdn.cf
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/1736960111/63b1af553659d/
+  ws-headers:
+    Host: sg2-v2ray.sshkit.org
+- name: 日本(yudou66.com 玉豆免费节点)vmess23
   type: vmess
   server: 172.67.199.34
   port: '443'
-  uuid: b5f0ac18-e0fa-4437-a3a6-8a457eeaea0d
+  uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /
+  ws-path: /hfhqqweqwxxx
   ws-headers:
-    Host: us2.xn--94q352ahyl.xyz
+    Host: jp1.mayaa.cf
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess43
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess24
+  type: vmess
+  server: 162.159.128.7
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcoresgnode
+  ws-headers:
+    Host: gcoresg.sylu.cyou
+  tls: true
+- name: 波兰(yudou66.com 玉豆免费节点)vmess25
   type: vmess
   server: 172.67.199.34
   port: '443'
-  uuid: f6c1babe-416e-47d1-8726-049678e25c7a
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshocean
+  ws-path: /Falling42gcsplnode
   ws-headers:
-    Host: us2.v2rayserv.com
+    Host: gcspl.sylu.cyou
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess44
+- name: SG 5vmess26
+  type: vmess
+  server: 198.41.208.200
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/1736960111/63b1af08c16fd/
+  ws-headers:
+    Host: sg1-v2ray.sshkit.org
+- name: 香港(yudou66.com 玉豆免费节点)vmess27
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -577,70 +369,112 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: lvryzenkvm1gb.sharecentre.online
+    Host: hk-gcore.sharecentre.online
   tls: true
-- name: SG 8vmess45
+- name: 香港(yudou66.com 玉豆免费节点)vmess28
   type: vmess
-  server: 198.41.208.200
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/63b1afab53213/
-  ws-headers:
-    Host: sg4-v2ray.sshkit.org
-- name: SG 4vmess46
-  type: vmess
-  server: uicdn.cf
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/63b1afab53213/
-  ws-headers:
-    Host: sg4-v2ray.sshkit.org
-- name: 🇬🇧 UK 01vmess47
-  type: vmess
-  server: 51.75.171.211
-  port: '80'
-  uuid: 989b7bb6-3734-4723-bebe-2c3ff7423e46
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: ''
-- name: aliyun中转3vmess48
-  type: vmess
-  server: 198.41.208.200
+  server: 172.67.199.34
   port: '443'
-  uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /share
+  ws-path: /Falling42gcorehknode
   ws-headers:
-    Host: us.awsbest.com
+    Host: gcorehk.sylu.cyou
   tls: true
-- name: 🇫🇷 FR 03vmess49
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess29
   type: vmess
-  server: 45.136.244.181
-  port: '80'
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  server: 172.67.199.34
+  port: '443'
+  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /fr-unlimitxxx
+  ws-path: /dsadsa1dsadsa33434
   ws-headers:
-    Host: 45.136.244.181
-- name: 香港(yudou66.com 玉豆免费节点)vmess50
+    Host: xjp4h.mayaa.ml
+  tls: true
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess30
+  type: vmess
+  server: in05.my1188.org
+  port: '64084'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: de01-cdn.airport-v2.com
+- name: 美国(yudou66.com 玉豆免费节点)vmess31
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: 香港(yudou66.com 玉豆免费节点)vmess32
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcorehkknode
+  ws-headers:
+    Host: gcorehkk.sylu.cyou
+  tls: true
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess33
+  type: vmess
+  server: in04.my1188.org
+  port: '64087'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /biteb
+  ws-headers:
+    Host: sg-balancer.tencent.best
+  tls: true
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess34
+  type: vmess
+  server: in02.my1188.org
+  port: '64088'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /biteb
+  ws-headers:
+    Host: tw-load-balancer.myn1des.com
+  tls: true
+- name: 香港(yudou66.com 玉豆免费节点)vmess35
+  type: vmess
+  server: in04.my1188.org
+  port: '64088'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /biteb
+  ws-headers:
+    Host: tw-load-balancer.myn1des.com
+  tls: true
+- name: 香港(yudou66.com 玉豆免费节点)vmess36
   type: vmess
   server: 172.67.199.34
   port: '443'
@@ -653,7 +487,145 @@ proxies:
   ws-headers:
     Host: gcsshkk.sylu.cyou
   tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess51
+- name: SG 1vmess37
+  type: vmess
+  server: uicdn.cf
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/1736960111/63b1af08c16fd/
+  ws-headers:
+    Host: sg1-v2ray.sshkit.org
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess38
+  type: vmess
+  server: get.tech
+  port: '2086'
+  uuid: 8c067a46-155c-402a-a762-f42b40179438
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: SG.GCORE.CLOUDFLARE.QUEST
+- name: SG 7vmess39
+  type: vmess
+  server: 198.41.208.200
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/1736960111/63b1af7a5f43f/
+  ws-headers:
+    Host: sg3-v2ray.sshkit.org
+- name: JP 日本（YouTube-aweikeji）vmess40
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: opc-jp.sharecentre.online
+  tls: true
+- name: 日本(yudou66.com 玉豆免费节点)vmess41
+  type: vmess
+  server: in03.my1188.org
+  port: '64086'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /biteb
+  ws-headers:
+    Host: jp-balancer.myn1des.com
+  tls: true
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess42
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42awsypcanode
+  ws-headers:
+    Host: awsypca.sylu.cyou
+  tls: true
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess43
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcoresggnode
+  ws-headers:
+    Host: gcoresgg.sylu.cyou
+  tls: true
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess44
+  type: vmess
+  server: 162.159.135.42
+  port: '443'
+  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dsadsa1dsadsa33434
+  ws-headers:
+    Host: xjp4h.mayaa.ml
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess45
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: f6c1babe-416e-47d1-8726-049678e25c7a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshocean
+  ws-headers:
+    Host: us2.v2rayserv.com
+  tls: true
+- name: SG 4vmess46
+  type: vmess
+  server: uicdn.cf
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/1736960111/63b1afab53213/
+  ws-headers:
+    Host: sg4-v2ray.sshkit.org
+- name: 香港(yudou66.com 玉豆免费节点)vmess47
+  type: vmess
+  server: r001.baipiaoxd.com
+  port: '11451'
+  uuid: d57d3206-d398-449e-b637-19471a3943e4
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: ''
+- name: 美国(yudou66.com 玉豆免费节点)vmess48
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -666,18 +638,57 @@ proxies:
   ws-headers:
     Host: hk.sharecentre.online
   tls: true
-- name: 🇸🇬 SN 08vmess52
+- name: aliyun中转3vmess49
   type: vmess
-  server: 178.128.86.198
-  port: '80'
-  uuid: ed71c245-88af-484e-970c-29ac50637847
+  server: 198.41.208.200
+  port: '443'
+  uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /
+  ws-path: /share
   ws-headers:
-    Host: 178.128.86.198
+    Host: us.awsbest.com
+  tls: true
+- name: 波兰(yudou66.com 玉豆免费节点)vmess50
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcoreplnode
+  ws-headers:
+    Host: gcorepl.sylu.cyou
+  tls: true
+- name: 卢森堡(yudou66.com 玉豆免费节点)vmess51
+  type: vmess
+  server: 162.159.128.7
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: hk.sharecentre.online
+  tls: true
+- name: 台湾(yudou66.com 玉豆免费节点)vmess52
+  type: vmess
+  server: tw99-hinet.mynodes001.one
+  port: '5432'
+  uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
 - name: Relay 🇧🇷 Brazil 01vmess53
   type: vmess
   server: fd2cd9tyhu4w.b4s02m25.xyz
@@ -690,26 +701,52 @@ proxies:
   ws-path: /
   ws-headers:
     Host: fd2cd9tyhu4w.b4s02m25.xyz
-- name: Relay 🇸🇬 Singapore 03vmess54
+- name: 美国(yudou66.com 玉豆免费节点)vmess54
   type: vmess
-  server: 2mtx5mjn25kf.ulce4m0o.xyz
-  port: '11502'
-  uuid: 3243fd78-2fd8-3632-ab67-b7cd66d9632f
+  server: 172.67.199.34
+  port: '443'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
   alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
-  ws-path: /
+  network: ws
+  ws-path: /sshkit/Variu88/634dab7abadf1/
   ws-headers:
-    Host: 2mtx5mjn25kf.ulce4m0o.xyz
-- name: 日本aws1 电报yzcjd 更新日期0102trojan1
-  type: trojan
-  server: maple.letitbe.ink
+    Host: us-lb.sshkit.org
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess55
+  type: vmess
+  server: 172.67.199.34
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 美国(yudou66.com 玉豆免费节点)vmess56
+  type: vmess
+  server: 172.67.199.34
   port: '443'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)trojan1
+  type: trojan
+  server: u-s04.beef1917.com
+  port: '53034'
   udp: true
-  password: 655c372776
+  password: 311091d5-b96f-4235-a29b-cda4e86dd484
   skip-cert-verify: true
-  sni: maple.letitbe.ink
+  sni: niuniucloud.xyz
 - name: 日本aws2trojan2
   type: trojan
   server: macro.letitbe.ink
@@ -718,7 +755,15 @@ proxies:
   password: 9f61dcf6e1
   skip-cert-verify: true
   sni: macro.letitbe.ink
-- name: MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
+- name: 日本aws1 电报yzcjd 更新日期0102trojan3
+  type: trojan
+  server: maple.letitbe.ink
+  port: '443'
+  udp: true
+  password: 655c372776
+  skip-cert-verify: true
+  sni: maple.letitbe.ink
+- name: MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
   type: trojan
   server: 45.64.22.56
   port: '443'
@@ -726,29 +771,6 @@ proxies:
   password: '123456'
   skip-cert-verify: true
   sni: trojan-ctb-sg02.globalssh.xyz
-- name: 俄罗斯(yudou66.com 玉豆免费节点)trojan4
-  type: trojan
-  server: eu-east-ruo.openssl3.com
-  port: '443'
-  udp: true
-  password: 9KogHwaY7hVD
-  skip-cert-verify: true
-  sni: tcp
-- name: 🇷🇺 RU 04trojan5
-  type: trojan
-  server: 45.8.158.51
-  port: '443'
-  udp: true
-  password: 9KogHwaY7hVD
-  skip-cert-verify: true
-  sni: eu-east-ruo.openssl3.com
-- name: Relay 🇭🇰 Hong Kong 20ss1
-  server: p1.bxy-fun1.com
-  port: '11407'
-  method: chacha20-ietf-poly1305
-  cipher: chacha20-ietf-poly1305
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -756,132 +778,132 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - Relay 🇭🇰 Hong Kong 31vmess1
-  - SG 3vmess2
-  - JP 日本（YouTube-aweikeji）vmess3
-  - Relay 🇩🇪 Germany 06vmess4
-  - SG 7vmess5
-  - Singapore [SG 4] @ResistalProxyvmess6
-  - 法国(yudou66.com 玉豆免费节点)vmess7
-  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 台湾(yudou66.com 玉豆免费节点)vmess1
+  - aliyun中转2vmess2
+  - 日本(yudou66.com 玉豆免费节点)vmess3
+  - 亚美尼亚(yudou66.com 玉豆免费节点)vmess4
+  - 加拿大(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - 加拿大(yudou66.com 玉豆免费节点)vmess8
   - 香港(yudou66.com 玉豆免费节点)vmess9
-  - 新加坡(yudou66.com 玉豆免费节点)vmess10
-  - 澳大利亚(yudou66.com 玉豆免费节点)vmess11
-  - 香港(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - aliyun中转2vmess14
-  - SG 1vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 波兰(yudou66.com 玉豆免费节点)vmess17
-  - 新加坡(yudou66.com 玉豆免费节点)vmess18
-  - 美国(yudou66.com 玉豆免费节点)vmess19
-  - SG 2vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 美国(yudou66.com 玉豆免费节点)vmess22
-  - 法国(yudou66.com 玉豆免费节点)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - Netherlands [NL 4] @ResistalProxyvmess25
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 加拿大(yudou66.com 玉豆免费节点)vmess14
+  - 新加坡(yudou66.com 玉豆免费节点)vmess15
+  - 台湾(yudou66.com 玉豆免费节点)vmess16
+  - Singapore [SG 4] @ResistalProxyvmess17
+  - 德国(yudou66.com 玉豆免费节点)vmess18
+  - SG 3vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
+  - 新加坡(yudou66.com 玉豆免费节点)vmess21
+  - SG 2vmess22
+  - 日本(yudou66.com 玉豆免费节点)vmess23
+  - 新加坡(yudou66.com 玉豆免费节点)vmess24
+  - 波兰(yudou66.com 玉豆免费节点)vmess25
   - SG 5vmess26
-  - 🇺🇸 US 16vmess27
-  - 美国(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 🇮🇪 IL 01vmess30
-  - aliyun中转1vmess31
+  - 香港(yudou66.com 玉豆免费节点)vmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
+  - 新加坡(yudou66.com 玉豆免费节点)vmess29
+  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
   - 香港(yudou66.com 玉豆免费节点)vmess32
-  - 香港(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
   - 新加坡(yudou66.com 玉豆免费节点)vmess34
-  - 美国(yudou66.com 玉豆免费节点)vmess35
-  - 美国(yudou66.com 玉豆免费节点)vmess36
-  - 美国(yudou66.com 玉豆免费节点)vmess37
-  - 德国(yudou66.com 玉豆免费节点)vmess38
-  - 🇺🇸 US 01vmess39
-  - 美国(yudou66.com 玉豆免费节点)vmess40
-  - 美国(yudou66.com 玉豆免费节点)vmess41
-  - 美国(yudou66.com 玉豆免费节点)vmess42
-  - 美国(yudou66.com 玉豆免费节点)vmess43
-  - 美国(yudou66.com 玉豆免费节点)vmess44
-  - SG 8vmess45
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 香港(yudou66.com 玉豆免费节点)vmess36
+  - SG 1vmess37
+  - 新加坡(yudou66.com 玉豆免费节点)vmess38
+  - SG 7vmess39
+  - JP 日本（YouTube-aweikeji）vmess40
+  - 日本(yudou66.com 玉豆免费节点)vmess41
+  - 加拿大(yudou66.com 玉豆免费节点)vmess42
+  - 新加坡(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡(yudou66.com 玉豆免费节点)vmess44
+  - 美国(yudou66.com 玉豆免费节点)vmess45
   - SG 4vmess46
-  - 🇬🇧 UK 01vmess47
-  - aliyun中转3vmess48
-  - 🇫🇷 FR 03vmess49
-  - 香港(yudou66.com 玉豆免费节点)vmess50
-  - 美国(yudou66.com 玉豆免费节点)vmess51
-  - 🇸🇬 SN 08vmess52
+  - 香港(yudou66.com 玉豆免费节点)vmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - aliyun中转3vmess49
+  - 波兰(yudou66.com 玉豆免费节点)vmess50
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess51
+  - 台湾(yudou66.com 玉豆免费节点)vmess52
   - Relay 🇧🇷 Brazil 01vmess53
-  - Relay 🇸🇬 Singapore 03vmess54
-  - 日本aws1 电报yzcjd 更新日期0102trojan1
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 美国(yudou66.com 玉豆免费节点)vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess56
+  - 美国(yudou66.com 玉豆免费节点)trojan1
   - 日本aws2trojan2
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
-  - 俄罗斯(yudou66.com 玉豆免费节点)trojan4
-  - 🇷🇺 RU 04trojan5
-  - Relay 🇭🇰 Hong Kong 20ss1
+  - 日本aws1 电报yzcjd 更新日期0102trojan3
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - Relay 🇭🇰 Hong Kong 31vmess1
-  - SG 3vmess2
-  - JP 日本（YouTube-aweikeji）vmess3
-  - Relay 🇩🇪 Germany 06vmess4
-  - SG 7vmess5
-  - Singapore [SG 4] @ResistalProxyvmess6
-  - 法国(yudou66.com 玉豆免费节点)vmess7
-  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 台湾(yudou66.com 玉豆免费节点)vmess1
+  - aliyun中转2vmess2
+  - 日本(yudou66.com 玉豆免费节点)vmess3
+  - 亚美尼亚(yudou66.com 玉豆免费节点)vmess4
+  - 加拿大(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - 加拿大(yudou66.com 玉豆免费节点)vmess8
   - 香港(yudou66.com 玉豆免费节点)vmess9
-  - 新加坡(yudou66.com 玉豆免费节点)vmess10
-  - 澳大利亚(yudou66.com 玉豆免费节点)vmess11
-  - 香港(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - aliyun中转2vmess14
-  - SG 1vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 波兰(yudou66.com 玉豆免费节点)vmess17
-  - 新加坡(yudou66.com 玉豆免费节点)vmess18
-  - 美国(yudou66.com 玉豆免费节点)vmess19
-  - SG 2vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 美国(yudou66.com 玉豆免费节点)vmess22
-  - 法国(yudou66.com 玉豆免费节点)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - Netherlands [NL 4] @ResistalProxyvmess25
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 加拿大(yudou66.com 玉豆免费节点)vmess14
+  - 新加坡(yudou66.com 玉豆免费节点)vmess15
+  - 台湾(yudou66.com 玉豆免费节点)vmess16
+  - Singapore [SG 4] @ResistalProxyvmess17
+  - 德国(yudou66.com 玉豆免费节点)vmess18
+  - SG 3vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
+  - 新加坡(yudou66.com 玉豆免费节点)vmess21
+  - SG 2vmess22
+  - 日本(yudou66.com 玉豆免费节点)vmess23
+  - 新加坡(yudou66.com 玉豆免费节点)vmess24
+  - 波兰(yudou66.com 玉豆免费节点)vmess25
   - SG 5vmess26
-  - 🇺🇸 US 16vmess27
-  - 美国(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 🇮🇪 IL 01vmess30
-  - aliyun中转1vmess31
+  - 香港(yudou66.com 玉豆免费节点)vmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
+  - 新加坡(yudou66.com 玉豆免费节点)vmess29
+  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
   - 香港(yudou66.com 玉豆免费节点)vmess32
-  - 香港(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
   - 新加坡(yudou66.com 玉豆免费节点)vmess34
-  - 美国(yudou66.com 玉豆免费节点)vmess35
-  - 美国(yudou66.com 玉豆免费节点)vmess36
-  - 美国(yudou66.com 玉豆免费节点)vmess37
-  - 德国(yudou66.com 玉豆免费节点)vmess38
-  - 🇺🇸 US 01vmess39
-  - 美国(yudou66.com 玉豆免费节点)vmess40
-  - 美国(yudou66.com 玉豆免费节点)vmess41
-  - 美国(yudou66.com 玉豆免费节点)vmess42
-  - 美国(yudou66.com 玉豆免费节点)vmess43
-  - 美国(yudou66.com 玉豆免费节点)vmess44
-  - SG 8vmess45
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 香港(yudou66.com 玉豆免费节点)vmess36
+  - SG 1vmess37
+  - 新加坡(yudou66.com 玉豆免费节点)vmess38
+  - SG 7vmess39
+  - JP 日本（YouTube-aweikeji）vmess40
+  - 日本(yudou66.com 玉豆免费节点)vmess41
+  - 加拿大(yudou66.com 玉豆免费节点)vmess42
+  - 新加坡(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡(yudou66.com 玉豆免费节点)vmess44
+  - 美国(yudou66.com 玉豆免费节点)vmess45
   - SG 4vmess46
-  - 🇬🇧 UK 01vmess47
-  - aliyun中转3vmess48
-  - 🇫🇷 FR 03vmess49
-  - 香港(yudou66.com 玉豆免费节点)vmess50
-  - 美国(yudou66.com 玉豆免费节点)vmess51
-  - 🇸🇬 SN 08vmess52
+  - 香港(yudou66.com 玉豆免费节点)vmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - aliyun中转3vmess49
+  - 波兰(yudou66.com 玉豆免费节点)vmess50
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess51
+  - 台湾(yudou66.com 玉豆免费节点)vmess52
   - Relay 🇧🇷 Brazil 01vmess53
-  - Relay 🇸🇬 Singapore 03vmess54
-  - 日本aws1 电报yzcjd 更新日期0102trojan1
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 美国(yudou66.com 玉豆免费节点)vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess56
+  - 美国(yudou66.com 玉豆免费节点)trojan1
   - 日本aws2trojan2
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
-  - 俄罗斯(yudou66.com 玉豆免费节点)trojan4
-  - 🇷🇺 RU 04trojan5
-  - Relay 🇭🇰 Hong Kong 20ss1
+  - 日本aws1 电报yzcjd 更新日期0102trojan3
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -894,66 +916,66 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - Relay 🇭🇰 Hong Kong 31vmess1
-  - SG 3vmess2
-  - JP 日本（YouTube-aweikeji）vmess3
-  - Relay 🇩🇪 Germany 06vmess4
-  - SG 7vmess5
-  - Singapore [SG 4] @ResistalProxyvmess6
-  - 法国(yudou66.com 玉豆免费节点)vmess7
-  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 台湾(yudou66.com 玉豆免费节点)vmess1
+  - aliyun中转2vmess2
+  - 日本(yudou66.com 玉豆免费节点)vmess3
+  - 亚美尼亚(yudou66.com 玉豆免费节点)vmess4
+  - 加拿大(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - 加拿大(yudou66.com 玉豆免费节点)vmess8
   - 香港(yudou66.com 玉豆免费节点)vmess9
-  - 新加坡(yudou66.com 玉豆免费节点)vmess10
-  - 澳大利亚(yudou66.com 玉豆免费节点)vmess11
-  - 香港(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - aliyun中转2vmess14
-  - SG 1vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 波兰(yudou66.com 玉豆免费节点)vmess17
-  - 新加坡(yudou66.com 玉豆免费节点)vmess18
-  - 美国(yudou66.com 玉豆免费节点)vmess19
-  - SG 2vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 美国(yudou66.com 玉豆免费节点)vmess22
-  - 法国(yudou66.com 玉豆免费节点)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - Netherlands [NL 4] @ResistalProxyvmess25
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 加拿大(yudou66.com 玉豆免费节点)vmess14
+  - 新加坡(yudou66.com 玉豆免费节点)vmess15
+  - 台湾(yudou66.com 玉豆免费节点)vmess16
+  - Singapore [SG 4] @ResistalProxyvmess17
+  - 德国(yudou66.com 玉豆免费节点)vmess18
+  - SG 3vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
+  - 新加坡(yudou66.com 玉豆免费节点)vmess21
+  - SG 2vmess22
+  - 日本(yudou66.com 玉豆免费节点)vmess23
+  - 新加坡(yudou66.com 玉豆免费节点)vmess24
+  - 波兰(yudou66.com 玉豆免费节点)vmess25
   - SG 5vmess26
-  - 🇺🇸 US 16vmess27
-  - 美国(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 🇮🇪 IL 01vmess30
-  - aliyun中转1vmess31
+  - 香港(yudou66.com 玉豆免费节点)vmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
+  - 新加坡(yudou66.com 玉豆免费节点)vmess29
+  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
   - 香港(yudou66.com 玉豆免费节点)vmess32
-  - 香港(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
   - 新加坡(yudou66.com 玉豆免费节点)vmess34
-  - 美国(yudou66.com 玉豆免费节点)vmess35
-  - 美国(yudou66.com 玉豆免费节点)vmess36
-  - 美国(yudou66.com 玉豆免费节点)vmess37
-  - 德国(yudou66.com 玉豆免费节点)vmess38
-  - 🇺🇸 US 01vmess39
-  - 美国(yudou66.com 玉豆免费节点)vmess40
-  - 美国(yudou66.com 玉豆免费节点)vmess41
-  - 美国(yudou66.com 玉豆免费节点)vmess42
-  - 美国(yudou66.com 玉豆免费节点)vmess43
-  - 美国(yudou66.com 玉豆免费节点)vmess44
-  - SG 8vmess45
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 香港(yudou66.com 玉豆免费节点)vmess36
+  - SG 1vmess37
+  - 新加坡(yudou66.com 玉豆免费节点)vmess38
+  - SG 7vmess39
+  - JP 日本（YouTube-aweikeji）vmess40
+  - 日本(yudou66.com 玉豆免费节点)vmess41
+  - 加拿大(yudou66.com 玉豆免费节点)vmess42
+  - 新加坡(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡(yudou66.com 玉豆免费节点)vmess44
+  - 美国(yudou66.com 玉豆免费节点)vmess45
   - SG 4vmess46
-  - 🇬🇧 UK 01vmess47
-  - aliyun中转3vmess48
-  - 🇫🇷 FR 03vmess49
-  - 香港(yudou66.com 玉豆免费节点)vmess50
-  - 美国(yudou66.com 玉豆免费节点)vmess51
-  - 🇸🇬 SN 08vmess52
+  - 香港(yudou66.com 玉豆免费节点)vmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - aliyun中转3vmess49
+  - 波兰(yudou66.com 玉豆免费节点)vmess50
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess51
+  - 台湾(yudou66.com 玉豆免费节点)vmess52
   - Relay 🇧🇷 Brazil 01vmess53
-  - Relay 🇸🇬 Singapore 03vmess54
-  - 日本aws1 电报yzcjd 更新日期0102trojan1
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 美国(yudou66.com 玉豆免费节点)vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess56
+  - 美国(yudou66.com 玉豆免费节点)trojan1
   - 日本aws2trojan2
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
-  - 俄罗斯(yudou66.com 玉豆免费节点)trojan4
-  - 🇷🇺 RU 04trojan5
-  - Relay 🇭🇰 Hong Kong 20ss1
+  - 日本aws1 电报yzcjd 更新日期0102trojan3
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -965,197 +987,197 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - Relay 🇭🇰 Hong Kong 31vmess1
-  - SG 3vmess2
-  - JP 日本（YouTube-aweikeji）vmess3
-  - Relay 🇩🇪 Germany 06vmess4
-  - SG 7vmess5
-  - Singapore [SG 4] @ResistalProxyvmess6
-  - 法国(yudou66.com 玉豆免费节点)vmess7
-  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 台湾(yudou66.com 玉豆免费节点)vmess1
+  - aliyun中转2vmess2
+  - 日本(yudou66.com 玉豆免费节点)vmess3
+  - 亚美尼亚(yudou66.com 玉豆免费节点)vmess4
+  - 加拿大(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - 加拿大(yudou66.com 玉豆免费节点)vmess8
   - 香港(yudou66.com 玉豆免费节点)vmess9
-  - 新加坡(yudou66.com 玉豆免费节点)vmess10
-  - 澳大利亚(yudou66.com 玉豆免费节点)vmess11
-  - 香港(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - aliyun中转2vmess14
-  - SG 1vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 波兰(yudou66.com 玉豆免费节点)vmess17
-  - 新加坡(yudou66.com 玉豆免费节点)vmess18
-  - 美国(yudou66.com 玉豆免费节点)vmess19
-  - SG 2vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 美国(yudou66.com 玉豆免费节点)vmess22
-  - 法国(yudou66.com 玉豆免费节点)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - Netherlands [NL 4] @ResistalProxyvmess25
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 加拿大(yudou66.com 玉豆免费节点)vmess14
+  - 新加坡(yudou66.com 玉豆免费节点)vmess15
+  - 台湾(yudou66.com 玉豆免费节点)vmess16
+  - Singapore [SG 4] @ResistalProxyvmess17
+  - 德国(yudou66.com 玉豆免费节点)vmess18
+  - SG 3vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
+  - 新加坡(yudou66.com 玉豆免费节点)vmess21
+  - SG 2vmess22
+  - 日本(yudou66.com 玉豆免费节点)vmess23
+  - 新加坡(yudou66.com 玉豆免费节点)vmess24
+  - 波兰(yudou66.com 玉豆免费节点)vmess25
   - SG 5vmess26
-  - 🇺🇸 US 16vmess27
-  - 美国(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 🇮🇪 IL 01vmess30
-  - aliyun中转1vmess31
+  - 香港(yudou66.com 玉豆免费节点)vmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
+  - 新加坡(yudou66.com 玉豆免费节点)vmess29
+  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
   - 香港(yudou66.com 玉豆免费节点)vmess32
-  - 香港(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
   - 新加坡(yudou66.com 玉豆免费节点)vmess34
-  - 美国(yudou66.com 玉豆免费节点)vmess35
-  - 美国(yudou66.com 玉豆免费节点)vmess36
-  - 美国(yudou66.com 玉豆免费节点)vmess37
-  - 德国(yudou66.com 玉豆免费节点)vmess38
-  - 🇺🇸 US 01vmess39
-  - 美国(yudou66.com 玉豆免费节点)vmess40
-  - 美国(yudou66.com 玉豆免费节点)vmess41
-  - 美国(yudou66.com 玉豆免费节点)vmess42
-  - 美国(yudou66.com 玉豆免费节点)vmess43
-  - 美国(yudou66.com 玉豆免费节点)vmess44
-  - SG 8vmess45
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 香港(yudou66.com 玉豆免费节点)vmess36
+  - SG 1vmess37
+  - 新加坡(yudou66.com 玉豆免费节点)vmess38
+  - SG 7vmess39
+  - JP 日本（YouTube-aweikeji）vmess40
+  - 日本(yudou66.com 玉豆免费节点)vmess41
+  - 加拿大(yudou66.com 玉豆免费节点)vmess42
+  - 新加坡(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡(yudou66.com 玉豆免费节点)vmess44
+  - 美国(yudou66.com 玉豆免费节点)vmess45
   - SG 4vmess46
-  - 🇬🇧 UK 01vmess47
-  - aliyun中转3vmess48
-  - 🇫🇷 FR 03vmess49
-  - 香港(yudou66.com 玉豆免费节点)vmess50
-  - 美国(yudou66.com 玉豆免费节点)vmess51
-  - 🇸🇬 SN 08vmess52
+  - 香港(yudou66.com 玉豆免费节点)vmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - aliyun中转3vmess49
+  - 波兰(yudou66.com 玉豆免费节点)vmess50
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess51
+  - 台湾(yudou66.com 玉豆免费节点)vmess52
   - Relay 🇧🇷 Brazil 01vmess53
-  - Relay 🇸🇬 Singapore 03vmess54
-  - 日本aws1 电报yzcjd 更新日期0102trojan1
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 美国(yudou66.com 玉豆免费节点)vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess56
+  - 美国(yudou66.com 玉豆免费节点)trojan1
   - 日本aws2trojan2
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
-  - 俄罗斯(yudou66.com 玉豆免费节点)trojan4
-  - 🇷🇺 RU 04trojan5
-  - Relay 🇭🇰 Hong Kong 20ss1
+  - 日本aws1 电报yzcjd 更新日期0102trojan3
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - Relay 🇭🇰 Hong Kong 31vmess1
-  - SG 3vmess2
-  - JP 日本（YouTube-aweikeji）vmess3
-  - Relay 🇩🇪 Germany 06vmess4
-  - SG 7vmess5
-  - Singapore [SG 4] @ResistalProxyvmess6
-  - 法国(yudou66.com 玉豆免费节点)vmess7
-  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 台湾(yudou66.com 玉豆免费节点)vmess1
+  - aliyun中转2vmess2
+  - 日本(yudou66.com 玉豆免费节点)vmess3
+  - 亚美尼亚(yudou66.com 玉豆免费节点)vmess4
+  - 加拿大(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - 加拿大(yudou66.com 玉豆免费节点)vmess8
   - 香港(yudou66.com 玉豆免费节点)vmess9
-  - 新加坡(yudou66.com 玉豆免费节点)vmess10
-  - 澳大利亚(yudou66.com 玉豆免费节点)vmess11
-  - 香港(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - aliyun中转2vmess14
-  - SG 1vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 波兰(yudou66.com 玉豆免费节点)vmess17
-  - 新加坡(yudou66.com 玉豆免费节点)vmess18
-  - 美国(yudou66.com 玉豆免费节点)vmess19
-  - SG 2vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 美国(yudou66.com 玉豆免费节点)vmess22
-  - 法国(yudou66.com 玉豆免费节点)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - Netherlands [NL 4] @ResistalProxyvmess25
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 加拿大(yudou66.com 玉豆免费节点)vmess14
+  - 新加坡(yudou66.com 玉豆免费节点)vmess15
+  - 台湾(yudou66.com 玉豆免费节点)vmess16
+  - Singapore [SG 4] @ResistalProxyvmess17
+  - 德国(yudou66.com 玉豆免费节点)vmess18
+  - SG 3vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
+  - 新加坡(yudou66.com 玉豆免费节点)vmess21
+  - SG 2vmess22
+  - 日本(yudou66.com 玉豆免费节点)vmess23
+  - 新加坡(yudou66.com 玉豆免费节点)vmess24
+  - 波兰(yudou66.com 玉豆免费节点)vmess25
   - SG 5vmess26
-  - 🇺🇸 US 16vmess27
-  - 美国(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 🇮🇪 IL 01vmess30
-  - aliyun中转1vmess31
+  - 香港(yudou66.com 玉豆免费节点)vmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
+  - 新加坡(yudou66.com 玉豆免费节点)vmess29
+  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
   - 香港(yudou66.com 玉豆免费节点)vmess32
-  - 香港(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
   - 新加坡(yudou66.com 玉豆免费节点)vmess34
-  - 美国(yudou66.com 玉豆免费节点)vmess35
-  - 美国(yudou66.com 玉豆免费节点)vmess36
-  - 美国(yudou66.com 玉豆免费节点)vmess37
-  - 德国(yudou66.com 玉豆免费节点)vmess38
-  - 🇺🇸 US 01vmess39
-  - 美国(yudou66.com 玉豆免费节点)vmess40
-  - 美国(yudou66.com 玉豆免费节点)vmess41
-  - 美国(yudou66.com 玉豆免费节点)vmess42
-  - 美国(yudou66.com 玉豆免费节点)vmess43
-  - 美国(yudou66.com 玉豆免费节点)vmess44
-  - SG 8vmess45
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 香港(yudou66.com 玉豆免费节点)vmess36
+  - SG 1vmess37
+  - 新加坡(yudou66.com 玉豆免费节点)vmess38
+  - SG 7vmess39
+  - JP 日本（YouTube-aweikeji）vmess40
+  - 日本(yudou66.com 玉豆免费节点)vmess41
+  - 加拿大(yudou66.com 玉豆免费节点)vmess42
+  - 新加坡(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡(yudou66.com 玉豆免费节点)vmess44
+  - 美国(yudou66.com 玉豆免费节点)vmess45
   - SG 4vmess46
-  - 🇬🇧 UK 01vmess47
-  - aliyun中转3vmess48
-  - 🇫🇷 FR 03vmess49
-  - 香港(yudou66.com 玉豆免费节点)vmess50
-  - 美国(yudou66.com 玉豆免费节点)vmess51
-  - 🇸🇬 SN 08vmess52
+  - 香港(yudou66.com 玉豆免费节点)vmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - aliyun中转3vmess49
+  - 波兰(yudou66.com 玉豆免费节点)vmess50
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess51
+  - 台湾(yudou66.com 玉豆免费节点)vmess52
   - Relay 🇧🇷 Brazil 01vmess53
-  - Relay 🇸🇬 Singapore 03vmess54
-  - 日本aws1 电报yzcjd 更新日期0102trojan1
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 美国(yudou66.com 玉豆免费节点)vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess56
+  - 美国(yudou66.com 玉豆免费节点)trojan1
   - 日本aws2trojan2
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
-  - 俄罗斯(yudou66.com 玉豆免费节点)trojan4
-  - 🇷🇺 RU 04trojan5
-  - Relay 🇭🇰 Hong Kong 20ss1
+  - 日本aws1 电报yzcjd 更新日期0102trojan3
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - Relay 🇭🇰 Hong Kong 31vmess1
-  - SG 3vmess2
-  - JP 日本（YouTube-aweikeji）vmess3
-  - Relay 🇩🇪 Germany 06vmess4
-  - SG 7vmess5
-  - Singapore [SG 4] @ResistalProxyvmess6
-  - 法国(yudou66.com 玉豆免费节点)vmess7
-  - 美国(yudou66.com 玉豆免费节点)vmess8
+  - 台湾(yudou66.com 玉豆免费节点)vmess1
+  - aliyun中转2vmess2
+  - 日本(yudou66.com 玉豆免费节点)vmess3
+  - 亚美尼亚(yudou66.com 玉豆免费节点)vmess4
+  - 加拿大(yudou66.com 玉豆免费节点)vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess6
+  - 美国(yudou66.com 玉豆免费节点)vmess7
+  - 加拿大(yudou66.com 玉豆免费节点)vmess8
   - 香港(yudou66.com 玉豆免费节点)vmess9
-  - 新加坡(yudou66.com 玉豆免费节点)vmess10
-  - 澳大利亚(yudou66.com 玉豆免费节点)vmess11
-  - 香港(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - aliyun中转2vmess14
-  - SG 1vmess15
-  - 美国(yudou66.com 玉豆免费节点)vmess16
-  - 波兰(yudou66.com 玉豆免费节点)vmess17
-  - 新加坡(yudou66.com 玉豆免费节点)vmess18
-  - 美国(yudou66.com 玉豆免费节点)vmess19
-  - SG 2vmess20
-  - 美国(yudou66.com 玉豆免费节点)vmess21
-  - 美国(yudou66.com 玉豆免费节点)vmess22
-  - 法国(yudou66.com 玉豆免费节点)vmess23
-  - 美国(yudou66.com 玉豆免费节点)vmess24
-  - Netherlands [NL 4] @ResistalProxyvmess25
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 美国(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 加拿大(yudou66.com 玉豆免费节点)vmess14
+  - 新加坡(yudou66.com 玉豆免费节点)vmess15
+  - 台湾(yudou66.com 玉豆免费节点)vmess16
+  - Singapore [SG 4] @ResistalProxyvmess17
+  - 德国(yudou66.com 玉豆免费节点)vmess18
+  - SG 3vmess19
+  - 美国(yudou66.com 玉豆免费节点)vmess20
+  - 新加坡(yudou66.com 玉豆免费节点)vmess21
+  - SG 2vmess22
+  - 日本(yudou66.com 玉豆免费节点)vmess23
+  - 新加坡(yudou66.com 玉豆免费节点)vmess24
+  - 波兰(yudou66.com 玉豆免费节点)vmess25
   - SG 5vmess26
-  - 🇺🇸 US 16vmess27
-  - 美国(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 🇮🇪 IL 01vmess30
-  - aliyun中转1vmess31
+  - 香港(yudou66.com 玉豆免费节点)vmess27
+  - 香港(yudou66.com 玉豆免费节点)vmess28
+  - 新加坡(yudou66.com 玉豆免费节点)vmess29
+  - 新加坡(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
   - 香港(yudou66.com 玉豆免费节点)vmess32
-  - 香港(yudou66.com 玉豆免费节点)vmess33
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
   - 新加坡(yudou66.com 玉豆免费节点)vmess34
-  - 美国(yudou66.com 玉豆免费节点)vmess35
-  - 美国(yudou66.com 玉豆免费节点)vmess36
-  - 美国(yudou66.com 玉豆免费节点)vmess37
-  - 德国(yudou66.com 玉豆免费节点)vmess38
-  - 🇺🇸 US 01vmess39
-  - 美国(yudou66.com 玉豆免费节点)vmess40
-  - 美国(yudou66.com 玉豆免费节点)vmess41
-  - 美国(yudou66.com 玉豆免费节点)vmess42
-  - 美国(yudou66.com 玉豆免费节点)vmess43
-  - 美国(yudou66.com 玉豆免费节点)vmess44
-  - SG 8vmess45
+  - 香港(yudou66.com 玉豆免费节点)vmess35
+  - 香港(yudou66.com 玉豆免费节点)vmess36
+  - SG 1vmess37
+  - 新加坡(yudou66.com 玉豆免费节点)vmess38
+  - SG 7vmess39
+  - JP 日本（YouTube-aweikeji）vmess40
+  - 日本(yudou66.com 玉豆免费节点)vmess41
+  - 加拿大(yudou66.com 玉豆免费节点)vmess42
+  - 新加坡(yudou66.com 玉豆免费节点)vmess43
+  - 新加坡(yudou66.com 玉豆免费节点)vmess44
+  - 美国(yudou66.com 玉豆免费节点)vmess45
   - SG 4vmess46
-  - 🇬🇧 UK 01vmess47
-  - aliyun中转3vmess48
-  - 🇫🇷 FR 03vmess49
-  - 香港(yudou66.com 玉豆免费节点)vmess50
-  - 美国(yudou66.com 玉豆免费节点)vmess51
-  - 🇸🇬 SN 08vmess52
+  - 香港(yudou66.com 玉豆免费节点)vmess47
+  - 美国(yudou66.com 玉豆免费节点)vmess48
+  - aliyun中转3vmess49
+  - 波兰(yudou66.com 玉豆免费节点)vmess50
+  - 卢森堡(yudou66.com 玉豆免费节点)vmess51
+  - 台湾(yudou66.com 玉豆免费节点)vmess52
   - Relay 🇧🇷 Brazil 01vmess53
-  - Relay 🇸🇬 Singapore 03vmess54
-  - 日本aws1 电报yzcjd 更新日期0102trojan1
+  - 美国(yudou66.com 玉豆免费节点)vmess54
+  - 美国(yudou66.com 玉豆免费节点)vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess56
+  - 美国(yudou66.com 玉豆免费节点)trojan1
   - 日本aws2trojan2
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
-  - 俄罗斯(yudou66.com 玉豆免费节点)trojan4
-  - 🇷🇺 RU 04trojan5
-  - Relay 🇭🇰 Hong Kong 20ss1
+  - 日本aws1 电报yzcjd 更新日期0102trojan3
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
