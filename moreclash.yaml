@@ -26,30 +26,31 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 美国(yudou66.com 玉豆免费节点)vmess1
+- name: 香港-北北共享_12vmess1
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: hk-gcore.sharecentre.online
+  tls: true
+- name: 日本(yudou66.com 玉豆免费节点)vmess2
   type: vmess
   server: 172.67.199.34
-  port: '80'
-  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shares
-  ws-headers:
-    Host: la.awsbest.com
-- name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDNvmess2
-  type: vmess
-  server: 190.93.245.2
   port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /ECTCJ0DF
+  ws-path: /Falling42gcssjpnode
   ws-headers:
-    Host: lg1.trump2023.us
+    Host: gcssjp.sylu.cyou
   tls: true
 - name: 美国(yudou66.com 玉豆免费节点)vmess3
   type: vmess
@@ -64,49 +65,23 @@ proxies:
   ws-headers:
     Host: v47.toddns.tk
   tls: true
-- name: youtube@资源分享师_伯利兹_139vmess4
+- name: 美国(yudou66.com 玉豆免费节点)vmess4
   type: vmess
-  server: 203.30.191.191
+  server: 141.193.213.20
   port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /ECTCJ0DF
+  ws-path: /IYKLD53M
   ws-headers:
-    Host: lg1.trump2023.us
+    Host: opfr1.v2rayfree1.xyz
   tls: true
-- name: YouTube简迷离|广港BGP_105vmess5
+- name: 美国(yudou66.com 玉豆免费节点)vmess5
   type: vmess
-  server: SHOPIFY.COM
-  port: '8443'
-  uuid: c1ac3615-88df-4881-a62c-98532c76595d
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 3.82a.xyz
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess6
-  type: vmess
-  server: 203.30.189.189
+  server: 172.67.199.34
   port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess7
-  type: vmess
-  server: v47a.toddns.tk
-  port: '80'
   uuid: a25881f3-967f-3265-bc7f-9e66857b016b
   alterId: '0'
   cipher: auto
@@ -115,7 +90,46 @@ proxies:
   ws-path: /v47-unlimitndxd
   ws-headers:
     Host: v47a.toddns.tk
-- name: 波兰(yudou66.com 玉豆免费节点)vmess8
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess6
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shared
+  ws-headers:
+    Host: lv.awsbest.com
+  tls: true
+- name: aliyun中转2vmess7
+  type: vmess
+  server: 39.103.165.178
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: ' 美国CloudFlare公司CDN节点 23vmess8'
+  type: vmess
+  server: juzi3.82a.xyz
+  port: '443'
+  uuid: 3d6bb1ca-0ec5-4c7c-a54b-50c72aadb8a0
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: ''
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 波兰(yudou66.com 玉豆免费节点)vmess9
   type: vmess
   server: 172.67.199.34
   port: '443'
@@ -128,7 +142,7 @@ proxies:
   ws-headers:
     Host: gcspl.sylu.cyou
   tls: true
-- name: 香港(yudou66.com 玉豆免费节点)vmess9
+- name: 香港(yudou66.com 玉豆免费节点)vmess10
   type: vmess
   server: 172.67.199.34
   port: '443'
@@ -141,45 +155,20 @@ proxies:
   ws-headers:
     Host: gcorehk.sylu.cyou
   tls: true
-- name: aliyun中转2vmess10
-  type: vmess
-  server: 39.103.165.178
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: ' 丹麦  4vmess11'
-  type: vmess
-  server: 185.162.228.229
-  port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5QNROSRV
-  ws-headers:
-    Host: oplg1.zhujicn2.com
-  tls: true
-- name: 日本(yudou66.com 玉豆免费节点)vmess12
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess11
   type: vmess
   server: 172.67.199.34
   port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /Falling42gcssjpnode
+  ws-path: /sshkit/1350195536/63a625eb069d5/
   ws-headers:
-    Host: gcssjp.sylu.cyou
+    Host: sg2-v2ray.sshkit.org
   tls: true
-- name: 新加坡(yudou66.com 玉豆免费节点)vmess13
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess12
   type: vmess
   server: 172.67.199.34
   port: '443'
@@ -192,122 +181,84 @@ proxies:
   ws-headers:
     Host: gcoresgg.sylu.cyou
   tls: true
-- name: YouTube简迷离|广港BGP_91vmess14
+- name: 美国(yudou66.com 玉豆免费节点)vmess13
   type: vmess
-  server: cf-lt.sharecentre.online
+  server: 203.30.189.189
   port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /shirker
+  ws-path: /ECTCJ0DF
   ws-headers:
-    Host: lu.sharecentre.online
+    Host: lg1.trump2023.us
   tls: true
-- name: 伯利兹-北北共享_5vmess15
+- name: 法国(yudou66.com 玉豆免费节点)vmess14
   type: vmess
-  server: 203.30.190.191
+  server: 172.67.199.34
   port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /5QNROSRV
+  ws-path: /9JZFDTKE
   ws-headers:
-    Host: oplg1.zhujicn2.com
+    Host: fr1.trump2023.org
   tls: true
-- name: YouTube简迷离|广港BGP_135vmess16
+- name: 德国(yudou66.com 玉豆免费节点)vmess15
   type: vmess
-  server: 203.30.188.189
+  server: 172.67.199.34
   port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 3f52e850-b697-4f61-c82c-6d1ca0e6d1b1
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /5QNROSRV
+  ws-path: /myblog
   ws-headers:
-    Host: oplg1.zhujicn2.com
+    Host: 51vfly1.win
   tls: true
-- name: 波兰-北北共享_1vmess17
+- name: 美国(yudou66.com 玉豆免费节点)vmess16
   type: vmess
-  server: gcspl.sylu.cyou
+  server: 172.67.199.34
   port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /Falling42gcsplnode
+  ws-path: /IYKLD53M
   ws-headers:
-    Host: gcspl.sylu.cyou
+    Host: opfr1.v2rayfree1.xyz
   tls: true
-- name: 美国-北北共享_115vmess18
+- name: 美国(yudou66.com 玉豆免费节点)vmess17
   type: vmess
-  server: uicdn.cf
+  server: v47a.toddns.tk
   port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-path: /v47-unlimitndxd
   ws-headers:
-    Host: us-lb.sshkit.org
-- name: 香港-北北共享_12vmess19
+    Host: v47a.toddns.tk
+- name: 澳大利亚(yudou66.com 玉豆免费节点)vmess18
   type: vmess
-  server: cf-lt.sharecentre.online
+  server: 203.30.191.193
   port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /shirker
+  ws-path: /A2DJOPFT
   ws-headers:
-    Host: hk-gcore.sharecentre.online
+    Host: lg10.cfcdn1.xyz
   tls: true
-- name: 美国-北北共享_117vmess20
-  type: vmess
-  server: 172.67.190.145
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: us-171-78.shoptunnel.live
-  tls: true
-- name: ' 美国CloudFlare节点 6vmess21'
-  type: vmess
-  server: get.tech
-  port: '80'
-  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shared
-  ws-headers:
-    Host: lv.awsbest.com
-- name: 美国(yudou66.com 玉豆免费节点)vmess22
-  type: vmess
-  server: 162.159.135.42
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: lu.sharecentre.online
-  tls: true
-- name: SG 新加坡(youtube阿伟科技)vmess23
+- name: 香港(yudou66.com 玉豆免费节点)vmess19
   type: vmess
   server: 172.67.199.34
   port: '443'
@@ -316,22 +267,74 @@ proxies:
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /Falling42gcssgnode
+  ws-path: /Falling42gcsshknode
   ws-headers:
-    Host: gcssg.sylu.cyou
+    Host: gcsshk.sylu.cyou
   tls: true
-- name: SG 4vmess24
+- name: YouTube简迷离|广港BGP_105vmess20
   type: vmess
-  server: uicdn.cf
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  server: SHOPIFY.COM
+  port: '8443'
+  uuid: c1ac3615-88df-4881-a62c-98532c76595d
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/1736960111/63b1afab53213/
+  ws-path: /
   ws-headers:
-    Host: sg4-v2ray.sshkit.org
+    Host: 3.82a.xyz
+  tls: true
+- name: 加拿大(yudou66.com 玉豆免费节点)vmess21
+  type: vmess
+  server: 23.227.38.39
+  port: '443'
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /IYKLD53M
+  ws-headers:
+    Host: opfr1.v2rayfree1.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess22
+  type: vmess
+  server: 172.67.199.34
+  port: '80'
+  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shares
+  ws-headers:
+    Host: la.awsbest.com
+- name: 香港(yudou66.com 玉豆免费节点)vmess23
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcorehkknode
+  ws-headers:
+    Host: gcorehkk.sylu.cyou
+  tls: true
+- name: YouTube简迷离|广港BGP_91vmess24
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: lu.sharecentre.online
+  tls: true
 - name: 美国(yudou66.com 玉豆免费节点)vmess25
   type: vmess
   server: 172.67.199.34
@@ -358,36 +361,10 @@ proxies:
   ws-headers:
     Host: xjp4h.mayaa.ml
   tls: true
-- name: 新加坡(yudou66.com 玉豆免费节点)vmess27
+- name: 美国(yudou66.com 玉豆免费节点)vmess27
   type: vmess
   server: 172.67.199.34
-  port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Falling42gcsssgnode
-  ws-headers:
-    Host: gcsssg.sylu.cyou
-  tls: true
-- name: 香港(yudou66.com 玉豆免费节点)vmess28
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Falling42gcorehkknode
-  ws-headers:
-    Host: gcorehkk.sylu.cyou
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess29
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
+  port: '80'
   uuid: 6fea1649-425b-4092-bf53-29792152c925
   alterId: '0'
   cipher: auto
@@ -396,34 +373,19 @@ proxies:
   ws-path: /sshkit/fdfadsfa/63848bfe228fd/
   ws-headers:
     Host: us-lb.sshkit.org
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess30
+- name: 美国-北北共享_115vmess28
   type: vmess
-  server: 172.67.199.34
-  port: '443'
+  server: uicdn.cf
+  port: '80'
   uuid: 6fea1649-425b-4092-bf53-29792152c925
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
   ws-headers:
     Host: us-lb.sshkit.org
-  tls: true
-- name: ' 美国CloudFlare公司CDN节点 23vmess31'
-  type: vmess
-  server: juzi3.82a.xyz
-  port: '443'
-  uuid: 3d6bb1ca-0ec5-4c7c-a54b-50c72aadb8a0
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: ''
-  ws-headers:
-    Host: ''
-  tls: true
-- name: ' 美国CloudFlare节点 35vmess32'
+- name: ' 美国CloudFlare节点 35vmess29'
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -436,7 +398,46 @@ proxies:
   ws-headers:
     Host: hk.sharecentre.online
   tls: true
-- name: 波兰(yudou66.com 玉豆免费节点)vmess33
+- name: 波兰(yudou66.com 玉豆免费节点)vmess30
+  type: vmess
+  server: gcspl.sylu.cyou
+  port: '443'
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /Falling42gcsplnode
+  ws-headers:
+    Host: gcspl.sylu.cyou
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess31
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+  tls: true
+- name: 美国-北北共享_117vmess32
+  type: vmess
+  server: 172.67.190.145
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: us-171-78.shoptunnel.live
+  tls: true
+- name: 新加坡(yudou66.com 玉豆免费节点)vmess33
   type: vmess
   server: 172.67.199.34
   port: '443'
@@ -445,48 +446,27 @@ proxies:
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /Falling42gcoreplnode
+  ws-path: /Falling42gcsssgnode
   ws-headers:
-    Host: gcorepl.sylu.cyou
+    Host: gcsssg.sylu.cyou
   tls: true
-- name: 香港(yudou66.com 玉豆免费节点)vmess34
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /Falling42gcsshknode
-  ws-headers:
-    Host: gcsshk.sylu.cyou
-  tls: true
-- name: 北北共享_日本_25_2trojan1
+- name: 韩国(yudou66.com 玉豆免费节点)trojan1
   type: trojan
-  server: 20-194-194-133.ipv4.rush.ml
+  server: 20-39-198-83.ipv4.rush.ml
   port: '8443'
   udp: true
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   skip-cert-verify: true
-  sni: 20-194-194-133.ipv4.rush.ml
-- name: 北北共享_瑞士_16_2trojan2
+  sni: 20-39-198-83.ipv4.rush.ml
+- name: 美国(yudou66.com 玉豆免费节点)trojan2
   type: trojan
-  server: 51-103-208-195.ipv4.rush.ml
+  server: 20-255-57-225.ipv4.rush.ml
   port: '8443'
   udp: true
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   skip-cert-verify: true
-  sni: 51-103-208-195.ipv4.rush.ml
-- name: 北北共享_新加坡_72_2trojan3
-  type: trojan
-  server: 43-156-11-123.ipv4.rush.ml
-  port: '8443'
-  udp: true
-  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-  skip-cert-verify: true
-  sni: 43-156-11-123.ipv4.rush.ml
-- name: MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
+  sni: tcp
+- name: MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
   type: trojan
   server: 45.64.22.56
   port: '443'
@@ -494,6 +474,46 @@ proxies:
   password: '123456'
   skip-cert-verify: true
   sni: trojan-ctb-sg02.globalssh.xyz
+- name: 日本(yudou66.com 玉豆免费节点)trojan4
+  type: trojan
+  server: 20-194-194-133.ipv4.rush.ml
+  port: '8443'
+  udp: true
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  skip-cert-verify: true
+  sni: 20-194-194-133.ipv4.rush.ml
+- name: 卡塔尔(yudou66.com 玉豆免费节点)trojan5
+  type: trojan
+  server: 20-21-121-146.ipv4.rush.ml
+  port: '8443'
+  udp: true
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  skip-cert-verify: true
+  sni: 20-21-121-146.ipv4.rush.ml
+- name: 北北共享_新加坡_72_2trojan6
+  type: trojan
+  server: 43-156-11-123.ipv4.rush.ml
+  port: '8443'
+  udp: true
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  skip-cert-verify: true
+  sni: 43-156-11-123.ipv4.rush.ml
+- name: 日本(yudou66.com 玉豆免费节点)trojan7
+  type: trojan
+  server: jp-tk-32.fuckjdieng.uk
+  port: '50188'
+  udp: true
+  password: 7175732d-dee5-4e38-91e1-886f95c2b470
+  skip-cert-verify: true
+  sni: tcp
+- name: 日本(yudou66.com 玉豆免费节点)trojan8
+  type: trojan
+  server: 3.114.110.209
+  port: '50188'
+  udp: true
+  password: 7175732d-dee5-4e38-91e1-886f95c2b470
+  skip-cert-verify: true
+  sni: jp-tk-32.fuckjdieng.uk
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -501,88 +521,94 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 美国(yudou66.com 玉豆免费节点)vmess1
-  - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDNvmess2
+  - 香港-北北共享_12vmess1
+  - 日本(yudou66.com 玉豆免费节点)vmess2
   - 美国(yudou66.com 玉豆免费节点)vmess3
-  - youtube@资源分享师_伯利兹_139vmess4
-  - YouTube简迷离|广港BGP_105vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
   - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
-  - 波兰(yudou66.com 玉豆免费节点)vmess8
-  - 香港(yudou66.com 玉豆免费节点)vmess9
-  - aliyun中转2vmess10
-  - ' 丹麦  4vmess11'
-  - 日本(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - YouTube简迷离|广港BGP_91vmess14
-  - 伯利兹-北北共享_5vmess15
-  - YouTube简迷离|广港BGP_135vmess16
-  - 波兰-北北共享_1vmess17
-  - 美国-北北共享_115vmess18
-  - 香港-北北共享_12vmess19
-  - 美国-北北共享_117vmess20
-  - ' 美国CloudFlare节点 6vmess21'
+  - aliyun中转2vmess7
+  - ' 美国CloudFlare公司CDN节点 23vmess8'
+  - 波兰(yudou66.com 玉豆免费节点)vmess9
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 加拿大(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 法国(yudou66.com 玉豆免费节点)vmess14
+  - 德国(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 美国(yudou66.com 玉豆免费节点)vmess17
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess18
+  - 香港(yudou66.com 玉豆免费节点)vmess19
+  - YouTube简迷离|广港BGP_105vmess20
+  - 加拿大(yudou66.com 玉豆免费节点)vmess21
   - 美国(yudou66.com 玉豆免费节点)vmess22
-  - SG 新加坡(youtube阿伟科技)vmess23
-  - SG 4vmess24
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|广港BGP_91vmess24
   - 美国(yudou66.com 玉豆免费节点)vmess25
   - 新加坡(yudou66.com 玉豆免费节点)vmess26
-  - 新加坡(yudou66.com 玉豆免费节点)vmess27
-  - 香港(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 美国(yudou66.com 玉豆免费节点)vmess30
-  - ' 美国CloudFlare公司CDN节点 23vmess31'
-  - ' 美国CloudFlare节点 35vmess32'
-  - 波兰(yudou66.com 玉豆免费节点)vmess33
-  - 香港(yudou66.com 玉豆免费节点)vmess34
-  - 北北共享_日本_25_2trojan1
-  - 北北共享_瑞士_16_2trojan2
-  - 北北共享_新加坡_72_2trojan3
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国-北北共享_115vmess28
+  - ' 美国CloudFlare节点 35vmess29'
+  - 波兰(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 美国-北北共享_117vmess32
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
+  - 韩国(yudou66.com 玉豆免费节点)trojan1
+  - 美国(yudou66.com 玉豆免费节点)trojan2
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
+  - 日本(yudou66.com 玉豆免费节点)trojan4
+  - 卡塔尔(yudou66.com 玉豆免费节点)trojan5
+  - 北北共享_新加坡_72_2trojan6
+  - 日本(yudou66.com 玉豆免费节点)trojan7
+  - 日本(yudou66.com 玉豆免费节点)trojan8
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 美国(yudou66.com 玉豆免费节点)vmess1
-  - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDNvmess2
+  - 香港-北北共享_12vmess1
+  - 日本(yudou66.com 玉豆免费节点)vmess2
   - 美国(yudou66.com 玉豆免费节点)vmess3
-  - youtube@资源分享师_伯利兹_139vmess4
-  - YouTube简迷离|广港BGP_105vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
   - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
-  - 波兰(yudou66.com 玉豆免费节点)vmess8
-  - 香港(yudou66.com 玉豆免费节点)vmess9
-  - aliyun中转2vmess10
-  - ' 丹麦  4vmess11'
-  - 日本(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - YouTube简迷离|广港BGP_91vmess14
-  - 伯利兹-北北共享_5vmess15
-  - YouTube简迷离|广港BGP_135vmess16
-  - 波兰-北北共享_1vmess17
-  - 美国-北北共享_115vmess18
-  - 香港-北北共享_12vmess19
-  - 美国-北北共享_117vmess20
-  - ' 美国CloudFlare节点 6vmess21'
+  - aliyun中转2vmess7
+  - ' 美国CloudFlare公司CDN节点 23vmess8'
+  - 波兰(yudou66.com 玉豆免费节点)vmess9
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 加拿大(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 法国(yudou66.com 玉豆免费节点)vmess14
+  - 德国(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 美国(yudou66.com 玉豆免费节点)vmess17
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess18
+  - 香港(yudou66.com 玉豆免费节点)vmess19
+  - YouTube简迷离|广港BGP_105vmess20
+  - 加拿大(yudou66.com 玉豆免费节点)vmess21
   - 美国(yudou66.com 玉豆免费节点)vmess22
-  - SG 新加坡(youtube阿伟科技)vmess23
-  - SG 4vmess24
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|广港BGP_91vmess24
   - 美国(yudou66.com 玉豆免费节点)vmess25
   - 新加坡(yudou66.com 玉豆免费节点)vmess26
-  - 新加坡(yudou66.com 玉豆免费节点)vmess27
-  - 香港(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 美国(yudou66.com 玉豆免费节点)vmess30
-  - ' 美国CloudFlare公司CDN节点 23vmess31'
-  - ' 美国CloudFlare节点 35vmess32'
-  - 波兰(yudou66.com 玉豆免费节点)vmess33
-  - 香港(yudou66.com 玉豆免费节点)vmess34
-  - 北北共享_日本_25_2trojan1
-  - 北北共享_瑞士_16_2trojan2
-  - 北北共享_新加坡_72_2trojan3
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国-北北共享_115vmess28
+  - ' 美国CloudFlare节点 35vmess29'
+  - 波兰(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 美国-北北共享_117vmess32
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
+  - 韩国(yudou66.com 玉豆免费节点)trojan1
+  - 美国(yudou66.com 玉豆免费节点)trojan2
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
+  - 日本(yudou66.com 玉豆免费节点)trojan4
+  - 卡塔尔(yudou66.com 玉豆免费节点)trojan5
+  - 北北共享_新加坡_72_2trojan6
+  - 日本(yudou66.com 玉豆免费节点)trojan7
+  - 日本(yudou66.com 玉豆免费节点)trojan8
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -595,44 +621,47 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 美国(yudou66.com 玉豆免费节点)vmess1
-  - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDNvmess2
+  - 香港-北北共享_12vmess1
+  - 日本(yudou66.com 玉豆免费节点)vmess2
   - 美国(yudou66.com 玉豆免费节点)vmess3
-  - youtube@资源分享师_伯利兹_139vmess4
-  - YouTube简迷离|广港BGP_105vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
   - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
-  - 波兰(yudou66.com 玉豆免费节点)vmess8
-  - 香港(yudou66.com 玉豆免费节点)vmess9
-  - aliyun中转2vmess10
-  - ' 丹麦  4vmess11'
-  - 日本(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - YouTube简迷离|广港BGP_91vmess14
-  - 伯利兹-北北共享_5vmess15
-  - YouTube简迷离|广港BGP_135vmess16
-  - 波兰-北北共享_1vmess17
-  - 美国-北北共享_115vmess18
-  - 香港-北北共享_12vmess19
-  - 美国-北北共享_117vmess20
-  - ' 美国CloudFlare节点 6vmess21'
+  - aliyun中转2vmess7
+  - ' 美国CloudFlare公司CDN节点 23vmess8'
+  - 波兰(yudou66.com 玉豆免费节点)vmess9
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 加拿大(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 法国(yudou66.com 玉豆免费节点)vmess14
+  - 德国(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 美国(yudou66.com 玉豆免费节点)vmess17
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess18
+  - 香港(yudou66.com 玉豆免费节点)vmess19
+  - YouTube简迷离|广港BGP_105vmess20
+  - 加拿大(yudou66.com 玉豆免费节点)vmess21
   - 美国(yudou66.com 玉豆免费节点)vmess22
-  - SG 新加坡(youtube阿伟科技)vmess23
-  - SG 4vmess24
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|广港BGP_91vmess24
   - 美国(yudou66.com 玉豆免费节点)vmess25
   - 新加坡(yudou66.com 玉豆免费节点)vmess26
-  - 新加坡(yudou66.com 玉豆免费节点)vmess27
-  - 香港(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 美国(yudou66.com 玉豆免费节点)vmess30
-  - ' 美国CloudFlare公司CDN节点 23vmess31'
-  - ' 美国CloudFlare节点 35vmess32'
-  - 波兰(yudou66.com 玉豆免费节点)vmess33
-  - 香港(yudou66.com 玉豆免费节点)vmess34
-  - 北北共享_日本_25_2trojan1
-  - 北北共享_瑞士_16_2trojan2
-  - 北北共享_新加坡_72_2trojan3
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国-北北共享_115vmess28
+  - ' 美国CloudFlare节点 35vmess29'
+  - 波兰(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 美国-北北共享_117vmess32
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
+  - 韩国(yudou66.com 玉豆免费节点)trojan1
+  - 美国(yudou66.com 玉豆免费节点)trojan2
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
+  - 日本(yudou66.com 玉豆免费节点)trojan4
+  - 卡塔尔(yudou66.com 玉豆免费节点)trojan5
+  - 北北共享_新加坡_72_2trojan6
+  - 日本(yudou66.com 玉豆免费节点)trojan7
+  - 日本(yudou66.com 玉豆免费节点)trojan8
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -644,131 +673,140 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 美国(yudou66.com 玉豆免费节点)vmess1
-  - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDNvmess2
+  - 香港-北北共享_12vmess1
+  - 日本(yudou66.com 玉豆免费节点)vmess2
   - 美国(yudou66.com 玉豆免费节点)vmess3
-  - youtube@资源分享师_伯利兹_139vmess4
-  - YouTube简迷离|广港BGP_105vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
   - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
-  - 波兰(yudou66.com 玉豆免费节点)vmess8
-  - 香港(yudou66.com 玉豆免费节点)vmess9
-  - aliyun中转2vmess10
-  - ' 丹麦  4vmess11'
-  - 日本(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - YouTube简迷离|广港BGP_91vmess14
-  - 伯利兹-北北共享_5vmess15
-  - YouTube简迷离|广港BGP_135vmess16
-  - 波兰-北北共享_1vmess17
-  - 美国-北北共享_115vmess18
-  - 香港-北北共享_12vmess19
-  - 美国-北北共享_117vmess20
-  - ' 美国CloudFlare节点 6vmess21'
+  - aliyun中转2vmess7
+  - ' 美国CloudFlare公司CDN节点 23vmess8'
+  - 波兰(yudou66.com 玉豆免费节点)vmess9
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 加拿大(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 法国(yudou66.com 玉豆免费节点)vmess14
+  - 德国(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 美国(yudou66.com 玉豆免费节点)vmess17
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess18
+  - 香港(yudou66.com 玉豆免费节点)vmess19
+  - YouTube简迷离|广港BGP_105vmess20
+  - 加拿大(yudou66.com 玉豆免费节点)vmess21
   - 美国(yudou66.com 玉豆免费节点)vmess22
-  - SG 新加坡(youtube阿伟科技)vmess23
-  - SG 4vmess24
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|广港BGP_91vmess24
   - 美国(yudou66.com 玉豆免费节点)vmess25
   - 新加坡(yudou66.com 玉豆免费节点)vmess26
-  - 新加坡(yudou66.com 玉豆免费节点)vmess27
-  - 香港(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 美国(yudou66.com 玉豆免费节点)vmess30
-  - ' 美国CloudFlare公司CDN节点 23vmess31'
-  - ' 美国CloudFlare节点 35vmess32'
-  - 波兰(yudou66.com 玉豆免费节点)vmess33
-  - 香港(yudou66.com 玉豆免费节点)vmess34
-  - 北北共享_日本_25_2trojan1
-  - 北北共享_瑞士_16_2trojan2
-  - 北北共享_新加坡_72_2trojan3
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国-北北共享_115vmess28
+  - ' 美国CloudFlare节点 35vmess29'
+  - 波兰(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 美国-北北共享_117vmess32
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
+  - 韩国(yudou66.com 玉豆免费节点)trojan1
+  - 美国(yudou66.com 玉豆免费节点)trojan2
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
+  - 日本(yudou66.com 玉豆免费节点)trojan4
+  - 卡塔尔(yudou66.com 玉豆免费节点)trojan5
+  - 北北共享_新加坡_72_2trojan6
+  - 日本(yudou66.com 玉豆免费节点)trojan7
+  - 日本(yudou66.com 玉豆免费节点)trojan8
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 美国(yudou66.com 玉豆免费节点)vmess1
-  - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDNvmess2
+  - 香港-北北共享_12vmess1
+  - 日本(yudou66.com 玉豆免费节点)vmess2
   - 美国(yudou66.com 玉豆免费节点)vmess3
-  - youtube@资源分享师_伯利兹_139vmess4
-  - YouTube简迷离|广港BGP_105vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
   - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
-  - 波兰(yudou66.com 玉豆免费节点)vmess8
-  - 香港(yudou66.com 玉豆免费节点)vmess9
-  - aliyun中转2vmess10
-  - ' 丹麦  4vmess11'
-  - 日本(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - YouTube简迷离|广港BGP_91vmess14
-  - 伯利兹-北北共享_5vmess15
-  - YouTube简迷离|广港BGP_135vmess16
-  - 波兰-北北共享_1vmess17
-  - 美国-北北共享_115vmess18
-  - 香港-北北共享_12vmess19
-  - 美国-北北共享_117vmess20
-  - ' 美国CloudFlare节点 6vmess21'
+  - aliyun中转2vmess7
+  - ' 美国CloudFlare公司CDN节点 23vmess8'
+  - 波兰(yudou66.com 玉豆免费节点)vmess9
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 加拿大(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 法国(yudou66.com 玉豆免费节点)vmess14
+  - 德国(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 美国(yudou66.com 玉豆免费节点)vmess17
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess18
+  - 香港(yudou66.com 玉豆免费节点)vmess19
+  - YouTube简迷离|广港BGP_105vmess20
+  - 加拿大(yudou66.com 玉豆免费节点)vmess21
   - 美国(yudou66.com 玉豆免费节点)vmess22
-  - SG 新加坡(youtube阿伟科技)vmess23
-  - SG 4vmess24
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|广港BGP_91vmess24
   - 美国(yudou66.com 玉豆免费节点)vmess25
   - 新加坡(yudou66.com 玉豆免费节点)vmess26
-  - 新加坡(yudou66.com 玉豆免费节点)vmess27
-  - 香港(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 美国(yudou66.com 玉豆免费节点)vmess30
-  - ' 美国CloudFlare公司CDN节点 23vmess31'
-  - ' 美国CloudFlare节点 35vmess32'
-  - 波兰(yudou66.com 玉豆免费节点)vmess33
-  - 香港(yudou66.com 玉豆免费节点)vmess34
-  - 北北共享_日本_25_2trojan1
-  - 北北共享_瑞士_16_2trojan2
-  - 北北共享_新加坡_72_2trojan3
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国-北北共享_115vmess28
+  - ' 美国CloudFlare节点 35vmess29'
+  - 波兰(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 美国-北北共享_117vmess32
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
+  - 韩国(yudou66.com 玉豆免费节点)trojan1
+  - 美国(yudou66.com 玉豆免费节点)trojan2
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
+  - 日本(yudou66.com 玉豆免费节点)trojan4
+  - 卡塔尔(yudou66.com 玉豆免费节点)trojan5
+  - 北北共享_新加坡_72_2trojan6
+  - 日本(yudou66.com 玉豆免费节点)trojan7
+  - 日本(yudou66.com 玉豆免费节点)trojan8
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 美国(yudou66.com 玉豆免费节点)vmess1
-  - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDNvmess2
+  - 香港-北北共享_12vmess1
+  - 日本(yudou66.com 玉豆免费节点)vmess2
   - 美国(yudou66.com 玉豆免费节点)vmess3
-  - youtube@资源分享师_伯利兹_139vmess4
-  - YouTube简迷离|广港BGP_105vmess5
+  - 美国(yudou66.com 玉豆免费节点)vmess4
+  - 美国(yudou66.com 玉豆免费节点)vmess5
   - 美国(yudou66.com 玉豆免费节点)vmess6
-  - 美国(yudou66.com 玉豆免费节点)vmess7
-  - 波兰(yudou66.com 玉豆免费节点)vmess8
-  - 香港(yudou66.com 玉豆免费节点)vmess9
-  - aliyun中转2vmess10
-  - ' 丹麦  4vmess11'
-  - 日本(yudou66.com 玉豆免费节点)vmess12
-  - 新加坡(yudou66.com 玉豆免费节点)vmess13
-  - YouTube简迷离|广港BGP_91vmess14
-  - 伯利兹-北北共享_5vmess15
-  - YouTube简迷离|广港BGP_135vmess16
-  - 波兰-北北共享_1vmess17
-  - 美国-北北共享_115vmess18
-  - 香港-北北共享_12vmess19
-  - 美国-北北共享_117vmess20
-  - ' 美国CloudFlare节点 6vmess21'
+  - aliyun中转2vmess7
+  - ' 美国CloudFlare公司CDN节点 23vmess8'
+  - 波兰(yudou66.com 玉豆免费节点)vmess9
+  - 香港(yudou66.com 玉豆免费节点)vmess10
+  - 加拿大(yudou66.com 玉豆免费节点)vmess11
+  - 新加坡(yudou66.com 玉豆免费节点)vmess12
+  - 美国(yudou66.com 玉豆免费节点)vmess13
+  - 法国(yudou66.com 玉豆免费节点)vmess14
+  - 德国(yudou66.com 玉豆免费节点)vmess15
+  - 美国(yudou66.com 玉豆免费节点)vmess16
+  - 美国(yudou66.com 玉豆免费节点)vmess17
+  - 澳大利亚(yudou66.com 玉豆免费节点)vmess18
+  - 香港(yudou66.com 玉豆免费节点)vmess19
+  - YouTube简迷离|广港BGP_105vmess20
+  - 加拿大(yudou66.com 玉豆免费节点)vmess21
   - 美国(yudou66.com 玉豆免费节点)vmess22
-  - SG 新加坡(youtube阿伟科技)vmess23
-  - SG 4vmess24
+  - 香港(yudou66.com 玉豆免费节点)vmess23
+  - YouTube简迷离|广港BGP_91vmess24
   - 美国(yudou66.com 玉豆免费节点)vmess25
   - 新加坡(yudou66.com 玉豆免费节点)vmess26
-  - 新加坡(yudou66.com 玉豆免费节点)vmess27
-  - 香港(yudou66.com 玉豆免费节点)vmess28
-  - 美国(yudou66.com 玉豆免费节点)vmess29
-  - 美国(yudou66.com 玉豆免费节点)vmess30
-  - ' 美国CloudFlare公司CDN节点 23vmess31'
-  - ' 美国CloudFlare节点 35vmess32'
-  - 波兰(yudou66.com 玉豆免费节点)vmess33
-  - 香港(yudou66.com 玉豆免费节点)vmess34
-  - 北北共享_日本_25_2trojan1
-  - 北北共享_瑞士_16_2trojan2
-  - 北北共享_新加坡_72_2trojan3
-  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan4
+  - 美国(yudou66.com 玉豆免费节点)vmess27
+  - 美国-北北共享_115vmess28
+  - ' 美国CloudFlare节点 35vmess29'
+  - 波兰(yudou66.com 玉豆免费节点)vmess30
+  - 美国(yudou66.com 玉豆免费节点)vmess31
+  - 美国-北北共享_117vmess32
+  - 新加坡(yudou66.com 玉豆免费节点)vmess33
+  - 韩国(yudou66.com 玉豆免费节点)trojan1
+  - 美国(yudou66.com 玉豆免费节点)trojan2
+  - MO_澳门_欢迎订阅小閑哥频道❤️telegram群组：httpstrojan3
+  - 日本(yudou66.com 玉豆免费节点)trojan4
+  - 卡塔尔(yudou66.com 玉豆免费节点)trojan5
+  - 北北共享_新加坡_72_2trojan6
+  - 日本(yudou66.com 玉豆免费节点)trojan7
+  - 日本(yudou66.com 玉豆免费节点)trojan8
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
