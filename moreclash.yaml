@@ -26,92 +26,7 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: Youtube顺丰资源 HK  12vmess1
-  type: vmess
-  server: 183.240.60.119
-  port: '10001'
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /233blog
-  ws-headers:
-    Host: al.zemzoh.cf
-- name: Youtube顺丰资源 CN__244vmess2
-  type: vmess
-  server: 183.240.60.119
-  port: '10001'
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: yqy32117.birpagi.cn
-- name: Youtube顺丰资源 CN__14vmess3
-  type: vmess
-  server: 183.240.60.119
-  port: '10001'
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-- name: 欢迎订阅yui科技vmess4
-  type: vmess
-  server: 39.103.165.178
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 欢迎订阅yui科技vmess5
-  type: vmess
-  server: 183.240.60.119
-  port: '10001'
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 欢迎订阅yui科技vmess6
-  type: vmess
-  server: 183.240.60.119
-  port: '10001'
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  alterId: '1'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 欢迎订阅yui科技vmess7
-  type: vmess
-  server: 188.114.99.11
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess8
+- name: 欢迎订阅yui科技vmess1
   type: vmess
   server: hkbn03.tizi1.net
   port: '443'
@@ -124,18 +39,110 @@ proxies:
   ws-headers:
     Host: hkbn03.tizi1.net
   tls: true
-- name: Youtube顺丰资源 _16vmess9
+- name: 欢迎订阅yui科技vmess2
   type: vmess
-  server: 183.240.60.119
-  port: '10001'
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  server: cf-lt-dns.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
-  ws-path: /
+  network: ws
+  ws-path: /shirker
   ws-headers:
-    Host: n1672657910.lyqrdde.cn
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess3
+  type: vmess
+  server: 172.67.201.14
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess4
+  type: vmess
+  server: 162.159.137.2
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess5
+  type: vmess
+  server: 190.93.245.3
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: 香港(yudou66.com 玉豆免费节点)vmess6
+  type: vmess
+  server: cf-yd-dns.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: hk-gcore.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess7
+  type: vmess
+  server: cf-lt-dns.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: lu.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess8
+  type: vmess
+  server: 185.162.228.229
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: 欢迎订阅yui科技vmess9
+  type: vmess
+  server: oplg1.zhujicn2.com
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
 - name: 欢迎订阅yui科技vmess10
   type: vmess
   server: 104.29.64.5
@@ -164,175 +171,7 @@ proxies:
   tls: true
 - name: 欢迎订阅yui科技vmess12
   type: vmess
-  server: els200.jslist.tk
-  port: '8443'
-  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wo.php
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 欢迎订阅yui科技vmess13
-  type: vmess
-  server: 141.101.115.30
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: 欢迎订阅yui科技vmess14
-  type: vmess
-  server: 172.67.203.162
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess15
-  type: vmess
-  server: cloudflare.quest
-  port: '2086'
-  uuid: 833de9d2-98c5-4ac5-9d30-e3a7ad929d10
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: buyvm.cloudflare.quest
-- name: Youtube顺丰资源 美国 6vmess16
-  type: vmess
-  server: 172.64.154.155
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess17
-  type: vmess
-  server: 141.101.114.120
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess18
-  type: vmess
-  server: 162.159.135.42
-  port: '443'
-  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dsadsa1dsadsa33434
-  ws-headers:
-    Host: xjp4h.mayaa.ml
-  tls: true
-- name: 欢迎订阅yui科技vmess19
-  type: vmess
-  server: 162.159.135.42
-  port: '443'
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /IYKLD53M
-  ws-headers:
-    Host: opfr1.v2rayfree1.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess20
-  type: vmess
-  server: 141.101.115.134
-  port: '443'
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /IYKLD53M
-  ws-headers:
-    Host: opfr1.v2rayfree1.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess21
-  type: vmess
-  server: 141.101.114.32
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: Youtube顺丰资源 US__59vmess22
-  type: vmess
-  server: v2ray.online
-  port: '443'
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /speedtest
-  ws-headers:
-    Host: Amsterdam.v2ray.online
-  tls: true
-- name: Youtube顺丰资源 US__30vmess23
-  type: vmess
-  server: v2ray.online
-  port: '443'
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /speedtest
-  ws-headers:
-    Host: Seattle.v2ray.online
-  tls: true
-- name: 欢迎订阅yui科技vmess24
-  type: vmess
-  server: 203.30.191.191
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: 欢迎订阅yui科技vmess25
-  type: vmess
-  server: hohm.microsoft.com
+  server: 23.227.38.39
   port: '443'
   uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: '0'
@@ -343,228 +182,19 @@ proxies:
   ws-headers:
     Host: oplg1.zhujicn2.com
   tls: true
-- name: 欢迎订阅yui科技vmess26
+- name: 欢迎订阅yui科技vmess13
   type: vmess
-  server: 190.93.246.4
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
+  server: 47.104.237.32
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
   ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess27
-  type: vmess
-  server: 172.64.154.102
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess28
-  type: vmess
-  server: 172.67.135.55
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess29
-  type: vmess
-  server: 141.101.114.17
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess30
-  type: vmess
-  server: 104.21.50.84
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess31
-  type: vmess
-  server: 172.67.135.57
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess32
-  type: vmess
-  server: 23.227.38.39
-  port: '443'
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /IYKLD53M
-  ws-headers:
-    Host: opfr1.v2rayfree1.xyz
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess33
-  type: vmess
-  server: 162.159.137.2
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess34
-  type: vmess
-  server: xjp4h.mayaa.ml
-  port: '443'
-  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dsadsa1dsadsa33434
-  ws-headers:
-    Host: xjp4h.mayaa.ml
-  tls: true
-- name: 欢迎订阅yui科技vmess35
-  type: vmess
-  server: oplg1.cfcdn2.xyz
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
+  network: tcp
+  ws-path: ''
   ws-headers:
     Host: ''
-  tls: true
-- name: 欢迎订阅yui科技vmess36
-  type: vmess
-  server: 185.162.228.230
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess37
-  type: vmess
-  server: 172.64.152.150
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess38
-  type: vmess
-  server: cfspeed.areyouikun.com
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess39
-  type: vmess
-  server: 172.67.145.166
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess40
-  type: vmess
-  server: 141.193.213.20
-  port: '443'
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /IYKLD53M
-  ws-headers:
-    Host: opfr1.v2rayfree1.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess41
-  type: vmess
-  server: cf-dx-dns.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: us-dp2.sharecentre.online
-  tls: true
-- name: 欢迎订阅yui科技vmess42
-  type: vmess
-  server: 203.30.190.192
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: Youtube顺丰资源 US__157vmess43
+- name: Youtube顺丰资源 US__157vmess14
   type: vmess
   server: 162.159.137.3
   port: '443'
@@ -577,48 +207,22 @@ proxies:
   ws-headers:
     Host: oplg1.cfcdn2.xyz
   tls: true
-- name: 欢迎订阅yui科技vmess44
+- name: Youtube顺丰资源 US  42vmess15
   type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dsadsa1dsadsa33434
-  ws-headers:
-    Host: xjp4h.mayaa.ml
-  tls: true
-- name: 欢迎订阅yui科技vmess45
-  type: vmess
-  server: uicdn.cf
+  server: get.tech
   port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/1736960111/63b1af7a5f43f/
+  ws-path: /shared
   ws-headers:
-    Host: sg3-v2ray.sshkit.org
-- name: 欢迎订阅yui科技vmess46
+    Host: lv.awsbest.com
+- name: 欢迎订阅yui科技vmess16
   type: vmess
   server: 172.67.199.34
   port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess47
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
   uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
   cipher: auto
@@ -626,63 +230,11 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: de-1.sharecentre.online
+    Host: lu.sharecentre.online
   tls: true
-- name: 欢迎订阅yui科技vmess48
+- name: 欢迎订阅yui科技vmess17
   type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: us-st-2.sharecentre.online
-  tls: true
-- name: 欢迎订阅yui科技vmess49
-  type: vmess
-  server: 141.193.213.10
-  port: '443'
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /9JZFDTKE
-  ws-headers:
-    Host: fr1.trump2023.org
-  tls: true
-- name: 欢迎订阅yui科技vmess50
-  type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /eisasqa
-  ws-headers:
-    Host: foxpol.fovi.tk
-  tls: true
-- name: 欢迎订阅yui科技vmess51
-  type: vmess
-  server: 23.227.38.40
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: 欢迎订阅yui科技vmess52
-  type: vmess
-  server: cacerts.digicert.com
+  server: hohm.microsoft.com
   port: '443'
   uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
   alterId: '0'
@@ -693,7 +245,45 @@ proxies:
   ws-headers:
     Host: opfr1.v2rayfree1.xyz
   tls: true
-- name: 欢迎订阅yui科技vmess53
+- name: 欢迎订阅yui科技vmess18
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess19
+  type: vmess
+  server: 39.103.165.178
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 欢迎订阅yui科技vmess20
+  type: vmess
+  server: 172.67.135.55
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess21
   type: vmess
   server: 172.67.169.131
   port: '443'
@@ -706,7 +296,7 @@ proxies:
   ws-headers:
     Host: oplg1.cfcdn2.xyz
   tls: true
-- name: 欢迎订阅yui科技vmess54
+- name: 欢迎订阅yui科技vmess22
   type: vmess
   server: 112.132.215.189
   port: '50002'
@@ -718,22 +308,22 @@ proxies:
   ws-path: ''
   ws-headers:
     Host: ''
-- name: Youtube顺丰资源 _142vmess55
+- name: Youtube顺丰资源 US__52vmess23
   type: vmess
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  server: 141.101.114.134
+  port: '443'
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /eisasqa
+  ws-path: /IYKLD53M
   ws-headers:
-    Host: foxpol2.fovi.tk
+    Host: opfr1.v2rayfree1.xyz
   tls: true
-- name: 欢迎订阅yui科技vmess56
+- name: 欢迎订阅yui科技vmess24
   type: vmess
-  server: 141.101.114.150
+  server: 172.64.153.150
   port: '443'
   uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: '0'
@@ -744,9 +334,48 @@ proxies:
   ws-headers:
     Host: clash6.ssr-free.xyz
   tls: true
-- name: 欢迎订阅yui科技vmess57
+- name: 欢迎订阅yui科技vmess25
   type: vmess
-  server: 203.30.191.193
+  server: 104.21.50.84
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess26
+  type: vmess
+  server: 172.67.135.57
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess27
+  type: vmess
+  server: 172.67.145.166
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess28
+  type: vmess
+  server: 203.30.190.192
   port: '443'
   uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: '0'
@@ -757,46 +386,7 @@ proxies:
   ws-headers:
     Host: lg10.cfcdn1.xyz
   tls: true
-- name: 欢迎订阅yui科技vmess58
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: uk-2.sharecentre.online
-  tls: true
-- name: 欢迎订阅yui科技vmess59
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: uk-2.sharecentre.online
-  tls: true
-- name: 欢迎订阅yui科技vmess60
-  type: vmess
-  server: 190.93.245.2
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: 欢迎订阅yui科技vmess61
+- name: 欢迎订阅yui科技vmess29
   type: vmess
   server: cf-lt-dns.sharecentre.online
   port: '443'
@@ -809,33 +399,7 @@ proxies:
   ws-headers:
     Host: us-dp2.sharecentre.online
   tls: true
-- name: 欢迎订阅yui科技vmess62
-  type: vmess
-  server: 190.93.246.195
-  port: '443'
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /IYKLD53M
-  ws-headers:
-    Host: opfr1.v2rayfree1.xyz
-  tls: true
-- name: 美国(yudou66.com 玉豆免费节点)vmess63
-  type: vmess
-  server: 104.26.14.53
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  tls: true
-- name: 巴西(yudou66.com 玉豆免费节点)vmess64
+- name: 巴西(yudou66.com 玉豆免费节点)vmess30
   type: vmess
   server: 203.30.189.191
   port: '443'
@@ -848,7 +412,7 @@ proxies:
   ws-headers:
     Host: lg10.cfcdn1.xyz
   tls: true
-- name: 欢迎订阅yui科技vmess65
+- name: 欢迎订阅yui科技vmess31
   type: vmess
   server: news.microsoft.com
   port: '443'
@@ -861,10 +425,114 @@ proxies:
   ws-headers:
     Host: oplg1.zhujicn2.com
   tls: true
-- name: Youtube顺丰资源 US  42vmess66
+- name: 欢迎订阅yui科技vmess32
   type: vmess
-  server: get.tech
-  port: '80'
+  server: 203.30.188.190
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess33
+  type: vmess
+  server: 203.24.108.9
+  port: '443'
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /IYKLD53M
+  ws-headers:
+    Host: opfr1.v2rayfree1.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess34
+  type: vmess
+  server: 203.30.188.188
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: 欢迎订阅yui科技vmess35
+  type: vmess
+  server: 66.235.200.22
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess36
+  type: vmess
+  server: 188.114.99.11
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess37
+  type: vmess
+  server: 141.101.114.17
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess38
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dsadsa1dsadsa33434
+  ws-headers:
+    Host: xjp4h.mayaa.ml
+  tls: true
+- name: 欢迎订阅yui科技vmess39
+  type: vmess
+  server: 141.101.114.150
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess40
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
   uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
   alterId: '0'
   cipher: auto
@@ -873,9 +541,23 @@ proxies:
   ws-path: /shared
   ws-headers:
     Host: lv.awsbest.com
-- name: 欢迎订阅yui科技vmess67
+  tls: true
+- name: 欢迎订阅yui科技vmess41
   type: vmess
-  server: hohm.microsoft.com
+  server: 172.67.199.34
+  port: '443'
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /IYKLD53M
+  ws-headers:
+    Host: opfr1.v2rayfree1.xyz
+  tls: true
+- name: Youtube顺丰资源 🇺🇲 美国 8vmess42
+  type: vmess
+  server: 162.159.135.42
   port: '443'
   uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
@@ -886,14 +568,647 @@ proxies:
   ws-headers:
     Host: lu.sharecentre.online
   tls: true
-- name: 欢迎订阅yui科技trojan1
-  type: trojan
-  server: hn.xiaohouzi.club
-  port: '28456'
-  udp: true
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  skip-cert-verify: true
-  sni: douk01.xiaohouzi.club
+- name: Youtube顺丰资源 US__4vmess43
+  type: vmess
+  server: cf-lt-dns.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: buyvm-lv.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess44
+  type: vmess
+  server: cacerts.digicert.com
+  port: '443'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+  tls: true
+- name: 欢迎订阅yui科技vmess45
+  type: vmess
+  server: 141.101.114.120
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess46
+  type: vmess
+  server: hohm.microsoft.com
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: 欢迎订阅yui科技vmess47
+  type: vmess
+  server: 141.193.213.10
+  port: '443'
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /9JZFDTKE
+  ws-headers:
+    Host: fr1.trump2023.org
+  tls: true
+- name: 欢迎订阅yui科技vmess48
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: uk-2.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess49
+  type: vmess
+  server: 23.227.38.38
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: 欢迎订阅yui科技vmess50
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: de-2.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess51
+  type: vmess
+  server: cf-dx-dns.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: buyvm-lv.sharecentre.online
+  tls: true
+- name: 「SCP」LU-CFvmess52
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: lu.sharecentre.online
+  tls: true
+- name: Youtube顺丰资源 _美国_86vmess53
+  type: vmess
+  server: uicdn.cf
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 欢迎订阅yui科技vmess54
+  type: vmess
+  server: 141.101.115.30
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess55
+  type: vmess
+  server: 162.159.135.42
+  port: '443'
+  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dsadsa1dsadsa33434
+  ws-headers:
+    Host: xjp4h.mayaa.ml
+  tls: true
+- name: 欢迎订阅yui科技vmess56
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: de-1.sharecentre.online
+  tls: true
+- name: Youtube顺丰资源 JP  5vmess57
+  type: vmess
+  server: 141.193.213.20
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: opc-jp.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess58
+  type: vmess
+  server: 104.29.64.24
+  port: '80'
+  uuid: c8c9867b-df9a-4217-8161-67824e20cb57
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /g5D0hFMY/
+  ws-headers:
+    Host: fr2.cachexy.ga
+- name: 欢迎订阅yui科技vmess59
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: lu.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess60
+  type: vmess
+  server: de-ls03.nb1.fr
+  port: '64443'
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  alterId: '1'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /clientarea
+  ws-headers:
+    Host: de-ls03.nb1.fr
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess61
+  type: vmess
+  server: cf-yd-dns.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess62
+  type: vmess
+  server: els200.jslist.tk
+  port: '8443'
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /wo.php
+  ws-headers:
+    Host: els200.jslist.tk
+  tls: true
+- name: 欢迎订阅yui科技vmess63
+  type: vmess
+  server: cacerts.digicert.com
+  port: '80'
+  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shares
+  ws-headers:
+    Host: la.awsbest.com
+- name: 欢迎订阅yui科技vmess64
+  type: vmess
+  server: 141.193.213.10
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess65
+  type: vmess
+  server: xjp4h.mayaa.ml
+  port: '443'
+  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dsadsa1dsadsa33434
+  ws-headers:
+    Host: xjp4h.mayaa.ml
+  tls: true
+- name: 欢迎订阅yui科技vmess66
+  type: vmess
+  server: ovh-3.555530.xyz
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess67
+  type: vmess
+  server: v140.toddns.tk
+  port: '80'
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /fr-unlimitxxx
+  ws-headers:
+    Host: v140.toddns.tk
+- name: 欢迎订阅yui科技vmess68
+  type: vmess
+  server: 190.93.245.4
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 美国(yudou66.com 玉豆免费节点)vmess69
+  type: vmess
+  server: cloudflare.quest
+  port: '2086'
+  uuid: 833de9d2-98c5-4ac5-9d30-e3a7ad929d10
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: buyvm.cloudflare.quest
+- name: 欢迎订阅yui科技vmess70
+  type: vmess
+  server: 185.162.228.230
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess71
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: us-st-2.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess72
+  type: vmess
+  server: cf.fovi.tk
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /eisasqa
+  ws-headers:
+    Host: foxpol.fovi.tk
+  tls: true
+- name: 欢迎订阅yui科技vmess73
+  type: vmess
+  server: 23.227.38.40
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess74
+  type: vmess
+  server: 203.30.191.193
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess75
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: Youtube顺丰资源 美国 CloudFlare节点 4vmess76
+  type: vmess
+  server: 172.67.222.46
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 欢迎订阅yui科技vmess77
+  type: vmess
+  server: 172.64.154.102
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess78
+  type: vmess
+  server: uicdn.cf
+  port: '80'
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/1736960111/63b1af7a5f43f/
+  ws-headers:
+    Host: sg3-v2ray.sshkit.org
+- name: 美国(yudou66.com 玉豆免费节点)vmess79
+  type: vmess
+  server: 104.26.14.53
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess80
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: 欢迎订阅yui科技vmess81
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: hk-gcore.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess82
+  type: vmess
+  server: 203.30.189.190
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: Youtube顺丰资源 SG  7vmess83
+  type: vmess
+  server: jdosg.nmsl.pics
+  port: '8443'
+  uuid: e6dad59a-4557-4fe2-eb21-ba270f9778fc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: jdosg.nmsl.pics
+  tls: true
+- name: 欢迎订阅yui科技vmess84
+  type: vmess
+  server: 172.67.203.162
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess85
+  type: vmess
+  server: 172.67.205.70
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: 欢迎订阅yui科技vmess86
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: Youtube顺丰资源 🇺🇲 美国 16vmess87
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/Variu88/634dab7abadf1/
+  ws-headers:
+    Host: us-lb.sshkit.org
+  tls: true
+- name: 欢迎订阅yui科技vmess88
+  type: vmess
+  server: cacerts.digicert.com
+  port: '443'
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /IYKLD53M
+  ws-headers:
+    Host: opfr1.v2rayfree1.xyz
+  tls: true
+- name: 欢迎订阅yui科技vmess89
+  type: vmess
+  server: 117.164.185.221
+  port: '16120'
+  uuid: 8d8d6d3d-b9ef-30b7-9cc6-3ebf5e3d70f9
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 欢迎订阅yui科技vmess90
+  type: vmess
+  server: 66.235.200.21
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: oplg1.zhujicn2.com
+  tls: true
+- name: 欢迎订阅yui科技vmess91
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: us-st-1.sharecentre.online
+  tls: true
+- name: Youtube顺丰资源 美国 CloudFlare节点 3vmess92
+  type: vmess
+  server: 172.67.199.34
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -901,39 +1216,39 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - Youtube顺丰资源 HK  12vmess1
-  - Youtube顺丰资源 CN__244vmess2
-  - Youtube顺丰资源 CN__14vmess3
-  - 欢迎订阅yui科技vmess4
+  - 欢迎订阅yui科技vmess1
+  - 欢迎订阅yui科技vmess2
+  - 欢迎订阅yui科技vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
   - 欢迎订阅yui科技vmess5
-  - 欢迎订阅yui科技vmess6
+  - 香港(yudou66.com 玉豆免费节点)vmess6
   - 欢迎订阅yui科技vmess7
   - 欢迎订阅yui科技vmess8
-  - Youtube顺丰资源 _16vmess9
+  - 欢迎订阅yui科技vmess9
   - 欢迎订阅yui科技vmess10
   - 欢迎订阅yui科技vmess11
   - 欢迎订阅yui科技vmess12
   - 欢迎订阅yui科技vmess13
-  - 欢迎订阅yui科技vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - Youtube顺丰资源 美国 6vmess16
+  - Youtube顺丰资源 US__157vmess14
+  - Youtube顺丰资源 US  42vmess15
+  - 欢迎订阅yui科技vmess16
   - 欢迎订阅yui科技vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 欢迎订阅yui科技vmess18
   - 欢迎订阅yui科技vmess19
   - 欢迎订阅yui科技vmess20
   - 欢迎订阅yui科技vmess21
-  - Youtube顺丰资源 US__59vmess22
-  - Youtube顺丰资源 US__30vmess23
+  - 欢迎订阅yui科技vmess22
+  - Youtube顺丰资源 US__52vmess23
   - 欢迎订阅yui科技vmess24
   - 欢迎订阅yui科技vmess25
   - 欢迎订阅yui科技vmess26
   - 欢迎订阅yui科技vmess27
   - 欢迎订阅yui科技vmess28
   - 欢迎订阅yui科技vmess29
-  - 欢迎订阅yui科技vmess30
+  - 巴西(yudou66.com 玉豆免费节点)vmess30
   - 欢迎订阅yui科技vmess31
   - 欢迎订阅yui科技vmess32
-  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 欢迎订阅yui科技vmess33
   - 欢迎订阅yui科技vmess34
   - 欢迎订阅yui科技vmess35
   - 欢迎订阅yui科技vmess36
@@ -942,8 +1257,8 @@ proxy-groups:
   - 欢迎订阅yui科技vmess39
   - 欢迎订阅yui科技vmess40
   - 欢迎订阅yui科技vmess41
-  - 欢迎订阅yui科技vmess42
-  - Youtube顺丰资源 US__157vmess43
+  - Youtube顺丰资源 🇺🇲 美国 8vmess42
+  - Youtube顺丰资源 US__4vmess43
   - 欢迎订阅yui科技vmess44
   - 欢迎订阅yui科技vmess45
   - 欢迎订阅yui科技vmess46
@@ -952,62 +1267,86 @@ proxy-groups:
   - 欢迎订阅yui科技vmess49
   - 欢迎订阅yui科技vmess50
   - 欢迎订阅yui科技vmess51
-  - 欢迎订阅yui科技vmess52
-  - 欢迎订阅yui科技vmess53
+  - 「SCP」LU-CFvmess52
+  - Youtube顺丰资源 _美国_86vmess53
   - 欢迎订阅yui科技vmess54
-  - Youtube顺丰资源 _142vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess55
   - 欢迎订阅yui科技vmess56
-  - 欢迎订阅yui科技vmess57
+  - Youtube顺丰资源 JP  5vmess57
   - 欢迎订阅yui科技vmess58
   - 欢迎订阅yui科技vmess59
   - 欢迎订阅yui科技vmess60
-  - 欢迎订阅yui科技vmess61
+  - 美国(yudou66.com 玉豆免费节点)vmess61
   - 欢迎订阅yui科技vmess62
-  - 美国(yudou66.com 玉豆免费节点)vmess63
-  - 巴西(yudou66.com 玉豆免费节点)vmess64
+  - 欢迎订阅yui科技vmess63
+  - 欢迎订阅yui科技vmess64
   - 欢迎订阅yui科技vmess65
-  - Youtube顺丰资源 US  42vmess66
+  - 欢迎订阅yui科技vmess66
   - 欢迎订阅yui科技vmess67
-  - 欢迎订阅yui科技trojan1
+  - 欢迎订阅yui科技vmess68
+  - 美国(yudou66.com 玉豆免费节点)vmess69
+  - 欢迎订阅yui科技vmess70
+  - 欢迎订阅yui科技vmess71
+  - 欢迎订阅yui科技vmess72
+  - 欢迎订阅yui科技vmess73
+  - 欢迎订阅yui科技vmess74
+  - 欢迎订阅yui科技vmess75
+  - Youtube顺丰资源 美国 CloudFlare节点 4vmess76
+  - 欢迎订阅yui科技vmess77
+  - 欢迎订阅yui科技vmess78
+  - 美国(yudou66.com 玉豆免费节点)vmess79
+  - 欢迎订阅yui科技vmess80
+  - 欢迎订阅yui科技vmess81
+  - 欢迎订阅yui科技vmess82
+  - Youtube顺丰资源 SG  7vmess83
+  - 欢迎订阅yui科技vmess84
+  - 欢迎订阅yui科技vmess85
+  - 欢迎订阅yui科技vmess86
+  - Youtube顺丰资源 🇺🇲 美国 16vmess87
+  - 欢迎订阅yui科技vmess88
+  - 欢迎订阅yui科技vmess89
+  - 欢迎订阅yui科技vmess90
+  - 欢迎订阅yui科技vmess91
+  - Youtube顺丰资源 美国 CloudFlare节点 3vmess92
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - Youtube顺丰资源 HK  12vmess1
-  - Youtube顺丰资源 CN__244vmess2
-  - Youtube顺丰资源 CN__14vmess3
-  - 欢迎订阅yui科技vmess4
+  - 欢迎订阅yui科技vmess1
+  - 欢迎订阅yui科技vmess2
+  - 欢迎订阅yui科技vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
   - 欢迎订阅yui科技vmess5
-  - 欢迎订阅yui科技vmess6
+  - 香港(yudou66.com 玉豆免费节点)vmess6
   - 欢迎订阅yui科技vmess7
   - 欢迎订阅yui科技vmess8
-  - Youtube顺丰资源 _16vmess9
+  - 欢迎订阅yui科技vmess9
   - 欢迎订阅yui科技vmess10
   - 欢迎订阅yui科技vmess11
   - 欢迎订阅yui科技vmess12
   - 欢迎订阅yui科技vmess13
-  - 欢迎订阅yui科技vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - Youtube顺丰资源 美国 6vmess16
+  - Youtube顺丰资源 US__157vmess14
+  - Youtube顺丰资源 US  42vmess15
+  - 欢迎订阅yui科技vmess16
   - 欢迎订阅yui科技vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 欢迎订阅yui科技vmess18
   - 欢迎订阅yui科技vmess19
   - 欢迎订阅yui科技vmess20
   - 欢迎订阅yui科技vmess21
-  - Youtube顺丰资源 US__59vmess22
-  - Youtube顺丰资源 US__30vmess23
+  - 欢迎订阅yui科技vmess22
+  - Youtube顺丰资源 US__52vmess23
   - 欢迎订阅yui科技vmess24
   - 欢迎订阅yui科技vmess25
   - 欢迎订阅yui科技vmess26
   - 欢迎订阅yui科技vmess27
   - 欢迎订阅yui科技vmess28
   - 欢迎订阅yui科技vmess29
-  - 欢迎订阅yui科技vmess30
+  - 巴西(yudou66.com 玉豆免费节点)vmess30
   - 欢迎订阅yui科技vmess31
   - 欢迎订阅yui科技vmess32
-  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 欢迎订阅yui科技vmess33
   - 欢迎订阅yui科技vmess34
   - 欢迎订阅yui科技vmess35
   - 欢迎订阅yui科技vmess36
@@ -1016,8 +1355,8 @@ proxy-groups:
   - 欢迎订阅yui科技vmess39
   - 欢迎订阅yui科技vmess40
   - 欢迎订阅yui科技vmess41
-  - 欢迎订阅yui科技vmess42
-  - Youtube顺丰资源 US__157vmess43
+  - Youtube顺丰资源 🇺🇲 美国 8vmess42
+  - Youtube顺丰资源 US__4vmess43
   - 欢迎订阅yui科技vmess44
   - 欢迎订阅yui科技vmess45
   - 欢迎订阅yui科技vmess46
@@ -1026,23 +1365,47 @@ proxy-groups:
   - 欢迎订阅yui科技vmess49
   - 欢迎订阅yui科技vmess50
   - 欢迎订阅yui科技vmess51
-  - 欢迎订阅yui科技vmess52
-  - 欢迎订阅yui科技vmess53
+  - 「SCP」LU-CFvmess52
+  - Youtube顺丰资源 _美国_86vmess53
   - 欢迎订阅yui科技vmess54
-  - Youtube顺丰资源 _142vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess55
   - 欢迎订阅yui科技vmess56
-  - 欢迎订阅yui科技vmess57
+  - Youtube顺丰资源 JP  5vmess57
   - 欢迎订阅yui科技vmess58
   - 欢迎订阅yui科技vmess59
   - 欢迎订阅yui科技vmess60
-  - 欢迎订阅yui科技vmess61
+  - 美国(yudou66.com 玉豆免费节点)vmess61
   - 欢迎订阅yui科技vmess62
-  - 美国(yudou66.com 玉豆免费节点)vmess63
-  - 巴西(yudou66.com 玉豆免费节点)vmess64
+  - 欢迎订阅yui科技vmess63
+  - 欢迎订阅yui科技vmess64
   - 欢迎订阅yui科技vmess65
-  - Youtube顺丰资源 US  42vmess66
+  - 欢迎订阅yui科技vmess66
   - 欢迎订阅yui科技vmess67
-  - 欢迎订阅yui科技trojan1
+  - 欢迎订阅yui科技vmess68
+  - 美国(yudou66.com 玉豆免费节点)vmess69
+  - 欢迎订阅yui科技vmess70
+  - 欢迎订阅yui科技vmess71
+  - 欢迎订阅yui科技vmess72
+  - 欢迎订阅yui科技vmess73
+  - 欢迎订阅yui科技vmess74
+  - 欢迎订阅yui科技vmess75
+  - Youtube顺丰资源 美国 CloudFlare节点 4vmess76
+  - 欢迎订阅yui科技vmess77
+  - 欢迎订阅yui科技vmess78
+  - 美国(yudou66.com 玉豆免费节点)vmess79
+  - 欢迎订阅yui科技vmess80
+  - 欢迎订阅yui科技vmess81
+  - 欢迎订阅yui科技vmess82
+  - Youtube顺丰资源 SG  7vmess83
+  - 欢迎订阅yui科技vmess84
+  - 欢迎订阅yui科技vmess85
+  - 欢迎订阅yui科技vmess86
+  - Youtube顺丰资源 🇺🇲 美国 16vmess87
+  - 欢迎订阅yui科技vmess88
+  - 欢迎订阅yui科技vmess89
+  - 欢迎订阅yui科技vmess90
+  - 欢迎订阅yui科技vmess91
+  - Youtube顺丰资源 美国 CloudFlare节点 3vmess92
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -1055,39 +1418,39 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - Youtube顺丰资源 HK  12vmess1
-  - Youtube顺丰资源 CN__244vmess2
-  - Youtube顺丰资源 CN__14vmess3
-  - 欢迎订阅yui科技vmess4
+  - 欢迎订阅yui科技vmess1
+  - 欢迎订阅yui科技vmess2
+  - 欢迎订阅yui科技vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
   - 欢迎订阅yui科技vmess5
-  - 欢迎订阅yui科技vmess6
+  - 香港(yudou66.com 玉豆免费节点)vmess6
   - 欢迎订阅yui科技vmess7
   - 欢迎订阅yui科技vmess8
-  - Youtube顺丰资源 _16vmess9
+  - 欢迎订阅yui科技vmess9
   - 欢迎订阅yui科技vmess10
   - 欢迎订阅yui科技vmess11
   - 欢迎订阅yui科技vmess12
   - 欢迎订阅yui科技vmess13
-  - 欢迎订阅yui科技vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - Youtube顺丰资源 美国 6vmess16
+  - Youtube顺丰资源 US__157vmess14
+  - Youtube顺丰资源 US  42vmess15
+  - 欢迎订阅yui科技vmess16
   - 欢迎订阅yui科技vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 欢迎订阅yui科技vmess18
   - 欢迎订阅yui科技vmess19
   - 欢迎订阅yui科技vmess20
   - 欢迎订阅yui科技vmess21
-  - Youtube顺丰资源 US__59vmess22
-  - Youtube顺丰资源 US__30vmess23
+  - 欢迎订阅yui科技vmess22
+  - Youtube顺丰资源 US__52vmess23
   - 欢迎订阅yui科技vmess24
   - 欢迎订阅yui科技vmess25
   - 欢迎订阅yui科技vmess26
   - 欢迎订阅yui科技vmess27
   - 欢迎订阅yui科技vmess28
   - 欢迎订阅yui科技vmess29
-  - 欢迎订阅yui科技vmess30
+  - 巴西(yudou66.com 玉豆免费节点)vmess30
   - 欢迎订阅yui科技vmess31
   - 欢迎订阅yui科技vmess32
-  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 欢迎订阅yui科技vmess33
   - 欢迎订阅yui科技vmess34
   - 欢迎订阅yui科技vmess35
   - 欢迎订阅yui科技vmess36
@@ -1096,8 +1459,8 @@ proxy-groups:
   - 欢迎订阅yui科技vmess39
   - 欢迎订阅yui科技vmess40
   - 欢迎订阅yui科技vmess41
-  - 欢迎订阅yui科技vmess42
-  - Youtube顺丰资源 US__157vmess43
+  - Youtube顺丰资源 🇺🇲 美国 8vmess42
+  - Youtube顺丰资源 US__4vmess43
   - 欢迎订阅yui科技vmess44
   - 欢迎订阅yui科技vmess45
   - 欢迎订阅yui科技vmess46
@@ -1106,23 +1469,47 @@ proxy-groups:
   - 欢迎订阅yui科技vmess49
   - 欢迎订阅yui科技vmess50
   - 欢迎订阅yui科技vmess51
-  - 欢迎订阅yui科技vmess52
-  - 欢迎订阅yui科技vmess53
+  - 「SCP」LU-CFvmess52
+  - Youtube顺丰资源 _美国_86vmess53
   - 欢迎订阅yui科技vmess54
-  - Youtube顺丰资源 _142vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess55
   - 欢迎订阅yui科技vmess56
-  - 欢迎订阅yui科技vmess57
+  - Youtube顺丰资源 JP  5vmess57
   - 欢迎订阅yui科技vmess58
   - 欢迎订阅yui科技vmess59
   - 欢迎订阅yui科技vmess60
-  - 欢迎订阅yui科技vmess61
+  - 美国(yudou66.com 玉豆免费节点)vmess61
   - 欢迎订阅yui科技vmess62
-  - 美国(yudou66.com 玉豆免费节点)vmess63
-  - 巴西(yudou66.com 玉豆免费节点)vmess64
+  - 欢迎订阅yui科技vmess63
+  - 欢迎订阅yui科技vmess64
   - 欢迎订阅yui科技vmess65
-  - Youtube顺丰资源 US  42vmess66
+  - 欢迎订阅yui科技vmess66
   - 欢迎订阅yui科技vmess67
-  - 欢迎订阅yui科技trojan1
+  - 欢迎订阅yui科技vmess68
+  - 美国(yudou66.com 玉豆免费节点)vmess69
+  - 欢迎订阅yui科技vmess70
+  - 欢迎订阅yui科技vmess71
+  - 欢迎订阅yui科技vmess72
+  - 欢迎订阅yui科技vmess73
+  - 欢迎订阅yui科技vmess74
+  - 欢迎订阅yui科技vmess75
+  - Youtube顺丰资源 美国 CloudFlare节点 4vmess76
+  - 欢迎订阅yui科技vmess77
+  - 欢迎订阅yui科技vmess78
+  - 美国(yudou66.com 玉豆免费节点)vmess79
+  - 欢迎订阅yui科技vmess80
+  - 欢迎订阅yui科技vmess81
+  - 欢迎订阅yui科技vmess82
+  - Youtube顺丰资源 SG  7vmess83
+  - 欢迎订阅yui科技vmess84
+  - 欢迎订阅yui科技vmess85
+  - 欢迎订阅yui科技vmess86
+  - Youtube顺丰资源 🇺🇲 美国 16vmess87
+  - 欢迎订阅yui科技vmess88
+  - 欢迎订阅yui科技vmess89
+  - 欢迎订阅yui科技vmess90
+  - 欢迎订阅yui科技vmess91
+  - Youtube顺丰资源 美国 CloudFlare节点 3vmess92
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1134,39 +1521,39 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - Youtube顺丰资源 HK  12vmess1
-  - Youtube顺丰资源 CN__244vmess2
-  - Youtube顺丰资源 CN__14vmess3
-  - 欢迎订阅yui科技vmess4
+  - 欢迎订阅yui科技vmess1
+  - 欢迎订阅yui科技vmess2
+  - 欢迎订阅yui科技vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
   - 欢迎订阅yui科技vmess5
-  - 欢迎订阅yui科技vmess6
+  - 香港(yudou66.com 玉豆免费节点)vmess6
   - 欢迎订阅yui科技vmess7
   - 欢迎订阅yui科技vmess8
-  - Youtube顺丰资源 _16vmess9
+  - 欢迎订阅yui科技vmess9
   - 欢迎订阅yui科技vmess10
   - 欢迎订阅yui科技vmess11
   - 欢迎订阅yui科技vmess12
   - 欢迎订阅yui科技vmess13
-  - 欢迎订阅yui科技vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - Youtube顺丰资源 美国 6vmess16
+  - Youtube顺丰资源 US__157vmess14
+  - Youtube顺丰资源 US  42vmess15
+  - 欢迎订阅yui科技vmess16
   - 欢迎订阅yui科技vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 欢迎订阅yui科技vmess18
   - 欢迎订阅yui科技vmess19
   - 欢迎订阅yui科技vmess20
   - 欢迎订阅yui科技vmess21
-  - Youtube顺丰资源 US__59vmess22
-  - Youtube顺丰资源 US__30vmess23
+  - 欢迎订阅yui科技vmess22
+  - Youtube顺丰资源 US__52vmess23
   - 欢迎订阅yui科技vmess24
   - 欢迎订阅yui科技vmess25
   - 欢迎订阅yui科技vmess26
   - 欢迎订阅yui科技vmess27
   - 欢迎订阅yui科技vmess28
   - 欢迎订阅yui科技vmess29
-  - 欢迎订阅yui科技vmess30
+  - 巴西(yudou66.com 玉豆免费节点)vmess30
   - 欢迎订阅yui科技vmess31
   - 欢迎订阅yui科技vmess32
-  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 欢迎订阅yui科技vmess33
   - 欢迎订阅yui科技vmess34
   - 欢迎订阅yui科技vmess35
   - 欢迎订阅yui科技vmess36
@@ -1175,8 +1562,8 @@ proxy-groups:
   - 欢迎订阅yui科技vmess39
   - 欢迎订阅yui科技vmess40
   - 欢迎订阅yui科技vmess41
-  - 欢迎订阅yui科技vmess42
-  - Youtube顺丰资源 US__157vmess43
+  - Youtube顺丰资源 🇺🇲 美国 8vmess42
+  - Youtube顺丰资源 US__4vmess43
   - 欢迎订阅yui科技vmess44
   - 欢迎订阅yui科技vmess45
   - 欢迎订阅yui科技vmess46
@@ -1185,61 +1572,85 @@ proxy-groups:
   - 欢迎订阅yui科技vmess49
   - 欢迎订阅yui科技vmess50
   - 欢迎订阅yui科技vmess51
-  - 欢迎订阅yui科技vmess52
-  - 欢迎订阅yui科技vmess53
+  - 「SCP」LU-CFvmess52
+  - Youtube顺丰资源 _美国_86vmess53
   - 欢迎订阅yui科技vmess54
-  - Youtube顺丰资源 _142vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess55
   - 欢迎订阅yui科技vmess56
-  - 欢迎订阅yui科技vmess57
+  - Youtube顺丰资源 JP  5vmess57
   - 欢迎订阅yui科技vmess58
   - 欢迎订阅yui科技vmess59
   - 欢迎订阅yui科技vmess60
-  - 欢迎订阅yui科技vmess61
+  - 美国(yudou66.com 玉豆免费节点)vmess61
   - 欢迎订阅yui科技vmess62
-  - 美国(yudou66.com 玉豆免费节点)vmess63
-  - 巴西(yudou66.com 玉豆免费节点)vmess64
+  - 欢迎订阅yui科技vmess63
+  - 欢迎订阅yui科技vmess64
   - 欢迎订阅yui科技vmess65
-  - Youtube顺丰资源 US  42vmess66
+  - 欢迎订阅yui科技vmess66
   - 欢迎订阅yui科技vmess67
-  - 欢迎订阅yui科技trojan1
+  - 欢迎订阅yui科技vmess68
+  - 美国(yudou66.com 玉豆免费节点)vmess69
+  - 欢迎订阅yui科技vmess70
+  - 欢迎订阅yui科技vmess71
+  - 欢迎订阅yui科技vmess72
+  - 欢迎订阅yui科技vmess73
+  - 欢迎订阅yui科技vmess74
+  - 欢迎订阅yui科技vmess75
+  - Youtube顺丰资源 美国 CloudFlare节点 4vmess76
+  - 欢迎订阅yui科技vmess77
+  - 欢迎订阅yui科技vmess78
+  - 美国(yudou66.com 玉豆免费节点)vmess79
+  - 欢迎订阅yui科技vmess80
+  - 欢迎订阅yui科技vmess81
+  - 欢迎订阅yui科技vmess82
+  - Youtube顺丰资源 SG  7vmess83
+  - 欢迎订阅yui科技vmess84
+  - 欢迎订阅yui科技vmess85
+  - 欢迎订阅yui科技vmess86
+  - Youtube顺丰资源 🇺🇲 美国 16vmess87
+  - 欢迎订阅yui科技vmess88
+  - 欢迎订阅yui科技vmess89
+  - 欢迎订阅yui科技vmess90
+  - 欢迎订阅yui科技vmess91
+  - Youtube顺丰资源 美国 CloudFlare节点 3vmess92
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - Youtube顺丰资源 HK  12vmess1
-  - Youtube顺丰资源 CN__244vmess2
-  - Youtube顺丰资源 CN__14vmess3
-  - 欢迎订阅yui科技vmess4
+  - 欢迎订阅yui科技vmess1
+  - 欢迎订阅yui科技vmess2
+  - 欢迎订阅yui科技vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
   - 欢迎订阅yui科技vmess5
-  - 欢迎订阅yui科技vmess6
+  - 香港(yudou66.com 玉豆免费节点)vmess6
   - 欢迎订阅yui科技vmess7
   - 欢迎订阅yui科技vmess8
-  - Youtube顺丰资源 _16vmess9
+  - 欢迎订阅yui科技vmess9
   - 欢迎订阅yui科技vmess10
   - 欢迎订阅yui科技vmess11
   - 欢迎订阅yui科技vmess12
   - 欢迎订阅yui科技vmess13
-  - 欢迎订阅yui科技vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - Youtube顺丰资源 美国 6vmess16
+  - Youtube顺丰资源 US__157vmess14
+  - Youtube顺丰资源 US  42vmess15
+  - 欢迎订阅yui科技vmess16
   - 欢迎订阅yui科技vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 欢迎订阅yui科技vmess18
   - 欢迎订阅yui科技vmess19
   - 欢迎订阅yui科技vmess20
   - 欢迎订阅yui科技vmess21
-  - Youtube顺丰资源 US__59vmess22
-  - Youtube顺丰资源 US__30vmess23
+  - 欢迎订阅yui科技vmess22
+  - Youtube顺丰资源 US__52vmess23
   - 欢迎订阅yui科技vmess24
   - 欢迎订阅yui科技vmess25
   - 欢迎订阅yui科技vmess26
   - 欢迎订阅yui科技vmess27
   - 欢迎订阅yui科技vmess28
   - 欢迎订阅yui科技vmess29
-  - 欢迎订阅yui科技vmess30
+  - 巴西(yudou66.com 玉豆免费节点)vmess30
   - 欢迎订阅yui科技vmess31
   - 欢迎订阅yui科技vmess32
-  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 欢迎订阅yui科技vmess33
   - 欢迎订阅yui科技vmess34
   - 欢迎订阅yui科技vmess35
   - 欢迎订阅yui科技vmess36
@@ -1248,8 +1659,8 @@ proxy-groups:
   - 欢迎订阅yui科技vmess39
   - 欢迎订阅yui科技vmess40
   - 欢迎订阅yui科技vmess41
-  - 欢迎订阅yui科技vmess42
-  - Youtube顺丰资源 US__157vmess43
+  - Youtube顺丰资源 🇺🇲 美国 8vmess42
+  - Youtube顺丰资源 US__4vmess43
   - 欢迎订阅yui科技vmess44
   - 欢迎订阅yui科技vmess45
   - 欢迎订阅yui科技vmess46
@@ -1258,62 +1669,86 @@ proxy-groups:
   - 欢迎订阅yui科技vmess49
   - 欢迎订阅yui科技vmess50
   - 欢迎订阅yui科技vmess51
-  - 欢迎订阅yui科技vmess52
-  - 欢迎订阅yui科技vmess53
+  - 「SCP」LU-CFvmess52
+  - Youtube顺丰资源 _美国_86vmess53
   - 欢迎订阅yui科技vmess54
-  - Youtube顺丰资源 _142vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess55
   - 欢迎订阅yui科技vmess56
-  - 欢迎订阅yui科技vmess57
+  - Youtube顺丰资源 JP  5vmess57
   - 欢迎订阅yui科技vmess58
   - 欢迎订阅yui科技vmess59
   - 欢迎订阅yui科技vmess60
-  - 欢迎订阅yui科技vmess61
+  - 美国(yudou66.com 玉豆免费节点)vmess61
   - 欢迎订阅yui科技vmess62
-  - 美国(yudou66.com 玉豆免费节点)vmess63
-  - 巴西(yudou66.com 玉豆免费节点)vmess64
+  - 欢迎订阅yui科技vmess63
+  - 欢迎订阅yui科技vmess64
   - 欢迎订阅yui科技vmess65
-  - Youtube顺丰资源 US  42vmess66
+  - 欢迎订阅yui科技vmess66
   - 欢迎订阅yui科技vmess67
-  - 欢迎订阅yui科技trojan1
+  - 欢迎订阅yui科技vmess68
+  - 美国(yudou66.com 玉豆免费节点)vmess69
+  - 欢迎订阅yui科技vmess70
+  - 欢迎订阅yui科技vmess71
+  - 欢迎订阅yui科技vmess72
+  - 欢迎订阅yui科技vmess73
+  - 欢迎订阅yui科技vmess74
+  - 欢迎订阅yui科技vmess75
+  - Youtube顺丰资源 美国 CloudFlare节点 4vmess76
+  - 欢迎订阅yui科技vmess77
+  - 欢迎订阅yui科技vmess78
+  - 美国(yudou66.com 玉豆免费节点)vmess79
+  - 欢迎订阅yui科技vmess80
+  - 欢迎订阅yui科技vmess81
+  - 欢迎订阅yui科技vmess82
+  - Youtube顺丰资源 SG  7vmess83
+  - 欢迎订阅yui科技vmess84
+  - 欢迎订阅yui科技vmess85
+  - 欢迎订阅yui科技vmess86
+  - Youtube顺丰资源 🇺🇲 美国 16vmess87
+  - 欢迎订阅yui科技vmess88
+  - 欢迎订阅yui科技vmess89
+  - 欢迎订阅yui科技vmess90
+  - 欢迎订阅yui科技vmess91
+  - Youtube顺丰资源 美国 CloudFlare节点 3vmess92
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - Youtube顺丰资源 HK  12vmess1
-  - Youtube顺丰资源 CN__244vmess2
-  - Youtube顺丰资源 CN__14vmess3
-  - 欢迎订阅yui科技vmess4
+  - 欢迎订阅yui科技vmess1
+  - 欢迎订阅yui科技vmess2
+  - 欢迎订阅yui科技vmess3
+  - 美国(yudou66.com 玉豆免费节点)vmess4
   - 欢迎订阅yui科技vmess5
-  - 欢迎订阅yui科技vmess6
+  - 香港(yudou66.com 玉豆免费节点)vmess6
   - 欢迎订阅yui科技vmess7
   - 欢迎订阅yui科技vmess8
-  - Youtube顺丰资源 _16vmess9
+  - 欢迎订阅yui科技vmess9
   - 欢迎订阅yui科技vmess10
   - 欢迎订阅yui科技vmess11
   - 欢迎订阅yui科技vmess12
   - 欢迎订阅yui科技vmess13
-  - 欢迎订阅yui科技vmess14
-  - 美国(yudou66.com 玉豆免费节点)vmess15
-  - Youtube顺丰资源 美国 6vmess16
+  - Youtube顺丰资源 US__157vmess14
+  - Youtube顺丰资源 US  42vmess15
+  - 欢迎订阅yui科技vmess16
   - 欢迎订阅yui科技vmess17
-  - 美国(yudou66.com 玉豆免费节点)vmess18
+  - 欢迎订阅yui科技vmess18
   - 欢迎订阅yui科技vmess19
   - 欢迎订阅yui科技vmess20
   - 欢迎订阅yui科技vmess21
-  - Youtube顺丰资源 US__59vmess22
-  - Youtube顺丰资源 US__30vmess23
+  - 欢迎订阅yui科技vmess22
+  - Youtube顺丰资源 US__52vmess23
   - 欢迎订阅yui科技vmess24
   - 欢迎订阅yui科技vmess25
   - 欢迎订阅yui科技vmess26
   - 欢迎订阅yui科技vmess27
   - 欢迎订阅yui科技vmess28
   - 欢迎订阅yui科技vmess29
-  - 欢迎订阅yui科技vmess30
+  - 巴西(yudou66.com 玉豆免费节点)vmess30
   - 欢迎订阅yui科技vmess31
   - 欢迎订阅yui科技vmess32
-  - 美国(yudou66.com 玉豆免费节点)vmess33
+  - 欢迎订阅yui科技vmess33
   - 欢迎订阅yui科技vmess34
   - 欢迎订阅yui科技vmess35
   - 欢迎订阅yui科技vmess36
@@ -1322,8 +1757,8 @@ proxy-groups:
   - 欢迎订阅yui科技vmess39
   - 欢迎订阅yui科技vmess40
   - 欢迎订阅yui科技vmess41
-  - 欢迎订阅yui科技vmess42
-  - Youtube顺丰资源 US__157vmess43
+  - Youtube顺丰资源 🇺🇲 美国 8vmess42
+  - Youtube顺丰资源 US__4vmess43
   - 欢迎订阅yui科技vmess44
   - 欢迎订阅yui科技vmess45
   - 欢迎订阅yui科技vmess46
@@ -1332,23 +1767,47 @@ proxy-groups:
   - 欢迎订阅yui科技vmess49
   - 欢迎订阅yui科技vmess50
   - 欢迎订阅yui科技vmess51
-  - 欢迎订阅yui科技vmess52
-  - 欢迎订阅yui科技vmess53
+  - 「SCP」LU-CFvmess52
+  - Youtube顺丰资源 _美国_86vmess53
   - 欢迎订阅yui科技vmess54
-  - Youtube顺丰资源 _142vmess55
+  - 美国(yudou66.com 玉豆免费节点)vmess55
   - 欢迎订阅yui科技vmess56
-  - 欢迎订阅yui科技vmess57
+  - Youtube顺丰资源 JP  5vmess57
   - 欢迎订阅yui科技vmess58
   - 欢迎订阅yui科技vmess59
   - 欢迎订阅yui科技vmess60
-  - 欢迎订阅yui科技vmess61
+  - 美国(yudou66.com 玉豆免费节点)vmess61
   - 欢迎订阅yui科技vmess62
-  - 美国(yudou66.com 玉豆免费节点)vmess63
-  - 巴西(yudou66.com 玉豆免费节点)vmess64
+  - 欢迎订阅yui科技vmess63
+  - 欢迎订阅yui科技vmess64
   - 欢迎订阅yui科技vmess65
-  - Youtube顺丰资源 US  42vmess66
+  - 欢迎订阅yui科技vmess66
   - 欢迎订阅yui科技vmess67
-  - 欢迎订阅yui科技trojan1
+  - 欢迎订阅yui科技vmess68
+  - 美国(yudou66.com 玉豆免费节点)vmess69
+  - 欢迎订阅yui科技vmess70
+  - 欢迎订阅yui科技vmess71
+  - 欢迎订阅yui科技vmess72
+  - 欢迎订阅yui科技vmess73
+  - 欢迎订阅yui科技vmess74
+  - 欢迎订阅yui科技vmess75
+  - Youtube顺丰资源 美国 CloudFlare节点 4vmess76
+  - 欢迎订阅yui科技vmess77
+  - 欢迎订阅yui科技vmess78
+  - 美国(yudou66.com 玉豆免费节点)vmess79
+  - 欢迎订阅yui科技vmess80
+  - 欢迎订阅yui科技vmess81
+  - 欢迎订阅yui科技vmess82
+  - Youtube顺丰资源 SG  7vmess83
+  - 欢迎订阅yui科技vmess84
+  - 欢迎订阅yui科技vmess85
+  - 欢迎订阅yui科技vmess86
+  - Youtube顺丰资源 🇺🇲 美国 16vmess87
+  - 欢迎订阅yui科技vmess88
+  - 欢迎订阅yui科技vmess89
+  - 欢迎订阅yui科技vmess90
+  - 欢迎订阅yui科技vmess91
+  - Youtube顺丰资源 美国 CloudFlare节点 3vmess92
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
