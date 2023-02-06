@@ -26,19 +26,7 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: yui科技vmess1
-  type: vmess
-  server: 47.104.237.32
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君 日本vmess2
+- name: 悸沫君 日本vmess1
   type: vmess
   server: jp04.170203.xyz
   port: '23245'
@@ -50,174 +38,57 @@ proxies:
   ws-path: /
   ws-headers:
     Host: jp04.170203.xyz
-- name: 悸沫君 美国vmess3
+- name: 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess2
   type: vmess
-  server: cf-lt-dns.sharecentre.online
+  server: 36.156.102.166
+  port: '10001'
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: yui科技vmess3
+  type: vmess
+  server: 47.104.237.32
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君 🇺🇸_US_美国_5vmess4
+  type: vmess
+  server: news.microsoft.com
   port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /shirker
+  ws-path: /ECTCJ0DF
   ws-headers:
-    Host: uk-2.sharecentre.online
+    Host: lg1.trump2023.us
   tls: true
-- name: 美国(玉豆免费节点)vmess4
+- name: 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess5
   type: vmess
-  server: 172.67.174.51
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: 悸沫君 美国vmess5
-  type: vmess
-  server: SHOPIFY.COM
-  port: '80'
-  uuid: eeb4d7f3-1f96-4d87-98d8-6f699aac5d8e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /TxIq76mA/
-  ws-headers:
-    Host: yl.cachexy.ga
-- name: 悸沫君_US_美国vmess6
-  type: vmess
-  server: cf-lt-dns.sharecentre.online
+  server: 203.30.188.188
   port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /shirker
+  ws-path: /ECTCJ0DF
   ws-headers:
-    Host: us-dp2.sharecentre.online
+    Host: lg1.trump2023.us
   tls: true
-- name: 顺丰资源 US__147vmess7
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: f23b7338-84f7-476c-8c24-d116f181ab85
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: 悸沫君 伯利兹vmess8
-  type: vmess
-  server: 203.30.189.191
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: 顺丰资源 US__112vmess9
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: c28ba523-64d3-4059-a9b7-a5f0f74527f7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: 乌克兰(玉豆免费节点)vmess10
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: c28ba523-64d3-4059-a9b7-a5f0f74527f7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: 悸沫君 日本vmess11
-  type: vmess
-  server: 138.2.35.81
-  port: '80'
-  uuid: a0733fc9-457e-498d-c363-9ec774a74948
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /jun
-  ws-headers:
-    Host: 138.2.35.81
-- name: 顺丰资源 SG 9vmess12
-  type: vmess
-  server: jdosg.nmsl.pics
-  port: '8443'
-  uuid: e6dad59a-4557-4fe2-eb21-ba270f9778fc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jdosg.nmsl.pics
-  tls: true
-- name: 乌克兰(玉豆免费节点)vmess13
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: 悸沫君 美国Linode数据中心 31vmess14
-  type: vmess
-  server: vuk1.0bad.com
-  port: '443'
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vuk1.0bad.com
-  tls: true
-- name: 法国(玉豆免费节点)vmess15
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /9JZFDTKE
-  ws-headers:
-    Host: fr1.trump2023.org
-  tls: true
-- name: 顺丰资源 US 13vmess16
+- name: 顺丰资源 US 13vmess6
   type: vmess
   server: els200.jslist.tk
   port: '8443'
@@ -230,57 +101,57 @@ proxies:
   ws-headers:
     Host: els200.jslist.tk
   tls: true
-- name: 加拿大(玉豆免费节点)vmess17
+- name: 悸沫君 🇺🇸_US_美国->🇬🇧_GB_英国vmess7
   type: vmess
-  server: SHOPIFY.COM
-  port: '80'
-  uuid: eeb4d7f3-1f96-4d87-98d8-6f699aac5d8e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /TxIq76mA/
-  ws-headers:
-    Host: yl.cachexy.ga
-- name: 悸沫君 美国vmess18
-  type: vmess
-  server: 66.235.200.21
+  server: cf-lt.sharecentre.online
   port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /5QNROSRV
+  ws-path: /shirker
   ws-headers:
-    Host: oplg1.zhujicn2.com
+    Host: uk-2.sharecentre.online
   tls: true
-- name: 美国(玉豆免费节点)vmess19
+- name: 悸沫君 🇯🇵_JP_日本_1vmess8
   type: vmess
-  server: hucloud.tk
-  port: '443'
-  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
+  server: jp04.170203.xyz
+  port: '23245'
+  uuid: 1f3f5b8a-be41-4a92-9b90-6473702aaa3b
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /huhu
+  ws-path: ''
   ws-headers:
-    Host: hucloud.tk
-  tls: true
-- name: 悸沫君 _CN_中国vmess20
+    Host: ''
+- name: 悸沫君 🇨🇳_CN_中国vmess9
   type: vmess
-  server: 106.55.234.95
-  port: '31372'
-  uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411
-  alterId: '0'
+  server: 39.103.165.178
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
   ucp: true
   network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 顺丰资源 SG 9vmess10
+  type: vmess
+  server: jdosg.nmsl.pics
+  port: '8443'
+  uuid: e6dad59a-4557-4fe2-eb21-ba270f9778fc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
   ws-path: /
   ws-headers:
-    Host: 106.55.234.95
-- name: 悸沫君 - 美国Linode数据中心 47vmess21
+    Host: jdosg.nmsl.pics
+  tls: true
+- name: 悸沫君 - 美国Linode数据中心 47vmess11
   type: vmess
   server: 172.105.138.117
   port: '443'
@@ -293,83 +164,20 @@ proxies:
   ws-headers:
     Host: vus3.0bad.com
   tls: true
-- name: 美国(玉豆免费节点)vmess22
+- name: 悸沫君 美国Linode数据中心 31vmess12
   type: vmess
-  server: tky2.nicecdns.com
+  server: vuk1.0bad.com
   port: '443'
-  uuid: 9f08a36d-d01e-46ab-a3ac-14a548c8b3e6
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /CCTV6/hd.m3u8
+  ws-path: /chat
   ws-headers:
-    Host: tky2.nicecdns.com
+    Host: vuk1.0bad.com
   tls: true
-- name: 顺丰资源 US__154vmess23
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: 71cd0fe5-6f4f-4ce1-941c-d56c3bb090a7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: 美国(玉豆免费节点)vmess24
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: f23b7338-84f7-476c-8c24-d116f181ab85
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: 悸沫君 - 丹麦  28vmess25
-  type: vmess
-  server: 185.162.228.230
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: 悸沫君 直连苏州9vmess26
-  type: vmess
-  server: 36.133.171.209
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君 直连苏州6vmess27
-  type: vmess
-  server: 36.134.16.171
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君_🇺🇸US-🇺🇸US_245vmess28
+- name: 悸沫君_🇺🇸US-🇺🇸US_245vmess13
   type: vmess
   server: hucloud.tk
   port: '443'
@@ -382,61 +190,9 @@ proxies:
   ws-headers:
     Host: hucloud.tk
   tls: true
-- name: 美国(玉豆免费节点)vmess29
+- name: 悸沫君 直连苏州9vmess14
   type: vmess
-  server: investors.spotify.com
-  port: '443'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Ertusg86/635014638c264/
-  ws-headers:
-    Host: sg-lb.vhax.net
-  tls: true
-- name: 悸沫君 _US_美国vmess30
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shared
-  ws-headers:
-    Host: lv.awsbest.com
-  tls: true
-- name: 美国(玉豆免费节点)vmess31
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
-  ws-headers:
-    Host: us-lb.sshkit.org
-  tls: true
-- name: 顺丰资源 美国 42vmess32
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
-  ws-headers:
-    Host: us-lb.sshkit.org
-  tls: true
-- name: 悸沫君 直连苏州2vmess33
-  type: vmess
-  server: 36.133.166.170
+  server: 36.133.171.209
   port: '11023'
   uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
   alterId: '0'
@@ -446,43 +202,20 @@ proxies:
   ws-path: ''
   ws-headers:
     Host: ''
-- name: 悸沫君 直连苏州1vmess34
+- name: 乌克兰(玉豆免费节点)vmess15
   type: vmess
-  server: 36.134.147.133
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: c28ba523-64d3-4059-a9b7-a5f0f74527f7
   alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
-  ws-path: ''
+  network: ws
+  ws-path: /5rtP40gj/
   ws-headers:
-    Host: ''
-- name: 悸沫君 直连苏州4vmess35
-  type: vmess
-  server: 36.133.166.68
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君 直连苏州3vmess36
-  type: vmess
-  server: 36.134.147.137
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君 直连苏州8vmess37
+    Host: v2ray.ibgfw.top
+  tls: true
+- name: 悸沫君 直连苏州8vmess16
   type: vmess
   server: 36.134.16.190
   port: '11023'
@@ -494,7 +227,19 @@ proxies:
   ws-path: ''
   ws-headers:
     Host: ''
-- name: 悸沫君 直连苏州10vmess38
+- name: 悸沫君 直连苏州3vmess17
+  type: vmess
+  server: 36.134.147.137
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君 直连苏州10vmess18
   type: vmess
   server: 36.139.162.59
   port: '11023'
@@ -506,7 +251,19 @@ proxies:
   ws-path: ''
   ws-headers:
     Host: ''
-- name: 悸沫君 直连苏州7vmess39
+- name: 悸沫君 直连苏州4vmess19
+  type: vmess
+  server: 36.133.166.68
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君 直连苏州7vmess20
   type: vmess
   server: 36.134.16.96
   port: '11023'
@@ -518,7 +275,68 @@ proxies:
   ws-path: ''
   ws-headers:
     Host: ''
-- name: 顺丰资源 US 36vmess40
+- name: 悸沫君 直连苏州5vmess21
+  type: vmess
+  server: 36.133.166.148
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君 直连苏州6vmess22
+  type: vmess
+  server: 36.134.16.171
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 日本(玉豆免费节点)vmess23
+  type: vmess
+  server: tky2.nicecdns.com
+  port: '443'
+  uuid: 9f08a36d-d01e-46ab-a3ac-14a548c8b3e6
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /CCTV6/hd.m3u8
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 悸沫君 🇺🇸_US_美国_3vmess24
+  type: vmess
+  server: get.tech
+  port: '80'
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shared
+  ws-headers:
+    Host: lv.awsbest.com
+- name: 悸沫君 直连苏州1vmess25
+  type: vmess
+  server: 36.134.147.133
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 乌克兰(玉豆免费节点)vmess26
   type: vmess
   server: v2ray.ibgfw.top
   port: '2083'
@@ -531,43 +349,222 @@ proxies:
   ws-headers:
     Host: v2ray.ibgfw.top
   tls: true
-- name: 悸沫君 日本vmess41
+- name: 顺丰资源 US__112vmess27
   type: vmess
-  server: jp03.170203.xyz
-  port: '23245'
-  uuid: 1f3f5b8a-be41-4a92-9b90-6473702aaa3b
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: c28ba523-64d3-4059-a9b7-a5f0f74527f7
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /
+  ws-path: /5rtP40gj/
   ws-headers:
-    Host: jp03.170203.xyz
-- name: 悸沫君 - 美国CloudFlare节点 28vmess42
-  type: vmess
-  server: cf-lt-dns.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: us-dp.sharecentre.online
+    Host: v2ray.ibgfw.top
   tls: true
-- name: 美国(玉豆免费节点)vmess43
+- name: 悸沫君 - 美国CloudFlare节点 4vmess28
   type: vmess
-  server: new3.hucloud-dns.xyz
-  port: '443'
-  uuid: 2926bbcf-eef0-4d0d-d8a7-400e417608aa
+  server: get.tech
+  port: '80'
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
+  ws-path: /shared
+  ws-headers:
+    Host: lv.awsbest.com
+- name: 悸沫君 _CN_中国vmess29
+  type: vmess
+  server: 106.55.234.95
+  port: '31372'
+  uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
   ws-path: /
   ws-headers:
-    Host: new3.hucloud-dns.xyz
+    Host: 106.55.234.95
+- name: 悸沫君 🇺🇸_US_美国_2vmess30
+  type: vmess
+  server: hucloud.tk
+  port: '443'
+  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhu
+  ws-headers:
+    Host: hucloud.tk
+  tls: true
+- name: 美国(玉豆免费节点)vmess31
+  type: vmess
+  server: 172.67.174.51
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: IN-92-99.shoptunnel.live
+  tls: true
+- name: 悸沫君 🇫🇷_FR_法国->🇨🇦_CA_加拿大vmess32
+  type: vmess
+  server: 173.245.49.5
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: CA-177-89.shoptunnel.live
+  tls: true
+- name: 顺丰资源 US__147vmess33
+  type: vmess
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: f23b7338-84f7-476c-8c24-d116f181ab85
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5rtP40gj/
+  ws-headers:
+    Host: v2ray.ibgfw.top
+  tls: true
+- name: 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess34
+  type: vmess
+  server: 203.30.190.190
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: 悸沫君 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国vmess35
+  type: vmess
+  server: 203.30.190.192
+  port: '443'
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /A2DJOPFT
+  ws-headers:
+    Host: lg10.cfcdn1.xyz
+  tls: true
+- name: 美国(玉豆免费节点)vmess36
+  type: vmess
+  server: tky2.nicecdns.com
+  port: '443'
+  uuid: 9f08a36d-d01e-46ab-a3ac-14a548c8b3e6
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /CCTV6/hd.m3u8
+  ws-headers:
+    Host: tky2.nicecdns.com
+  tls: true
+- name: 悸沫君- 美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess37
+  type: vmess
+  server: 173.245.49.8
+  port: '443'
+  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhublog
+  ws-headers:
+    Host: zhuyong.hucloud-dns.xyz
+  tls: true
+- name: 悸沫君 直连苏州2vmess38
+  type: vmess
+  server: 36.133.166.170
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君 🇺🇸_US_美国vmess39
+  type: vmess
+  server: zhuyong.hucloud-dns.xyz
+  port: '443'
+  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhublog
+  ws-headers:
+    Host: zhuyong.hucloud-dns.xyz
+  tls: true
+- name: 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess40
+  type: vmess
+  server: 173.245.49.8
+  port: '443'
+  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhublog
+  ws-headers:
+    Host: zhuyong.hucloud-dns.xyz
+  tls: true
+- name: 美国(玉豆免费节点)vmess41
+  type: vmess
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: f23b7338-84f7-476c-8c24-d116f181ab85
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5rtP40gj/
+  ws-headers:
+    Host: v2ray.ibgfw.top
+  tls: true
+- name: 加拿大(玉豆免费节点)vmess42
+  type: vmess
+  server: SHOPIFY.COM
+  port: '80'
+  uuid: eeb4d7f3-1f96-4d87-98d8-6f699aac5d8e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /TxIq76mA/
+  ws-headers:
+    Host: yl.cachexy.ga
+- name: 顺丰资源 US 36vmess43
+  type: vmess
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5rtP40gj/
+  ws-headers:
+    Host: v2ray.ibgfw.top
   tls: true
 - name: 悸沫君 美国vmess44
   type: vmess
@@ -582,18 +579,120 @@ proxies:
   ws-headers:
     Host: lu.sharecentre.online
   tls: true
-- name: 悸沫君 直连苏州5vmess45
+- name: 悸沫君 美国vmess45
   type: vmess
-  server: 36.133.166.148
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  server: SHOPIFY.COM
+  port: '80'
+  uuid: eeb4d7f3-1f96-4d87-98d8-6f699aac5d8e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /TxIq76mA/
+  ws-headers:
+    Host: yl.cachexy.ga
+- name: 顺丰资源 US__154vmess46
+  type: vmess
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: 71cd0fe5-6f4f-4ce1-941c-d56c3bb090a7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5rtP40gj/
+  ws-headers:
+    Host: v2ray.ibgfw.top
+  tls: true
+- name: 悸沫君 香港vmess47
+  type: vmess
+  server: txy.zemzoh.cf
+  port: '49985'
+  uuid: 50f58a39-82c4-4cc4-fd80-1cf4f38d2e17
   alterId: '0'
   cipher: auto
   ucp: true
   network: tcp
-  ws-path: ''
+  ws-path: /
   ws-headers:
-    Host: ''
+    Host: txy.zemzoh.cf
+  tls: true
+- name: 悸沫君 _US_美国vmess48
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shared
+  ws-headers:
+    Host: lv.awsbest.com
+  tls: true
+- name: 美国(玉豆免费节点)vmess49
+  type: vmess
+  server: investors.spotify.com
+  port: '443'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/Ertusg86/635014638c264/
+  ws-headers:
+    Host: sg-lb.vhax.net
+  tls: true
+- name: 悸沫君 美国vmess50
+  type: vmess
+  server: 172.67.205.70
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: sg-gcore.sharecentre.online
+  tls: true
+- name: 悸沫君 🇺🇸_US_美国vmess51
+  type: vmess
+  server: 172.67.199.34
+  port: '443'
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shared
+  ws-headers:
+    Host: lv.awsbest.com
+  tls: true
+- name: 悸沫君 美国vmess52
+  type: vmess
+  server: 172.67.199.34
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 美国(@kxswa)vmess53
+  type: vmess
+  server: 172.67.222.46
+  port: '80'
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
 - name: 🇺🇸_US_yui科技trojan1
   type: trojan
   server: 104.149.155.13
@@ -602,160 +701,239 @@ proxies:
   password: 79c935c0-27dc-4383-b307-dcac1b8e5509
   skip-cert-verify: true
   sni: vzwzasc.cn
-- name: 顺丰资源+US+8trojan2
+- name: 悸沫君 | cloudflare优%E9% 80%89trojan2
   type: trojan
-  server: 104.149.155.13
+  server: 45.64.22.42
   port: '443'
   udp: true
-  password: 17c412d9-f283-483c-b095-72605fb2840e
+  password: 4X1ebJpQWg
   skip-cert-verify: true
-  sni: vzwzasc.cn
-- name: 悸沫君_US_美国ss1
-  server: ak1446.free.www.outline.network
+  sni: sg.yydsdy.top
+- name: 悸沫君 | cloudflare优%E9% 80%89trojan3
+  type: trojan
+  server: 45.64.22.41
+  port: '443'
+  udp: true
+  password: 4X1ebJpQWg
+  skip-cert-verify: true
+  sni: sg.yydsdy.top
+- name: 悸沫君 | cloudflare优%E9% 80%89trojan4
+  type: trojan
+  server: 45.64.22.9
+  port: '443'
+  udp: true
+  password: 4X1ebJpQWg
+  skip-cert-verify: true
+  sni: sg.yydsdy.top
+- name: 悸沫君 🇺🇸_US_美国ss1
+  server: 38.91.102.123
   port: '9101'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
   type: ss
-- name: 悸沫君 直连杭州19ss2
-  server: 36.137.188.105
-  port: '11024'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 直连杭州20ss3
-  server: 36.137.188.72
-  port: '11024'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 直连杭州18ss4
-  server: 36.137.188.19
-  port: '11024'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 香港中转杭州19ss5
-  server: aa7.ss1011.top
-  port: '1519'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 香港中转杭州20ss6
-  server: aa7.ss1011.top
-  port: '1520'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 香港中转杭州16ss7
-  server: aa7.ss1011.top
-  port: '1516'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 直连杭州14ss8
-  server: 36.137.188.56
-  port: '11024'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 香港中转杭州18ss9
-  server: aa7.ss1011.top
-  port: '1518'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 直连杭州12ss10
-  server: 36.137.188.23
-  port: '11024'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 直连杭州16ss11
-  server: 36.137.188.17
-  port: '11024'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 香港中转杭州14ss12
-  server: aa7.ss1011.top
-  port: '1514'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 直连杭州17ss13
-  server: 36.137.188.176
-  port: '11024'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 香港中转杭州15ss14
-  server: aa7.ss1011.top
-  port: '1515'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 香港中转杭州17ss15
-  server: aa7.ss1011.top
-  port: '1517'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 直连杭州13ss16
+- name: 悸沫君 直连杭州13ss2
   server: 36.137.188.78
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君 香港中转杭州13ss17
-  server: aa7.ss1011.top
-  port: '1513'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君 直连杭州15ss18
-  server: 36.137.188.15
+- name: 悸沫君 直连广州5ss3
+  server: 36.134.166.110
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君 直连杭州11ss19
+- name: 悸沫君 直连杭州17ss4
+  server: 36.137.188.176
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连杭州20ss5
+  server: 36.137.188.72
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 香港中转杭州16ss6
+  server: aa7.ss1011.top
+  port: '1516'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连杭州16ss7
+  server: 36.137.188.17
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 香港中转杭州19ss8
+  server: aa7.ss1011.top
+  port: '1519'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 香港中转杭州20ss9
+  server: aa7.ss1011.top
+  port: '1520'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连杭州19ss10
+  server: 36.137.188.105
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 香港中转杭州15ss11
+  server: aa7.ss1011.top
+  port: '1515'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连杭州11ss12
   server: 36.137.188.79
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君 直连成都5ss20
+- name: 悸沫君 直连杭州15ss13
+  server: 36.137.188.15
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 香港中转杭州18ss14
+  server: aa7.ss1011.top
+  port: '1518'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 香港中转杭州13ss15
+  server: aa7.ss1011.top
+  port: '1513'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连杭州18ss16
+  server: 36.137.188.19
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 香港中转杭州17ss17
+  server: aa7.ss1011.top
+  port: '1517'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连杭州14ss18
+  server: 36.137.188.56
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连杭州12ss19
+  server: 36.137.188.23
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连成都10ss20
+  server: 36.133.201.209
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连成都3ss21
+  server: 36.133.202.12
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 🇳🇱_NL_荷兰_2ss22
+  server: 172.99.188.99
+  port: '6379'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  type: ss
+- name: 悸沫君 直连成都5ss23
   server: 36.133.201.48
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君 直连成都10ss21
-  server: 36.133.201.209
+- name: 悸沫君 直连成都1ss24
+  server: 36.133.201.208
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
+  type: ss
+- name: 悸沫君 直连成都4ss25
+  server: 36.133.202.24
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连成都6ss26
+  server: 36.133.201.213
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连成都8ss27
+  server: 36.133.201.128
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连成都2ss28
+  server: 36.133.201.246
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连广州3ss29
+  server: 36.134.166.48
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 _NL_荷兰ss30
+  server: 172.99.188.99
+  port: '5003'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
   type: ss
 proxy-groups:
 - name: 🚀 节点选择
@@ -764,148 +942,186 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - yui科技vmess1
-  - 悸沫君 日本vmess2
-  - 悸沫君 美国vmess3
-  - 美国(玉豆免费节点)vmess4
-  - 悸沫君 美国vmess5
-  - 悸沫君_US_美国vmess6
-  - 顺丰资源 US__147vmess7
-  - 悸沫君 伯利兹vmess8
-  - 顺丰资源 US__112vmess9
-  - 乌克兰(玉豆免费节点)vmess10
-  - 悸沫君 日本vmess11
-  - 顺丰资源 SG 9vmess12
-  - 乌克兰(玉豆免费节点)vmess13
-  - 悸沫君 美国Linode数据中心 31vmess14
-  - 法国(玉豆免费节点)vmess15
-  - 顺丰资源 US 13vmess16
-  - 加拿大(玉豆免费节点)vmess17
-  - 悸沫君 美国vmess18
-  - 美国(玉豆免费节点)vmess19
-  - 悸沫君 _CN_中国vmess20
-  - 悸沫君 - 美国Linode数据中心 47vmess21
-  - 美国(玉豆免费节点)vmess22
-  - 顺丰资源 US__154vmess23
-  - 美国(玉豆免费节点)vmess24
-  - 悸沫君 - 丹麦  28vmess25
-  - 悸沫君 直连苏州9vmess26
-  - 悸沫君 直连苏州6vmess27
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess28
-  - 美国(玉豆免费节点)vmess29
-  - 悸沫君 _US_美国vmess30
+  - 悸沫君 日本vmess1
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess2
+  - yui科技vmess3
+  - 悸沫君 🇺🇸_US_美国_5vmess4
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess5
+  - 顺丰资源 US 13vmess6
+  - 悸沫君 🇺🇸_US_美国->🇬🇧_GB_英国vmess7
+  - 悸沫君 🇯🇵_JP_日本_1vmess8
+  - 悸沫君 🇨🇳_CN_中国vmess9
+  - 顺丰资源 SG 9vmess10
+  - 悸沫君 - 美国Linode数据中心 47vmess11
+  - 悸沫君 美国Linode数据中心 31vmess12
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess13
+  - 悸沫君 直连苏州9vmess14
+  - 乌克兰(玉豆免费节点)vmess15
+  - 悸沫君 直连苏州8vmess16
+  - 悸沫君 直连苏州3vmess17
+  - 悸沫君 直连苏州10vmess18
+  - 悸沫君 直连苏州4vmess19
+  - 悸沫君 直连苏州7vmess20
+  - 悸沫君 直连苏州5vmess21
+  - 悸沫君 直连苏州6vmess22
+  - 日本(玉豆免费节点)vmess23
+  - 悸沫君 🇺🇸_US_美国_3vmess24
+  - 悸沫君 直连苏州1vmess25
+  - 乌克兰(玉豆免费节点)vmess26
+  - 顺丰资源 US__112vmess27
+  - 悸沫君 - 美国CloudFlare节点 4vmess28
+  - 悸沫君 _CN_中国vmess29
+  - 悸沫君 🇺🇸_US_美国_2vmess30
   - 美国(玉豆免费节点)vmess31
-  - 顺丰资源 美国 42vmess32
-  - 悸沫君 直连苏州2vmess33
-  - 悸沫君 直连苏州1vmess34
-  - 悸沫君 直连苏州4vmess35
-  - 悸沫君 直连苏州3vmess36
-  - 悸沫君 直连苏州8vmess37
-  - 悸沫君 直连苏州10vmess38
-  - 悸沫君 直连苏州7vmess39
-  - 顺丰资源 US 36vmess40
-  - 悸沫君 日本vmess41
-  - 悸沫君 - 美国CloudFlare节点 28vmess42
-  - 美国(玉豆免费节点)vmess43
+  - 悸沫君 🇫🇷_FR_法国->🇨🇦_CA_加拿大vmess32
+  - 顺丰资源 US__147vmess33
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess34
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国vmess35
+  - 美国(玉豆免费节点)vmess36
+  - 悸沫君- 美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess37
+  - 悸沫君 直连苏州2vmess38
+  - 悸沫君 🇺🇸_US_美国vmess39
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess40
+  - 美国(玉豆免费节点)vmess41
+  - 加拿大(玉豆免费节点)vmess42
+  - 顺丰资源 US 36vmess43
   - 悸沫君 美国vmess44
-  - 悸沫君 直连苏州5vmess45
+  - 悸沫君 美国vmess45
+  - 顺丰资源 US__154vmess46
+  - 悸沫君 香港vmess47
+  - 悸沫君 _US_美国vmess48
+  - 美国(玉豆免费节点)vmess49
+  - 悸沫君 美国vmess50
+  - 悸沫君 🇺🇸_US_美国vmess51
+  - 悸沫君 美国vmess52
+  - 美国(@kxswa)vmess53
   - 🇺🇸_US_yui科技trojan1
-  - 顺丰资源+US+8trojan2
-  - 悸沫君_US_美国ss1
-  - 悸沫君 直连杭州19ss2
-  - 悸沫君 直连杭州20ss3
-  - 悸沫君 直连杭州18ss4
-  - 悸沫君 香港中转杭州19ss5
-  - 悸沫君 香港中转杭州20ss6
-  - 悸沫君 香港中转杭州16ss7
-  - 悸沫君 直连杭州14ss8
-  - 悸沫君 香港中转杭州18ss9
-  - 悸沫君 直连杭州12ss10
-  - 悸沫君 直连杭州16ss11
-  - 悸沫君 香港中转杭州14ss12
-  - 悸沫君 直连杭州17ss13
-  - 悸沫君 香港中转杭州15ss14
-  - 悸沫君 香港中转杭州17ss15
-  - 悸沫君 直连杭州13ss16
-  - 悸沫君 香港中转杭州13ss17
-  - 悸沫君 直连杭州15ss18
-  - 悸沫君 直连杭州11ss19
-  - 悸沫君 直连成都5ss20
-  - 悸沫君 直连成都10ss21
+  - 悸沫君 | cloudflare优%E9% 80%89trojan2
+  - 悸沫君 | cloudflare优%E9% 80%89trojan3
+  - 悸沫君 | cloudflare优%E9% 80%89trojan4
+  - 悸沫君 🇺🇸_US_美国ss1
+  - 悸沫君 直连杭州13ss2
+  - 悸沫君 直连广州5ss3
+  - 悸沫君 直连杭州17ss4
+  - 悸沫君 直连杭州20ss5
+  - 悸沫君 香港中转杭州16ss6
+  - 悸沫君 直连杭州16ss7
+  - 悸沫君 香港中转杭州19ss8
+  - 悸沫君 香港中转杭州20ss9
+  - 悸沫君 直连杭州19ss10
+  - 悸沫君 香港中转杭州15ss11
+  - 悸沫君 直连杭州11ss12
+  - 悸沫君 直连杭州15ss13
+  - 悸沫君 香港中转杭州18ss14
+  - 悸沫君 香港中转杭州13ss15
+  - 悸沫君 直连杭州18ss16
+  - 悸沫君 香港中转杭州17ss17
+  - 悸沫君 直连杭州14ss18
+  - 悸沫君 直连杭州12ss19
+  - 悸沫君 直连成都10ss20
+  - 悸沫君 直连成都3ss21
+  - 悸沫君 🇳🇱_NL_荷兰_2ss22
+  - 悸沫君 直连成都5ss23
+  - 悸沫君 直连成都1ss24
+  - 悸沫君 直连成都4ss25
+  - 悸沫君 直连成都6ss26
+  - 悸沫君 直连成都8ss27
+  - 悸沫君 直连成都2ss28
+  - 悸沫君 直连广州3ss29
+  - 悸沫君 _NL_荷兰ss30
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - yui科技vmess1
-  - 悸沫君 日本vmess2
-  - 悸沫君 美国vmess3
-  - 美国(玉豆免费节点)vmess4
-  - 悸沫君 美国vmess5
-  - 悸沫君_US_美国vmess6
-  - 顺丰资源 US__147vmess7
-  - 悸沫君 伯利兹vmess8
-  - 顺丰资源 US__112vmess9
-  - 乌克兰(玉豆免费节点)vmess10
-  - 悸沫君 日本vmess11
-  - 顺丰资源 SG 9vmess12
-  - 乌克兰(玉豆免费节点)vmess13
-  - 悸沫君 美国Linode数据中心 31vmess14
-  - 法国(玉豆免费节点)vmess15
-  - 顺丰资源 US 13vmess16
-  - 加拿大(玉豆免费节点)vmess17
-  - 悸沫君 美国vmess18
-  - 美国(玉豆免费节点)vmess19
-  - 悸沫君 _CN_中国vmess20
-  - 悸沫君 - 美国Linode数据中心 47vmess21
-  - 美国(玉豆免费节点)vmess22
-  - 顺丰资源 US__154vmess23
-  - 美国(玉豆免费节点)vmess24
-  - 悸沫君 - 丹麦  28vmess25
-  - 悸沫君 直连苏州9vmess26
-  - 悸沫君 直连苏州6vmess27
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess28
-  - 美国(玉豆免费节点)vmess29
-  - 悸沫君 _US_美国vmess30
+  - 悸沫君 日本vmess1
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess2
+  - yui科技vmess3
+  - 悸沫君 🇺🇸_US_美国_5vmess4
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess5
+  - 顺丰资源 US 13vmess6
+  - 悸沫君 🇺🇸_US_美国->🇬🇧_GB_英国vmess7
+  - 悸沫君 🇯🇵_JP_日本_1vmess8
+  - 悸沫君 🇨🇳_CN_中国vmess9
+  - 顺丰资源 SG 9vmess10
+  - 悸沫君 - 美国Linode数据中心 47vmess11
+  - 悸沫君 美国Linode数据中心 31vmess12
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess13
+  - 悸沫君 直连苏州9vmess14
+  - 乌克兰(玉豆免费节点)vmess15
+  - 悸沫君 直连苏州8vmess16
+  - 悸沫君 直连苏州3vmess17
+  - 悸沫君 直连苏州10vmess18
+  - 悸沫君 直连苏州4vmess19
+  - 悸沫君 直连苏州7vmess20
+  - 悸沫君 直连苏州5vmess21
+  - 悸沫君 直连苏州6vmess22
+  - 日本(玉豆免费节点)vmess23
+  - 悸沫君 🇺🇸_US_美国_3vmess24
+  - 悸沫君 直连苏州1vmess25
+  - 乌克兰(玉豆免费节点)vmess26
+  - 顺丰资源 US__112vmess27
+  - 悸沫君 - 美国CloudFlare节点 4vmess28
+  - 悸沫君 _CN_中国vmess29
+  - 悸沫君 🇺🇸_US_美国_2vmess30
   - 美国(玉豆免费节点)vmess31
-  - 顺丰资源 美国 42vmess32
-  - 悸沫君 直连苏州2vmess33
-  - 悸沫君 直连苏州1vmess34
-  - 悸沫君 直连苏州4vmess35
-  - 悸沫君 直连苏州3vmess36
-  - 悸沫君 直连苏州8vmess37
-  - 悸沫君 直连苏州10vmess38
-  - 悸沫君 直连苏州7vmess39
-  - 顺丰资源 US 36vmess40
-  - 悸沫君 日本vmess41
-  - 悸沫君 - 美国CloudFlare节点 28vmess42
-  - 美国(玉豆免费节点)vmess43
+  - 悸沫君 🇫🇷_FR_法国->🇨🇦_CA_加拿大vmess32
+  - 顺丰资源 US__147vmess33
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess34
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国vmess35
+  - 美国(玉豆免费节点)vmess36
+  - 悸沫君- 美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess37
+  - 悸沫君 直连苏州2vmess38
+  - 悸沫君 🇺🇸_US_美国vmess39
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess40
+  - 美国(玉豆免费节点)vmess41
+  - 加拿大(玉豆免费节点)vmess42
+  - 顺丰资源 US 36vmess43
   - 悸沫君 美国vmess44
-  - 悸沫君 直连苏州5vmess45
+  - 悸沫君 美国vmess45
+  - 顺丰资源 US__154vmess46
+  - 悸沫君 香港vmess47
+  - 悸沫君 _US_美国vmess48
+  - 美国(玉豆免费节点)vmess49
+  - 悸沫君 美国vmess50
+  - 悸沫君 🇺🇸_US_美国vmess51
+  - 悸沫君 美国vmess52
+  - 美国(@kxswa)vmess53
   - 🇺🇸_US_yui科技trojan1
-  - 顺丰资源+US+8trojan2
-  - 悸沫君_US_美国ss1
-  - 悸沫君 直连杭州19ss2
-  - 悸沫君 直连杭州20ss3
-  - 悸沫君 直连杭州18ss4
-  - 悸沫君 香港中转杭州19ss5
-  - 悸沫君 香港中转杭州20ss6
-  - 悸沫君 香港中转杭州16ss7
-  - 悸沫君 直连杭州14ss8
-  - 悸沫君 香港中转杭州18ss9
-  - 悸沫君 直连杭州12ss10
-  - 悸沫君 直连杭州16ss11
-  - 悸沫君 香港中转杭州14ss12
-  - 悸沫君 直连杭州17ss13
-  - 悸沫君 香港中转杭州15ss14
-  - 悸沫君 香港中转杭州17ss15
-  - 悸沫君 直连杭州13ss16
-  - 悸沫君 香港中转杭州13ss17
-  - 悸沫君 直连杭州15ss18
-  - 悸沫君 直连杭州11ss19
-  - 悸沫君 直连成都5ss20
-  - 悸沫君 直连成都10ss21
+  - 悸沫君 | cloudflare优%E9% 80%89trojan2
+  - 悸沫君 | cloudflare优%E9% 80%89trojan3
+  - 悸沫君 | cloudflare优%E9% 80%89trojan4
+  - 悸沫君 🇺🇸_US_美国ss1
+  - 悸沫君 直连杭州13ss2
+  - 悸沫君 直连广州5ss3
+  - 悸沫君 直连杭州17ss4
+  - 悸沫君 直连杭州20ss5
+  - 悸沫君 香港中转杭州16ss6
+  - 悸沫君 直连杭州16ss7
+  - 悸沫君 香港中转杭州19ss8
+  - 悸沫君 香港中转杭州20ss9
+  - 悸沫君 直连杭州19ss10
+  - 悸沫君 香港中转杭州15ss11
+  - 悸沫君 直连杭州11ss12
+  - 悸沫君 直连杭州15ss13
+  - 悸沫君 香港中转杭州18ss14
+  - 悸沫君 香港中转杭州13ss15
+  - 悸沫君 直连杭州18ss16
+  - 悸沫君 香港中转杭州17ss17
+  - 悸沫君 直连杭州14ss18
+  - 悸沫君 直连杭州12ss19
+  - 悸沫君 直连成都10ss20
+  - 悸沫君 直连成都3ss21
+  - 悸沫君 🇳🇱_NL_荷兰_2ss22
+  - 悸沫君 直连成都5ss23
+  - 悸沫君 直连成都1ss24
+  - 悸沫君 直连成都4ss25
+  - 悸沫君 直连成都6ss26
+  - 悸沫君 直连成都8ss27
+  - 悸沫君 直连成都2ss28
+  - 悸沫君 直连广州3ss29
+  - 悸沫君 _NL_荷兰ss30
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -918,74 +1134,93 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - yui科技vmess1
-  - 悸沫君 日本vmess2
-  - 悸沫君 美国vmess3
-  - 美国(玉豆免费节点)vmess4
-  - 悸沫君 美国vmess5
-  - 悸沫君_US_美国vmess6
-  - 顺丰资源 US__147vmess7
-  - 悸沫君 伯利兹vmess8
-  - 顺丰资源 US__112vmess9
-  - 乌克兰(玉豆免费节点)vmess10
-  - 悸沫君 日本vmess11
-  - 顺丰资源 SG 9vmess12
-  - 乌克兰(玉豆免费节点)vmess13
-  - 悸沫君 美国Linode数据中心 31vmess14
-  - 法国(玉豆免费节点)vmess15
-  - 顺丰资源 US 13vmess16
-  - 加拿大(玉豆免费节点)vmess17
-  - 悸沫君 美国vmess18
-  - 美国(玉豆免费节点)vmess19
-  - 悸沫君 _CN_中国vmess20
-  - 悸沫君 - 美国Linode数据中心 47vmess21
-  - 美国(玉豆免费节点)vmess22
-  - 顺丰资源 US__154vmess23
-  - 美国(玉豆免费节点)vmess24
-  - 悸沫君 - 丹麦  28vmess25
-  - 悸沫君 直连苏州9vmess26
-  - 悸沫君 直连苏州6vmess27
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess28
-  - 美国(玉豆免费节点)vmess29
-  - 悸沫君 _US_美国vmess30
+  - 悸沫君 日本vmess1
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess2
+  - yui科技vmess3
+  - 悸沫君 🇺🇸_US_美国_5vmess4
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess5
+  - 顺丰资源 US 13vmess6
+  - 悸沫君 🇺🇸_US_美国->🇬🇧_GB_英国vmess7
+  - 悸沫君 🇯🇵_JP_日本_1vmess8
+  - 悸沫君 🇨🇳_CN_中国vmess9
+  - 顺丰资源 SG 9vmess10
+  - 悸沫君 - 美国Linode数据中心 47vmess11
+  - 悸沫君 美国Linode数据中心 31vmess12
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess13
+  - 悸沫君 直连苏州9vmess14
+  - 乌克兰(玉豆免费节点)vmess15
+  - 悸沫君 直连苏州8vmess16
+  - 悸沫君 直连苏州3vmess17
+  - 悸沫君 直连苏州10vmess18
+  - 悸沫君 直连苏州4vmess19
+  - 悸沫君 直连苏州7vmess20
+  - 悸沫君 直连苏州5vmess21
+  - 悸沫君 直连苏州6vmess22
+  - 日本(玉豆免费节点)vmess23
+  - 悸沫君 🇺🇸_US_美国_3vmess24
+  - 悸沫君 直连苏州1vmess25
+  - 乌克兰(玉豆免费节点)vmess26
+  - 顺丰资源 US__112vmess27
+  - 悸沫君 - 美国CloudFlare节点 4vmess28
+  - 悸沫君 _CN_中国vmess29
+  - 悸沫君 🇺🇸_US_美国_2vmess30
   - 美国(玉豆免费节点)vmess31
-  - 顺丰资源 美国 42vmess32
-  - 悸沫君 直连苏州2vmess33
-  - 悸沫君 直连苏州1vmess34
-  - 悸沫君 直连苏州4vmess35
-  - 悸沫君 直连苏州3vmess36
-  - 悸沫君 直连苏州8vmess37
-  - 悸沫君 直连苏州10vmess38
-  - 悸沫君 直连苏州7vmess39
-  - 顺丰资源 US 36vmess40
-  - 悸沫君 日本vmess41
-  - 悸沫君 - 美国CloudFlare节点 28vmess42
-  - 美国(玉豆免费节点)vmess43
+  - 悸沫君 🇫🇷_FR_法国->🇨🇦_CA_加拿大vmess32
+  - 顺丰资源 US__147vmess33
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess34
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国vmess35
+  - 美国(玉豆免费节点)vmess36
+  - 悸沫君- 美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess37
+  - 悸沫君 直连苏州2vmess38
+  - 悸沫君 🇺🇸_US_美国vmess39
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess40
+  - 美国(玉豆免费节点)vmess41
+  - 加拿大(玉豆免费节点)vmess42
+  - 顺丰资源 US 36vmess43
   - 悸沫君 美国vmess44
-  - 悸沫君 直连苏州5vmess45
+  - 悸沫君 美国vmess45
+  - 顺丰资源 US__154vmess46
+  - 悸沫君 香港vmess47
+  - 悸沫君 _US_美国vmess48
+  - 美国(玉豆免费节点)vmess49
+  - 悸沫君 美国vmess50
+  - 悸沫君 🇺🇸_US_美国vmess51
+  - 悸沫君 美国vmess52
+  - 美国(@kxswa)vmess53
   - 🇺🇸_US_yui科技trojan1
-  - 顺丰资源+US+8trojan2
-  - 悸沫君_US_美国ss1
-  - 悸沫君 直连杭州19ss2
-  - 悸沫君 直连杭州20ss3
-  - 悸沫君 直连杭州18ss4
-  - 悸沫君 香港中转杭州19ss5
-  - 悸沫君 香港中转杭州20ss6
-  - 悸沫君 香港中转杭州16ss7
-  - 悸沫君 直连杭州14ss8
-  - 悸沫君 香港中转杭州18ss9
-  - 悸沫君 直连杭州12ss10
-  - 悸沫君 直连杭州16ss11
-  - 悸沫君 香港中转杭州14ss12
-  - 悸沫君 直连杭州17ss13
-  - 悸沫君 香港中转杭州15ss14
-  - 悸沫君 香港中转杭州17ss15
-  - 悸沫君 直连杭州13ss16
-  - 悸沫君 香港中转杭州13ss17
-  - 悸沫君 直连杭州15ss18
-  - 悸沫君 直连杭州11ss19
-  - 悸沫君 直连成都5ss20
-  - 悸沫君 直连成都10ss21
+  - 悸沫君 | cloudflare优%E9% 80%89trojan2
+  - 悸沫君 | cloudflare优%E9% 80%89trojan3
+  - 悸沫君 | cloudflare优%E9% 80%89trojan4
+  - 悸沫君 🇺🇸_US_美国ss1
+  - 悸沫君 直连杭州13ss2
+  - 悸沫君 直连广州5ss3
+  - 悸沫君 直连杭州17ss4
+  - 悸沫君 直连杭州20ss5
+  - 悸沫君 香港中转杭州16ss6
+  - 悸沫君 直连杭州16ss7
+  - 悸沫君 香港中转杭州19ss8
+  - 悸沫君 香港中转杭州20ss9
+  - 悸沫君 直连杭州19ss10
+  - 悸沫君 香港中转杭州15ss11
+  - 悸沫君 直连杭州11ss12
+  - 悸沫君 直连杭州15ss13
+  - 悸沫君 香港中转杭州18ss14
+  - 悸沫君 香港中转杭州13ss15
+  - 悸沫君 直连杭州18ss16
+  - 悸沫君 香港中转杭州17ss17
+  - 悸沫君 直连杭州14ss18
+  - 悸沫君 直连杭州12ss19
+  - 悸沫君 直连成都10ss20
+  - 悸沫君 直连成都3ss21
+  - 悸沫君 🇳🇱_NL_荷兰_2ss22
+  - 悸沫君 直连成都5ss23
+  - 悸沫君 直连成都1ss24
+  - 悸沫君 直连成都4ss25
+  - 悸沫君 直连成都6ss26
+  - 悸沫君 直连成都8ss27
+  - 悸沫君 直连成都2ss28
+  - 悸沫君 直连广州3ss29
+  - 悸沫君 _NL_荷兰ss30
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -997,221 +1232,278 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - yui科技vmess1
-  - 悸沫君 日本vmess2
-  - 悸沫君 美国vmess3
-  - 美国(玉豆免费节点)vmess4
-  - 悸沫君 美国vmess5
-  - 悸沫君_US_美国vmess6
-  - 顺丰资源 US__147vmess7
-  - 悸沫君 伯利兹vmess8
-  - 顺丰资源 US__112vmess9
-  - 乌克兰(玉豆免费节点)vmess10
-  - 悸沫君 日本vmess11
-  - 顺丰资源 SG 9vmess12
-  - 乌克兰(玉豆免费节点)vmess13
-  - 悸沫君 美国Linode数据中心 31vmess14
-  - 法国(玉豆免费节点)vmess15
-  - 顺丰资源 US 13vmess16
-  - 加拿大(玉豆免费节点)vmess17
-  - 悸沫君 美国vmess18
-  - 美国(玉豆免费节点)vmess19
-  - 悸沫君 _CN_中国vmess20
-  - 悸沫君 - 美国Linode数据中心 47vmess21
-  - 美国(玉豆免费节点)vmess22
-  - 顺丰资源 US__154vmess23
-  - 美国(玉豆免费节点)vmess24
-  - 悸沫君 - 丹麦  28vmess25
-  - 悸沫君 直连苏州9vmess26
-  - 悸沫君 直连苏州6vmess27
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess28
-  - 美国(玉豆免费节点)vmess29
-  - 悸沫君 _US_美国vmess30
+  - 悸沫君 日本vmess1
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess2
+  - yui科技vmess3
+  - 悸沫君 🇺🇸_US_美国_5vmess4
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess5
+  - 顺丰资源 US 13vmess6
+  - 悸沫君 🇺🇸_US_美国->🇬🇧_GB_英国vmess7
+  - 悸沫君 🇯🇵_JP_日本_1vmess8
+  - 悸沫君 🇨🇳_CN_中国vmess9
+  - 顺丰资源 SG 9vmess10
+  - 悸沫君 - 美国Linode数据中心 47vmess11
+  - 悸沫君 美国Linode数据中心 31vmess12
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess13
+  - 悸沫君 直连苏州9vmess14
+  - 乌克兰(玉豆免费节点)vmess15
+  - 悸沫君 直连苏州8vmess16
+  - 悸沫君 直连苏州3vmess17
+  - 悸沫君 直连苏州10vmess18
+  - 悸沫君 直连苏州4vmess19
+  - 悸沫君 直连苏州7vmess20
+  - 悸沫君 直连苏州5vmess21
+  - 悸沫君 直连苏州6vmess22
+  - 日本(玉豆免费节点)vmess23
+  - 悸沫君 🇺🇸_US_美国_3vmess24
+  - 悸沫君 直连苏州1vmess25
+  - 乌克兰(玉豆免费节点)vmess26
+  - 顺丰资源 US__112vmess27
+  - 悸沫君 - 美国CloudFlare节点 4vmess28
+  - 悸沫君 _CN_中国vmess29
+  - 悸沫君 🇺🇸_US_美国_2vmess30
   - 美国(玉豆免费节点)vmess31
-  - 顺丰资源 美国 42vmess32
-  - 悸沫君 直连苏州2vmess33
-  - 悸沫君 直连苏州1vmess34
-  - 悸沫君 直连苏州4vmess35
-  - 悸沫君 直连苏州3vmess36
-  - 悸沫君 直连苏州8vmess37
-  - 悸沫君 直连苏州10vmess38
-  - 悸沫君 直连苏州7vmess39
-  - 顺丰资源 US 36vmess40
-  - 悸沫君 日本vmess41
-  - 悸沫君 - 美国CloudFlare节点 28vmess42
-  - 美国(玉豆免费节点)vmess43
+  - 悸沫君 🇫🇷_FR_法国->🇨🇦_CA_加拿大vmess32
+  - 顺丰资源 US__147vmess33
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess34
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国vmess35
+  - 美国(玉豆免费节点)vmess36
+  - 悸沫君- 美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess37
+  - 悸沫君 直连苏州2vmess38
+  - 悸沫君 🇺🇸_US_美国vmess39
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess40
+  - 美国(玉豆免费节点)vmess41
+  - 加拿大(玉豆免费节点)vmess42
+  - 顺丰资源 US 36vmess43
   - 悸沫君 美国vmess44
-  - 悸沫君 直连苏州5vmess45
+  - 悸沫君 美国vmess45
+  - 顺丰资源 US__154vmess46
+  - 悸沫君 香港vmess47
+  - 悸沫君 _US_美国vmess48
+  - 美国(玉豆免费节点)vmess49
+  - 悸沫君 美国vmess50
+  - 悸沫君 🇺🇸_US_美国vmess51
+  - 悸沫君 美国vmess52
+  - 美国(@kxswa)vmess53
   - 🇺🇸_US_yui科技trojan1
-  - 顺丰资源+US+8trojan2
-  - 悸沫君_US_美国ss1
-  - 悸沫君 直连杭州19ss2
-  - 悸沫君 直连杭州20ss3
-  - 悸沫君 直连杭州18ss4
-  - 悸沫君 香港中转杭州19ss5
-  - 悸沫君 香港中转杭州20ss6
-  - 悸沫君 香港中转杭州16ss7
-  - 悸沫君 直连杭州14ss8
-  - 悸沫君 香港中转杭州18ss9
-  - 悸沫君 直连杭州12ss10
-  - 悸沫君 直连杭州16ss11
-  - 悸沫君 香港中转杭州14ss12
-  - 悸沫君 直连杭州17ss13
-  - 悸沫君 香港中转杭州15ss14
-  - 悸沫君 香港中转杭州17ss15
-  - 悸沫君 直连杭州13ss16
-  - 悸沫君 香港中转杭州13ss17
-  - 悸沫君 直连杭州15ss18
-  - 悸沫君 直连杭州11ss19
-  - 悸沫君 直连成都5ss20
-  - 悸沫君 直连成都10ss21
+  - 悸沫君 | cloudflare优%E9% 80%89trojan2
+  - 悸沫君 | cloudflare优%E9% 80%89trojan3
+  - 悸沫君 | cloudflare优%E9% 80%89trojan4
+  - 悸沫君 🇺🇸_US_美国ss1
+  - 悸沫君 直连杭州13ss2
+  - 悸沫君 直连广州5ss3
+  - 悸沫君 直连杭州17ss4
+  - 悸沫君 直连杭州20ss5
+  - 悸沫君 香港中转杭州16ss6
+  - 悸沫君 直连杭州16ss7
+  - 悸沫君 香港中转杭州19ss8
+  - 悸沫君 香港中转杭州20ss9
+  - 悸沫君 直连杭州19ss10
+  - 悸沫君 香港中转杭州15ss11
+  - 悸沫君 直连杭州11ss12
+  - 悸沫君 直连杭州15ss13
+  - 悸沫君 香港中转杭州18ss14
+  - 悸沫君 香港中转杭州13ss15
+  - 悸沫君 直连杭州18ss16
+  - 悸沫君 香港中转杭州17ss17
+  - 悸沫君 直连杭州14ss18
+  - 悸沫君 直连杭州12ss19
+  - 悸沫君 直连成都10ss20
+  - 悸沫君 直连成都3ss21
+  - 悸沫君 🇳🇱_NL_荷兰_2ss22
+  - 悸沫君 直连成都5ss23
+  - 悸沫君 直连成都1ss24
+  - 悸沫君 直连成都4ss25
+  - 悸沫君 直连成都6ss26
+  - 悸沫君 直连成都8ss27
+  - 悸沫君 直连成都2ss28
+  - 悸沫君 直连广州3ss29
+  - 悸沫君 _NL_荷兰ss30
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - yui科技vmess1
-  - 悸沫君 日本vmess2
-  - 悸沫君 美国vmess3
-  - 美国(玉豆免费节点)vmess4
-  - 悸沫君 美国vmess5
-  - 悸沫君_US_美国vmess6
-  - 顺丰资源 US__147vmess7
-  - 悸沫君 伯利兹vmess8
-  - 顺丰资源 US__112vmess9
-  - 乌克兰(玉豆免费节点)vmess10
-  - 悸沫君 日本vmess11
-  - 顺丰资源 SG 9vmess12
-  - 乌克兰(玉豆免费节点)vmess13
-  - 悸沫君 美国Linode数据中心 31vmess14
-  - 法国(玉豆免费节点)vmess15
-  - 顺丰资源 US 13vmess16
-  - 加拿大(玉豆免费节点)vmess17
-  - 悸沫君 美国vmess18
-  - 美国(玉豆免费节点)vmess19
-  - 悸沫君 _CN_中国vmess20
-  - 悸沫君 - 美国Linode数据中心 47vmess21
-  - 美国(玉豆免费节点)vmess22
-  - 顺丰资源 US__154vmess23
-  - 美国(玉豆免费节点)vmess24
-  - 悸沫君 - 丹麦  28vmess25
-  - 悸沫君 直连苏州9vmess26
-  - 悸沫君 直连苏州6vmess27
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess28
-  - 美国(玉豆免费节点)vmess29
-  - 悸沫君 _US_美国vmess30
+  - 悸沫君 日本vmess1
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess2
+  - yui科技vmess3
+  - 悸沫君 🇺🇸_US_美国_5vmess4
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess5
+  - 顺丰资源 US 13vmess6
+  - 悸沫君 🇺🇸_US_美国->🇬🇧_GB_英国vmess7
+  - 悸沫君 🇯🇵_JP_日本_1vmess8
+  - 悸沫君 🇨🇳_CN_中国vmess9
+  - 顺丰资源 SG 9vmess10
+  - 悸沫君 - 美国Linode数据中心 47vmess11
+  - 悸沫君 美国Linode数据中心 31vmess12
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess13
+  - 悸沫君 直连苏州9vmess14
+  - 乌克兰(玉豆免费节点)vmess15
+  - 悸沫君 直连苏州8vmess16
+  - 悸沫君 直连苏州3vmess17
+  - 悸沫君 直连苏州10vmess18
+  - 悸沫君 直连苏州4vmess19
+  - 悸沫君 直连苏州7vmess20
+  - 悸沫君 直连苏州5vmess21
+  - 悸沫君 直连苏州6vmess22
+  - 日本(玉豆免费节点)vmess23
+  - 悸沫君 🇺🇸_US_美国_3vmess24
+  - 悸沫君 直连苏州1vmess25
+  - 乌克兰(玉豆免费节点)vmess26
+  - 顺丰资源 US__112vmess27
+  - 悸沫君 - 美国CloudFlare节点 4vmess28
+  - 悸沫君 _CN_中国vmess29
+  - 悸沫君 🇺🇸_US_美国_2vmess30
   - 美国(玉豆免费节点)vmess31
-  - 顺丰资源 美国 42vmess32
-  - 悸沫君 直连苏州2vmess33
-  - 悸沫君 直连苏州1vmess34
-  - 悸沫君 直连苏州4vmess35
-  - 悸沫君 直连苏州3vmess36
-  - 悸沫君 直连苏州8vmess37
-  - 悸沫君 直连苏州10vmess38
-  - 悸沫君 直连苏州7vmess39
-  - 顺丰资源 US 36vmess40
-  - 悸沫君 日本vmess41
-  - 悸沫君 - 美国CloudFlare节点 28vmess42
-  - 美国(玉豆免费节点)vmess43
+  - 悸沫君 🇫🇷_FR_法国->🇨🇦_CA_加拿大vmess32
+  - 顺丰资源 US__147vmess33
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess34
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国vmess35
+  - 美国(玉豆免费节点)vmess36
+  - 悸沫君- 美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess37
+  - 悸沫君 直连苏州2vmess38
+  - 悸沫君 🇺🇸_US_美国vmess39
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess40
+  - 美国(玉豆免费节点)vmess41
+  - 加拿大(玉豆免费节点)vmess42
+  - 顺丰资源 US 36vmess43
   - 悸沫君 美国vmess44
-  - 悸沫君 直连苏州5vmess45
+  - 悸沫君 美国vmess45
+  - 顺丰资源 US__154vmess46
+  - 悸沫君 香港vmess47
+  - 悸沫君 _US_美国vmess48
+  - 美国(玉豆免费节点)vmess49
+  - 悸沫君 美国vmess50
+  - 悸沫君 🇺🇸_US_美国vmess51
+  - 悸沫君 美国vmess52
+  - 美国(@kxswa)vmess53
   - 🇺🇸_US_yui科技trojan1
-  - 顺丰资源+US+8trojan2
-  - 悸沫君_US_美国ss1
-  - 悸沫君 直连杭州19ss2
-  - 悸沫君 直连杭州20ss3
-  - 悸沫君 直连杭州18ss4
-  - 悸沫君 香港中转杭州19ss5
-  - 悸沫君 香港中转杭州20ss6
-  - 悸沫君 香港中转杭州16ss7
-  - 悸沫君 直连杭州14ss8
-  - 悸沫君 香港中转杭州18ss9
-  - 悸沫君 直连杭州12ss10
-  - 悸沫君 直连杭州16ss11
-  - 悸沫君 香港中转杭州14ss12
-  - 悸沫君 直连杭州17ss13
-  - 悸沫君 香港中转杭州15ss14
-  - 悸沫君 香港中转杭州17ss15
-  - 悸沫君 直连杭州13ss16
-  - 悸沫君 香港中转杭州13ss17
-  - 悸沫君 直连杭州15ss18
-  - 悸沫君 直连杭州11ss19
-  - 悸沫君 直连成都5ss20
-  - 悸沫君 直连成都10ss21
+  - 悸沫君 | cloudflare优%E9% 80%89trojan2
+  - 悸沫君 | cloudflare优%E9% 80%89trojan3
+  - 悸沫君 | cloudflare优%E9% 80%89trojan4
+  - 悸沫君 🇺🇸_US_美国ss1
+  - 悸沫君 直连杭州13ss2
+  - 悸沫君 直连广州5ss3
+  - 悸沫君 直连杭州17ss4
+  - 悸沫君 直连杭州20ss5
+  - 悸沫君 香港中转杭州16ss6
+  - 悸沫君 直连杭州16ss7
+  - 悸沫君 香港中转杭州19ss8
+  - 悸沫君 香港中转杭州20ss9
+  - 悸沫君 直连杭州19ss10
+  - 悸沫君 香港中转杭州15ss11
+  - 悸沫君 直连杭州11ss12
+  - 悸沫君 直连杭州15ss13
+  - 悸沫君 香港中转杭州18ss14
+  - 悸沫君 香港中转杭州13ss15
+  - 悸沫君 直连杭州18ss16
+  - 悸沫君 香港中转杭州17ss17
+  - 悸沫君 直连杭州14ss18
+  - 悸沫君 直连杭州12ss19
+  - 悸沫君 直连成都10ss20
+  - 悸沫君 直连成都3ss21
+  - 悸沫君 🇳🇱_NL_荷兰_2ss22
+  - 悸沫君 直连成都5ss23
+  - 悸沫君 直连成都1ss24
+  - 悸沫君 直连成都4ss25
+  - 悸沫君 直连成都6ss26
+  - 悸沫君 直连成都8ss27
+  - 悸沫君 直连成都2ss28
+  - 悸沫君 直连广州3ss29
+  - 悸沫君 _NL_荷兰ss30
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - yui科技vmess1
-  - 悸沫君 日本vmess2
-  - 悸沫君 美国vmess3
-  - 美国(玉豆免费节点)vmess4
-  - 悸沫君 美国vmess5
-  - 悸沫君_US_美国vmess6
-  - 顺丰资源 US__147vmess7
-  - 悸沫君 伯利兹vmess8
-  - 顺丰资源 US__112vmess9
-  - 乌克兰(玉豆免费节点)vmess10
-  - 悸沫君 日本vmess11
-  - 顺丰资源 SG 9vmess12
-  - 乌克兰(玉豆免费节点)vmess13
-  - 悸沫君 美国Linode数据中心 31vmess14
-  - 法国(玉豆免费节点)vmess15
-  - 顺丰资源 US 13vmess16
-  - 加拿大(玉豆免费节点)vmess17
-  - 悸沫君 美国vmess18
-  - 美国(玉豆免费节点)vmess19
-  - 悸沫君 _CN_中国vmess20
-  - 悸沫君 - 美国Linode数据中心 47vmess21
-  - 美国(玉豆免费节点)vmess22
-  - 顺丰资源 US__154vmess23
-  - 美国(玉豆免费节点)vmess24
-  - 悸沫君 - 丹麦  28vmess25
-  - 悸沫君 直连苏州9vmess26
-  - 悸沫君 直连苏州6vmess27
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess28
-  - 美国(玉豆免费节点)vmess29
-  - 悸沫君 _US_美国vmess30
+  - 悸沫君 日本vmess1
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess2
+  - yui科技vmess3
+  - 悸沫君 🇺🇸_US_美国_5vmess4
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess5
+  - 顺丰资源 US 13vmess6
+  - 悸沫君 🇺🇸_US_美国->🇬🇧_GB_英国vmess7
+  - 悸沫君 🇯🇵_JP_日本_1vmess8
+  - 悸沫君 🇨🇳_CN_中国vmess9
+  - 顺丰资源 SG 9vmess10
+  - 悸沫君 - 美国Linode数据中心 47vmess11
+  - 悸沫君 美国Linode数据中心 31vmess12
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess13
+  - 悸沫君 直连苏州9vmess14
+  - 乌克兰(玉豆免费节点)vmess15
+  - 悸沫君 直连苏州8vmess16
+  - 悸沫君 直连苏州3vmess17
+  - 悸沫君 直连苏州10vmess18
+  - 悸沫君 直连苏州4vmess19
+  - 悸沫君 直连苏州7vmess20
+  - 悸沫君 直连苏州5vmess21
+  - 悸沫君 直连苏州6vmess22
+  - 日本(玉豆免费节点)vmess23
+  - 悸沫君 🇺🇸_US_美国_3vmess24
+  - 悸沫君 直连苏州1vmess25
+  - 乌克兰(玉豆免费节点)vmess26
+  - 顺丰资源 US__112vmess27
+  - 悸沫君 - 美国CloudFlare节点 4vmess28
+  - 悸沫君 _CN_中国vmess29
+  - 悸沫君 🇺🇸_US_美国_2vmess30
   - 美国(玉豆免费节点)vmess31
-  - 顺丰资源 美国 42vmess32
-  - 悸沫君 直连苏州2vmess33
-  - 悸沫君 直连苏州1vmess34
-  - 悸沫君 直连苏州4vmess35
-  - 悸沫君 直连苏州3vmess36
-  - 悸沫君 直连苏州8vmess37
-  - 悸沫君 直连苏州10vmess38
-  - 悸沫君 直连苏州7vmess39
-  - 顺丰资源 US 36vmess40
-  - 悸沫君 日本vmess41
-  - 悸沫君 - 美国CloudFlare节点 28vmess42
-  - 美国(玉豆免费节点)vmess43
+  - 悸沫君 🇫🇷_FR_法国->🇨🇦_CA_加拿大vmess32
+  - 顺丰资源 US__147vmess33
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess34
+  - 悸沫君 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国vmess35
+  - 美国(玉豆免费节点)vmess36
+  - 悸沫君- 美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess37
+  - 悸沫君 直连苏州2vmess38
+  - 悸沫君 🇺🇸_US_美国vmess39
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess40
+  - 美国(玉豆免费节点)vmess41
+  - 加拿大(玉豆免费节点)vmess42
+  - 顺丰资源 US 36vmess43
   - 悸沫君 美国vmess44
-  - 悸沫君 直连苏州5vmess45
+  - 悸沫君 美国vmess45
+  - 顺丰资源 US__154vmess46
+  - 悸沫君 香港vmess47
+  - 悸沫君 _US_美国vmess48
+  - 美国(玉豆免费节点)vmess49
+  - 悸沫君 美国vmess50
+  - 悸沫君 🇺🇸_US_美国vmess51
+  - 悸沫君 美国vmess52
+  - 美国(@kxswa)vmess53
   - 🇺🇸_US_yui科技trojan1
-  - 顺丰资源+US+8trojan2
-  - 悸沫君_US_美国ss1
-  - 悸沫君 直连杭州19ss2
-  - 悸沫君 直连杭州20ss3
-  - 悸沫君 直连杭州18ss4
-  - 悸沫君 香港中转杭州19ss5
-  - 悸沫君 香港中转杭州20ss6
-  - 悸沫君 香港中转杭州16ss7
-  - 悸沫君 直连杭州14ss8
-  - 悸沫君 香港中转杭州18ss9
-  - 悸沫君 直连杭州12ss10
-  - 悸沫君 直连杭州16ss11
-  - 悸沫君 香港中转杭州14ss12
-  - 悸沫君 直连杭州17ss13
-  - 悸沫君 香港中转杭州15ss14
-  - 悸沫君 香港中转杭州17ss15
-  - 悸沫君 直连杭州13ss16
-  - 悸沫君 香港中转杭州13ss17
-  - 悸沫君 直连杭州15ss18
-  - 悸沫君 直连杭州11ss19
-  - 悸沫君 直连成都5ss20
-  - 悸沫君 直连成都10ss21
+  - 悸沫君 | cloudflare优%E9% 80%89trojan2
+  - 悸沫君 | cloudflare优%E9% 80%89trojan3
+  - 悸沫君 | cloudflare优%E9% 80%89trojan4
+  - 悸沫君 🇺🇸_US_美国ss1
+  - 悸沫君 直连杭州13ss2
+  - 悸沫君 直连广州5ss3
+  - 悸沫君 直连杭州17ss4
+  - 悸沫君 直连杭州20ss5
+  - 悸沫君 香港中转杭州16ss6
+  - 悸沫君 直连杭州16ss7
+  - 悸沫君 香港中转杭州19ss8
+  - 悸沫君 香港中转杭州20ss9
+  - 悸沫君 直连杭州19ss10
+  - 悸沫君 香港中转杭州15ss11
+  - 悸沫君 直连杭州11ss12
+  - 悸沫君 直连杭州15ss13
+  - 悸沫君 香港中转杭州18ss14
+  - 悸沫君 香港中转杭州13ss15
+  - 悸沫君 直连杭州18ss16
+  - 悸沫君 香港中转杭州17ss17
+  - 悸沫君 直连杭州14ss18
+  - 悸沫君 直连杭州12ss19
+  - 悸沫君 直连成都10ss20
+  - 悸沫君 直连成都3ss21
+  - 悸沫君 🇳🇱_NL_荷兰_2ss22
+  - 悸沫君 直连成都5ss23
+  - 悸沫君 直连成都1ss24
+  - 悸沫君 直连成都4ss25
+  - 悸沫君 直连成都6ss26
+  - 悸沫君 直连成都8ss27
+  - 悸沫君 直连成都2ss28
+  - 悸沫君 直连广州3ss29
+  - 悸沫君 _NL_荷兰ss30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
