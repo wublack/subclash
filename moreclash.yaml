@@ -26,44 +26,7 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 悸沫君 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess1
-  type: vmess
-  server: 36.156.102.166
-  port: '10001'
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君 🇺🇸_US_美国_3vmess2
-  type: vmess
-  server: get.tech
-  port: '80'
-  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shared
-  ws-headers:
-    Host: lv.awsbest.com
-- name: yui科技_🇺🇸_USvmess3
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: de-1.sharecentre.online
-  tls: true
-- name: yui科技_🇺🇸_USvmess4
+- name: yui科技_🇺🇸_USvmess1
   type: vmess
   server: mncc.cf
   port: '443'
@@ -76,22 +39,9 @@ proxies:
   ws-headers:
     Host: mncc.cf
   tls: true
-- name: yui科技_🇺🇸_USvmess5
+- name: 玉豆_🇺🇸_USvmess2
   type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: uk-1.sharecentre.online
-  tls: true
-- name: yui科技_🇺🇸_USvmess6
-  type: vmess
-  server: 66.235.200.21
+  server: 141.193.213.20
   port: '443'
   uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: '0'
@@ -102,46 +52,19 @@ proxies:
   ws-headers:
     Host: oplg1.zhujicn2.com
   tls: true
-- name: yui科技_🇧🇿_BZvmess7
+- name: yui科技vmess3
   type: vmess
-  server: 203.30.188.188
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
+  server: 47.104.237.32
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
   ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
+  network: tcp
+  ws-path: ''
   ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: yui科技_🇺🇸_USvmess8
-  type: vmess
-  server: 103.21.244.227
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: CA-177-89.shoptunnel.live
-  tls: true
-- name: yui科技_🇺🇸_USvmess9
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: de-1.sharecentre.online
-  tls: true
-- name: yui科技_🇺🇸_USvmess10
+    Host: ''
+- name: yui科技_🇺🇸_USvmess4
   type: vmess
   server: 172.67.115.249
   port: '8443'
@@ -154,265 +77,7 @@ proxies:
   ws-headers:
     Host: IN-92-99.shoptunnel.live
   tls: true
-- name: yui科技_🇺🇸_USvmess11
-  type: vmess
-  server: 66.235.200.22
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: yui科技_🇫🇷_FRvmess12
-  type: vmess
-  server: 173.245.49.156
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: CA-177-89.shoptunnel.live
-  tls: true
-- name: 悸沫君 🇺🇸_US_美国vmess13
-  type: vmess
-  server: zhuyong.hucloud-dns.xyz
-  port: '443'
-  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /huhublog
-  ws-headers:
-    Host: zhuyong.hucloud-dns.xyz
-  tls: true
-- name: yui科技vmess14
-  type: vmess
-  server: 47.104.237.32
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: yui科技_🇫🇷_FRvmess15
-  type: vmess
-  server: 173.245.49.111
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: yui科技_🇺🇸_USvmess16
-  type: vmess
-  server: 172.67.141.197
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: US-42-153.shoptunnel.live
-  tls: true
-- name: 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess17
-  type: vmess
-  server: 173.245.49.8
-  port: '443'
-  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /huhublog
-  ws-headers:
-    Host: zhuyong.hucloud-dns.xyz
-  tls: true
-- name: yui科技_🇫🇷_FRvmess18
-  type: vmess
-  server: 173.245.49.238
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: yui科技_🇺🇸_USvmess19
-  type: vmess
-  server: oplg1.zhujicn2.com
-  port: '443'
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5QNROSRV
-  ws-headers:
-    Host: ''
-  tls: true
-- name: yui科技_🇺🇸_USvmess20
-  type: vmess
-  server: hucloud.tk
-  port: '443'
-  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /huhu
-  ws-headers:
-    Host: ''
-  tls: true
-- name: yui科技_🇦🇲_AMvmess21
-  type: vmess
-  server: 185.162.228.228
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: 日本(玉豆免费节点)vmess22
-  type: vmess
-  server: tky2.nicecdns.com
-  port: '443'
-  uuid: 9f08a36d-d01e-46ab-a3ac-14a548c8b3e6
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /CCTV6/hd.m3u8
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 美国(玉豆免费节点)vmess23
-  type: vmess
-  server: investors.spotify.com
-  port: '443'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/Ertusg86/635014638c264/
-  ws-headers:
-    Host: sg-lb.vhax.net
-  tls: true
-- name: yui科技_🇧🇿_BZvmess24
-  type: vmess
-  server: 203.30.191.10
-  port: '443'
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /AUIKN8AU
-  ws-headers:
-    Host: oplg1.cfcdn2.xyz
-  tls: true
-- name: 悸沫君 🇺🇸_US_美国_11vmess25
-  type: vmess
-  server: 108.162.192.55
-  port: '80'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
-  ws-headers:
-    Host: us-lb.sshkit.org
-- name: yui科技_🇺🇸_USvmess26
-  type: vmess
-  server: 103.21.244.107
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: 悸沫君-美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess27
-  type: vmess
-  server: 173.245.49.8
-  port: '443'
-  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /huhublog
-  ws-headers:
-    Host: zhuyong.hucloud-dns.xyz
-  tls: true
-- name: 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess28
-  type: vmess
-  server: 203.30.190.190
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: yui科技_🇺🇸_USvmess29
-  type: vmess
-  server: cvywfavasdc.cymlr.xyz
-  port: '443'
-  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ksebupo
-  ws-headers:
-    Host: ''
-  tls: true
-- name: yui科技_🇺🇸_USvmess30
-  type: vmess
-  server: 103.21.244.142
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: CA-177-89.shoptunnel.live
-  tls: true
-- name: 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess31
+- name: yui科技_🇧🇿_BZvmess5
   type: vmess
   server: 203.30.188.188
   port: '443'
@@ -425,85 +90,7 @@ proxies:
   ws-headers:
     Host: lg1.trump2023.us
   tls: true
-- name: yui科技_🇫🇷_FRvmess32
-  type: vmess
-  server: 173.245.49.113
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: yui科技_🇺🇸_USvmess33
-  type: vmess
-  server: mncc.cf
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: ''
-  tls: true
-- name: yui科技_🇺🇸_USvmess34
-  type: vmess
-  server: 103.21.244.113
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: CA-177-89.shoptunnel.live
-  tls: true
-- name: yui科技_🇺🇸_USvmess35
-  type: vmess
-  server: 103.21.244.248
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: yui科技_🇫🇷_FRvmess36
-  type: vmess
-  server: 173.245.49.23
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: 乌克兰(玉豆免费节点)vmess37
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: yui科技_🇧🇿_BZvmess38
+- name: yui科技_🇧🇿_BZvmess6
   type: vmess
   server: 203.30.189.190
   port: '443'
@@ -516,47 +103,9 @@ proxies:
   ws-headers:
     Host: oplg1.zhujicn2.com
   tls: true
-- name: 悸沫君-美国CloudFlare节点 4vmess39
+- name: yui科技_🇫🇷_FRvmess7
   type: vmess
-  server: get.tech
-  port: '80'
-  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shared
-  ws-headers:
-    Host: lv.awsbest.com
-- name: yui科技_🇺🇸_USvmess40
-  type: vmess
-  server: mncc.cf
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: mncc.cf
-  tls: true
-- name: yui科技_🇺🇸_USvmess41
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: uk-2.sharecentre.online
-  tls: true
-- name: yui科技_🇺🇸_USvmess42
-  type: vmess
-  server: 172.67.27.213
+  server: 173.245.49.57
   port: '8443'
   uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
   alterId: '0'
@@ -567,9 +116,356 @@ proxies:
   ws-headers:
     Host: IN-92-99.shoptunnel.live
   tls: true
-- name: 🇺🇸_US_yui科技vmess43
+- name: yui科技_🇺🇸_USvmess8
   type: vmess
-  server: 103.21.244.248
+  server: cvywfavasdc.cymlr.xyz
+  port: '443'
+  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ksebupo
+  ws-headers:
+    Host: ''
+  tls: true
+- name: yui科技_🇺🇸_USvmess9
+  type: vmess
+  server: 103.21.244.107
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: IN-92-99.shoptunnel.live
+  tls: true
+- name: yui科技_🇫🇷_FRvmess10
+  type: vmess
+  server: 173.245.49.111
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: IN-92-99.shoptunnel.live
+  tls: true
+- name: 玉豆_🇺🇸_USvmess11
+  type: vmess
+  server: 203.24.108.8
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: yui科技_🇫🇷_FRvmess12
+  type: vmess
+  server: 173.245.49.156
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: IN-92-99.shoptunnel.live
+  tls: true
+- name: 玉豆_🇺🇸_USvmess13
+  type: vmess
+  server: new3.hucloud-dns.xyz
+  port: '443'
+  uuid: 2926bbcf-eef0-4d0d-d8a7-400e417608aa
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: new3.hucloud-dns.xyz
+  tls: true
+- name: 玉豆_🇺🇸_USvmess14
+  type: vmess
+  server: 112.33.52.59
+  port: '3101'
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 玉豆 法国vmess15
+  type: vmess
+  server: news.microsoft.com
+  port: '443'
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /9JZFDTKE
+  ws-headers:
+    Host: fr1.trump2023.org
+  tls: true
+- name: 玉豆_🇺🇸_USvmess16
+  type: vmess
+  server: 23.227.38.38
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: 悸沫君 🇨🇳_CN_中国vmess17
+  type: vmess
+  server: 39.103.165.178
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君 🇺🇸_US_美国_2vmess18
+  type: vmess
+  server: hucloud.tk
+  port: '443'
+  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhu
+  ws-headers:
+    Host: hucloud.tk
+  tls: true
+- name: 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess19
+  type: vmess
+  server: 173.245.49.8
+  port: '443'
+  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhublog
+  ws-headers:
+    Host: zhuyong.hucloud-dns.xyz
+  tls: true
+- name: 玉豆_🇺🇸_USvmess20
+  type: vmess
+  server: 203.30.189.189
+  port: '443'
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ECTCJ0DF
+  ws-headers:
+    Host: lg1.trump2023.us
+  tls: true
+- name: yui科技_🇺🇸_USvmess21
+  type: vmess
+  server: 172.67.127.250
+  port: '443'
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /9JZFDTKE
+  ws-headers:
+    Host: fr1.trump2023.org
+  tls: true
+- name: yui科技_🇫🇷_FRvmess22
+  type: vmess
+  server: 173.245.49.55
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: IN-92-99.shoptunnel.live
+  tls: true
+- name: yui科技_🇺🇸_USvmess23
+  type: vmess
+  server: cvywfavasdc.cymlr.xyz
+  port: '443'
+  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ksebupo
+  ws-headers:
+    Host: cvywfavasdc.cymlr.xyz
+  tls: true
+- name: 顺丰资源 US 36vmess24
+  type: vmess
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5rtP40gj/
+  ws-headers:
+    Host: v2ray.ibgfw.top
+  tls: true
+- name: 顺丰资源 US__112vmess25
+  type: vmess
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: c28ba523-64d3-4059-a9b7-a5f0f74527f7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5rtP40gj/
+  ws-headers:
+    Host: v2ray.ibgfw.top
+  tls: true
+- name: 玉豆 新加坡vmess26
+  type: vmess
+  server: free-sg.tencent.cfd
+  port: '61616'
+  uuid: d1860587-aa33-4b76-85cd-c191edecb338
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /videos
+  ws-headers:
+    Host: ''
+- name: 玉豆 日本vmess27
+  type: vmess
+  server: jp04.wxfz.ga
+  port: '80'
+  uuid: a0733fc9-457e-498d-c363-9ec774a74948
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /jun
+  ws-headers:
+    Host: ''
+- name: 悸沫君 🇺🇸_US_美国vmess28
+  type: vmess
+  server: zhuyong.hucloud-dns.xyz
+  port: '443'
+  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhublog
+  ws-headers:
+    Host: zhuyong.hucloud-dns.xyz
+  tls: true
+- name: 玉豆 🇺🇸_USvmess29
+  type: vmess
+  server: 203.30.191.6
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 顺丰资源 US__154vmess30
+  type: vmess
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: 71cd0fe5-6f4f-4ce1-941c-d56c3bb090a7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5rtP40gj/
+  ws-headers:
+    Host: v2ray.ibgfw.top
+  tls: true
+- name: 玉豆_🇺🇸_USvmess31
+  type: vmess
+  server: 172.67.203.162
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: yui科技_🇺🇸_USvmess32
+  type: vmess
+  server: oplg1.zhujicn2.com
+  port: '443'
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5QNROSRV
+  ws-headers:
+    Host: ''
+  tls: true
+- name: yui科技_🇺🇸_USvmess33
+  type: vmess
+  server: hucloud.tk
+  port: '443'
+  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhu
+  ws-headers:
+    Host: ''
+  tls: true
+- name: yui科技_🇺🇸_USvmess34
+  type: vmess
+  server: tky2.nicecdns.com
+  port: '443'
+  uuid: 9f08a36d-d01e-46ab-a3ac-14a548c8b3e6
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /CCTV6/hd.m3u8
+  ws-headers:
+    Host: tky2.nicecdns.com
+  tls: true
+- name: yui科技_🇺🇸_USvmess35
+  type: vmess
+  server: 103.21.244.113
   port: '8443'
   uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
   alterId: '0'
@@ -579,6 +475,109 @@ proxies:
   ws-path: /8cda48b3
   ws-headers:
     Host: CA-177-89.shoptunnel.live
+  tls: true
+- name: 玉豆_🇺🇸_USvmess36
+  type: vmess
+  server: 172.67.190.145
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: CA-177-89.shoptunnel.live
+  tls: true
+- name: 玉豆_🇺🇸_USvmess37
+  type: vmess
+  server: 172.67.141.197
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: US-42-153.shoptunnel.live
+  tls: true
+- name: 顺丰资源 US 13vmess38
+  type: vmess
+  server: els200.jslist.tk
+  port: '8443'
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /wo.php
+  ws-headers:
+    Host: els200.jslist.tk
+  tls: true
+- name: 玉豆_🇺🇸_USvmess39
+  type: vmess
+  server: free-us.tencent.cfd
+  port: '61616'
+  uuid: d1860587-aa33-4b76-85cd-c191edecb338
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /videos
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇺🇸US-🇺🇸US_245vmess40
+  type: vmess
+  server: hucloud.tk
+  port: '443'
+  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhu
+  ws-headers:
+    Host: hucloud.tk
+  tls: true
+- name: 玉豆_🇺🇸_USvmess41
+  type: vmess
+  server: tky2.nicecdns.com
+  port: '443'
+  uuid: 9f08a36d-d01e-46ab-a3ac-14a548c8b3e6
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /CCTV6/hd.m3u8
+  ws-headers:
+    Host: tky2.nicecdns.com
+  tls: true
+- name: yui科技_🇫🇷_FRvmess42
+  type: vmess
+  server: 173.245.49.156
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: CA-177-89.shoptunnel.live
+  tls: true
+- name: 玉豆 乌克兰vmess43
+  type: vmess
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /5rtP40gj/
+  ws-headers:
+    Host: v2ray.ibgfw.top
   tls: true
 - name: yui科技_🇺🇸_USvmess44
   type: vmess
@@ -593,176 +592,20 @@ proxies:
   ws-headers:
     Host: uk-1.sharecentre.online
   tls: true
-- name: yui科技_🇧🇿_BZvmess45
+- name: yui科技_🇺🇸_USvmess45
   type: vmess
-  server: 203.30.190.192
+  server: cf-lt.sharecentre.online
   port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /A2DJOPFT
+  ws-path: /shirker
   ws-headers:
-    Host: lg10.cfcdn1.xyz
+    Host: uk-1.sharecentre.online
   tls: true
-- name: 顺丰资源 US__154vmess46
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: 71cd0fe5-6f4f-4ce1-941c-d56c3bb090a7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: yui科技_🇺🇸_USvmess47
-  type: vmess
-  server: cvywfavasdc.cymlr.xyz
-  port: '443'
-  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ksebupo
-  ws-headers:
-    Host: cvywfavasdc.cymlr.xyz
-  tls: true
-- name: yui科技_🇺🇸_USvmess48
-  type: vmess
-  server: 103.21.244.249
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: CA-177-89.shoptunnel.live
-  tls: true
-- name: 乌克兰(玉豆免费节点)vmess49
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: c28ba523-64d3-4059-a9b7-a5f0f74527f7
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: yui科技_🇫🇷_FRvmess50
-  type: vmess
-  server: 173.245.49.55
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: 悸沫君_🇺🇸US-🇺🇸US_245vmess51
-  type: vmess
-  server: hucloud.tk
-  port: '443'
-  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /huhu
-  ws-headers:
-    Host: hucloud.tk
-  tls: true
-- name: 美国(玉豆免费节点)vmess52
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: f23b7338-84f7-476c-8c24-d116f181ab85
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: 顺丰资源 US 36vmess53
-  type: vmess
-  server: v2ray.ibgfw.top
-  port: '2083'
-  uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /5rtP40gj/
-  ws-headers:
-    Host: v2ray.ibgfw.top
-  tls: true
-- name: 悸沫君 🇺🇸_US_美国_2vmess54
-  type: vmess
-  server: hucloud.tk
-  port: '443'
-  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /huhu
-  ws-headers:
-    Host: hucloud.tk
-  tls: true
-- name: yui科技_🇺🇸_USvmess55
-  type: vmess
-  server: 103.21.244.91
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: CA-177-89.shoptunnel.live
-  tls: true
-- name: yui科技_🇧🇿_BZvmess56
-  type: vmess
-  server: 203.30.188.190
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /A2DJOPFT
-  ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: 美国(玉豆免费节点)vmess57
-  type: vmess
-  server: tky2.nicecdns.com
-  port: '443'
-  uuid: 9f08a36d-d01e-46ab-a3ac-14a548c8b3e6
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /CCTV6/hd.m3u8
-  ws-headers:
-    Host: tky2.nicecdns.com
-  tls: true
-- name: yui科技_🇯🇵_JPvmess58
+- name: yui科技_🇯🇵_JPvmess46
   type: vmess
   server: 138.2.35.81
   port: '80'
@@ -774,7 +617,20 @@ proxies:
   ws-path: /jun
   ws-headers:
     Host: 138.2.35.81
-- name: yui科技_🇺🇸_USvmess59
+- name: yui科技_🇺🇸_USvmess47
+  type: vmess
+  server: 172.67.141.197
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: US-42-153.shoptunnel.live
+  tls: true
+- name: yui科技_🇺🇸_USvmess48
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -785,11 +641,11 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: kh.sharecentre.online
+    Host: de-1.sharecentre.online
   tls: true
-- name: 美国(玉豆免费节点)vmess60
+- name: yui科技_🇫🇷_FRvmess49
   type: vmess
-  server: 172.67.174.51
+  server: 173.245.49.23
   port: '8443'
   uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
   alterId: '0'
@@ -800,20 +656,7 @@ proxies:
   ws-headers:
     Host: IN-92-99.shoptunnel.live
   tls: true
-- name: yui科技_🇺🇸_USvmess61
-  type: vmess
-  server: 103.21.244.19
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: CA-177-89.shoptunnel.live
-  tls: true
-- name: yui科技_🇺🇸_USvmess62
+- name: yui科技_🇺🇸_USvmess50
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -824,9 +667,9 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: us-dp2.sharecentre.online
+    Host: uk-2.sharecentre.online
   tls: true
-- name: 顺丰资源 US__147vmess63
+- name: 玉豆 🇺🇸_USvmess51
   type: vmess
   server: v2ray.ibgfw.top
   port: '2083'
@@ -839,32 +682,57 @@ proxies:
   ws-headers:
     Host: v2ray.ibgfw.top
   tls: true
-- name: yui科技_🇺🇸_USvmess64
+- name: 顺丰资源 US__147vmess52
   type: vmess
-  server: tky2.nicecdns.com
-  port: '443'
-  uuid: 9f08a36d-d01e-46ab-a3ac-14a548c8b3e6
+  server: v2ray.ibgfw.top
+  port: '2083'
+  uuid: f23b7338-84f7-476c-8c24-d116f181ab85
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /CCTV6/hd.m3u8
+  ws-path: /5rtP40gj/
   ws-headers:
-    Host: tky2.nicecdns.com
+    Host: v2ray.ibgfw.top
   tls: true
-- name: yui科技_🇯🇵_JPvmess65
+- name: 玉豆_🇺🇸_USvmess53
   type: vmess
-  server: 138.2.35.81
-  port: '80'
-  uuid: a0733fc9-457e-498d-c363-9ec774a74948
+  server: no.aries.ovh
+  port: '2052'
+  uuid: 12c3b55f-f225-4daa-adf3-39f8cf3969ed
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /jun
+  ws-path: /aries?ed=2048
   ws-headers:
-    Host: ''
-- name: yui科技_🇺🇸_USvmess66
+    Host: buyvm.cloudflare.quest
+- name: 玉豆_🇺🇸_USvmess54
+  type: vmess
+  server: no.aries.ovh
+  port: '2052'
+  uuid: 12c3b55f-f225-4daa-adf3-39f8cf3969ed
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: netherlands.cloudflare.quest
+- name: 悸沫君 美国Linode数据中心 31vmess55
+  type: vmess
+  server: vuk1.0bad.com
+  port: '443'
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vuk1.0bad.com
+  tls: true
+- name: yui科技_🇺🇸_USvmess56
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -877,9 +745,34 @@ proxies:
   ws-headers:
     Host: de-2.sharecentre.online
   tls: true
-- name: yui科技_🇨🇾_CYvmess67
+- name: 玉豆_🇯🇵_JPvmess57
   type: vmess
-  server: 203.24.108.10
+  server: 138.2.35.81
+  port: '80'
+  uuid: a0733fc9-457e-498d-c363-9ec774a74948
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /jun
+  ws-headers:
+    Host: ''
+- name: 玉豆_🇺🇸_USvmess58
+  type: vmess
+  server: ovh-3.555530.xyz
+  port: '443'
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /AUIKN8AU
+  ws-headers:
+    Host: oplg1.cfcdn2.xyz
+  tls: true
+- name: 玉豆_🇺🇸_USvmess59
+  type: vmess
+  server: 162.159.135.42
   port: '443'
   uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: '0'
@@ -890,7 +783,171 @@ proxies:
   ws-headers:
     Host: lg10.cfcdn1.xyz
   tls: true
-- name: yui科技_undefinedvmess68
+- name: yui科技_🇺🇸_USvmess60
+  type: vmess
+  server: 103.21.244.142
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: CA-177-89.shoptunnel.live
+  tls: true
+- name: 玉豆_🇯🇵_JPvmess61
+  type: vmess
+  server: 138.2.35.81
+  port: '80'
+  uuid: a0733fc9-457e-498d-c363-9ec774a74948
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /jun
+  ws-headers:
+    Host: 138.2.35.81
+- name: 玉豆_🇺🇸_USvmess62
+  type: vmess
+  server: no.aries.ovh
+  port: '2052'
+  uuid: 12c3b55f-f225-4daa-adf3-39f8cf3969ed
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: ovh-sg.cloudflare.quest
+- name: 玉豆_🇯🇵_JPvmess63
+  type: vmess
+  server: tky2.nicecdns.com
+  port: '443'
+  uuid: 9f08a36d-d01e-46ab-a3ac-14a548c8b3e6
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /CCTV6/hd.m3u8
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 玉豆_🇺🇸_USvmess64
+  type: vmess
+  server: vus2.0bad.com
+  port: '443'
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 玉豆_🇺🇸_USvmess65
+  type: vmess
+  server: no.aries.ovh
+  port: '2052'
+  uuid: 12c3b55f-f225-4daa-adf3-39f8cf3969ed
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: ovh.cloudflare.quest
+- name: yui科技_🇺🇸_USvmess66
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 18849b38-719b-483e-958b-45397595a8ec
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: lsb.wqxzhang.online
+  tls: true
+- name: 玉豆_🇺🇸_USvmess67
+  type: vmess
+  server: no.aries.ovh
+  port: '2052'
+  uuid: 12c3b55f-f225-4daa-adf3-39f8cf3969ed
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: waw.cloudflare.quest
+- name: 玉豆_🇺🇸_USvmess68
+  type: vmess
+  server: no.aries.ovh
+  port: '2052'
+  uuid: 12c3b55f-f225-4daa-adf3-39f8cf3969ed
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: fr.cloudflare.quest
+- name: 玉豆 法国vmess69
+  type: vmess
+  server: 141.193.213.20
+  port: '443'
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /9JZFDTKE
+  ws-headers:
+    Host: fr1.trump2023.org
+  tls: true
+- name: 🇺🇸_US_yui科技vmess70
+  type: vmess
+  server: 103.21.244.248
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: CA-177-89.shoptunnel.live
+  tls: true
+- name: yui科技_🇺🇸_USvmess71
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: us-dp2.sharecentre.online
+  tls: true
+- name: yui科技_🇫🇷_FRvmess72
+  type: vmess
+  server: 173.245.49.238
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: IN-92-99.shoptunnel.live
+  tls: true
+- name: yui科技_undefinedvmess73
   type: vmess
   server: cf.fovi.tk
   port: '2053'
@@ -903,62 +960,41 @@ proxies:
   ws-headers:
     Host: foxpol3.fovi.tk
   tls: true
-- name: yui科技_🇧🇿_BZvmess69
+- name: yui科技_🇺🇸_USvmess74
   type: vmess
-  server: 203.30.189.191
+  server: mncc.cf
   port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /A2DJOPFT
+  ws-path: /shirker
   ws-headers:
-    Host: lg10.cfcdn1.xyz
+    Host: mncc.cf
   tls: true
-- name: yui科技_🇫🇷_FRvmess70
+- name: 玉豆_🇺🇸_USvmess75
   type: vmess
-  server: 173.245.49.141
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: CA-177-89.shoptunnel.live
-  tls: true
-- name: 顺丰资源 US 26vmess71
-  type: vmess
-  server: 141.193.213.20
+  server: hohm.microsoft.com
   port: '443'
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-path: /shirker
   ws-headers:
-    Host: us-lb.sshkit.org
+    Host: lu.sharecentre.online
   tls: true
-- name: yui科技_🇺🇸_UStrojan1
+- name: 玉豆_🇩🇪_DEtrojan1
   type: trojan
-  server: 104.149.155.13
+  server: de1.trojan-lite.com
   port: '443'
   udp: true
-  password: 79c935c0-27dc-4383-b307-dcac1b8e5509
+  password: bs6KJkPBW9MP74uHEa
   skip-cert-verify: true
-  sni: vzwzasc.cn
-- name: 顺丰资源+US+8trojan2
-  type: trojan
-  server: 104.149.155.13
-  port: '443'
-  udp: true
-  password: 17c412d9-f283-483c-b095-72605fb2840e
-  skip-cert-verify: true
-  sni: vzwzasc.cn
-- name: yui科技_🇩🇪_DEtrojan3
+  sni: tcp
+- name: yui科技_🇩🇪_DEtrojan2
   type: trojan
   server: de1.trojan-lite.com
   port: '443'
@@ -966,12 +1002,76 @@ proxies:
   password: bs6KJkPBW9MP74uHEa
   skip-cert-verify: true
   sni: $de1.trojan-lite.com
-- name: "悸沫君_NL_荷兰\r_4_39_39\r\rss1"
+- name: 玉豆_🇺🇸_UStrojan3
+  type: trojan
+  server: de1.trojan-lite.com
+  port: '443'
+  udp: true
+  password: bs6KJkPBW9MP74uHEa
+  skip-cert-verify: true
+  sni: $$de1.trojan-lite.com
+- name: yui科技_🇺🇸_UStrojan4
+  type: trojan
+  server: 104.149.155.13
+  port: '443'
+  udp: true
+  password: 79c935c0-27dc-4383-b307-dcac1b8e5509
+  skip-cert-verify: true
+  sni: vzwzasc.cn
+- name: 顺丰资源+US+8trojan5
+  type: trojan
+  server: 104.149.155.13
+  port: '443'
+  udp: true
+  password: 17c412d9-f283-483c-b095-72605fb2840e
+  skip-cert-verify: true
+  sni: vzwzasc.cn
+- name: 玉豆_🇺🇸_UStrojan6
+  type: trojan
+  server: phxv001.jd0001.top
+  port: '44302'
+  udp: true
+  password: 4d111af8-5078-37e0-a583-34155f60b32c
+  skip-cert-verify: true
+  sni: tcp
+- name: 玉豆_🇺🇸_UStrojan7
+  type: trojan
+  server: air-osaka24.900513.xyz
+  port: '7758'
+  udp: true
+  password: 4cfb5b98-5a9d-4c6d-8911-25deca297fa1
+  skip-cert-verify: true
+  sni: tcp
+- name: yui科技_🇫🇷_FRtrojan8
+  type: trojan
+  server: 5.135.235.160
+  port: '443'
+  udp: true
+  password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
+  skip-cert-verify: true
+  sni: upload.soft98.download
+- name: 悸沫君-cloudflare优%E9% 80%89trojan9
+  type: trojan
+  server: 45.64.22.42
+  port: '443'
+  udp: true
+  password: 4X1ebJpQWg
+  skip-cert-verify: true
+  sni: sg.yydsdy.top
+- name: 悸沫君-cloudflare优%E9% 80%89trojan10
+  type: trojan
+  server: 45.64.22.9
+  port: '443'
+  udp: true
+  password: 4X1ebJpQWg
+  skip-cert-verify: true
+  sni: sg.yydsdy.top
+- name: 悸沫君 🇳🇱_NL_荷兰_2ss1
   server: 172.99.188.99
-  port: '8882'
+  port: '6379'
   method: aes-256-gcm
   cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  password: zDNVedRFPQexG9v
   type: ss
 - name: 悸沫君 🇺🇸_US_美国ss2
   server: 38.91.102.123
@@ -980,6 +1080,34 @@ proxies:
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
   type: ss
+- name: 悸沫君 🇺🇸_US_美国ss3
+  server: 38.91.102.123
+  port: '5003'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+  type: ss
+- name: "悸沫君_NL_荷兰\r_4_39_39\r\rss4"
+  server: 172.99.188.99
+  port: '8882'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  type: ss
+- name: 悸沫君 直连杭州18ss5
+  server: 36.137.188.19
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君 直连杭州19ss6
+  server: 36.137.188.105
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -987,164 +1115,194 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 悸沫君 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess1
-  - 悸沫君 🇺🇸_US_美国_3vmess2
-  - yui科技_🇺🇸_USvmess3
+  - yui科技_🇺🇸_USvmess1
+  - 玉豆_🇺🇸_USvmess2
+  - yui科技vmess3
   - yui科技_🇺🇸_USvmess4
-  - yui科技_🇺🇸_USvmess5
-  - yui科技_🇺🇸_USvmess6
-  - yui科技_🇧🇿_BZvmess7
+  - yui科技_🇧🇿_BZvmess5
+  - yui科技_🇧🇿_BZvmess6
+  - yui科技_🇫🇷_FRvmess7
   - yui科技_🇺🇸_USvmess8
   - yui科技_🇺🇸_USvmess9
-  - yui科技_🇺🇸_USvmess10
-  - yui科技_🇺🇸_USvmess11
+  - yui科技_🇫🇷_FRvmess10
+  - 玉豆_🇺🇸_USvmess11
   - yui科技_🇫🇷_FRvmess12
-  - 悸沫君 🇺🇸_US_美国vmess13
-  - yui科技vmess14
-  - yui科技_🇫🇷_FRvmess15
-  - yui科技_🇺🇸_USvmess16
-  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess17
-  - yui科技_🇫🇷_FRvmess18
-  - yui科技_🇺🇸_USvmess19
-  - yui科技_🇺🇸_USvmess20
-  - yui科技_🇦🇲_AMvmess21
-  - 日本(玉豆免费节点)vmess22
-  - 美国(玉豆免费节点)vmess23
-  - yui科技_🇧🇿_BZvmess24
-  - 悸沫君 🇺🇸_US_美国_11vmess25
-  - yui科技_🇺🇸_USvmess26
-  - 悸沫君-美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess27
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess28
-  - yui科技_🇺🇸_USvmess29
-  - yui科技_🇺🇸_USvmess30
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess31
-  - yui科技_🇫🇷_FRvmess32
+  - 玉豆_🇺🇸_USvmess13
+  - 玉豆_🇺🇸_USvmess14
+  - 玉豆 法国vmess15
+  - 玉豆_🇺🇸_USvmess16
+  - 悸沫君 🇨🇳_CN_中国vmess17
+  - 悸沫君 🇺🇸_US_美国_2vmess18
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess19
+  - 玉豆_🇺🇸_USvmess20
+  - yui科技_🇺🇸_USvmess21
+  - yui科技_🇫🇷_FRvmess22
+  - yui科技_🇺🇸_USvmess23
+  - 顺丰资源 US 36vmess24
+  - 顺丰资源 US__112vmess25
+  - 玉豆 新加坡vmess26
+  - 玉豆 日本vmess27
+  - 悸沫君 🇺🇸_US_美国vmess28
+  - 玉豆 🇺🇸_USvmess29
+  - 顺丰资源 US__154vmess30
+  - 玉豆_🇺🇸_USvmess31
+  - yui科技_🇺🇸_USvmess32
   - yui科技_🇺🇸_USvmess33
   - yui科技_🇺🇸_USvmess34
   - yui科技_🇺🇸_USvmess35
-  - yui科技_🇫🇷_FRvmess36
-  - 乌克兰(玉豆免费节点)vmess37
-  - yui科技_🇧🇿_BZvmess38
-  - 悸沫君-美国CloudFlare节点 4vmess39
-  - yui科技_🇺🇸_USvmess40
-  - yui科技_🇺🇸_USvmess41
-  - yui科技_🇺🇸_USvmess42
-  - 🇺🇸_US_yui科技vmess43
+  - 玉豆_🇺🇸_USvmess36
+  - 玉豆_🇺🇸_USvmess37
+  - 顺丰资源 US 13vmess38
+  - 玉豆_🇺🇸_USvmess39
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess40
+  - 玉豆_🇺🇸_USvmess41
+  - yui科技_🇫🇷_FRvmess42
+  - 玉豆 乌克兰vmess43
   - yui科技_🇺🇸_USvmess44
-  - yui科技_🇧🇿_BZvmess45
-  - 顺丰资源 US__154vmess46
+  - yui科技_🇺🇸_USvmess45
+  - yui科技_🇯🇵_JPvmess46
   - yui科技_🇺🇸_USvmess47
   - yui科技_🇺🇸_USvmess48
-  - 乌克兰(玉豆免费节点)vmess49
-  - yui科技_🇫🇷_FRvmess50
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess51
-  - 美国(玉豆免费节点)vmess52
-  - 顺丰资源 US 36vmess53
-  - 悸沫君 🇺🇸_US_美国_2vmess54
-  - yui科技_🇺🇸_USvmess55
-  - yui科技_🇧🇿_BZvmess56
-  - 美国(玉豆免费节点)vmess57
-  - yui科技_🇯🇵_JPvmess58
-  - yui科技_🇺🇸_USvmess59
-  - 美国(玉豆免费节点)vmess60
-  - yui科技_🇺🇸_USvmess61
-  - yui科技_🇺🇸_USvmess62
-  - 顺丰资源 US__147vmess63
-  - yui科技_🇺🇸_USvmess64
-  - yui科技_🇯🇵_JPvmess65
+  - yui科技_🇫🇷_FRvmess49
+  - yui科技_🇺🇸_USvmess50
+  - 玉豆 🇺🇸_USvmess51
+  - 顺丰资源 US__147vmess52
+  - 玉豆_🇺🇸_USvmess53
+  - 玉豆_🇺🇸_USvmess54
+  - 悸沫君 美国Linode数据中心 31vmess55
+  - yui科技_🇺🇸_USvmess56
+  - 玉豆_🇯🇵_JPvmess57
+  - 玉豆_🇺🇸_USvmess58
+  - 玉豆_🇺🇸_USvmess59
+  - yui科技_🇺🇸_USvmess60
+  - 玉豆_🇯🇵_JPvmess61
+  - 玉豆_🇺🇸_USvmess62
+  - 玉豆_🇯🇵_JPvmess63
+  - 玉豆_🇺🇸_USvmess64
+  - 玉豆_🇺🇸_USvmess65
   - yui科技_🇺🇸_USvmess66
-  - yui科技_🇨🇾_CYvmess67
-  - yui科技_undefinedvmess68
-  - yui科技_🇧🇿_BZvmess69
-  - yui科技_🇫🇷_FRvmess70
-  - 顺丰资源 US 26vmess71
-  - yui科技_🇺🇸_UStrojan1
-  - 顺丰资源+US+8trojan2
-  - yui科技_🇩🇪_DEtrojan3
-  - "悸沫君_NL_荷兰\r_4_39_39\r\rss1"
+  - 玉豆_🇺🇸_USvmess67
+  - 玉豆_🇺🇸_USvmess68
+  - 玉豆 法国vmess69
+  - 🇺🇸_US_yui科技vmess70
+  - yui科技_🇺🇸_USvmess71
+  - yui科技_🇫🇷_FRvmess72
+  - yui科技_undefinedvmess73
+  - yui科技_🇺🇸_USvmess74
+  - 玉豆_🇺🇸_USvmess75
+  - 玉豆_🇩🇪_DEtrojan1
+  - yui科技_🇩🇪_DEtrojan2
+  - 玉豆_🇺🇸_UStrojan3
+  - yui科技_🇺🇸_UStrojan4
+  - 顺丰资源+US+8trojan5
+  - 玉豆_🇺🇸_UStrojan6
+  - 玉豆_🇺🇸_UStrojan7
+  - yui科技_🇫🇷_FRtrojan8
+  - 悸沫君-cloudflare优%E9% 80%89trojan9
+  - 悸沫君-cloudflare优%E9% 80%89trojan10
+  - 悸沫君 🇳🇱_NL_荷兰_2ss1
   - 悸沫君 🇺🇸_US_美国ss2
+  - 悸沫君 🇺🇸_US_美国ss3
+  - "悸沫君_NL_荷兰\r_4_39_39\r\rss4"
+  - 悸沫君 直连杭州18ss5
+  - 悸沫君 直连杭州19ss6
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 悸沫君 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess1
-  - 悸沫君 🇺🇸_US_美国_3vmess2
-  - yui科技_🇺🇸_USvmess3
+  - yui科技_🇺🇸_USvmess1
+  - 玉豆_🇺🇸_USvmess2
+  - yui科技vmess3
   - yui科技_🇺🇸_USvmess4
-  - yui科技_🇺🇸_USvmess5
-  - yui科技_🇺🇸_USvmess6
-  - yui科技_🇧🇿_BZvmess7
+  - yui科技_🇧🇿_BZvmess5
+  - yui科技_🇧🇿_BZvmess6
+  - yui科技_🇫🇷_FRvmess7
   - yui科技_🇺🇸_USvmess8
   - yui科技_🇺🇸_USvmess9
-  - yui科技_🇺🇸_USvmess10
-  - yui科技_🇺🇸_USvmess11
+  - yui科技_🇫🇷_FRvmess10
+  - 玉豆_🇺🇸_USvmess11
   - yui科技_🇫🇷_FRvmess12
-  - 悸沫君 🇺🇸_US_美国vmess13
-  - yui科技vmess14
-  - yui科技_🇫🇷_FRvmess15
-  - yui科技_🇺🇸_USvmess16
-  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess17
-  - yui科技_🇫🇷_FRvmess18
-  - yui科技_🇺🇸_USvmess19
-  - yui科技_🇺🇸_USvmess20
-  - yui科技_🇦🇲_AMvmess21
-  - 日本(玉豆免费节点)vmess22
-  - 美国(玉豆免费节点)vmess23
-  - yui科技_🇧🇿_BZvmess24
-  - 悸沫君 🇺🇸_US_美国_11vmess25
-  - yui科技_🇺🇸_USvmess26
-  - 悸沫君-美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess27
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess28
-  - yui科技_🇺🇸_USvmess29
-  - yui科技_🇺🇸_USvmess30
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess31
-  - yui科技_🇫🇷_FRvmess32
+  - 玉豆_🇺🇸_USvmess13
+  - 玉豆_🇺🇸_USvmess14
+  - 玉豆 法国vmess15
+  - 玉豆_🇺🇸_USvmess16
+  - 悸沫君 🇨🇳_CN_中国vmess17
+  - 悸沫君 🇺🇸_US_美国_2vmess18
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess19
+  - 玉豆_🇺🇸_USvmess20
+  - yui科技_🇺🇸_USvmess21
+  - yui科技_🇫🇷_FRvmess22
+  - yui科技_🇺🇸_USvmess23
+  - 顺丰资源 US 36vmess24
+  - 顺丰资源 US__112vmess25
+  - 玉豆 新加坡vmess26
+  - 玉豆 日本vmess27
+  - 悸沫君 🇺🇸_US_美国vmess28
+  - 玉豆 🇺🇸_USvmess29
+  - 顺丰资源 US__154vmess30
+  - 玉豆_🇺🇸_USvmess31
+  - yui科技_🇺🇸_USvmess32
   - yui科技_🇺🇸_USvmess33
   - yui科技_🇺🇸_USvmess34
   - yui科技_🇺🇸_USvmess35
-  - yui科技_🇫🇷_FRvmess36
-  - 乌克兰(玉豆免费节点)vmess37
-  - yui科技_🇧🇿_BZvmess38
-  - 悸沫君-美国CloudFlare节点 4vmess39
-  - yui科技_🇺🇸_USvmess40
-  - yui科技_🇺🇸_USvmess41
-  - yui科技_🇺🇸_USvmess42
-  - 🇺🇸_US_yui科技vmess43
+  - 玉豆_🇺🇸_USvmess36
+  - 玉豆_🇺🇸_USvmess37
+  - 顺丰资源 US 13vmess38
+  - 玉豆_🇺🇸_USvmess39
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess40
+  - 玉豆_🇺🇸_USvmess41
+  - yui科技_🇫🇷_FRvmess42
+  - 玉豆 乌克兰vmess43
   - yui科技_🇺🇸_USvmess44
-  - yui科技_🇧🇿_BZvmess45
-  - 顺丰资源 US__154vmess46
+  - yui科技_🇺🇸_USvmess45
+  - yui科技_🇯🇵_JPvmess46
   - yui科技_🇺🇸_USvmess47
   - yui科技_🇺🇸_USvmess48
-  - 乌克兰(玉豆免费节点)vmess49
-  - yui科技_🇫🇷_FRvmess50
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess51
-  - 美国(玉豆免费节点)vmess52
-  - 顺丰资源 US 36vmess53
-  - 悸沫君 🇺🇸_US_美国_2vmess54
-  - yui科技_🇺🇸_USvmess55
-  - yui科技_🇧🇿_BZvmess56
-  - 美国(玉豆免费节点)vmess57
-  - yui科技_🇯🇵_JPvmess58
-  - yui科技_🇺🇸_USvmess59
-  - 美国(玉豆免费节点)vmess60
-  - yui科技_🇺🇸_USvmess61
-  - yui科技_🇺🇸_USvmess62
-  - 顺丰资源 US__147vmess63
-  - yui科技_🇺🇸_USvmess64
-  - yui科技_🇯🇵_JPvmess65
+  - yui科技_🇫🇷_FRvmess49
+  - yui科技_🇺🇸_USvmess50
+  - 玉豆 🇺🇸_USvmess51
+  - 顺丰资源 US__147vmess52
+  - 玉豆_🇺🇸_USvmess53
+  - 玉豆_🇺🇸_USvmess54
+  - 悸沫君 美国Linode数据中心 31vmess55
+  - yui科技_🇺🇸_USvmess56
+  - 玉豆_🇯🇵_JPvmess57
+  - 玉豆_🇺🇸_USvmess58
+  - 玉豆_🇺🇸_USvmess59
+  - yui科技_🇺🇸_USvmess60
+  - 玉豆_🇯🇵_JPvmess61
+  - 玉豆_🇺🇸_USvmess62
+  - 玉豆_🇯🇵_JPvmess63
+  - 玉豆_🇺🇸_USvmess64
+  - 玉豆_🇺🇸_USvmess65
   - yui科技_🇺🇸_USvmess66
-  - yui科技_🇨🇾_CYvmess67
-  - yui科技_undefinedvmess68
-  - yui科技_🇧🇿_BZvmess69
-  - yui科技_🇫🇷_FRvmess70
-  - 顺丰资源 US 26vmess71
-  - yui科技_🇺🇸_UStrojan1
-  - 顺丰资源+US+8trojan2
-  - yui科技_🇩🇪_DEtrojan3
-  - "悸沫君_NL_荷兰\r_4_39_39\r\rss1"
+  - 玉豆_🇺🇸_USvmess67
+  - 玉豆_🇺🇸_USvmess68
+  - 玉豆 法国vmess69
+  - 🇺🇸_US_yui科技vmess70
+  - yui科技_🇺🇸_USvmess71
+  - yui科技_🇫🇷_FRvmess72
+  - yui科技_undefinedvmess73
+  - yui科技_🇺🇸_USvmess74
+  - 玉豆_🇺🇸_USvmess75
+  - 玉豆_🇩🇪_DEtrojan1
+  - yui科技_🇩🇪_DEtrojan2
+  - 玉豆_🇺🇸_UStrojan3
+  - yui科技_🇺🇸_UStrojan4
+  - 顺丰资源+US+8trojan5
+  - 玉豆_🇺🇸_UStrojan6
+  - 玉豆_🇺🇸_UStrojan7
+  - yui科技_🇫🇷_FRtrojan8
+  - 悸沫君-cloudflare优%E9% 80%89trojan9
+  - 悸沫君-cloudflare优%E9% 80%89trojan10
+  - 悸沫君 🇳🇱_NL_荷兰_2ss1
   - 悸沫君 🇺🇸_US_美国ss2
+  - 悸沫君 🇺🇸_US_美国ss3
+  - "悸沫君_NL_荷兰\r_4_39_39\r\rss4"
+  - 悸沫君 直连杭州18ss5
+  - 悸沫君 直连杭州19ss6
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -1157,82 +1315,97 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 悸沫君 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess1
-  - 悸沫君 🇺🇸_US_美国_3vmess2
-  - yui科技_🇺🇸_USvmess3
+  - yui科技_🇺🇸_USvmess1
+  - 玉豆_🇺🇸_USvmess2
+  - yui科技vmess3
   - yui科技_🇺🇸_USvmess4
-  - yui科技_🇺🇸_USvmess5
-  - yui科技_🇺🇸_USvmess6
-  - yui科技_🇧🇿_BZvmess7
+  - yui科技_🇧🇿_BZvmess5
+  - yui科技_🇧🇿_BZvmess6
+  - yui科技_🇫🇷_FRvmess7
   - yui科技_🇺🇸_USvmess8
   - yui科技_🇺🇸_USvmess9
-  - yui科技_🇺🇸_USvmess10
-  - yui科技_🇺🇸_USvmess11
+  - yui科技_🇫🇷_FRvmess10
+  - 玉豆_🇺🇸_USvmess11
   - yui科技_🇫🇷_FRvmess12
-  - 悸沫君 🇺🇸_US_美国vmess13
-  - yui科技vmess14
-  - yui科技_🇫🇷_FRvmess15
-  - yui科技_🇺🇸_USvmess16
-  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess17
-  - yui科技_🇫🇷_FRvmess18
-  - yui科技_🇺🇸_USvmess19
-  - yui科技_🇺🇸_USvmess20
-  - yui科技_🇦🇲_AMvmess21
-  - 日本(玉豆免费节点)vmess22
-  - 美国(玉豆免费节点)vmess23
-  - yui科技_🇧🇿_BZvmess24
-  - 悸沫君 🇺🇸_US_美国_11vmess25
-  - yui科技_🇺🇸_USvmess26
-  - 悸沫君-美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess27
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess28
-  - yui科技_🇺🇸_USvmess29
-  - yui科技_🇺🇸_USvmess30
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess31
-  - yui科技_🇫🇷_FRvmess32
+  - 玉豆_🇺🇸_USvmess13
+  - 玉豆_🇺🇸_USvmess14
+  - 玉豆 法国vmess15
+  - 玉豆_🇺🇸_USvmess16
+  - 悸沫君 🇨🇳_CN_中国vmess17
+  - 悸沫君 🇺🇸_US_美国_2vmess18
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess19
+  - 玉豆_🇺🇸_USvmess20
+  - yui科技_🇺🇸_USvmess21
+  - yui科技_🇫🇷_FRvmess22
+  - yui科技_🇺🇸_USvmess23
+  - 顺丰资源 US 36vmess24
+  - 顺丰资源 US__112vmess25
+  - 玉豆 新加坡vmess26
+  - 玉豆 日本vmess27
+  - 悸沫君 🇺🇸_US_美国vmess28
+  - 玉豆 🇺🇸_USvmess29
+  - 顺丰资源 US__154vmess30
+  - 玉豆_🇺🇸_USvmess31
+  - yui科技_🇺🇸_USvmess32
   - yui科技_🇺🇸_USvmess33
   - yui科技_🇺🇸_USvmess34
   - yui科技_🇺🇸_USvmess35
-  - yui科技_🇫🇷_FRvmess36
-  - 乌克兰(玉豆免费节点)vmess37
-  - yui科技_🇧🇿_BZvmess38
-  - 悸沫君-美国CloudFlare节点 4vmess39
-  - yui科技_🇺🇸_USvmess40
-  - yui科技_🇺🇸_USvmess41
-  - yui科技_🇺🇸_USvmess42
-  - 🇺🇸_US_yui科技vmess43
+  - 玉豆_🇺🇸_USvmess36
+  - 玉豆_🇺🇸_USvmess37
+  - 顺丰资源 US 13vmess38
+  - 玉豆_🇺🇸_USvmess39
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess40
+  - 玉豆_🇺🇸_USvmess41
+  - yui科技_🇫🇷_FRvmess42
+  - 玉豆 乌克兰vmess43
   - yui科技_🇺🇸_USvmess44
-  - yui科技_🇧🇿_BZvmess45
-  - 顺丰资源 US__154vmess46
+  - yui科技_🇺🇸_USvmess45
+  - yui科技_🇯🇵_JPvmess46
   - yui科技_🇺🇸_USvmess47
   - yui科技_🇺🇸_USvmess48
-  - 乌克兰(玉豆免费节点)vmess49
-  - yui科技_🇫🇷_FRvmess50
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess51
-  - 美国(玉豆免费节点)vmess52
-  - 顺丰资源 US 36vmess53
-  - 悸沫君 🇺🇸_US_美国_2vmess54
-  - yui科技_🇺🇸_USvmess55
-  - yui科技_🇧🇿_BZvmess56
-  - 美国(玉豆免费节点)vmess57
-  - yui科技_🇯🇵_JPvmess58
-  - yui科技_🇺🇸_USvmess59
-  - 美国(玉豆免费节点)vmess60
-  - yui科技_🇺🇸_USvmess61
-  - yui科技_🇺🇸_USvmess62
-  - 顺丰资源 US__147vmess63
-  - yui科技_🇺🇸_USvmess64
-  - yui科技_🇯🇵_JPvmess65
+  - yui科技_🇫🇷_FRvmess49
+  - yui科技_🇺🇸_USvmess50
+  - 玉豆 🇺🇸_USvmess51
+  - 顺丰资源 US__147vmess52
+  - 玉豆_🇺🇸_USvmess53
+  - 玉豆_🇺🇸_USvmess54
+  - 悸沫君 美国Linode数据中心 31vmess55
+  - yui科技_🇺🇸_USvmess56
+  - 玉豆_🇯🇵_JPvmess57
+  - 玉豆_🇺🇸_USvmess58
+  - 玉豆_🇺🇸_USvmess59
+  - yui科技_🇺🇸_USvmess60
+  - 玉豆_🇯🇵_JPvmess61
+  - 玉豆_🇺🇸_USvmess62
+  - 玉豆_🇯🇵_JPvmess63
+  - 玉豆_🇺🇸_USvmess64
+  - 玉豆_🇺🇸_USvmess65
   - yui科技_🇺🇸_USvmess66
-  - yui科技_🇨🇾_CYvmess67
-  - yui科技_undefinedvmess68
-  - yui科技_🇧🇿_BZvmess69
-  - yui科技_🇫🇷_FRvmess70
-  - 顺丰资源 US 26vmess71
-  - yui科技_🇺🇸_UStrojan1
-  - 顺丰资源+US+8trojan2
-  - yui科技_🇩🇪_DEtrojan3
-  - "悸沫君_NL_荷兰\r_4_39_39\r\rss1"
+  - 玉豆_🇺🇸_USvmess67
+  - 玉豆_🇺🇸_USvmess68
+  - 玉豆 法国vmess69
+  - 🇺🇸_US_yui科技vmess70
+  - yui科技_🇺🇸_USvmess71
+  - yui科技_🇫🇷_FRvmess72
+  - yui科技_undefinedvmess73
+  - yui科技_🇺🇸_USvmess74
+  - 玉豆_🇺🇸_USvmess75
+  - 玉豆_🇩🇪_DEtrojan1
+  - yui科技_🇩🇪_DEtrojan2
+  - 玉豆_🇺🇸_UStrojan3
+  - yui科技_🇺🇸_UStrojan4
+  - 顺丰资源+US+8trojan5
+  - 玉豆_🇺🇸_UStrojan6
+  - 玉豆_🇺🇸_UStrojan7
+  - yui科技_🇫🇷_FRtrojan8
+  - 悸沫君-cloudflare优%E9% 80%89trojan9
+  - 悸沫君-cloudflare优%E9% 80%89trojan10
+  - 悸沫君 🇳🇱_NL_荷兰_2ss1
   - 悸沫君 🇺🇸_US_美国ss2
+  - 悸沫君 🇺🇸_US_美国ss3
+  - "悸沫君_NL_荷兰\r_4_39_39\r\rss4"
+  - 悸沫君 直连杭州18ss5
+  - 悸沫君 直连杭州19ss6
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1244,245 +1417,290 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 悸沫君 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess1
-  - 悸沫君 🇺🇸_US_美国_3vmess2
-  - yui科技_🇺🇸_USvmess3
+  - yui科技_🇺🇸_USvmess1
+  - 玉豆_🇺🇸_USvmess2
+  - yui科技vmess3
   - yui科技_🇺🇸_USvmess4
-  - yui科技_🇺🇸_USvmess5
-  - yui科技_🇺🇸_USvmess6
-  - yui科技_🇧🇿_BZvmess7
+  - yui科技_🇧🇿_BZvmess5
+  - yui科技_🇧🇿_BZvmess6
+  - yui科技_🇫🇷_FRvmess7
   - yui科技_🇺🇸_USvmess8
   - yui科技_🇺🇸_USvmess9
-  - yui科技_🇺🇸_USvmess10
-  - yui科技_🇺🇸_USvmess11
+  - yui科技_🇫🇷_FRvmess10
+  - 玉豆_🇺🇸_USvmess11
   - yui科技_🇫🇷_FRvmess12
-  - 悸沫君 🇺🇸_US_美国vmess13
-  - yui科技vmess14
-  - yui科技_🇫🇷_FRvmess15
-  - yui科技_🇺🇸_USvmess16
-  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess17
-  - yui科技_🇫🇷_FRvmess18
-  - yui科技_🇺🇸_USvmess19
-  - yui科技_🇺🇸_USvmess20
-  - yui科技_🇦🇲_AMvmess21
-  - 日本(玉豆免费节点)vmess22
-  - 美国(玉豆免费节点)vmess23
-  - yui科技_🇧🇿_BZvmess24
-  - 悸沫君 🇺🇸_US_美国_11vmess25
-  - yui科技_🇺🇸_USvmess26
-  - 悸沫君-美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess27
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess28
-  - yui科技_🇺🇸_USvmess29
-  - yui科技_🇺🇸_USvmess30
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess31
-  - yui科技_🇫🇷_FRvmess32
+  - 玉豆_🇺🇸_USvmess13
+  - 玉豆_🇺🇸_USvmess14
+  - 玉豆 法国vmess15
+  - 玉豆_🇺🇸_USvmess16
+  - 悸沫君 🇨🇳_CN_中国vmess17
+  - 悸沫君 🇺🇸_US_美国_2vmess18
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess19
+  - 玉豆_🇺🇸_USvmess20
+  - yui科技_🇺🇸_USvmess21
+  - yui科技_🇫🇷_FRvmess22
+  - yui科技_🇺🇸_USvmess23
+  - 顺丰资源 US 36vmess24
+  - 顺丰资源 US__112vmess25
+  - 玉豆 新加坡vmess26
+  - 玉豆 日本vmess27
+  - 悸沫君 🇺🇸_US_美国vmess28
+  - 玉豆 🇺🇸_USvmess29
+  - 顺丰资源 US__154vmess30
+  - 玉豆_🇺🇸_USvmess31
+  - yui科技_🇺🇸_USvmess32
   - yui科技_🇺🇸_USvmess33
   - yui科技_🇺🇸_USvmess34
   - yui科技_🇺🇸_USvmess35
-  - yui科技_🇫🇷_FRvmess36
-  - 乌克兰(玉豆免费节点)vmess37
-  - yui科技_🇧🇿_BZvmess38
-  - 悸沫君-美国CloudFlare节点 4vmess39
-  - yui科技_🇺🇸_USvmess40
-  - yui科技_🇺🇸_USvmess41
-  - yui科技_🇺🇸_USvmess42
-  - 🇺🇸_US_yui科技vmess43
+  - 玉豆_🇺🇸_USvmess36
+  - 玉豆_🇺🇸_USvmess37
+  - 顺丰资源 US 13vmess38
+  - 玉豆_🇺🇸_USvmess39
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess40
+  - 玉豆_🇺🇸_USvmess41
+  - yui科技_🇫🇷_FRvmess42
+  - 玉豆 乌克兰vmess43
   - yui科技_🇺🇸_USvmess44
-  - yui科技_🇧🇿_BZvmess45
-  - 顺丰资源 US__154vmess46
+  - yui科技_🇺🇸_USvmess45
+  - yui科技_🇯🇵_JPvmess46
   - yui科技_🇺🇸_USvmess47
   - yui科技_🇺🇸_USvmess48
-  - 乌克兰(玉豆免费节点)vmess49
-  - yui科技_🇫🇷_FRvmess50
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess51
-  - 美国(玉豆免费节点)vmess52
-  - 顺丰资源 US 36vmess53
-  - 悸沫君 🇺🇸_US_美国_2vmess54
-  - yui科技_🇺🇸_USvmess55
-  - yui科技_🇧🇿_BZvmess56
-  - 美国(玉豆免费节点)vmess57
-  - yui科技_🇯🇵_JPvmess58
-  - yui科技_🇺🇸_USvmess59
-  - 美国(玉豆免费节点)vmess60
-  - yui科技_🇺🇸_USvmess61
-  - yui科技_🇺🇸_USvmess62
-  - 顺丰资源 US__147vmess63
-  - yui科技_🇺🇸_USvmess64
-  - yui科技_🇯🇵_JPvmess65
+  - yui科技_🇫🇷_FRvmess49
+  - yui科技_🇺🇸_USvmess50
+  - 玉豆 🇺🇸_USvmess51
+  - 顺丰资源 US__147vmess52
+  - 玉豆_🇺🇸_USvmess53
+  - 玉豆_🇺🇸_USvmess54
+  - 悸沫君 美国Linode数据中心 31vmess55
+  - yui科技_🇺🇸_USvmess56
+  - 玉豆_🇯🇵_JPvmess57
+  - 玉豆_🇺🇸_USvmess58
+  - 玉豆_🇺🇸_USvmess59
+  - yui科技_🇺🇸_USvmess60
+  - 玉豆_🇯🇵_JPvmess61
+  - 玉豆_🇺🇸_USvmess62
+  - 玉豆_🇯🇵_JPvmess63
+  - 玉豆_🇺🇸_USvmess64
+  - 玉豆_🇺🇸_USvmess65
   - yui科技_🇺🇸_USvmess66
-  - yui科技_🇨🇾_CYvmess67
-  - yui科技_undefinedvmess68
-  - yui科技_🇧🇿_BZvmess69
-  - yui科技_🇫🇷_FRvmess70
-  - 顺丰资源 US 26vmess71
-  - yui科技_🇺🇸_UStrojan1
-  - 顺丰资源+US+8trojan2
-  - yui科技_🇩🇪_DEtrojan3
-  - "悸沫君_NL_荷兰\r_4_39_39\r\rss1"
+  - 玉豆_🇺🇸_USvmess67
+  - 玉豆_🇺🇸_USvmess68
+  - 玉豆 法国vmess69
+  - 🇺🇸_US_yui科技vmess70
+  - yui科技_🇺🇸_USvmess71
+  - yui科技_🇫🇷_FRvmess72
+  - yui科技_undefinedvmess73
+  - yui科技_🇺🇸_USvmess74
+  - 玉豆_🇺🇸_USvmess75
+  - 玉豆_🇩🇪_DEtrojan1
+  - yui科技_🇩🇪_DEtrojan2
+  - 玉豆_🇺🇸_UStrojan3
+  - yui科技_🇺🇸_UStrojan4
+  - 顺丰资源+US+8trojan5
+  - 玉豆_🇺🇸_UStrojan6
+  - 玉豆_🇺🇸_UStrojan7
+  - yui科技_🇫🇷_FRtrojan8
+  - 悸沫君-cloudflare优%E9% 80%89trojan9
+  - 悸沫君-cloudflare优%E9% 80%89trojan10
+  - 悸沫君 🇳🇱_NL_荷兰_2ss1
   - 悸沫君 🇺🇸_US_美国ss2
+  - 悸沫君 🇺🇸_US_美国ss3
+  - "悸沫君_NL_荷兰\r_4_39_39\r\rss4"
+  - 悸沫君 直连杭州18ss5
+  - 悸沫君 直连杭州19ss6
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 悸沫君 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess1
-  - 悸沫君 🇺🇸_US_美国_3vmess2
-  - yui科技_🇺🇸_USvmess3
+  - yui科技_🇺🇸_USvmess1
+  - 玉豆_🇺🇸_USvmess2
+  - yui科技vmess3
   - yui科技_🇺🇸_USvmess4
-  - yui科技_🇺🇸_USvmess5
-  - yui科技_🇺🇸_USvmess6
-  - yui科技_🇧🇿_BZvmess7
+  - yui科技_🇧🇿_BZvmess5
+  - yui科技_🇧🇿_BZvmess6
+  - yui科技_🇫🇷_FRvmess7
   - yui科技_🇺🇸_USvmess8
   - yui科技_🇺🇸_USvmess9
-  - yui科技_🇺🇸_USvmess10
-  - yui科技_🇺🇸_USvmess11
+  - yui科技_🇫🇷_FRvmess10
+  - 玉豆_🇺🇸_USvmess11
   - yui科技_🇫🇷_FRvmess12
-  - 悸沫君 🇺🇸_US_美国vmess13
-  - yui科技vmess14
-  - yui科技_🇫🇷_FRvmess15
-  - yui科技_🇺🇸_USvmess16
-  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess17
-  - yui科技_🇫🇷_FRvmess18
-  - yui科技_🇺🇸_USvmess19
-  - yui科技_🇺🇸_USvmess20
-  - yui科技_🇦🇲_AMvmess21
-  - 日本(玉豆免费节点)vmess22
-  - 美国(玉豆免费节点)vmess23
-  - yui科技_🇧🇿_BZvmess24
-  - 悸沫君 🇺🇸_US_美国_11vmess25
-  - yui科技_🇺🇸_USvmess26
-  - 悸沫君-美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess27
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess28
-  - yui科技_🇺🇸_USvmess29
-  - yui科技_🇺🇸_USvmess30
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess31
-  - yui科技_🇫🇷_FRvmess32
+  - 玉豆_🇺🇸_USvmess13
+  - 玉豆_🇺🇸_USvmess14
+  - 玉豆 法国vmess15
+  - 玉豆_🇺🇸_USvmess16
+  - 悸沫君 🇨🇳_CN_中国vmess17
+  - 悸沫君 🇺🇸_US_美国_2vmess18
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess19
+  - 玉豆_🇺🇸_USvmess20
+  - yui科技_🇺🇸_USvmess21
+  - yui科技_🇫🇷_FRvmess22
+  - yui科技_🇺🇸_USvmess23
+  - 顺丰资源 US 36vmess24
+  - 顺丰资源 US__112vmess25
+  - 玉豆 新加坡vmess26
+  - 玉豆 日本vmess27
+  - 悸沫君 🇺🇸_US_美国vmess28
+  - 玉豆 🇺🇸_USvmess29
+  - 顺丰资源 US__154vmess30
+  - 玉豆_🇺🇸_USvmess31
+  - yui科技_🇺🇸_USvmess32
   - yui科技_🇺🇸_USvmess33
   - yui科技_🇺🇸_USvmess34
   - yui科技_🇺🇸_USvmess35
-  - yui科技_🇫🇷_FRvmess36
-  - 乌克兰(玉豆免费节点)vmess37
-  - yui科技_🇧🇿_BZvmess38
-  - 悸沫君-美国CloudFlare节点 4vmess39
-  - yui科技_🇺🇸_USvmess40
-  - yui科技_🇺🇸_USvmess41
-  - yui科技_🇺🇸_USvmess42
-  - 🇺🇸_US_yui科技vmess43
+  - 玉豆_🇺🇸_USvmess36
+  - 玉豆_🇺🇸_USvmess37
+  - 顺丰资源 US 13vmess38
+  - 玉豆_🇺🇸_USvmess39
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess40
+  - 玉豆_🇺🇸_USvmess41
+  - yui科技_🇫🇷_FRvmess42
+  - 玉豆 乌克兰vmess43
   - yui科技_🇺🇸_USvmess44
-  - yui科技_🇧🇿_BZvmess45
-  - 顺丰资源 US__154vmess46
+  - yui科技_🇺🇸_USvmess45
+  - yui科技_🇯🇵_JPvmess46
   - yui科技_🇺🇸_USvmess47
   - yui科技_🇺🇸_USvmess48
-  - 乌克兰(玉豆免费节点)vmess49
-  - yui科技_🇫🇷_FRvmess50
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess51
-  - 美国(玉豆免费节点)vmess52
-  - 顺丰资源 US 36vmess53
-  - 悸沫君 🇺🇸_US_美国_2vmess54
-  - yui科技_🇺🇸_USvmess55
-  - yui科技_🇧🇿_BZvmess56
-  - 美国(玉豆免费节点)vmess57
-  - yui科技_🇯🇵_JPvmess58
-  - yui科技_🇺🇸_USvmess59
-  - 美国(玉豆免费节点)vmess60
-  - yui科技_🇺🇸_USvmess61
-  - yui科技_🇺🇸_USvmess62
-  - 顺丰资源 US__147vmess63
-  - yui科技_🇺🇸_USvmess64
-  - yui科技_🇯🇵_JPvmess65
+  - yui科技_🇫🇷_FRvmess49
+  - yui科技_🇺🇸_USvmess50
+  - 玉豆 🇺🇸_USvmess51
+  - 顺丰资源 US__147vmess52
+  - 玉豆_🇺🇸_USvmess53
+  - 玉豆_🇺🇸_USvmess54
+  - 悸沫君 美国Linode数据中心 31vmess55
+  - yui科技_🇺🇸_USvmess56
+  - 玉豆_🇯🇵_JPvmess57
+  - 玉豆_🇺🇸_USvmess58
+  - 玉豆_🇺🇸_USvmess59
+  - yui科技_🇺🇸_USvmess60
+  - 玉豆_🇯🇵_JPvmess61
+  - 玉豆_🇺🇸_USvmess62
+  - 玉豆_🇯🇵_JPvmess63
+  - 玉豆_🇺🇸_USvmess64
+  - 玉豆_🇺🇸_USvmess65
   - yui科技_🇺🇸_USvmess66
-  - yui科技_🇨🇾_CYvmess67
-  - yui科技_undefinedvmess68
-  - yui科技_🇧🇿_BZvmess69
-  - yui科技_🇫🇷_FRvmess70
-  - 顺丰资源 US 26vmess71
-  - yui科技_🇺🇸_UStrojan1
-  - 顺丰资源+US+8trojan2
-  - yui科技_🇩🇪_DEtrojan3
-  - "悸沫君_NL_荷兰\r_4_39_39\r\rss1"
+  - 玉豆_🇺🇸_USvmess67
+  - 玉豆_🇺🇸_USvmess68
+  - 玉豆 法国vmess69
+  - 🇺🇸_US_yui科技vmess70
+  - yui科技_🇺🇸_USvmess71
+  - yui科技_🇫🇷_FRvmess72
+  - yui科技_undefinedvmess73
+  - yui科技_🇺🇸_USvmess74
+  - 玉豆_🇺🇸_USvmess75
+  - 玉豆_🇩🇪_DEtrojan1
+  - yui科技_🇩🇪_DEtrojan2
+  - 玉豆_🇺🇸_UStrojan3
+  - yui科技_🇺🇸_UStrojan4
+  - 顺丰资源+US+8trojan5
+  - 玉豆_🇺🇸_UStrojan6
+  - 玉豆_🇺🇸_UStrojan7
+  - yui科技_🇫🇷_FRtrojan8
+  - 悸沫君-cloudflare优%E9% 80%89trojan9
+  - 悸沫君-cloudflare优%E9% 80%89trojan10
+  - 悸沫君 🇳🇱_NL_荷兰_2ss1
   - 悸沫君 🇺🇸_US_美国ss2
+  - 悸沫君 🇺🇸_US_美国ss3
+  - "悸沫君_NL_荷兰\r_4_39_39\r\rss4"
+  - 悸沫君 直连杭州18ss5
+  - 悸沫君 直连杭州19ss6
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 悸沫君 🇨🇳_CN_中国->🇭🇰_HK_香港_1vmess1
-  - 悸沫君 🇺🇸_US_美国_3vmess2
-  - yui科技_🇺🇸_USvmess3
+  - yui科技_🇺🇸_USvmess1
+  - 玉豆_🇺🇸_USvmess2
+  - yui科技vmess3
   - yui科技_🇺🇸_USvmess4
-  - yui科技_🇺🇸_USvmess5
-  - yui科技_🇺🇸_USvmess6
-  - yui科技_🇧🇿_BZvmess7
+  - yui科技_🇧🇿_BZvmess5
+  - yui科技_🇧🇿_BZvmess6
+  - yui科技_🇫🇷_FRvmess7
   - yui科技_🇺🇸_USvmess8
   - yui科技_🇺🇸_USvmess9
-  - yui科技_🇺🇸_USvmess10
-  - yui科技_🇺🇸_USvmess11
+  - yui科技_🇫🇷_FRvmess10
+  - 玉豆_🇺🇸_USvmess11
   - yui科技_🇫🇷_FRvmess12
-  - 悸沫君 🇺🇸_US_美国vmess13
-  - yui科技vmess14
-  - yui科技_🇫🇷_FRvmess15
-  - yui科技_🇺🇸_USvmess16
-  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess17
-  - yui科技_🇫🇷_FRvmess18
-  - yui科技_🇺🇸_USvmess19
-  - yui科技_🇺🇸_USvmess20
-  - yui科技_🇦🇲_AMvmess21
-  - 日本(玉豆免费节点)vmess22
-  - 美国(玉豆免费节点)vmess23
-  - yui科技_🇧🇿_BZvmess24
-  - 悸沫君 🇺🇸_US_美国_11vmess25
-  - yui科技_🇺🇸_USvmess26
-  - 悸沫君-美国弗吉尼亚州阿什本NV NEXT数据中心 16vmess27
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_2vmess28
-  - yui科技_🇺🇸_USvmess29
-  - yui科技_🇺🇸_USvmess30
-  - 悸沫君 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1vmess31
-  - yui科技_🇫🇷_FRvmess32
+  - 玉豆_🇺🇸_USvmess13
+  - 玉豆_🇺🇸_USvmess14
+  - 玉豆 法国vmess15
+  - 玉豆_🇺🇸_USvmess16
+  - 悸沫君 🇨🇳_CN_中国vmess17
+  - 悸沫君 🇺🇸_US_美国_2vmess18
+  - 悸沫君 🇫🇷_FR_法国->🇺🇸_US_美国vmess19
+  - 玉豆_🇺🇸_USvmess20
+  - yui科技_🇺🇸_USvmess21
+  - yui科技_🇫🇷_FRvmess22
+  - yui科技_🇺🇸_USvmess23
+  - 顺丰资源 US 36vmess24
+  - 顺丰资源 US__112vmess25
+  - 玉豆 新加坡vmess26
+  - 玉豆 日本vmess27
+  - 悸沫君 🇺🇸_US_美国vmess28
+  - 玉豆 🇺🇸_USvmess29
+  - 顺丰资源 US__154vmess30
+  - 玉豆_🇺🇸_USvmess31
+  - yui科技_🇺🇸_USvmess32
   - yui科技_🇺🇸_USvmess33
   - yui科技_🇺🇸_USvmess34
   - yui科技_🇺🇸_USvmess35
-  - yui科技_🇫🇷_FRvmess36
-  - 乌克兰(玉豆免费节点)vmess37
-  - yui科技_🇧🇿_BZvmess38
-  - 悸沫君-美国CloudFlare节点 4vmess39
-  - yui科技_🇺🇸_USvmess40
-  - yui科技_🇺🇸_USvmess41
-  - yui科技_🇺🇸_USvmess42
-  - 🇺🇸_US_yui科技vmess43
+  - 玉豆_🇺🇸_USvmess36
+  - 玉豆_🇺🇸_USvmess37
+  - 顺丰资源 US 13vmess38
+  - 玉豆_🇺🇸_USvmess39
+  - 悸沫君_🇺🇸US-🇺🇸US_245vmess40
+  - 玉豆_🇺🇸_USvmess41
+  - yui科技_🇫🇷_FRvmess42
+  - 玉豆 乌克兰vmess43
   - yui科技_🇺🇸_USvmess44
-  - yui科技_🇧🇿_BZvmess45
-  - 顺丰资源 US__154vmess46
+  - yui科技_🇺🇸_USvmess45
+  - yui科技_🇯🇵_JPvmess46
   - yui科技_🇺🇸_USvmess47
   - yui科技_🇺🇸_USvmess48
-  - 乌克兰(玉豆免费节点)vmess49
-  - yui科技_🇫🇷_FRvmess50
-  - 悸沫君_🇺🇸US-🇺🇸US_245vmess51
-  - 美国(玉豆免费节点)vmess52
-  - 顺丰资源 US 36vmess53
-  - 悸沫君 🇺🇸_US_美国_2vmess54
-  - yui科技_🇺🇸_USvmess55
-  - yui科技_🇧🇿_BZvmess56
-  - 美国(玉豆免费节点)vmess57
-  - yui科技_🇯🇵_JPvmess58
-  - yui科技_🇺🇸_USvmess59
-  - 美国(玉豆免费节点)vmess60
-  - yui科技_🇺🇸_USvmess61
-  - yui科技_🇺🇸_USvmess62
-  - 顺丰资源 US__147vmess63
-  - yui科技_🇺🇸_USvmess64
-  - yui科技_🇯🇵_JPvmess65
+  - yui科技_🇫🇷_FRvmess49
+  - yui科技_🇺🇸_USvmess50
+  - 玉豆 🇺🇸_USvmess51
+  - 顺丰资源 US__147vmess52
+  - 玉豆_🇺🇸_USvmess53
+  - 玉豆_🇺🇸_USvmess54
+  - 悸沫君 美国Linode数据中心 31vmess55
+  - yui科技_🇺🇸_USvmess56
+  - 玉豆_🇯🇵_JPvmess57
+  - 玉豆_🇺🇸_USvmess58
+  - 玉豆_🇺🇸_USvmess59
+  - yui科技_🇺🇸_USvmess60
+  - 玉豆_🇯🇵_JPvmess61
+  - 玉豆_🇺🇸_USvmess62
+  - 玉豆_🇯🇵_JPvmess63
+  - 玉豆_🇺🇸_USvmess64
+  - 玉豆_🇺🇸_USvmess65
   - yui科技_🇺🇸_USvmess66
-  - yui科技_🇨🇾_CYvmess67
-  - yui科技_undefinedvmess68
-  - yui科技_🇧🇿_BZvmess69
-  - yui科技_🇫🇷_FRvmess70
-  - 顺丰资源 US 26vmess71
-  - yui科技_🇺🇸_UStrojan1
-  - 顺丰资源+US+8trojan2
-  - yui科技_🇩🇪_DEtrojan3
-  - "悸沫君_NL_荷兰\r_4_39_39\r\rss1"
+  - 玉豆_🇺🇸_USvmess67
+  - 玉豆_🇺🇸_USvmess68
+  - 玉豆 法国vmess69
+  - 🇺🇸_US_yui科技vmess70
+  - yui科技_🇺🇸_USvmess71
+  - yui科技_🇫🇷_FRvmess72
+  - yui科技_undefinedvmess73
+  - yui科技_🇺🇸_USvmess74
+  - 玉豆_🇺🇸_USvmess75
+  - 玉豆_🇩🇪_DEtrojan1
+  - yui科技_🇩🇪_DEtrojan2
+  - 玉豆_🇺🇸_UStrojan3
+  - yui科技_🇺🇸_UStrojan4
+  - 顺丰资源+US+8trojan5
+  - 玉豆_🇺🇸_UStrojan6
+  - 玉豆_🇺🇸_UStrojan7
+  - yui科技_🇫🇷_FRtrojan8
+  - 悸沫君-cloudflare优%E9% 80%89trojan9
+  - 悸沫君-cloudflare优%E9% 80%89trojan10
+  - 悸沫君 🇳🇱_NL_荷兰_2ss1
   - 悸沫君 🇺🇸_US_美国ss2
+  - 悸沫君 🇺🇸_US_美国ss3
+  - "悸沫君_NL_荷兰\r_4_39_39\r\rss4"
+  - 悸沫君 直连杭州18ss5
+  - 悸沫君 直连杭州19ss6
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
