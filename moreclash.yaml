@@ -26,44 +26,7 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 阿伟科技_🇸🇬_SGvmess1
-  type: vmess
-  server: free-sg1.tencent.cfd
-  port: '50328'
-  uuid: d1860587-aa33-4b76-85cd-c191edecb338
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: free-sg1.tencent.cfd
-- name: 悸沫君vmess2
-  type: vmess
-  server: vip32-ws-tls.jsssline.top
-  port: '43305'
-  uuid: f245ba15-aff5-7229-cdc6-6535303c2a75
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: vip32-ws-tls.jsssline.top
-- name: 顺丰_🇺🇸_US 25vmess3
-  type: vmess
-  server: six.r33.fun
-  port: '443'
-  uuid: 31f61660-a646-11ed-b539-205c6d5f5d78
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /1soxrkmb
-  ws-headers:
-    Host: us-4.0rd.net
-  tls: true
-- name: yui科技vmess4
+- name: yui科技vmess1
   type: vmess
   server: 47.104.237.32
   port: '50002'
@@ -75,71 +38,32 @@ proxies:
   ws-path: ''
   ws-headers:
     Host: ''
-- name: 阿伟科技_KRvmess5
+- name: 梦歌_🇭🇰_HK Netflix_36vmess2
   type: vmess
-  server: kr1.acyun.eu.org
-  port: '35626'
-  uuid: 63639a72-f01e-46f4-a45c-91b5cd5e171b
+  server: 172.67.174.51
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /
+  ws-path: /8cda48b3
   ws-headers:
-    Host: apple.com
-- name: 悸沫君_🇭🇰_HK 14vmess6
-  type: vmess
-  server: zfc.windowsupdate1.com
-  port: '443'
-  uuid: 12463907-51ea-4eaf-9863-699f65430b17
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /yfjc/us1?ed=2048
-  ws-headers:
-    Host: us1.yfjc.sbs
+    Host: IN-92-99.shoptunnel.live
   tls: true
-- name: 阿伟科技_🇫🇷_FRvmess7
+- name: 悸沫君_GCOREvmess3
   type: vmess
-  server: six.r33.fun
-  port: '443'
-  uuid: 497e12d0-a645-11ed-b930-205c6d5f5d78
+  server: NO.ARIES.OVH
+  port: '2052'
+  uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /it0svahf
+  ws-path: /aries?ed=2048
   ws-headers:
-    Host: fr-1.0rd.net
-  tls: true
-- name: yui科技_🇺🇸_USvmess8
-  type: vmess
-  server: 172.67.72.219
-  port: '443'
-  uuid: 90ea24f6-4b7f-4b4e-a9c1-de7d77b67e45
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /m1
-  ws-headers:
-    Host: de-2.heima-bot.tech
-  tls: true
-- name: 阿伟科技_NLvmess9
-  type: vmess
-  server: six.r33.fun
-  port: '443'
-  uuid: a6d1f100-a644-11ed-b931-205c6d5f5d78
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /qz5rkavj
-  ws-headers:
-    Host: nl.0rd.net
-  tls: true
-- name: yui科技_🇺🇸_USvmess10
+    Host: gcore-in.cloudflare.quest
+- name: yui科技_🇺🇸_USvmess4
   type: vmess
   server: cf-lt-dns.sharecentre.online
   port: '443'
@@ -150,48 +74,21 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: uk-2.sharecentre.online
+    Host: de-1.sharecentre.online
   tls: true
-- name: 阿伟科技_frvmess11
+- name: 玉豆_🇺🇸_USvmess5
   type: vmess
-  server: hohm.microsoft.com
-  port: '443'
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  server: no.aries.ovh
+  port: '2052'
+  uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /A2DJOPFT
+  ws-path: /aries?ed=2048
   ws-headers:
-    Host: lg10.cfcdn1.xyz
-  tls: true
-- name: yui科技_🇺🇸_USvmess12
-  type: vmess
-  server: 172.67.72.219
-  port: '443'
-  uuid: 90ea24f6-4b7f-4b4e-a9c1-de7d77b67e45
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /m1
-  ws-headers:
-    Host: de-1.heima-bot.tech
-  tls: true
-- name: 阿伟科技_🇩🇪_DEvmess13
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: de-2.sharecentre.online
-  tls: true
-- name: 顺丰_🇺🇸_US 21vmess14
+    Host: fr.cloudflare.quest
+- name: yui科技_🇺🇸_USvmess6
   type: vmess
   server: 103.21.244.122
   port: '8443'
@@ -204,244 +101,20 @@ proxies:
   ws-headers:
     Host: IN-92-99.shoptunnel.live
   tls: true
-- name: 阿伟科技_INvmess15
+- name: yui科技_🇺🇸_USvmess7
   type: vmess
-  server: 103.21.244.82
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: 悸沫君_🇺🇸_US 45vmess16
-  type: vmess
-  server: six.r33.fun
+  server: cf-lt-dns.sharecentre.online
   port: '443'
-  uuid: 9ee50101-c2e4-4a16-8501-98e7e10d148a
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /racevpn
+  ws-path: /shirker
   ws-headers:
-    Host: nl2-full.privateip.net
+    Host: uk-2.sharecentre.online
   tls: true
-- name: 阿伟科技_FI芬兰vmess17
-  type: vmess
-  server: vmess.woiden.yuji2022.gq
-  port: '8880'
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /E86414F638E11
-  ws-headers:
-    Host: ''
-- name: 悸沫君_GCOREvmess18
-  type: vmess
-  server: NO.ARIES.OVH
-  port: '2052'
-  uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /aries?ed=2048
-  ws-headers:
-    Host: gcore-in.cloudflare.quest
-- name: 阿伟科技_UKvmess19
-  type: vmess
-  server: six.r33.fun
-  port: '443'
-  uuid: c366ee20-a645-11ed-b431-205c6d5f5d78
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dyq2cixz
-  ws-headers:
-    Host: uk.0rd.net
-  tls: true
-- name: 悸沫君 SK-SG 1vmess20
-  type: vmess
-  server: 198.41.208.200
-  port: '80'
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sshkit/1736960111/63da7ce9b56bb/
-  ws-headers:
-    Host: sg1-v2ray.sshkit.org
-- name: 阿伟科技_🇫🇷_FRvmess21
-  type: vmess
-  server: els200.jslist.tk
-  port: '8443'
-  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wo.php
-  ws-headers:
-    Host: els200.jslist.tk
-  tls: true
-- name: 美国(@kxswa)vmess22
-  type: vmess
-  server: els200.jslist.tk
-  port: '8443'
-  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wo.php
-  ws-headers:
-    Host: els200.jslist.tk
-  tls: true
-- name: yui科技_🇺🇸_USvmess23
-  type: vmess
-  server: 172.67.72.219
-  port: '8080'
-  uuid: 90ea24f6-4b7f-4b4e-a9c1-de7d77b67e45
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /m1
-  ws-headers:
-    Host: do-1.heima-bot.tech
-- name: 悸沫君_🇭🇰_HK HKBGP|Netflix_120vmess24
-  type: vmess
-  server: 172.67.117.36
-  port: '443'
-  uuid: fe1a9c93-89e5-44ce-deee-7e6cb9336296
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 25dosg.nmsl.pics
-  tls: true
-- name: 顺丰_🇺🇸_US 46vmess25
-  type: vmess
-  server: 103.21.244.187
-  port: '8443'
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /8cda48b3
-  ws-headers:
-    Host: IN-92-99.shoptunnel.live
-  tls: true
-- name: yui科技_🇺🇸_USvmess26
-  type: vmess
-  server: 104.17.199.25
-  port: '443'
-  uuid: 860b543f-5039-473b-96ec-4494aebe4416
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /xuexi
-  ws-headers:
-    Host: hongbozeng.ml
-  tls: true
-- name: 悸沫君_🇭🇰_HK 9vmess27
-  type: vmess
-  server: 162.159.153.13
-  port: '443'
-  uuid: 12463907-51ea-4eaf-9863-699f65430b17
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /yfjc/jp2?ed=2048
-  ws-headers:
-    Host: jp2.yfjc.sbs
-  tls: true
-- name: 悸沫君_Scaleway-WARPvmess28
-  type: vmess
-  server: no.aries.ovh
-  port: '2052'
-  uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /aries?ed=2048
-  ws-headers:
-    Host: scw.cloudflare.quest
-- name: 悸沫君_🇨🇳_CNvmess29
-  type: vmess
-  server: 36.133.166.148
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君_🇨🇳_CNvmess30
-  type: vmess
-  server: 36.133.166.68
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君_🇨🇳_CNvmess31
-  type: vmess
-  server: 36.139.162.59
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君_OVH-WARPvmess32
-  type: vmess
-  server: no.aries.ovh
-  port: '2052'
-  uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /aries?ed=2048
-  ws-headers:
-    Host: ovh.cloudflare.quest
-- name: 悸沫君_🇨🇳_CNvmess33
-  type: vmess
-  server: 36.134.16.190
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君_🇺🇸_USvmess34
+- name: 玉豆_🇺🇸_USvmess8
   type: vmess
   server: hucloud.tk
   port: '443'
@@ -454,32 +127,44 @@ proxies:
   ws-headers:
     Host: hucloud.tk
   tls: true
-- name: 悸沫君_🇨🇳_CNvmess35
+- name: yui科技_🇺🇸_USvmess9
   type: vmess
-  server: 36.134.16.96
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 阿伟科技_🇺🇸_USvmess36
-  type: vmess
-  server: v2.linux.im
-  port: '443'
-  uuid: 599a2a1f-dc4f-3378-b4dc-3923e599257b
+  server: els200.jslist.tk
+  port: '8443'
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /chinanet
+  ws-path: /wo.php
   ws-headers:
-    Host: v2.linux.im
+    Host: els200.jslist.tk
   tls: true
-- name: yui科技_🇺🇸_USvmess37
+- name: 玉豆_🇺🇸_USvmess10
+  type: vmess
+  server: no.aries.ovh
+  port: '2052'
+  uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: gcore-us.cloudflare.quest
+- name: 悸沫君_OVH-WARPvmess11
+  type: vmess
+  server: no.aries.ovh
+  port: '2052'
+  uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aries?ed=2048
+  ws-headers:
+    Host: ovh.cloudflare.quest
+- name: 玉豆_🇩🇪_DEvmess12
   type: vmess
   server: cf-lt.sharecentre.online
   port: '443'
@@ -490,48 +175,23 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: kh.sharecentre.online
+    Host: de-2.sharecentre.online
   tls: true
-- name: 阿伟科技_🇫🇷_FRvmess38
+- name: yui科技_🇺🇸_USvmess13
   type: vmess
-  server: v12a.toddns.tk
+  server: gb.woiden.yuji2022.gq
   port: '80'
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /fr-111unlimitxxx
-  ws-headers:
-    Host: v12a.toddns.tk
-- name: 悸沫君_🇨🇳_CNvmess39
-  type: vmess
-  server: 36.134.16.171
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
+  ws-path: /Eynyyo4kJfl2fkJfl2f
   ws-headers:
     Host: ''
-- name: 悸沫君_🇭🇰_HK 10vmess40
+- name: 阿伟科技_🇩🇪_DEvmess14
   type: vmess
-  server: 162.159.152.5
-  port: '443'
-  uuid: 12463907-51ea-4eaf-9863-699f65430b17
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /yfjc/jp1?ed=2048
-  ws-headers:
-    Host: jp1.yfjc.sbs
-  tls: true
-- name: yui科技_🇺🇸_USvmess41
-  type: vmess
-  server: mncc.cf
+  server: cf-lt.sharecentre.online
   port: '443'
   uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
@@ -540,34 +200,123 @@ proxies:
   network: ws
   ws-path: /shirker
   ws-headers:
-    Host: mncc.cf
+    Host: de-1.sharecentre.online
   tls: true
-- name: 悸沫君_🇨🇳_CNvmess42
+- name: 阿伟科技_🇯🇵_JPvmess15
   type: vmess
-  server: 36.133.171.209
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 阿伟科技_🇫🇷_FRvmess43
-  type: vmess
-  server: 141.193.213.20
-  port: '443'
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  server: v20.emovpn.xyz
+  port: '8443'
+  uuid: 4bac51b0-13d4-4086-8263-b0b97e5c3c74
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /9JZFDTKE
+  ws-path: /
   ws-headers:
-    Host: fr1.trump2023.org
+    Host: v20.emovpn.xyz
   tls: true
-- name: 悸沫君_🇨🇳_CNvmess44
+- name: yui科技_🇺🇸_USvmess16
+  type: vmess
+  server: v10.toddns.tk
+  port: '80'
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /ZPK2023jLBv10Ey
+  ws-headers:
+    Host: v10.toddns.tk
+- name: 梦歌_🇭🇰_HK Netflix_31vmess17
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: uk-2.sharecentre.online
+  tls: true
+- name: 阿伟科技_FI芬兰vmess18
+  type: vmess
+  server: vmess.woiden.yuji2022.gq
+  port: '8880'
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /E86414F638E11
+  ws-headers:
+    Host: ''
+- name: 梦歌_🇭🇰_HK Netflix_44vmess19
+  type: vmess
+  server: 173.245.49.23
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: IN-92-99.shoptunnel.live
+  tls: true
+- name: yui科技_🇺🇸_USvmess20
+  type: vmess
+  server: hucloud.tk
+  port: '443'
+  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /huhu
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 玉豆_🇺🇸_USvmess21
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: de-1.sharecentre.online
+  tls: true
+- name: 梦歌_🇭🇰_HK Netflix_60vmess22
+  type: vmess
+  server: eu1.hax.yuji2022.gq
+  port: '80'
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8kH8qnepjkprbsidLrLkmX
+  ws-headers:
+    Host: ''
+- name: 梦歌_🇭🇰_HK Netflix_41vmess23
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: uk-1.sharecentre.online
+  tls: true
+- name: 悸沫君_🇨🇳_CNvmess24
   type: vmess
   server: 36.134.147.137
   port: '11023'
@@ -579,9 +328,247 @@ proxies:
   ws-path: ''
   ws-headers:
     Host: ''
-- name: 玉豆_🇺🇸_USvmess45
+- name: 玉豆_🇸🇬_SGvmess25
   type: vmess
-  server: hohm.microsoft.com
+  server: 172.67.189.142
+  port: '8443'
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /8cda48b3
+  ws-headers:
+    Host: sg-212-128.shoptunnel.live
+  tls: true
+- name: yui科技_🇺🇸_USvmess26
+  type: vmess
+  server: els200.jslist.tk
+  port: '8443'
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /wo.php
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 阿伟科技_🇫🇷_FRvmess27
+  type: vmess
+  server: els200.jslist.tk
+  port: '8443'
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /wo.php
+  ws-headers:
+    Host: els200.jslist.tk
+  tls: true
+- name: yui科技_🇺🇸_USvmess28
+  type: vmess
+  server: cdnjs.com
+  port: '443'
+  uuid: ee30d3ff-da14-4ea8-bcd2-02e8ee3667de
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /aidapp.lifevws
+  ws-headers:
+    Host: hstr1675520106270.aidapp.life
+  tls: true
+- name: 悸沫君_🇨🇳_CNvmess29
+  type: vmess
+  server: 36.134.16.171
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇨🇳_CNvmess30
+  type: vmess
+  server: 36.134.16.96
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇨🇳_CNvmess31
+  type: vmess
+  server: 36.134.147.133
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 梦歌_🇭🇰_HK Netflix_78vmess32
+  type: vmess
+  server: six.r33.fun
+  port: '443'
+  uuid: 31f61660-a646-11ed-b539-205c6d5f5d78
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /1soxrkmb
+  ws-headers:
+    Host: us-4.0rd.net
+  tls: true
+- name: 梦歌_京港BGP Netflix_59vmess33
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: de-2.sharecentre.online
+  tls: true
+- name: 玉豆_🇺🇸_USvmess34
+  type: vmess
+  server: cf.fovi.tk
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /eisasqa
+  ws-headers:
+    Host: foxpol.fovi.tk
+  tls: true
+- name: yui科技_🇺🇸_USvmess35
+  type: vmess
+  server: v140a.toddns.tk
+  port: '443'
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /fr-111unlimitxxx
+  ws-headers:
+    Host: v140a.toddns.tk
+  tls: true
+- name: 悸沫君_🇨🇳_CNvmess36
+  type: vmess
+  server: 36.134.16.190
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇨🇳_CNvmess37
+  type: vmess
+  server: 36.139.162.59
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇨🇳_CNvmess38
+  type: vmess
+  server: 36.133.171.209
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇨🇳_CNvmess39
+  type: vmess
+  server: 36.133.166.68
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇨🇳_CNvmess40
+  type: vmess
+  server: 36.133.166.148
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: yui科技_🇺🇸_USvmess41
+  type: vmess
+  server: 172.67.117.36
+  port: '443'
+  uuid: fe1a9c93-89e5-44ce-deee-7e6cb9336296
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 25dosg.nmsl.pics
+  tls: true
+- name: 梦歌_🇭🇰_HK Netflix_30vmess42
+  type: vmess
+  server: de.woiden.yuji2022.gq
+  port: '80'
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /XQ2WCa29jfDMGBcbnQ
+  ws-headers:
+    Host: de.woiden.yuji2022.gq
+- name: 梦歌_🇭🇰_HK Netflix_47vmess43
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: '443'
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: uk-1.sharecentre.online
+  tls: true
+- name: 玉豆_🇺🇸_USvmess44
+  type: vmess
+  server: 172.67.199.34
   port: '443'
   uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
   alterId: '0'
@@ -592,107 +579,72 @@ proxies:
   ws-headers:
     Host: lu.sharecentre.online
   tls: true
-- name: 阿伟科技_🇺🇸_USvmess46
-  type: vmess
-  server: 203.24.108.8
-  port: '443'
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ECTCJ0DF
-  ws-headers:
-    Host: lg1.trump2023.us
-  tls: true
-- name: 阿伟科技_🇺🇸_USvmess47
-  type: vmess
-  server: yjz.hk
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-  tls: true
-- name: 阿伟科技_🇩🇪_DEtrojan1
+- name: 梦歌_🇭🇰_HK Netflix_76trojan1
   type: trojan
   server: de1.trojan-lite.com
   port: '443'
   udp: true
   password: bs6KJkPBW9MP74uHEa
   skip-cert-verify: true
-  sni: de1.trojan-lite.com
-- name: 阿伟科技_🇸🇬_SGtrojan2
-  type: trojan
-  server: 20.24.154.167
-  port: '443'
-  udp: true
-  password: 12463907-51ea-4eaf-9863-699f65430b17
-  skip-cert-verify: true
-  sni: pcd462233.netvigator.com
-- name: 阿伟科技_🇸🇬_SGtrojan3
-  type: trojan
-  server: 20.24.154.167
-  port: '443'
-  udp: true
-  password: 718046d1-acee-48be-b5d3-1bda5eee0139
-  skip-cert-verify: true
-  sni: pcd462233.netvigator.com
+  sni: tcp
 - name: 悸沫君_🇨🇳_CNss1
-  server: 36.137.188.105
-  port: '11024'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君_🇨🇳_CNss2
-  server: 36.137.188.23
-  port: '11024'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君_🇨🇳_CNss3
   server: 36.137.188.17
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君_🇨🇳_CNss4
-  server: 36.137.188.15
+- name: 悸沫君_🇨🇳_CNss2
+  server: 36.137.188.105
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君_🇨🇳_CNss5
+- name: 悸沫君_🇨🇳_CNss3
   server: 36.137.188.19
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君_🇨🇳_CNss6
-  server: 36.137.188.56
-  port: '11024'
+- name: 玉豆_🇯🇵_JPss4
+  server: 85.208.108.60
+  port: '8090'
   method: aes-256-gcm
   cipher: aes-256-gcm
-  password: ll668668@
+  password: PCnnH6SQSnfoS27
   type: ss
-- name: 悸沫君_🇨🇳_CNss7
+- name: 悸沫君_🇨🇳_CNss5
   server: 36.137.188.78
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君_🇨🇳_CNss8
+- name: 悸沫君_🇨🇳_CNss6
   server: 36.133.201.209
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君_🇨🇳_CNss7
+  server: 36.133.202.24
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君_🇨🇳_CNss8
+  server: 36.133.201.246
+  port: '11024'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君_🇨🇳_CNss9
+  server: 36.133.201.128
   port: '11024'
   method: aes-256-gcm
   cipher: aes-256-gcm
@@ -705,128 +657,120 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 阿伟科技_🇸🇬_SGvmess1
-  - 悸沫君vmess2
-  - 顺丰_🇺🇸_US 25vmess3
-  - yui科技vmess4
-  - 阿伟科技_KRvmess5
-  - 悸沫君_🇭🇰_HK 14vmess6
-  - 阿伟科技_🇫🇷_FRvmess7
-  - yui科技_🇺🇸_USvmess8
-  - 阿伟科技_NLvmess9
-  - yui科技_🇺🇸_USvmess10
-  - 阿伟科技_frvmess11
-  - yui科技_🇺🇸_USvmess12
-  - 阿伟科技_🇩🇪_DEvmess13
-  - 顺丰_🇺🇸_US 21vmess14
-  - 阿伟科技_INvmess15
-  - 悸沫君_🇺🇸_US 45vmess16
-  - 阿伟科技_FI芬兰vmess17
-  - 悸沫君_GCOREvmess18
-  - 阿伟科技_UKvmess19
-  - 悸沫君 SK-SG 1vmess20
-  - 阿伟科技_🇫🇷_FRvmess21
-  - 美国(@kxswa)vmess22
-  - yui科技_🇺🇸_USvmess23
-  - 悸沫君_🇭🇰_HK HKBGP|Netflix_120vmess24
-  - 顺丰_🇺🇸_US 46vmess25
+  - yui科技vmess1
+  - 梦歌_🇭🇰_HK Netflix_36vmess2
+  - 悸沫君_GCOREvmess3
+  - yui科技_🇺🇸_USvmess4
+  - 玉豆_🇺🇸_USvmess5
+  - yui科技_🇺🇸_USvmess6
+  - yui科技_🇺🇸_USvmess7
+  - 玉豆_🇺🇸_USvmess8
+  - yui科技_🇺🇸_USvmess9
+  - 玉豆_🇺🇸_USvmess10
+  - 悸沫君_OVH-WARPvmess11
+  - 玉豆_🇩🇪_DEvmess12
+  - yui科技_🇺🇸_USvmess13
+  - 阿伟科技_🇩🇪_DEvmess14
+  - 阿伟科技_🇯🇵_JPvmess15
+  - yui科技_🇺🇸_USvmess16
+  - 梦歌_🇭🇰_HK Netflix_31vmess17
+  - 阿伟科技_FI芬兰vmess18
+  - 梦歌_🇭🇰_HK Netflix_44vmess19
+  - yui科技_🇺🇸_USvmess20
+  - 玉豆_🇺🇸_USvmess21
+  - 梦歌_🇭🇰_HK Netflix_60vmess22
+  - 梦歌_🇭🇰_HK Netflix_41vmess23
+  - 悸沫君_🇨🇳_CNvmess24
+  - 玉豆_🇸🇬_SGvmess25
   - yui科技_🇺🇸_USvmess26
-  - 悸沫君_🇭🇰_HK 9vmess27
-  - 悸沫君_Scaleway-WARPvmess28
+  - 阿伟科技_🇫🇷_FRvmess27
+  - yui科技_🇺🇸_USvmess28
   - 悸沫君_🇨🇳_CNvmess29
   - 悸沫君_🇨🇳_CNvmess30
   - 悸沫君_🇨🇳_CNvmess31
-  - 悸沫君_OVH-WARPvmess32
-  - 悸沫君_🇨🇳_CNvmess33
-  - 悸沫君_🇺🇸_USvmess34
-  - 悸沫君_🇨🇳_CNvmess35
-  - 阿伟科技_🇺🇸_USvmess36
-  - yui科技_🇺🇸_USvmess37
-  - 阿伟科技_🇫🇷_FRvmess38
+  - 梦歌_🇭🇰_HK Netflix_78vmess32
+  - 梦歌_京港BGP Netflix_59vmess33
+  - 玉豆_🇺🇸_USvmess34
+  - yui科技_🇺🇸_USvmess35
+  - 悸沫君_🇨🇳_CNvmess36
+  - 悸沫君_🇨🇳_CNvmess37
+  - 悸沫君_🇨🇳_CNvmess38
   - 悸沫君_🇨🇳_CNvmess39
-  - 悸沫君_🇭🇰_HK 10vmess40
+  - 悸沫君_🇨🇳_CNvmess40
   - yui科技_🇺🇸_USvmess41
-  - 悸沫君_🇨🇳_CNvmess42
-  - 阿伟科技_🇫🇷_FRvmess43
-  - 悸沫君_🇨🇳_CNvmess44
-  - 玉豆_🇺🇸_USvmess45
-  - 阿伟科技_🇺🇸_USvmess46
-  - 阿伟科技_🇺🇸_USvmess47
-  - 阿伟科技_🇩🇪_DEtrojan1
-  - 阿伟科技_🇸🇬_SGtrojan2
-  - 阿伟科技_🇸🇬_SGtrojan3
+  - 梦歌_🇭🇰_HK Netflix_30vmess42
+  - 梦歌_🇭🇰_HK Netflix_47vmess43
+  - 玉豆_🇺🇸_USvmess44
+  - 梦歌_🇭🇰_HK Netflix_76trojan1
   - 悸沫君_🇨🇳_CNss1
   - 悸沫君_🇨🇳_CNss2
   - 悸沫君_🇨🇳_CNss3
-  - 悸沫君_🇨🇳_CNss4
+  - 玉豆_🇯🇵_JPss4
   - 悸沫君_🇨🇳_CNss5
   - 悸沫君_🇨🇳_CNss6
   - 悸沫君_🇨🇳_CNss7
   - 悸沫君_🇨🇳_CNss8
+  - 悸沫君_🇨🇳_CNss9
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 阿伟科技_🇸🇬_SGvmess1
-  - 悸沫君vmess2
-  - 顺丰_🇺🇸_US 25vmess3
-  - yui科技vmess4
-  - 阿伟科技_KRvmess5
-  - 悸沫君_🇭🇰_HK 14vmess6
-  - 阿伟科技_🇫🇷_FRvmess7
-  - yui科技_🇺🇸_USvmess8
-  - 阿伟科技_NLvmess9
-  - yui科技_🇺🇸_USvmess10
-  - 阿伟科技_frvmess11
-  - yui科技_🇺🇸_USvmess12
-  - 阿伟科技_🇩🇪_DEvmess13
-  - 顺丰_🇺🇸_US 21vmess14
-  - 阿伟科技_INvmess15
-  - 悸沫君_🇺🇸_US 45vmess16
-  - 阿伟科技_FI芬兰vmess17
-  - 悸沫君_GCOREvmess18
-  - 阿伟科技_UKvmess19
-  - 悸沫君 SK-SG 1vmess20
-  - 阿伟科技_🇫🇷_FRvmess21
-  - 美国(@kxswa)vmess22
-  - yui科技_🇺🇸_USvmess23
-  - 悸沫君_🇭🇰_HK HKBGP|Netflix_120vmess24
-  - 顺丰_🇺🇸_US 46vmess25
+  - yui科技vmess1
+  - 梦歌_🇭🇰_HK Netflix_36vmess2
+  - 悸沫君_GCOREvmess3
+  - yui科技_🇺🇸_USvmess4
+  - 玉豆_🇺🇸_USvmess5
+  - yui科技_🇺🇸_USvmess6
+  - yui科技_🇺🇸_USvmess7
+  - 玉豆_🇺🇸_USvmess8
+  - yui科技_🇺🇸_USvmess9
+  - 玉豆_🇺🇸_USvmess10
+  - 悸沫君_OVH-WARPvmess11
+  - 玉豆_🇩🇪_DEvmess12
+  - yui科技_🇺🇸_USvmess13
+  - 阿伟科技_🇩🇪_DEvmess14
+  - 阿伟科技_🇯🇵_JPvmess15
+  - yui科技_🇺🇸_USvmess16
+  - 梦歌_🇭🇰_HK Netflix_31vmess17
+  - 阿伟科技_FI芬兰vmess18
+  - 梦歌_🇭🇰_HK Netflix_44vmess19
+  - yui科技_🇺🇸_USvmess20
+  - 玉豆_🇺🇸_USvmess21
+  - 梦歌_🇭🇰_HK Netflix_60vmess22
+  - 梦歌_🇭🇰_HK Netflix_41vmess23
+  - 悸沫君_🇨🇳_CNvmess24
+  - 玉豆_🇸🇬_SGvmess25
   - yui科技_🇺🇸_USvmess26
-  - 悸沫君_🇭🇰_HK 9vmess27
-  - 悸沫君_Scaleway-WARPvmess28
+  - 阿伟科技_🇫🇷_FRvmess27
+  - yui科技_🇺🇸_USvmess28
   - 悸沫君_🇨🇳_CNvmess29
   - 悸沫君_🇨🇳_CNvmess30
   - 悸沫君_🇨🇳_CNvmess31
-  - 悸沫君_OVH-WARPvmess32
-  - 悸沫君_🇨🇳_CNvmess33
-  - 悸沫君_🇺🇸_USvmess34
-  - 悸沫君_🇨🇳_CNvmess35
-  - 阿伟科技_🇺🇸_USvmess36
-  - yui科技_🇺🇸_USvmess37
-  - 阿伟科技_🇫🇷_FRvmess38
+  - 梦歌_🇭🇰_HK Netflix_78vmess32
+  - 梦歌_京港BGP Netflix_59vmess33
+  - 玉豆_🇺🇸_USvmess34
+  - yui科技_🇺🇸_USvmess35
+  - 悸沫君_🇨🇳_CNvmess36
+  - 悸沫君_🇨🇳_CNvmess37
+  - 悸沫君_🇨🇳_CNvmess38
   - 悸沫君_🇨🇳_CNvmess39
-  - 悸沫君_🇭🇰_HK 10vmess40
+  - 悸沫君_🇨🇳_CNvmess40
   - yui科技_🇺🇸_USvmess41
-  - 悸沫君_🇨🇳_CNvmess42
-  - 阿伟科技_🇫🇷_FRvmess43
-  - 悸沫君_🇨🇳_CNvmess44
-  - 玉豆_🇺🇸_USvmess45
-  - 阿伟科技_🇺🇸_USvmess46
-  - 阿伟科技_🇺🇸_USvmess47
-  - 阿伟科技_🇩🇪_DEtrojan1
-  - 阿伟科技_🇸🇬_SGtrojan2
-  - 阿伟科技_🇸🇬_SGtrojan3
+  - 梦歌_🇭🇰_HK Netflix_30vmess42
+  - 梦歌_🇭🇰_HK Netflix_47vmess43
+  - 玉豆_🇺🇸_USvmess44
+  - 梦歌_🇭🇰_HK Netflix_76trojan1
   - 悸沫君_🇨🇳_CNss1
   - 悸沫君_🇨🇳_CNss2
   - 悸沫君_🇨🇳_CNss3
-  - 悸沫君_🇨🇳_CNss4
+  - 玉豆_🇯🇵_JPss4
   - 悸沫君_🇨🇳_CNss5
   - 悸沫君_🇨🇳_CNss6
   - 悸沫君_🇨🇳_CNss7
   - 悸沫君_🇨🇳_CNss8
+  - 悸沫君_🇨🇳_CNss9
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -839,64 +783,60 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 阿伟科技_🇸🇬_SGvmess1
-  - 悸沫君vmess2
-  - 顺丰_🇺🇸_US 25vmess3
-  - yui科技vmess4
-  - 阿伟科技_KRvmess5
-  - 悸沫君_🇭🇰_HK 14vmess6
-  - 阿伟科技_🇫🇷_FRvmess7
-  - yui科技_🇺🇸_USvmess8
-  - 阿伟科技_NLvmess9
-  - yui科技_🇺🇸_USvmess10
-  - 阿伟科技_frvmess11
-  - yui科技_🇺🇸_USvmess12
-  - 阿伟科技_🇩🇪_DEvmess13
-  - 顺丰_🇺🇸_US 21vmess14
-  - 阿伟科技_INvmess15
-  - 悸沫君_🇺🇸_US 45vmess16
-  - 阿伟科技_FI芬兰vmess17
-  - 悸沫君_GCOREvmess18
-  - 阿伟科技_UKvmess19
-  - 悸沫君 SK-SG 1vmess20
-  - 阿伟科技_🇫🇷_FRvmess21
-  - 美国(@kxswa)vmess22
-  - yui科技_🇺🇸_USvmess23
-  - 悸沫君_🇭🇰_HK HKBGP|Netflix_120vmess24
-  - 顺丰_🇺🇸_US 46vmess25
+  - yui科技vmess1
+  - 梦歌_🇭🇰_HK Netflix_36vmess2
+  - 悸沫君_GCOREvmess3
+  - yui科技_🇺🇸_USvmess4
+  - 玉豆_🇺🇸_USvmess5
+  - yui科技_🇺🇸_USvmess6
+  - yui科技_🇺🇸_USvmess7
+  - 玉豆_🇺🇸_USvmess8
+  - yui科技_🇺🇸_USvmess9
+  - 玉豆_🇺🇸_USvmess10
+  - 悸沫君_OVH-WARPvmess11
+  - 玉豆_🇩🇪_DEvmess12
+  - yui科技_🇺🇸_USvmess13
+  - 阿伟科技_🇩🇪_DEvmess14
+  - 阿伟科技_🇯🇵_JPvmess15
+  - yui科技_🇺🇸_USvmess16
+  - 梦歌_🇭🇰_HK Netflix_31vmess17
+  - 阿伟科技_FI芬兰vmess18
+  - 梦歌_🇭🇰_HK Netflix_44vmess19
+  - yui科技_🇺🇸_USvmess20
+  - 玉豆_🇺🇸_USvmess21
+  - 梦歌_🇭🇰_HK Netflix_60vmess22
+  - 梦歌_🇭🇰_HK Netflix_41vmess23
+  - 悸沫君_🇨🇳_CNvmess24
+  - 玉豆_🇸🇬_SGvmess25
   - yui科技_🇺🇸_USvmess26
-  - 悸沫君_🇭🇰_HK 9vmess27
-  - 悸沫君_Scaleway-WARPvmess28
+  - 阿伟科技_🇫🇷_FRvmess27
+  - yui科技_🇺🇸_USvmess28
   - 悸沫君_🇨🇳_CNvmess29
   - 悸沫君_🇨🇳_CNvmess30
   - 悸沫君_🇨🇳_CNvmess31
-  - 悸沫君_OVH-WARPvmess32
-  - 悸沫君_🇨🇳_CNvmess33
-  - 悸沫君_🇺🇸_USvmess34
-  - 悸沫君_🇨🇳_CNvmess35
-  - 阿伟科技_🇺🇸_USvmess36
-  - yui科技_🇺🇸_USvmess37
-  - 阿伟科技_🇫🇷_FRvmess38
+  - 梦歌_🇭🇰_HK Netflix_78vmess32
+  - 梦歌_京港BGP Netflix_59vmess33
+  - 玉豆_🇺🇸_USvmess34
+  - yui科技_🇺🇸_USvmess35
+  - 悸沫君_🇨🇳_CNvmess36
+  - 悸沫君_🇨🇳_CNvmess37
+  - 悸沫君_🇨🇳_CNvmess38
   - 悸沫君_🇨🇳_CNvmess39
-  - 悸沫君_🇭🇰_HK 10vmess40
+  - 悸沫君_🇨🇳_CNvmess40
   - yui科技_🇺🇸_USvmess41
-  - 悸沫君_🇨🇳_CNvmess42
-  - 阿伟科技_🇫🇷_FRvmess43
-  - 悸沫君_🇨🇳_CNvmess44
-  - 玉豆_🇺🇸_USvmess45
-  - 阿伟科技_🇺🇸_USvmess46
-  - 阿伟科技_🇺🇸_USvmess47
-  - 阿伟科技_🇩🇪_DEtrojan1
-  - 阿伟科技_🇸🇬_SGtrojan2
-  - 阿伟科技_🇸🇬_SGtrojan3
+  - 梦歌_🇭🇰_HK Netflix_30vmess42
+  - 梦歌_🇭🇰_HK Netflix_47vmess43
+  - 玉豆_🇺🇸_USvmess44
+  - 梦歌_🇭🇰_HK Netflix_76trojan1
   - 悸沫君_🇨🇳_CNss1
   - 悸沫君_🇨🇳_CNss2
   - 悸沫君_🇨🇳_CNss3
-  - 悸沫君_🇨🇳_CNss4
+  - 玉豆_🇯🇵_JPss4
   - 悸沫君_🇨🇳_CNss5
   - 悸沫君_🇨🇳_CNss6
   - 悸沫君_🇨🇳_CNss7
   - 悸沫君_🇨🇳_CNss8
+  - 悸沫君_🇨🇳_CNss9
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -908,191 +848,179 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 阿伟科技_🇸🇬_SGvmess1
-  - 悸沫君vmess2
-  - 顺丰_🇺🇸_US 25vmess3
-  - yui科技vmess4
-  - 阿伟科技_KRvmess5
-  - 悸沫君_🇭🇰_HK 14vmess6
-  - 阿伟科技_🇫🇷_FRvmess7
-  - yui科技_🇺🇸_USvmess8
-  - 阿伟科技_NLvmess9
-  - yui科技_🇺🇸_USvmess10
-  - 阿伟科技_frvmess11
-  - yui科技_🇺🇸_USvmess12
-  - 阿伟科技_🇩🇪_DEvmess13
-  - 顺丰_🇺🇸_US 21vmess14
-  - 阿伟科技_INvmess15
-  - 悸沫君_🇺🇸_US 45vmess16
-  - 阿伟科技_FI芬兰vmess17
-  - 悸沫君_GCOREvmess18
-  - 阿伟科技_UKvmess19
-  - 悸沫君 SK-SG 1vmess20
-  - 阿伟科技_🇫🇷_FRvmess21
-  - 美国(@kxswa)vmess22
-  - yui科技_🇺🇸_USvmess23
-  - 悸沫君_🇭🇰_HK HKBGP|Netflix_120vmess24
-  - 顺丰_🇺🇸_US 46vmess25
+  - yui科技vmess1
+  - 梦歌_🇭🇰_HK Netflix_36vmess2
+  - 悸沫君_GCOREvmess3
+  - yui科技_🇺🇸_USvmess4
+  - 玉豆_🇺🇸_USvmess5
+  - yui科技_🇺🇸_USvmess6
+  - yui科技_🇺🇸_USvmess7
+  - 玉豆_🇺🇸_USvmess8
+  - yui科技_🇺🇸_USvmess9
+  - 玉豆_🇺🇸_USvmess10
+  - 悸沫君_OVH-WARPvmess11
+  - 玉豆_🇩🇪_DEvmess12
+  - yui科技_🇺🇸_USvmess13
+  - 阿伟科技_🇩🇪_DEvmess14
+  - 阿伟科技_🇯🇵_JPvmess15
+  - yui科技_🇺🇸_USvmess16
+  - 梦歌_🇭🇰_HK Netflix_31vmess17
+  - 阿伟科技_FI芬兰vmess18
+  - 梦歌_🇭🇰_HK Netflix_44vmess19
+  - yui科技_🇺🇸_USvmess20
+  - 玉豆_🇺🇸_USvmess21
+  - 梦歌_🇭🇰_HK Netflix_60vmess22
+  - 梦歌_🇭🇰_HK Netflix_41vmess23
+  - 悸沫君_🇨🇳_CNvmess24
+  - 玉豆_🇸🇬_SGvmess25
   - yui科技_🇺🇸_USvmess26
-  - 悸沫君_🇭🇰_HK 9vmess27
-  - 悸沫君_Scaleway-WARPvmess28
+  - 阿伟科技_🇫🇷_FRvmess27
+  - yui科技_🇺🇸_USvmess28
   - 悸沫君_🇨🇳_CNvmess29
   - 悸沫君_🇨🇳_CNvmess30
   - 悸沫君_🇨🇳_CNvmess31
-  - 悸沫君_OVH-WARPvmess32
-  - 悸沫君_🇨🇳_CNvmess33
-  - 悸沫君_🇺🇸_USvmess34
-  - 悸沫君_🇨🇳_CNvmess35
-  - 阿伟科技_🇺🇸_USvmess36
-  - yui科技_🇺🇸_USvmess37
-  - 阿伟科技_🇫🇷_FRvmess38
+  - 梦歌_🇭🇰_HK Netflix_78vmess32
+  - 梦歌_京港BGP Netflix_59vmess33
+  - 玉豆_🇺🇸_USvmess34
+  - yui科技_🇺🇸_USvmess35
+  - 悸沫君_🇨🇳_CNvmess36
+  - 悸沫君_🇨🇳_CNvmess37
+  - 悸沫君_🇨🇳_CNvmess38
   - 悸沫君_🇨🇳_CNvmess39
-  - 悸沫君_🇭🇰_HK 10vmess40
+  - 悸沫君_🇨🇳_CNvmess40
   - yui科技_🇺🇸_USvmess41
-  - 悸沫君_🇨🇳_CNvmess42
-  - 阿伟科技_🇫🇷_FRvmess43
-  - 悸沫君_🇨🇳_CNvmess44
-  - 玉豆_🇺🇸_USvmess45
-  - 阿伟科技_🇺🇸_USvmess46
-  - 阿伟科技_🇺🇸_USvmess47
-  - 阿伟科技_🇩🇪_DEtrojan1
-  - 阿伟科技_🇸🇬_SGtrojan2
-  - 阿伟科技_🇸🇬_SGtrojan3
+  - 梦歌_🇭🇰_HK Netflix_30vmess42
+  - 梦歌_🇭🇰_HK Netflix_47vmess43
+  - 玉豆_🇺🇸_USvmess44
+  - 梦歌_🇭🇰_HK Netflix_76trojan1
   - 悸沫君_🇨🇳_CNss1
   - 悸沫君_🇨🇳_CNss2
   - 悸沫君_🇨🇳_CNss3
-  - 悸沫君_🇨🇳_CNss4
+  - 玉豆_🇯🇵_JPss4
   - 悸沫君_🇨🇳_CNss5
   - 悸沫君_🇨🇳_CNss6
   - 悸沫君_🇨🇳_CNss7
   - 悸沫君_🇨🇳_CNss8
+  - 悸沫君_🇨🇳_CNss9
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 阿伟科技_🇸🇬_SGvmess1
-  - 悸沫君vmess2
-  - 顺丰_🇺🇸_US 25vmess3
-  - yui科技vmess4
-  - 阿伟科技_KRvmess5
-  - 悸沫君_🇭🇰_HK 14vmess6
-  - 阿伟科技_🇫🇷_FRvmess7
-  - yui科技_🇺🇸_USvmess8
-  - 阿伟科技_NLvmess9
-  - yui科技_🇺🇸_USvmess10
-  - 阿伟科技_frvmess11
-  - yui科技_🇺🇸_USvmess12
-  - 阿伟科技_🇩🇪_DEvmess13
-  - 顺丰_🇺🇸_US 21vmess14
-  - 阿伟科技_INvmess15
-  - 悸沫君_🇺🇸_US 45vmess16
-  - 阿伟科技_FI芬兰vmess17
-  - 悸沫君_GCOREvmess18
-  - 阿伟科技_UKvmess19
-  - 悸沫君 SK-SG 1vmess20
-  - 阿伟科技_🇫🇷_FRvmess21
-  - 美国(@kxswa)vmess22
-  - yui科技_🇺🇸_USvmess23
-  - 悸沫君_🇭🇰_HK HKBGP|Netflix_120vmess24
-  - 顺丰_🇺🇸_US 46vmess25
+  - yui科技vmess1
+  - 梦歌_🇭🇰_HK Netflix_36vmess2
+  - 悸沫君_GCOREvmess3
+  - yui科技_🇺🇸_USvmess4
+  - 玉豆_🇺🇸_USvmess5
+  - yui科技_🇺🇸_USvmess6
+  - yui科技_🇺🇸_USvmess7
+  - 玉豆_🇺🇸_USvmess8
+  - yui科技_🇺🇸_USvmess9
+  - 玉豆_🇺🇸_USvmess10
+  - 悸沫君_OVH-WARPvmess11
+  - 玉豆_🇩🇪_DEvmess12
+  - yui科技_🇺🇸_USvmess13
+  - 阿伟科技_🇩🇪_DEvmess14
+  - 阿伟科技_🇯🇵_JPvmess15
+  - yui科技_🇺🇸_USvmess16
+  - 梦歌_🇭🇰_HK Netflix_31vmess17
+  - 阿伟科技_FI芬兰vmess18
+  - 梦歌_🇭🇰_HK Netflix_44vmess19
+  - yui科技_🇺🇸_USvmess20
+  - 玉豆_🇺🇸_USvmess21
+  - 梦歌_🇭🇰_HK Netflix_60vmess22
+  - 梦歌_🇭🇰_HK Netflix_41vmess23
+  - 悸沫君_🇨🇳_CNvmess24
+  - 玉豆_🇸🇬_SGvmess25
   - yui科技_🇺🇸_USvmess26
-  - 悸沫君_🇭🇰_HK 9vmess27
-  - 悸沫君_Scaleway-WARPvmess28
+  - 阿伟科技_🇫🇷_FRvmess27
+  - yui科技_🇺🇸_USvmess28
   - 悸沫君_🇨🇳_CNvmess29
   - 悸沫君_🇨🇳_CNvmess30
   - 悸沫君_🇨🇳_CNvmess31
-  - 悸沫君_OVH-WARPvmess32
-  - 悸沫君_🇨🇳_CNvmess33
-  - 悸沫君_🇺🇸_USvmess34
-  - 悸沫君_🇨🇳_CNvmess35
-  - 阿伟科技_🇺🇸_USvmess36
-  - yui科技_🇺🇸_USvmess37
-  - 阿伟科技_🇫🇷_FRvmess38
+  - 梦歌_🇭🇰_HK Netflix_78vmess32
+  - 梦歌_京港BGP Netflix_59vmess33
+  - 玉豆_🇺🇸_USvmess34
+  - yui科技_🇺🇸_USvmess35
+  - 悸沫君_🇨🇳_CNvmess36
+  - 悸沫君_🇨🇳_CNvmess37
+  - 悸沫君_🇨🇳_CNvmess38
   - 悸沫君_🇨🇳_CNvmess39
-  - 悸沫君_🇭🇰_HK 10vmess40
+  - 悸沫君_🇨🇳_CNvmess40
   - yui科技_🇺🇸_USvmess41
-  - 悸沫君_🇨🇳_CNvmess42
-  - 阿伟科技_🇫🇷_FRvmess43
-  - 悸沫君_🇨🇳_CNvmess44
-  - 玉豆_🇺🇸_USvmess45
-  - 阿伟科技_🇺🇸_USvmess46
-  - 阿伟科技_🇺🇸_USvmess47
-  - 阿伟科技_🇩🇪_DEtrojan1
-  - 阿伟科技_🇸🇬_SGtrojan2
-  - 阿伟科技_🇸🇬_SGtrojan3
+  - 梦歌_🇭🇰_HK Netflix_30vmess42
+  - 梦歌_🇭🇰_HK Netflix_47vmess43
+  - 玉豆_🇺🇸_USvmess44
+  - 梦歌_🇭🇰_HK Netflix_76trojan1
   - 悸沫君_🇨🇳_CNss1
   - 悸沫君_🇨🇳_CNss2
   - 悸沫君_🇨🇳_CNss3
-  - 悸沫君_🇨🇳_CNss4
+  - 玉豆_🇯🇵_JPss4
   - 悸沫君_🇨🇳_CNss5
   - 悸沫君_🇨🇳_CNss6
   - 悸沫君_🇨🇳_CNss7
   - 悸沫君_🇨🇳_CNss8
+  - 悸沫君_🇨🇳_CNss9
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 阿伟科技_🇸🇬_SGvmess1
-  - 悸沫君vmess2
-  - 顺丰_🇺🇸_US 25vmess3
-  - yui科技vmess4
-  - 阿伟科技_KRvmess5
-  - 悸沫君_🇭🇰_HK 14vmess6
-  - 阿伟科技_🇫🇷_FRvmess7
-  - yui科技_🇺🇸_USvmess8
-  - 阿伟科技_NLvmess9
-  - yui科技_🇺🇸_USvmess10
-  - 阿伟科技_frvmess11
-  - yui科技_🇺🇸_USvmess12
-  - 阿伟科技_🇩🇪_DEvmess13
-  - 顺丰_🇺🇸_US 21vmess14
-  - 阿伟科技_INvmess15
-  - 悸沫君_🇺🇸_US 45vmess16
-  - 阿伟科技_FI芬兰vmess17
-  - 悸沫君_GCOREvmess18
-  - 阿伟科技_UKvmess19
-  - 悸沫君 SK-SG 1vmess20
-  - 阿伟科技_🇫🇷_FRvmess21
-  - 美国(@kxswa)vmess22
-  - yui科技_🇺🇸_USvmess23
-  - 悸沫君_🇭🇰_HK HKBGP|Netflix_120vmess24
-  - 顺丰_🇺🇸_US 46vmess25
+  - yui科技vmess1
+  - 梦歌_🇭🇰_HK Netflix_36vmess2
+  - 悸沫君_GCOREvmess3
+  - yui科技_🇺🇸_USvmess4
+  - 玉豆_🇺🇸_USvmess5
+  - yui科技_🇺🇸_USvmess6
+  - yui科技_🇺🇸_USvmess7
+  - 玉豆_🇺🇸_USvmess8
+  - yui科技_🇺🇸_USvmess9
+  - 玉豆_🇺🇸_USvmess10
+  - 悸沫君_OVH-WARPvmess11
+  - 玉豆_🇩🇪_DEvmess12
+  - yui科技_🇺🇸_USvmess13
+  - 阿伟科技_🇩🇪_DEvmess14
+  - 阿伟科技_🇯🇵_JPvmess15
+  - yui科技_🇺🇸_USvmess16
+  - 梦歌_🇭🇰_HK Netflix_31vmess17
+  - 阿伟科技_FI芬兰vmess18
+  - 梦歌_🇭🇰_HK Netflix_44vmess19
+  - yui科技_🇺🇸_USvmess20
+  - 玉豆_🇺🇸_USvmess21
+  - 梦歌_🇭🇰_HK Netflix_60vmess22
+  - 梦歌_🇭🇰_HK Netflix_41vmess23
+  - 悸沫君_🇨🇳_CNvmess24
+  - 玉豆_🇸🇬_SGvmess25
   - yui科技_🇺🇸_USvmess26
-  - 悸沫君_🇭🇰_HK 9vmess27
-  - 悸沫君_Scaleway-WARPvmess28
+  - 阿伟科技_🇫🇷_FRvmess27
+  - yui科技_🇺🇸_USvmess28
   - 悸沫君_🇨🇳_CNvmess29
   - 悸沫君_🇨🇳_CNvmess30
   - 悸沫君_🇨🇳_CNvmess31
-  - 悸沫君_OVH-WARPvmess32
-  - 悸沫君_🇨🇳_CNvmess33
-  - 悸沫君_🇺🇸_USvmess34
-  - 悸沫君_🇨🇳_CNvmess35
-  - 阿伟科技_🇺🇸_USvmess36
-  - yui科技_🇺🇸_USvmess37
-  - 阿伟科技_🇫🇷_FRvmess38
+  - 梦歌_🇭🇰_HK Netflix_78vmess32
+  - 梦歌_京港BGP Netflix_59vmess33
+  - 玉豆_🇺🇸_USvmess34
+  - yui科技_🇺🇸_USvmess35
+  - 悸沫君_🇨🇳_CNvmess36
+  - 悸沫君_🇨🇳_CNvmess37
+  - 悸沫君_🇨🇳_CNvmess38
   - 悸沫君_🇨🇳_CNvmess39
-  - 悸沫君_🇭🇰_HK 10vmess40
+  - 悸沫君_🇨🇳_CNvmess40
   - yui科技_🇺🇸_USvmess41
-  - 悸沫君_🇨🇳_CNvmess42
-  - 阿伟科技_🇫🇷_FRvmess43
-  - 悸沫君_🇨🇳_CNvmess44
-  - 玉豆_🇺🇸_USvmess45
-  - 阿伟科技_🇺🇸_USvmess46
-  - 阿伟科技_🇺🇸_USvmess47
-  - 阿伟科技_🇩🇪_DEtrojan1
-  - 阿伟科技_🇸🇬_SGtrojan2
-  - 阿伟科技_🇸🇬_SGtrojan3
+  - 梦歌_🇭🇰_HK Netflix_30vmess42
+  - 梦歌_🇭🇰_HK Netflix_47vmess43
+  - 玉豆_🇺🇸_USvmess44
+  - 梦歌_🇭🇰_HK Netflix_76trojan1
   - 悸沫君_🇨🇳_CNss1
   - 悸沫君_🇨🇳_CNss2
   - 悸沫君_🇨🇳_CNss3
-  - 悸沫君_🇨🇳_CNss4
+  - 玉豆_🇯🇵_JPss4
   - 悸沫君_🇨🇳_CNss5
   - 悸沫君_🇨🇳_CNss6
   - 悸沫君_🇨🇳_CNss7
   - 悸沫君_🇨🇳_CNss8
+  - 悸沫君_🇨🇳_CNss9
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
