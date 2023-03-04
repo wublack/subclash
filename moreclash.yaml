@@ -26,7 +26,7 @@ dns:
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
 proxies:
-- name: 悸沫君_🇩🇪_DE_德国_EU-3vmess1
+- name: 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess1
   type: vmess
   server: shopify.com
   port: '443'
@@ -37,9 +37,22 @@ proxies:
   network: ws
   ws-path: /sbga
   ws-headers:
-    Host: hax-eu3.misakano.ml
+    Host: vc-eu3.misakano.ml
   tls: true
-- name: 悸沫君_🇺🇸_US_美国_kxswa_0030vmess2
+- name: 悸沫君_🇯🇵_JP_日本_2号vmess2
+  type: vmess
+  server: 162.159.153.13
+  port: '443'
+  uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /yfjc/jp2?ed=2048
+  ws-headers:
+    Host: jp2.yfjc.sbs
+  tls: true
+- name: 悸沫君_🇺🇸_US_美国_0912vmess3
   type: vmess
   server: zfc.windowsupdate1.com
   port: '443'
@@ -48,11 +61,24 @@ proxies:
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /yfjc/us1?ed=2048
+  ws-path: /yfjc/us2?ed=2048
   ws-headers:
-    Host: us1.yfjc.sbs
+    Host: us2.yfjc.sbs
   tls: true
-- name: 悸沫君_🇩🇪_DE_德国_EU-BESTvmess3
+- name: 悸沫君_🇫🇷_FR_法国_0045vmess4
+  type: vmess
+  server: zfc.windowsupdate1.com
+  port: '443'
+  uuid: 27509613-bbd5-403a-868c-8022d36aa565
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /pq/fr1?ed=2048
+  ws-headers:
+    Host: fr1.pqjc.buzz
+  tls: true
+- name: 悸沫君_🇺🇸_US_美国_US1-CHIvmess5
   type: vmess
   server: shopify.com
   port: '443'
@@ -63,32 +89,7 @@ proxies:
   network: ws
   ws-path: /sbga
   ws-headers:
-    Host: woi-eubest.misakano.ml
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_23.71Mbvmess4
-  type: vmess
-  server: c92s3.jjvip8.com
-  port: '51589'
-  uuid: 8b06d4d1-5c03-47a7-83e3-1a8c7ae098ab
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: c92s3.jjvip8.com
-- name: 悸沫君_🇫🇷_FR_法国_EU-6vmess5
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: woi-eu6.misakano.ml
+    Host: vc-us1.misakano.ml
   tls: true
 - name: 悸沫君_🇫🇷_FR_法国_EU-5vmess6
   type: vmess
@@ -103,7 +104,46 @@ proxies:
   ws-headers:
     Host: woi-eu5.misakano.ml
   tls: true
-- name: 悸沫君_🇩🇪_DE_德国_EU-1vmess7
+- name: 悸沫君_🇺🇸_US_美国_US2-CHIvmess7
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: vc-us2.misakano.ml
+  tls: true
+- name: 悸沫君_🇩🇪_DE_德国_EU-2vmess8
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: hax-eu2.misakano.ml
+  tls: true
+- name: 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess9
+  type: vmess
+  server: els200.jslist.tk
+  port: '8443'
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /wo.php
+  ws-headers:
+    Host: els200.jslist.tk
+  tls: true
+- name: 悸沫君_🇩🇪_DE_德国_EU-1vmess10
   type: vmess
   server: shopify.com
   port: '443'
@@ -116,239 +156,7 @@ proxies:
   ws-headers:
     Host: hax-eu1.misakano.ml
   tls: true
-- name: 悸沫君_🇸🇬_SG_新加坡_Trail 1G 443vmess8
-  type: vmess
-  server: cf-auto-sg.somnode.top
-  port: '443'
-  uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: cf-cdn-sg.somnode.top
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_0.910vmess9
-  type: vmess
-  server: ca1.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 悸沫君_🇫🇷_FR_法国_EU-3vmess10
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: woi-eu3.misakano.ml
-  tls: true
-- name: 悸沫君_🇵🇱_PL_波兰_EU-4vmess11
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: woi-eu4.misakano.ml
-  tls: true
-- name: 玉豆_🇺🇸_US_美国_2255vmess12
-  type: vmess
-  server: ca1.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: ca1.sharecentre.online
-  tls: true
-- name: 悸沫君_🇩🇪_DE_德国_EU-1vmess13
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: woi-eu1.misakano.ml
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_kxswa_0031vmess14
-  type: vmess
-  server: zfc.windowsupdate1.com
-  port: '443'
-  uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /yfjc/nl2?ed=2048
-  ws-headers:
-    Host: nl2.yfjc.sbs
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_Trail-1 1G 443vmess15
-  type: vmess
-  server: cf-auto-us.somnode.top
-  port: '443'
-  uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: cf-cdn-us.somnode.top
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_3号-0.1xvmess16
-  type: vmess
-  server: zfc.windowsupdate1.com
-  port: '443'
-  uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /yfjc/us3?ed=2048
-  ws-headers:
-    Host: us3.yfjc.sbs
-  tls: true
-- name: 玉豆_🇺🇸_US_美国_1143vmess17
-  type: vmess
-  server: v47a.toddns.tk
-  port: '80'
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v47-2023unlimitndxd
-  ws-headers:
-    Host: ''
-- name: 悸沫君_🇳🇱_NL_荷兰_BT下载-0.1xvmess18
-  type: vmess
-  server: zfc.windowsupdate1.com
-  port: '443'
-  uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /yfjc/nl?ed=2048
-  ws-headers:
-    Host: nl.yfjc.sbs
-  tls: true
-- name: 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess19
-  type: vmess
-  server: mci.tahermollaei.pw
-  port: '2087'
-  uuid: 0bf342c2-b286-40eb-93a6-94f4e50a33f9
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: grpc
-  ws-path: ponisha.ir
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 悸沫君_🇫🇮_FI_芬兰_EU-5vmess20
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: hax-eu5.misakano.ml
-  tls: true
-- name: 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess21
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: vc-eu3.misakano.ml
-  tls: true
-- name: 顺丰_🇺🇸_US_美国_199vmess22
-  type: vmess
-  server: v47a.toddns.tk
-  port: '80'
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /v47-2023unlimitndxd
-  ws-headers:
-    Host: v47a.toddns.tk
-- name: 悸沫君_🇨🇳_CN_中国_1661vmess23
-  type: vmess
-  server: hy.guanguan.club
-  port: '11410'
-  uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /nba
-  ws-headers:
-    Host: sg1.oraclec.pp.ua
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess24
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: hax-usovz3.misakano.ml
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_US1-CHIvmess25
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: vc-us1.misakano.ml
-  tls: true
-- name: 悸沫君_🇫🇷_FR_法国_EU-8vmess26
+- name: 悸沫君_🇫🇷_FR_法国_EU-8vmess11
   type: vmess
   server: shopify.com
   port: '443'
@@ -361,7 +169,135 @@ proxies:
   ws-headers:
     Host: woi-eu8.misakano.ml
   tls: true
-- name: 悸沫君_🇩🇪_DE_德国_amir-irancellvmess27
+- name: 悸沫君_🇺🇸_US_美国_US-OpenVZvmess12
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: hax-usovz.misakano.ml
+  tls: true
+- name: 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess13
+  type: vmess
+  server: mtn.tahermollaei.pw
+  port: '2087'
+  uuid: 0bf342c2-b286-40eb-93a6-94f4e50a33f9
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: grpc
+  ws-path: ponisha.ir
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 悸沫君_🇫🇷_FR_法国_EU-3vmess14
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: woi-eu3.misakano.ml
+  tls: true
+- name: 悸沫君_🇺🇸_US_美国_[فینکس] Nagarok 🇺🇸vmess15
+  type: vmess
+  server: us2.oceis.net
+  port: '80'
+  uuid: 99ae5c70-b9a3-11ed-b831-205c6d5f5d78
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /vmtc
+  ws-headers:
+    Host: ''
+- name: 玉豆_🇺🇸_US_美国_1143vmess16
+  type: vmess
+  server: v47a.toddns.tk
+  port: '80'
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /v47-2023unlimitndxd
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇩🇪_DE_德国_EU-2vmess17
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: woi-eu2.misakano.ml
+  tls: true
+- name: 悸沫君_🇫🇷_FR_法国_EU-6vmess18
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: woi-eu6.misakano.ml
+  tls: true
+- name: 悸沫君_🇩🇪_DE_德国_EU-1vmess19
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: woi-eu1.misakano.ml
+  tls: true
+- name: 悸沫君_🇺🇸_US_美国_7.690vmess20
+  type: vmess
+  server: 4bb4ced4.8200860.xyz
+  port: '2096'
+  uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: 4bb4ced4.8200860.xyz
+  tls: true
+- name: 悸沫君_🇫🇮_FI_芬兰_EU-5vmess21
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: hax-eu5.misakano.ml
+  tls: true
+- name: 悸沫君_🇩🇪_DE_德国_amir-irancellvmess22
   type: vmess
   server: 45.85.119.179
   port: '2087'
@@ -374,56 +310,118 @@ proxies:
   ws-headers:
     Host: liberty.alioreza.info
   tls: true
-- name: 悸沫君_🇺🇸_US_美国_0.978vmess28
+- name: 悸沫君_🇺🇸_US_美国_kxswa_0021vmess23
   type: vmess
-  server: cf-lt.sharecentre.online
+  server: finland2.yj2022.ga
   port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /shirker
+  ws-path: /yWJGGBHoVpr3DbNuVycP
   ws-headers:
-    Host: ca1.sharecentre.online
+    Host: finland2.yj2022.ga
   tls: true
-- name: 悸沫君_🇺🇸_US_美国_kxswa0042vmess29
+- name: 悸沫君_🇬🇧_GB_英国_EU-7vmess24
   type: vmess
-  server: cf-lt.sharecentre.online
+  server: shopify.com
   port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /shirker
+  ws-path: /sbga
   ws-headers:
-    Host: buyvm.sharecentre.online
+    Host: woi-eu7.misakano.ml
   tls: true
-- name: 悸沫君_🇨🇳_CN_中国_0007vmess30
+- name: 悸沫君_🇬🇧_GB_英国_EU1-LONvmess25
   type: vmess
-  server: 47.104.237.32
-  port: '50002'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
   cipher: auto
   ucp: true
-  network: tcp
-  ws-path: ''
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: vc-eu1.misakano.ml
+  tls: true
+- name: 悸沫君_🇦🇷_AR_阿根廷_潮州市电信 24vmess26
+  type: vmess
+  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
+  port: '20004'
+  uuid: 9589b882-569a-43c5-924e-a9e852d4ff9e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 悸沫君_🇩🇪_DE_德国_[مونیخ] Nagarok 🇩🇪vmess27
+  type: vmess
+  server: 173.245.59.168
+  port: '8080'
+  uuid: 27848739-7e62-4138-9fd3-938a63964b6b
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /KTR
+  ws-headers:
+    Host: 2.arvanktbr.store
+- name: 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess28
+  type: vmess
+  server: bia-to.paraphdev.click
+  port: '80'
+  uuid: e46a7588-f18b-4d08-deaa-835047bd2895
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
   ws-headers:
     Host: ''
-- name: 悸沫君_🇺🇸_US_美国_7.690vmess31
+- name: 顺丰_🇺🇸_US_美国_199vmess29
   type: vmess
-  server: 4bb4ced4.8200860.xyz
-  port: '2096'
-  uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
+  server: v47a.toddns.tk
+  port: '80'
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /index
+  ws-path: /v47-2023unlimitndxd
   ws-headers:
-    Host: 4bb4ced4.8200860.xyz
+    Host: v47a.toddns.tk
+- name: 悸沫君_🇺🇸_US_美国_kxswa_0030vmess30
+  type: vmess
+  server: zfc.windowsupdate1.com
+  port: '443'
+  uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /yfjc/us1?ed=2048
+  ws-headers:
+    Host: us1.yfjc.sbs
+  tls: true
+- name: 悸沫君_🇩🇪_DE_德国_EU-3vmess31
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: hax-eu3.misakano.ml
   tls: true
 - name: 悸沫君_🇫🇮_FI_芬兰_EU-4vmess32
   type: vmess
@@ -438,7 +436,7 @@ proxies:
   ws-headers:
     Host: hax-eu4.misakano.ml
   tls: true
-- name: 悸沫君_🇩🇪_DE_德国_EU-2vmess33
+- name: 悸沫君_🇵🇱_PL_波兰_EU-4vmess33
   type: vmess
   server: shopify.com
   port: '443'
@@ -449,113 +447,11 @@ proxies:
   network: ws
   ws-path: /sbga
   ws-headers:
-    Host: woi-eu2.misakano.ml
+    Host: woi-eu4.misakano.ml
   tls: true
-- name: 悸沫君_🇨🇳_CN_中国_3442vmess34
+- name: 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess34
   type: vmess
-  server: 36.133.171.209
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: 36.133.171.209
-- name: 悸沫君_🇺🇸_US_美国_US-OpenVZvmess35
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: hax-usovz.misakano.ml
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_kxswa_0019vmess36
-  type: vmess
-  server: buyvm-ny.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: buyvm-ny.sharecentre.online
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_0.934vmess37
-  type: vmess
-  server: buyvm-ny.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 悸沫君_🇨🇳_CN_中国_0.931vmess38
-  type: vmess
-  server: 36.133.171.209
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君_🇺🇸_US_美国_0912vmess39
-  type: vmess
-  server: zfc.windowsupdate1.com
-  port: '443'
-  uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /yfjc/us2?ed=2048
-  ws-headers:
-    Host: us2.yfjc.sbs
-  tls: true
-- name: 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess40
-  type: vmess
-  server: els200.jslist.tk
-  port: '8443'
-  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /wo.php
-  ws-headers:
-    Host: els200.jslist.tk
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_US2-CHIvmess41
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: vc-us2.misakano.ml
-  tls: true
-- name: 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess42
-  type: vmess
-  server: mtn.tahermollaei.pw
+  server: mci.tahermollaei.pw
   port: '2087'
   uuid: 0bf342c2-b286-40eb-93a6-94f4e50a33f9
   alterId: '0'
@@ -566,20 +462,59 @@ proxies:
   ws-headers:
     Host: ''
   tls: true
-- name: 悸沫君_🇵🇱_PL_波兰_0101vmess43
+- name: 悸沫君_🇺🇸_US_美国_kxswa_0031vmess35
   type: vmess
-  server: cf.fovi.tk
+  server: zfc.windowsupdate1.com
+  port: '443'
+  uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /yfjc/nl2?ed=2048
+  ws-headers:
+    Host: nl2.yfjc.sbs
+  tls: true
+- name: 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess36
+  type: vmess
+  server: lsy1.shahramv1.site
+  port: '2083'
+  uuid: 01620fcc-ce8d-4ad5-a651-e1cc601c314a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: ''
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess37
+  type: vmess
+  server: lsy2.shahramv1.site
   port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  uuid: 01620fcc-ce8d-4ad5-a651-e1cc601c314a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /eisasqa
+  ws-path: ''
   ws-headers:
-    Host: foxpol2.fovi.tk
+    Host: ''
   tls: true
-- name: 悸沫君_🇩🇪_DE_德国_EU-2vmess44
+- name: 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess38
+  type: vmess
+  server: lsy2.shahramv1.site
+  port: '2083'
+  uuid: 01620fcc-ce8d-4ad5-a651-e1cc601c314a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: ''
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 悸沫君_🇩🇪_DE_德国_EU-BESTvmess39
   type: vmess
   server: shopify.com
   port: '443'
@@ -590,148 +525,21 @@ proxies:
   network: ws
   ws-path: /sbga
   ws-headers:
-    Host: hax-eu2.misakano.ml
+    Host: woi-eubest.misakano.ml
   tls: true
-- name: 玉豆_🇭🇰_HK_香港_2233vmess45
+- name: 悸沫君_🇨🇳_CN_中国_0007vmess40
   type: vmess
-  server: hk-gcore.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: ''
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_kxsw_0010vmess46
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: buyvm-ny.sharecentre.online
-  tls: true
-- name: 顺丰_🇨🇳_CN_中国_199vmess47
-  type: vmess
-  server: 36.133.171.209
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: v02.gutingting.com
-- name: 悸沫君_🇭🇰_HK_香港_0101vmess48
-  type: vmess
-  server: b1.ss1011.top
-  port: '1509'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
+  server: 47.104.237.32
+  port: '50002'
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
   ucp: true
   network: tcp
   ws-path: ''
   ws-headers:
     Host: ''
-- name: 悸沫君_🇨🇳_CN_中国_2114vmess49
-  type: vmess
-  server: 36.134.16.190
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: 36.134.16.190
-- name: 悸沫君_🇨🇳_CN_中国_0.129vmess50
-  type: vmess
-  server: 36.134.16.190
-  port: '11023'
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: tcp
-  ws-path: ''
-  ws-headers:
-    Host: ''
-- name: 悸沫君_🇺🇸_US_美国_0856vmess51
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: ca1.sharecentre.online
-  tls: true
-- name: 悸沫君_🇬🇧_GB_英国_EU1-LONvmess52
-  type: vmess
-  server: shopify.com
-  port: '443'
-  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /sbga
-  ws-headers:
-    Host: vc-eu1.misakano.ml
-  tls: true
-- name: 玉豆_🇺🇸_US_美国_1147vmess53
-  type: vmess
-  server: hk-gcore.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: hk-gcore.sharecentre.online
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_0.930vmess54
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: buyvm-ny.sharecentre.online
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_kxswa_0021vmess55
-  type: vmess
-  server: finland2.yj2022.ga
-  port: '443'
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /yWJGGBHoVpr3DbNuVycP
-  ws-headers:
-    Host: finland2.yj2022.ga
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess56
+- name: 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess41
   type: vmess
   server: hucloud.tk
   port: '443'
@@ -744,7 +552,156 @@ proxies:
   ws-headers:
     Host: hucloud.tk
   tls: true
-- name: 悸沫君_🇺🇸_US_美国_Madrid-1vmess57
+- name: 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess42
+  type: vmess
+  server: lst1.shahramv1.site
+  port: '2083'
+  uuid: 01620fcc-ce8d-4ad5-a651-e1cc601c314a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: ''
+  ws-headers:
+    Host: ''
+  tls: true
+- name: 顺丰_🇨🇳_CN_中国_199vmess43
+  type: vmess
+  server: 36.133.171.209
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /
+  ws-headers:
+    Host: v02.gutingting.com
+- name: 悸沫君_🇯🇵_JP_日本_80端口vmess44
+  type: vmess
+  server: hkt.52147.top
+  port: '80'
+  uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /yfjc/jp1
+  ws-headers:
+    Host: tlu.dl.delivery.mp.microsoft.com
+- name: 悸沫君_🇨🇳_CN_中国_0.129vmess45
+  type: vmess
+  server: 36.134.16.190
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇺🇦_UA_乌克兰_EU2-WAWvmess46
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: vc-eu2.misakano.ml
+  tls: true
+- name: 顺丰_🇨🇳_CN_中国_266vmess47
+  type: vmess
+  server: 36.134.16.171
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /UMW36262
+  ws-headers:
+    Host: v2ray1.zhujicn2.org
+- name: 顺丰_🇨🇳_CN_中国_3663vmess48
+  type: vmess
+  server: 36.134.16.190
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /shirker
+  ws-headers:
+    Host: kh.sharecentre.online
+- name: 悸沫君_🇨🇳_CN_中国_1661vmess49
+  type: vmess
+  server: hy.guanguan.club
+  port: '11410'
+  uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /nba
+  ws-headers:
+    Host: sg1.oraclec.pp.ua
+  tls: true
+- name: 悸沫君_🇭🇰_HK_香港_0101vmess50
+  type: vmess
+  server: b1.ss1011.top
+  port: '1509'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇩🇪_DE_德国_EU-1vmess51
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: eusrv-eu1.misakano.ml
+  tls: true
+- name: 悸沫君_🇵🇱_PL_波兰_0101vmess52
+  type: vmess
+  server: cf.fovi.tk
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /eisasqa
+  ws-headers:
+    Host: foxpol2.fovi.tk
+  tls: true
+- name: 悸沫君_🇨🇳_CN_中国_0.942vmess53
+  type: vmess
+  server: 36.134.16.96
+  port: '11023'
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: ''
+  ws-headers:
+    Host: ''
+- name: 悸沫君_🇺🇸_US_美国_Madrid-1vmess54
   type: vmess
   server: shopify.com
   port: '443'
@@ -757,59 +714,20 @@ proxies:
   ws-headers:
     Host: xj-es1.misakano.ml
   tls: true
-- name: 悸沫君_🇺🇸_US_美国_3.670vmess58
+- name: 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess55
   type: vmess
-  server: 172.67.205.70
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  server: 185.143.234.166
+  port: '2087'
+  uuid: 01620fcc-ce8d-4ad5-a651-e1cc601c314a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /shirker
+  ws-path: /
   ws-headers:
-    Host: sg-gcore.sharecentre.online
+    Host: fre2.shahrammedia.com
   tls: true
-- name: 悸沫君_🇺🇸_US_美国_9229vmess59
-  type: vmess
-  server: sg-gcore.sharecentre.online
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: sg-gcore.sharecentre.online
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_3.120vmess60
-  type: vmess
-  server: investors.spotify.com
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: sg-gcore.sharecentre.online
-  tls: true
-- name: 悸沫君_🇺🇸_US_美国_7.891vmess61
-  type: vmess
-  server: 172.67.199.34
-  port: '443'
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: '0'
-  cipher: auto
-  ucp: true
-  network: ws
-  ws-path: /shirker
-  ws-headers:
-    Host: sg-gcore.sharecentre.online
-  tls: true
-- name: 顺丰_🇨🇳_CN_中国_3663vmess62
+- name: 悸沫君_🇨🇳_CN_中国_2114vmess56
   type: vmess
   server: 36.134.16.190
   port: '11023'
@@ -818,28 +736,100 @@ proxies:
   cipher: auto
   ucp: true
   network: tcp
-  ws-path: /shirker
+  ws-path: /
   ws-headers:
-    Host: kh.sharecentre.online
-- name: 悸沫君_🇫🇷_FR_法国_0045vmess63
+    Host: 36.134.16.190
+- name: 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess57
   type: vmess
-  server: zfc.windowsupdate1.com
-  port: '443'
-  uuid: 27509613-bbd5-403a-868c-8022d36aa565
+  server: 185.143.234.166
+  port: '2087'
+  uuid: 01620fcc-ce8d-4ad5-a651-e1cc601c314a
   alterId: '0'
   cipher: auto
   ucp: true
   network: ws
-  ws-path: /pq/fr1?ed=2048
+  ws-path: /
   ws-headers:
-    Host: fr1.pqjc.buzz
+    Host: trc1.shahrammedia.com
   tls: true
-- name: 悸沫君_🇨🇳_CN_中国_直连苏州13ss1
-  server: 36.139.166.244
+- name: 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess58
+  type: vmess
+  server: shopify.com
+  port: '443'
+  uuid: a50bce81-cda4-493e-a1bf-fb950c0eac4e
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /sbga
+  ws-headers:
+    Host: hax-usovz3.misakano.ml
+  tls: true
+- name: 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess59
+  type: vmess
+  server: 185.143.234.166
+  port: '2087'
+  uuid: 01620fcc-ce8d-4ad5-a651-e1cc601c314a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: fre1.shahrammedia.com
+  tls: true
+- name: 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess60
+  type: vmess
+  server: 185.143.234.166
+  port: '2083'
+  uuid: 01620fcc-ce8d-4ad5-a651-e1cc601c314a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: frs5.shahrammedia.com
+  tls: true
+- name: 悸沫君_🇨🇳_CN_中国_3442vmess61
+  type: vmess
+  server: 36.133.171.209
   port: '11023'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: tcp
+  ws-path: /
+  ws-headers:
+    Host: 36.133.171.209
+- name: 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess62
+  type: vmess
+  server: 185.143.234.166
+  port: '2083'
+  uuid: 01620fcc-ce8d-4ad5-a651-e1cc601c314a
+  alterId: '0'
+  cipher: auto
+  ucp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: trb1.shahrammedia.com
+  tls: true
+- name: trojan1
+  type: trojan
+  server: krb.mdfg.tk
+  port: '443'
+  udp: true
+  password: GMBzhhc163
+  skip-cert-verify: true
+  sni: tcp
+- name: 悸沫君_🇬🇧_GB_英国_@MahanFixBotss1
+  server: 212.102.53.195
+  port: '443'
+  method: aes-128-gcm
+  cipher: aes-128-gcm
+  password: shadowsocks
   type: ss
 - name: 悸沫君_🇨🇳_CN_中国_直连苏州11ss2
   server: 36.139.166.252
@@ -848,36 +838,43 @@ proxies:
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君_🇨🇳_CN_中国_直连苏州15ss3
-  server: 36.138.193.128
-  port: '11023'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君_🇨🇳_CN_中国_直连苏州20ss4
-  server: 36.139.166.231
-  port: '11023'
-  method: aes-256-gcm
-  cipher: aes-256-gcm
-  password: ll668668@
-  type: ss
-- name: 悸沫君_🇨🇳_CN_中国_直连苏州12ss5
+- name: 悸沫君_🇨🇳_CN_中国_直连苏州12ss3
   server: 36.137.106.115
   port: '11023'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君_🇨🇳_CN_中国_直连苏州18ss6
+- name: 悸沫君_🇨🇳_CN_中国_直连苏州18ss4
   server: 36.139.166.247
   port: '11023'
   method: aes-256-gcm
   cipher: aes-256-gcm
   password: ll668668@
   type: ss
-- name: 悸沫君_🇨🇳_CN_中国_直连苏州16ss7
+- name: 悸沫君_🇨🇳_CN_中国_直连苏州16ss5
   server: 36.138.140.208
+  port: '11023'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君_🇨🇳_CN_中国_直连苏州15ss6
+  server: 36.138.193.128
+  port: '11023'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君_🇨🇳_CN_中国_直连苏州13ss7
+  server: 36.139.166.244
+  port: '11023'
+  method: aes-256-gcm
+  cipher: aes-256-gcm
+  password: ll668668@
+  type: ss
+- name: 悸沫君_🇨🇳_CN_中国_直连苏州20ss8
+  server: 36.139.166.231
   port: '11023'
   method: aes-256-gcm
   cipher: aes-256-gcm
@@ -890,152 +887,154 @@ proxy-groups:
   - 🎯 负载均衡
   - ♻️ 自动选择
   - DIRECT
-  - 悸沫君_🇩🇪_DE_德国_EU-3vmess1
-  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess2
-  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess3
-  - 悸沫君_🇺🇸_US_美国_23.71Mbvmess4
-  - 悸沫君_🇫🇷_FR_法国_EU-6vmess5
+  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess1
+  - 悸沫君_🇯🇵_JP_日本_2号vmess2
+  - 悸沫君_🇺🇸_US_美国_0912vmess3
+  - 悸沫君_🇫🇷_FR_法国_0045vmess4
+  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess5
   - 悸沫君_🇫🇷_FR_法国_EU-5vmess6
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess7
-  - 悸沫君_🇸🇬_SG_新加坡_Trail 1G 443vmess8
-  - 悸沫君_🇺🇸_US_美国_0.910vmess9
-  - 悸沫君_🇫🇷_FR_法国_EU-3vmess10
-  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess11
-  - 玉豆_🇺🇸_US_美国_2255vmess12
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess13
-  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess14
-  - 悸沫君_🇺🇸_US_美国_Trail-1 1G 443vmess15
-  - 悸沫君_🇺🇸_US_美国_3号-0.1xvmess16
-  - 玉豆_🇺🇸_US_美国_1143vmess17
-  - 悸沫君_🇳🇱_NL_荷兰_BT下载-0.1xvmess18
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess19
-  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess20
-  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess21
-  - 顺丰_🇺🇸_US_美国_199vmess22
-  - 悸沫君_🇨🇳_CN_中国_1661vmess23
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess24
-  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess25
-  - 悸沫君_🇫🇷_FR_法国_EU-8vmess26
-  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess27
-  - 悸沫君_🇺🇸_US_美国_0.978vmess28
-  - 悸沫君_🇺🇸_US_美国_kxswa0042vmess29
-  - 悸沫君_🇨🇳_CN_中国_0007vmess30
-  - 悸沫君_🇺🇸_US_美国_7.690vmess31
+  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess7
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess8
+  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess9
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess10
+  - 悸沫君_🇫🇷_FR_法国_EU-8vmess11
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess12
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess13
+  - 悸沫君_🇫🇷_FR_法国_EU-3vmess14
+  - 悸沫君_🇺🇸_US_美国_[فینکس] Nagarok 🇺🇸vmess15
+  - 玉豆_🇺🇸_US_美国_1143vmess16
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess17
+  - 悸沫君_🇫🇷_FR_法国_EU-6vmess18
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess19
+  - 悸沫君_🇺🇸_US_美国_7.690vmess20
+  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess21
+  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess22
+  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess23
+  - 悸沫君_🇬🇧_GB_英国_EU-7vmess24
+  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess25
+  - 悸沫君_🇦🇷_AR_阿根廷_潮州市电信 24vmess26
+  - 悸沫君_🇩🇪_DE_德国_[مونیخ] Nagarok 🇩🇪vmess27
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess28
+  - 顺丰_🇺🇸_US_美国_199vmess29
+  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess30
+  - 悸沫君_🇩🇪_DE_德国_EU-3vmess31
   - 悸沫君_🇫🇮_FI_芬兰_EU-4vmess32
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess33
-  - 悸沫君_🇨🇳_CN_中国_3442vmess34
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess35
-  - 悸沫君_🇺🇸_US_美国_kxswa_0019vmess36
-  - 悸沫君_🇺🇸_US_美国_0.934vmess37
-  - 悸沫君_🇨🇳_CN_中国_0.931vmess38
-  - 悸沫君_🇺🇸_US_美国_0912vmess39
-  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess40
-  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess41
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess42
-  - 悸沫君_🇵🇱_PL_波兰_0101vmess43
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess44
-  - 玉豆_🇭🇰_HK_香港_2233vmess45
-  - 悸沫君_🇺🇸_US_美国_kxsw_0010vmess46
-  - 顺丰_🇨🇳_CN_中国_199vmess47
-  - 悸沫君_🇭🇰_HK_香港_0101vmess48
-  - 悸沫君_🇨🇳_CN_中国_2114vmess49
-  - 悸沫君_🇨🇳_CN_中国_0.129vmess50
-  - 悸沫君_🇺🇸_US_美国_0856vmess51
-  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess52
-  - 玉豆_🇺🇸_US_美国_1147vmess53
-  - 悸沫君_🇺🇸_US_美国_0.930vmess54
-  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess55
-  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess56
-  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess57
-  - 悸沫君_🇺🇸_US_美国_3.670vmess58
-  - 悸沫君_🇺🇸_US_美国_9229vmess59
-  - 悸沫君_🇺🇸_US_美国_3.120vmess60
-  - 悸沫君_🇺🇸_US_美国_7.891vmess61
-  - 顺丰_🇨🇳_CN_中国_3663vmess62
-  - 悸沫君_🇫🇷_FR_法国_0045vmess63
-  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss1
+  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess33
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess34
+  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess35
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess36
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess37
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess38
+  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess39
+  - 悸沫君_🇨🇳_CN_中国_0007vmess40
+  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess41
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess42
+  - 顺丰_🇨🇳_CN_中国_199vmess43
+  - 悸沫君_🇯🇵_JP_日本_80端口vmess44
+  - 悸沫君_🇨🇳_CN_中国_0.129vmess45
+  - 悸沫君_🇺🇦_UA_乌克兰_EU2-WAWvmess46
+  - 顺丰_🇨🇳_CN_中国_266vmess47
+  - 顺丰_🇨🇳_CN_中国_3663vmess48
+  - 悸沫君_🇨🇳_CN_中国_1661vmess49
+  - 悸沫君_🇭🇰_HK_香港_0101vmess50
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess51
+  - 悸沫君_🇵🇱_PL_波兰_0101vmess52
+  - 悸沫君_🇨🇳_CN_中国_0.942vmess53
+  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess54
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess55
+  - 悸沫君_🇨🇳_CN_中国_2114vmess56
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess57
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess58
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess59
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess60
+  - 悸沫君_🇨🇳_CN_中国_3442vmess61
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess62
+  - trojan1
+  - 悸沫君_🇬🇧_GB_英国_@MahanFixBotss1
   - 悸沫君_🇨🇳_CN_中国_直连苏州11ss2
-  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss3
-  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss4
-  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss5
-  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss6
-  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss3
+  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss4
+  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss5
+  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss6
+  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss8
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: &id001
-  - 悸沫君_🇩🇪_DE_德国_EU-3vmess1
-  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess2
-  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess3
-  - 悸沫君_🇺🇸_US_美国_23.71Mbvmess4
-  - 悸沫君_🇫🇷_FR_法国_EU-6vmess5
+  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess1
+  - 悸沫君_🇯🇵_JP_日本_2号vmess2
+  - 悸沫君_🇺🇸_US_美国_0912vmess3
+  - 悸沫君_🇫🇷_FR_法国_0045vmess4
+  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess5
   - 悸沫君_🇫🇷_FR_法国_EU-5vmess6
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess7
-  - 悸沫君_🇸🇬_SG_新加坡_Trail 1G 443vmess8
-  - 悸沫君_🇺🇸_US_美国_0.910vmess9
-  - 悸沫君_🇫🇷_FR_法国_EU-3vmess10
-  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess11
-  - 玉豆_🇺🇸_US_美国_2255vmess12
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess13
-  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess14
-  - 悸沫君_🇺🇸_US_美国_Trail-1 1G 443vmess15
-  - 悸沫君_🇺🇸_US_美国_3号-0.1xvmess16
-  - 玉豆_🇺🇸_US_美国_1143vmess17
-  - 悸沫君_🇳🇱_NL_荷兰_BT下载-0.1xvmess18
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess19
-  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess20
-  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess21
-  - 顺丰_🇺🇸_US_美国_199vmess22
-  - 悸沫君_🇨🇳_CN_中国_1661vmess23
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess24
-  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess25
-  - 悸沫君_🇫🇷_FR_法国_EU-8vmess26
-  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess27
-  - 悸沫君_🇺🇸_US_美国_0.978vmess28
-  - 悸沫君_🇺🇸_US_美国_kxswa0042vmess29
-  - 悸沫君_🇨🇳_CN_中国_0007vmess30
-  - 悸沫君_🇺🇸_US_美国_7.690vmess31
+  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess7
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess8
+  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess9
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess10
+  - 悸沫君_🇫🇷_FR_法国_EU-8vmess11
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess12
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess13
+  - 悸沫君_🇫🇷_FR_法国_EU-3vmess14
+  - 悸沫君_🇺🇸_US_美国_[فینکس] Nagarok 🇺🇸vmess15
+  - 玉豆_🇺🇸_US_美国_1143vmess16
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess17
+  - 悸沫君_🇫🇷_FR_法国_EU-6vmess18
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess19
+  - 悸沫君_🇺🇸_US_美国_7.690vmess20
+  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess21
+  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess22
+  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess23
+  - 悸沫君_🇬🇧_GB_英国_EU-7vmess24
+  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess25
+  - 悸沫君_🇦🇷_AR_阿根廷_潮州市电信 24vmess26
+  - 悸沫君_🇩🇪_DE_德国_[مونیخ] Nagarok 🇩🇪vmess27
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess28
+  - 顺丰_🇺🇸_US_美国_199vmess29
+  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess30
+  - 悸沫君_🇩🇪_DE_德国_EU-3vmess31
   - 悸沫君_🇫🇮_FI_芬兰_EU-4vmess32
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess33
-  - 悸沫君_🇨🇳_CN_中国_3442vmess34
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess35
-  - 悸沫君_🇺🇸_US_美国_kxswa_0019vmess36
-  - 悸沫君_🇺🇸_US_美国_0.934vmess37
-  - 悸沫君_🇨🇳_CN_中国_0.931vmess38
-  - 悸沫君_🇺🇸_US_美国_0912vmess39
-  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess40
-  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess41
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess42
-  - 悸沫君_🇵🇱_PL_波兰_0101vmess43
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess44
-  - 玉豆_🇭🇰_HK_香港_2233vmess45
-  - 悸沫君_🇺🇸_US_美国_kxsw_0010vmess46
-  - 顺丰_🇨🇳_CN_中国_199vmess47
-  - 悸沫君_🇭🇰_HK_香港_0101vmess48
-  - 悸沫君_🇨🇳_CN_中国_2114vmess49
-  - 悸沫君_🇨🇳_CN_中国_0.129vmess50
-  - 悸沫君_🇺🇸_US_美国_0856vmess51
-  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess52
-  - 玉豆_🇺🇸_US_美国_1147vmess53
-  - 悸沫君_🇺🇸_US_美国_0.930vmess54
-  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess55
-  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess56
-  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess57
-  - 悸沫君_🇺🇸_US_美国_3.670vmess58
-  - 悸沫君_🇺🇸_US_美国_9229vmess59
-  - 悸沫君_🇺🇸_US_美国_3.120vmess60
-  - 悸沫君_🇺🇸_US_美国_7.891vmess61
-  - 顺丰_🇨🇳_CN_中国_3663vmess62
-  - 悸沫君_🇫🇷_FR_法国_0045vmess63
-  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss1
+  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess33
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess34
+  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess35
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess36
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess37
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess38
+  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess39
+  - 悸沫君_🇨🇳_CN_中国_0007vmess40
+  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess41
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess42
+  - 顺丰_🇨🇳_CN_中国_199vmess43
+  - 悸沫君_🇯🇵_JP_日本_80端口vmess44
+  - 悸沫君_🇨🇳_CN_中国_0.129vmess45
+  - 悸沫君_🇺🇦_UA_乌克兰_EU2-WAWvmess46
+  - 顺丰_🇨🇳_CN_中国_266vmess47
+  - 顺丰_🇨🇳_CN_中国_3663vmess48
+  - 悸沫君_🇨🇳_CN_中国_1661vmess49
+  - 悸沫君_🇭🇰_HK_香港_0101vmess50
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess51
+  - 悸沫君_🇵🇱_PL_波兰_0101vmess52
+  - 悸沫君_🇨🇳_CN_中国_0.942vmess53
+  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess54
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess55
+  - 悸沫君_🇨🇳_CN_中国_2114vmess56
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess57
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess58
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess59
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess60
+  - 悸沫君_🇨🇳_CN_中国_3442vmess61
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess62
+  - trojan1
+  - 悸沫君_🇬🇧_GB_英国_@MahanFixBotss1
   - 悸沫君_🇨🇳_CN_中国_直连苏州11ss2
-  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss3
-  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss4
-  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss5
-  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss6
-  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss3
+  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss4
+  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss5
+  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss6
+  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss8
 - name: 🎯 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -1048,76 +1047,77 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 悸沫君_🇩🇪_DE_德国_EU-3vmess1
-  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess2
-  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess3
-  - 悸沫君_🇺🇸_US_美国_23.71Mbvmess4
-  - 悸沫君_🇫🇷_FR_法国_EU-6vmess5
+  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess1
+  - 悸沫君_🇯🇵_JP_日本_2号vmess2
+  - 悸沫君_🇺🇸_US_美国_0912vmess3
+  - 悸沫君_🇫🇷_FR_法国_0045vmess4
+  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess5
   - 悸沫君_🇫🇷_FR_法国_EU-5vmess6
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess7
-  - 悸沫君_🇸🇬_SG_新加坡_Trail 1G 443vmess8
-  - 悸沫君_🇺🇸_US_美国_0.910vmess9
-  - 悸沫君_🇫🇷_FR_法国_EU-3vmess10
-  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess11
-  - 玉豆_🇺🇸_US_美国_2255vmess12
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess13
-  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess14
-  - 悸沫君_🇺🇸_US_美国_Trail-1 1G 443vmess15
-  - 悸沫君_🇺🇸_US_美国_3号-0.1xvmess16
-  - 玉豆_🇺🇸_US_美国_1143vmess17
-  - 悸沫君_🇳🇱_NL_荷兰_BT下载-0.1xvmess18
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess19
-  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess20
-  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess21
-  - 顺丰_🇺🇸_US_美国_199vmess22
-  - 悸沫君_🇨🇳_CN_中国_1661vmess23
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess24
-  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess25
-  - 悸沫君_🇫🇷_FR_法国_EU-8vmess26
-  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess27
-  - 悸沫君_🇺🇸_US_美国_0.978vmess28
-  - 悸沫君_🇺🇸_US_美国_kxswa0042vmess29
-  - 悸沫君_🇨🇳_CN_中国_0007vmess30
-  - 悸沫君_🇺🇸_US_美国_7.690vmess31
+  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess7
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess8
+  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess9
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess10
+  - 悸沫君_🇫🇷_FR_法国_EU-8vmess11
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess12
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess13
+  - 悸沫君_🇫🇷_FR_法国_EU-3vmess14
+  - 悸沫君_🇺🇸_US_美国_[فینکس] Nagarok 🇺🇸vmess15
+  - 玉豆_🇺🇸_US_美国_1143vmess16
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess17
+  - 悸沫君_🇫🇷_FR_法国_EU-6vmess18
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess19
+  - 悸沫君_🇺🇸_US_美国_7.690vmess20
+  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess21
+  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess22
+  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess23
+  - 悸沫君_🇬🇧_GB_英国_EU-7vmess24
+  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess25
+  - 悸沫君_🇦🇷_AR_阿根廷_潮州市电信 24vmess26
+  - 悸沫君_🇩🇪_DE_德国_[مونیخ] Nagarok 🇩🇪vmess27
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess28
+  - 顺丰_🇺🇸_US_美国_199vmess29
+  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess30
+  - 悸沫君_🇩🇪_DE_德国_EU-3vmess31
   - 悸沫君_🇫🇮_FI_芬兰_EU-4vmess32
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess33
-  - 悸沫君_🇨🇳_CN_中国_3442vmess34
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess35
-  - 悸沫君_🇺🇸_US_美国_kxswa_0019vmess36
-  - 悸沫君_🇺🇸_US_美国_0.934vmess37
-  - 悸沫君_🇨🇳_CN_中国_0.931vmess38
-  - 悸沫君_🇺🇸_US_美国_0912vmess39
-  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess40
-  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess41
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess42
-  - 悸沫君_🇵🇱_PL_波兰_0101vmess43
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess44
-  - 玉豆_🇭🇰_HK_香港_2233vmess45
-  - 悸沫君_🇺🇸_US_美国_kxsw_0010vmess46
-  - 顺丰_🇨🇳_CN_中国_199vmess47
-  - 悸沫君_🇭🇰_HK_香港_0101vmess48
-  - 悸沫君_🇨🇳_CN_中国_2114vmess49
-  - 悸沫君_🇨🇳_CN_中国_0.129vmess50
-  - 悸沫君_🇺🇸_US_美国_0856vmess51
-  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess52
-  - 玉豆_🇺🇸_US_美国_1147vmess53
-  - 悸沫君_🇺🇸_US_美国_0.930vmess54
-  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess55
-  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess56
-  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess57
-  - 悸沫君_🇺🇸_US_美国_3.670vmess58
-  - 悸沫君_🇺🇸_US_美国_9229vmess59
-  - 悸沫君_🇺🇸_US_美国_3.120vmess60
-  - 悸沫君_🇺🇸_US_美国_7.891vmess61
-  - 顺丰_🇨🇳_CN_中国_3663vmess62
-  - 悸沫君_🇫🇷_FR_法国_0045vmess63
-  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss1
+  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess33
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess34
+  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess35
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess36
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess37
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess38
+  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess39
+  - 悸沫君_🇨🇳_CN_中国_0007vmess40
+  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess41
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess42
+  - 顺丰_🇨🇳_CN_中国_199vmess43
+  - 悸沫君_🇯🇵_JP_日本_80端口vmess44
+  - 悸沫君_🇨🇳_CN_中国_0.129vmess45
+  - 悸沫君_🇺🇦_UA_乌克兰_EU2-WAWvmess46
+  - 顺丰_🇨🇳_CN_中国_266vmess47
+  - 顺丰_🇨🇳_CN_中国_3663vmess48
+  - 悸沫君_🇨🇳_CN_中国_1661vmess49
+  - 悸沫君_🇭🇰_HK_香港_0101vmess50
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess51
+  - 悸沫君_🇵🇱_PL_波兰_0101vmess52
+  - 悸沫君_🇨🇳_CN_中国_0.942vmess53
+  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess54
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess55
+  - 悸沫君_🇨🇳_CN_中国_2114vmess56
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess57
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess58
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess59
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess60
+  - 悸沫君_🇨🇳_CN_中国_3442vmess61
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess62
+  - trojan1
+  - 悸沫君_🇬🇧_GB_英国_@MahanFixBotss1
   - 悸沫君_🇨🇳_CN_中国_直连苏州11ss2
-  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss3
-  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss4
-  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss5
-  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss6
-  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss3
+  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss4
+  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss5
+  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss6
+  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss8
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1129,227 +1129,230 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 悸沫君_🇩🇪_DE_德国_EU-3vmess1
-  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess2
-  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess3
-  - 悸沫君_🇺🇸_US_美国_23.71Mbvmess4
-  - 悸沫君_🇫🇷_FR_法国_EU-6vmess5
+  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess1
+  - 悸沫君_🇯🇵_JP_日本_2号vmess2
+  - 悸沫君_🇺🇸_US_美国_0912vmess3
+  - 悸沫君_🇫🇷_FR_法国_0045vmess4
+  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess5
   - 悸沫君_🇫🇷_FR_法国_EU-5vmess6
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess7
-  - 悸沫君_🇸🇬_SG_新加坡_Trail 1G 443vmess8
-  - 悸沫君_🇺🇸_US_美国_0.910vmess9
-  - 悸沫君_🇫🇷_FR_法国_EU-3vmess10
-  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess11
-  - 玉豆_🇺🇸_US_美国_2255vmess12
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess13
-  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess14
-  - 悸沫君_🇺🇸_US_美国_Trail-1 1G 443vmess15
-  - 悸沫君_🇺🇸_US_美国_3号-0.1xvmess16
-  - 玉豆_🇺🇸_US_美国_1143vmess17
-  - 悸沫君_🇳🇱_NL_荷兰_BT下载-0.1xvmess18
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess19
-  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess20
-  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess21
-  - 顺丰_🇺🇸_US_美国_199vmess22
-  - 悸沫君_🇨🇳_CN_中国_1661vmess23
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess24
-  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess25
-  - 悸沫君_🇫🇷_FR_法国_EU-8vmess26
-  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess27
-  - 悸沫君_🇺🇸_US_美国_0.978vmess28
-  - 悸沫君_🇺🇸_US_美国_kxswa0042vmess29
-  - 悸沫君_🇨🇳_CN_中国_0007vmess30
-  - 悸沫君_🇺🇸_US_美国_7.690vmess31
+  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess7
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess8
+  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess9
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess10
+  - 悸沫君_🇫🇷_FR_法国_EU-8vmess11
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess12
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess13
+  - 悸沫君_🇫🇷_FR_法国_EU-3vmess14
+  - 悸沫君_🇺🇸_US_美国_[فینکس] Nagarok 🇺🇸vmess15
+  - 玉豆_🇺🇸_US_美国_1143vmess16
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess17
+  - 悸沫君_🇫🇷_FR_法国_EU-6vmess18
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess19
+  - 悸沫君_🇺🇸_US_美国_7.690vmess20
+  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess21
+  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess22
+  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess23
+  - 悸沫君_🇬🇧_GB_英国_EU-7vmess24
+  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess25
+  - 悸沫君_🇦🇷_AR_阿根廷_潮州市电信 24vmess26
+  - 悸沫君_🇩🇪_DE_德国_[مونیخ] Nagarok 🇩🇪vmess27
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess28
+  - 顺丰_🇺🇸_US_美国_199vmess29
+  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess30
+  - 悸沫君_🇩🇪_DE_德国_EU-3vmess31
   - 悸沫君_🇫🇮_FI_芬兰_EU-4vmess32
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess33
-  - 悸沫君_🇨🇳_CN_中国_3442vmess34
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess35
-  - 悸沫君_🇺🇸_US_美国_kxswa_0019vmess36
-  - 悸沫君_🇺🇸_US_美国_0.934vmess37
-  - 悸沫君_🇨🇳_CN_中国_0.931vmess38
-  - 悸沫君_🇺🇸_US_美国_0912vmess39
-  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess40
-  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess41
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess42
-  - 悸沫君_🇵🇱_PL_波兰_0101vmess43
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess44
-  - 玉豆_🇭🇰_HK_香港_2233vmess45
-  - 悸沫君_🇺🇸_US_美国_kxsw_0010vmess46
-  - 顺丰_🇨🇳_CN_中国_199vmess47
-  - 悸沫君_🇭🇰_HK_香港_0101vmess48
-  - 悸沫君_🇨🇳_CN_中国_2114vmess49
-  - 悸沫君_🇨🇳_CN_中国_0.129vmess50
-  - 悸沫君_🇺🇸_US_美国_0856vmess51
-  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess52
-  - 玉豆_🇺🇸_US_美国_1147vmess53
-  - 悸沫君_🇺🇸_US_美国_0.930vmess54
-  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess55
-  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess56
-  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess57
-  - 悸沫君_🇺🇸_US_美国_3.670vmess58
-  - 悸沫君_🇺🇸_US_美国_9229vmess59
-  - 悸沫君_🇺🇸_US_美国_3.120vmess60
-  - 悸沫君_🇺🇸_US_美国_7.891vmess61
-  - 顺丰_🇨🇳_CN_中国_3663vmess62
-  - 悸沫君_🇫🇷_FR_法国_0045vmess63
-  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss1
+  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess33
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess34
+  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess35
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess36
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess37
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess38
+  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess39
+  - 悸沫君_🇨🇳_CN_中国_0007vmess40
+  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess41
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess42
+  - 顺丰_🇨🇳_CN_中国_199vmess43
+  - 悸沫君_🇯🇵_JP_日本_80端口vmess44
+  - 悸沫君_🇨🇳_CN_中国_0.129vmess45
+  - 悸沫君_🇺🇦_UA_乌克兰_EU2-WAWvmess46
+  - 顺丰_🇨🇳_CN_中国_266vmess47
+  - 顺丰_🇨🇳_CN_中国_3663vmess48
+  - 悸沫君_🇨🇳_CN_中国_1661vmess49
+  - 悸沫君_🇭🇰_HK_香港_0101vmess50
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess51
+  - 悸沫君_🇵🇱_PL_波兰_0101vmess52
+  - 悸沫君_🇨🇳_CN_中国_0.942vmess53
+  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess54
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess55
+  - 悸沫君_🇨🇳_CN_中国_2114vmess56
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess57
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess58
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess59
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess60
+  - 悸沫君_🇨🇳_CN_中国_3442vmess61
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess62
+  - trojan1
+  - 悸沫君_🇬🇧_GB_英国_@MahanFixBotss1
   - 悸沫君_🇨🇳_CN_中国_直连苏州11ss2
-  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss3
-  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss4
-  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss5
-  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss6
-  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss3
+  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss4
+  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss5
+  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss6
+  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss8
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-  - 悸沫君_🇩🇪_DE_德国_EU-3vmess1
-  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess2
-  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess3
-  - 悸沫君_🇺🇸_US_美国_23.71Mbvmess4
-  - 悸沫君_🇫🇷_FR_法国_EU-6vmess5
+  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess1
+  - 悸沫君_🇯🇵_JP_日本_2号vmess2
+  - 悸沫君_🇺🇸_US_美国_0912vmess3
+  - 悸沫君_🇫🇷_FR_法国_0045vmess4
+  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess5
   - 悸沫君_🇫🇷_FR_法国_EU-5vmess6
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess7
-  - 悸沫君_🇸🇬_SG_新加坡_Trail 1G 443vmess8
-  - 悸沫君_🇺🇸_US_美国_0.910vmess9
-  - 悸沫君_🇫🇷_FR_法国_EU-3vmess10
-  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess11
-  - 玉豆_🇺🇸_US_美国_2255vmess12
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess13
-  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess14
-  - 悸沫君_🇺🇸_US_美国_Trail-1 1G 443vmess15
-  - 悸沫君_🇺🇸_US_美国_3号-0.1xvmess16
-  - 玉豆_🇺🇸_US_美国_1143vmess17
-  - 悸沫君_🇳🇱_NL_荷兰_BT下载-0.1xvmess18
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess19
-  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess20
-  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess21
-  - 顺丰_🇺🇸_US_美国_199vmess22
-  - 悸沫君_🇨🇳_CN_中国_1661vmess23
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess24
-  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess25
-  - 悸沫君_🇫🇷_FR_法国_EU-8vmess26
-  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess27
-  - 悸沫君_🇺🇸_US_美国_0.978vmess28
-  - 悸沫君_🇺🇸_US_美国_kxswa0042vmess29
-  - 悸沫君_🇨🇳_CN_中国_0007vmess30
-  - 悸沫君_🇺🇸_US_美国_7.690vmess31
+  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess7
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess8
+  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess9
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess10
+  - 悸沫君_🇫🇷_FR_法国_EU-8vmess11
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess12
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess13
+  - 悸沫君_🇫🇷_FR_法国_EU-3vmess14
+  - 悸沫君_🇺🇸_US_美国_[فینکس] Nagarok 🇺🇸vmess15
+  - 玉豆_🇺🇸_US_美国_1143vmess16
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess17
+  - 悸沫君_🇫🇷_FR_法国_EU-6vmess18
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess19
+  - 悸沫君_🇺🇸_US_美国_7.690vmess20
+  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess21
+  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess22
+  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess23
+  - 悸沫君_🇬🇧_GB_英国_EU-7vmess24
+  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess25
+  - 悸沫君_🇦🇷_AR_阿根廷_潮州市电信 24vmess26
+  - 悸沫君_🇩🇪_DE_德国_[مونیخ] Nagarok 🇩🇪vmess27
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess28
+  - 顺丰_🇺🇸_US_美国_199vmess29
+  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess30
+  - 悸沫君_🇩🇪_DE_德国_EU-3vmess31
   - 悸沫君_🇫🇮_FI_芬兰_EU-4vmess32
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess33
-  - 悸沫君_🇨🇳_CN_中国_3442vmess34
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess35
-  - 悸沫君_🇺🇸_US_美国_kxswa_0019vmess36
-  - 悸沫君_🇺🇸_US_美国_0.934vmess37
-  - 悸沫君_🇨🇳_CN_中国_0.931vmess38
-  - 悸沫君_🇺🇸_US_美国_0912vmess39
-  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess40
-  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess41
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess42
-  - 悸沫君_🇵🇱_PL_波兰_0101vmess43
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess44
-  - 玉豆_🇭🇰_HK_香港_2233vmess45
-  - 悸沫君_🇺🇸_US_美国_kxsw_0010vmess46
-  - 顺丰_🇨🇳_CN_中国_199vmess47
-  - 悸沫君_🇭🇰_HK_香港_0101vmess48
-  - 悸沫君_🇨🇳_CN_中国_2114vmess49
-  - 悸沫君_🇨🇳_CN_中国_0.129vmess50
-  - 悸沫君_🇺🇸_US_美国_0856vmess51
-  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess52
-  - 玉豆_🇺🇸_US_美国_1147vmess53
-  - 悸沫君_🇺🇸_US_美国_0.930vmess54
-  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess55
-  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess56
-  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess57
-  - 悸沫君_🇺🇸_US_美国_3.670vmess58
-  - 悸沫君_🇺🇸_US_美国_9229vmess59
-  - 悸沫君_🇺🇸_US_美国_3.120vmess60
-  - 悸沫君_🇺🇸_US_美国_7.891vmess61
-  - 顺丰_🇨🇳_CN_中国_3663vmess62
-  - 悸沫君_🇫🇷_FR_法国_0045vmess63
-  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss1
+  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess33
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess34
+  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess35
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess36
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess37
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess38
+  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess39
+  - 悸沫君_🇨🇳_CN_中国_0007vmess40
+  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess41
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess42
+  - 顺丰_🇨🇳_CN_中国_199vmess43
+  - 悸沫君_🇯🇵_JP_日本_80端口vmess44
+  - 悸沫君_🇨🇳_CN_中国_0.129vmess45
+  - 悸沫君_🇺🇦_UA_乌克兰_EU2-WAWvmess46
+  - 顺丰_🇨🇳_CN_中国_266vmess47
+  - 顺丰_🇨🇳_CN_中国_3663vmess48
+  - 悸沫君_🇨🇳_CN_中国_1661vmess49
+  - 悸沫君_🇭🇰_HK_香港_0101vmess50
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess51
+  - 悸沫君_🇵🇱_PL_波兰_0101vmess52
+  - 悸沫君_🇨🇳_CN_中国_0.942vmess53
+  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess54
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess55
+  - 悸沫君_🇨🇳_CN_中国_2114vmess56
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess57
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess58
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess59
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess60
+  - 悸沫君_🇨🇳_CN_中国_3442vmess61
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess62
+  - trojan1
+  - 悸沫君_🇬🇧_GB_英国_@MahanFixBotss1
   - 悸沫君_🇨🇳_CN_中国_直连苏州11ss2
-  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss3
-  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss4
-  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss5
-  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss6
-  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss3
+  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss4
+  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss5
+  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss6
+  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss8
 - name: 🐟 漏网之鱼
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 悸沫君_🇩🇪_DE_德国_EU-3vmess1
-  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess2
-  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess3
-  - 悸沫君_🇺🇸_US_美国_23.71Mbvmess4
-  - 悸沫君_🇫🇷_FR_法国_EU-6vmess5
+  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess1
+  - 悸沫君_🇯🇵_JP_日本_2号vmess2
+  - 悸沫君_🇺🇸_US_美国_0912vmess3
+  - 悸沫君_🇫🇷_FR_法国_0045vmess4
+  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess5
   - 悸沫君_🇫🇷_FR_法国_EU-5vmess6
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess7
-  - 悸沫君_🇸🇬_SG_新加坡_Trail 1G 443vmess8
-  - 悸沫君_🇺🇸_US_美国_0.910vmess9
-  - 悸沫君_🇫🇷_FR_法国_EU-3vmess10
-  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess11
-  - 玉豆_🇺🇸_US_美国_2255vmess12
-  - 悸沫君_🇩🇪_DE_德国_EU-1vmess13
-  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess14
-  - 悸沫君_🇺🇸_US_美国_Trail-1 1G 443vmess15
-  - 悸沫君_🇺🇸_US_美国_3号-0.1xvmess16
-  - 玉豆_🇺🇸_US_美国_1143vmess17
-  - 悸沫君_🇳🇱_NL_荷兰_BT下载-0.1xvmess18
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess19
-  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess20
-  - 悸沫君_🇩🇪_DE_德国_EU3-FSNvmess21
-  - 顺丰_🇺🇸_US_美国_199vmess22
-  - 悸沫君_🇨🇳_CN_中国_1661vmess23
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess24
-  - 悸沫君_🇺🇸_US_美国_US1-CHIvmess25
-  - 悸沫君_🇫🇷_FR_法国_EU-8vmess26
-  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess27
-  - 悸沫君_🇺🇸_US_美国_0.978vmess28
-  - 悸沫君_🇺🇸_US_美国_kxswa0042vmess29
-  - 悸沫君_🇨🇳_CN_中国_0007vmess30
-  - 悸沫君_🇺🇸_US_美国_7.690vmess31
+  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess7
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess8
+  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess9
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess10
+  - 悸沫君_🇫🇷_FR_法国_EU-8vmess11
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess12
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess13
+  - 悸沫君_🇫🇷_FR_法国_EU-3vmess14
+  - 悸沫君_🇺🇸_US_美国_[فینکس] Nagarok 🇺🇸vmess15
+  - 玉豆_🇺🇸_US_美国_1143vmess16
+  - 悸沫君_🇩🇪_DE_德国_EU-2vmess17
+  - 悸沫君_🇫🇷_FR_法国_EU-6vmess18
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess19
+  - 悸沫君_🇺🇸_US_美国_7.690vmess20
+  - 悸沫君_🇫🇮_FI_芬兰_EU-5vmess21
+  - 悸沫君_🇩🇪_DE_德国_amir-irancellvmess22
+  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess23
+  - 悸沫君_🇬🇧_GB_英国_EU-7vmess24
+  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess25
+  - 悸沫君_🇦🇷_AR_阿根廷_潮州市电信 24vmess26
+  - 悸沫君_🇩🇪_DE_德国_[مونیخ] Nagarok 🇩🇪vmess27
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess28
+  - 顺丰_🇺🇸_US_美国_199vmess29
+  - 悸沫君_🇺🇸_US_美国_kxswa_0030vmess30
+  - 悸沫君_🇩🇪_DE_德国_EU-3vmess31
   - 悸沫君_🇫🇮_FI_芬兰_EU-4vmess32
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess33
-  - 悸沫君_🇨🇳_CN_中国_3442vmess34
-  - 悸沫君_🇺🇸_US_美国_US-OpenVZvmess35
-  - 悸沫君_🇺🇸_US_美国_kxswa_0019vmess36
-  - 悸沫君_🇺🇸_US_美国_0.934vmess37
-  - 悸沫君_🇨🇳_CN_中国_0.931vmess38
-  - 悸沫君_🇺🇸_US_美国_0912vmess39
-  - 梦歌_🇷🇺_RU_俄罗斯联邦_8448vmess40
-  - 悸沫君_🇺🇸_US_美国_US2-CHIvmess41
-  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_002vmess42
-  - 悸沫君_🇵🇱_PL_波兰_0101vmess43
-  - 悸沫君_🇩🇪_DE_德国_EU-2vmess44
-  - 玉豆_🇭🇰_HK_香港_2233vmess45
-  - 悸沫君_🇺🇸_US_美国_kxsw_0010vmess46
-  - 顺丰_🇨🇳_CN_中国_199vmess47
-  - 悸沫君_🇭🇰_HK_香港_0101vmess48
-  - 悸沫君_🇨🇳_CN_中国_2114vmess49
-  - 悸沫君_🇨🇳_CN_中国_0.129vmess50
-  - 悸沫君_🇺🇸_US_美国_0856vmess51
-  - 悸沫君_🇬🇧_GB_英国_EU1-LONvmess52
-  - 玉豆_🇺🇸_US_美国_1147vmess53
-  - 悸沫君_🇺🇸_US_美国_0.930vmess54
-  - 悸沫君_🇺🇸_US_美国_kxswa_0021vmess55
-  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess56
-  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess57
-  - 悸沫君_🇺🇸_US_美国_3.670vmess58
-  - 悸沫君_🇺🇸_US_美国_9229vmess59
-  - 悸沫君_🇺🇸_US_美国_3.120vmess60
-  - 悸沫君_🇺🇸_US_美国_7.891vmess61
-  - 顺丰_🇨🇳_CN_中国_3663vmess62
-  - 悸沫君_🇫🇷_FR_法国_0045vmess63
-  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss1
+  - 悸沫君_🇵🇱_PL_波兰_EU-4vmess33
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBot_003vmess34
+  - 悸沫君_🇺🇸_US_美国_kxswa_0031vmess35
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess36
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess37
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess38
+  - 悸沫君_🇩🇪_DE_德国_EU-BESTvmess39
+  - 悸沫君_🇨🇳_CN_中国_0007vmess40
+  - 悸沫君_🇺🇸_US_美国_CloudFlare节点 16vmess41
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess42
+  - 顺丰_🇨🇳_CN_中国_199vmess43
+  - 悸沫君_🇯🇵_JP_日本_80端口vmess44
+  - 悸沫君_🇨🇳_CN_中国_0.129vmess45
+  - 悸沫君_🇺🇦_UA_乌克兰_EU2-WAWvmess46
+  - 顺丰_🇨🇳_CN_中国_266vmess47
+  - 顺丰_🇨🇳_CN_中国_3663vmess48
+  - 悸沫君_🇨🇳_CN_中国_1661vmess49
+  - 悸沫君_🇭🇰_HK_香港_0101vmess50
+  - 悸沫君_🇩🇪_DE_德国_EU-1vmess51
+  - 悸沫君_🇵🇱_PL_波兰_0101vmess52
+  - 悸沫君_🇨🇳_CN_中国_0.942vmess53
+  - 悸沫君_🇺🇸_US_美国_Madrid-1vmess54
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess55
+  - 悸沫君_🇨🇳_CN_中国_2114vmess56
+  - 悸沫君_🇩🇪_DE_德国_@MahanFixBotvmess57
+  - 悸沫君_🇺🇸_US_美国_US-OpenVZ-3vmess58
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess59
+  - 悸沫君_🇧🇪_BE_比利时_@MahanFixBotvmess60
+  - 悸沫君_🇨🇳_CN_中国_3442vmess61
+  - 悸沫君_🇺🇸_US_美国_@MahanFixBotvmess62
+  - trojan1
+  - 悸沫君_🇬🇧_GB_英国_@MahanFixBotss1
   - 悸沫君_🇨🇳_CN_中国_直连苏州11ss2
-  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss3
-  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss4
-  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss5
-  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss6
-  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州12ss3
+  - 悸沫君_🇨🇳_CN_中国_直连苏州18ss4
+  - 悸沫君_🇨🇳_CN_中国_直连苏州16ss5
+  - 悸沫君_🇨🇳_CN_中国_直连苏州15ss6
+  - 悸沫君_🇨🇳_CN_中国_直连苏州13ss7
+  - 悸沫君_🇨🇳_CN_中国_直连苏州20ss8
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
