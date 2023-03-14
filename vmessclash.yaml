@@ -68,7 +68,7 @@ proxies:
   alterId: 64
   cipher: auto
   tls: true
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /hk8/getData
@@ -80,7 +80,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /zh-cn
@@ -145,14 +145,14 @@ proxies:
   type: trojan
   password: 74341a38-c634-492e-9385-50eb01dd59e4
   sni: 120.241.255.196
-  skip-cert-verify: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡|tg:@ripaojiedian13
   server: hncu.donghui.tech
   port: 49761
   type: trojan
   password: 76fbd7f9-3707-4e5c-b43a-904367318d6d
   sni: hncu.donghui.tech
-  skip-cert-verify: false
+  skip-cert-verify: true
 - name: 🇯🇵 日本1|tg频道:@ripaojiedian14
   server: ssr.302888.xyz
   port: 30112
